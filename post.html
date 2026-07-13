@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Post — Eat With Sam K</title>
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html"><img class="logo-img" src="images/logo.png" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <nav class="main-nav">
+        <a href="index.html">The Map</a>
+        <a href="index.html#places">Reviews</a>
+        <a href="blog.html" class="active">Blog</a>
+      </nav>
+      <div class="social-row" data-socials></div>
+    </div>
+  </header>
+
+  <main class="post-wrap" id="post"></main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="logo" href="index.html"><img class="logo-img" src="images/logo.png" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <div class="social-row" data-socials></div>
+      <p class="footer-note">© <span id="year"></span> Eat With Sam K · All reviews are my own — I pay for every meal.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/blog-data.js"></script>
+  <script src="js/common.js"></script>
+  <script>
+    const id = new URLSearchParams(location.search).get("id");
+    const post = BLOG_POSTS.find((p) => p.id === id);
+    const el = document.getElementById("post");
+
+    if (!post) {
+      el.innerHTML = `
+        <a class="post-back" href="blog.html">← Back to the blog</a>
+        <h1>Post not found 🤔</h1>
+        <p>That post may have moved. Head back to the blog to see everything.</p>`;
+    } else {
+      document.title = post.title + " — Eat With Sam K";
+      const fmt = new Date(post.date + "T12:00:00").toLocaleDateString("en-US", {
+        month: "long", day: "numeric", year: "numeric",
+      });
+      el.innerHTML = `
+        <a class="post-back" href="blog.html">← Back to the blog</a>
+        <div class="post-emoji">${post.emoji}</div>
+        <h1>${post.title}</h1>
+        <div class="blog-meta"><span class="pill">${post.city}</span><span>${fmt}</span></div>
+        <div class="post-body">${post.content}</div>`;
+    }
+  </script>
+</body>
+</html>

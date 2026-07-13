@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eat With Sam K — Every Spot I've Rated, On One Map</title>
+  <meta name="description" content="Follow Sam K's food reviews: an interactive map of every restaurant rated out of 10, with video reviews on Instagram, TikTok, and YouTube." />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html"><img class="logo-img" src="images/logo.png" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <nav class="main-nav">
+        <a href="index.html" class="active">The Map</a>
+        <a href="index.html#places">Reviews</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+      <div class="social-row" data-socials></div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img class="hero-logo" src="images/logo.png" alt="Eat With Sam K — Good Food. Real Reviews. Good Times." />
+    <h1>Every bite, <span class="accent">rated</span>.<br />Every spot, on the map.</h1>
+    <p data-tagline></p>
+    <div class="hero-stats">
+      <div class="stat"><div class="num" id="stat-places">0</div><div class="label">Places Rated</div></div>
+      <div class="stat"><div class="num" id="stat-cities">0</div><div class="label">Cities</div></div>
+      <div class="stat"><div class="num" id="stat-avg">0</div><div class="label">Avg Rating</div></div>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <div class="container">
+      <div id="map"></div>
+    </div>
+  </section>
+
+  <section class="places-section" id="places">
+    <div class="container">
+      <div class="toolbar">
+        <h2>All Reviews</h2>
+        <input type="search" class="search-input" id="search" placeholder="Search by name, city, or food…" />
+        <select class="sort-select" id="sort">
+          <option value="rating-desc">Highest rated</option>
+          <option value="rating-asc">Lowest rated</option>
+          <option value="name">Name A–Z</option>
+          <option value="city">City A–Z</option>
+        </select>
+      </div>
+      <div class="cards-grid" id="cards"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="logo" href="index.html"><img class="logo-img" src="images/logo.png" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <div class="social-row" data-socials></div>
+      <p class="footer-note">© <span id="year"></span> Eat With Sam K · All reviews are my own — I pay for every meal.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Eat With Sam K</title>
+  <meta name="description" content="City food guides and eating strategies from Sam K: the best places to eat in every city I visit." />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="index.html"><img class="logo-img" src="images/logo.png" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <nav class="main-nav">
+        <a href="index.html">The Map</a>
+        <a href="index.html#places">Reviews</a>
+        <a href="blog.html" class="active">Blog</a>
+      </nav>
+      <div class="social-row" data-socials></div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>The Food Blog 📝</h1>
+    <p>City guides, best-of lists, and everything I've learned eating my way across the map.</p>
+  </section>
+
+  <div class="container">
+    <div class="blog-grid" id="blog-grid"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="logo" href="index.html"><img class="logo-img" src="images/logo.png" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <div class="social-row" data-socials></div>
+      <p class="footer-note">© <span id="year"></span> Eat With Sam K · All reviews are my own — I pay for every meal.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/blog-data.js"></script>
+  <script src="js/common.js"></script>
+  <script>
+    const fmt = (d) =>
+      new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+
+    document.getElementById("blog-grid").innerHTML = BLOG_POSTS.map(
+      (post) => `
+      <a class="blog-card" href="post.html?id=${post.id}">
+        <div class="blog-card-banner">${post.emoji}</div>
+        <div class="blog-card-body">
+          <div class="blog-meta"><span class="pill">${post.city}</span><span>${fmt(post.date)}</span></div>
+          <h3>${post.title}</h3>
+          <p>${post.excerpt}</p>
+          <span class="read-more">Read more →</span>
+        </div>
+      </a>`
+    ).join("");
+  </script>
+</body>
+</html>

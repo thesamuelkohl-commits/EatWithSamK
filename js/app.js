@@ -1,0 +1,139 @@
+/* Home page: map + review cards. Reads everything from js/data.js. */
+
+function ratingClass(rating) {
+  if (rating >= 9) return "great";
+  if (rating >= 8) return "";
+  return "good";
+}
+
+/* ---------- Stats ---------- */
+const cities = new Set(PLACES.map((p) => p.city));
+const avg = PLACES.reduce((s, p) => s + p.rating, 0) / (PLACES.length || 1);
+document.getElementById("stat-places").textContent = PLACES.length;
+document.getElementById("stat-cities").textContent = cities.size;
+document.getElementById("stat-avg").textContent = avg.toFixed(1);
+
+/* ---------- Map ---------- */
+// Start with a sane default view immediately — fitAllPlaces() refines it
+// once the container has a real size.
+const map = L.map("map", { scrollWheelZoom: false }).setView([39.8, -98.5], 4);
+
+L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
+  attribution:
+    '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+  maxZoom: 19,
+}).addTo(map);
+
+const markers = {};
+
+PLACES.forEach((place) => {
+  const icon = L.divIcon({
+    className: "",
+    html: `<div class="rating-marker ${ratingClass(place.rating)}"><span>${place.rating}</span></div>`,
+    iconSize: [44, 44],
+    iconAnchor: [22, 44],
+    popupAnchor: [0, -44],
+  });
+
+  const marker = L.marker([place.lat, place.lng], { icon }).addTo(map);
+  marker.bindPopup(`
+    <div class="popup-title">${place.name}</div>
+    <div class="popup-city">📍 ${place.city}</div>
+    <div class="popup-rating">★ ${place.rating}/10</div>
+    <a class="popup-link" href="${place.video}" target="_blank" rel="noopener">▶ Watch my review</a>
+  `);
+  markers[place.id] = marker;
+});
+
+function fitAllPlaces() {
+  map.invalidateSize();
+  const size = map.getSize();
+  if (!size.x || !size.y) return; // container hidden — wait for a real size
+  if (PLACES.length) {
+    map.fitBounds(
+      L.latLngBounds(PLACES.map((p) => [p.lat, p.lng])),
+      { padding: [50, 50], maxZoom: 14 }
+    );
+  } else {
+    map.setView([39.8, -98.5], 4);
+  }
+}
+
+// Keep the map fitted to all places while the page layout settles —
+// fitting before the container has its final size zooms to a meaningless
+// spot. Stops as soon as the user touches the map.
+fitAllPlaces();
+const mapEl = document.getElementById("map");
+const autoFit = new ResizeObserver(fitAllPlaces);
+autoFit.observe(mapEl);
+const stopAutoFit = () => autoFit.disconnect();
+mapEl.addEventListener("pointerdown", stopAutoFit, { once: true });
+mapEl.addEventListener("wheel", stopAutoFit, { once: true });
+
+/* ---------- Cards ---------- */
+const cardsEl = document.getElementById("cards");
+const searchEl = document.getElementById("search");
+const sortEl = document.getElementById("sort");
+
+function renderCards() {
+  const q = searchEl.value.trim().toLowerCase();
+  let list = PLACES.filter((p) =>
+    [p.name, p.city, p.ate, ...(p.tags || [])].join(" ").toLowerCase().includes(q)
+  );
+
+  const sorters = {
+    "rating-desc": (a, b) => b.rating - a.rating,
+    "rating-asc": (a, b) => a.rating - b.rating,
+    name: (a, b) => a.name.localeCompare(b.name),
+    city: (a, b) => a.city.localeCompare(b.city),
+  };
+  list.sort(sorters[sortEl.value]);
+
+  if (!list.length) {
+    cardsEl.innerHTML = `<div class="no-results">No spots match that search — yet. 👀</div>`;
+    return;
+  }
+
+  cardsEl.innerHTML = list
+    .map(
+      (p) => `
+    <article class="place-card" id="card-${p.id}">
+      <div class="card-top">
+        <div>
+          <h3>${p.name}</h3>
+          <div class="card-city">📍 ${p.city}</div>
+        </div>
+        <div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>
+      </div>
+      ${p.tags && p.tags.length ? `<div class="card-tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>` : ""}
+      <p class="card-ate"><strong>What I ate:</strong> ${p.ate}</p>
+      <div class="card-contact">
+        <span>🏠 ${p.address}</span>
+        ${p.phone ? `<span>📞 <a href="tel:${p.phone.replace(/[^+\d]/g, "")}">${p.phone}</a></span>` : ""}
+        ${p.website ? `<span>🌐 <a href="${p.website}" target="_blank" rel="noopener">${p.website.replace(/^https?:\/\/(www\.)?/, "")}</a></span>` : ""}
+      </div>
+      <div class="card-actions">
+        <a class="btn btn-primary" href="${p.video}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch Review
+        </a>
+        <button class="btn btn-ghost" data-map-jump="${p.id}">View on map</button>
+      </div>
+    </article>`
+    )
+    .join("");
+}
+
+searchEl.addEventListener("input", renderCards);
+sortEl.addEventListener("change", renderCards);
+
+cardsEl.addEventListener("click", (e) => {
+  const btn = e.target.closest("[data-map-jump]");
+  if (!btn) return;
+  const place = PLACES.find((p) => p.id === btn.dataset.mapJump);
+  stopAutoFit();
+  document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
+  map.flyTo([place.lat, place.lng], 15, { duration: 1.2 });
+  setTimeout(() => markers[place.id].openPopup(), 1300);
+});
+
+renderCards();
