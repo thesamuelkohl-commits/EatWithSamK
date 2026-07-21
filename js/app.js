@@ -40,7 +40,8 @@ PLACES.forEach((place) => {
     <div class="popup-title">${place.name}</div>
     <div class="popup-city">📍 ${place.city}</div>
     <div class="popup-rating">★ ${place.rating}/10</div>
-    <a class="popup-link" href="${place.video}" target="_blank" rel="noopener">▶ Watch my review</a>
+    <a class="popup-link" href="${place.video}" target="_blank" rel="noopener">▶ Watch my review</a><br>
+    <a class="popup-link" href="reviews/${place.id}.html">📖 Full review</a>
   `);
   markers[place.id] = marker;
 });
@@ -100,7 +101,7 @@ function renderCards() {
     <article class="place-card" id="card-${p.id}">
       <div class="card-top">
         <div>
-          <h3>${p.name}</h3>
+          <h3><a href="reviews/${p.id}.html">${p.name}</a></h3>
           <div class="card-city">📍 ${p.city}</div>
         </div>
         <div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>
@@ -118,6 +119,7 @@ function renderCards() {
         </a>
         <button class="btn btn-ghost" data-map-jump="${p.id}">View on map</button>
       </div>
+      <a class="read-more" href="reviews/${p.id}.html">Read full review →</a>
     </article>`
     )
     .join("");
