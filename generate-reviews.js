@@ -1,0 +1,290 @@
+/* ============================================================
+   EAT WITH SAM K — REVIEW PAGE GENERATOR
+   Run this any time you add, edit, or remove a place in
+   js/data.js (or a post in js/blog-data.js):
+
+     node generate-reviews.js
+
+   It builds:
+     - reviews/<id>.html   (one real, static, SEO-optimized
+       page per place — full <title>, meta description, Open
+       Graph tags, and Review structured data baked in, so
+       Google — and anyone sharing the link on social — sees
+       real content immediately, no JavaScript required)
+     - sitemap.xml
+     - robots.txt
+
+   You never edit the files in reviews/ by hand — they're
+   regenerated from js/data.js every time you run this script.
+   ============================================================ */
+
+const fs = require("fs");
+const path = require("path");
+const vm = require("vm");
+
+// TODO: update this once you have a real domain (e.g. after
+// pointing eatwithsamk.com at your Netlify/GitHub Pages deploy).
+// It's used for canonical URLs, Open Graph tags, and the sitemap.
+const SITE_URL = "https://www.eatwithsamk.com";
+
+function loadModule(relPath, trailingExpr) {
+  const code = fs.readFileSync(path.join(__dirname, relPath), "utf8");
+  return vm.runInNewContext(code + "\n" + trailingExpr, {});
+}
+
+const { SITE, PLACES } = loadModule("js/data.js", "({ SITE, PLACES });");
+const BLOG_POSTS = loadModule("js/blog-data.js", "(BLOG_POSTS);");
+
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function ratingClass(rating) {
+  if (rating >= 9) return "great";
+  if (rating >= 8) return "";
+  return "good";
+}
+
+function truncate(str, max) {
+  const clean = str.replace(/\s+/g, " ").trim();
+  return clean.length > max ? clean.slice(0, max - 1).trim() + "…" : clean;
+}
+
+// Best-effort split of "5056 Broadway, Suite B-103, Nashville, TN 37203"
+// into schema.org PostalAddress fields.
+function parseAddress(address) {
+  const parts = address.split(",").map((p) => p.trim());
+  const last = parts[parts.length - 1] || "";
+  const match = last.match(/^([A-Za-z]{2})\s+(\d{5}(-\d{4})?)$/);
+  const region = match ? match[1] : "";
+  const postalCode = match ? match[2] : "";
+  const locality = parts.length >= 2 ? parts[parts.length - 2] : "";
+  const streetAddress = parts.slice(0, Math.max(parts.length - 2, 1)).join(", ");
+  return { streetAddress, addressLocality: locality, addressRegion: region, postalCode };
+}
+
+function reviewUrl(place) {
+  return `${SITE_URL}/reviews/${place.id}.html`;
+}
+
+function socialButtonsHtml() {
+  return ""; // filled client-side by js/common.js via [data-socials]
+}
+
+function renderReviewPage(place) {
+  const cls = ratingClass(place.rating);
+  const title = `${place.name} Review: ${place.rating}/10 in ${place.city} | Eat With Sam K`;
+  const description = `${truncate(place.ate, 140)} Sam K's rating: ${place.rating}/10.`;
+  const canonical = reviewUrl(place);
+  const ogImage = `${SITE_URL}/images/logo.png`;
+  const addr = parseAddress(place.address);
+  const telDigits = place.phone ? place.phone.replace(/[^+\d]/g, "") : "";
+  const websiteLabel = place.website ? place.website.replace(/^https?:\/\/(www\.)?/, "") : "";
+  const tagsHtml = (place.tags || [])
+    .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
+    .join("");
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    name: place.name,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: addr.streetAddress,
+      addressLocality: addr.addressLocality,
+      addressRegion: addr.addressRegion,
+      postalCode: addr.postalCode,
+      addressCountry: "US",
+    },
+    ...(place.about ? { description: place.about } : {}),
+    ...(place.phone ? { telephone: place.phone } : {}),
+    ...(place.website ? { url: place.website } : {}),
+    ...(place.lat && place.lng
+      ? { geo: { "@type": "GeoCoordinates", latitude: place.lat, longitude: place.lng } }
+      : {}),
+    review: {
+      "@type": "Review",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: place.rating,
+        bestRating: "10",
+        worstRating: "1",
+      },
+      author: { "@type": "Person", name: "Sam K" },
+      reviewBody: place.ate,
+      publisher: { "@type": "Organization", name: SITE.name },
+    },
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/index.html` },
+      { "@type": "ListItem", position: 2, name: "Reviews", item: `${SITE_URL}/index.html#places` },
+      { "@type": "ListItem", position: 3, name: place.name, item: canonical },
+    ],
+  };
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${escapeHtml(title)}</title>
+  <meta name="description" content="${escapeHtml(description)}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="${canonical}" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="${escapeHtml(title)}" />
+  <meta property="og:description" content="${escapeHtml(description)}" />
+  <meta property="og:url" content="${canonical}" />
+  <meta property="og:image" content="${ogImage}" />
+  <meta property="og:site_name" content="${escapeHtml(SITE.name)}" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="${escapeHtml(title)}" />
+  <meta name="twitter:description" content="${escapeHtml(description)}" />
+  <meta name="twitter:image" content="${ogImage}" />
+
+  <link rel="icon" type="image/png" href="../images/favicon.png?v=2" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="../css/style.css?v=3" />
+
+  <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
+  <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="../index.html"><img class="logo-img" src="../images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <nav class="main-nav">
+        <a href="../index.html">The Map</a>
+        <a href="../index.html#places" class="active">Reviews</a>
+        <a href="../blog.html">Blog</a>
+      </nav>
+      <div class="social-row" data-socials></div>
+    </div>
+  </header>
+
+  <main class="post-wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="../index.html">Home</a><span>›</span>
+      <a href="../index.html#places">Reviews</a><span>›</span>
+      <span aria-current="page">${escapeHtml(place.name)}</span>
+    </nav>
+
+    <div class="review-hero">
+      <div class="rating-badge rating-badge-lg ${cls}">${place.rating}<small>/ 10</small></div>
+      <div>
+        <h1>${escapeHtml(place.name)}</h1>
+        <p class="card-city">📍 ${escapeHtml(place.city)}</p>
+      </div>
+    </div>
+    ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ""}
+
+    ${place.about ? `<h2 class="review-section-title">About ${escapeHtml(place.name)}</h2><p class="review-about">${escapeHtml(place.about)}</p>` : ""}
+
+    <h2 class="review-section-title">Sam's Review</h2>
+    <article class="place-card" style="margin: 12px 0 22px;">
+      <p class="card-ate"><strong>What I ate:</strong> ${escapeHtml(place.ate)}</p>
+      <div class="card-contact">
+        <span>🏠 ${escapeHtml(place.address)}</span>
+        ${place.phone ? `<span>📞 <a href="tel:${telDigits}">${escapeHtml(place.phone)}</a></span>` : ""}
+        ${place.website ? `<span>🌐 <a href="${place.website}" target="_blank" rel="noopener">${escapeHtml(websiteLabel)}</a></span>` : ""}
+      </div>
+      <div class="card-actions">
+        <a class="btn btn-primary" href="${place.video}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch My Review
+        </a>
+        <a class="btn btn-ghost" href="../index.html#places">← All Reviews</a>
+      </div>
+    </article>
+
+    <h2 class="review-section-title">Find it on the map</h2>
+    <div id="map" class="review-map"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="logo" href="../index.html"><img class="logo-img" src="../images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <div class="social-row" data-socials></div>
+      <p class="footer-note">© <span id="year"></span> Eat With Sam K · All reviews are my own — I pay for every meal.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="../js/data.js?v=2"></script>
+  <script src="../js/common.js?v=2"></script>
+  <script>
+    var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      maxZoom: 19,
+    }).addTo(map);
+    var icon = L.divIcon({
+      className: "",
+      html: '<div class="rating-marker ${cls}"><span>${place.rating}</span></div>',
+      iconSize: [44, 44],
+      iconAnchor: [22, 44],
+      popupAnchor: [0, -44],
+    });
+    L.marker([${place.lat}, ${place.lng}], { icon: icon }).addTo(map)
+      .bindPopup(${JSON.stringify(`<div class="popup-title">${place.name}</div>`)})
+      .openPopup();
+    window.addEventListener("load", function () { map.invalidateSize(); });
+  </script>
+</body>
+</html>
+`;
+}
+
+function renderSitemap() {
+  const urls = [
+    { loc: `${SITE_URL}/index.html`, priority: "1.0" },
+    { loc: `${SITE_URL}/blog.html`, priority: "0.8" },
+    ...PLACES.map((p) => ({ loc: reviewUrl(p), priority: "0.9" })),
+    ...BLOG_POSTS.map((post) => ({ loc: `${SITE_URL}/post.html?id=${post.id}`, priority: "0.6" })),
+  ];
+  const body = urls
+    .map((u) => `  <url>\n    <loc>${u.loc}</loc>\n    <priority>${u.priority}</priority>\n  </url>`)
+    .join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
+}
+
+function renderRobots() {
+  return `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`;
+}
+
+const reviewsDir = path.join(__dirname, "reviews");
+fs.mkdirSync(reviewsDir, { recursive: true });
+
+// Clear out stale review pages for places that no longer exist in data.js.
+for (const f of fs.readdirSync(reviewsDir)) {
+  if (f.endsWith(".html") && !PLACES.some((p) => `${p.id}.html` === f)) {
+    fs.unlinkSync(path.join(reviewsDir, f));
+    console.log(`removed stale reviews/${f}`);
+  }
+}
+
+for (const place of PLACES) {
+  const outPath = path.join(reviewsDir, `${place.id}.html`);
+  fs.writeFileSync(outPath, renderReviewPage(place));
+  console.log(`wrote reviews/${place.id}.html`);
+}
+
+fs.writeFileSync(path.join(__dirname, "sitemap.xml"), renderSitemap());
+console.log("wrote sitemap.xml");
+
+fs.writeFileSync(path.join(__dirname, "robots.txt"), renderRobots());
+console.log("wrote robots.txt");
+
+console.log(`\nDone — ${PLACES.length} review page(s) generated.`);
