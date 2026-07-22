@@ -28,3 +28,53 @@ document.querySelectorAll("[data-tagline]").forEach((el) => (el.textContent = SI
 
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+/* ---------- Shared place helpers (used by app.js and reviews.js) ---------- */
+
+function ratingClass(rating) {
+  if (rating >= 9) return "great";
+  if (rating >= 8) return "";
+  return "good";
+}
+
+// Newest first: places with a `date` sort by it; undated places keep their
+// array position (new places are always added at the top of PLACES).
+function sortByRecent(places) {
+  return places
+    .map((p, i) => ({ p, i }))
+    .sort((a, b) => {
+      if (a.p.date && b.p.date) return b.p.date.localeCompare(a.p.date);
+      if (a.p.date) return -1;
+      if (b.p.date) return 1;
+      return a.i - b.i;
+    })
+    .map((x) => x.p);
+}
+
+function placeCardHtml(p, opts) {
+  opts = opts || {};
+  return `
+    <article class="place-card" id="card-${p.id}">
+      <div class="card-top">
+        <div>
+          <h3><a href="reviews/${p.id}.html">${p.name}</a></h3>
+          <div class="card-city">📍 ${p.city}</div>
+        </div>
+        <div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>
+      </div>
+      ${p.tags && p.tags.length ? `<div class="card-tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>` : ""}
+      <p class="card-ate"><strong>What I ate:</strong> ${p.ate}</p>
+      <div class="card-contact">
+        <span>🏠 ${p.address}</span>
+        ${p.phone ? `<span>📞 <a href="tel:${p.phone.replace(/[^+\d]/g, "")}">${p.phone}</a></span>` : ""}
+        ${p.website ? `<span>🌐 <a href="${p.website}" target="_blank" rel="noopener">${p.website.replace(/^https?:\/\/(www\.)?/, "")}</a></span>` : ""}
+      </div>
+      <div class="card-actions">
+        <a class="btn btn-primary" href="${p.video}" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch Review
+        </a>
+        ${opts.showMapJump ? `<button class="btn btn-ghost" data-map-jump="${p.id}">View on map</button>` : `<a class="btn btn-ghost" href="reviews/${p.id}.html">Full Review</a>`}
+      </div>
+      <a class="read-more" href="reviews/${p.id}.html">Read full review →</a>
+    </article>`;
+}

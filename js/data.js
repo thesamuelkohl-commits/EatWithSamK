@@ -27,6 +27,7 @@ const PLACES = [
     address: "5056 Broadway, Suite B-103, Nashville, TN 37203",
     phone: "(629) 317-8644",
     website: "https://locations.princestreetpizza.com/nashville",
+    date: "2026-07-20",
     about: "Prince St. Pizza traces back to 2012 in New York's Nolita neighborhood, built on recipes that have stayed in the Morano family for generations — their philosophy is simple: if it works on pasta, it works on pizza. The original NYC shop made its name on the Sicilian \"SoHo Square,\" a thick, crispy-bottomed slice, and the Spicy Spring, its signature square topped with pepperoni cups, fresh mozzarella, and tomato sauce. The brand has since expanded well beyond New York, and this location — inside the Fifth + Broadway development in downtown Nashville — is its first in Tennessee.",
     ate: "The Spicy Vodka, The Naughty Pie, and the Houston Jalapeno — three square slices, three very different heat levels.",
     rating: 7.4,

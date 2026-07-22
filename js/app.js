@@ -1,12 +1,9 @@
-/* Home page: map + review cards. Reads everything from js/data.js. */
+/* Home page: map (all places) + Recent Reviews (latest few). Full,
+   searchable list lives on reviews.html (js/reviews.js). */
 
-function ratingClass(rating) {
-  if (rating >= 9) return "great";
-  if (rating >= 8) return "";
-  return "good";
-}
+const RECENT_COUNT = 6;
 
-/* ---------- Stats ---------- */
+/* ---------- Stats (based on every place, not just recent) ---------- */
 const cities = new Set(PLACES.map((p) => p.city));
 const avg = PLACES.reduce((s, p) => s + p.rating, 0) / (PLACES.length || 1);
 document.getElementById("stat-places").textContent = PLACES.length;
@@ -71,62 +68,13 @@ const stopAutoFit = () => autoFit.disconnect();
 mapEl.addEventListener("pointerdown", stopAutoFit, { once: true });
 mapEl.addEventListener("wheel", stopAutoFit, { once: true });
 
-/* ---------- Cards ---------- */
+/* ---------- Recent Reviews ---------- */
 const cardsEl = document.getElementById("cards");
-const searchEl = document.getElementById("search");
-const sortEl = document.getElementById("sort");
+const recent = sortByRecent(PLACES).slice(0, RECENT_COUNT);
 
-function renderCards() {
-  const q = searchEl.value.trim().toLowerCase();
-  let list = PLACES.filter((p) =>
-    [p.name, p.city, p.ate, ...(p.tags || [])].join(" ").toLowerCase().includes(q)
-  );
-
-  const sorters = {
-    "rating-desc": (a, b) => b.rating - a.rating,
-    "rating-asc": (a, b) => a.rating - b.rating,
-    name: (a, b) => a.name.localeCompare(b.name),
-    city: (a, b) => a.city.localeCompare(b.city),
-  };
-  list.sort(sorters[sortEl.value]);
-
-  if (!list.length) {
-    cardsEl.innerHTML = `<div class="no-results">No spots match that search — yet. 👀</div>`;
-    return;
-  }
-
-  cardsEl.innerHTML = list
-    .map(
-      (p) => `
-    <article class="place-card" id="card-${p.id}">
-      <div class="card-top">
-        <div>
-          <h3><a href="reviews/${p.id}.html">${p.name}</a></h3>
-          <div class="card-city">📍 ${p.city}</div>
-        </div>
-        <div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>
-      </div>
-      ${p.tags && p.tags.length ? `<div class="card-tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>` : ""}
-      <p class="card-ate"><strong>What I ate:</strong> ${p.ate}</p>
-      <div class="card-contact">
-        <span>🏠 ${p.address}</span>
-        ${p.phone ? `<span>📞 <a href="tel:${p.phone.replace(/[^+\d]/g, "")}">${p.phone}</a></span>` : ""}
-        ${p.website ? `<span>🌐 <a href="${p.website}" target="_blank" rel="noopener">${p.website.replace(/^https?:\/\/(www\.)?/, "")}</a></span>` : ""}
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-primary" href="${p.video}" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch Review
-        </a>
-        <button class="btn btn-ghost" data-map-jump="${p.id}">View on map</button>
-      </div>
-      <a class="read-more" href="reviews/${p.id}.html">Read full review →</a>
-    </article>`
-    )
-    .join("");
-}
-
-searchEl.addEventListener("input", renderCards);
-sortEl.addEventListener("change", renderCards);
+cardsEl.innerHTML = recent.length
+  ? recent.map((p) => placeCardHtml(p, { showMapJump: true })).join("")
+  : `<div class="no-results">No reviews yet — check back soon. 👀</div>`;
 
 cardsEl.addEventListener("click", (e) => {
   const btn = e.target.closest("[data-map-jump]");
@@ -137,5 +85,3 @@ cardsEl.addEventListener("click", (e) => {
   map.flyTo([place.lat, place.lng], 15, { duration: 1.2 });
   setTimeout(() => markers[place.id].openPopup(), 1300);
 });
-
-renderCards();
