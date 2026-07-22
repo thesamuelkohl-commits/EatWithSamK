@@ -146,6 +146,10 @@ function renderReviewPage(place) {
     gtag('config', 'G-2V4D6ZQV6Q');
   </script>
 
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7072826210873110"
+       crossorigin="anonymous"></script>
+
   <title>${escapeHtml(title)}</title>
   <meta name="description" content="${escapeHtml(description)}" />
   <meta name="robots" content="index, follow" />
