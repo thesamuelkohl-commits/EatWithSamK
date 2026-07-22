@@ -125,7 +125,7 @@ function renderReviewPage(place) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/index.html` },
-      { "@type": "ListItem", position: 2, name: "Reviews", item: `${SITE_URL}/index.html#places` },
+      { "@type": "ListItem", position: 2, name: "Reviews", item: `${SITE_URL}/reviews.html` },
       { "@type": "ListItem", position: 3, name: place.name, item: canonical },
     ],
   };
@@ -182,8 +182,8 @@ function renderReviewPage(place) {
     <div class="header-inner">
       <a class="logo" href="../index.html"><img class="logo-img" src="../images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
       <nav class="main-nav">
-        <a href="../index.html">The Map</a>
-        <a href="../index.html#places" class="active">Reviews</a>
+        <a href="../index.html">Home</a>
+        <a href="../reviews.html" class="active">Reviews</a>
         <a href="../blog.html">Blog</a>
       </nav>
       <div class="social-row" data-socials></div>
@@ -193,7 +193,7 @@ function renderReviewPage(place) {
   <main class="post-wrap">
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="../index.html">Home</a><span>›</span>
-      <a href="../index.html#places">Reviews</a><span>›</span>
+      <a href="../reviews.html">Reviews</a><span>›</span>
       <span aria-current="page">${escapeHtml(place.name)}</span>
     </nav>
 
@@ -220,7 +220,7 @@ function renderReviewPage(place) {
         <a class="btn btn-primary" href="${place.video}" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch My Review
         </a>
-        <a class="btn btn-ghost" href="../index.html#places">← All Reviews</a>
+        <a class="btn btn-ghost" href="../reviews.html">← All Reviews</a>
       </div>
     </article>
 
@@ -237,8 +237,8 @@ function renderReviewPage(place) {
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="../js/data.js?v=2"></script>
-  <script src="../js/common.js?v=2"></script>
+  <script src="../js/data.js?v=3"></script>
+  <script src="../js/common.js?v=3"></script>
   <script>
     var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
@@ -265,6 +265,7 @@ function renderReviewPage(place) {
 function renderSitemap() {
   const urls = [
     { loc: `${SITE_URL}/index.html`, priority: "1.0" },
+    { loc: `${SITE_URL}/reviews.html`, priority: "0.9" },
     { loc: `${SITE_URL}/blog.html`, priority: "0.8" },
     ...PLACES.map((p) => ({ loc: reviewUrl(p), priority: "0.9" })),
     ...BLOG_POSTS.map((post) => ({ loc: `${SITE_URL}/post.html?id=${post.id}`, priority: "0.6" })),

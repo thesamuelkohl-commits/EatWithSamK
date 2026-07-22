@@ -18,24 +18,34 @@
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7072826210873110"
        crossorigin="anonymous"></script>
 
-  <title>Blog — Eat With Sam K</title>
-  <meta name="description" content="City food guides and eating strategies from Sam K: the best places to eat in every city I visit." />
+  <title>All Reviews — Eat With Sam K</title>
+  <meta name="description" content="Every restaurant Sam K has personally rated out of 10, in one searchable list — filter by name, city, or cuisine, and sort by rating or date." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://www.eatwithsamk.com/blog.html" />
+  <link rel="canonical" href="https://www.eatwithsamk.com/reviews.html" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Blog — Eat With Sam K" />
-  <meta property="og:description" content="City food guides and eating strategies from Sam K: the best places to eat in every city I visit." />
-  <meta property="og:url" content="https://www.eatwithsamk.com/blog.html" />
+  <meta property="og:title" content="All Reviews — Eat With Sam K" />
+  <meta property="og:description" content="Every restaurant Sam K has personally rated out of 10, in one searchable list." />
+  <meta property="og:url" content="https://www.eatwithsamk.com/reviews.html" />
   <meta property="og:image" content="https://www.eatwithsamk.com/images/logo.png" />
   <meta property="og:site_name" content="Eat With Sam K" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Blog — Eat With Sam K" />
-  <meta name="twitter:description" content="City food guides and eating strategies from Sam K." />
+  <meta name="twitter:title" content="All Reviews — Eat With Sam K" />
+  <meta name="twitter:description" content="Every restaurant Sam K has personally rated out of 10." />
   <meta name="twitter:image" content="https://www.eatwithsamk.com/images/logo.png" />
   <link rel="icon" type="image/png" href="images/favicon.png?v=2" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css?v=3" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.eatwithsamk.com/index.html" },
+      { "@type": "ListItem", "position": 2, "name": "Reviews", "item": "https://www.eatwithsamk.com/reviews.html" }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -44,20 +54,30 @@
       <a class="logo" href="index.html"><img class="logo-img" src="images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
       <nav class="main-nav">
         <a href="index.html">Home</a>
-        <a href="reviews.html">Reviews</a>
-        <a href="blog.html" class="active">Blog</a>
+        <a href="reviews.html" class="active">Reviews</a>
+        <a href="blog.html">Blog</a>
       </nav>
       <div class="social-row" data-socials></div>
     </div>
   </header>
 
   <section class="page-hero">
-    <h1>The Food Blog 📝</h1>
-    <p>City guides, best-of lists, and everything I've learned eating my way across the map.</p>
+    <h1>All Reviews</h1>
+    <p>Every place I've eaten and rated, all in one list — search by name, city, or food, or sort by rating.</p>
   </section>
 
   <div class="container">
-    <div class="blog-grid" id="blog-grid"></div>
+    <div class="toolbar">
+      <input type="search" class="search-input" id="search" placeholder="Search by name, city, or food…" />
+      <select class="sort-select" id="sort">
+        <option value="recent">Newest first</option>
+        <option value="rating-desc">Highest rated</option>
+        <option value="rating-asc">Lowest rated</option>
+        <option value="name">Name A–Z</option>
+        <option value="city">City A–Z</option>
+      </select>
+    </div>
+    <div class="cards-grid" id="cards"></div>
   </div>
 
   <footer class="site-footer">
@@ -69,24 +89,7 @@
   </footer>
 
   <script src="js/data.js?v=3"></script>
-  <script src="js/blog-data.js?v=3"></script>
   <script src="js/common.js?v=3"></script>
-  <script>
-    const fmt = (d) =>
-      new Date(d + "T12:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
-
-    document.getElementById("blog-grid").innerHTML = BLOG_POSTS.map(
-      (post) => `
-      <a class="blog-card" href="post.html?id=${post.id}">
-        <div class="blog-card-banner">${post.emoji}</div>
-        <div class="blog-card-body">
-          <div class="blog-meta"><span class="pill">${post.city}</span><span>${fmt(post.date)}</span></div>
-          <h3>${post.title}</h3>
-          <p>${post.excerpt}</p>
-          <span class="read-more">Read more →</span>
-        </div>
-      </a>`
-    ).join("");
-  </script>
+  <script src="js/reviews.js?v=1"></script>
 </body>
 </html>

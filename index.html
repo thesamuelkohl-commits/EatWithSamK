@@ -45,6 +45,20 @@
     "url": "https://www.eatwithsamk.com/index.html"
   }
   </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Eat With Sam K",
+    "url": "https://www.eatwithsamk.com/index.html",
+    "logo": "https://www.eatwithsamk.com/images/logo.png",
+    "sameAs": [
+      "https://www.instagram.com/eatwithsamk",
+      "https://www.tiktok.com/@eatwithsamk",
+      "https://www.youtube.com/@eatwithsamk"
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -52,8 +66,8 @@
     <div class="header-inner">
       <a class="logo" href="index.html"><img class="logo-img" src="images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
       <nav class="main-nav">
-        <a href="index.html" class="active">The Map</a>
-        <a href="index.html#places">Reviews</a>
+        <a href="index.html" class="active">Home</a>
+        <a href="reviews.html">Reviews</a>
         <a href="blog.html">Blog</a>
       </nav>
       <div class="social-row" data-socials></div>
@@ -80,14 +94,8 @@
   <section class="places-section" id="places">
     <div class="container">
       <div class="toolbar">
-        <h2>All Reviews</h2>
-        <input type="search" class="search-input" id="search" placeholder="Search by name, city, or food…" />
-        <select class="sort-select" id="sort">
-          <option value="rating-desc">Highest rated</option>
-          <option value="rating-asc">Lowest rated</option>
-          <option value="name">Name A–Z</option>
-          <option value="city">City A–Z</option>
-        </select>
+        <h2>Recent Reviews</h2>
+        <a class="btn btn-ghost" href="reviews.html">See All Reviews →</a>
       </div>
       <div class="cards-grid" id="cards"></div>
     </div>
@@ -102,8 +110,8 @@
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="js/data.js?v=2"></script>
-  <script src="js/common.js?v=2"></script>
-  <script src="js/app.js?v=2"></script>
+  <script src="js/data.js?v=3"></script>
+  <script src="js/common.js?v=3"></script>
+  <script src="js/app.js?v=3"></script>
 </body>
 </html>
