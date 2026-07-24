@@ -178,7 +178,7 @@ function renderReviewPage(place) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=6" />
+  <link rel="stylesheet" href="../css/style.css?v=7" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -214,7 +214,7 @@ function renderReviewPage(place) {
     ${badgesHtml ? `<div class="badge-row">${badgesHtml}</div>` : ""}
     ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ""}
 
-    ${place.about ? `<h2 class="review-section-title">About ${escapeHtml(place.name)}</h2><p class="review-about">${escapeHtml(place.about)}</p>` : ""}
+    ${place.about ? `<div class="reveal"><h2 class="review-section-title">About ${escapeHtml(place.name)}</h2><p class="review-about">${escapeHtml(place.about)}</p></div>` : ""}
 
     <h2 class="review-section-title">Sam's Review</h2>
     <article class="place-card" style="margin: 12px 0 22px;">
@@ -233,9 +233,11 @@ function renderReviewPage(place) {
     </article>
 
     ${videoPermalink ? `
-    <h2 class="review-section-title">See It In Action</h2>
-    <div class="ig-embed">
-      <blockquote class="instagram-media" data-instgrm-permalink="${videoPermalink}" data-instgrm-version="14"></blockquote>
+    <div class="reveal">
+      <h2 class="review-section-title">See It In Action</h2>
+      <div class="ig-embed">
+        <blockquote class="instagram-media" data-instgrm-permalink="${videoPermalink}" data-instgrm-version="14"></blockquote>
+      </div>
     </div>
     ` : ""}
 
@@ -254,7 +256,7 @@ function renderReviewPage(place) {
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
   <script src="../js/data.js?v=4"></script>
-  <script src="../js/common.js?v=4"></script>
+  <script src="../js/common.js?v=7"></script>
   <script>
     var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {

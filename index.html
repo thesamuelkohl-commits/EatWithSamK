@@ -36,7 +36,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="css/style.css?v=6" />
+  <link rel="stylesheet" href="css/style.css?v=7" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -93,11 +93,21 @@
 
   <section class="places-section" id="places">
     <div class="container">
-      <div class="toolbar">
+      <div class="toolbar reveal">
         <h2>Recent Reviews</h2>
         <a class="btn btn-ghost" href="reviews.html">See All Reviews →</a>
       </div>
       <div class="cards-grid" id="cards"></div>
+    </div>
+  </section>
+
+  <section class="places-section">
+    <div class="container">
+      <div class="toolbar reveal">
+        <h2>From the Blog</h2>
+        <a class="btn btn-ghost" href="blog.html">Read the Blog →</a>
+      </div>
+      <div class="blog-grid" id="home-blog"></div>
     </div>
   </section>
 
@@ -111,7 +121,8 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="js/data.js?v=4"></script>
-  <script src="js/common.js?v=4"></script>
-  <script src="js/app.js?v=3"></script>
+  <script src="js/blog-data.js?v=9"></script>
+  <script src="js/common.js?v=7"></script>
+  <script src="js/app.js?v=4"></script>
 </body>
 </html>

@@ -6,7 +6,7 @@ Your food review site: an interactive map of every place you've rated, plus a bl
 
 | Page | What's on it |
 |---|---|
-| `index.html` (Home) | Map of every place + your **Recent Reviews** (latest 6) |
+| `index.html` (Home) | Map of every place + your **Recent Reviews** (latest 6) + **From the Blog** (latest 3 posts) |
 | `reviews.html` | **All** reviews — searchable, sortable, full list |
 | `reviews/<id>.html` | One SEO-optimized landing page per place (auto-generated) |
 | `blog.html` / `post.html` | Your city guides and food blog posts |
@@ -91,6 +91,17 @@ This rebuilds every file in `reviews/`, plus `sitemap.xml` and `robots.txt`, fro
 Google Analytics (`G-2V4D6ZQV6Q`) and Google AdSense (`ca-pub-7072826210873110`) are both wired into every page: `index.html`, `reviews.html`, `blog.html`, `post.html`, and the `generate-reviews.js` template (so every generated `reviews/<id>.html` page gets them too). You don't need to touch these — they're already live.
 
 **On ads:** the script we added enables **Auto ads** — once you turn that on in your AdSense account (Ads → Overview → Auto ads, toggle "On" for this site), Google automatically places ad units in good spots across every page with no further code changes. If you'd rather control exact placement yourself (e.g. an ad between the review and the map on `reviews/<id>.html`), come back and ask — that needs a real ad-unit slot ID from your AdSense dashboard first.
+
+## Motion & animation
+
+The whole site shares one small motion system in `js/common.js`, so you don't need to add anything per-page:
+
+- **Scroll reveal** — any element with `class="reveal"` fades and slides in once it scrolls into view (cards, section headers, the review page's About/Instagram sections). Add the class to new markup and it just works — a `MutationObserver` picks up cards rendered dynamically too.
+- **Count-up stats** — the homepage's "Places Rated / Cities / Avg Rating" numbers animate up from 0 the first time they scroll into view.
+- **Header shadow on scroll**, a **logo wiggle** on hover, a slow ambient drift on the homepage's hero background, a soft pulse on 9.0+ rating badges, and smoother hover/press motion on buttons and cards.
+- Respects `prefers-reduced-motion` — all of this is disabled for users who've asked their OS to reduce motion.
+
+If a scroll-reveal or count-up ever seems stuck (a slow connection, an odd embedded browser), there's a 2-second safety-net fallback that reveals everything regardless — content is never permanently stuck invisible.
 
 ## Other SEO groundwork already in place
 
