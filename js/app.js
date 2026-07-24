@@ -2,13 +2,14 @@
    searchable list lives on reviews.html (js/reviews.js). */
 
 const RECENT_COUNT = 6;
+const RECENT_POST_COUNT = 3;
 
 /* ---------- Stats (based on every place, not just recent) ---------- */
 const cities = new Set(PLACES.map((p) => p.city));
 const avg = PLACES.reduce((s, p) => s + p.rating, 0) / (PLACES.length || 1);
-document.getElementById("stat-places").textContent = PLACES.length;
-document.getElementById("stat-cities").textContent = cities.size;
-document.getElementById("stat-avg").textContent = avg.toFixed(1);
+animateCountUp(document.getElementById("stat-places"), PLACES.length, 0);
+animateCountUp(document.getElementById("stat-cities"), cities.size, 0);
+animateCountUp(document.getElementById("stat-avg"), avg, 1);
 
 /* ---------- Map ---------- */
 // Start with a sane default view immediately — fitAllPlaces() refines it
@@ -85,3 +86,14 @@ cardsEl.addEventListener("click", (e) => {
   map.flyTo([place.lat, place.lng], 15, { duration: 1.2 });
   setTimeout(() => markers[place.id].openPopup(), 1300);
 });
+
+/* ---------- From the Blog ---------- */
+const homeBlogEl = document.getElementById("home-blog");
+if (homeBlogEl && typeof BLOG_POSTS !== "undefined") {
+  const recentPosts = [...BLOG_POSTS]
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .slice(0, RECENT_POST_COUNT);
+  homeBlogEl.innerHTML = recentPosts.length
+    ? recentPosts.map(blogCardHtml).join("")
+    : `<div class="no-results">No posts yet — check back soon. 👀</div>`;
+}

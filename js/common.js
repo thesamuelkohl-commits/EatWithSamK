@@ -64,7 +64,7 @@ function badgeRowHtml(p) {
 function placeCardHtml(p, opts) {
   opts = opts || {};
   return `
-    <article class="place-card" id="card-${p.id}">
+    <article class="place-card reveal" id="card-${p.id}">
       <div class="card-top">
         <div>
           <h3><a href="reviews/${p.id}.html">${p.name}</a></h3>
@@ -88,4 +88,122 @@ function placeCardHtml(p, opts) {
       </div>
       <a class="read-more" href="reviews/${p.id}.html">Read full review →</a>
     </article>`;
+}
+
+/* ---------- Shared blog helpers (used by blog.html and app.js) ---------- */
+
+function formatPostDate(dateStr) {
+  return new Date(dateStr + "T12:00:00").toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
+}
+
+function blogCardHtml(post) {
+  return `
+    <a class="blog-card reveal" href="post.html?id=${post.id}">
+      <div class="blog-card-banner">${post.emoji}</div>
+      <div class="blog-card-body">
+        <div class="blog-meta"><span class="pill">${post.city}</span><span>${formatPostDate(post.date)}</span></div>
+        <h3>${post.title}</h3>
+        <p>${post.excerpt}</p>
+        <span class="read-more">Read more →</span>
+      </div>
+    </a>`;
+}
+
+/* ---------- Motion: scroll-reveal, count-up stats, header shadow ----------
+   Applies site-wide since common.js loads on every page. Reveal targets are
+   marked with class="reveal" in HTML (or added dynamically via innerHTML —
+   a MutationObserver picks those up too, so render order never matters). */
+
+const revealObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.15 }
+);
+
+function observeReveal(el, index) {
+  el.style.transitionDelay = `${Math.min((index || 0) * 60, 300)}ms`;
+  revealObserver.observe(el);
+}
+
+document.querySelectorAll(".reveal").forEach((el, i) => observeReveal(el, i));
+
+new MutationObserver((mutations) => {
+  mutations.forEach((m) => {
+    m.addedNodes.forEach((node) => {
+      if (node.nodeType !== 1) return;
+      if (node.matches && node.matches(".reveal")) observeReveal(node);
+      if (node.querySelectorAll) node.querySelectorAll(".reveal").forEach((el) => observeReveal(el));
+    });
+  });
+}).observe(document.body, { childList: true, subtree: true });
+
+// Safety net: if something prevents the scroll trigger from ever firing (a
+// throttled observer, an odd in-app-browser webview), don't leave content
+// stuck invisible — reveal everything after a short grace period.
+setTimeout(() => {
+  document.querySelectorAll(".reveal:not(.is-visible)").forEach((el) => el.classList.add("is-visible"));
+}, 2000);
+
+// Animates a number counting up to `target` once its element scrolls into
+// view. `decimals` controls precision (e.g. 1 for "7.4"). Uses setInterval
+// rather than requestAnimationFrame so it keeps ticking even in contexts
+// where rAF gets throttled (e.g. a backgrounded/inactive tab).
+function animateCountUp(el, target, decimals) {
+  let started = false;
+
+  function runCountUp() {
+    started = true;
+    const duration = 1100;
+    const stepMs = 16;
+    const start = Date.now();
+    const timer = setInterval(() => {
+      const progress = Math.min((Date.now() - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const value = target * eased;
+      el.textContent = decimals ? value.toFixed(decimals) : Math.round(value);
+      if (progress >= 1) {
+        el.textContent = decimals ? target.toFixed(decimals) : target;
+        clearInterval(timer);
+      }
+    }, stepMs);
+  }
+
+  const obs = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting || started) return;
+        obs.unobserve(entry.target);
+        runCountUp();
+      });
+    },
+    { threshold: 0.5 }
+  );
+  obs.observe(el);
+
+  // Same safety net as reveal — never leave a stat frozen at 0.
+  setTimeout(() => {
+    if (!started) {
+      obs.disconnect();
+      runCountUp();
+    }
+  }, 2000);
+}
+
+const siteHeaderEl = document.querySelector(".site-header");
+if (siteHeaderEl) {
+  window.addEventListener(
+    "scroll",
+    () => siteHeaderEl.classList.toggle("scrolled", window.scrollY > 8),
+    { passive: true }
+  );
 }

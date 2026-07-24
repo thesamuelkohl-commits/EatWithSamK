@@ -20,12 +20,33 @@
 
 html { scroll-behavior: smooth; }
 
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+  .reveal { opacity: 1 !important; transform: none !important; }
+}
+
 body {
   font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: var(--cream);
   color: var(--ink);
   line-height: 1.6;
+  animation: page-fade-in 0.5s ease;
 }
+
+@keyframes page-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ---------- Motion: scroll reveal ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal.is-visible { opacity: 1; transform: translateY(0); }
 
 h1, h2, h3, .logo {
   font-family: "Fredoka", "Nunito", sans-serif;
@@ -45,7 +66,11 @@ a { color: var(--red); }
   background: rgba(250, 243, 232, 0.92);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
+  box-shadow: 0 2px 14px rgba(36, 29, 26, 0);
+  transition: box-shadow 0.25s ease;
 }
+
+.site-header.scrolled { box-shadow: 0 2px 14px rgba(36, 29, 26, 0.09); }
 
 .header-inner {
   display: flex;
@@ -72,6 +97,16 @@ a { color: var(--red); }
   height: 44px;
   border-radius: 50%;
   box-shadow: var(--shadow);
+  transition: transform 0.2s ease;
+}
+
+.logo:hover .logo-img { animation: logo-wiggle 0.55s ease; }
+
+@keyframes logo-wiggle {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  25% { transform: rotate(-9deg) scale(1.06); }
+  50% { transform: rotate(7deg) scale(1.06); }
+  75% { transform: rotate(-4deg) scale(1.03); }
 }
 
 .hero-logo {
@@ -90,11 +125,13 @@ a { color: var(--red); }
   font-weight: 700;
   padding: 8px 14px;
   border-radius: 999px;
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.25s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s ease, transform 0.2s ease;
+  display: inline-block;
 }
 
-.main-nav a:hover { background: #f6ebdd; color: var(--ink); }
+.main-nav a:hover { background: #f6ebdd; color: var(--ink); transform: translateY(-1px); }
 .main-nav a.active { background: var(--red); color: #fff; }
+.main-nav a.active:hover { transform: none; }
 
 .social-row { display: flex; gap: 8px; }
 
@@ -107,10 +144,10 @@ a { color: var(--red); }
   background: var(--card);
   border: 1px solid var(--line);
   color: var(--ink);
-  transition: transform 0.15s, background 0.15s, color 0.15s;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s ease, color 0.2s ease;
 }
 
-.social-btn:hover { transform: translateY(-2px); background: var(--red); color: #fff; }
+.social-btn:hover { transform: translateY(-3px) scale(1.08); background: var(--red); color: #fff; }
 .social-btn svg { width: 18px; height: 18px; fill: currentColor; }
 
 /* ---------- Hero ---------- */
@@ -120,6 +157,13 @@ a { color: var(--red); }
   background:
     radial-gradient(circle at 12% 18%, rgba(242, 169, 59, 0.16), transparent 34%),
     radial-gradient(circle at 88% 12%, rgba(192, 90, 36, 0.12), transparent 36%);
+  background-size: 140% 140%;
+  animation: hero-drift 16s ease-in-out infinite alternate;
+}
+
+@keyframes hero-drift {
+  0% { background-position: 0% 0%, 100% 0%; }
+  100% { background-position: 8% 12%, 92% 14%; }
 }
 
 .hero h1 { font-size: clamp(2rem, 5vw, 3.2rem); }
@@ -175,8 +219,13 @@ a { color: var(--red); }
   font-size: 0.85rem;
 }
 
-.rating-marker.great { background: var(--green); }
+.rating-marker.great { background: var(--green); animation: badge-glow-green 2.4s ease-in-out infinite; }
 .rating-marker.good { background: var(--gold); }
+
+@keyframes badge-glow-green {
+  0%, 100% { box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(47, 158, 100, 0.5); }
+  50% { box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3), 0 0 0 6px rgba(47, 158, 100, 0); }
+}
 
 .leaflet-popup-content-wrapper { border-radius: 14px; box-shadow: var(--shadow-lg); }
 .leaflet-popup-content { margin: 14px 16px; font-family: "Nunito", sans-serif; min-width: 220px; }
@@ -236,7 +285,7 @@ a { color: var(--red); }
   border-radius: var(--radius);
   padding: 22px;
   box-shadow: var(--shadow);
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, opacity 0.5s ease;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -270,7 +319,7 @@ a { color: var(--red); }
 }
 
 .rating-badge small { display: block; font-size: 0.6rem; font-weight: 400; opacity: 0.85; margin-top: 3px; }
-.rating-badge.great { background: var(--green); }
+.rating-badge.great { background: var(--green); animation: badge-glow-green 2.4s ease-in-out infinite; }
 .rating-badge.good { background: var(--gold); }
 
 .card-tags { display: flex; gap: 6px; flex-wrap: wrap; }
@@ -298,7 +347,10 @@ a { color: var(--red); }
   padding: 4px 11px;
   border-radius: 999px;
   cursor: default;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.badge-pill:hover { transform: translateY(-1px); box-shadow: 0 3px 8px rgba(138, 90, 18, 0.2); }
 
 .card-ate { color: var(--ink); font-size: 0.95rem; }
 .card-ate strong { color: var(--red); }
@@ -331,10 +383,11 @@ a { color: var(--red); }
   cursor: pointer;
   border: none;
   font-family: inherit;
-  transition: transform 0.12s, background 0.15s;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.2s ease, box-shadow 0.2s ease;
 }
 
-.btn:hover { transform: translateY(-1px); }
+.btn:hover { transform: translateY(-2px) scale(1.015); box-shadow: var(--shadow); }
+.btn:active { transform: translateY(0) scale(0.98); }
 
 .btn-primary { background: var(--red); color: #fff; flex: 1; }
 .btn-primary:hover { background: var(--red-dark); }
@@ -372,7 +425,7 @@ a { color: var(--red); }
   box-shadow: var(--shadow);
   text-decoration: none;
   color: var(--ink);
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease, opacity 0.5s ease;
   display: flex;
   flex-direction: column;
 }
