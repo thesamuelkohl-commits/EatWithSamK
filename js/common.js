@@ -51,6 +51,16 @@ function sortByRecent(places) {
     .map((x) => x.p);
 }
 
+function badgeRowHtml(p) {
+  if (!p.badges || !p.badges.length) return "";
+  const pills = p.badges
+    .map((key) => BADGES[key])
+    .filter(Boolean)
+    .map((b) => `<span class="badge-pill" title="${b.description}">${b.emoji} ${b.label}</span>`)
+    .join("");
+  return pills ? `<div class="badge-row">${pills}</div>` : "";
+}
+
 function placeCardHtml(p, opts) {
   opts = opts || {};
   return `
@@ -62,6 +72,7 @@ function placeCardHtml(p, opts) {
         </div>
         <div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>
       </div>
+      ${badgeRowHtml(p)}
       ${p.tags && p.tags.length ? `<div class="card-tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>` : ""}
       <p class="card-ate"><strong>What I ate:</strong> ${p.ate}</p>
       <div class="card-contact">

@@ -284,6 +284,22 @@ a { color: var(--red); }
   border-radius: 999px;
 }
 
+.badge-row { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #fff4e0;
+  border: 1px solid #f0d9a8;
+  color: #8a5a12;
+  font-size: 0.78rem;
+  font-weight: 800;
+  padding: 4px 11px;
+  border-radius: 999px;
+  cursor: default;
+}
+
 .card-ate { color: var(--ink); font-size: 0.95rem; }
 .card-ate strong { color: var(--red); }
 
@@ -401,6 +417,29 @@ a { color: var(--red); }
 .post-body ul { margin: 0 0 14px 22px; }
 .post-body li { margin-bottom: 6px; }
 
+.post-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 6px 0 18px;
+  font-size: 0.92rem;
+}
+
+.post-body th, .post-body td {
+  padding: 10px 14px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.post-body th {
+  background: #f6ebdd;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+}
+
+.post-body .table-scroll { overflow-x: auto; margin-bottom: 4px; }
+.post-body .table-scroll table { margin-bottom: 0; }
+
 /* ---------- Review landing page ---------- */
 .breadcrumb {
   display: flex;
@@ -442,6 +481,9 @@ a { color: var(--red); }
 .review-about { font-size: 1rem; line-height: 1.7; color: var(--ink); }
 
 .review-map { height: 320px; margin-top: 10px; }
+
+.ig-embed { display: flex; justify-content: center; margin: 10px 0 6px; }
+.ig-embed iframe { border-radius: 12px !important; }
 
 @media (max-width: 560px) {
   .review-hero { flex-direction: column; align-items: flex-start; }

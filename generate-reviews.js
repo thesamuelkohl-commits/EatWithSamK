@@ -32,7 +32,7 @@ function loadModule(relPath, trailingExpr) {
   return vm.runInNewContext(code + "\n" + trailingExpr, {});
 }
 
-const { SITE, PLACES } = loadModule("js/data.js", "({ SITE, PLACES });");
+const { SITE, PLACES, BADGES } = loadModule("js/data.js", "({ SITE, PLACES, BADGES });");
 const BLOG_POSTS = loadModule("js/blog-data.js", "(BLOG_POSTS);");
 
 function escapeHtml(str) {
@@ -87,6 +87,13 @@ function renderReviewPage(place) {
   const tagsHtml = (place.tags || [])
     .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
     .join("");
+  const badgesHtml = (place.badges || [])
+    .map((key) => BADGES[key])
+    .filter(Boolean)
+    .map((b) => `<span class="badge-pill" title="${escapeHtml(b.description)}">${b.emoji} ${escapeHtml(b.label)}</span>`)
+    .join("");
+  // Strip tracking query params (?igsh=...) for a clean embed permalink.
+  const videoPermalink = place.video ? place.video.split("?")[0] : "";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -171,7 +178,7 @@ function renderReviewPage(place) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=3" />
+  <link rel="stylesheet" href="../css/style.css?v=6" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -204,6 +211,7 @@ function renderReviewPage(place) {
         <p class="card-city">📍 ${escapeHtml(place.city)}</p>
       </div>
     </div>
+    ${badgesHtml ? `<div class="badge-row">${badgesHtml}</div>` : ""}
     ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ""}
 
     ${place.about ? `<h2 class="review-section-title">About ${escapeHtml(place.name)}</h2><p class="review-about">${escapeHtml(place.about)}</p>` : ""}
@@ -224,6 +232,13 @@ function renderReviewPage(place) {
       </div>
     </article>
 
+    ${videoPermalink ? `
+    <h2 class="review-section-title">See It In Action</h2>
+    <div class="ig-embed">
+      <blockquote class="instagram-media" data-instgrm-permalink="${videoPermalink}" data-instgrm-version="14"></blockquote>
+    </div>
+    ` : ""}
+
     <h2 class="review-section-title">Find it on the map</h2>
     <div id="map" class="review-map"></div>
   </main>
@@ -237,8 +252,9 @@ function renderReviewPage(place) {
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="../js/data.js?v=3"></script>
-  <script src="../js/common.js?v=3"></script>
+  ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
+  <script src="../js/data.js?v=4"></script>
+  <script src="../js/common.js?v=4"></script>
   <script>
     var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
