@@ -32,7 +32,7 @@ function loadModule(relPath, trailingExpr) {
   return vm.runInNewContext(code + "\n" + trailingExpr, {});
 }
 
-const { SITE, PLACES, BADGES } = loadModule("js/data.js", "({ SITE, PLACES, BADGES });");
+const { SITE, PLACES, BADGES, PRICE_GUIDE } = loadModule("js/data.js", "({ SITE, PLACES, BADGES, PRICE_GUIDE });");
 const BLOG_POSTS = loadModule("js/blog-data.js", "(BLOG_POSTS);");
 
 function escapeHtml(str) {
@@ -41,6 +41,23 @@ function escapeHtml(str) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
+}
+
+function escapeAttr(str) {
+  return String(str).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+}
+
+// A styled hover tooltip (not the native browser `title` box) — matches
+// the client-side helper in js/common.js, used the same way here.
+function tooltipAttrs(text) {
+  const safe = escapeAttr(text);
+  return `data-tooltip="${safe}" aria-label="${safe}" tabindex="0"`;
+}
+
+function priceTagHtml(price) {
+  const tier = PRICE_GUIDE[price];
+  if (!tier) return escapeHtml(price);
+  return `<span class="price-tag has-tooltip" ${tooltipAttrs(`${tier.range} — ${tier.description}`)}>${escapeHtml(price)}</span>`;
 }
 
 function ratingClass(rating) {
@@ -75,9 +92,22 @@ function socialButtonsHtml() {
   return ""; // filled client-side by js/common.js via [data-socials]
 }
 
-function renderReviewPage(place) {
+// Small inline 0-10 meter for the Taste/Value/Atmosphere/Service breakdown.
+function scoreRowHtml(label, value) {
+  if (value === undefined || value === null) return "";
+  const pct = Math.max(0, Math.min(100, (value / 10) * 100));
+  return `
+    <div class="score-row">
+      <span class="score-label">${escapeHtml(label)}</span>
+      <div class="score-bar"><div class="score-bar-fill" style="width:${pct}%"></div></div>
+      <span class="score-value">${value}/10</span>
+    </div>`;
+}
+
+function renderReviewPage(place, relatedPosts) {
   const cls = ratingClass(place.rating);
-  const title = `${place.name} Review: ${place.rating}/10 in ${place.city} | Eat With Sam K`;
+  const year = place.date ? new Date(place.date + "T12:00:00").getFullYear() : new Date().getFullYear();
+  const title = `${place.name} Review (${year}): ${place.rating}/10 in ${place.city} | Eat With Sam K`;
   const description = `${truncate(place.ate, 140)} Sam K's rating: ${place.rating}/10.`;
   const canonical = reviewUrl(place);
   const ogImage = `${SITE_URL}/images/logo.png`;
@@ -87,13 +117,53 @@ function renderReviewPage(place) {
   const tagsHtml = (place.tags || [])
     .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
     .join("");
-  const badgesHtml = (place.badges || [])
-    .map((key) => BADGES[key])
-    .filter(Boolean)
-    .map((b) => `<span class="badge-pill" title="${escapeHtml(b.description)}">${b.emoji} ${escapeHtml(b.label)}</span>`)
+  const greatForBadges = (place.badges || []).map((key) => BADGES[key]).filter(Boolean);
+  const badgesHtml = greatForBadges
+    .map((b) => `<span class="badge-pill has-tooltip" ${tooltipAttrs(b.description)}>${b.emoji} ${escapeHtml(b.label)}</span>`)
     .join("");
   // Strip tracking query params (?igsh=...) for a clean embed permalink.
   const videoPermalink = place.video ? place.video.split("?")[0] : "";
+  const photosHtml = (place.photos || [])
+    .map((p) => `<img src="../${p.src}" alt="${escapeAttr(p.alt || place.name)}" loading="lazy" />`)
+    .join("");
+
+  const quickFactsHtml = `
+    <ul class="quick-facts">
+      <li>⭐ <strong>Overall:</strong> ${place.rating}/10</li>
+      <li>📍 <strong>Address:</strong> ${escapeHtml(place.address)}</li>
+      ${place.price ? `<li>💰 <strong>Price:</strong> ${priceTagHtml(place.price)}</li>` : ""}
+      ${place.cuisine ? `<li>🍽️ <strong>Cuisine:</strong> ${escapeHtml(place.cuisine)}</li>` : ""}
+    </ul>
+    ${greatForBadges.length ? `<p class="quick-facts-label">❤️ <strong>Great For:</strong></p><div class="badge-row">${badgesHtml}</div>` : ""}`;
+
+  const scores = place.scores || {};
+  const breakdownHtml = [
+    scoreRowHtml("Taste", scores.taste),
+    scoreRowHtml("Value", scores.value),
+    scoreRowHtml("Atmosphere", scores.atmosphere),
+    scoreRowHtml("Service", scores.service),
+  ].join("");
+  const hasBreakdown = Object.keys(scores).length > 0;
+
+  const hasProsOrCons = (place.pros && place.pros.length) || (place.cons && place.cons.length);
+  const prosConsHtml = hasProsOrCons
+    ? `
+    <div class="pros-cons">
+      ${place.pros && place.pros.length ? `<div class="pros"><h3>👍 Pros</h3><ul>${place.pros.map((p) => `<li>${escapeHtml(p)}</li>`).join("")}</ul></div>` : ""}
+      ${place.cons && place.cons.length ? `<div class="cons"><h3>👎 Cons</h3><ul>${place.cons.map((c) => `<li>${escapeHtml(c)}</li>`).join("")}</ul></div>` : ""}
+    </div>`
+    : "";
+
+  const relatedHtml = relatedPosts.length
+    ? `
+    <div class="reveal">
+      <h2 class="review-section-title">Related Articles</h2>
+      <p class="review-about">${escapeHtml(place.name)} appears on:</p>
+      <ul class="related-articles">
+        ${relatedPosts.map((post) => `<li><a href="../post.html?id=${post.id}">${escapeHtml(post.title)}</a></li>`).join("")}
+      </ul>
+    </div>`
+    : "";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -110,6 +180,8 @@ function renderReviewPage(place) {
     ...(place.about ? { description: place.about } : {}),
     ...(place.phone ? { telephone: place.phone } : {}),
     ...(place.website ? { url: place.website } : {}),
+    ...(place.price ? { priceRange: place.price } : {}),
+    ...(place.cuisine ? { servesCuisine: place.cuisine } : {}),
     ...(place.lat && place.lng
       ? { geo: { "@type": "GeoCoordinates", latitude: place.lat, longitude: place.lng } }
       : {}),
@@ -178,7 +250,7 @@ function renderReviewPage(place) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=7" />
+  <link rel="stylesheet" href="../css/style.css?v=11" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -188,11 +260,7 @@ function renderReviewPage(place) {
   <header class="site-header">
     <div class="header-inner">
       <a class="logo" href="../index.html"><img class="logo-img" src="../images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
-      <nav class="main-nav">
-        <a href="../index.html">Home</a>
-        <a href="../reviews.html" class="active">Reviews</a>
-        <a href="../blog.html">Blog</a>
-      </nav>
+      <nav class="main-nav" data-nav="reviews" data-prefix="../"></nav>
       <div class="social-row" data-socials></div>
     </div>
   </header>
@@ -207,18 +275,31 @@ function renderReviewPage(place) {
     <div class="review-hero">
       <div class="rating-badge rating-badge-lg ${cls}">${place.rating}<small>/ 10</small></div>
       <div>
-        <h1>${escapeHtml(place.name)}</h1>
+        <h1>${escapeHtml(place.name)} Review (${year})</h1>
         <p class="card-city">📍 ${escapeHtml(place.city)}</p>
       </div>
     </div>
-    ${badgesHtml ? `<div class="badge-row">${badgesHtml}</div>` : ""}
     ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ""}
+
+    <div class="reveal quick-facts-card">${quickFactsHtml}</div>
+
+    ${place.quickTake ? `<div class="reveal"><h2 class="review-section-title">Quick Take</h2><p class="review-about">${escapeHtml(place.quickTake)}</p></div>` : ""}
+
+    ${videoPermalink ? `
+    <div class="reveal">
+      <h2 class="review-section-title">My Video Review</h2>
+      <div class="ig-embed">
+        <blockquote class="instagram-media" data-instgrm-permalink="${videoPermalink}" data-instgrm-version="14"></blockquote>
+      </div>
+    </div>
+    ` : ""}
 
     ${place.about ? `<div class="reveal"><h2 class="review-section-title">About ${escapeHtml(place.name)}</h2><p class="review-about">${escapeHtml(place.about)}</p></div>` : ""}
 
-    <h2 class="review-section-title">Sam's Review</h2>
+    <h2 class="review-section-title">What I Ordered</h2>
+    ${photosHtml ? `<div class="review-photos reveal">${photosHtml}</div>` : ""}
     <article class="place-card" style="margin: 12px 0 22px;">
-      <p class="card-ate"><strong>What I ate:</strong> ${escapeHtml(place.ate)}</p>
+      <p class="card-ate">${escapeHtml(place.ate)}</p>
       <div class="card-contact">
         <span>🏠 ${escapeHtml(place.address)}</span>
         ${place.phone ? `<span>📞 <a href="tel:${telDigits}">${escapeHtml(place.phone)}</a></span>` : ""}
@@ -232,31 +313,32 @@ function renderReviewPage(place) {
       </div>
     </article>
 
-    ${videoPermalink ? `
+    ${hasBreakdown ? `
     <div class="reveal">
-      <h2 class="review-section-title">See It In Action</h2>
-      <div class="ig-embed">
-        <blockquote class="instagram-media" data-instgrm-permalink="${videoPermalink}" data-instgrm-version="14"></blockquote>
-      </div>
+      <h2 class="review-section-title">The Breakdown</h2>
+      <div class="score-grid">${breakdownHtml}</div>
     </div>
     ` : ""}
+
+    ${hasProsOrCons ? `<div class="reveal"><h2 class="review-section-title">Pros &amp; Cons</h2>${prosConsHtml}</div>` : ""}
+
+    <div class="reveal final-rating">
+      <h2 class="review-section-title">Final Rating</h2>
+      <div class="rating-badge rating-badge-lg ${cls}">${place.rating}<small>/ 10</small></div>
+    </div>
+
+    ${relatedHtml}
 
     <h2 class="review-section-title">Find it on the map</h2>
     <div id="map" class="review-map"></div>
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <a class="logo" href="../index.html"><img class="logo-img" src="../images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
-      <div class="social-row" data-socials></div>
-      <p class="footer-note">© <span id="year"></span> Eat With Sam K · All reviews are my own — I pay for every meal.</p>
-    </div>
-  </footer>
+  <footer class="site-footer" data-footer data-prefix="../"></footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
-  <script src="../js/data.js?v=4"></script>
-  <script src="../js/common.js?v=7"></script>
+  <script src="../js/data.js?v=6"></script>
+  <script src="../js/common.js?v=10"></script>
   <script>
     var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
@@ -285,6 +367,8 @@ function renderSitemap() {
     { loc: `${SITE_URL}/index.html`, priority: "1.0" },
     { loc: `${SITE_URL}/reviews.html`, priority: "0.9" },
     { loc: `${SITE_URL}/blog.html`, priority: "0.8" },
+    { loc: `${SITE_URL}/about.html`, priority: "0.5" },
+    { loc: `${SITE_URL}/privacy.html`, priority: "0.2" },
     ...PLACES.map((p) => ({ loc: reviewUrl(p), priority: "0.9" })),
     ...BLOG_POSTS.map((post) => ({ loc: `${SITE_URL}/post.html?id=${post.id}`, priority: "0.6" })),
   ];
@@ -310,8 +394,9 @@ for (const f of fs.readdirSync(reviewsDir)) {
 }
 
 for (const place of PLACES) {
+  const relatedPosts = BLOG_POSTS.filter((post) => post.places && post.places.includes(place.id));
   const outPath = path.join(reviewsDir, `${place.id}.html`);
-  fs.writeFileSync(outPath, renderReviewPage(place));
+  fs.writeFileSync(outPath, renderReviewPage(place, relatedPosts));
   console.log(`wrote reviews/${place.id}.html`);
 }
 

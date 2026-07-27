@@ -10,6 +10,8 @@ Your food review site: an interactive map of every place you've rated, plus a bl
 | `reviews.html` | **All** reviews — searchable, sortable, full list |
 | `reviews/<id>.html` | One SEO-optimized landing page per place (auto-generated) |
 | `blog.html` / `post.html` | Your city guides and food blog posts |
+| `about.html` | Your About page — nav tab, bio, how you rate, socials |
+| `privacy.html` | Privacy policy (required by Google AdSense's program policies) — linked from every footer |
 
 ## The three things you'll edit
 
@@ -32,12 +34,24 @@ You never need to touch the HTML or CSS.
    - **rating** — your score out of 10 (decimals fine, e.g. `8.7`).
    - **video** — the share link to your Instagram review reel. This also gets embedded directly on the review page (playable, with likes/comments) — no separate photo upload needed.
    - **date** *(optional)* — `"YYYY-MM-DD"`, the day you reviewed it. Controls what counts as "recent" on the homepage and the default sort on the Reviews page. Skip it and the place just falls back to its position in the list (newest pasted at the top = most recent).
-   - **badges** *(optional)* — an array of badge keys, e.g. `badges: ["family-friendly", "date-night"]`. Shows as gold pills on the card and review page. See the full badge list below — only add one when it's genuinely true, not on every place.
+   - **badges** *(optional)* — an array of badge keys, e.g. `badges: ["family-friendly", "date-night"]`. Shows as gold pills on the card and review page ("Great For" section). See the full badge list below — only add one when it's genuinely true, not on every place.
+   - **price** *(optional)* — `"$"`, `"$$"`, `"$$$"`, or `"$$$$"`. Shows in the review page's quick-facts block; hovering it pops up what that tier means (cost range + description) — see "Price tooltips" below.
+   - **cuisine** *(optional)* — e.g. `"Pizza"`, `"BBQ"`. Also shows in quick facts.
+   - **quickTake** *(optional)* — a short TL;DR paragraph, shown right up top under "Quick Take" — your honest one-paragraph verdict.
+   - **photos** *(optional)* — an array of `{ src, alt }`, e.g. `photos: [{ src: "images/reviews/my-place/dish.jpg", alt: "The burger" }]`. Shown as a photo grid under "What I Ordered." Drop your photo files in `images/reviews/<place-id>/` and reference them here.
+   - **scores** *(optional)* — `{ taste, value, atmosphere, service }`, each 0–10. Renders as "The Breakdown" with visual bars. Leave it out entirely and that section just won't appear.
+   - **pros** / **cons** *(optional)* — arrays of short strings, e.g. `pros: ["Great heat variety", "Fast service"]`. Renders as a "Pros & Cons" section; only shows if at least one of the two has entries.
    - **id** — any unique short name, like `"lous-burgers-denver"`. This becomes the review's URL.
 4. **Run the review-page generator** (see below) so the new place gets its own SEO-optimized page.
 5. Refresh the site — the marker, homepage's Recent Reviews, the full Reviews page, stats, and the dedicated review page all update automatically.
 
 Marker colors: green = 9.0+, orange = 8.0–8.9, gold = below 8.
+
+## The internal-linking "magic" — Related Articles
+
+Every review page can automatically show a **Related Articles** section linking back to any blog post that features that place — the same restaurant might appear in "Best Pizza in Nashville," "Best Date Night Restaurants," and "Best Downtown Restaurants" all at once, each one linking back to its review page. Google reads this kind of cross-linking as a strong signal for which pages on your site are related and authoritative.
+
+To wire it up: add a `places: ["place-id", "place-id"]` array to a blog post in `js/blog-data.js`, listing the ids (from `js/data.js`) of every place that post covers. Nothing else to do — the next time you run `node generate-reviews.js`, every place in that list gets a "Related Articles" entry pointing at the post, automatically. Leave `places` off a post entirely and nothing changes (no broken or empty section appears).
 
 ## Badges
 
@@ -65,11 +79,17 @@ Want a new badge? Add an entry to `BADGES` in `js/data.js` (emoji, label, descri
 
 **On Prince St. Pizza:** I only added `family-friendly` — it's a genuinely fast-casual, walk-up-and-order pizza-by-the-slice concept, which fits cleanly. I held off on the others based on what I could verify: it's a well-known, buzzy NYC chain (not really a "hidden gem"), a 7.4 rating doesn't support "Sam's Favorite," it's counter-service rather than a sit-down atmosphere (not really "date night"), and I couldn't confirm a dog policy, actual wait times at this specific location, or a clear value comparison. There is a confirmed ~300 sq ft patio, so `best-patio` is a reasonable candidate once you've actually experienced it — that one's your call.
 
+## Tooltips (badges & price)
+
+Both badge pills and `$` price tags use the same hover-tooltip style — a small dark bubble that appears above whatever you're hovering, showing the full description. There's no visible legend/table anywhere on the site anymore; the price guide only exists as this hover text (defined once, in `PRICE_GUIDE` in `js/data.js`), and every `$`/`$$`/`$$$`/`$$$$` mention across the whole site — review pages and blog posts alike — automatically gets it. Nothing to maintain when you add a new price mention in a blog post: just wrap it the same way the existing posts do (`<span class="price-tag has-tooltip" data-tooltip="..." aria-label="..." tabindex="0">$$</span>`), matching the tier text in `PRICE_GUIDE`.
+
 ## Photos & video
 
-Every review page shows the actual Instagram reel you filmed there, embedded and playable — pulled straight from the `video` link already in `js/data.js`, so there's nothing extra to upload. It's your own content, so there's no copyright concern.
+Every review page shows the actual Instagram reel you filmed there, embedded and playable — pulled straight from the `video` link already in `js/data.js`, so there's nothing extra to upload. It's your own content, so there's no copyright concern. It shows near the top of the page (right under "Quick Take"), since it's usually the best proof of what a place is actually like.
 
-For restaurants you write about but haven't personally photographed (like a multi-restaurant blog roundup), the same approach applies: embed the restaurant's *own* official Instagram post rather than downloading and rehosting a photo from Google, Yelp, or their website. Grabbing someone else's photo and hosting it directly on a site that runs ads is a real copyright risk, not just a technicality — embedding keeps the image on Instagram's servers with full attribution to whoever posted it, which is the legally clean way to do this.
+You can also add your own photos with the `photos` field (see above) — drop the files in `images/reviews/<place-id>/` and they'll show as a gallery under "What I Ordered." These are your own photos, so — same as the video — no copyright concern.
+
+For restaurants you write about but haven't personally photographed (like a multi-restaurant blog roundup), a different approach applies: embed the restaurant's *own* official Instagram post rather than downloading and rehosting a photo from Google, Yelp, or their website. Grabbing someone else's photo and hosting it directly on a site that runs ads is a real copyright risk, not just a technicality — embedding keeps the image on Instagram's servers with full attribution to whoever posted it, which is the legally clean way to do this.
 
 ## ⭐ Every review gets its own page (and is optimized for Google)
 
@@ -91,6 +111,18 @@ This rebuilds every file in `reviews/`, plus `sitemap.xml` and `robots.txt`, fro
 Google Analytics (`G-2V4D6ZQV6Q`) and Google AdSense (`ca-pub-7072826210873110`) are both wired into every page: `index.html`, `reviews.html`, `blog.html`, `post.html`, and the `generate-reviews.js` template (so every generated `reviews/<id>.html` page gets them too). You don't need to touch these — they're already live.
 
 **On ads:** the script we added enables **Auto ads** — once you turn that on in your AdSense account (Ads → Overview → Auto ads, toggle "On" for this site), Google automatically places ad units in good spots across every page with no further code changes. If you'd rather control exact placement yourself (e.g. an ad between the review and the map on `reviews/<id>.html`), come back and ask — that needs a real ad-unit slot ID from your AdSense dashboard first.
+
+## Nav, footer & About page
+
+The top nav and site footer are **shared components**, not copy-pasted per page — each HTML page just has an empty `<nav class="main-nav" data-nav="..."></nav>` and `<footer class="site-footer" data-footer></footer>`, and `js/common.js` fills both in at runtime from one place (`NAV_LINKS` and `footerHtml()`). This means adding, renaming, or reordering a nav link, or changing anything in the footer, is a one-line edit in `js/common.js` — it updates everywhere instantly, including every auto-generated `reviews/<id>.html` page.
+
+- The `data-nav="home"` / `"reviews"` / `"blog"` / `"about"` value tells it which tab to highlight as active. Leave it blank (as on `privacy.html`) for a page that isn't part of the primary nav.
+- Pages inside a subfolder (`reviews/<id>.html`) add `data-prefix="../"` so the generated links point back up correctly.
+- The footer has three columns — brand/tagline/socials, an Explore link list, and a newsletter signup — plus a bottom bar with the copyright and a Privacy Policy link.
+
+**About page (`about.html`):** everything on it is real except one paragraph — right under the hero, there's a placeholder marked `[TODO — Sam: replace this paragraph with your own story...]`. Open the file and swap in your own couple of sentences whenever you're ready; nothing else on the page needs editing. The "photo" next to your name is currently just the site logo as a placeholder — swap `images/logo.png` for an actual photo of yourself in the hero whenever you have one you like.
+
+**Newsletter signup:** the footer has a working email input + "Subscribe" button, but it isn't connected to a real email service yet — submitting it currently shows an honest "launching soon" message rather than pretending to collect the signup (a fake-success form felt worse than no form at all). Once you pick a service — Mailchimp, ConvertKit, Beehiiv, Substack, etc. — the form in `js/common.js` (`newsletterHtml`/the `[data-newsletter]` handler) just needs to point at that service's real signup endpoint. Say the word whenever you've decided and this gets wired up for real.
 
 ## Motion & animation
 

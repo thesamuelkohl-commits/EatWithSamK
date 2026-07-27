@@ -15,6 +15,68 @@ const SOCIAL_LABELS = {
   youtube: "YouTube Shorts",
 };
 
+/* ---------- Shared nav + footer ----------
+   Every page has an empty `<nav data-nav="home">` and
+   `<footer data-footer>` — common.js fills both in, so adding a new
+   page (like "About") only means editing NAV_LINKS once here instead
+   of five separate HTML files. `data-prefix="../"` is used on pages
+   one directory deep (reviews/<id>.html) so links still resolve. */
+
+const NAV_LINKS = [
+  { id: "home", label: "Home", href: "index.html" },
+  { id: "reviews", label: "Reviews", href: "reviews.html" },
+  { id: "blog", label: "Blog", href: "blog.html" },
+  { id: "about", label: "About", href: "about.html" },
+];
+
+document.querySelectorAll("[data-nav]").forEach((nav) => {
+  const current = nav.dataset.nav;
+  const prefix = nav.dataset.prefix || "";
+  nav.innerHTML = NAV_LINKS.map(
+    (link) => `<a href="${prefix}${link.href}"${link.id === current ? ' class="active"' : ""}>${link.label}</a>`
+  ).join("");
+});
+
+function footerHtml(prefix) {
+  prefix = prefix || "";
+  return `
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="logo" href="${prefix}index.html"><img class="logo-img" src="${prefix}images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+          <p class="footer-tagline" data-tagline></p>
+          <div class="social-row" data-socials></div>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="${prefix}index.html">Home</a>
+          <a href="${prefix}reviews.html">All Reviews</a>
+          <a href="${prefix}blog.html">Blog</a>
+          <a href="${prefix}about.html">About Me</a>
+        </div>
+        <div class="footer-col">
+          <h4>Stay Updated</h4>
+          <p>Get new reviews and city guides sent to your inbox — no spam, just good food.</p>
+          <form class="newsletter-form" data-newsletter>
+            <input type="email" placeholder="Your email" required aria-label="Email address" />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+          <p class="newsletter-note" hidden></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-note">© <span id="year"></span> Eat With Sam K · All reviews are my own — I pay for every meal.</p>
+        <div class="footer-legal"><a href="${prefix}privacy.html">Privacy Policy</a></div>
+      </div>
+    </div>`;
+}
+
+document.querySelectorAll("[data-footer]").forEach((el) => {
+  el.innerHTML = footerHtml(el.dataset.prefix || "");
+});
+
+// Runs after nav/footer are injected above, so it also catches the
+// [data-socials] / [data-tagline] elements that just appeared inside the footer.
 document.querySelectorAll("[data-socials]").forEach((row) => {
   row.innerHTML = Object.entries(SITE.socials)
     .map(
@@ -28,6 +90,20 @@ document.querySelectorAll("[data-tagline]").forEach((el) => (el.textContent = SI
 
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+// Newsletter form isn't wired to a real email service yet — this just gives
+// honest, immediate feedback instead of silently discarding what someone types.
+document.querySelectorAll("[data-newsletter]").forEach((form) => {
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const note = form.parentElement.querySelector(".newsletter-note");
+    if (note) {
+      note.textContent = "Newsletter signup is launching soon — follow on Instagram to stay in the loop for now!";
+      note.hidden = false;
+    }
+    form.reset();
+  });
+});
 
 /* ---------- Shared place helpers (used by app.js and reviews.js) ---------- */
 
@@ -51,14 +127,31 @@ function sortByRecent(places) {
     .map((x) => x.p);
 }
 
+function escapeForAttr(str) {
+  return String(str).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+}
+
+// A styled hover tooltip (not the native browser `title` box) — used for
+// both badge pills and price tags. `aria-label` keeps it accessible.
+function tooltipAttrs(text) {
+  const safe = escapeForAttr(text);
+  return `data-tooltip="${safe}" aria-label="${safe}" tabindex="0"`;
+}
+
 function badgeRowHtml(p) {
   if (!p.badges || !p.badges.length) return "";
   const pills = p.badges
     .map((key) => BADGES[key])
     .filter(Boolean)
-    .map((b) => `<span class="badge-pill" title="${b.description}">${b.emoji} ${b.label}</span>`)
+    .map((b) => `<span class="badge-pill has-tooltip" ${tooltipAttrs(b.description)}>${b.emoji} ${b.label}</span>`)
     .join("");
   return pills ? `<div class="badge-row">${pills}</div>` : "";
+}
+
+function priceTagHtml(price) {
+  const tier = typeof PRICE_GUIDE !== "undefined" ? PRICE_GUIDE[price] : null;
+  if (!tier) return escapeForAttr(price);
+  return `<span class="price-tag has-tooltip" ${tooltipAttrs(`${tier.range} — ${tier.description}`)}>${price}</span>`;
 }
 
 function placeCardHtml(p, opts) {
