@@ -26,6 +26,185 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-pizza-nashville",
+    title: "Best Pizza in Nashville (2026 Updated Guide)",
+    city: "Nashville, TN",
+    date: "2026-07-28",
+    emoji: "🍕",
+    excerpt:
+      "From Five Points Pizza's giant New York-style slices to DeSano's wood-fired Neapolitan pies — the best pizza in Nashville for 2026, ranked with no paid placements.",
+    faq: [
+      {
+        question: "What is the best pizza in Nashville?",
+        answer:
+          "Five Points Pizza, Smith & Lentz, Dicey's Tavern, and DeSano Pizzeria are consistently recognized as some of Nashville's top pizza destinations.",
+      },
+      {
+        question: "Where can I get New York-style pizza in Nashville?",
+        answer:
+          "Five Points Pizza is widely considered one of the best places for authentic New York-style pizza in the city.",
+      },
+      {
+        question: "Where can I find authentic Neapolitan pizza?",
+        answer:
+          "DeSano Pizzeria Napoletana is one of Nashville's best choices for authentic wood-fired Neapolitan pizza.",
+      },
+      {
+        question: "What is the best Detroit-style pizza in Nashville?",
+        answer:
+          "Emmy Squared Pizza is the city's standout destination for Detroit-style pizza.",
+      },
+    ],
+    content: `
+      <p>Searching for the best pizza in Nashville? Whether you're craving a classic New York-style slice, authentic Neapolitan pizza, Detroit-style, or a creative local favorite, this guide highlights some of the top pizza restaurants in Music City.</p>
+      <p>Nashville's pizza scene has exploded over the past few years. While the city is famous for hot chicken, it's also home to incredible pizzerias serving everything from perfectly charred wood-fired pies to giant New York-style slices.</p>
+      <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept paid reviews or exchange positive ratings for free food. Every recommendation is based on my honest experience, and this guide will continue to grow as I review more pizza restaurants throughout Nashville.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>Quick List: Best Pizza in Nashville (2026)</h2>
+      <ul>
+        <li><strong>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></strong></li>
+        <li><strong>2. <a href="https://www.smithandlentz.com/" target="_blank" rel="noopener">Smith & Lentz</a></strong></li>
+        <li><strong>3. <a href="https://www.diceystavern.com/nashville" target="_blank" rel="noopener">Dicey's Tavern</a></strong></li>
+        <li><strong>4. <a href="https://slimandhuskys.com/" target="_blank" rel="noopener">Slim & Husky's Pizza Beeria</a></strong></li>
+        <li><strong>5. <a href="https://desanopizza.com/desanonashville" target="_blank" rel="noopener">DeSano Pizzeria Napoletana</a></strong></li>
+        <li><strong>6. <a href="https://www.nickysnashville.com/" target="_blank" rel="noopener">Nicky's Coal Fired</a></strong></li>
+        <li><strong>7. <a href="https://www.emmysquaredpizza.com/" target="_blank" rel="noopener">Emmy Squared Pizza</a></strong></li>
+        <li><strong>8. <a href="https://bellanapolipizzeria.com/" target="_blank" rel="noopener">Bella Napoli Pizzeria</a></strong></li>
+        <li><strong>9. <a href="https://pennepazze.net/" target="_blank" rel="noopener">PennePazze</a></strong></li>
+        <li><strong>10. <a href="https://www.tailgatebeer.com/" target="_blank" rel="noopener">TailGate Brewery</a></strong></li>
+      </ul>
+
+      <h2>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h2>
+      <p><strong>Best For:</strong> New York-Style Pizza</p>
+      <p>Five Points Pizza has become one of Nashville's most iconic pizza destinations. Known for its massive New York-style slices, perfectly crisp crust, and quality ingredients, it's a must-visit whether you're grabbing a quick lunch or a late-night bite.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Pepperoni Slice</li>
+        <li>Cheese Pizza</li>
+        <li>Garlic Knots</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTPJFpFsAU/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>2. <a href="https://www.smithandlentz.com/" target="_blank" rel="noopener">Smith & Lentz</a></h2>
+      <p><strong>Best For:</strong> Artisan Pizza</p>
+      <p>Originally known for its brewery, Smith & Lentz has developed a reputation for serving some of the city's best artisan pizzas. Their naturally fermented dough creates a light, airy crust with outstanding flavor.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Margherita</li>
+        <li>Pepperoni</li>
+        <li>Seasonal Specials</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Da8lt7QFn11/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>3. <a href="https://www.diceystavern.com/nashville" target="_blank" rel="noopener">Dicey's Tavern</a></h2>
+      <p><strong>Best For:</strong> Thin Crust Pizza</p>
+      <p>Dicey's Tavern has quickly become one of Nashville's favorite neighborhood pizza spots. Their crispy, tavern-style pizzas are perfect for sharing alongside a drink.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Tavern Pepperoni</li>
+        <li>House Special</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>4. <a href="https://slimandhuskys.com/" target="_blank" rel="noopener">Slim & Husky's Pizza Beeria</a></h2>
+      <p><strong>Best For:</strong> Custom Pizza</p>
+      <p>Slim & Husky's offers a fun build-your-own concept while also serving signature pizzas packed with flavor. It's one of Nashville's most recognizable local pizza brands.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Cee No Green</li>
+        <li>Rony, Roni, Rone</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DW1MzmhjZjj/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>5. <a href="https://desanopizza.com/desanonashville" target="_blank" rel="noopener">DeSano Pizzeria Napoletana</a></h2>
+      <p><strong>Best For:</strong> Authentic Neapolitan Pizza</p>
+      <p>If you're looking for authentic Italian pizza, DeSano is one of the closest experiences you'll find in Nashville. Imported ingredients and wood-fired ovens produce soft, flavorful pizzas with beautifully blistered crusts.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Margherita</li>
+        <li>San Gennaro</li>
+        <li>Calabrese</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>6. <a href="https://www.nickysnashville.com/" target="_blank" rel="noopener">Nicky's Coal Fired</a></h2>
+      <p>Coal-fired ovens give Nicky's pizzas a unique texture and smoky flavor. Their handcrafted pizzas pair perfectly with fresh pasta and Italian-inspired appetizers.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60 — Upscale dining, steakhouses, nicer date nights" aria-label="$30–60 — Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DQKd0vCESML/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>7. <a href="https://www.emmysquaredpizza.com/" target="_blank" rel="noopener">Emmy Squared Pizza</a></h2>
+      <p>Known for its Detroit-style pizza, Emmy Squared serves thick, crispy, cheesy square slices loaded with premium toppings.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Colony Pizza</li>
+        <li>MVP Pizza</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60 — Upscale dining, steakhouses, nicer date nights" aria-label="$30–60 — Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DbRGWAlzQci/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>8. <a href="https://bellanapolipizzeria.com/" target="_blank" rel="noopener">Bella Napoli Pizzeria</a></h2>
+      <p>Bella Napoli has become a local favorite for authentic Italian-style pizza served in a cozy neighborhood atmosphere.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbHOZkVRf0x/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>9. <a href="https://pennepazze.net/" target="_blank" rel="noopener">PennePazze</a></h2>
+      <p>PennePazze combines authentic Italian recipes with high-quality ingredients, creating wood-fired pizzas that continue to earn praise from Nashville diners.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbMURtZH7wo/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>10. <a href="https://www.tailgatebeer.com/" target="_blank" rel="noopener">TailGate Brewery</a></h2>
+      <p>TailGate Brewery serves excellent craft beer alongside one of the city's most underrated pizza menus. With multiple locations around Nashville, it's a great casual option.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Hot Honey Pepperoni</li>
+        <li>Buffalo Chicken Pizza</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTSASnk3vf/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>How I Rate Every Pizza</h2>
+      <p>Every pizza reviewed on Eat With Sam K is scored using the same criteria:</p>
+      <ul>
+        <li>🍕 Taste</li>
+        <li>💰 Value</li>
+        <li>🧀 Quality of Ingredients</li>
+        <li>👨‍🍳 Service</li>
+        <li>🏠 Atmosphere</li>
+      </ul>
+      <p>This consistent rating system makes it easy to compare restaurants fairly.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What is the best pizza in Nashville?</strong></p>
+      <p>Five Points Pizza, Smith & Lentz, Dicey's Tavern, and DeSano Pizzeria are consistently recognized as some of Nashville's top pizza destinations.</p>
+      <p><strong>Where can I get New York-style pizza in Nashville?</strong></p>
+      <p>Five Points Pizza is widely considered one of the best places for authentic New York-style pizza in the city.</p>
+      <p><strong>Where can I find authentic Neapolitan pizza?</strong></p>
+      <p>DeSano Pizzeria Napoletana is one of Nashville's best choices for authentic wood-fired Neapolitan pizza.</p>
+      <p><strong>What is the best Detroit-style pizza in Nashville?</strong></p>
+      <p>Emmy Squared Pizza is the city's standout destination for Detroit-style pizza.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Whether you're looking for a giant New York slice, an authentic Neapolitan pizza, or a crispy Detroit-style pie, Nashville has no shortage of outstanding pizza restaurants.</p>
+      <p>As I continue visiting more restaurants across the city, this guide will be updated with new rankings, detailed reviews, and hidden gems. My goal is to make Eat With Sam K the most trusted resource for finding the best pizza in Nashville.</p>
+      <p><em>Last Updated: July 2026</em></p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
+        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
+        <li>Best Hot Chicken in Nashville <em>(coming soon)</em></li>
+        <li>Best Brunch in Nashville <em>(coming soon)</em></li>
+        <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
+        <li>Best Restaurants Under $20 <em>(coming soon)</em></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-burgers-nashville",
     title: "Best Burgers in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
@@ -177,7 +356,7 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li>Best Pizza in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
         <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
         <li>Best Hot Chicken in Nashville <em>(coming soon)</em></li>
         <li>Best Brunch in Nashville <em>(coming soon)</em></li>
@@ -330,7 +509,7 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li>Best Pizza in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
         <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
         <li>Best Hot Chicken in Nashville <em>(coming soon)</em></li>
         <li>Best Brunch in Nashville <em>(coming soon)</em></li>
