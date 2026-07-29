@@ -24,8 +24,9 @@ const SOCIAL_LABELS = {
 
 const NAV_LINKS = [
   { id: "home", label: "Home", href: "index.html" },
+  { id: "map", label: "Map", href: "map.html" },
   { id: "reviews", label: "Reviews", href: "reviews.html" },
-  { id: "blog", label: "Blog", href: "blog.html" },
+  { id: "blog", label: "Best Of", href: "blog.html" },
   { id: "about", label: "About", href: "about.html" },
 ];
 
@@ -50,8 +51,9 @@ function footerHtml(prefix) {
         <div class="footer-col">
           <h4>Explore</h4>
           <a href="${prefix}index.html">Home</a>
+          <a href="${prefix}map.html">Map</a>
           <a href="${prefix}reviews.html">All Reviews</a>
-          <a href="${prefix}blog.html">Blog</a>
+          <a href="${prefix}blog.html">Best Of</a>
           <a href="${prefix}about.html">About Me</a>
         </div>
         <div class="footer-col">
@@ -181,6 +183,70 @@ function placeCardHtml(p, opts) {
       </div>
       <a class="read-more" href="reviews/${p.id}.html">Read full review →</a>
     </article>`;
+}
+
+/* ---------- Shared map (used by app.js on the homepage and js/map.js on
+   the dedicated Map page) ---------- */
+
+function initPlacesMap(containerId, places) {
+  // Sane default view immediately — fitAllPlaces() refines it once the
+  // container has a real size.
+  const map = L.map(containerId, { scrollWheelZoom: false }).setView([39.8, -98.5], 4);
+
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
+    attribution:
+      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    maxZoom: 19,
+  }).addTo(map);
+
+  const markers = {};
+
+  places.forEach((place) => {
+    const icon = L.divIcon({
+      className: "",
+      html: `<div class="rating-marker ${ratingClass(place.rating)}"><span>${place.rating}</span></div>`,
+      iconSize: [44, 44],
+      iconAnchor: [22, 44],
+      popupAnchor: [0, -44],
+    });
+
+    const marker = L.marker([place.lat, place.lng], { icon }).addTo(map);
+    marker.bindPopup(`
+      <div class="popup-title">${place.name}</div>
+      <div class="popup-city">📍 ${place.city}</div>
+      <div class="popup-rating">★ ${place.rating}/10</div>
+      <a class="popup-link" href="${place.video}" target="_blank" rel="noopener">▶ Watch my review</a><br>
+      <a class="popup-link" href="reviews/${place.id}.html">📖 Full review</a>
+    `);
+    markers[place.id] = marker;
+  });
+
+  function fitAllPlaces() {
+    map.invalidateSize();
+    const size = map.getSize();
+    if (!size.x || !size.y) return; // container hidden — wait for a real size
+    if (places.length) {
+      map.fitBounds(
+        L.latLngBounds(places.map((p) => [p.lat, p.lng])),
+        { padding: [50, 50], maxZoom: 14 }
+      );
+    } else {
+      map.setView([39.8, -98.5], 4);
+    }
+  }
+
+  // Keep the map fitted to all places while the page layout settles —
+  // fitting before the container has its final size zooms to a meaningless
+  // spot. Stops as soon as the user touches the map.
+  fitAllPlaces();
+  const mapEl = document.getElementById(containerId);
+  const autoFit = new ResizeObserver(fitAllPlaces);
+  autoFit.observe(mapEl);
+  const stopAutoFit = () => autoFit.disconnect();
+  mapEl.addEventListener("pointerdown", stopAutoFit, { once: true });
+  mapEl.addEventListener("wheel", stopAutoFit, { once: true });
+
+  return { map, markers, fitAllPlaces, stopAutoFit };
 }
 
 /* ---------- Shared blog helpers (used by blog.html and app.js) ---------- */

@@ -200,6 +200,8 @@ a { color: var(--red); }
   z-index: 1;
 }
 
+.map-page-section #map { height: 75vh; min-height: 520px; }
+
 .rating-marker {
   background: var(--red);
   color: #fff;
@@ -269,6 +271,71 @@ a { color: var(--red); }
   background: var(--card);
   cursor: pointer;
   outline: none;
+}
+
+/* ---------- Filters panel (reviews.html) ---------- */
+.filters-panel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 22px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  margin-bottom: 22px;
+}
+
+.filter-group { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+
+.filter-group-label {
+  font-weight: 800;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.filter-select {
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: 0.88rem;
+  background: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.filter-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+
+.filter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #fff;
+  border: 1px solid var(--line);
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 5px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.filter-pill:hover { transform: translateY(-1px); }
+
+.filter-pill.active {
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+}
+
+.filters-clear {
+  margin-left: auto;
+  padding: 7px 16px;
+  font-size: 0.85rem;
 }
 
 /* ---------- Place cards ---------- */
@@ -777,6 +844,7 @@ a { color: var(--red); }
 @media (max-width: 720px) {
   .header-inner { flex-wrap: wrap; justify-content: center; }
   #map { height: 380px; }
+  .map-page-section #map { height: 60vh; min-height: 380px; }
   .toolbar h2 { width: 100%; }
   .search-input { flex: 1; }
 }
