@@ -338,7 +338,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
   <script src="../js/data.js?v=6"></script>
-  <script src="../js/common.js?v=11"></script>
+  <script src="../js/common.js?v=12"></script>
   <script>
     var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
@@ -367,7 +367,7 @@ function renderSitemap() {
     { loc: `${SITE_URL}/index.html`, priority: "1.0" },
     { loc: `${SITE_URL}/map.html`, priority: "0.9" },
     { loc: `${SITE_URL}/reviews.html`, priority: "0.9" },
-    { loc: `${SITE_URL}/blog.html`, priority: "0.8" },
+    { loc: `${SITE_URL}/best-of.html`, priority: "0.8" },
     { loc: `${SITE_URL}/about.html`, priority: "0.5" },
     { loc: `${SITE_URL}/privacy.html`, priority: "0.2" },
     ...PLACES.map((p) => ({ loc: reviewUrl(p), priority: "0.9" })),

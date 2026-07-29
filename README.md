@@ -10,7 +10,7 @@ Your food review site: an interactive map of every place you've rated, plus a bl
 | `map.html` | A dedicated, full-size version of the interactive map — nothing else on the page |
 | `reviews.html` | **All** reviews — searchable, sortable, and filterable by city, cuisine, price, and tags |
 | `reviews/<id>.html` | One SEO-optimized landing page per place (auto-generated) |
-| `blog.html` / `post.html` | Your "Best Of" guides — city round-up lists like "Best Pizza in Nashville" |
+| `best-of.html` / `post.html` | Your "Best Of" guides — city round-up lists like "Best Pizza in Nashville" |
 | `about.html` | Your About page — nav tab, bio, how you rate, socials |
 | `privacy.html` | Privacy policy (required by Google AdSense's program policies) — linked from every footer |
 
@@ -109,7 +109,7 @@ This rebuilds every file in `reviews/`, plus `sitemap.xml` and `robots.txt`, fro
 
 ## Analytics & Ads
 
-Google Analytics (`G-2V4D6ZQV6Q`) and Google AdSense (`ca-pub-7072826210873110`) are both wired into every page: `index.html`, `reviews.html`, `blog.html`, `post.html`, and the `generate-reviews.js` template (so every generated `reviews/<id>.html` page gets them too). You don't need to touch these — they're already live.
+Google Analytics (`G-2V4D6ZQV6Q`) and Google AdSense (`ca-pub-7072826210873110`) are both wired into every page: `index.html`, `reviews.html`, `best-of.html`, `post.html`, and the `generate-reviews.js` template (so every generated `reviews/<id>.html` page gets them too). You don't need to touch these — they're already live.
 
 **On ads:** the script we added enables **Auto ads** — once you turn that on in your AdSense account (Ads → Overview → Auto ads, toggle "On" for this site), Google automatically places ad units in good spots across every page with no further code changes. If you'd rather control exact placement yourself (e.g. an ad between the review and the map on `reviews/<id>.html`), come back and ask — that needs a real ad-unit slot ID from your AdSense dashboard first.
 
@@ -141,7 +141,7 @@ Selecting more than one Price or Tag pill is an **OR** within that row (e.g. pic
 
 ## "Best Of" guides (formerly "Blog")
 
-The nav tab, footer link, and page titles all say **Best Of** now instead of Blog, since every post here is a "Best of [City]" round-up rather than a diary-style blog. This was a text-only rename — the underlying files are still `blog.html`/`post.html` and `js/blog-data.js`, and post URLs (`post.html?id=...`) are unchanged, so nothing about how you write a new post is different (see "Writing a blog post" below).
+The nav tab, footer link, page titles, and URL all say **Best Of** now instead of Blog, since every post here is a "Best of [City]" round-up rather than a diary-style blog — the page itself is `best-of.html` (renamed from `blog.html`). The data file is still `js/blog-data.js` and post URLs (`post.html?id=...`) are unchanged, so nothing about how you write a new post is different (see "Writing a blog post" below).
 
 ## Motion & animation
 
