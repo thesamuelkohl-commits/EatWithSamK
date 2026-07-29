@@ -35,7 +35,7 @@
   <link rel="icon" type="image/png" href="images/favicon.png?v=2" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css?v=11" />
+  <link rel="stylesheet" href="css/style.css?v=13" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -73,13 +73,32 @@
         <option value="city">City A–Z</option>
       </select>
     </div>
+
+    <div class="filters-panel reveal">
+      <div class="filter-group">
+        <span class="filter-group-label">City</span>
+        <select class="filter-select" id="filter-city"></select>
+        <span class="filter-group-label">Cuisine</span>
+        <select class="filter-select" id="filter-cuisine"></select>
+      </div>
+      <div class="filter-group" id="filter-price-group">
+        <span class="filter-group-label">Price</span>
+        <div class="filter-pills" id="filter-price"></div>
+      </div>
+      <div class="filter-group" id="filter-tags-group" hidden>
+        <span class="filter-group-label">Tags</span>
+        <div class="filter-pills" id="filter-tags"></div>
+      </div>
+      <button type="button" class="btn btn-ghost filters-clear" id="filters-clear">Clear Filters</button>
+    </div>
+
     <div class="cards-grid" id="cards"></div>
   </div>
 
   <footer class="site-footer" data-footer></footer>
 
   <script src="js/data.js?v=6"></script>
-  <script src="js/common.js?v=10"></script>
-  <script src="js/reviews.js?v=1"></script>
+  <script src="js/common.js?v=11"></script>
+  <script src="js/reviews.js?v=2"></script>
 </body>
 </html>

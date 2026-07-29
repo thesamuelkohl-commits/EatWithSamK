@@ -250,7 +250,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=11" />
+  <link rel="stylesheet" href="../css/style.css?v=13" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -338,7 +338,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
   <script src="../js/data.js?v=6"></script>
-  <script src="../js/common.js?v=10"></script>
+  <script src="../js/common.js?v=11"></script>
   <script>
     var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
@@ -365,6 +365,7 @@ function renderReviewPage(place, relatedPosts) {
 function renderSitemap() {
   const urls = [
     { loc: `${SITE_URL}/index.html`, priority: "1.0" },
+    { loc: `${SITE_URL}/map.html`, priority: "0.9" },
     { loc: `${SITE_URL}/reviews.html`, priority: "0.9" },
     { loc: `${SITE_URL}/blog.html`, priority: "0.8" },
     { loc: `${SITE_URL}/about.html`, priority: "0.5" },

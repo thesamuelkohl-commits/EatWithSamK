@@ -6,10 +6,11 @@ Your food review site: an interactive map of every place you've rated, plus a bl
 
 | Page | What's on it |
 |---|---|
-| `index.html` (Home) | Map of every place + your **Recent Reviews** (latest 6) + **From the Blog** (latest 3 posts) |
-| `reviews.html` | **All** reviews — searchable, sortable, full list |
+| `index.html` (Home) | Map of every place + your **Recent Reviews** (latest 6) + **Best Of Guides** (latest 3 posts) |
+| `map.html` | A dedicated, full-size version of the interactive map — nothing else on the page |
+| `reviews.html` | **All** reviews — searchable, sortable, and filterable by city, cuisine, price, and tags |
 | `reviews/<id>.html` | One SEO-optimized landing page per place (auto-generated) |
-| `blog.html` / `post.html` | Your city guides and food blog posts |
+| `blog.html` / `post.html` | Your "Best Of" guides — city round-up lists like "Best Pizza in Nashville" |
 | `about.html` | Your About page — nav tab, bio, how you rate, socials |
 | `privacy.html` | Privacy policy (required by Google AdSense's program policies) — linked from every footer |
 
@@ -120,9 +121,27 @@ The top nav and site footer are **shared components**, not copy-pasted per page 
 - Pages inside a subfolder (`reviews/<id>.html`) add `data-prefix="../"` so the generated links point back up correctly.
 - The footer has three columns — brand/tagline/socials, an Explore link list, and a newsletter signup — plus a bottom bar with the copyright and a Privacy Policy link.
 
-**About page (`about.html`):** everything on it is real except one paragraph — right under the hero, there's a placeholder marked `[TODO — Sam: replace this paragraph with your own story...]`. Open the file and swap in your own couple of sentences whenever you're ready; nothing else on the page needs editing. The "photo" next to your name is currently just the site logo as a placeholder — swap `images/logo.png` for an actual photo of yourself in the hero whenever you have one you like.
+**About page (`about.html`):** your story, hero photo, and "Get In Touch" links are all filled in and real.
 
 **Newsletter signup:** the footer has a working email input + "Subscribe" button, but it isn't connected to a real email service yet — submitting it currently shows an honest "launching soon" message rather than pretending to collect the signup (a fake-success form felt worse than no form at all). Once you pick a service — Mailchimp, ConvertKit, Beehiiv, Substack, etc. — the form in `js/common.js` (`newsletterHtml`/the `[data-newsletter]` handler) just needs to point at that service's real signup endpoint. Say the word whenever you've decided and this gets wired up for real.
+
+## Filtering on the Reviews page
+
+`reviews.html` has a filters panel above the results, alongside the existing search box and sort dropdown:
+
+- **City** and **Cuisine** — dropdowns, built automatically from whatever cities/cuisines actually appear in `js/data.js`. Nothing to maintain — add a place with a new city or cuisine and it just shows up as an option.
+- **Price** — always shows all four tiers ($ – $$$$) from `PRICE_GUIDE`, since that's a fixed, site-wide scale.
+- **Tags** — only shows the badges (see "Badges" above) that are actually in use by at least one place, so every visible option can return a result. This row disappears entirely until at least one place has a badge.
+
+Selecting more than one Price or Tag pill is an **OR** within that row (e.g. picking `$` and `$$$` shows places matching either), while City, Cuisine, Price, and Tags together are combined with **AND** (a place has to match all of the filters you've set, plus the search box and sort). "Clear Filters" resets all of it back to showing everything.
+
+## The Map page
+
+`map.html` is a dedicated, full-size version of the interactive map — same markers, same popups (rating, video link, full review), just without the stats/Recent Reviews/Best Of sections that share the homepage with it. Both pages actually share one function, `initPlacesMap()` in `js/common.js`, so a change to how markers or popups look only needs to happen in one place.
+
+## "Best Of" guides (formerly "Blog")
+
+The nav tab, footer link, and page titles all say **Best Of** now instead of Blog, since every post here is a "Best of [City]" round-up rather than a diary-style blog. This was a text-only rename — the underlying files are still `blog.html`/`post.html` and `js/blog-data.js`, and post URLs (`post.html?id=...`) are unchanged, so nothing about how you write a new post is different (see "Writing a blog post" below).
 
 ## Motion & animation
 
