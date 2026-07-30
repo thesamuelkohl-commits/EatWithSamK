@@ -20,7 +20,7 @@ const recent = sortByRecent(PLACES).slice(0, RECENT_COUNT);
 
 cardsEl.innerHTML = recent.length
   ? recent.map((p) => placeCardHtml(p, { showMapJump: true })).join("")
-  : `<div class="no-results">No reviews yet — check back soon. 👀</div>`;
+  : `<div class="no-results">No reviews yet, check back soon. 👀</div>`;
 
 cardsEl.addEventListener("click", (e) => {
   const btn = e.target.closest("[data-map-jump]");
@@ -40,5 +40,5 @@ if (homeBlogEl && typeof BLOG_POSTS !== "undefined") {
     .slice(0, RECENT_POST_COUNT);
   homeBlogEl.innerHTML = recentPosts.length
     ? recentPosts.map(blogCardHtml).join("")
-    : `<div class="no-results">No posts yet — check back soon. 👀</div>`;
+    : `<div class="no-results">No posts yet, check back soon. 👀</div>`;
 }

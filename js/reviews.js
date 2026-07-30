@@ -36,7 +36,7 @@ cuisineEl.innerHTML =
 // Price tiers are a fixed, site-wide vocabulary (PRICE_GUIDE) — show all four
 // regardless of whether every tier is in use yet.
 priceEl.innerHTML = Object.entries(PRICE_GUIDE)
-  .map(([price, tier]) => `<button type="button" class="filter-pill has-tooltip" data-price="${escapeForAttr(price)}" ${tooltipAttrs(`${tier.range} — ${tier.description}`)}>${price}</button>`)
+  .map(([price, tier]) => `<button type="button" class="filter-pill has-tooltip" data-price="${escapeForAttr(price)}" ${tooltipAttrs(`${tier.range}, ${tier.description}`)}>${price}</button>`)
   .join("");
 
 // Tags are the site's badge vocabulary — only show the ones actually used by
@@ -86,7 +86,7 @@ function renderCards() {
   list = sortEl.value === "recent" ? sortByRecent(list) : list.sort(sorters[sortEl.value]);
 
   if (!list.length) {
-    cardsEl.innerHTML = `<div class="no-results">No spots match those filters — try clearing one. 👀</div>`;
+    cardsEl.innerHTML = `<div class="no-results">No spots match those filters, try clearing one. 👀</div>`;
     return;
   }
 

@@ -32,7 +32,7 @@ const BLOG_POSTS = [
     date: "2026-07-28",
     emoji: "🍕",
     excerpt:
-      "From Five Points Pizza's giant New York-style slices to DeSano's wood-fired Neapolitan pies — the best pizza in Nashville for 2026, ranked with no paid placements.",
+      "From Five Points Pizza's giant New York-style slices to DeSano's wood-fired Neapolitan pies, the best pizza in Nashville for 2026, ranked with no paid placements.",
     faq: [
       {
         question: "What is the best pizza in Nashville?",
@@ -84,7 +84,7 @@ const BLOG_POSTS = [
         <li>Cheese Pizza</li>
         <li>Garlic Knots</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTPJFpFsAU/" data-instgrm-version="14"></blockquote></div>
 
       <h2>2. <a href="https://www.smithandlentz.com/" target="_blank" rel="noopener">Smith & Lentz</a></h2>
@@ -96,7 +96,7 @@ const BLOG_POSTS = [
         <li>Pepperoni</li>
         <li>Seasonal Specials</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Da8lt7QFn11/" data-instgrm-version="14"></blockquote></div>
 
       <h2>3. <a href="https://www.diceystavern.com/nashville" target="_blank" rel="noopener">Dicey's Tavern</a></h2>
@@ -107,7 +107,7 @@ const BLOG_POSTS = [
         <li>Tavern Pepperoni</li>
         <li>House Special</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
       <h2>4. <a href="https://slimandhuskys.com/" target="_blank" rel="noopener">Slim & Husky's Pizza Beeria</a></h2>
       <p><strong>Best For:</strong> Custom Pizza</p>
@@ -117,7 +117,7 @@ const BLOG_POSTS = [
         <li>Cee No Green</li>
         <li>Rony, Roni, Rone</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DW1MzmhjZjj/" data-instgrm-version="14"></blockquote></div>
 
       <h2>5. <a href="https://desanopizza.com/desanonashville" target="_blank" rel="noopener">DeSano Pizzeria Napoletana</a></h2>
@@ -129,11 +129,11 @@ const BLOG_POSTS = [
         <li>San Gennaro</li>
         <li>Calabrese</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
       <h2>6. <a href="https://www.nickysnashville.com/" target="_blank" rel="noopener">Nicky's Coal Fired</a></h2>
       <p>Coal-fired ovens give Nicky's pizzas a unique texture and smoky flavor. Their handcrafted pizzas pair perfectly with fresh pasta and Italian-inspired appetizers.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60 — Upscale dining, steakhouses, nicer date nights" aria-label="$30–60 — Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DQKd0vCESML/" data-instgrm-version="14"></blockquote></div>
 
       <h2>7. <a href="https://www.emmysquaredpizza.com/" target="_blank" rel="noopener">Emmy Squared Pizza</a></h2>
@@ -143,17 +143,17 @@ const BLOG_POSTS = [
         <li>Colony Pizza</li>
         <li>MVP Pizza</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60 — Upscale dining, steakhouses, nicer date nights" aria-label="$30–60 — Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DbRGWAlzQci/" data-instgrm-version="14"></blockquote></div>
 
       <h2>8. <a href="https://bellanapolipizzeria.com/" target="_blank" rel="noopener">Bella Napoli Pizzeria</a></h2>
       <p>Bella Napoli has become a local favorite for authentic Italian-style pizza served in a cozy neighborhood atmosphere.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbHOZkVRf0x/" data-instgrm-version="14"></blockquote></div>
 
       <h2>9. <a href="https://pennepazze.net/" target="_blank" rel="noopener">PennePazze</a></h2>
       <p>PennePazze combines authentic Italian recipes with high-quality ingredients, creating wood-fired pizzas that continue to earn praise from Nashville diners.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbMURtZH7wo/" data-instgrm-version="14"></blockquote></div>
 
       <h2>10. <a href="https://www.tailgatebeer.com/" target="_blank" rel="noopener">TailGate Brewery</a></h2>
@@ -163,7 +163,7 @@ const BLOG_POSTS = [
         <li>Hot Honey Pepperoni</li>
         <li>Buffalo Chicken Pizza</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTSASnk3vf/" data-instgrm-version="14"></blockquote></div>
 
       <h2>How I Rate Every Pizza</h2>
@@ -211,7 +211,7 @@ const BLOG_POSTS = [
     date: "2026-07-25",
     emoji: "🍔",
     excerpt:
-      "From Jack Brown's classic joint to Dino's legendary dive-bar cheeseburger — the best burgers in Nashville for 2026, ranked with no paid placements.",
+      "From Jack Brown's classic joint to Dino's legendary dive-bar cheeseburger, the best burgers in Nashville for 2026, ranked with no paid placements.",
     faq: [
       {
         question: "What is the best burger in Nashville?",
@@ -262,7 +262,7 @@ const BLOG_POSTS = [
         <li>Greg Brady Burger</li>
         <li>Sweet Potato Fries</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DaqKhWJoWjl/" data-instgrm-version="14"></blockquote></div>
 
       <h2>2. <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></h2>
@@ -273,7 +273,7 @@ const BLOG_POSTS = [
         <li>Double Smash Burger</li>
         <li>Loaded Fries</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Da09rNYp2es/" data-instgrm-version="14"></blockquote></div>
 
       <h2>3. <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></h2>
@@ -284,7 +284,7 @@ const BLOG_POSTS = [
         <li>Double Dreamburger</li>
         <li>Loaded Fries</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C4Ax8TLunSF/" data-instgrm-version="14"></blockquote></div>
 
       <h2>4. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></h2>
@@ -295,26 +295,26 @@ const BLOG_POSTS = [
         <li>Currywurst</li>
         <li>Hand-Cut Fries</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDhpG9gOeVA/" data-instgrm-version="14"></blockquote></div>
 
       <h2>5. <a href="https://www.hughbabys.com/" target="_blank" rel="noopener">Hugh-Baby's BBQ & Burger Shop</a></h2>
       <p>Founded by Nashville pitmaster Pat Martin (of Martin's Bar-B-Que Joint), Hugh-Baby's serves one of the city's best old-school cheeseburgers at an affordable price.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15 — Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15 — Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DJxLZ0IhlIo/" data-instgrm-version="14"></blockquote></div>
 
       <h2>6. <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></h2>
       <p>Gabby's is one of Nashville's original burger legends. Fresh beef, hand-cut fries, and consistently excellent service keep locals coming back.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30 — Casual dining, local favorites, most restaurants" aria-label="$15–30 — Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
       <h2>7. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></h2>
-      <p>If you're looking for a quality burger that won't break the bank, Grillshack delivers one of the best values in Nashville — fresh ingredients, quick service, and no downtown crowds.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15 — Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15 — Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>If you're looking for a quality burger that won't break the bank, Grillshack delivers one of the best values in Nashville, fresh ingredients, quick service, and no downtown crowds.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CTIJABarj1h/" data-instgrm-version="14"></blockquote></div>
 
       <h2>8. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></h2>
       <p>Part butcher shop, part restaurant, Bare Bones serves premium burgers using high-quality beef prepared in-house.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60 — Upscale dining, steakhouses, nicer date nights" aria-label="$30–60 — Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbLpXewHLSJ/" data-instgrm-version="14"></blockquote></div>
 
       <h2>9. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h2>
@@ -324,7 +324,7 @@ const BLOG_POSTS = [
         <li>Dino's Cheeseburger</li>
         <li>Fries "Joe's Style"</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15 — Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15 — Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
 
       <h2>How I Rate Every Burger</h2>
@@ -372,7 +372,7 @@ const BLOG_POSTS = [
     date: "2026-07-24",
     emoji: "🥂",
     excerpt:
-      "From The Optimist's fresh seafood to Bourbon Steak's steakhouse luxury — the 10 best date night restaurants in Nashville for 2026, ranked with no paid placements.",
+      "From The Optimist's fresh seafood to Bourbon Steak's steakhouse luxury, the 10 best date night restaurants in Nashville for 2026, ranked with no paid placements.",
     faq: [
       {
         question: "What is the most romantic restaurant in Nashville?",
@@ -393,7 +393,7 @@ const BLOG_POSTS = [
     content: `
       <p>Looking for the best date night restaurants in Nashville? Whether you're planning a first date, celebrating an anniversary, or simply searching for a romantic dinner spot, this updated 2026 guide highlights some of the top restaurants in Music City based on food quality, atmosphere, service, and overall experience.</p>
       <p>Nashville has become one of the best food cities in the country. From intimate Italian restaurants and rooftop dining to upscale steakhouses and cozy neighborhood favorites, there's a perfect restaurant for every type of date.</p>
-      <p>At Eat With Sam K, every restaurant is paid for personally and reviewed honestly — no paid reviews, no sponsored ratings, just genuine recommendations.</p>
+      <p>At Eat With Sam K, every restaurant is paid for personally and reviewed honestly, no paid reviews, no sponsored ratings, just genuine recommendations.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
 
       <h2>Quick List: Best Date Night Restaurants in Nashville (2026)</h2>
@@ -419,7 +419,7 @@ const BLOG_POSTS = [
         <li>Lobster Roll</li>
         <li>Whole Fish</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60 — Upscale dining, steakhouses, nicer date nights" aria-label="$30–60 — Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C_tRSLBverP/" data-instgrm-version="14"></blockquote></div>
 
       <h2>2. <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak</a></h2>
@@ -431,7 +431,7 @@ const BLOG_POSTS = [
         <li>Wagyu</li>
         <li>Truffle Fries</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+ — Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+ — Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCDTaOEuswQ/" data-instgrm-version="14"></blockquote></div>
 
       <h2>3. <a href="https://thetwelvethirtyclub.com/" target="_blank" rel="noopener">The Twelve Thirty Club</a></h2>
@@ -443,17 +443,17 @@ const BLOG_POSTS = [
         <li>Seafood Tower</li>
         <li>Signature Cocktails</li>
       </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60 — Upscale dining, steakhouses, nicer date nights" aria-label="$30–60 — Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBALJtms4Wp/" data-instgrm-version="14"></blockquote></div>
 
       <h2>4. <a href="https://www.rolfanddaughters.com/" target="_blank" rel="noopener">Rolf and Daughters</a></h2>
       <p>One of Nashville's most popular neighborhood restaurants, Rolf and Daughters specializes in handmade pasta and seasonal ingredients. The cozy atmosphere makes it one of the city's best first-date locations.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60 — Upscale dining, steakhouses, nicer date nights" aria-label="$30–60 — Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DPZRlUcDZb8/" data-instgrm-version="14"></blockquote></div>
 
       <h2>5. <a href="https://www.yolannashville.com/" target="_blank" rel="noopener">Yolan</a></h2>
       <p>If authentic Italian cuisine is your idea of romance, Yolan should be on your list. Located inside The Joseph Hotel, it offers an upscale dining experience with one of Nashville's best wine selections.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+ — Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+ — Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDkwiY8SNh0/" data-instgrm-version="14"></blockquote></div>
 
       <h2>6. <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h2>

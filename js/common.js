@@ -26,7 +26,7 @@ const NAV_LINKS = [
   { id: "home", label: "Home", href: "index.html" },
   { id: "map", label: "Map", href: "map.html" },
   { id: "reviews", label: "Reviews", href: "reviews.html" },
-  { id: "blog", label: "Best Of", href: "blog.html" },
+  { id: "blog", label: "Best Of", href: "best-of.html" },
   { id: "about", label: "About", href: "about.html" },
 ];
 
@@ -53,12 +53,12 @@ function footerHtml(prefix) {
           <a href="${prefix}index.html">Home</a>
           <a href="${prefix}map.html">Map</a>
           <a href="${prefix}reviews.html">All Reviews</a>
-          <a href="${prefix}blog.html">Best Of</a>
+          <a href="${prefix}best-of.html">Best Of</a>
           <a href="${prefix}about.html">About Me</a>
         </div>
         <div class="footer-col">
           <h4>Stay Updated</h4>
-          <p>Get new reviews and city guides sent to your inbox — no spam, just good food.</p>
+          <p>Get new reviews and city guides sent to your inbox, no spam, just good food.</p>
           <form class="newsletter-form" data-newsletter>
             <input type="email" placeholder="Your email" required aria-label="Email address" />
             <button type="submit" class="btn btn-primary">Subscribe</button>
@@ -67,7 +67,7 @@ function footerHtml(prefix) {
         </div>
       </div>
       <div class="footer-bottom">
-        <p class="footer-note">© <span id="year"></span> Eat With Sam K · All reviews are my own — I pay for every meal.</p>
+        <p class="footer-note">© <span id="year"></span> Eat With Sam K · All reviews are my own, I pay for every meal.</p>
         <div class="footer-legal"><a href="${prefix}privacy.html">Privacy Policy</a></div>
       </div>
     </div>`;
@@ -100,7 +100,7 @@ document.querySelectorAll("[data-newsletter]").forEach((form) => {
     e.preventDefault();
     const note = form.parentElement.querySelector(".newsletter-note");
     if (note) {
-      note.textContent = "Newsletter signup is launching soon — follow on Instagram to stay in the loop for now!";
+      note.textContent = "Newsletter signup is launching soon, follow on Instagram to stay in the loop for now!";
       note.hidden = false;
     }
     form.reset();
@@ -153,7 +153,7 @@ function badgeRowHtml(p) {
 function priceTagHtml(price) {
   const tier = typeof PRICE_GUIDE !== "undefined" ? PRICE_GUIDE[price] : null;
   if (!tier) return escapeForAttr(price);
-  return `<span class="price-tag has-tooltip" ${tooltipAttrs(`${tier.range} — ${tier.description}`)}>${price}</span>`;
+  return `<span class="price-tag has-tooltip" ${tooltipAttrs(`${tier.range}, ${tier.description}`)}>${price}</span>`;
 }
 
 function placeCardHtml(p, opts) {
@@ -249,7 +249,7 @@ function initPlacesMap(containerId, places) {
   return { map, markers, fitAllPlaces, stopAutoFit };
 }
 
-/* ---------- Shared blog helpers (used by blog.html and app.js) ---------- */
+/* ---------- Shared blog helpers (used by best-of.html and app.js) ---------- */
 
 function formatPostDate(dateStr) {
   return new Date(dateStr + "T12:00:00").toLocaleDateString("en-US", {
