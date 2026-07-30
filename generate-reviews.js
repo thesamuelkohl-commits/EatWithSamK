@@ -57,7 +57,7 @@ function tooltipAttrs(text) {
 function priceTagHtml(price) {
   const tier = PRICE_GUIDE[price];
   if (!tier) return escapeHtml(price);
-  return `<span class="price-tag has-tooltip" ${tooltipAttrs(`${tier.range} — ${tier.description}`)}>${escapeHtml(price)}</span>`;
+  return `<span class="price-tag has-tooltip" ${tooltipAttrs(`${tier.range}, ${tier.description}`)}>${escapeHtml(price)}</span>`;
 }
 
 function ratingClass(rating) {
@@ -250,7 +250,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=13" />
+  <link rel="stylesheet" href="../css/style.css?v=15" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -337,8 +337,8 @@ function renderReviewPage(place, relatedPosts) {
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
-  <script src="../js/data.js?v=6"></script>
-  <script src="../js/common.js?v=12"></script>
+  <script src="../js/data.js?v=9"></script>
+  <script src="../js/common.js?v=13"></script>
   <script>
     var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
