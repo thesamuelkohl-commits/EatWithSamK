@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-07-31T18:40:02.282Z",
+  "badges": {
+    "favorite": {
+      "emoji": "🏆",
+      "label": "Sam's Favorite",
+      "description": "One of the best restaurants I've ever visited."
+    },
+    "hidden-gem": {
+      "emoji": "💎",
+      "label": "Hidden Gem",
+      "description": "Exceptional food that deserves more attention."
+    },
+    "best-value": {
+      "emoji": "💰",
+      "label": "Best Value",
+      "description": "Outstanding quality for the price."
+    },
+    "date-night": {
+      "emoji": "❤️",
+      "label": "Date Night Pick",
+      "description": "Perfect atmosphere for a romantic dinner."
+    },
+    "family-friendly": {
+      "emoji": "👨‍👩‍👧",
+      "label": "Family Friendly",
+      "description": "Great for families, large groups, and kids."
+    },
+    "dog-friendly": {
+      "emoji": "🐶",
+      "label": "Dog Friendly",
+      "description": "Pet-friendly patio, welcoming staff, and a great place to bring your pup."
+    },
+    "worth-the-wait": {
+      "emoji": "🔥",
+      "label": "Worth the Wait",
+      "description": "Busy, but absolutely worth standing in line for."
+    },
+    "best-patio": {
+      "emoji": "🌅",
+      "label": "Best Patio",
+      "description": "One of the best outdoor dining experiences."
+    },
+    "best-drinks": {
+      "emoji": "🍹",
+      "label": "Best Drinks",
+      "description": "Excellent cocktails, mocktails, or beverage program."
+    },
+    "brunch-favorite": {
+      "emoji": "🍳",
+      "label": "Brunch Favorite",
+      "description": "One of the top brunch destinations."
+    },
+    "group-friendly": {
+      "emoji": "🎉",
+      "label": "Group Friendly",
+      "description": "Ideal for birthdays, celebrations, or large parties."
+    },
+    "work-friendly": {
+      "emoji": "💻",
+      "label": "Work Friendly",
+      "description": "Great Wi-Fi, coffee, and atmosphere for remote work."
+    },
+    "vegetarian-friendly": {
+      "emoji": "🌱",
+      "label": "Vegetarian Friendly",
+      "description": "Excellent vegetarian and vegan options."
+    },
+    "easy-parking": {
+      "emoji": "🚗",
+      "label": "Easy Parking",
+      "description": "Plenty of convenient parking nearby."
+    },
+    "quick-bite": {
+      "emoji": "⚡",
+      "label": "Quick Bite",
+      "description": "Great food with fast service when you're in a hurry."
+    }
+  }
+}

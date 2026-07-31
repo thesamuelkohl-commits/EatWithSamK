@@ -15,6 +15,79 @@ const SOCIAL_LABELS = {
   youtube: "YouTube Shorts",
 };
 
+/* ---------- Saved places (favorites) ----------
+   Visitor-side "want to try" list — no accounts/backend on this site, so
+   it lives in the browser's localStorage, per device. Any page can drop
+   in favoriteButtonHtml(id) and clicks just work: the click handler below
+   is delegated on <body> once, here, so nothing per-page needs to wire it
+   up. Fires a "favorites:change" event on document for any page (like the
+   Reviews page's "Saved Only" filter) that wants to react live. */
+
+const FAVORITES_KEY = "eatwithsamk:favorites";
+
+function getFavorites() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]");
+    return Array.isArray(raw) ? raw : [];
+  } catch {
+    return [];
+  }
+}
+
+function isFavorite(id) {
+  return getFavorites().includes(id);
+}
+
+function toggleFavorite(id) {
+  const current = getFavorites();
+  const active = current.includes(id);
+  const next = active ? current.filter((f) => f !== id) : [...current, id];
+  try {
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify(next));
+  } catch {
+    // Private browsing / storage disabled — the click still updates the
+    // button on screen, it just won't persist across a reload.
+  }
+  // js/auth.js defines this when a visitor is signed in, to mirror the
+  // change to their account. Undefined (not an error) if auth.js isn't
+  // loaded, or if they're just a guest — favorites still work either way.
+  if (typeof onFavoriteToggled === "function") onFavoriteToggled(id, !active);
+  return !active;
+}
+
+function favoriteButtonHtml(place, extraClass) {
+  const active = isFavorite(place.id);
+  return `<button type="button" class="favorite-btn${extraClass ? ` ${extraClass}` : ""}${active ? " active" : ""}" data-favorite-toggle="${place.id}" aria-pressed="${active}" aria-label="${active ? "Remove" : "Save"} ${place.name} ${active ? "from" : "to"} your saved places">${active ? "❤️" : "🤍"}</button>`;
+}
+
+// The static reviews/<id>.html pages are generated at build time, with no
+// visitor to check localStorage for — their favorite button always starts
+// unsaved. This corrects it client-side, on load, to the real state.
+function hydrateFavoriteButtons(root) {
+  (root || document).querySelectorAll("[data-favorite-toggle]").forEach((el) => {
+    const active = isFavorite(el.dataset.favoriteToggle);
+    el.classList.toggle("active", active);
+    el.setAttribute("aria-pressed", String(active));
+    el.textContent = active ? "❤️" : "🤍";
+  });
+}
+
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest("[data-favorite-toggle]");
+  if (!btn) return;
+  const id = btn.dataset.favoriteToggle;
+  const active = toggleFavorite(id);
+  document.querySelectorAll(`[data-favorite-toggle="${id}"]`).forEach((el) => {
+    el.classList.toggle("active", active);
+    el.setAttribute("aria-pressed", String(active));
+    el.textContent = active ? "❤️" : "🤍";
+    el.classList.remove("favorite-pop");
+    void el.offsetWidth; // restart the pop animation even on rapid re-clicks
+    el.classList.add("favorite-pop");
+  });
+  document.dispatchEvent(new CustomEvent("favorites:change", { detail: { id, active } }));
+});
+
 /* ---------- Shared nav + footer ----------
    Every page has an empty `<nav data-nav="home">` and
    `<footer data-footer>` — common.js fills both in, so adding a new
@@ -165,7 +238,10 @@ function placeCardHtml(p, opts) {
           <h3><a href="reviews/${p.id}.html">${p.name}</a></h3>
           <div class="card-city">📍 ${p.city}</div>
         </div>
-        <div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>
+        <div class="card-top-actions">
+          ${favoriteButtonHtml(p)}
+          <div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>
+        </div>
       </div>
       ${badgeRowHtml(p)}
       ${p.tags && p.tags.length ? `<div class="card-tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>` : ""}
@@ -212,7 +288,10 @@ function initPlacesMap(containerId, places) {
 
     const marker = L.marker([place.lat, place.lng], { icon }).addTo(map);
     marker.bindPopup(`
-      <div class="popup-title">${place.name}</div>
+      <div class="popup-top">
+        <div class="popup-title">${place.name}</div>
+        ${favoriteButtonHtml(place)}
+      </div>
       <div class="popup-city">📍 ${place.city}</div>
       <div class="popup-rating">★ ${place.rating}/10</div>
       <a class="popup-link" href="${place.video}" target="_blank" rel="noopener">▶ Watch my review</a><br>

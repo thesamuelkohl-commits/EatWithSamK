@@ -151,6 +151,67 @@ a { color: var(--red); }
 .social-btn:hover { transform: translateY(-3px) scale(1.08); background: var(--red); color: #fff; }
 .social-btn svg { width: 18px; height: 18px; fill: currentColor; }
 
+.header-right { display: flex; align-items: center; gap: 14px; }
+
+/* ---------- Real accounts (sign-in widget) ---------- */
+.auth-widget { position: relative; }
+
+.auth-trigger {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: inherit;
+  color: var(--ink);
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.auth-trigger:hover { border-color: var(--red); }
+.auth-trigger-signedin { background: #fdf0e4; border-color: var(--gold); }
+
+.auth-popover {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: 16px;
+  width: 260px;
+  z-index: 10;
+}
+
+.auth-popover-title { font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 10px; line-height: 1.4; }
+
+.auth-email {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.auth-email:focus { border-color: var(--red); }
+
+.auth-submit { width: 100%; justify-content: center; }
+
+.auth-status { font-size: 0.8rem; margin-top: 10px; line-height: 1.4; }
+.auth-status-ok { color: var(--green); font-weight: 700; }
+.auth-status-error { color: var(--red); }
+
+.auth-signout { width: 100%; justify-content: center; }
+
 /* ---------- Hero ---------- */
 .hero {
   text-align: center;
@@ -234,6 +295,8 @@ a { color: var(--red); }
 .leaflet-popup-content-wrapper { border-radius: 14px; box-shadow: var(--shadow-lg); }
 .leaflet-popup-content { margin: 14px 16px; font-family: "Nunito", sans-serif; min-width: 220px; }
 
+.popup-top { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.popup-top .favorite-btn { width: 28px; height: 28px; font-size: 0.85rem; }
 .popup-title { font-family: "Fredoka", sans-serif; font-size: 1.05rem; font-weight: 600; margin-bottom: 2px; }
 .popup-city { color: var(--ink-soft); font-size: 0.85rem; margin-bottom: 6px; }
 .popup-rating { font-weight: 800; color: var(--red); margin-bottom: 6px; }
@@ -378,6 +441,37 @@ a { color: var(--red); }
 .card-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
 
 .card-top h3 { font-size: 1.2rem; }
+
+.card-top-actions { display: flex; flex-direction: column; align-items: center; gap: 6px; flex-shrink: 0; }
+
+/* ---------- Favorite / saved button ---------- */
+.favorite-btn {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  font-size: 1rem;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.favorite-btn:hover { transform: translateY(-2px) scale(1.06); border-color: var(--red); }
+.favorite-btn.active { border-color: var(--red); }
+
+.favorite-btn-lg { width: 44px; height: 44px; font-size: 1.3rem; margin-left: auto; }
+
+@keyframes favorite-pop {
+  0% { transform: scale(1); }
+  35% { transform: scale(1.35); }
+  100% { transform: scale(1); }
+}
+
+.favorite-btn.favorite-pop { animation: favorite-pop 0.35s ease; }
 
 .card-city {
   color: var(--ink-soft);

@@ -10,6 +10,7 @@ const priceEl = document.getElementById("filter-price");
 const tagsGroupEl = document.getElementById("filter-tags-group");
 const tagsEl = document.getElementById("filter-tags");
 const clearBtn = document.getElementById("filters-clear");
+const savedBtn = document.getElementById("filter-saved");
 
 const sorters = {
   "rating-desc": (a, b) => b.rating - a.rating,
@@ -20,6 +21,7 @@ const sorters = {
 
 const activePrices = new Set();
 const activeTags = new Set();
+let savedOnly = false;
 
 /* ---------- Build filter options from whatever's actually in PLACES ---------- */
 
@@ -70,6 +72,19 @@ tagsEl.addEventListener("click", (e) => {
   renderCards();
 });
 
+savedBtn.addEventListener("click", () => {
+  savedOnly = !savedOnly;
+  savedBtn.classList.toggle("active", savedOnly);
+  savedBtn.textContent = savedOnly ? "❤️ Saved Only" : "🤍 Saved Only";
+  renderCards();
+});
+
+// A heart toggled anywhere (a card here, a map popup, a review page) should
+// update this list live if we're currently filtered to "Saved Only".
+document.addEventListener("favorites:change", () => {
+  if (savedOnly) renderCards();
+});
+
 /* ---------- Render ---------- */
 
 function renderCards() {
@@ -82,11 +97,14 @@ function renderCards() {
   if (cuisineEl.value) list = list.filter((p) => p.cuisine === cuisineEl.value);
   if (activePrices.size) list = list.filter((p) => activePrices.has(p.price));
   if (activeTags.size) list = list.filter((p) => (p.badges || []).some((b) => activeTags.has(b)));
+  if (savedOnly) list = list.filter((p) => isFavorite(p.id));
 
   list = sortEl.value === "recent" ? sortByRecent(list) : list.sort(sorters[sortEl.value]);
 
   if (!list.length) {
-    cardsEl.innerHTML = `<div class="no-results">No spots match those filters, try clearing one. 👀</div>`;
+    cardsEl.innerHTML = savedOnly && !getFavorites().length
+      ? `<div class="no-results">Nothing saved yet, tap the 🤍 on any place to save it for later.</div>`
+      : `<div class="no-results">No spots match those filters, try clearing one. 👀</div>`;
     return;
   }
 
@@ -104,8 +122,11 @@ clearBtn.addEventListener("click", () => {
   cuisineEl.value = "";
   activePrices.clear();
   activeTags.clear();
+  savedOnly = false;
   priceEl.querySelectorAll(".filter-pill.active").forEach((b) => b.classList.remove("active"));
   tagsEl.querySelectorAll(".filter-pill.active").forEach((b) => b.classList.remove("active"));
+  savedBtn.classList.remove("active");
+  savedBtn.textContent = "🤍 Saved Only";
   renderCards();
 });
 

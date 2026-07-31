@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-07-31T18:40:02.282Z",
+  "priceGuide": {
+    "$": {
+      "range": "Under $15",
+      "description": "Budget-friendly, fast casual, food trucks, quick bites"
+    },
+    "$$": {
+      "range": "$15–30",
+      "description": "Casual dining, local favorites, most restaurants"
+    },
+    "$$$": {
+      "range": "$30–60",
+      "description": "Upscale dining, steakhouses, nicer date nights"
+    },
+    "$$$$": {
+      "range": "$60+",
+      "description": "Luxury dining, tasting menus, premium steakhouses, special occasions"
+    }
+  }
+}
