@@ -36,7 +36,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="css/style.css?v=15" />
+  <link rel="stylesheet" href="css/style.css?v=16" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -65,6 +65,13 @@
 
   <section class="map-section map-page-section">
     <div class="container">
+      <div class="filters-panel">
+        <div class="filter-group">
+          <span class="filter-group-label">Minimum Rating</span>
+          <input type="range" id="rating-slider" min="0" max="10" step="0.5" value="0" aria-label="Minimum rating" />
+          <span id="rating-slider-value">Showing all (0+ / 10)</span>
+        </div>
+      </div>
       <div id="map"></div>
     </div>
   </section>
@@ -73,7 +80,7 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="js/data.js?v=9"></script>
-  <script src="js/common.js?v=13"></script>
-  <script src="js/map.js?v=1"></script>
+  <script src="js/common.js?v=14"></script>
+  <script src="js/map.js?v=2"></script>
 </body>
 </html>
