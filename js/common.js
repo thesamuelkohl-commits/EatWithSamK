@@ -110,9 +110,9 @@ document.querySelectorAll("[data-newsletter]").forEach((form) => {
 /* ---------- Shared place helpers (used by app.js and reviews.js) ---------- */
 
 function ratingClass(rating) {
-  if (rating >= 9) return "great";
-  if (rating >= 8) return "";
-  return "good";
+  if (rating >= 8) return "great";
+  if (rating >= 6) return "good";
+  return "poor";
 }
 
 // Newest first: places with a `date` sort by it; undated places keep their
