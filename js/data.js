@@ -57,6 +57,32 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "nadc-burger-nashville",
+    name: "NADC Burger",
+    city: "Nashville, TN",
+    lat: 36.16417,
+    lng: -86.78,
+    address: "10 The Arcade, Ste. 10, Nashville, TN 37219",
+    website: "https://www.nadcburger.com/locations",
+    date: "2026-07-29",
+    price: "$$",
+    cuisine: "Burgers",
+    badges: ["quick-bite"],
+    about: "NADC, short for \"Not A Damn Chance,\" is a single-item burger concept with a Nashville outpost tucked inside the historic Arcade downtown. True to its stripped-down format, there's just one burger on the menu: two smashed 3 oz patties of 100% Wagyu beef, American cheese, a tangy secret sauce, onions, pickles, and jalapeños on a griddled bun, backed up by a short drink list and a brown-butter chocolate chip cookie for dessert.",
+    ate: "NADC Burger with everything, a side of fries, and their secret sauce.",
+    photos: [
+      { src: "images/reviews/nadc-burger-nashville/storefront.jpg", alt: "NADC Burger storefront inside The Arcade, downtown Nashville" },
+      { src: "images/reviews/nadc-burger-nashville/order.jpg", alt: "Sam's order: the NADC Burger with everything and a side of fries" },
+      { src: "images/reviews/nadc-burger-nashville/closeup.jpg", alt: "Close-up of the NADC Burger, cheese and pickled jalapenos" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Quick", "Cool area of town"],
+    cons: ["No seating inside"],
+    rating: 8.2,
+    video: "https://www.instagram.com/reel/Dbb0-Tct6r6/?igsh=Nmg2NmxnaHdvdTdx",
+    tags: ["Burgers", "Downtown Nashville"],
+  },
+  {
     id: "prince-street-pizza-nashville",
     name: "Prince St. Pizza",
     city: "Nashville, TN",
@@ -65,8 +91,8 @@ const PLACES = [
     address: "5056 Broadway, Suite B-103, Nashville, TN 37203",
     phone: "(629) 317-8644",
     website: "https://locations.princestreetpizza.com/nashville",
-    date: "2026-07-20",
-    price: "$",
+    date: "2026-07-18",
+    price: "$$",
     cuisine: "Pizza",
     badges: ["family-friendly"],
     about: "Prince St. Pizza traces back to 2012 in New York's Nolita neighborhood, built on recipes that have stayed in the Morano family for generations, their philosophy is simple: if it works on pasta, it works on pizza. The original NYC shop made its name on the Sicilian \"SoHo Square,\" a thick, crispy-bottomed slice, and the Spicy Spring, its signature square topped with pepperoni cups, fresh mozzarella, and tomato sauce. The brand has since expanded well beyond New York, and this location, inside the Fifth + Broadway development in downtown Nashville, is its first in Tennessee.",
@@ -79,8 +105,8 @@ const PLACES = [
       { src: "images/reviews/prince-street-pizza-nashville/holding-box.jpg", alt: "Sam holding a Prince St. Pizza box, home of the spicy pepperoni" },
     ],
     // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
-    // pros: ["Real NYC pedigree", "Great heat variety across the menu"],           // TODO: Sam — your own pros, optional.
-    // cons: ["Counter-service only, not much seating"],                             // TODO: Sam — your own cons, optional.
+    pros: ["Quick", "Not super expensive", "Lots of options", "Close to Broadway"],
+    cons: ["Small seating area", "Not 100% fresh unless you order a whole pie"],
     rating: 7.4,
     video: "https://www.instagram.com/reel/Da-9uB3Ri5x/?igsh=bGx4YnhpZWZ4bG5r",
     tags: ["Pizza", "Downtown Nashville"],

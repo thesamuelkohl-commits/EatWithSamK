@@ -206,6 +206,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-burgers-nashville",
+    places: ["nadc-burger-nashville"],
     title: "Best Burgers in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-25",
@@ -251,6 +252,7 @@ const BLOG_POSTS = [
         <li><strong>7. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></strong></li>
         <li><strong>8. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></strong></li>
         <li><strong>9. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></strong></li>
+        <li><strong>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger</a></strong> (full review)</li>
       </ul>
 
       <h2>1. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
@@ -326,6 +328,16 @@ const BLOG_POSTS = [
       </ul>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger</a></h2>
+      <p><strong>Best For:</strong> Wagyu Smash Burgers</p>
+      <p>NADC, short for "Not A Damn Chance," keeps things simple: one burger, done one way, made with two smashed 3 oz patties of 100% Wagyu beef. Tucked inside the historic Arcade downtown, it's a quick, no-seating counter stop that's become one of the most talked-about burger spots in the city. <a href="reviews/nadc-burger-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>The NADC Burger, everything, with fries</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dbb0-Tct6r6/" data-instgrm-version="14"></blockquote></div>
 
       <h2>How I Rate Every Burger</h2>
       <p>Every burger reviewed on Eat With Sam K is scored using the same criteria:</p>
