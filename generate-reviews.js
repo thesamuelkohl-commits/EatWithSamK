@@ -66,6 +66,12 @@ function ratingClass(rating) {
   return "poor";
 }
 
+// Build-time render — always starts unsaved (no visitor/localStorage exists
+// yet). js/common.js's hydrateFavoriteButtons() corrects this on page load.
+function favoriteButtonHtml(place, extraClass) {
+  return `<button type="button" class="favorite-btn${extraClass ? ` ${extraClass}` : ""}" data-favorite-toggle="${place.id}" aria-pressed="false" aria-label="Save ${escapeAttr(place.name)} to your saved places">🤍</button>`;
+}
+
 function truncate(str, max) {
   const clean = str.replace(/\s+/g, " ").trim();
   return clean.length > max ? clean.slice(0, max - 1).trim() + "…" : clean;
@@ -250,7 +256,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=16" />
+  <link rel="stylesheet" href="../css/style.css?v=18" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -261,7 +267,10 @@ function renderReviewPage(place, relatedPosts) {
     <div class="header-inner">
       <a class="logo" href="../index.html"><img class="logo-img" src="../images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
       <nav class="main-nav" data-nav="reviews" data-prefix="../"></nav>
-      <div class="social-row" data-socials></div>
+      <div class="header-right">
+        <div class="social-row" data-socials></div>
+        <div class="auth-widget" data-auth></div>
+      </div>
     </div>
   </header>
 
@@ -278,6 +287,7 @@ function renderReviewPage(place, relatedPosts) {
         <h1>${escapeHtml(place.name)} Review (${year})</h1>
         <p class="card-city">📍 ${escapeHtml(place.city)}</p>
       </div>
+      ${favoriteButtonHtml(place, "favorite-btn-lg")}
     </div>
     ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ""}
 
@@ -338,8 +348,12 @@ function renderReviewPage(place, relatedPosts) {
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
   <script src="../js/data.js?v=9"></script>
-  <script src="../js/common.js?v=14"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="../js/supabase-config.js?v=1"></script>
+  <script src="../js/common.js?v=16"></script>
+  <script src="../js/auth.js?v=1"></script>
   <script>
+    hydrateFavoriteButtons();
     var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
     L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
@@ -383,6 +397,45 @@ function renderRobots() {
   return `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`;
 }
 
+// ---------- Portable data export ----------
+// A clean, comment-free JSON mirror of js/data.js — the same restaurant/
+// review database, reshaped so it's fetchable by anything (a future API
+// route, a mobile app, a script), not just this website's own <script>
+// tags. Source of truth is still js/data.js; these files are generated,
+// never hand-edited (same rule as reviews/*.html).
+function placeForExport(place) {
+  return {
+    ...place,
+    url: reviewUrl(place),
+    photos: (place.photos || []).map((p) => ({ ...p, src: `${SITE_URL}/${p.src}` })),
+  };
+}
+
+function writeDataExport() {
+  const dataDir = path.join(__dirname, "data");
+  fs.mkdirSync(dataDir, { recursive: true });
+
+  const generatedAt = new Date().toISOString();
+
+  fs.writeFileSync(
+    path.join(dataDir, "places.json"),
+    JSON.stringify({ generatedAt, places: PLACES.map(placeForExport) }, null, 2)
+  );
+  console.log("wrote data/places.json");
+
+  fs.writeFileSync(
+    path.join(dataDir, "badges.json"),
+    JSON.stringify({ generatedAt, badges: BADGES }, null, 2)
+  );
+  console.log("wrote data/badges.json");
+
+  fs.writeFileSync(
+    path.join(dataDir, "price-guide.json"),
+    JSON.stringify({ generatedAt, priceGuide: PRICE_GUIDE }, null, 2)
+  );
+  console.log("wrote data/price-guide.json");
+}
+
 const reviewsDir = path.join(__dirname, "reviews");
 fs.mkdirSync(reviewsDir, { recursive: true });
 
@@ -406,5 +459,7 @@ console.log("wrote sitemap.xml");
 
 fs.writeFileSync(path.join(__dirname, "robots.txt"), renderRobots());
 console.log("wrote robots.txt");
+
+writeDataExport();
 
 console.log(`\nDone — ${PLACES.length} review page(s) generated.`);

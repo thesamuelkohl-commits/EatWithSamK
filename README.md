@@ -46,7 +46,7 @@ You never need to touch the HTML or CSS.
 4. **Run the review-page generator** (see below) so the new place gets its own SEO-optimized page.
 5. Refresh the site — the marker, homepage's Recent Reviews, the full Reviews page, stats, and the dedicated review page all update automatically.
 
-Marker colors: green = 9.0+, orange = 8.0–8.9, gold = below 8.
+Marker colors: green = 8.0+, gold = 6.0–7.9, red = below 6.0.
 
 ## The internal-linking "magic" — Related Articles
 
@@ -103,9 +103,21 @@ cd "/Users/samkohl/Sam's Personal/Eat With Sam K"
 node generate-reviews.js
 ```
 
-This rebuilds every file in `reviews/`, plus `sitemap.xml` and `robots.txt`, from whatever is currently in `js/data.js`. (Requires Node.js, which is already installed if `node --version` works in your terminal.) You never hand-edit anything inside `reviews/` — it's fully regenerated each time.
+This rebuilds every file in `reviews/`, plus `sitemap.xml`, `robots.txt`, and `data/*.json` (see below), from whatever is currently in `js/data.js`. (Requires Node.js, which is already installed if `node --version` works in your terminal.) You never hand-edit anything inside `reviews/` or `data/` — both are fully regenerated each time.
 
-**Before you go live**, open `generate-reviews.js` and update the `SITE_URL` constant near the top (currently a placeholder: `https://www.eatwithsamk.com`) to your real domain once you've deployed. It's used in canonical links, social preview tags, and the sitemap — all of which need your real, final domain to work correctly for SEO.
+**Before you go live**, open `generate-reviews.js` and update the `SITE_URL` constant near the top (currently a placeholder: `https://www.eatwithsamk.com`) to your real domain once you've deployed. It's used in canonical links, social preview tags, the sitemap, and the `data/*.json` export — all of which need your real, final domain to work correctly.
+
+## Portable data export (`data/*.json`) — for a future mobile app
+
+`js/data.js` is the source of truth you edit, but it's a `.js` file with comments and JS syntax, not something a phone app (or any other outside tool) could just fetch and read. Every time you run `node generate-reviews.js`, it also writes a clean, comment-free JSON mirror of the same restaurant/review database to `data/`:
+
+- **`data/places.json`** — every place, same fields as `js/data.js`, plus an absolute `url` (the live review page) and absolute photo URLs (`https://...`, not the site-relative paths used internally) — so the file means the same thing no matter who's reading it.
+- **`data/badges.json`** — the full badge vocabulary (emoji, label, description) keyed the same way as `place.badges`.
+- **`data/price-guide.json`** — the `$`–`$$$$` tiers (range + description).
+
+These three files are the whole "restaurant/review database" in its most portable shape: plain JSON, no HTML, no site-relative paths, no build tooling required to read them. A future mobile app (or anyone else) can consume them exactly as-is — either by bundling them directly, or, once the site is deployed, by fetching `https://<your-domain>/data/places.json` like a read-only API endpoint. If you ever outgrow static files (e.g. the app needs to write reviews too, not just read them), these are also the exact shape you'd hand to a real backend/database to seed it — nothing about the schema would need to change.
+
+You never hand-edit anything in `data/` — like `reviews/`, it's fully regenerated from `js/data.js` every time you run the generator. `js/blog-data.js` (your "Best Of" guides) is intentionally **not** part of this export — those posts are hand-written HTML/Instagram embeds meant for a web page, not structured review data, so they stay web-only for now.
 
 ## Analytics & Ads
 
@@ -134,6 +146,30 @@ The top nav and site footer are **shared components**, not copy-pasted per page 
 - **Tags** — only shows the badges (see "Badges" above) that are actually in use by at least one place, so every visible option can return a result. This row disappears entirely until at least one place has a badge.
 
 Selecting more than one Price or Tag pill is an **OR** within that row (e.g. picking `$` and `$$$` shows places matching either), while City, Cuisine, Price, and Tags together are combined with **AND** (a place has to match all of the filters you've set, plus the search box and sort). "Clear Filters" resets all of it back to showing everything.
+
+## Saved places (favorites) + real accounts
+
+Every place — cards, map pins, and each review page's hero — has a 🤍/❤️ save button. Two layers, and visitors never have to think about which one they're in:
+
+- **Guest (always works, no setup)**: saves live in that browser's `localStorage` only. This is the entire feature if you never touch anything below — nothing to configure, nothing to break.
+- **Signed in (opt-in, needs the Supabase setup below)**: saves sync to their account and follow them to any device/browser. Toggling a heart still updates instantly either way — signed in, it just also fires off a background sync to their account, so the UI never waits on a network request.
+
+The Reviews page also has a **"❤️ Saved Only"** filter pill that works the same in both cases — it just reads whatever's currently saved.
+
+### Turning on real accounts (Supabase)
+
+Sign-in uses **magic links** (visitor types their email, gets a one-click link back — no passwords for you to store or for them to forget). It's entirely optional infrastructure on top of the guest system above:
+
+1. Create a free project at [supabase.com](https://supabase.com).
+2. Open the SQL Editor and run everything in `supabase/favorites.sql` (in this repo) — it creates the `favorites` table and the security rules that keep every visitor's saved list private to them.
+3. Go to **Project Settings → API** and copy the **Project URL** and **anon `public` key** into `js/supabase-config.js` (the only file you need to touch — it has the exact two lines to fill in).
+4. Go to **Authentication → URL Configuration** and add every URL people will sign in from to **Redirect URLs**, e.g. `http://localhost:8123/*` while testing, and `https://www.eatwithsamk.com/*` once live.
+
+Until step 3 is done, the "Sign In" button is already live on every page — it just shows a friendly "sign-in isn't set up yet" message instead of an error, and every visitor keeps using guest/browser-only favorites exactly as before.
+
+**First sign-in merge:** if someone already saved places as a guest before creating an account, those aren't lost — the moment they sign in, whatever's in their browser gets pushed up and merged with anything already in their account.
+
+**One real limitation to know:** Supabase's default email sending has a low rate limit meant for testing, not production traffic. Fine for a personal site early on; if the site gets real signups, Supabase's docs cover connecting your own SMTP provider (e.g. Resend, Postmark) for reliable delivery at scale.
 
 ## The Map page
 

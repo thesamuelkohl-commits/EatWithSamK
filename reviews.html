@@ -35,7 +35,7 @@
   <link rel="icon" type="image/png" href="images/favicon.png?v=2" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css?v=16" />
+  <link rel="stylesheet" href="css/style.css?v=18" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -53,7 +53,10 @@
     <div class="header-inner">
       <a class="logo" href="index.html"><img class="logo-img" src="images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
       <nav class="main-nav" data-nav="reviews"></nav>
-      <div class="social-row" data-socials></div>
+      <div class="header-right">
+        <div class="social-row" data-socials></div>
+        <div class="auth-widget" data-auth></div>
+      </div>
     </div>
   </header>
 
@@ -89,6 +92,9 @@
         <span class="filter-group-label">Tags</span>
         <div class="filter-pills" id="filter-tags"></div>
       </div>
+      <div class="filter-group">
+        <button type="button" class="filter-pill has-tooltip" id="filter-saved" data-tooltip="Only show places you've saved" aria-label="Only show places you've saved" tabindex="0">🤍 Saved Only</button>
+      </div>
       <button type="button" class="btn btn-ghost filters-clear" id="filters-clear">Clear Filters</button>
     </div>
 
@@ -98,7 +104,10 @@
   <footer class="site-footer" data-footer></footer>
 
   <script src="js/data.js?v=9"></script>
-  <script src="js/common.js?v=14"></script>
-  <script src="js/reviews.js?v=3"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js?v=1"></script>
+  <script src="js/common.js?v=16"></script>
+  <script src="js/auth.js?v=1"></script>
+  <script src="js/reviews.js?v=4"></script>
 </body>
 </html>
