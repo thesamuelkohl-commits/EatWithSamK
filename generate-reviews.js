@@ -256,7 +256,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=18" />
+  <link rel="stylesheet" href="../css/style.css?v=19" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -347,7 +347,7 @@ function renderReviewPage(place, relatedPosts) {
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
-  <script src="../js/data.js?v=9"></script>
+  <script src="../js/data.js?v=10"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
   <script src="../js/common.js?v=16"></script>
@@ -436,6 +436,37 @@ function writeDataExport() {
   console.log("wrote data/price-guide.json");
 }
 
+// index.html's hero stats ("Places Rated" / "Cities" / "Avg Rating") are
+// otherwise-static markup — bake the real numbers in at build time so
+// they're correct on first paint (and visible to anyone/anything not
+// running JS), same as everything else this script generates. js/app.js's
+// animateCountUp() still runs on top of this, animating from whatever's
+// already here rather than resetting to 0 (see js/common.js).
+function bakeHomepageStats() {
+  const indexPath = path.join(__dirname, "index.html");
+  let html = fs.readFileSync(indexPath, "utf8");
+
+  const placesCount = PLACES.length;
+  const citiesCount = new Set(PLACES.map((p) => p.city)).size;
+  const avgRating = PLACES.length ? PLACES.reduce((s, p) => s + p.rating, 0) / PLACES.length : 0;
+
+  const stats = {
+    "stat-places": String(placesCount),
+    "stat-cities": String(citiesCount),
+    "stat-avg": avgRating.toFixed(1),
+  };
+
+  for (const [id, value] of Object.entries(stats)) {
+    html = html.replace(
+      new RegExp(`(<div class="num" id="${id}">)[^<]*(</div>)`),
+      `$1${value}$2`
+    );
+  }
+
+  fs.writeFileSync(indexPath, html);
+  console.log(`updated index.html stats (${placesCount} places, ${citiesCount} cities, ${avgRating.toFixed(1)} avg)`);
+}
+
 const reviewsDir = path.join(__dirname, "reviews");
 fs.mkdirSync(reviewsDir, { recursive: true });
 
@@ -461,5 +492,7 @@ fs.writeFileSync(path.join(__dirname, "robots.txt"), renderRobots());
 console.log("wrote robots.txt");
 
 writeDataExport();
+
+bakeHomepageStats();
 
 console.log(`\nDone — ${PLACES.length} review page(s) generated.`);
