@@ -11,6 +11,7 @@
   --line: #eee2d6;
   --gold: #f2a93b;
   --green: #2f9e64;
+  --blue: #2f7de1; /* "You are here" map marker only — kept separate from the red/gold/green rating scale so it's never mistaken for a 4th rating tier. */
   --radius: 16px;
   --shadow: 0 2px 12px rgba(36, 29, 26, 0.08);
   --shadow-lg: 0 8px 28px rgba(36, 29, 26, 0.14);
@@ -286,6 +287,34 @@ a { color: var(--red); }
 .rating-marker.great { background: var(--green); animation: badge-glow-green 2.4s ease-in-out infinite; }
 .rating-marker.good { background: var(--gold); }
 .rating-marker.poor { background: var(--red); }
+
+/* ---------- "You are here" marker (homepage map, geolocation) ---------- */
+.you-are-here {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background: var(--blue);
+  border: 3px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+.you-are-here-pulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14px;
+  height: 14px;
+  margin: -7px 0 0 -7px;
+  border-radius: 50%;
+  background: rgba(47, 125, 225, 0.5);
+  animation: you-are-here-ping 1.8s ease-out infinite;
+}
+
+@keyframes you-are-here-ping {
+  0% { transform: scale(1); opacity: 0.7; }
+  100% { transform: scale(2.6); opacity: 0; }
+}
 
 @keyframes badge-glow-green {
   0%, 100% { box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3), 0 0 0 0 rgba(47, 158, 100, 0.5); }

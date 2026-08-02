@@ -14,6 +14,34 @@ animateCountUp(document.getElementById("stat-avg"), avg, 1);
 /* ---------- Map ---------- */
 const { map, markers, stopAutoFit } = initPlacesMap("map", PLACES);
 
+// Center on the visitor's own location, if their browser allows it — makes
+// "is there anywhere near me?" the default view instead of always zooming
+// out to fit every place. Denied, unavailable, or slow to respond: no
+// error handling needed, the "fit all places" view above is already
+// showing and just stays put.
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      stopAutoFit();
+      const { latitude, longitude } = pos.coords;
+      map.setView([latitude, longitude], 12);
+      L.marker([latitude, longitude], {
+        icon: L.divIcon({
+          className: "",
+          html: '<div class="you-are-here"><div class="you-are-here-pulse"></div></div>',
+          iconSize: [14, 14],
+          iconAnchor: [7, 7],
+        }),
+        zIndexOffset: 1000,
+      })
+        .addTo(map)
+        .bindPopup("📍 You are here");
+    },
+    () => {},
+    { timeout: 8000, maximumAge: 5 * 60 * 1000 }
+  );
+}
+
 /* ---------- Recent Reviews ---------- */
 const cardsEl = document.getElementById("cards");
 const recent = sortByRecent(PLACES).slice(0, RECENT_COUNT);

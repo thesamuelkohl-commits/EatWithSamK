@@ -398,6 +398,11 @@ setTimeout(() => {
 // where rAF gets throttled (e.g. a backgrounded/inactive tab).
 function animateCountUp(el, target, decimals) {
   let started = false;
+  // index.html now has the real numbers baked in at build time (see
+  // generate-reviews.js), not always "0" — animate from whatever's
+  // already showing instead of resetting to 0, so a page that already
+  // loaded with the right number doesn't flash back to 0 first.
+  const initial = parseFloat(el.textContent) || 0;
 
   function runCountUp() {
     started = true;
@@ -407,7 +412,7 @@ function animateCountUp(el, target, decimals) {
     const timer = setInterval(() => {
       const progress = Math.min((Date.now() - start) / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
-      const value = target * eased;
+      const value = initial + (target - initial) * eased;
       el.textContent = decimals ? value.toFixed(decimals) : Math.round(value);
       if (progress >= 1) {
         el.textContent = decimals ? target.toFixed(decimals) : target;

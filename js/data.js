@@ -57,6 +57,33 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "chen-chens-nashville",
+    name: "Chen Chen's",
+    city: "Nashville, TN",
+    lat: 36.152, // TODO: Sam — approximate, right-click the exact spot on Google Maps and update if this is off.
+    lng: -86.7936,
+    address: "130 19th Ave N, Nashville, TN 37203",
+    phone: "(615) 964-7044", // TODO: Sam — found online, not yet confirmed. Update/remove if wrong.
+    website: "https://www.instagram.com/chenchensnashville",
+    date: "2026-07-30",
+    price: "$$",
+    cuisine: "Hot Chicken",
+    badges: ["hidden-gem"],
+    about: "Chen Chen's Nashville Hot Chicken started as a pop-up in Toronto in 2019 from chef Chen Chen, who was born in China and raised in Nashville. It grew into a permanent Toronto restaurant in 2021, went on to be named Yelp Canada's #1 Place to Eat in 2024, and has now brought the concept back to Chen's hometown, combining classic Nashville hot chicken with his own Asian-inspired flavors and sauces.",
+    ate: "Homemade Mac & Cheese with Hot Chicken Bites, Szechuan sauce, medium heat, and a side of waffle fries.",
+    photos: [
+      { src: "images/reviews/chen-chens-nashville/storefront.jpg", alt: "Chen Chen's Nashville Hot Chicken storefront, 130 19th Ave N, Nashville" },
+      { src: "images/reviews/chen-chens-nashville/interior.jpg", alt: "Inside Chen Chen's Nashville, counter and seating area" },
+      { src: "images/reviews/chen-chens-nashville/order.jpg", alt: "Sam's order: Mac & Cheese with Szechuan hot chicken bites, Chen Chen's Nashville" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Cool spot", "Quick", "Friendly staff"],
+    cons: ["Not much inside seating"],
+    rating: 8.6,
+    video: "https://www.instagram.com/reel/DbghYSqRerO/?igsh=eXppMWE0dmR3bjJj",
+    tags: ["Hot Chicken", "Midtown Nashville"],
+  },
+  {
     id: "nadc-burger-nashville",
     name: "NADC Burger",
     city: "Nashville, TN",
