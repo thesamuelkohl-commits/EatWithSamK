@@ -38,6 +38,7 @@ You never need to touch the HTML or CSS.
    - **badges** *(optional)* — an array of badge keys, e.g. `badges: ["family-friendly", "date-night"]`. Shows as gold pills on the card and review page ("Great For" section). See the full badge list below — only add one when it's genuinely true, not on every place.
    - **price** *(optional)* — `"$"`, `"$$"`, `"$$$"`, or `"$$$$"`. Shows in the review page's quick-facts block; hovering it pops up what that tier means (cost range + description) — see "Price tooltips" below.
    - **cuisine** *(optional)* — e.g. `"Pizza"`, `"BBQ"`. Also shows in quick facts.
+   - **parking** *(optional)* — a short free-text description, e.g. `"Free and paid parking nearby"` or `"Paid parking nearby"`. Shows in quick facts. Leave it out and that line just won't appear.
    - **quickTake** *(optional)* — a short TL;DR paragraph, shown right up top under "Quick Take" — your honest one-paragraph verdict.
    - **photos** *(optional)* — an array of `{ src, alt }`, e.g. `photos: [{ src: "images/reviews/my-place/dish.jpg", alt: "The burger" }]`. Shown as a photo grid under "What I Ordered." Drop your photo files in `images/reviews/<place-id>/` and reference them here.
    - **scores** *(optional)* — `{ taste, value, atmosphere, service }`, each 0–10. Renders as "The Breakdown" with visual bars. Leave it out entirely and that section just won't appear.

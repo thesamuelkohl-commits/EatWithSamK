@@ -72,6 +72,14 @@ function favoriteButtonHtml(place, extraClass) {
   return `<button type="button" class="favorite-btn${extraClass ? ` ${extraClass}` : ""}" data-favorite-toggle="${place.id}" aria-pressed="false" aria-label="Save ${escapeAttr(place.name)} to your saved places">🤍</button>`;
 }
 
+function formatVisitDate(dateStr) {
+  return new Date(dateStr + "T12:00:00").toLocaleDateString("en-US", {
+    month: "long",
+    day: "numeric",
+    year: "numeric",
+  });
+}
+
 function truncate(str, max) {
   const clean = str.replace(/\s+/g, " ").trim();
   return clean.length > max ? clean.slice(0, max - 1).trim() + "…" : clean;
@@ -136,9 +144,11 @@ function renderReviewPage(place, relatedPosts) {
   const quickFactsHtml = `
     <ul class="quick-facts">
       <li>⭐ <strong>Overall:</strong> ${place.rating}/10</li>
+      ${place.date ? `<li>📅 <strong>Visited:</strong> ${formatVisitDate(place.date)}</li>` : ""}
       <li>📍 <strong>Address:</strong> ${escapeHtml(place.address)}</li>
       ${place.price ? `<li>💰 <strong>Price:</strong> ${priceTagHtml(place.price)}</li>` : ""}
       ${place.cuisine ? `<li>🍽️ <strong>Cuisine:</strong> ${escapeHtml(place.cuisine)}</li>` : ""}
+      ${place.parking ? `<li>🚗 <strong>Parking:</strong> ${escapeHtml(place.parking)}</li>` : ""}
     </ul>
     ${greatForBadges.length ? `<p class="quick-facts-label">❤️ <strong>Great For:</strong></p><div class="badge-row">${badgesHtml}</div>` : ""}`;
 
@@ -209,7 +219,7 @@ function renderReviewPage(place, relatedPosts) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/index.html` },
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
       { "@type": "ListItem", position: 2, name: "Reviews", item: `${SITE_URL}/reviews.html` },
       { "@type": "ListItem", position: 3, name: place.name, item: canonical },
     ],
@@ -378,7 +388,7 @@ function renderReviewPage(place, relatedPosts) {
 
 function renderSitemap() {
   const urls = [
-    { loc: `${SITE_URL}/index.html`, priority: "1.0" },
+    { loc: `${SITE_URL}/`, priority: "1.0" },
     { loc: `${SITE_URL}/map.html`, priority: "0.9" },
     { loc: `${SITE_URL}/reviews.html`, priority: "0.9" },
     { loc: `${SITE_URL}/best-of.html`, priority: "0.8" },
