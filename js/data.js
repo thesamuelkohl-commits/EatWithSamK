@@ -57,6 +57,34 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "hibachi-jr-hendersonville",
+    name: "Hibachi Jr.",
+    city: "Hendersonville, TN",
+    lat: 36.2987, // TODO: Sam — approximate, right-click the exact spot on Google Maps and update if this is off.
+    lng: -86.6165,
+    address: "112 Saundersville Rd, Ste C300, Hendersonville, TN 37075",
+    phone: "(615) 622-5115", // TODO: Sam — found online, not yet confirmed. Update/remove if wrong.
+    parking: "Free lot parking",
+    website: "https://www.instagram.com/hibachijrnashville",
+    date: "2026-08-01",
+    price: "$$",
+    cuisine: "Hibachi",
+    badges: ["family-friendly", "quick-bite"],
+    about: "Hibachi Jr. is a Japanese hibachi restaurant with locations across the greater Nashville area, serving grilled chicken, steak, and seafood combos hot off the flat-top alongside fried rice, noodles, and sushi rolls.",
+    ate: "Chicken and Shrimp Hibachi Combo with double spicy rice instead of vegetables.",
+    photos: [
+      { src: "images/reviews/hibachi-jr-hendersonville/storefront.jpg", alt: "Hibachi Jr. storefront, 112 Saundersville Rd, Hendersonville" },
+      { src: "images/reviews/hibachi-jr-hendersonville/interior.jpg", alt: "Inside Hibachi Jr., dining room and hibachi grill" },
+      { src: "images/reviews/hibachi-jr-hendersonville/order.jpg", alt: "Sam's order: Chicken and Shrimp Hibachi Combo with double spicy rice" },
+      { src: "images/reviews/hibachi-jr-hendersonville/order-sauce.jpg", alt: "Chicken and Shrimp Hibachi Combo topped with sauce, Hibachi Jr." },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Good value", "Quick", "Great inside seating"],
+    rating: 8.2,
+    video: "https://www.instagram.com/reel/DbmHj7ttwF_/?igsh=MWwwYnFnbDJkenJ0dw==",
+    tags: ["Hibachi", "Hendersonville"],
+  },
+  {
     id: "chen-chens-nashville",
     name: "Chen Chen's",
     city: "Nashville, TN",
@@ -64,6 +92,7 @@ const PLACES = [
     lng: -86.7936,
     address: "130 19th Ave N, Nashville, TN 37203",
     phone: "(615) 964-7044", // TODO: Sam — found online, not yet confirmed. Update/remove if wrong.
+    parking: "Free and paid parking nearby",
     website: "https://www.instagram.com/chenchensnashville",
     date: "2026-07-30",
     price: "$$",
@@ -91,6 +120,7 @@ const PLACES = [
     lng: -86.78,
     address: "10 The Arcade, Ste. 10, Nashville, TN 37219",
     website: "https://www.nadcburger.com/locations",
+    parking: "Paid parking nearby",
     date: "2026-07-29",
     price: "$$",
     cuisine: "Burgers",
@@ -118,6 +148,7 @@ const PLACES = [
     address: "5056 Broadway, Suite B-103, Nashville, TN 37203",
     phone: "(629) 317-8644",
     website: "https://locations.princestreetpizza.com/nashville",
+    parking: "Paid parking nearby",
     date: "2026-07-18",
     price: "$$",
     cuisine: "Pizza",

@@ -26,6 +26,223 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-brunch-nashville",
+    title: "Best Brunch in Nashville (2026 Updated Guide)",
+    city: "Nashville, TN",
+    date: "2026-08-03",
+    emoji: "🍳",
+    excerpt:
+      "From Milk & Honey's classic Nashville brunch to The Hampton Social's coastal rooftop scene, the best brunch in Nashville for 2026, ranked with no paid placements.",
+    faq: [
+      {
+        question: "What is the best brunch in Nashville?",
+        answer:
+          "Milk & Honey, The Butter Milk Ranch, Biscuit Love, Snooze, and Adele's are consistently among Nashville's most popular brunch destinations. As I continue reviewing more restaurants, I'll update this guide with my own Eat With Sam K rankings.",
+      },
+      {
+        question: "Where should tourists go for brunch in Nashville?",
+        answer:
+          "Biscuit Love and Milk & Honey are two of the city's most iconic brunch spots and are great choices for first-time visitors.",
+      },
+      {
+        question: "Which Nashville brunch has the shortest wait?",
+        answer:
+          "Neighborhood restaurants like Fenwick's 300 or Hearts often have shorter waits than Nashville's biggest brunch destinations.",
+      },
+      {
+        question: "What is the best brunch for a date?",
+        answer: "Milk & Honey, Adele's, and Liberty Common all offer excellent atmospheres for brunch dates.",
+      },
+      {
+        question: "What is the best brunch for groups?",
+        answer:
+          "The Hampton Social, Snooze, and Another Broken Egg Cafe all work well for larger groups thanks to spacious seating and diverse menus.",
+      },
+    ],
+    content: `
+      <p>Searching for the best brunch in Nashville? Whether you're craving chicken and waffles, avocado toast, giant cinnamon rolls, bottomless mimosas, or the perfect breakfast burrito, this guide highlights some of the best brunch spots Music City has to offer.</p>
+      <p>Brunch has become one of Nashville's biggest dining traditions. From neighborhood cafés and trendy patios to upscale brunch destinations, there's no shortage of incredible places to spend a Saturday or Sunday morning.</p>
+      <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept paid reviews or exchange positive ratings for free food. As I continue reviewing more Nashville restaurants, this guide will be updated with my personal rankings, scores, and recommendations.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>Quick List: Best Brunch in Nashville (2026)</h2>
+      <ul>
+        <li><strong>1. <a href="https://www.milkandhoneynashville.com/" target="_blank" rel="noopener">Milk & Honey</a></strong></li>
+        <li><strong>2. <a href="https://buttermilkranch.com/" target="_blank" rel="noopener">The Butter Milk Ranch</a></strong></li>
+        <li><strong>3. <a href="https://www.biscuitlove.com/" target="_blank" rel="noopener">Biscuit Love</a></strong></li>
+        <li><strong>4. <a href="https://www.snoozeeatery.com/restaurant/tennessee/east-nashville" target="_blank" rel="noopener">Snooze, an A.M. Eatery</a></strong></li>
+        <li><strong>5. <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></strong></li>
+        <li><strong>6. <a href="https://www.liberty-common.com/" target="_blank" rel="noopener">Liberty Common</a></strong></li>
+        <li><strong>7. <a href="https://www.heartsnashville.com/" target="_blank" rel="noopener">Hearts</a></strong></li>
+        <li><strong>8. <a href="https://www.fenwicks300.com/" target="_blank" rel="noopener">Fenwick's 300</a></strong></li>
+        <li><strong>9. <a href="https://www.anotherbrokenegg.com/locations/nashville-tn/" target="_blank" rel="noopener">Another Broken Egg Cafe</a></strong></li>
+        <li><strong>10. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></strong></li>
+      </ul>
+
+      <h2>1. <a href="https://www.milkandhoneynashville.com/" target="_blank" rel="noopener">Milk & Honey</a></h2>
+      <p><strong>Best For:</strong> Classic Nashville Brunch</p>
+      <p>Milk & Honey has become one of the city's most popular brunch destinations thanks to its beautiful atmosphere, creative menu, and consistently excellent breakfast dishes.</p>
+      <p>Whether you're meeting friends or grabbing brunch before exploring Nashville, this is one of the safest recommendations in town.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Chicken & Waffles</li>
+        <li>French Toast</li>
+        <li>Avocado Toast</li>
+        <li>Lattes</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_c9nTRurYD/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>2. <a href="https://buttermilkranch.com/" target="_blank" rel="noopener">The Butter Milk Ranch</a></h2>
+      <p><strong>Best For:</strong> Southern Comfort Brunch</p>
+      <p>Known for generous portions and Southern-inspired dishes, The Butter Milk Ranch has become a favorite among locals looking for hearty brunch food.</p>
+      <p>The biscuits alone are worth the visit.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Biscuits & Gravy</li>
+        <li>Chicken Biscuit</li>
+        <li>Cinnamon Roll</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C75TLA4OF_y/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>3. <a href="https://www.biscuitlove.com/" target="_blank" rel="noopener">Biscuit Love</a></h2>
+      <p><strong>Best For:</strong> First-Time Nashville Visitors</p>
+      <p>Biscuit Love is one of Nashville's most recognizable brunch spots.</p>
+      <p>While there can be a wait, the homemade biscuits and Southern breakfast classics continue bringing people back.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Bonuts</li>
+        <li>East Nasty</li>
+        <li>Biscuit & Gravy</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CrLxyWagYQJ/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>4. <a href="https://www.snoozeeatery.com/restaurant/tennessee/east-nashville" target="_blank" rel="noopener">Snooze, an A.M. Eatery</a></h2>
+      <p><strong>Best For:</strong> Creative Breakfast</p>
+      <p>Snooze offers one of Nashville's most creative brunch menus, featuring unique pancakes, breakfast tacos, Benedicts, and cocktails.</p>
+      <p>Perfect for groups looking for plenty of variety.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Pineapple Upside Down Pancakes</li>
+        <li>Breakfast Burrito</li>
+        <li>Pancake Flight</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>5. <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></h2>
+      <p><strong>Best For:</strong> Upscale Weekend Brunch</p>
+      <p>If you're looking for a more elevated brunch experience, Adele's continues to be one of Nashville's most popular choices.</p>
+      <p>Their weekend brunch buffet has earned a strong reputation among locals.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Weekend Brunch Buffet</li>
+        <li>Shrimp & Grits</li>
+        <li>Pastries</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DJ4YayguUSl/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>6. <a href="https://www.liberty-common.com/" target="_blank" rel="noopener">Liberty Common</a></h2>
+      <p><strong>Best For:</strong> French-Inspired Brunch</p>
+      <p>Located downtown, Liberty Common combines French café vibes with classic brunch favorites.</p>
+      <p>It's an excellent choice before exploring Broadway or attending nearby events.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Croque Madame</li>
+        <li>Eggs Benedict</li>
+        <li>Pastries</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DEx9PoWyddL/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>7. <a href="https://www.heartsnashville.com/" target="_blank" rel="noopener">Hearts</a></h2>
+      <p><strong>Best For:</strong> Coffee & Light Brunch</p>
+      <p>Hearts is one of Nashville's newer favorites, offering quality coffee alongside fresh pastries and lighter breakfast options.</p>
+      <p>Great for casual mornings or working remotely for a few hours.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Breakfast Sandwich</li>
+        <li>Seasonal Pastries</li>
+        <li>Coffee</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>8. <a href="https://www.fenwicks300.com/" target="_blank" rel="noopener">Fenwick's 300</a></h2>
+      <p><strong>Best For:</strong> Local Neighborhood Brunch</p>
+      <p>Fenwick's has built a loyal following by serving reliable breakfast favorites without the tourist crowds.</p>
+      <p>If you want a more relaxed local brunch experience, this is a great option.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Omelets</li>
+        <li>Pancakes</li>
+        <li>Country Breakfast</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CKwg9Myh6eZ/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>9. <a href="https://www.anotherbrokenegg.com/locations/nashville-tn/" target="_blank" rel="noopener">Another Broken Egg Cafe</a></h2>
+      <p><strong>Best For:</strong> Variety</p>
+      <p>With an extensive breakfast and brunch menu, Another Broken Egg is a dependable choice for groups with different tastes.</p>
+      <p>You'll find everything from omelets and pancakes to seafood-inspired brunch dishes.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>10. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></h2>
+      <p><strong>Best For:</strong> Brunch with Friends</p>
+      <p>Known for its bright coastal atmosphere and fun brunch cocktails, The Hampton Social is one of Nashville's most Instagram-worthy brunch destinations.</p>
+      <p>It's ideal for celebrations, birthdays, and larger groups.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Lobster Roll</li>
+        <li>Avocado Toast</li>
+        <li>Rosé</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DAtxPZrPGfP/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>How I Rate Every Brunch Spot</h2>
+      <p>Every brunch restaurant I personally review on Eat With Sam K is scored using the same rating system. I look at:</p>
+      <ul>
+        <li>🍳 Food Quality</li>
+        <li>☕ Coffee & Drinks</li>
+        <li>💰 Value</li>
+        <li>👨‍🍳 Service</li>
+        <li>🏠 Atmosphere</li>
+      </ul>
+      <p>The best brunch isn't just about the food, it's about the overall experience.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What is the best brunch in Nashville?</strong></p>
+      <p>Milk & Honey, The Butter Milk Ranch, Biscuit Love, Snooze, and Adele's are consistently among Nashville's most popular brunch destinations. As I continue reviewing more restaurants, I'll update this guide with my own Eat With Sam K rankings.</p>
+      <p><strong>Where should tourists go for brunch in Nashville?</strong></p>
+      <p>Biscuit Love and Milk & Honey are two of the city's most iconic brunch spots and are great choices for first-time visitors.</p>
+      <p><strong>Which Nashville brunch has the shortest wait?</strong></p>
+      <p>Neighborhood restaurants like Fenwick's 300 or Hearts often have shorter waits than Nashville's biggest brunch destinations.</p>
+      <p><strong>What is the best brunch for a date?</strong></p>
+      <p>Milk & Honey, Adele's, and Liberty Common all offer excellent atmospheres for brunch dates.</p>
+      <p><strong>What is the best brunch for groups?</strong></p>
+      <p>The Hampton Social, Snooze, and Another Broken Egg Cafe all work well for larger groups thanks to spacious seating and diverse menus.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Nashville has become one of the best brunch cities in the country, offering everything from classic Southern breakfasts to modern cafés and upscale weekend brunch experiences.</p>
+      <p>As I continue eating my way across Nashville, I'll keep updating this guide with my personal reviews, rankings, photos, and videos to help you find your next great brunch.</p>
+      <p>Whether you're visiting for the weekend or you're a longtime local, I hope this guide helps you discover your next favorite brunch spot.</p>
+      <p><em>Last Updated: August 2026</em></p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
+        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
+        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
+        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
+        <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
+        <li>Best Restaurants Under $20 <em>(coming soon)</em></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-hot-chicken-nashville",
     places: ["chen-chens-nashville"],
     title: "Best Hot Chicken in Nashville (2026 Updated Guide)",
@@ -260,7 +477,7 @@ const BLOG_POSTS = [
         <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
         <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
         <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
-        <li>Best Brunch in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
         <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
         <li>Best Restaurants Under $20 <em>(coming soon)</em></li>
       </ul>
@@ -439,7 +656,7 @@ const BLOG_POSTS = [
         <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
         <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
         <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li>Best Brunch in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
         <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
         <li>Best Restaurants Under $20 <em>(coming soon)</em></li>
       </ul>
@@ -612,7 +829,7 @@ const BLOG_POSTS = [
         <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
         <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
         <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li>Best Brunch in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
         <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
         <li>Best Restaurants Under $20 <em>(coming soon)</em></li>
       </ul>
@@ -765,7 +982,7 @@ const BLOG_POSTS = [
         <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
         <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
         <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li>Best Brunch in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
         <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
         <li>Best Restaurants Under $20 <em>(coming soon)</em></li>
       </ul>

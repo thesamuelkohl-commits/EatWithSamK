@@ -1,6 +1,56 @@
 {
-  "generatedAt": "2026-08-02T20:06:10.215Z",
+  "generatedAt": "2026-08-04T16:03:55.265Z",
   "places": [
+    {
+      "id": "hibachi-jr-hendersonville",
+      "name": "Hibachi Jr.",
+      "city": "Hendersonville, TN",
+      "lat": 36.2987,
+      "lng": -86.6165,
+      "address": "112 Saundersville Rd, Ste C300, Hendersonville, TN 37075",
+      "phone": "(615) 622-5115",
+      "parking": "Free lot parking",
+      "website": "https://www.instagram.com/hibachijrnashville",
+      "date": "2026-08-01",
+      "price": "$$",
+      "cuisine": "Hibachi",
+      "badges": [
+        "family-friendly",
+        "quick-bite"
+      ],
+      "about": "Hibachi Jr. is a Japanese hibachi restaurant with locations across the greater Nashville area, serving grilled chicken, steak, and seafood combos hot off the flat-top alongside fried rice, noodles, and sushi rolls.",
+      "ate": "Chicken and Shrimp Hibachi Combo with double spicy rice instead of vegetables.",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/hibachi-jr-hendersonville/storefront.jpg",
+          "alt": "Hibachi Jr. storefront, 112 Saundersville Rd, Hendersonville"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/hibachi-jr-hendersonville/interior.jpg",
+          "alt": "Inside Hibachi Jr., dining room and hibachi grill"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/hibachi-jr-hendersonville/order.jpg",
+          "alt": "Sam's order: Chicken and Shrimp Hibachi Combo with double spicy rice"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/hibachi-jr-hendersonville/order-sauce.jpg",
+          "alt": "Chicken and Shrimp Hibachi Combo topped with sauce, Hibachi Jr."
+        }
+      ],
+      "pros": [
+        "Good value",
+        "Quick",
+        "Great inside seating"
+      ],
+      "rating": 8.2,
+      "video": "https://www.instagram.com/reel/DbmHj7ttwF_/?igsh=MWwwYnFnbDJkenJ0dw==",
+      "tags": [
+        "Hibachi",
+        "Hendersonville"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/hibachi-jr-hendersonville.html"
+    },
     {
       "id": "chen-chens-nashville",
       "name": "Chen Chen's",
@@ -9,6 +59,7 @@
       "lng": -86.7936,
       "address": "130 19th Ave N, Nashville, TN 37203",
       "phone": "(615) 964-7044",
+      "parking": "Free and paid parking nearby",
       "website": "https://www.instagram.com/chenchensnashville",
       "date": "2026-07-30",
       "price": "$$",
@@ -56,6 +107,7 @@
       "lng": -86.78,
       "address": "10 The Arcade, Ste. 10, Nashville, TN 37219",
       "website": "https://www.nadcburger.com/locations",
+      "parking": "Paid parking nearby",
       "date": "2026-07-29",
       "price": "$$",
       "cuisine": "Burgers",
@@ -102,6 +154,7 @@
       "address": "5056 Broadway, Suite B-103, Nashville, TN 37203",
       "phone": "(629) 317-8644",
       "website": "https://locations.princestreetpizza.com/nashville",
+      "parking": "Paid parking nearby",
       "date": "2026-07-18",
       "price": "$$",
       "cuisine": "Pizza",
