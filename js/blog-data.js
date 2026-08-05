@@ -26,6 +26,463 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-coffee-shops-nashville",
+    title: "Best Coffee Shops in Nashville (2026 Updated Guide)",
+    city: "Nashville, TN",
+    date: "2026-08-06",
+    emoji: "☕",
+    excerpt:
+      "From Crema's zero-waste specialty roasts to Matryoshka's playful, colorful vibe, the best coffee shops in Nashville for 2026, ranked with no paid placements.",
+    faq: [
+      {
+        question: "What is the best coffee shop in Nashville?",
+        answer:
+          "Crema, Barista Parlor, 8th & Roast, Frothy Monkey, and Humphreys Street are among Nashville's most established and recognizable coffee destinations. As I personally visit and review more shops, this guide will be updated with my own rankings and Sam Scores.",
+      },
+      {
+        question: "What is the best Nashville coffee shop for working?",
+        answer:
+          "Dose, Frothy Monkey, and certain 8th & Roast locations can be good options for working because they combine coffee, food, seating, and longer café visits. Always be considerate during busy periods and avoid taking up a large table for several hours.",
+      },
+      {
+        question: "What is the best coffee shop for breakfast?",
+        answer: "Fido, Frothy Monkey, Dose, and Flora + Fauna are strong choices when you want both quality coffee and a more complete breakfast.",
+      },
+      {
+        question: "What is the most unique coffee shop in Nashville?",
+        answer: "Matryoshka is one of the city's most visually distinctive and creative coffee shops, while Barista Parlor is known for its design-forward spaces.",
+      },
+      {
+        question: "Which Nashville coffee shops roast their own coffee?",
+        answer: "Crema, Barista Parlor, 8th & Roast, Frothy Monkey, Humphreys Street, and Flora + Fauna are among the Nashville businesses connected to coffee roasting.",
+      },
+    ],
+    content: `
+      <p>Searching for the best coffee shops in Nashville? Whether you want carefully roasted specialty coffee, a comfortable place to work, an impressive seasonal latte, or a full breakfast with your morning drink, Nashville has no shortage of excellent cafés.</p>
+      <p>Nashville's coffee scene includes longtime local institutions, specialty roasters, all-day cafés, neighborhood gathering places, and newer shops offering creative drinks and modern spaces.</p>
+      <p>At Eat With Sam K, every visit is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food or drinks. As I personally visit more Nashville coffee shops, this guide will be updated with my own scores, photos, videos, and rankings.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>Quick List: Best Coffee Shops in Nashville</h2>
+      <ul>
+        <li><strong>1. <a href="https://crema-coffee.com/" target="_blank" rel="noopener">Crema Coffee Roasters</a></strong></li>
+        <li><strong>2. <a href="https://baristaparlor.com/" target="_blank" rel="noopener">Barista Parlor</a></strong></li>
+        <li><strong>3. <a href="https://8thandroast.com/" target="_blank" rel="noopener">8th & Roast</a></strong></li>
+        <li><strong>4. <a href="https://frothymonkey.com/" target="_blank" rel="noopener">Frothy Monkey</a></strong></li>
+        <li><strong>5. <a href="https://humphreysstreet.com/" target="_blank" rel="noopener">Humphreys Street Coffee</a></strong></li>
+        <li><strong>6. <a href="https://www.elegycoffee.com/" target="_blank" rel="noopener">Elegy Coffee</a></strong></li>
+        <li><strong>7. <a href="https://dosenashville.com/" target="_blank" rel="noopener">Dose Coffee & Tea</a></strong></li>
+        <li><strong>8. <a href="https://www.instagram.com/florafaunanashville/" target="_blank" rel="noopener">Flora + Fauna</a></strong></li>
+        <li><strong>9. <a href="https://www.bongojava.com/pages/fido" target="_blank" rel="noopener">Fido</a></strong></li>
+        <li><strong>10. <a href="https://www.matryoshkacoffee.com/" target="_blank" rel="noopener">Matryoshka Coffee</a></strong></li>
+      </ul>
+
+      <h2>1. <a href="https://crema-coffee.com/" target="_blank" rel="noopener">Crema Coffee Roasters</a></h2>
+      <p><strong>Best For:</strong> Specialty Coffee</p>
+      <p>Crema is one of Nashville's best-known specialty coffee roasters and operates with a strong focus on thoughtful sourcing, education, sustainability, and quality coffee.</p>
+      <p>Its downtown café is a convenient choice for locals and visitors looking for espresso drinks, carefully prepared coffee, and a comfortable café experience near the center of Nashville. Crema describes itself as a zero-waste Nashville roaster focused on creating welcoming café spaces and delivering an exceptional seed-to-cup experience.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Espresso</li>
+        <li>Pour-over coffee</li>
+        <li>Seasonal latte</li>
+        <li>Coffee beans to take home</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DHoKcHdRQSh/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>2. <a href="https://baristaparlor.com/" target="_blank" rel="noopener">Barista Parlor</a></h2>
+      <p><strong>Best For:</strong> Coffee and Atmosphere</p>
+      <p>Barista Parlor has been part of Nashville's specialty coffee scene since 2012 and emphasizes ethically sourced coffee and sweetness-focused roasting.</p>
+      <p>The shops are known for distinctive interiors, carefully prepared drinks, and an experience that feels more intentional than a typical grab-and-go coffee stop.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Espresso</li>
+        <li>Hand-brewed coffee</li>
+        <li>Seasonal drinks</li>
+        <li>Breakfast sandwich</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CrO4Jn3OvUV/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>3. <a href="https://8thandroast.com/" target="_blank" rel="noopener">8th & Roast</a></h2>
+      <p><strong>Best For:</strong> Local Roasted Coffee</p>
+      <p>8th & Roast is a strong option for anyone who wants locally roasted coffee paired with breakfast, pastries, or a quick morning meal.</p>
+      <p>Its café menu includes curated coffee drinks along with fresh pastry and breakfast options, making it useful whether you want to sit down or grab something on the way to work.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Cold brew</li>
+        <li>Latte</li>
+        <li>Seasonal specialty drink</li>
+        <li>Breakfast sandwich</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>4. <a href="https://frothymonkey.com/" target="_blank" rel="noopener">Frothy Monkey</a></h2>
+      <p><strong>Best For:</strong> Coffee and a Full Meal</p>
+      <p>Frothy Monkey is more than a traditional coffee shop. It operates as an all-day café serving coffee, breakfast, brunch, lunch, dinner, and cocktails at its public café locations.</p>
+      <p>This is one of the better choices when one person wants coffee but the rest of the group wants a full meal.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Latte</li>
+        <li>Vanilla-cinnamon French toast</li>
+        <li>Omelette</li>
+        <li>Seasonal coffee drink</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>5. <a href="https://humphreysstreet.com/" target="_blank" rel="noopener">Humphreys Street Coffee</a></h2>
+      <p><strong>Best For:</strong> Coffee with a Mission</p>
+      <p>Humphreys Street Coffee is a Nashville social enterprise that employs and empowers young people through coffee roasting and handmade goods. The organization reinvests its profits into youth programs and scholarships.</p>
+      <p>Beyond the mission, the café offers thoughtfully prepared drinks in a welcoming neighborhood environment.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Drip coffee</li>
+        <li>Latte</li>
+        <li>Seasonal drink</li>
+        <li>Fresh pastry</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>6. <a href="https://www.elegycoffee.com/" target="_blank" rel="noopener">Elegy Coffee</a></h2>
+      <p><strong>Best For:</strong> Creative Drinks</p>
+      <p>Elegy has expanded across Nashville with locations in East Nashville, Germantown, Downtown, and Wedgewood-Houston.</p>
+      <p>It's a strong option for people who enjoy modern coffee shops, creative seasonal drinks, and polished branding. Food is also available during part of the day at its locations.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Honey Bear</li>
+        <li>Seasonal latte</li>
+        <li>Cold brew</li>
+        <li>Breakfast item</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>7. <a href="https://dosenashville.com/" target="_blank" rel="noopener">Dose Coffee & Tea</a></h2>
+      <p><strong>Best For:</strong> Coffee, Tea, and Food</p>
+      <p>Dose combines specialty coffee and tea with a more substantial food menu than many traditional coffee shops.</p>
+      <p>The business describes itself as more than a coffee shop, emphasizing dishes, baked goods, coffee, and tea that can be enjoyed together. It's especially useful when you want to work, meet someone for coffee, or have breakfast or lunch without changing locations.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Espresso drink</li>
+        <li>Tea</li>
+        <li>Baked goods</li>
+        <li>Breakfast or lunch item</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C4DscDGO0al/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>8. <a href="https://www.instagram.com/florafaunanashville/" target="_blank" rel="noopener">Flora + Fauna</a></h2>
+      <p><strong>Best For:</strong> Seasonal Food and Coffee</p>
+      <p>Flora + Fauna is a locally owned East Nashville café and coffee roaster focused on exceptional coffee and food prepared with local and seasonal ingredients.</p>
+      <p>This is a good choice when the food matters just as much as the coffee.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Seasonal coffee drink</li>
+        <li>Espresso</li>
+        <li>Breakfast plate</li>
+        <li>Pastry</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>9. <a href="https://www.bongojava.com/pages/fido" target="_blank" rel="noopener">Fido</a></h2>
+      <p><strong>Best For:</strong> Coffee and All-Day Breakfast</p>
+      <p>Fido has been part of Hillsboro Village since 1996. What began as a coffee-roasting café evolved into an all-day dining destination with organic coffee and a menu built around local ingredients.</p>
+      <p>Its location and larger food menu make it a practical stop for breakfast, brunch, lunch, a casual meeting, or coffee before exploring the neighborhood.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Organic coffee</li>
+        <li>Breakfast</li>
+        <li>Breakfast sandwich</li>
+        <li>Seasonal café drink</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>10. <a href="https://www.matryoshkacoffee.com/" target="_blank" rel="noopener">Matryoshka Coffee</a></h2>
+      <p><strong>Best For:</strong> Creative and Fun Coffee</p>
+      <p>Matryoshka stands out from Nashville's more traditional specialty coffee shops with an art-focused, colorful, playful atmosphere.</p>
+      <p>The shop describes itself as a place where good coffee can be fun, with creative drinks and an intentionally welcoming environment.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Seasonal specialty drink</li>
+        <li>Matcha</li>
+        <li>Latte</li>
+        <li>Creative signature drink</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>Best Nashville Coffee Shops by Occasion</h2>
+      <p><strong>Best for Specialty Coffee</strong></p>
+      <ul>
+        <li>Crema Coffee Roasters</li>
+        <li>Barista Parlor</li>
+        <li>8th & Roast</li>
+      </ul>
+      <p><strong>Best for Breakfast or Brunch</strong></p>
+      <ul>
+        <li>Frothy Monkey</li>
+        <li>Fido</li>
+        <li>Dose Coffee & Tea</li>
+        <li>Flora + Fauna</li>
+      </ul>
+      <p><strong>Best for Working Remotely</strong></p>
+      <ul>
+        <li>Dose Coffee & Tea</li>
+        <li>Frothy Monkey</li>
+        <li>8th & Roast</li>
+      </ul>
+      <p><strong>Best for Creative Drinks</strong></p>
+      <ul>
+        <li>Elegy Coffee</li>
+        <li>Matryoshka Coffee</li>
+        <li>Barista Parlor</li>
+      </ul>
+      <p><strong>Best for Coffee with a Mission</strong></p>
+      <ul>
+        <li>Humphreys Street Coffee</li>
+      </ul>
+
+      <h2>How I Rate Coffee Shops</h2>
+      <p>Every coffee shop I personally review on Eat With Sam K is evaluated using the same core categories.</p>
+      <ul>
+        <li>☕ Coffee Quality — Flavor, freshness, preparation, and consistency.</li>
+        <li>🥐 Food and Pastries — Quality and variety of breakfast items, pastries, and snacks.</li>
+        <li>💰 Value — Whether the drinks and food are worth the price.</li>
+        <li>👨‍🍳 Service — Friendliness, accuracy, and speed.</li>
+        <li>🏠 Atmosphere — Seating, cleanliness, design, noise level, and overall comfort.</li>
+        <li>💻 Workability — Seating, outlets, Wi-Fi, and whether the environment is suitable for getting work done.</li>
+      </ul>
+      <p>The final Sam Score reflects the overall experience, with coffee quality carrying the most weight.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What is the best coffee shop in Nashville?</strong></p>
+      <p>Crema, Barista Parlor, 8th & Roast, Frothy Monkey, and Humphreys Street are among Nashville's most established and recognizable coffee destinations. As I personally visit and review more shops, this guide will be updated with my own rankings and Sam Scores.</p>
+      <p><strong>What is the best Nashville coffee shop for working?</strong></p>
+      <p>Dose, Frothy Monkey, and certain 8th & Roast locations can be good options for working because they combine coffee, food, seating, and longer café visits. Always be considerate during busy periods and avoid taking up a large table for several hours.</p>
+      <p><strong>What is the best coffee shop for breakfast?</strong></p>
+      <p>Fido, Frothy Monkey, Dose, and Flora + Fauna are strong choices when you want both quality coffee and a more complete breakfast.</p>
+      <p><strong>What is the most unique coffee shop in Nashville?</strong></p>
+      <p>Matryoshka is one of the city's most visually distinctive and creative coffee shops, while Barista Parlor is known for its design-forward spaces.</p>
+      <p><strong>Which Nashville coffee shops roast their own coffee?</strong></p>
+      <p>Crema, Barista Parlor, 8th & Roast, Frothy Monkey, Humphreys Street, and Flora + Fauna are among the Nashville businesses connected to coffee roasting.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Nashville's coffee scene offers far more than a basic morning cup.</p>
+      <p>You can find specialty roasters, creative neighborhood cafés, all-day brunch destinations, work-friendly spaces, and coffee businesses built around meaningful community missions.</p>
+      <p>As I personally visit more of these shops, I'll continue updating this guide with Eat With Sam K scores, photos, videos, favorite drinks, and firsthand rankings.</p>
+      <p>The goal is to make this the most useful guide to finding the best coffee in Nashville.</p>
+      <p><em>Last Updated: August 2026</em></p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for your next meal or drink? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
+        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
+        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
+        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
+        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
+        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
+      </ul>
+    `,
+  },
+  {
+    id: "best-credit-cards-for-dining",
+    title: "The Best Credit Cards for Foodies & Dining (2026)",
+    city: "Nashville, TN",
+    date: "2026-08-05",
+    emoji: "💳",
+    excerpt:
+      "From the Amex Gold Card's industry-leading dining rewards to Chase Sapphire Preferred's balanced perks, the best credit cards for foodies and frequent diners in 2026.",
+    content: `
+      <p>If you love trying new restaurants, the right credit card can help you earn valuable rewards every time you eat out.</p>
+      <p>I personally pay for every meal I review on Eat With Sam K, so choosing the right credit card helps me maximize points while exploring Nashville's food scene.</p>
+      <p>These are my top recommendations for people who enjoy dining out, traveling, and earning rewards.</p>
+
+      <h2>🥇 <a href="https://americanexpress.com/en-us/referral/gold-card?ref=SAMUEKhIMj&XL=MIZNS" target="_blank" rel="sponsored noopener">American Express® Gold Card</a></h2>
+      <p><strong>Best Overall Credit Card for Dining</strong></p>
+      <p>The American Express Gold Card is my #1 recommendation for anyone who regularly eats at restaurants. Between the industry-leading dining rewards and grocery earnings, it's one of the best everyday cards available for food lovers.</p>
+      <p><strong>Rewards:</strong></p>
+      <ul>
+        <li>🍽️ 4X Membership Rewards® Points at restaurants worldwide</li>
+        <li>🛒 4X Membership Rewards® Points at U.S. supermarkets (up to annual spending limits)</li>
+        <li>✈️ 3X Points on flights booked directly with airlines or through Amex Travel</li>
+        <li>💳 1X Point on all other eligible purchases</li>
+      </ul>
+      <div class="pros-cons">
+        <div class="pros"><h3>👍 Pros</h3><ul>
+          <li>One of the highest restaurant earning rates available</li>
+          <li>Excellent grocery rewards</li>
+          <li>Monthly dining credits</li>
+          <li>Valuable Membership Rewards transfer partners</li>
+          <li>Great long-term value for frequent diners</li>
+        </ul></div>
+        <div class="cons"><h3>👎 Cons</h3><ul>
+          <li>Annual fee</li>
+          <li>You need to use the monthly credits to maximize value</li>
+          <li>American Express isn't accepted everywhere</li>
+        </ul></div>
+      </div>
+      <p><strong>Best For:</strong></p>
+      <ul>
+        <li>Foodies</li>
+        <li>People who dine out often</li>
+        <li>Grocery shoppers</li>
+        <li>Travelers collecting airline points</li>
+      </ul>
+
+      <h2>🥈 <a href="https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred" target="_blank" rel="noopener">Chase Sapphire Preferred®</a></h2>
+      <p><strong>Best Overall Value</strong></p>
+      <p>If you're looking for one credit card that offers an excellent balance of dining rewards, travel benefits, and a reasonable annual fee, the Chase Sapphire Preferred is hard to beat.</p>
+      <p><strong>Rewards:</strong></p>
+      <ul>
+        <li>🍽️ 3X Ultimate Rewards® Points on dining</li>
+        <li>✈️ 2X Points on travel</li>
+        <li>🛒 Bonus rewards on select streaming services and online grocery purchases</li>
+        <li>💳 1X Point on most other purchases</li>
+      </ul>
+      <div class="pros-cons">
+        <div class="pros"><h3>👍 Pros</h3><ul>
+          <li>Excellent all-around rewards card</li>
+          <li>Great travel protections</li>
+          <li>Strong dining rewards</li>
+          <li>Lower annual fee than premium travel cards</li>
+          <li>Valuable Chase Ultimate Rewards® points</li>
+        </ul></div>
+        <div class="cons"><h3>👎 Cons</h3><ul>
+          <li>Doesn't earn as much at restaurants as the Amex Gold</li>
+          <li>Fewer premium perks than higher-end cards</li>
+        </ul></div>
+      </div>
+      <p><strong>Best For:</strong></p>
+      <ul>
+        <li>Couples</li>
+        <li>Travelers</li>
+        <li>Anyone wanting one primary credit card</li>
+      </ul>
+
+      <h2>🥉 <a href="https://www.capitalone.com/credit-cards/cash-back/savor/" target="_blank" rel="noopener">Capital One Savor Rewards</a></h2>
+      <p><strong>Best Cash Back for Dining</strong></p>
+      <p>If you prefer straightforward cash back instead of travel points, the Capital One Savor is an excellent choice.</p>
+      <p><strong>Rewards:</strong></p>
+      <ul>
+        <li>🍽️ High cash back on dining</li>
+        <li>🎬 Bonus cash back on entertainment</li>
+        <li>🛒 Bonus cash back at grocery stores (depending on card version)</li>
+        <li>💳 Cash back on all other eligible purchases</li>
+      </ul>
+      <div class="pros-cons">
+        <div class="pros"><h3>👍 Pros</h3><ul>
+          <li>Simple cash back rewards</li>
+          <li>Excellent dining earnings</li>
+          <li>Easy redemption</li>
+          <li>Great for people who don't travel often</li>
+        </ul></div>
+        <div class="cons"><h3>👎 Cons</h3><ul>
+          <li>Fewer travel transfer options</li>
+          <li>Less flexibility than points-based programs</li>
+        </ul></div>
+      </div>
+      <p><strong>Best For:</strong></p>
+      <ul>
+        <li>Cash back lovers</li>
+        <li>Restaurant spending</li>
+        <li>Entertainment purchases</li>
+      </ul>
+
+      <h2><a href="https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve" target="_blank" rel="noopener">Chase Sapphire Reserve®</a></h2>
+      <p><strong>Best Premium Dining &amp; Travel Card</strong></p>
+      <p>The Chase Sapphire Reserve is designed for people who travel frequently but still want excellent rewards when dining out.</p>
+      <p><strong>Rewards:</strong></p>
+      <ul>
+        <li>🍽️ 3X Ultimate Rewards® Points on dining</li>
+        <li>✈️ 3X Points on travel</li>
+        <li>💳 1X Point on most other purchases</li>
+      </ul>
+      <div class="pros-cons">
+        <div class="pros"><h3>👍 Pros</h3><ul>
+          <li>Airport lounge access</li>
+          <li>Outstanding travel protections</li>
+          <li>Flexible Ultimate Rewards® points</li>
+          <li>Premium travel benefits</li>
+        </ul></div>
+        <div class="cons"><h3>👎 Cons</h3><ul>
+          <li>High annual fee</li>
+          <li>Best value comes from frequent travelers</li>
+        </ul></div>
+      </div>
+      <p><strong>Best For:</strong></p>
+      <ul>
+        <li>Frequent travelers</li>
+        <li>Premium card users</li>
+        <li>Chase ecosystem</li>
+      </ul>
+
+      <h2><a href="https://www.capitalone.com/credit-cards/venture-x/" target="_blank" rel="noopener">Capital One Venture X Rewards</a></h2>
+      <p><strong>Best Companion Card for Travelers</strong></p>
+      <p>While the Venture X isn't primarily a dining card, it's a fantastic option if you frequently travel to explore new restaurants and cities.</p>
+      <p><strong>Rewards:</strong></p>
+      <ul>
+        <li>✈️ 2X Miles on every purchase</li>
+        <li>🏨 Higher rewards on Capital One Travel bookings</li>
+        <li>🚗 Bonus miles on rental cars booked through Capital One Travel</li>
+      </ul>
+      <div class="pros-cons">
+        <div class="pros"><h3>👍 Pros</h3><ul>
+          <li>Simple earning structure</li>
+          <li>Airport lounge access</li>
+          <li>Annual travel credits</li>
+          <li>Excellent value compared to many premium cards</li>
+        </ul></div>
+        <div class="cons"><h3>👎 Cons</h3><ul>
+          <li>Doesn't specialize in restaurant rewards</li>
+          <li>Travel benefits are where it shines</li>
+        </ul></div>
+      </div>
+      <p><strong>Best For:</strong></p>
+      <ul>
+        <li>Travelers</li>
+        <li>People wanting simple rewards</li>
+        <li>Pairing with another dining-focused card</li>
+      </ul>
+
+      <h2>Quick Comparison</h2>
+      <table>
+        <thead>
+          <tr><th>Card</th><th>Dining</th><th>Travel</th><th>Annual Fee</th><th>Best For</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>🥇 Amex Gold</td><td>⭐⭐⭐⭐⭐</td><td>⭐⭐⭐⭐</td><td>$$$</td><td>Dining &amp; Groceries</td></tr>
+          <tr><td>🥈 Chase Sapphire Preferred</td><td>⭐⭐⭐⭐</td><td>⭐⭐⭐⭐</td><td>$$</td><td>Best Overall Value</td></tr>
+          <tr><td>🥉 Capital One Savor</td><td>⭐⭐⭐⭐⭐</td><td>⭐⭐</td><td>$</td><td>Cash Back</td></tr>
+          <tr><td>Chase Sapphire Reserve</td><td>⭐⭐⭐⭐</td><td>⭐⭐⭐⭐⭐</td><td>$$$$</td><td>Premium Travel</td></tr>
+          <tr><td>Venture X</td><td>⭐⭐⭐</td><td>⭐⭐⭐⭐⭐</td><td>$$$</td><td>Travel Companion</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Which Card Do I Personally Recommend?</h2>
+      <p>If you're looking for one card specifically for eating out, I'd recommend the <a href="https://americanexpress.com/en-us/referral/gold-card?ref=SAMUEKhIMj&XL=MIZNS" target="_blank" rel="sponsored noopener">American Express Gold Card</a>.</p>
+      <p>If you want one card that balances restaurants, travel, and everyday spending, the Chase Sapphire Preferred is one of the best values available.</p>
+      <p>If you don't care about travel points and simply want cash back, the Capital One Savor Rewards is a great option.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>The best dining credit card depends on your lifestyle.</p>
+      <p>For restaurant lovers, I believe the American Express Gold Card continues to set the standard thanks to its industry-leading restaurant rewards and flexible Membership Rewards® program.</p>
+      <p>If you're just starting your rewards journey, the Chase Sapphire Preferred is one of the best all-around cards on the market.</p>
+      <p>No matter which card you choose, using the right rewards card every time you eat out can turn your favorite meals into valuable points, cash back, and future travel.</p>
+      <p><em>Last Updated: August 2026</em></p>
+
+      <h2>Affiliate Disclosure</h2>
+      <p>Some links on this page may be referral links. If you choose to apply through one of them, I may receive a referral bonus at no additional cost to you. I only recommend products I personally use or genuinely believe provide value.</p>
+
+      <h2>More From Eat With Sam K</h2>
+      <p>Looking for where to actually use these points? Check out these guides:</p>
+      <ul>
+        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
+        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-cheap-eats-nashville",
     title: "Best Cheap Eats in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
@@ -233,7 +690,7 @@ const BLOG_POSTS = [
         <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
         <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
         <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
-        <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
       </ul>
     `,
   },
@@ -449,7 +906,7 @@ const BLOG_POSTS = [
         <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
         <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
         <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
-        <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
         <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
@@ -690,7 +1147,7 @@ const BLOG_POSTS = [
         <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
         <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
         <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
         <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
@@ -869,7 +1326,7 @@ const BLOG_POSTS = [
         <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
         <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
         <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
         <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
@@ -1042,7 +1499,7 @@ const BLOG_POSTS = [
         <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
         <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
         <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
         <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
@@ -1195,7 +1652,7 @@ const BLOG_POSTS = [
         <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
         <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
         <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li>Best Coffee Shops in Nashville <em>(coming soon)</em></li>
+        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
         <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,

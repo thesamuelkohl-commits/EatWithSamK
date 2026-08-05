@@ -36,10 +36,15 @@
   <meta name="twitter:image" content="https://www.eatwithsamk.com/images/logo.png" />
 
   <link rel="icon" type="image/png" href="../images/favicon.png?v=2" />
+  <link rel="manifest" href="../manifest.json" />
+  <meta name="theme-color" content="#c05a24" />
+  <link rel="apple-touch-icon" href="../images/icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=19" />
+  <link rel="stylesheet" href="../css/style.css?v=22" />
 
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Prince St. Pizza","address":{"@type":"PostalAddress","streetAddress":"5056 Broadway, Suite B-103","addressLocality":"Nashville","addressRegion":"TN","postalCode":"37203","addressCountry":"US"},"description":"Prince St. Pizza traces back to 2012 in New York's Nolita neighborhood, built on recipes that have stayed in the Morano family for generations, their philosophy is simple: if it works on pasta, it works on pizza. The original NYC shop made its name on the Sicilian \"SoHo Square,\" a thick, crispy-bottomed slice, and the Spicy Spring, its signature square topped with pepperoni cups, fresh mozzarella, and tomato sauce. The brand has since expanded well beyond New York, and this location, inside the Fifth + Broadway development in downtown Nashville, is its first in Tennessee.","telephone":"(629) 317-8644","url":"https://locations.princestreetpizza.com/nashville","priceRange":"$$","servesCuisine":"Pizza","geo":{"@type":"GeoCoordinates","latitude":36.160411,"longitude":-86.779725},"review":{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":7.4,"bestRating":"10","worstRating":"1"},"author":{"@type":"Person","name":"Sam K"},"reviewBody":"The Spicy Vodka, The Naughty Pie, and the Houston Jalapeno, three square slices, three very different heat levels.","publisher":{"@type":"Organization","name":"Eat With Sam K"}}}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.eatwithsamk.com/"},{"@type":"ListItem","position":2,"name":"Reviews","item":"https://www.eatwithsamk.com/reviews.html"},{"@type":"ListItem","position":3,"name":"Prince St. Pizza","item":"https://www.eatwithsamk.com/reviews/prince-street-pizza-nashville.html"}]}</script>
@@ -53,6 +58,7 @@
       <div class="header-right">
         <div class="social-row" data-socials></div>
         <div class="auth-widget" data-auth></div>
+        <div class="install-widget" data-install></div>
       </div>
     </div>
   </header>
@@ -128,6 +134,35 @@
       <div class="rating-badge rating-badge-lg good">7.4<small>/ 10</small></div>
     </div>
 
+    <div class="reveal">
+    <div class="referral-widget">
+      <h3 class="referral-title">🎁 Deals I Actually Use</h3>
+      <p class="referral-blurb">A few things I personally use to eat out and get around, here's how you can save (or earn) too.</p>
+      <div class="referral-cards">
+        <a class="referral-card" href="https://americanexpress.com/en-us/referral/gold-card?ref=SAMUEKhIMj&XL=MIZNS" target="_blank" rel="sponsored noopener">
+          <span class="referral-card-name">Amex Gold Card</span>
+          <span class="referral-card-desc">Great everyday points on food &amp; travel</span>
+          <span class="referral-card-cta">Learn More →</span>
+        </a>
+        <a class="referral-card" href="https://americanexpress.com/en-us/referral/platinum-card?ref=SAMUEKQPAv&XL=MIZNS" target="_blank" rel="sponsored noopener">
+          <span class="referral-card-name">Amex Platinum Card</span>
+          <span class="referral-card-desc">Even better points on travel</span>
+          <span class="referral-card-cta">Learn More →</span>
+        </a>
+        <a class="referral-card" href="https://referrals.uber.com/refer?id=r68141rgpszh" target="_blank" rel="sponsored noopener">
+          <span class="referral-card-name">Uber</span>
+          <span class="referral-card-desc">Sign up for an easy ride to your next meal</span>
+          <span class="referral-card-cta">Learn More →</span>
+        </a>
+        <a class="referral-card" href="https://ubereats.com/feed?promoCode=eats-samuelk6169ue" target="_blank" rel="sponsored noopener">
+          <span class="referral-card-name">Uber Eats</span>
+          <span class="referral-card-desc">Get your next meal delivered</span>
+          <span class="referral-card-cta">Learn More →</span>
+        </a>
+      </div>
+      <p class="referral-disclosure">These are referral links, if you sign up, I may earn rewards too. Thanks for supporting the site!</p>
+    </div></div>
+
     
 
     <h2 class="review-section-title">Find it on the map</h2>
@@ -141,8 +176,9 @@
   <script src="../js/data.js?v=10"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=16"></script>
+  <script src="../js/common.js?v=21"></script>
   <script src="../js/auth.js?v=1"></script>
+  <script src="../js/pwa.js?v=1"></script>
   <script>
     hydrateFavoriteButtons();
     var map = L.map("map", { scrollWheelZoom: false }).setView([36.160411, -86.779725], 15);
