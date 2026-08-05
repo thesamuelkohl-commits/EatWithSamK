@@ -33,10 +33,15 @@
   <meta name="twitter:description" content="Follow Sam K's food reviews: an interactive map of every restaurant rated out of 10." />
   <meta name="twitter:image" content="https://www.eatwithsamk.com/images/logo.png" />
   <link rel="icon" type="image/png" href="images/favicon.png?v=2" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#c05a24" />
+  <link rel="apple-touch-icon" href="images/icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="css/style.css?v=19" />
+  <link rel="stylesheet" href="css/style.css?v=22" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -69,6 +74,7 @@
       <div class="header-right">
         <div class="social-row" data-socials></div>
         <div class="auth-widget" data-auth></div>
+        <div class="install-widget" data-install></div>
       </div>
     </div>
   </header>
@@ -114,11 +120,12 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="js/data.js?v=10"></script>
-  <script src="js/blog-data.js?v=19"></script>
+  <script src="js/blog-data.js?v=21"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-config.js?v=1"></script>
-  <script src="js/common.js?v=16"></script>
+  <script src="js/common.js?v=21"></script>
   <script src="js/auth.js?v=1"></script>
+  <script src="js/pwa.js?v=1"></script>
   <script src="js/app.js?v=7"></script>
 </body>
 </html>

@@ -72,6 +72,41 @@ function favoriteButtonHtml(place, extraClass) {
   return `<button type="button" class="favorite-btn${extraClass ? ` ${extraClass}` : ""}" data-favorite-toggle="${place.id}" aria-pressed="false" aria-label="Save ${escapeAttr(place.name)} to your saved places">🤍</button>`;
 }
 
+// Same widget as js/common.js's referralWidgetHtml() (used in the shared
+// footer) — duplicated here since this file runs in Node, not the browser.
+// No page-relative paths involved (just outbound links), so the two copies
+// never need to diverge.
+function referralWidgetHtml() {
+  return `
+    <div class="referral-widget">
+      <h3 class="referral-title">🎁 Deals I Actually Use</h3>
+      <p class="referral-blurb">A few things I personally use to eat out and get around, here's how you can save (or earn) too.</p>
+      <div class="referral-cards">
+        <a class="referral-card" href="https://americanexpress.com/en-us/referral/gold-card?ref=SAMUEKhIMj&XL=MIZNS" target="_blank" rel="sponsored noopener">
+          <span class="referral-card-name">Amex Gold Card</span>
+          <span class="referral-card-desc">Great everyday points on food &amp; travel</span>
+          <span class="referral-card-cta">Learn More →</span>
+        </a>
+        <a class="referral-card" href="https://americanexpress.com/en-us/referral/platinum-card?ref=SAMUEKQPAv&XL=MIZNS" target="_blank" rel="sponsored noopener">
+          <span class="referral-card-name">Amex Platinum Card</span>
+          <span class="referral-card-desc">Even better points on travel</span>
+          <span class="referral-card-cta">Learn More →</span>
+        </a>
+        <a class="referral-card" href="https://referrals.uber.com/refer?id=r68141rgpszh" target="_blank" rel="sponsored noopener">
+          <span class="referral-card-name">Uber</span>
+          <span class="referral-card-desc">Sign up for an easy ride to your next meal</span>
+          <span class="referral-card-cta">Learn More →</span>
+        </a>
+        <a class="referral-card" href="https://ubereats.com/feed?promoCode=eats-samuelk6169ue" target="_blank" rel="sponsored noopener">
+          <span class="referral-card-name">Uber Eats</span>
+          <span class="referral-card-desc">Get your next meal delivered</span>
+          <span class="referral-card-cta">Learn More →</span>
+        </a>
+      </div>
+      <p class="referral-disclosure">These are referral links, if you sign up, I may earn rewards too. Thanks for supporting the site!</p>
+    </div>`;
+}
+
 function formatVisitDate(dateStr) {
   return new Date(dateStr + "T12:00:00").toLocaleDateString("en-US", {
     month: "long",
@@ -263,10 +298,15 @@ function renderReviewPage(place, relatedPosts) {
   <meta name="twitter:image" content="${ogImage}" />
 
   <link rel="icon" type="image/png" href="../images/favicon.png?v=2" />
+  <link rel="manifest" href="../manifest.json" />
+  <meta name="theme-color" content="#c05a24" />
+  <link rel="apple-touch-icon" href="../images/icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=19" />
+  <link rel="stylesheet" href="../css/style.css?v=22" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -280,6 +320,7 @@ function renderReviewPage(place, relatedPosts) {
       <div class="header-right">
         <div class="social-row" data-socials></div>
         <div class="auth-widget" data-auth></div>
+        <div class="install-widget" data-install></div>
       </div>
     </div>
   </header>
@@ -347,6 +388,8 @@ function renderReviewPage(place, relatedPosts) {
       <div class="rating-badge rating-badge-lg ${cls}">${place.rating}<small>/ 10</small></div>
     </div>
 
+    <div class="reveal">${referralWidgetHtml()}</div>
+
     ${relatedHtml}
 
     <h2 class="review-section-title">Find it on the map</h2>
@@ -360,8 +403,9 @@ function renderReviewPage(place, relatedPosts) {
   <script src="../js/data.js?v=10"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=16"></script>
+  <script src="../js/common.js?v=21"></script>
   <script src="../js/auth.js?v=1"></script>
+  <script src="../js/pwa.js?v=1"></script>
   <script>
     hydrateFavoriteButtons();
     var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
