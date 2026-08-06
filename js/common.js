@@ -274,33 +274,41 @@ function priceTagHtml(price) {
 
 function placeCardHtml(p, opts) {
   opts = opts || {};
+  const ratingBadge = `<div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>`;
   return `
     <article class="place-card reveal" id="card-${p.id}">
-      <div class="card-top">
-        <div>
-          <h3><a href="reviews/${p.id}.html">${p.name}</a></h3>
-          <div class="card-city">📍 ${p.city}</div>
+      ${
+        p.heroPhoto
+          ? `<a class="card-photo" href="reviews/${p.id}.html" style="background-image: url('${p.heroPhoto}')" aria-hidden="true" tabindex="-1">${ratingBadge}</a>`
+          : ""
+      }
+      <div class="card-body">
+        <div class="card-top">
+          <div>
+            <h3><a href="reviews/${p.id}.html">${p.name}</a></h3>
+            <div class="card-city">📍 ${p.city}</div>
+          </div>
+          <div class="card-top-actions">
+            ${favoriteButtonHtml(p)}
+            ${p.heroPhoto ? "" : ratingBadge}
+          </div>
         </div>
-        <div class="card-top-actions">
-          ${favoriteButtonHtml(p)}
-          <div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>
+        ${badgeRowHtml(p)}
+        ${p.tags && p.tags.length ? `<div class="card-tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>` : ""}
+        <p class="card-ate"><strong>What I ate:</strong> ${p.ate}</p>
+        <div class="card-contact">
+          <span>🏠 ${p.address}</span>
+          ${p.phone ? `<span>📞 <a href="tel:${p.phone.replace(/[^+\d]/g, "")}">${p.phone}</a></span>` : ""}
+          ${p.website ? `<span>🌐 <a href="${p.website}" target="_blank" rel="noopener">${p.website.replace(/^https?:\/\/(www\.)?/, "")}</a></span>` : ""}
         </div>
+        <div class="card-actions">
+          <a class="btn btn-primary" href="${p.video}" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch Review
+          </a>
+          ${opts.showMapJump ? `<button class="btn btn-ghost" data-map-jump="${p.id}">View on map</button>` : `<a class="btn btn-ghost" href="reviews/${p.id}.html">Full Review</a>`}
+        </div>
+        <a class="read-more" href="reviews/${p.id}.html">Read full review →</a>
       </div>
-      ${badgeRowHtml(p)}
-      ${p.tags && p.tags.length ? `<div class="card-tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>` : ""}
-      <p class="card-ate"><strong>What I ate:</strong> ${p.ate}</p>
-      <div class="card-contact">
-        <span>🏠 ${p.address}</span>
-        ${p.phone ? `<span>📞 <a href="tel:${p.phone.replace(/[^+\d]/g, "")}">${p.phone}</a></span>` : ""}
-        ${p.website ? `<span>🌐 <a href="${p.website}" target="_blank" rel="noopener">${p.website.replace(/^https?:\/\/(www\.)?/, "")}</a></span>` : ""}
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-primary" href="${p.video}" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch Review
-        </a>
-        ${opts.showMapJump ? `<button class="btn btn-ghost" data-map-jump="${p.id}">View on map</button>` : `<a class="btn btn-ghost" href="reviews/${p.id}.html">Full Review</a>`}
-      </div>
-      <a class="read-more" href="reviews/${p.id}.html">Read full review →</a>
     </article>`;
 }
 
@@ -331,12 +339,17 @@ function initPlacesMap(containerId, places) {
 
     const marker = L.marker([place.lat, place.lng], { icon }).addTo(map);
     marker.bindPopup(`
+      ${
+        place.heroPhoto
+          ? `<div class="popup-photo" style="background-image: url('${place.heroPhoto}')"><div class="rating-badge ${ratingClass(place.rating)}">${place.rating}<small>/10</small></div></div>`
+          : ""
+      }
       <div class="popup-top">
         <div class="popup-title">${place.name}</div>
         ${favoriteButtonHtml(place)}
       </div>
       <div class="popup-city">📍 ${place.city}</div>
-      <div class="popup-rating">★ ${place.rating}/10</div>
+      ${place.heroPhoto ? "" : `<div class="popup-rating">★ ${place.rating}/10</div>`}
       <a class="popup-link" href="${place.video}" target="_blank" rel="noopener">▶ Watch my review</a><br>
       <a class="popup-link" href="reviews/${place.id}.html">📖 Full review</a>
     `);

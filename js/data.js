@@ -72,6 +72,7 @@ const PLACES = [
     badges: ["quick-bite", "family-friendly"],
     about: "Ladybird Taco brings a Texas-style breakfast taco stand to Nashville's 12 South neighborhood, calling itself \"a little TX in TN.\" The counter-service spot serves a numbered menu of breakfast tacos alongside coffee and lunch options, in a bright, communal-table space that's become a popular morning stop in the neighborhood.",
     ate: "Breakfast tacos #1, #4, and #6.",
+    heroPhoto: "images/reviews/ladybird-taco-nashville/order.jpg",
     photos: [
       { src: "images/reviews/ladybird-taco-nashville/storefront.jpg", alt: "Ladybird Taco storefront mural, 12 South, Nashville" },
       { src: "images/reviews/ladybird-taco-nashville/interior.jpg", alt: "Inside Ladybird Taco, communal tables and counter" },
@@ -100,6 +101,7 @@ const PLACES = [
     badges: ["family-friendly", "quick-bite"],
     about: "Hibachi Jr. is a Japanese hibachi restaurant with locations across the greater Nashville area, serving grilled chicken, steak, and seafood combos hot off the flat-top alongside fried rice, noodles, and sushi rolls.",
     ate: "Chicken and Shrimp Hibachi Combo with double spicy rice instead of vegetables.",
+    heroPhoto: "images/reviews/hibachi-jr-hendersonville/order-sauce.jpg",
     photos: [
       { src: "images/reviews/hibachi-jr-hendersonville/storefront.jpg", alt: "Hibachi Jr. storefront, 112 Saundersville Rd, Hendersonville" },
       { src: "images/reviews/hibachi-jr-hendersonville/interior.jpg", alt: "Inside Hibachi Jr., dining room and hibachi grill" },
@@ -128,6 +130,7 @@ const PLACES = [
     badges: ["hidden-gem"],
     about: "Chen Chen's Nashville Hot Chicken started as a pop-up in Toronto in 2019 from chef Chen Chen, who was born in China and raised in Nashville. It grew into a permanent Toronto restaurant in 2021, went on to be named Yelp Canada's #1 Place to Eat in 2024, and has now brought the concept back to Chen's hometown, combining classic Nashville hot chicken with his own Asian-inspired flavors and sauces.",
     ate: "Homemade Mac & Cheese with Hot Chicken Bites, Szechuan sauce, medium heat, and a side of waffle fries.",
+    heroPhoto: "images/reviews/chen-chens-nashville/order.jpg",
     photos: [
       { src: "images/reviews/chen-chens-nashville/storefront.jpg", alt: "Chen Chen's Nashville Hot Chicken storefront, 130 19th Ave N, Nashville" },
       { src: "images/reviews/chen-chens-nashville/interior.jpg", alt: "Inside Chen Chen's Nashville, counter and seating area" },
@@ -155,6 +158,7 @@ const PLACES = [
     badges: ["quick-bite"],
     about: "NADC, short for \"Not A Damn Chance,\" is a single-item burger concept with a Nashville outpost tucked inside the historic Arcade downtown. True to its stripped-down format, there's just one burger on the menu: two smashed 3 oz patties of 100% Wagyu beef, American cheese, a tangy secret sauce, onions, pickles, and jalapeños on a griddled bun, backed up by a short drink list and a brown-butter chocolate chip cookie for dessert.",
     ate: "NADC Burger with everything, a side of fries, and their secret sauce.",
+    heroPhoto: "images/reviews/nadc-burger-nashville/closeup.jpg",
     photos: [
       { src: "images/reviews/nadc-burger-nashville/storefront.jpg", alt: "NADC Burger storefront inside The Arcade, downtown Nashville" },
       { src: "images/reviews/nadc-burger-nashville/order.jpg", alt: "Sam's order: the NADC Burger with everything and a side of fries" },
@@ -184,6 +188,7 @@ const PLACES = [
     about: "Prince St. Pizza traces back to 2012 in New York's Nolita neighborhood, built on recipes that have stayed in the Morano family for generations, their philosophy is simple: if it works on pasta, it works on pizza. The original NYC shop made its name on the Sicilian \"SoHo Square,\" a thick, crispy-bottomed slice, and the Spicy Spring, its signature square topped with pepperoni cups, fresh mozzarella, and tomato sauce. The brand has since expanded well beyond New York, and this location, inside the Fifth + Broadway development in downtown Nashville, is its first in Tennessee.",
     quickTake: "A solid, no-frills square slice with real New York pedigree, the Spicy Vodka and Naughty Pie both deliver plenty of flavor. It doesn't quite live up to the legendary hype of the original Nolita shop, but it's a dependable, affordable stop if you're downtown and want a genuinely good slice fast.",
     ate: "The Spicy Vodka, The Naughty Pie, and the Houston Jalapeno, three square slices, three very different heat levels.",
+    heroPhoto: "images/reviews/prince-street-pizza-nashville/order.jpg",
     photos: [
       { src: "images/reviews/prince-street-pizza-nashville/storefront.jpg", alt: "Prince St. Pizza storefront and patio seating, Fifth + Broadway, Nashville" },
       { src: "images/reviews/prince-street-pizza-nashville/display-case.jpg", alt: "Prince St. Pizza's display case with fresh square slices, Nashville" },
