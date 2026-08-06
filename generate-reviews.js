@@ -176,6 +176,7 @@ function renderReviewPage(place, relatedPosts) {
     .map((p) => `<img src="../${p.src}" alt="${escapeAttr(p.alt || place.name)}" loading="lazy" />`)
     .join("");
 
+  const isInstagramWebsite = !!(place.website && place.website.includes("instagram.com"));
   const quickFactsHtml = `
     <ul class="quick-facts">
       <li>⭐ <strong>Overall:</strong> ${place.rating}/10</li>
@@ -184,8 +185,16 @@ function renderReviewPage(place, relatedPosts) {
       ${place.price ? `<li>💰 <strong>Price:</strong> ${priceTagHtml(place.price)}</li>` : ""}
       ${place.cuisine ? `<li>🍽️ <strong>Cuisine:</strong> ${escapeHtml(place.cuisine)}</li>` : ""}
       ${place.parking ? `<li>🚗 <strong>Parking:</strong> ${escapeHtml(place.parking)}</li>` : ""}
+      ${place.phone ? `<li>📞 <strong>Phone:</strong> <a href="tel:${telDigits}">${escapeHtml(place.phone)}</a></li>` : ""}
+      ${place.website ? `<li>${isInstagramWebsite ? "📸 <strong>Instagram:</strong>" : "🌐 <strong>Website:</strong>"} <a href="${place.website}" target="_blank" rel="noopener">${escapeHtml(websiteLabel)}</a></li>` : ""}
     </ul>
-    ${greatForBadges.length ? `<p class="quick-facts-label">❤️ <strong>Great For:</strong></p><div class="badge-row">${badgesHtml}</div>` : ""}`;
+    ${greatForBadges.length ? `<p class="quick-facts-label">❤️ <strong>Great For:</strong></p><div class="badge-row">${badgesHtml}</div>` : ""}
+    <div class="card-actions" style="margin-top: 14px;">
+      <a class="btn btn-primary" href="${place.video}" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch My Review
+      </a>
+      <a class="btn btn-ghost" href="../reviews.html">← All Reviews</a>
+    </div>`;
 
   const scores = place.scores || {};
   const breakdownHtml = [
@@ -306,7 +315,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=25" />
+  <link rel="stylesheet" href="../css/style.css?v=26" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -360,21 +369,14 @@ function renderReviewPage(place, relatedPosts) {
     ${place.about ? `<div class="reveal"><h2 class="review-section-title">About ${escapeHtml(place.name)}</h2><p class="review-about">${escapeHtml(place.about)}</p></div>` : ""}
 
     <h2 class="review-section-title">What I Ordered</h2>
-    ${photosHtml ? `<div class="review-photos reveal">${photosHtml}</div>` : ""}
-    <article class="place-card" style="margin: 12px 0 22px;">
-      <p class="card-ate">${escapeHtml(place.ate)}</p>
-      <div class="card-contact">
-        <span>🏠 ${escapeHtml(place.address)}</span>
-        ${place.phone ? `<span>📞 <a href="tel:${telDigits}">${escapeHtml(place.phone)}</a></span>` : ""}
-        ${place.website ? `<span>🌐 <a href="${place.website}" target="_blank" rel="noopener">${escapeHtml(websiteLabel)}</a></span>` : ""}
-      </div>
-      <div class="card-actions">
-        <a class="btn btn-primary" href="${place.video}" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch My Review
-        </a>
-        <a class="btn btn-ghost" href="../reviews.html">← All Reviews</a>
-      </div>
-    </article>
+    <p class="review-about">${escapeHtml(place.ate)}</p>
+
+    ${photosHtml ? `
+    <div class="reveal">
+      <h2 class="review-section-title">Photos</h2>
+      <div class="review-photos">${photosHtml}</div>
+    </div>
+    ` : ""}
 
     ${hasBreakdown ? `
     <div class="reveal">
