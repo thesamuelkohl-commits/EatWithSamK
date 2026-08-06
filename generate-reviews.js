@@ -306,7 +306,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=22" />
+  <link rel="stylesheet" href="../css/style.css?v=24" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -332,7 +332,8 @@ function renderReviewPage(place, relatedPosts) {
       <span aria-current="page">${escapeHtml(place.name)}</span>
     </nav>
 
-    <div class="review-hero">
+    ${place.heroPhoto ? `<div class="review-hero-banner" style="background-image: url('../${place.heroPhoto}')">` : ""}
+    <div class="review-hero${place.heroPhoto ? " review-hero-on-photo" : ""}">
       <div class="rating-badge rating-badge-lg ${cls}">${place.rating}<small>/ 10</small></div>
       <div>
         <h1>${escapeHtml(place.name)} Review (${year})</h1>
@@ -340,6 +341,7 @@ function renderReviewPage(place, relatedPosts) {
       </div>
       ${favoriteButtonHtml(place, "favorite-btn-lg")}
     </div>
+    ${place.heroPhoto ? `</div>` : ""}
     ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ""}
 
     <div class="reveal quick-facts-card">${quickFactsHtml}</div>
@@ -403,7 +405,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="../js/data.js?v=11"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=21"></script>
+  <script src="../js/common.js?v=22"></script>
   <script src="../js/auth.js?v=1"></script>
   <script src="../js/pwa.js?v=1"></script>
   <script>
