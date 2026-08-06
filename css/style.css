@@ -895,6 +895,27 @@ a { color: var(--red); }
 
 .review-about { font-size: 1rem; line-height: 1.7; color: var(--ink); }
 
+/* Rating scale legend (About page) */
+.rating-scale-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 4px 22px;
+  margin: 18px 0;
+}
+
+.rating-scale-row { display: flex; align-items: center; gap: 14px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.rating-scale-row:last-child { border-bottom: none; }
+.rating-scale-row .rating-badge { flex-shrink: 0; min-width: 92px; font-size: 0.85rem; padding: 8px 10px; animation: none; }
+.rating-scale-desc { font-size: 0.92rem; line-height: 1.5; color: var(--ink); }
+
+@media (max-width: 560px) {
+  .rating-scale-row { gap: 10px; }
+  .rating-scale-row .rating-badge { min-width: 76px; font-size: 0.78rem; padding: 6px 8px; }
+  .rating-scale-desc { font-size: 0.88rem; }
+}
+
 /* Quick facts block */
 .quick-facts-card {
   background: var(--card);
