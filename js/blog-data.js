@@ -26,6 +26,224 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-restaurants-near-broadway-nashville",
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville"],
+    title: "Best Restaurants Near Broadway Nashville (2026 Guide)",
+    city: "Nashville, TN",
+    date: "2026-08-07",
+    emoji: "🎸",
+    excerpt:
+      "From Martin's legendary BBQ to my own reviews of Prince St. Pizza and NADC Burger, the best restaurants near Broadway in Nashville for 2026, ranked with no paid placements.",
+    faq: [
+      {
+        question: "Where should I eat before going to Broadway?",
+        answer:
+          "If you're looking for barbecue, Martin's is one of the city's best. For burgers, Jack Brown's and NADC Burger are excellent choices. If you want something quick, Prince St. Pizza is a great stop.",
+      },
+      {
+        question: "What is the best burger near Broadway?",
+        answer: "Jack Brown's and NADC Burger are two of my favorite burger options close to downtown.",
+      },
+      {
+        question: "Where should large groups eat?",
+        answer:
+          "Assembly Food Hall, Hampton Social, and The Stillery all work well for larger groups because of their seating and menu variety.",
+      },
+      {
+        question: "Is there good food near Broadway?",
+        answer:
+          "Absolutely. Some of Nashville's best restaurants are located just a few blocks away from Lower Broadway, making it easy to enjoy a great meal before or after your downtown plans.",
+      },
+    ],
+    content: `
+      <p>Looking for the best restaurants near Broadway in Nashville? Whether you're in town for a concert, a Titans game, a Predators game, or simply exploring the famous honky-tonks, you don't have to settle for tourist traps. These are some of the best restaurants within walking distance or a short drive from Broadway.</p>
+      <p>Broadway may be Nashville's most famous street, but some of the city's best food is found just outside the busiest blocks. From award-winning barbecue and upscale dining to burgers, tacos, and pizza, there's something here for every budget and occasion.</p>
+      <p>At Eat With Sam K, every meal I review is paid for with my own money. I don't accept paid reviews or free meals in exchange for positive coverage. As I continue exploring Nashville's restaurant scene, this guide will be updated with my personal reviews, Sam Scores, photos, and recommendations.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>Quick List: Best Restaurants Near Broadway Nashville</h2>
+      <ul>
+        <li><strong>1. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
+        <li><strong>2. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></strong></li>
+        <li><strong>3. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></strong></li>
+        <li><strong>4. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></strong></li>
+        <li><strong>5. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
+        <li><strong>6. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></strong></li>
+        <li><strong>7. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></strong></li>
+        <li><strong>8. <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></strong></li>
+        <li><strong>9. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
+      </ul>
+
+      <h2>1. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
+      <p><strong>Best For:</strong> Authentic Tennessee BBQ</p>
+      <p>Martin's has become one of Nashville's must-visit barbecue destinations. From whole-hog barbecue to brisket and ribs, it's one of the city's most iconic restaurants.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Brisket</li>
+        <li>Pulled Pork</li>
+        <li>Ribs</li>
+        <li>Mac & Cheese</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbF85digGm/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>2. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h2>
+      <p><strong>Best For:</strong> Groups That Can't Decide</p>
+      <p>Assembly Food Hall is one of the easiest recommendations near Broadway because everyone can order something different.</p>
+      <p>With dozens of local vendors under one roof, it's perfect for:</p>
+      <ul>
+        <li>Families</li>
+        <li>Bachelor & bachelorette parties</li>
+        <li>Large groups</li>
+        <li>Visitors wanting variety</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZYBG08kXI3/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>3. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></h2>
+      <p><strong>Best For:</strong> Fine Dining Downtown</p>
+      <p>If you're celebrating a special occasion or simply want one of the nicest dinners downtown, Etch consistently delivers.</p>
+      <p>Creative dishes, outstanding service, and an upscale atmosphere make it one of Nashville's premier restaurants.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+
+      <h2>4. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
+      <p><strong>Best For:</strong> Gourmet Burgers</p>
+      <p>Jack Brown's serves one of Nashville's favorite burgers without feeling overly fancy.</p>
+      <p>It's an easy recommendation before or after a night on Broadway.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>The Elvis</li>
+        <li>Classic Cheeseburger</li>
+        <li>Sweet Potato Fries</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DaqKhWJoWjl/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>5. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
+      <p><strong>Best For:</strong> Tacos & Margaritas</p>
+      <p>Bakersfield offers fresh tacos, excellent margaritas, and a lively atmosphere that's perfect before heading out downtown.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Street Tacos</li>
+        <li>Margaritas</li>
+        <li>Queso</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>6. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h2>
+      <p><strong>Best For:</strong> Live Music & Comfort Food</p>
+      <p>The Stillery blends Nashville's live music atmosphere with burgers, pizza, hot chicken, and Southern comfort food.</p>
+      <p>A great option if you want dinner while staying close to the Broadway action.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
+      <h2>7. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></h2>
+      <p><strong>Best For:</strong> Brunch & Celebrations</p>
+      <p>Known for its bright atmosphere and coastal-inspired design, Hampton Social is a popular destination for brunch, birthdays, and girls' trips.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Lobster Roll</li>
+        <li>Avocado Toast</li>
+        <li>Rosé</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DAtxPZrPGfP/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>8. <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></h2>
+      <p><strong>Best For:</strong> A Classic Nashville Night Out</p>
+      <p>Located in historic Printer's Alley, Skull's combines excellent food with one of the city's most unique entertainment experiences.</p>
+      <p>Perfect for dinner before live jazz or a special night out.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DblDA05lRPK/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>9. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
+      <p><strong>Best For:</strong> A Quick Slice Near Broadway</p>
+      <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown.</p>
+      <p>If you're looking for something fast before a concert or after the bars, this is an easy recommendation.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="reviews/prince-street-pizza-nashville.html">Read my full Prince St. Pizza review →</a></p>
+
+      <h2>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
+      <p><strong>Best For:</strong> Smash Burgers</p>
+      <p>NADC Burger serves one of the better smash burgers close to downtown Nashville.</p>
+      <p>Simple menu. Excellent execution.</p>
+      <p>If you're craving a burger after walking Broadway, this is absolutely worth checking out.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="reviews/nadc-burger-nashville.html">Read my full NADC Burger review →</a></p>
+
+      <h2>Best Restaurants Near Broadway by Category</h2>
+      <p><strong>🍔 Best Burger</strong></p>
+      <ul>
+        <li>Jack Brown's</li>
+        <li>NADC Burger ⭐</li>
+      </ul>
+      <p><strong>🍕 Best Pizza</strong></p>
+      <ul>
+        <li>Prince St. Pizza ⭐</li>
+      </ul>
+      <p><strong>🍖 Best BBQ</strong></p>
+      <ul>
+        <li>Martin's Bar-B-Que Joint</li>
+      </ul>
+      <p><strong>🌮 Best Mexican</strong></p>
+      <ul>
+        <li>Bakersfield</li>
+      </ul>
+      <p><strong>🍳 Best Brunch</strong></p>
+      <ul>
+        <li>The Hampton Social</li>
+      </ul>
+      <p><strong>👨‍👩‍👧 Best for Groups</strong></p>
+      <ul>
+        <li>Assembly Food Hall</li>
+        <li>The Hampton Social</li>
+        <li>The Stillery</li>
+      </ul>
+      <p><strong>💰 Best Budget Options</strong></p>
+      <ul>
+        <li>Prince St. Pizza ⭐</li>
+        <li>Jack Brown's</li>
+        <li>Assembly Food Hall</li>
+      </ul>
+
+      <h2>How Far Are These Restaurants From Broadway?</h2>
+      <p>Most restaurants on this list are:</p>
+      <ul>
+        <li>🚶 5–15 minute walk</li>
+        <li>🚗 Less than 10 minutes by car</li>
+      </ul>
+      <p>That makes them perfect before concerts, sporting events, or a night exploring downtown Nashville.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>Where should I eat before going to Broadway?</strong></p>
+      <p>If you're looking for barbecue, Martin's is one of the city's best. For burgers, Jack Brown's and NADC Burger are excellent choices. If you want something quick, Prince St. Pizza is a great stop.</p>
+      <p><strong>What is the best burger near Broadway?</strong></p>
+      <p>Jack Brown's and NADC Burger are two of my favorite burger options close to downtown.</p>
+      <p><strong>Where should large groups eat?</strong></p>
+      <p>Assembly Food Hall, Hampton Social, and The Stillery all work well for larger groups because of their seating and menu variety.</p>
+      <p><strong>Is there good food near Broadway?</strong></p>
+      <p>Absolutely. Some of Nashville's best restaurants are located just a few blocks away from Lower Broadway, making it easy to enjoy a great meal before or after your downtown plans.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Broadway may be famous for live music, but the food around it has become just as exciting.</p>
+      <p>Whether you're looking for award-winning barbecue, gourmet burgers, pizza, tacos, or an upscale dinner, these restaurants offer some of the best dining experiences close to downtown Nashville.</p>
+      <p>As I continue reviewing more restaurants, I'll keep updating this guide with Sam Scores, photos, videos, and firsthand recommendations to help you avoid tourist traps and find meals that are actually worth your time.</p>
+      <p><em>Last Updated: August 2026</em></p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
+        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
+        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
+        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
+        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
+        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
+        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-coffee-shops-nashville",
     title: "Best Coffee Shops in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
