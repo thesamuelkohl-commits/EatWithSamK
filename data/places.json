@@ -1,6 +1,55 @@
 {
-  "generatedAt": "2026-08-05T19:41:14.690Z",
+  "generatedAt": "2026-08-06T04:28:48.137Z",
   "places": [
+    {
+      "id": "ladybird-taco-nashville",
+      "name": "Ladybird Taco",
+      "city": "Nashville, TN",
+      "lat": 36.127071,
+      "lng": -86.786373,
+      "address": "2229 10th Ave S, Nashville, TN 37204",
+      "phone": "(615) 678-8049",
+      "parking": "Free parking nearby",
+      "website": "https://www.ladybirdtaco.com/12-south",
+      "date": "2026-08-02",
+      "price": "$$",
+      "cuisine": "Tacos",
+      "badges": [
+        "quick-bite",
+        "family-friendly"
+      ],
+      "about": "Ladybird Taco brings a Texas-style breakfast taco stand to Nashville's 12 South neighborhood, calling itself \"a little TX in TN.\" The counter-service spot serves a numbered menu of breakfast tacos alongside coffee and lunch options, in a bright, communal-table space that's become a popular morning stop in the neighborhood.",
+      "ate": "Breakfast tacos #1, #4, and #6.",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/ladybird-taco-nashville/storefront.jpg",
+          "alt": "Ladybird Taco storefront mural, 12 South, Nashville"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/ladybird-taco-nashville/interior.jpg",
+          "alt": "Inside Ladybird Taco, communal tables and counter"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/ladybird-taco-nashville/order.jpg",
+          "alt": "Sam's order: three foil-wrapped breakfast tacos, Ladybird Taco"
+        }
+      ],
+      "pros": [
+        "Free parking",
+        "Good environment",
+        "Quick"
+      ],
+      "cons": [
+        "Could have to wait for a table, it was packed"
+      ],
+      "rating": 7.6,
+      "video": "https://www.instagram.com/reel/DbrF5D4sBwZ/?igsh=YmZhcnMzdDhybTY2",
+      "tags": [
+        "Tacos",
+        "12 South"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/ladybird-taco-nashville.html"
+    },
     {
       "id": "hibachi-jr-hendersonville",
       "name": "Hibachi Jr.",

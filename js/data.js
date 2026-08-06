@@ -57,6 +57,34 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "ladybird-taco-nashville",
+    name: "Ladybird Taco",
+    city: "Nashville, TN",
+    lat: 36.127071,
+    lng: -86.786373,
+    address: "2229 10th Ave S, Nashville, TN 37204",
+    phone: "(615) 678-8049", // TODO: Sam — found online, not yet confirmed. Update/remove if wrong.
+    parking: "Free parking nearby",
+    website: "https://www.ladybirdtaco.com/12-south",
+    date: "2026-08-02",
+    price: "$$",
+    cuisine: "Tacos",
+    badges: ["quick-bite", "family-friendly"],
+    about: "Ladybird Taco brings a Texas-style breakfast taco stand to Nashville's 12 South neighborhood, calling itself \"a little TX in TN.\" The counter-service spot serves a numbered menu of breakfast tacos alongside coffee and lunch options, in a bright, communal-table space that's become a popular morning stop in the neighborhood.",
+    ate: "Breakfast tacos #1, #4, and #6.",
+    photos: [
+      { src: "images/reviews/ladybird-taco-nashville/storefront.jpg", alt: "Ladybird Taco storefront mural, 12 South, Nashville" },
+      { src: "images/reviews/ladybird-taco-nashville/interior.jpg", alt: "Inside Ladybird Taco, communal tables and counter" },
+      { src: "images/reviews/ladybird-taco-nashville/order.jpg", alt: "Sam's order: three foil-wrapped breakfast tacos, Ladybird Taco" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Free parking", "Good environment", "Quick"],
+    cons: ["Could have to wait for a table, it was packed"],
+    rating: 7.6,
+    video: "https://www.instagram.com/reel/DbrF5D4sBwZ/?igsh=YmZhcnMzdDhybTY2",
+    tags: ["Tacos", "12 South"],
+  },
+  {
     id: "hibachi-jr-hendersonville",
     name: "Hibachi Jr.",
     city: "Hendersonville, TN",
