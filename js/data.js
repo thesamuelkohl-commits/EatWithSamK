@@ -57,6 +57,34 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "baam-burger-nashville",
+    name: "Baam Burger",
+    city: "Nashville, TN",
+    lat: 36.1631434,
+    lng: -86.7787251,
+    address: "223 4th Ave N, Nashville, TN 37219",
+    phone: "(615) 982-8903",
+    parking: "Paid parking nearby, no free lot",
+    website: "https://www.baamburger.com/",
+    date: "2026-08-02",
+    price: "$$",
+    cuisine: "Burgers",
+    badges: ["quick-bite", "family-friendly"],
+    about: "Baam Burger is a smashed-burger concept tucked into The Arcade in downtown Nashville, just steps off Broadway. The counter-service spot serves smashed patties, fries, and hand-spun milkshakes, staying open late into the night as a go-to stop for people out on Broadway.",
+    ate: "Baam burger with no pickles, a side of fries, and a vanilla milkshake.",
+    heroPhoto: "images/reviews/baam-burger-nashville/order.jpg",
+    photos: [
+      { src: "images/reviews/baam-burger-nashville/storefront.jpg", alt: "Baam Burger storefront sign, The Arcade, downtown Nashville" },
+      { src: "images/reviews/baam-burger-nashville/order.jpg", alt: "Sam's order: Baam burger with bacon and cheese, fries, and a vanilla milkshake" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Quick", "Walkable from Broadway", "Family friendly"],
+    cons: ["No free parking", "No patio"],
+    rating: 8.3,
+    video: "https://www.instagram.com/reel/Dbty_4GxOFT/",
+    tags: ["Burgers", "Broadway"],
+  },
+  {
     id: "ladybird-taco-nashville",
     name: "Ladybird Taco",
     city: "Nashville, TN",

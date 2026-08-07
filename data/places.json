@@ -1,6 +1,53 @@
 {
-  "generatedAt": "2026-08-06T18:53:24.504Z",
+  "generatedAt": "2026-08-07T01:41:18.668Z",
   "places": [
+    {
+      "id": "baam-burger-nashville",
+      "name": "Baam Burger",
+      "city": "Nashville, TN",
+      "lat": 36.1631434,
+      "lng": -86.7787251,
+      "address": "223 4th Ave N, Nashville, TN 37219",
+      "phone": "(615) 982-8903",
+      "parking": "Paid parking nearby, no free lot",
+      "website": "https://www.baamburger.com/",
+      "date": "2026-08-02",
+      "price": "$$",
+      "cuisine": "Burgers",
+      "badges": [
+        "quick-bite",
+        "family-friendly"
+      ],
+      "about": "Baam Burger is a smashed-burger concept tucked into The Arcade in downtown Nashville, just steps off Broadway. The counter-service spot serves smashed patties, fries, and hand-spun milkshakes, staying open late into the night as a go-to stop for people out on Broadway.",
+      "ate": "Baam burger with no pickles, a side of fries, and a vanilla milkshake.",
+      "heroPhoto": "images/reviews/baam-burger-nashville/order.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/baam-burger-nashville/storefront.jpg",
+          "alt": "Baam Burger storefront sign, The Arcade, downtown Nashville"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/baam-burger-nashville/order.jpg",
+          "alt": "Sam's order: Baam burger with bacon and cheese, fries, and a vanilla milkshake"
+        }
+      ],
+      "pros": [
+        "Quick",
+        "Walkable from Broadway",
+        "Family friendly"
+      ],
+      "cons": [
+        "No free parking",
+        "No patio"
+      ],
+      "rating": 8.3,
+      "video": "https://www.instagram.com/reel/Dbty_4GxOFT/",
+      "tags": [
+        "Burgers",
+        "Broadway"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/baam-burger-nashville.html"
+    },
     {
       "id": "ladybird-taco-nashville",
       "name": "Ladybird Taco",
