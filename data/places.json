@@ -1,6 +1,109 @@
 {
-  "generatedAt": "2026-08-07T01:41:18.668Z",
+  "generatedAt": "2026-08-10T00:55:53.376Z",
   "places": [
+    {
+      "id": "maru-weho-nashville",
+      "name": "Maru WeHo",
+      "city": "Nashville, TN",
+      "lat": 36.1391356,
+      "lng": -86.7626245,
+      "address": "1416 4th Ave S, Ste 114, Nashville, TN 37210",
+      "phone": "(615) 753-1090",
+      "parking": "Free and paid parking available",
+      "website": "https://marunashville.com/",
+      "date": "2026-08-06",
+      "price": "$$",
+      "cuisine": "Sushi",
+      "badges": [
+        "quick-bite",
+        "date-night",
+        "best-drinks"
+      ],
+      "about": "Maru is a Nashville-based sushi restaurant group with several locations across the city. This one sits in the Wedgewood-Houston (WeHo) neighborhood just south of downtown, in a sleek, industrial-style space with a full sushi bar, specialty rolls, and a cocktail menu.",
+      "ate": "The Pink Lady, Tiger, and Dynamite rolls.",
+      "heroPhoto": "images/reviews/maru-weho-nashville/order.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/maru-weho-nashville/storefront.jpg",
+          "alt": "Maru WeHo storefront sign, Wedgewood-Houston, Nashville"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/maru-weho-nashville/interior.jpg",
+          "alt": "Inside Maru WeHo, dining room and sushi bar"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/maru-weho-nashville/order.jpg",
+          "alt": "Sam's order: Pink Lady, Tiger, and Dynamite rolls, Maru WeHo"
+        }
+      ],
+      "pros": [
+        "Cool bar",
+        "Free and paid parking available",
+        "Super quick",
+        "Great date night or business meeting spot"
+      ],
+      "rating": 9.2,
+      "video": "https://www.instagram.com/reel/Db1fTl8RuLg/",
+      "tags": [
+        "Sushi",
+        "Wedgewood-Houston"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/maru-weho-nashville.html"
+    },
+    {
+      "id": "daddys-dogs-nashville",
+      "name": "Daddy's Dogs",
+      "city": "Nashville, TN",
+      "lat": 36.1641775,
+      "lng": -86.8524284,
+      "address": "5205 Centennial Blvd, Nashville, TN 37209",
+      "phone": "(615) 802-8481",
+      "parking": "Free parking nearby",
+      "website": "https://www.daddysdogs.com/the-nations",
+      "date": "2026-08-05",
+      "price": "$$",
+      "cuisine": "Hot Dogs",
+      "badges": [
+        "quick-bite",
+        "family-friendly",
+        "easy-parking",
+        "best-patio",
+        "hidden-gem"
+      ],
+      "about": "Daddy's Dogs started as a Nashville street cart in 2015 before growing into several brick-and-mortar locations around the city. This location, in The Nations, is set inside a converted gas station painted bright yellow, with a covered patio, cornhole, and a menu built entirely around specialty hot dogs and hand-spun shakes.",
+      "ate": "The Mac Daddy and the Big Daddy.",
+      "heroPhoto": "images/reviews/daddys-dogs-nashville/order.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/daddys-dogs-nashville/storefront.jpg",
+          "alt": "Ordering at the walk-up window, Daddy's Dogs, The Nations, Nashville"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/daddys-dogs-nashville/patio.jpg",
+          "alt": "Covered patio and picnic tables at Daddy's Dogs, Nashville"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/daddys-dogs-nashville/order.jpg",
+          "alt": "Sam's order: the Mac Daddy and the Big Daddy hot dogs, Daddy's Dogs"
+        }
+      ],
+      "pros": [
+        "Free parking",
+        "Quick",
+        "Family friendly",
+        "Great patio"
+      ],
+      "cons": [
+        "Super messy"
+      ],
+      "rating": 8.5,
+      "video": "https://www.instagram.com/reel/DbwHRL2sp4k/",
+      "tags": [
+        "Hot Dogs",
+        "The Nations"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/daddys-dogs-nashville.html"
+    },
     {
       "id": "baam-burger-nashville",
       "name": "Baam Burger",
