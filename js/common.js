@@ -394,10 +394,21 @@ function formatPostDate(dateStr) {
   });
 }
 
+// A guide only gets a photo cover once Sam has personally reviewed one of the
+// places in it (via post.places) and that review has a heroPhoto — otherwise
+// it keeps the plain emoji banner. Never sourced from Instagram or elsewhere.
+function postCoverPhoto(post) {
+  const withPhoto = (post.places || [])
+    .map((id) => PLACES.find((p) => p.id === id))
+    .find((p) => p && p.heroPhoto);
+  return withPhoto ? withPhoto.heroPhoto : null;
+}
+
 function blogCardHtml(post) {
+  const cover = postCoverPhoto(post);
   return `
     <a class="blog-card reveal" href="post.html?id=${post.id}">
-      <div class="blog-card-banner">${post.emoji}</div>
+      ${cover ? `<div class="blog-card-banner blog-card-banner-photo" style="background-image: url('${cover}')"></div>` : `<div class="blog-card-banner">${post.emoji}</div>`}
       <div class="blog-card-body">
         <div class="blog-meta"><span class="pill">${post.city}</span><span>${formatPostDate(post.date)}</span></div>
         <h3>${post.title}</h3>

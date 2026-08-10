@@ -26,6 +26,264 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-steakhouses-nashville",
+    places: [],
+    title: "Best Steakhouses in Nashville (2026 Updated Guide)",
+    city: "Nashville, TN",
+    date: "2026-08-10",
+    emoji: "🥩",
+    excerpt:
+      "From Jeff Ruby's classic fine dining to modern steakhouses like Harper's and Kayne Prime, the best steakhouses in Nashville for 2026, ranked with no paid placements.",
+    faq: [
+      {
+        question: "What is the best steakhouse in Nashville?",
+        answer:
+          "Jeff Ruby's, Bourbon Steak, and Kayne Prime are consistently considered among Nashville's top steakhouses. As I continue reviewing more restaurants, I'll update this guide with my own personal rankings and Sam Scores.",
+      },
+      {
+        question: "Which steakhouse is best for a date night?",
+        answer:
+          "Jeff Ruby's, Bourbon Steak, and Harper's all offer upscale atmospheres that are perfect for anniversaries and special occasions.",
+      },
+      {
+        question: "Where should I take a client for dinner?",
+        answer:
+          "Jeff Ruby's, Oak Steakhouse, and Halls Chophouse are excellent choices for business dinners thanks to their service, atmosphere, and menu.",
+      },
+      {
+        question: "What's the best steakhouse downtown?",
+        answer:
+          "Jeff Ruby's, The Southern, and Bourbon Steak are all conveniently located near downtown attractions and hotels.",
+      },
+    ],
+    content: `
+      <p>Searching for the best steakhouses in Nashville? Whether you're celebrating a special occasion, planning an unforgettable date night, entertaining clients, or simply craving a perfectly cooked steak, Nashville is home to some of the best steakhouses in the South.</p>
+      <p>From world-class steakhouses serving Japanese Wagyu to classic chophouses with decades of history, Nashville offers something for every steak lover. This guide highlights the restaurants consistently known for exceptional steaks, service, and atmosphere.</p>
+      <p>At Eat With Sam K, every meal I review is paid for with my own money. I don't accept paid reviews or free meals in exchange for positive coverage. As I continue exploring Nashville's steak scene, this guide will be updated with my personal reviews, Sam Scores, photos, and recommendations.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>Quick List: Best Steakhouses in Nashville</h2>
+      <ul>
+        <li><strong>1. <a href="https://www.jeffruby.com/nashville" target="_blank" rel="noopener">Jeff Ruby's Steakhouse</a></strong></li>
+        <li><strong>2. <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak by Michael Mina</a></strong></li>
+        <li><strong>3. <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></strong></li>
+        <li><strong>4. <a href="https://www.harpersnashville.com/" target="_blank" rel="noopener">Harper's</a></strong></li>
+        <li><strong>5. <a href="https://hallschophousenashville.com/" target="_blank" rel="noopener">Halls Chophouse</a></strong></li>
+        <li><strong>6. <a href="https://stksteakhouse.com/en-us/location/nashville/" target="_blank" rel="noopener">STK Nashville</a></strong></li>
+        <li><strong>7. <a href="https://www.oaksteakhouse.com/location/oak-steakhouse-nashville/" target="_blank" rel="noopener">Oak Steakhouse</a></strong></li>
+        <li><strong>8. <a href="https://www.eddiev.com/locations/tn/nashville/nashville/8529" target="_blank" rel="noopener">Eddie V's Prime Seafood</a></strong></li>
+        <li><strong>9. <a href="https://www.thesouthernnashville.com/" target="_blank" rel="noopener">The Southern Steak & Oyster</a></strong></li>
+        <li><strong>10. <a href="https://www.sperrys.com/belle-meade-about/" target="_blank" rel="noopener">Sperry's Restaurant</a></strong></li>
+      </ul>
+
+      <h2>1. <a href="https://www.jeffruby.com/nashville" target="_blank" rel="noopener">Jeff Ruby's Steakhouse</a></h2>
+      <p><strong>Best For:</strong> Overall Steakhouse Experience</p>
+      <p>Jeff Ruby's combines luxury dining, exceptional service, and some of the finest USDA Prime steaks available in Nashville.</p>
+      <p>Whether you're celebrating an anniversary or entertaining clients, it's one of the city's premier dining destinations.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Filet Mignon</li>
+        <li>Bone-In Ribeye</li>
+        <li>Japanese Wagyu</li>
+        <li>Lobster Mac & Cheese</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>🏆 <strong>Best Overall</strong> &nbsp; ❤️ <strong>Date Night Pick</strong></p>
+
+      <h2>2. <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak by Michael Mina</a></h2>
+      <p><strong>Best For:</strong> Luxury Dining</p>
+      <p>Located inside the JW Marriott, Bourbon Steak delivers an upscale dining experience with premium cuts, incredible views, and outstanding service.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>American Wagyu</li>
+        <li>Dry-Aged Ribeye</li>
+        <li>Truffle Fries</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>🥂 <strong>Special Occasion</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CsZsPxTsNCr/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>3. <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h2>
+      <p><strong>Best For:</strong> Modern Steakhouse</p>
+      <p>Kayne Prime has become one of Nashville's signature modern steakhouses thanks to creative sides, premium beef, and an impressive cocktail program.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Dry-Aged Strip</li>
+        <li>Wagyu Filet</li>
+        <li>Mac & Cheese</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>🔥 <strong>Worth the Splurge</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DXuZLgYD29p/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>4. <a href="https://www.harpersnashville.com/" target="_blank" rel="noopener">Harper's</a></h2>
+      <p><strong>Best For:</strong> New Luxury Dining</p>
+      <p>Harper's has quickly become one of Nashville's hottest reservations by combining premium steaks with an elegant atmosphere and elevated menu.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Filet</li>
+        <li>Ribeye</li>
+        <li>Seafood Tower</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>✨ <strong>Trending Restaurant</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DEqF9qypFQ0/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>5. <a href="https://hallschophousenashville.com/" target="_blank" rel="noopener">Halls Chophouse</a></h2>
+      <p><strong>Best For:</strong> Service</p>
+      <p>Halls has earned a reputation for exceptional hospitality and consistently outstanding steaks.</p>
+      <p>If service is just as important as the food, this belongs near the top of your list.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Bone-In Ribeye</li>
+        <li>Filet</li>
+        <li>Creamed Spinach</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>⭐ <strong>Exceptional Service</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C9x4UGjBK8T/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>6. <a href="https://stksteakhouse.com/en-us/location/nashville/" target="_blank" rel="noopener">STK Nashville</a></h2>
+      <p><strong>Best For:</strong> Dinner & Nightlife</p>
+      <p>STK combines steakhouse dining with a lively atmosphere, making it popular for birthdays, celebrations, and group dinners.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Filet</li>
+        <li>Wagyu Burger</li>
+        <li>Truffle Fries</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>🎉 <strong>Great for Groups</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CoFotU8Njls/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>7. <a href="https://www.oaksteakhouse.com/location/oak-steakhouse-nashville/" target="_blank" rel="noopener">Oak Steakhouse</a></h2>
+      <p><strong>Best For:</strong> Traditional Steakhouse</p>
+      <p>Oak offers a more classic steakhouse experience while consistently serving premium cuts and excellent cocktails.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Dry-Aged Ribeye</li>
+        <li>Filet</li>
+        <li>Brussels Sprouts</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>🥩 <strong>Classic Steakhouse</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C72gbplBw9v/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>8. <a href="https://www.eddiev.com/locations/tn/nashville/nashville/8529" target="_blank" rel="noopener">Eddie V's Prime Seafood</a></h2>
+      <p><strong>Best For:</strong> Steak & Seafood</p>
+      <p>If your group wants both exceptional steak and fresh seafood, Eddie V's is one of the best choices in Nashville.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Filet</li>
+        <li>Bone-In Ribeye</li>
+        <li>Lobster Tail</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>🦞 <strong>Best Surf & Turf</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DCsPnhtSWkG/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>9. <a href="https://www.thesouthernnashville.com/" target="_blank" rel="noopener">The Southern Steak & Oyster</a></h2>
+      <p><strong>Best For:</strong> Southern Steakhouse</p>
+      <p>The Southern blends premium steaks with Southern hospitality and seafood, making it a favorite for both visitors and locals.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Filet</li>
+        <li>New York Strip</li>
+        <li>Oysters</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>🌆 <strong>Downtown Favorite</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBUYjR5v2JU/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>10. <a href="https://www.sperrys.com/belle-meade-about/" target="_blank" rel="noopener">Sperry's Restaurant</a></h2>
+      <p><strong>Best For:</strong> Nashville Tradition</p>
+      <p>Serving Nashville since 1974, Sperry's remains one of the city's most beloved classic steakhouses.</p>
+      <p>If you're looking for old-school charm and consistency, Sperry's is worth visiting.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Prime Rib</li>
+        <li>Filet</li>
+        <li>Salad Bar</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>🏛️ <strong>Nashville Classic</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DEU4yQURi_a/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>Best Steakhouses by Category</h2>
+      <p><strong>🏆 Best Overall</strong></p>
+      <ul>
+        <li>Jeff Ruby's Steakhouse</li>
+      </ul>
+      <p><strong>❤️ Best Date Night</strong></p>
+      <ul>
+        <li>Jeff Ruby's</li>
+        <li>Bourbon Steak</li>
+        <li>Kayne Prime</li>
+      </ul>
+      <p><strong>🥂 Best Special Occasion</strong></p>
+      <ul>
+        <li>Bourbon Steak</li>
+        <li>Jeff Ruby's</li>
+        <li>Harper's</li>
+      </ul>
+      <p><strong>👔 Best Business Dinner</strong></p>
+      <ul>
+        <li>Jeff Ruby's</li>
+        <li>Oak Steakhouse</li>
+        <li>Halls Chophouse</li>
+      </ul>
+      <p><strong>🎉 Best for Groups</strong></p>
+      <ul>
+        <li>STK</li>
+        <li>Halls Chophouse</li>
+      </ul>
+      <p><strong>🦞 Best Steak & Seafood</strong></p>
+      <ul>
+        <li>Eddie V's</li>
+        <li>The Southern</li>
+      </ul>
+
+      <h2>How I Rate Steakhouses</h2>
+      <p>Every steakhouse I personally review on Eat With Sam K is evaluated using the same criteria.</p>
+      <ul>
+        <li>🥩 Steak Quality — Flavor, tenderness, seasoning, and temperature.</li>
+        <li>🍽️ Sides — Are they memorable or just an afterthought?</li>
+        <li>💰 Value — Does the experience justify the price?</li>
+        <li>👨‍🍳 Service — Professionalism, attentiveness, and consistency.</li>
+        <li>🏠 Atmosphere — Comfort, ambiance, and overall dining experience.</li>
+      </ul>
+      <p>⭐ Every review receives a Sam Score, making it easy to compare Nashville's best steakhouses.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What is the best steakhouse in Nashville?</strong></p>
+      <p>Jeff Ruby's, Bourbon Steak, and Kayne Prime are consistently considered among Nashville's top steakhouses. As I continue reviewing more restaurants, I'll update this guide with my own personal rankings and Sam Scores.</p>
+      <p><strong>Which steakhouse is best for a date night?</strong></p>
+      <p>Jeff Ruby's, Bourbon Steak, and Harper's all offer upscale atmospheres that are perfect for anniversaries and special occasions.</p>
+      <p><strong>Where should I take a client for dinner?</strong></p>
+      <p>Jeff Ruby's, Oak Steakhouse, and Halls Chophouse are excellent choices for business dinners thanks to their service, atmosphere, and menu.</p>
+      <p><strong>What's the best steakhouse downtown?</strong></p>
+      <p>Jeff Ruby's, The Southern, and Bourbon Steak are all conveniently located near downtown attractions and hotels.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Whether you're celebrating something special or simply treating yourself to a great steak, Nashville offers incredible options ranging from timeless classics to modern luxury steakhouses.</p>
+      <p>As I continue visiting these restaurants, I'll update this guide with Sam Scores, photos, videos, favorite menu items, and honest reviews to help you decide which steakhouse deserves your next reservation.</p>
+      <p><em>Last Updated: August 2026</em></p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="post.html?id=best-restaurants-near-broadway-nashville">Best Restaurants Near Broadway</a></li>
+        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
+        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
+        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
+        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
+        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
+        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
+        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-restaurants-near-broadway-nashville",
     places: ["prince-street-pizza-nashville", "nadc-burger-nashville"],
     title: "Best Restaurants Near Broadway Nashville (2026 Guide)",

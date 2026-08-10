@@ -773,6 +773,8 @@ a { color: var(--red); }
   height: 120px;
 }
 
+.blog-card-banner-photo { background-size: cover; background-position: center; font-size: 0; }
+
 .blog-card-body { padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 8px; }
 
 .blog-meta { display: flex; gap: 10px; align-items: center; font-size: 0.8rem; color: var(--ink-soft); font-weight: 700; }
@@ -796,6 +798,28 @@ a { color: var(--red); }
 
 .post-emoji { font-size: 3rem; }
 .post-wrap h1 { font-size: clamp(1.7rem, 4vw, 2.4rem); margin: 8px 0 10px; }
+
+.post-hero-banner {
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-lg);
+}
+.post-hero-on-photo {
+  padding: 28px 20px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(180deg, rgba(36, 29, 26, 0.05) 0%, rgba(36, 29, 26, 0.75) 100%);
+}
+.post-hero-on-photo .post-emoji-on-photo { font-size: 2.2rem; margin-bottom: 4px; }
+.post-hero-on-photo h1 { color: #fff; margin: 0; }
+@media (max-width: 560px) {
+  .post-hero-on-photo { min-height: 160px; padding: 20px 16px; }
+}
 
 .post-body { margin-top: 26px; font-size: 1.05rem; }
 .post-body h2 { margin: 28px 0 10px; font-size: 1.35rem; }
