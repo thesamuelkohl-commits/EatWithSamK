@@ -315,7 +315,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=27" />
+  <link rel="stylesheet" href="../css/style.css?v=29" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -407,8 +407,8 @@ function renderReviewPage(place, relatedPosts) {
   <script src="../js/data.js?v=14"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=24"></script>
-  <script src="../js/auth.js?v=1"></script>
+  <script src="../js/common.js?v=25"></script>
+  <script src="../js/auth.js?v=3"></script>
   <script src="../js/pwa.js?v=1"></script>
   <script>
     hydrateFavoriteButtons();
@@ -441,6 +441,7 @@ function renderSitemap() {
     { loc: `${SITE_URL}/reviews.html`, priority: "0.9" },
     { loc: `${SITE_URL}/best-of.html`, priority: "0.8" },
     { loc: `${SITE_URL}/about.html`, priority: "0.5" },
+    { loc: `${SITE_URL}/advertise.html`, priority: "0.4" },
     { loc: `${SITE_URL}/privacy.html`, priority: "0.2" },
     ...PLACES.map((p) => ({ loc: reviewUrl(p), priority: "0.9" })),
     ...BLOG_POSTS.map((post) => ({ loc: `${SITE_URL}/post.html?id=${post.id}`, priority: "0.6" })),
