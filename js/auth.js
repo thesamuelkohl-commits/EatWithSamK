@@ -26,6 +26,11 @@ const supabaseClient =
     : null;
 
 let currentUser = null;
+// Flips true right before the first "auth:change" dispatch. Scripts loaded
+// after auth.js (like js/wishlist.js) can check this on load to cover the
+// case where getSession() already resolved before their own listener was
+// registered — the event alone can't be relied on for that first check.
+let authReady = false;
 let authPopoverOpen = false;
 let authWidgetState = "signed-out"; // "signed-out" | "sending" | "sent"
 let authError = "";
@@ -174,12 +179,18 @@ document.addEventListener("submit", (e) => {
 
 (async function initAuth() {
   renderAuthWidgets();
-  if (!supabaseClient) return;
+  if (!supabaseClient) {
+    authReady = true;
+    document.dispatchEvent(new CustomEvent("auth:change", { detail: { user: null } }));
+    return;
+  }
 
   const { data } = await supabaseClient.auth.getSession();
   currentUser = data.session ? data.session.user : null;
   renderAuthWidgets();
   if (currentUser) syncFavoritesWithRemote();
+  authReady = true;
+  document.dispatchEvent(new CustomEvent("auth:change", { detail: { user: currentUser } }));
 
   supabaseClient.auth.onAuthStateChange((_event, session) => {
     currentUser = session ? session.user : null;
@@ -188,5 +199,6 @@ document.addEventListener("submit", (e) => {
     authError = "";
     renderAuthWidgets();
     if (currentUser) syncFavoritesWithRemote();
+    document.dispatchEvent(new CustomEvent("auth:change", { detail: { user: currentUser } }));
   });
 })();

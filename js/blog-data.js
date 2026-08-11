@@ -26,6 +26,266 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-restaurants-near-bridgestone-arena-nashville",
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville"],
+    title: "Best Restaurants Near Bridgestone Arena in Nashville (2026 Guide)",
+    city: "Nashville, TN",
+    date: "2026-08-10",
+    emoji: "🏒",
+    excerpt:
+      "From Assembly Food Hall's variety to Martin's BBQ and my own reviews of Prince St. Pizza and NADC Burger, the best restaurants near Bridgestone Arena for 2026, ranked with no paid placements.",
+    faq: [
+      {
+        question: "What restaurants are closest to Bridgestone Arena?",
+        answer:
+          "Fifth + Broadway and the surrounding downtown blocks offer numerous restaurants within a short walk of Bridgestone Arena. Assembly Food Hall is particularly convenient because Fifth + Broadway sits directly across from the arena.",
+      },
+      {
+        question: "Where should I eat before a Nashville Predators game?",
+        answer:
+          "Assembly Food Hall is one of the easiest choices for convenience and variety. Hattie B's is a good choice for Nashville hot chicken, Martin's for barbecue, and Jack Brown's or NADC Burger for burgers.",
+      },
+      {
+        question: "Are there family-friendly restaurants near Bridgestone Arena?",
+        answer:
+          "Yes. Assembly Food Hall is particularly convenient for families because everyone can choose different food. Martin's is another casual option for families.",
+      },
+      {
+        question: "Where should I eat for a date before a Bridgestone concert?",
+        answer:
+          "Etch and Sixty Vines are better choices if you want dinner to feel like part of the date rather than simply grabbing food before the show.",
+      },
+      {
+        question: "Can I walk from these restaurants to Bridgestone Arena?",
+        answer:
+          "Many downtown restaurants are within walking distance of Bridgestone Arena. Always check the exact location before your visit, particularly if you're trying to arrive at the arena by a specific time.",
+      },
+    ],
+    content: `
+      <p>Looking for the best restaurants near Bridgestone Arena in Nashville? Whether you're heading downtown for a Nashville Predators game, concert, SEC basketball, or another event, there are plenty of great places to eat within walking distance of the arena.</p>
+      <p>Bridgestone Arena sits right in the heart of downtown Nashville, directly next to Broadway. That means you have everything from quick burgers and pizza to Nashville hot chicken, barbecue, steakhouses, and upscale restaurants nearby.</p>
+      <p>This guide breaks down some of the best places to eat near Bridgestone Arena based on what you're looking for before or after an event.</p>
+      <p>At Eat With Sam K, every meal I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food. As I visit more of these restaurants, I'll continue updating this guide with my personal Sam Scores, photos, videos, and recommendations.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>Quick List: Best Restaurants Near Bridgestone Arena</h2>
+      <ul>
+        <li><strong>1. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></strong></li>
+        <li><strong>2. <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></strong></li>
+        <li><strong>3. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></strong></li>
+        <li><strong>4. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
+        <li><strong>5. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></strong></li>
+        <li><strong>6. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
+        <li><strong>7. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></strong></li>
+        <li><strong>8. <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></strong></li>
+        <li><strong>9. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
+      </ul>
+
+      <h2>1. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h2>
+      <p><strong>Best For:</strong> Groups & Variety</p>
+      <p>Located directly across from Bridgestone Arena at Fifth + Broadway, Assembly Food Hall is probably one of the easiest places to eat before an event.</p>
+      <p>Instead of forcing everyone in your group to agree on one restaurant, you can choose from a large collection of food concepts under one roof. That makes it especially convenient for families and groups heading to a Predators game or concert.</p>
+      <p><strong>Good For:</strong></p>
+      <ul>
+        <li>Large groups</li>
+        <li>Families</li>
+        <li>Quick meals</li>
+        <li>Different food preferences</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>👨‍👩‍👧 <strong>Family Friendly</strong> &nbsp; 🎉 <strong>Great for Groups</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZYBG08kXI3/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>2. <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></h2>
+      <p><strong>Best For:</strong> Nashville Hot Chicken</p>
+      <p>If you're visiting Nashville and want hot chicken before your event, Hattie B's is one of the most recognizable options near Bridgestone Arena. Its Fifth + Broadway location makes it extremely convenient for arena events.</p>
+      <p>Choose your heat level carefully: you can go from completely mild to seriously hot.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Hot Chicken Sandwich</li>
+        <li>Tenders</li>
+        <li>Pimento Mac & Cheese</li>
+        <li>Dirty Bird Fries</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🔥 <strong>Nashville Classic</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBe_wdQpGP_/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>3. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
+      <p><strong>Best For:</strong> Burgers Before the Game</p>
+      <p>Jack Brown's keeps things simple: burgers, fries, and beer.</p>
+      <p>It's a casual option if you want a good burger without committing to an expensive sit-down dinner before heading to Bridgestone.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Cheeseburger</li>
+        <li>The Elvis</li>
+        <li>Sweet Potato Fries</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🍔 <strong>Burger Pick</strong> &nbsp; 💰 <strong>Good Value</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DaqKhWJoWjl/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>4. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
+      <p><strong>Best For:</strong> Tennessee BBQ</p>
+      <p>If barbecue is on your Nashville checklist, Martin's is an excellent downtown option. It's especially good for visitors who want to try Tennessee-style barbecue without traveling far from Bridgestone Arena.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Whole Hog BBQ</li>
+        <li>Brisket</li>
+        <li>Ribs</li>
+        <li>Mac & Cheese</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🍖 <strong>BBQ Pick</strong> &nbsp; 🔥 <strong>Worth the Wait</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbF85digGm/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>5. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h2>
+      <p><strong>Best For:</strong> Nashville Atmosphere</p>
+      <p>The Stillery combines comfort food, drinks, and live music with a downtown Nashville atmosphere. The menu includes burgers, pizza, hot chicken, and other casual options, making it an easy pregame choice.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🎵 <strong>Nashville Atmosphere</strong> &nbsp; 🎉 <strong>Good for Groups</strong></p>
+
+      <h2>6. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
+      <p><strong>Best For:</strong> Tacos & Margaritas</p>
+      <p>Bakersfield is a fun option if you're looking for tacos and drinks before an event. The atmosphere works especially well for groups that want something lively without going directly into the Broadway honky-tonks.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>Tacos</li>
+        <li>Queso</li>
+        <li>Guacamole</li>
+        <li>Margaritas</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🌮 <strong>Mexican Pick</strong></p>
+
+      <h2>7. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></h2>
+      <p><strong>Best For:</strong> Upscale Dinner Before an Event</p>
+      <p>Not every Bridgestone meal needs to be burgers and barbecue. If you're going to a concert, celebrating something special, or want a proper dinner beforehand, Etch is one of downtown Nashville's better upscale options.</p>
+      <p>Give yourself plenty of time before your event rather than trying to rush through dinner.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>❤️ <strong>Date Night Pick</strong> &nbsp; 🥂 <strong>Special Occasion</strong></p>
+
+      <h2>8. <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></h2>
+      <p><strong>Best For:</strong> Wine & Dinner</p>
+      <p>Sixty Vines is another strong option when you want something nicer before heading to Bridgestone. It's particularly appealing for date nights and concerts when you want dinner and wine before walking over to the arena.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>🍷 <strong>Wine Pick</strong> &nbsp; ❤️ <strong>Date Night</strong></p>
+
+      <h2>9. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
+      <p><strong>Best For:</strong> Quick Pizza</p>
+      <p>Sometimes you don't want a full meal before an event. Prince Street Pizza makes it easy to grab a slice and continue toward Bridgestone or Broadway.</p>
+      <p>I've personally reviewed Prince Street Pizza for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="reviews/prince-street-pizza-nashville.html">Read my full Prince St. Pizza review →</a></p>
+      <p>🍕 <strong>Quick Bite</strong></p>
+
+      <h2>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
+      <p><strong>Best For:</strong> Smash Burgers</p>
+      <p>NADC Burger is another downtown option I've personally reviewed. If you want a smash burger before or after your event, it's worth considering, especially if you're looking for something casual rather than a traditional sit-down dinner.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="reviews/nadc-burger-nashville.html">Read my full NADC Burger review →</a></p>
+      <p>🍔 <strong>Smash Burger Pick</strong></p>
+
+      <h2>Best Restaurants Near Bridgestone Arena by Category</h2>
+      <p><strong>🍔 Best for Burgers</strong></p>
+      <ul>
+        <li>Jack Brown's Beer & Burger Joint</li>
+        <li>NADC Burger ⭐</li>
+      </ul>
+      <p><strong>🔥 Best for Nashville Hot Chicken</strong></p>
+      <ul>
+        <li>Hattie B's Hot Chicken</li>
+      </ul>
+      <p><strong>🍖 Best for BBQ</strong></p>
+      <ul>
+        <li>Martin's Bar-B-Que Joint</li>
+      </ul>
+      <p><strong>🍕 Best for Pizza</strong></p>
+      <ul>
+        <li>Prince St. Pizza ⭐</li>
+      </ul>
+      <p><strong>🌮 Best for Tacos</strong></p>
+      <ul>
+        <li>Bakersfield</li>
+      </ul>
+      <p><strong>👨‍👩‍👧 Best for Families & Groups</strong></p>
+      <ul>
+        <li>Assembly Food Hall</li>
+        <li>Martin's Bar-B-Que Joint</li>
+        <li>The Stillery</li>
+      </ul>
+      <p><strong>❤️ Best for Date Night</strong></p>
+      <ul>
+        <li>Etch</li>
+        <li>Sixty Vines</li>
+      </ul>
+      <p><strong>⚡ Best for a Quick Meal</strong></p>
+      <ul>
+        <li>Assembly Food Hall</li>
+        <li>Prince St. Pizza ⭐</li>
+        <li>Hattie B's</li>
+      </ul>
+
+      <h2>Where Should You Eat Before a Predators Game?</h2>
+      <p>For a Nashville Predators game, I'd prioritize somewhere that's convenient enough that you aren't stressing about getting to your seats on time.</p>
+      <p>For groups, Assembly Food Hall is difficult to beat because of its location and variety.</p>
+      <p>If you want Nashville food, consider Hattie B's for hot chicken or Martin's for barbecue.</p>
+      <p>For burgers, Jack Brown's and NADC Burger are good options. And if you just need something quick, Prince Street Pizza works well.</p>
+
+      <h2>Where Should You Eat Before a Concert at Bridgestone Arena?</h2>
+      <p>For a concert date night, I'd lean toward somewhere that feels more like part of the night out. Consider:</p>
+      <ul>
+        <li>❤️ Etch</li>
+        <li>🍷 Sixty Vines</li>
+        <li>🌮 Bakersfield</li>
+      </ul>
+      <p>For something more casual:</p>
+      <ul>
+        <li>🍔 Jack Brown's</li>
+        <li>🍕 Prince Street Pizza</li>
+        <li>🔥 Hattie B's</li>
+      </ul>
+
+      <h2>How Early Should You Eat Before an Event at Bridgestone Arena?</h2>
+      <p>Downtown Nashville can become extremely busy when Bridgestone Arena has a major event, particularly when it overlaps with weekend Broadway traffic.</p>
+      <p>For a sit-down restaurant, I'd plan on eating well before the event begins and make a reservation whenever the restaurant accepts them.</p>
+      <p>For quick-service restaurants, still give yourself extra time. Lines can become much longer immediately before Predators games and major concerts.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What restaurants are closest to Bridgestone Arena?</strong></p>
+      <p>Fifth + Broadway and the surrounding downtown blocks offer numerous restaurants within a short walk of Bridgestone Arena. Assembly Food Hall is particularly convenient because Fifth + Broadway sits directly across from the arena.</p>
+      <p><strong>Where should I eat before a Nashville Predators game?</strong></p>
+      <p>Assembly Food Hall is one of the easiest choices for convenience and variety. Hattie B's is a good choice for Nashville hot chicken, Martin's for barbecue, and Jack Brown's or NADC Burger for burgers.</p>
+      <p><strong>Are there family-friendly restaurants near Bridgestone Arena?</strong></p>
+      <p>Yes. Assembly Food Hall is particularly convenient for families because everyone can choose different food. Martin's is another casual option for families.</p>
+      <p><strong>Where should I eat for a date before a Bridgestone concert?</strong></p>
+      <p>Etch and Sixty Vines are better choices if you want dinner to feel like part of the date rather than simply grabbing food before the show.</p>
+      <p><strong>Can I walk from these restaurants to Bridgestone Arena?</strong></p>
+      <p>Many downtown restaurants are within walking distance of Bridgestone Arena. Always check the exact location before your visit, particularly if you're trying to arrive at the arena by a specific time.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>One of the best things about attending an event at Bridgestone Arena is how many food options you have nearby.</p>
+      <p>You can grab hot chicken or barbecue for the full Nashville experience, get a quick burger or slice of pizza, or make the night more special with an upscale dinner.</p>
+      <p>As I personally visit more restaurants around Bridgestone Arena, I'll continue updating this guide with Sam Scores, firsthand reviews, photos, videos, and my personal rankings.</p>
+      <p><em>Last Updated: August 2026</em></p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="post.html?id=best-restaurants-near-broadway-nashville">Best Restaurants Near Broadway</a></li>
+        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
+        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
+        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
+        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
+        <li><a href="post.html?id=best-steakhouses-nashville">Best Steakhouses in Nashville</a></li>
+        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
+        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-steakhouses-nashville",
     places: [],
     title: "Best Steakhouses in Nashville (2026 Updated Guide)",
@@ -1630,6 +1890,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-pizza-nashville",
+    places: ["prince-street-pizza-nashville"],
     title: "Best Pizza in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-28",
@@ -1676,6 +1937,7 @@ const BLOG_POSTS = [
         <li><strong>8. <a href="https://bellanapolipizzeria.com/" target="_blank" rel="noopener">Bella Napoli Pizzeria</a></strong></li>
         <li><strong>9. <a href="https://pennepazze.net/" target="_blank" rel="noopener">PennePazze</a></strong></li>
         <li><strong>10. <a href="https://www.tailgatebeer.com/" target="_blank" rel="noopener">TailGate Brewery</a></strong></li>
+        <li><strong>11. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h2>
@@ -1769,6 +2031,11 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTSASnk3vf/" data-instgrm-version="14"></blockquote></div>
 
+      <h2>11. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
+      <p><strong>Best For:</strong> Quick New York-Style Slices Downtown</p>
+      <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown, inside the Fifth + Broadway development. <a href="reviews/prince-street-pizza-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+
       <h2>How I Rate Every Pizza</h2>
       <p>Every pizza reviewed on Eat With Sam K is scored using the same criteria:</p>
       <ul>
@@ -1809,7 +2076,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-burgers-nashville",
-    places: ["nadc-burger-nashville"],
+    places: ["nadc-burger-nashville", "baam-burger-nashville"],
     title: "Best Burgers in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-25",
@@ -1856,6 +2123,7 @@ const BLOG_POSTS = [
         <li><strong>8. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></strong></li>
         <li><strong>9. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></strong></li>
         <li><strong>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger</a></strong> (full review)</li>
+        <li><strong>11. <a href="reviews/baam-burger-nashville.html">Baam Burger</a></strong> (full review)</li>
       </ul>
 
       <h2>1. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
@@ -1942,6 +2210,16 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dbb0-Tct6r6/" data-instgrm-version="14"></blockquote></div>
 
+      <h2>11. <a href="reviews/baam-burger-nashville.html">Baam Burger</a></h2>
+      <p><strong>Best For:</strong> Late-Night Smash Burgers Near Broadway</p>
+      <p>Baam Burger is tucked into The Arcade downtown, just steps off Broadway, serving smashed patties, fries, and hand-spun milkshakes late into the night. <a href="reviews/baam-burger-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>The Baam Burger with fries and a vanilla milkshake</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dbty_4GxOFT/" data-instgrm-version="14"></blockquote></div>
+
       <h2>How I Rate Every Burger</h2>
       <p>Every burger reviewed on Eat With Sam K is scored using the same criteria:</p>
       <ul>
@@ -1982,6 +2260,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-date-night-restaurants-nashville",
+    places: ["maru-weho-nashville"],
     title: "Best Date Night Restaurants in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-24",
@@ -2023,6 +2302,7 @@ const BLOG_POSTS = [
         <li><strong>8. <a href="https://www.bastionnashville.com/" target="_blank" rel="noopener">Bastion</a></strong></li>
         <li><strong>9. <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></strong></li>
         <li><strong>10. <a href="https://peninsulanashville.com/" target="_blank" rel="noopener">Peninsula</a></strong></li>
+        <li><strong>11. <a href="reviews/maru-weho-nashville.html">Maru WeHo</a></strong> ⭐ (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://www.theoptimistrestaurant.com/nashville" target="_blank" rel="noopener">The Optimist</a></h2>
@@ -2096,6 +2376,12 @@ const BLOG_POSTS = [
       <h2>10. <a href="https://peninsulanashville.com/" target="_blank" rel="noopener">Peninsula</a></h2>
       <p>For adventurous couples, Peninsula offers Spanish-inspired tasting menus that are unlike anything else in Nashville.</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C3GGN2IuN8M/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>11. <a href="reviews/maru-weho-nashville.html">Maru WeHo</a> ⭐</h2>
+      <p><strong>Best For:</strong> Sushi & Cocktails</p>
+      <p>Maru WeHo sits in the Wedgewood-Houston neighborhood, with a sleek sushi bar, specialty rolls, and a cocktail menu that makes it one of my favorite date night picks. <a href="reviews/maru-weho-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="reviews/maru-weho-nashville.html">Read my full Maru WeHo review →</a></p>
 
       <h2>How I Rate Date Night Restaurants</h2>
       <p>Every restaurant reviewed on Eat With Sam K is scored using the same criteria:</p>

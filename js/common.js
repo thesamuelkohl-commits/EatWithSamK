@@ -109,6 +109,7 @@ const NAV_LINKS = [
 // `post.html?id=...` link, or any other page).
 const FOOTER_RESOURCES = [
   { label: "Best Credit Cards for Dining", href: "post.html?id=best-credit-cards-for-dining" },
+  { label: "Advertise & Sponsorships", href: "advertise.html" },
 ];
 
 document.querySelectorAll("[data-nav]").forEach((nav) => {

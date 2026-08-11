@@ -207,6 +207,21 @@ a { color: var(--red); }
 
 .auth-submit { width: 100%; justify-content: center; }
 
+.wishlist-form textarea.auth-email { border-radius: var(--radius); min-height: 60px; font-family: inherit; }
+.wishlist-form { max-width: 500px; }
+
+.wishlist-marker {
+  background: var(--card);
+  border: 3px solid var(--red);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  font-size: 1.1rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
 .auth-status { font-size: 0.8rem; margin-top: 10px; line-height: 1.4; }
 .auth-status-ok { color: var(--green); font-weight: 700; }
 .auth-status-error { color: var(--red); }
