@@ -19,6 +19,7 @@ const OWNER_EMAIL = "thesamuelkohl@gmail.com";
 let allItems = [];
 let cityFilter = "";
 let cuisineFilter = "";
+let searchQuery = "";
 let userLoc = null;
 let geoAttempted = false;
 let wishlistMap = null;
@@ -105,7 +106,13 @@ function populateCuisineFilter() {
 }
 
 function filteredItems() {
-  return allItems.filter((i) => (!cityFilter || i.city === cityFilter) && (!cuisineFilter || i.cuisine === cuisineFilter));
+  const q = searchQuery.trim().toLowerCase();
+  return allItems.filter(
+    (i) =>
+      (!cityFilter || i.city === cityFilter) &&
+      (!cuisineFilter || i.cuisine === cuisineFilter) &&
+      (!q || [i.name, i.city, i.cuisine, i.address, i.notes].filter(Boolean).join(" ").toLowerCase().includes(q))
+  );
 }
 
 function renderCards() {
@@ -211,6 +218,9 @@ function renderAuthed() {
   wishlistMap = null;
   wishlistMarkers = {};
   gate.innerHTML = `
+    <div class="toolbar">
+      <input type="search" class="search-input" id="wishlist-search" placeholder="Search by name, city, or food…" />
+    </div>
     <div class="filters-panel">
       <div class="filter-group">
         <span class="filter-group-label">City</span>
@@ -238,6 +248,14 @@ document.addEventListener("auth:change", applyAuthState);
 // Covers the case where auth.js already resolved getSession() before this
 // script's listener above was registered — see authReady in js/auth.js.
 if (typeof authReady !== "undefined" && authReady) applyAuthState();
+
+document.addEventListener("input", (e) => {
+  if (e.target.id === "wishlist-search") {
+    searchQuery = e.target.value;
+    renderCards();
+    renderMap();
+  }
+});
 
 document.addEventListener("change", (e) => {
   if (e.target.id === "wishlist-city-filter") {
