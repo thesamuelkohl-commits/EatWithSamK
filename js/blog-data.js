@@ -22,6 +22,14 @@
       linking to any other posts that exist, and listing planned
       ones as "(coming soon)" — this is the internal cross-linking
       that helps Google understand the site's structure.
+
+   Linking to another guide or a review from inside `content`: use
+   root-relative paths — `/guides/<id>/` and `/reviews/<id>.html`
+   (leading slash, no `post.html?id=`). This content gets embedded
+   as-is into guides/<id>/index.html by generate-reviews.js, which
+   sits one directory deeper than reviews/*.html, so a root-relative
+   link is the only kind that resolves correctly no matter how deep
+   the page serving it sits.
    ============================================================ */
 
 const BLOG_POSTS = [
@@ -78,8 +86,8 @@ const BLOG_POSTS = [
         <li><strong>6. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
         <li><strong>7. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></strong></li>
         <li><strong>8. <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></strong></li>
-        <li><strong>9. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>9. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>10. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h2>
@@ -172,20 +180,20 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <p>🍷 <strong>Wine Pick</strong> &nbsp; ❤️ <strong>Date Night</strong></p>
 
-      <h2>9. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
+      <h2>9. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
+      <p><strong>Best For:</strong> Smash Burgers</p>
+      <p>NADC Burger is another downtown option I've personally reviewed. If you want a smash burger before or after your event, it's worth considering, especially if you're looking for something casual rather than a traditional sit-down dinner.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville.html">Read my full NADC Burger review →</a></p>
+      <p>🍔 <strong>Smash Burger Pick</strong></p>
+
+      <h2>10. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
       <p><strong>Best For:</strong> Quick Pizza</p>
       <p>Sometimes you don't want a full meal before an event. Prince Street Pizza makes it easy to grab a slice and continue toward Bridgestone or Broadway.</p>
       <p>I've personally reviewed Prince Street Pizza for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="reviews/prince-street-pizza-nashville.html">Read my full Prince St. Pizza review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/prince-street-pizza-nashville.html">Read my full Prince St. Pizza review →</a></p>
       <p>🍕 <strong>Quick Bite</strong></p>
-
-      <h2>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
-      <p><strong>Best For:</strong> Smash Burgers</p>
-      <p>NADC Burger is another downtown option I've personally reviewed. If you want a smash burger before or after your event, it's worth considering, especially if you're looking for something casual rather than a traditional sit-down dinner.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="reviews/nadc-burger-nashville.html">Read my full NADC Burger review →</a></p>
-      <p>🍔 <strong>Smash Burger Pick</strong></p>
 
       <h2>Best Restaurants Near Bridgestone Arena by Category</h2>
       <p><strong>🍔 Best for Burgers</strong></p>
@@ -273,15 +281,15 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li><a href="post.html?id=best-restaurants-near-broadway-nashville">Best Restaurants Near Broadway</a></li>
-        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
-        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
-        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li><a href="post.html?id=best-steakhouses-nashville">Best Steakhouses in Nashville</a></li>
-        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
-        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
-        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-steakhouses-nashville/">Best Steakhouses in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
       </ul>
     `,
   },
@@ -532,14 +540,14 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li><a href="post.html?id=best-restaurants-near-broadway-nashville">Best Restaurants Near Broadway</a></li>
-        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
-        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
-        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
-        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
-        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
       </ul>
     `,
   },
@@ -589,8 +597,8 @@ const BLOG_POSTS = [
         <li><strong>6. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></strong></li>
         <li><strong>7. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></strong></li>
         <li><strong>8. <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></strong></li>
-        <li><strong>9. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>9. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>10. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
@@ -674,20 +682,20 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DblDA05lRPK/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>9. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
-      <p><strong>Best For:</strong> A Quick Slice Near Broadway</p>
-      <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown.</p>
-      <p>If you're looking for something fast before a concert or after the bars, this is an easy recommendation.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="reviews/prince-street-pizza-nashville.html">Read my full Prince St. Pizza review →</a></p>
-
-      <h2>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
+      <h2>9. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
       <p><strong>Best For:</strong> Smash Burgers</p>
       <p>NADC Burger serves one of the better smash burgers close to downtown Nashville.</p>
       <p>Simple menu. Excellent execution.</p>
       <p>If you're craving a burger after walking Broadway, this is absolutely worth checking out.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="reviews/nadc-burger-nashville.html">Read my full NADC Burger review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville.html">Read my full NADC Burger review →</a></p>
+
+      <h2>10. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
+      <p><strong>Best For:</strong> A Quick Slice Near Broadway</p>
+      <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown.</p>
+      <p>If you're looking for something fast before a concert or after the bars, this is an easy recommendation.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/prince-street-pizza-nashville.html">Read my full Prince St. Pizza review →</a></p>
 
       <h2>Best Restaurants Near Broadway by Category</h2>
       <p><strong>🍔 Best Burger</strong></p>
@@ -751,13 +759,13 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
-        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
-        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
-        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
-        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
       </ul>
     `,
   },
@@ -1011,12 +1019,12 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for your next meal or drink? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
-        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
-        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
-        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
       </ul>
     `,
   },
@@ -1212,9 +1220,9 @@ const BLOG_POSTS = [
       <h2>More From Eat With Sam K</h2>
       <p>Looking for where to actually use these points? Check out these guides:</p>
       <ul>
-        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
-        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
-        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
       </ul>
     `,
   },
@@ -1421,12 +1429,12 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
-        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
-        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
-        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
       </ul>
     `,
   },
@@ -1638,12 +1646,12 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
-        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
-        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
-        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
-        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
   },
@@ -1879,12 +1887,12 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
-        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
-        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
-        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
-        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
   },
@@ -1937,7 +1945,7 @@ const BLOG_POSTS = [
         <li><strong>8. <a href="https://bellanapolipizzeria.com/" target="_blank" rel="noopener">Bella Napoli Pizzeria</a></strong></li>
         <li><strong>9. <a href="https://pennepazze.net/" target="_blank" rel="noopener">PennePazze</a></strong></li>
         <li><strong>10. <a href="https://www.tailgatebeer.com/" target="_blank" rel="noopener">TailGate Brewery</a></strong></li>
-        <li><strong>11. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>11. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h2>
@@ -2031,9 +2039,9 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTSASnk3vf/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>11. <a href="reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
+      <h2>11. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
       <p><strong>Best For:</strong> Quick New York-Style Slices Downtown</p>
-      <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown, inside the Fifth + Broadway development. <a href="reviews/prince-street-pizza-nashville.html">Read Sam's full review →</a></p>
+      <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown, inside the Fifth + Broadway development. <a href="/reviews/prince-street-pizza-nashville.html">Read Sam's full review →</a></p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
       <h2>How I Rate Every Pizza</h2>
@@ -2065,12 +2073,12 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
-        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
-        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
-        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
   },
@@ -2122,8 +2130,8 @@ const BLOG_POSTS = [
         <li><strong>7. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></strong></li>
         <li><strong>8. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></strong></li>
         <li><strong>9. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></strong></li>
-        <li><strong>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger</a></strong> (full review)</li>
-        <li><strong>11. <a href="reviews/baam-burger-nashville.html">Baam Burger</a></strong> (full review)</li>
+        <li><strong>10. <a href="/reviews/baam-burger-nashville.html">Baam Burger</a></strong> (full review)</li>
+        <li><strong>11. <a href="/reviews/nadc-burger-nashville.html">NADC Burger</a></strong> (full review)</li>
       </ul>
 
       <h2>1. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
@@ -2200,25 +2208,25 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>10. <a href="reviews/nadc-burger-nashville.html">NADC Burger</a></h2>
-      <p><strong>Best For:</strong> Wagyu Smash Burgers</p>
-      <p>NADC, short for "Not A Damn Chance," keeps things simple: one burger, done one way, made with two smashed 3 oz patties of 100% Wagyu beef. Tucked inside the historic Arcade downtown, it's a quick, no-seating counter stop that's become one of the most talked-about burger spots in the city. <a href="reviews/nadc-burger-nashville.html">Read Sam's full review →</a></p>
-      <p><strong>Must Try:</strong></p>
-      <ul>
-        <li>The NADC Burger, everything, with fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dbb0-Tct6r6/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>11. <a href="reviews/baam-burger-nashville.html">Baam Burger</a></h2>
+      <h2>10. <a href="/reviews/baam-burger-nashville.html">Baam Burger</a></h2>
       <p><strong>Best For:</strong> Late-Night Smash Burgers Near Broadway</p>
-      <p>Baam Burger is tucked into The Arcade downtown, just steps off Broadway, serving smashed patties, fries, and hand-spun milkshakes late into the night. <a href="reviews/baam-burger-nashville.html">Read Sam's full review →</a></p>
+      <p>Baam Burger is tucked into The Arcade downtown, just steps off Broadway, serving smashed patties, fries, and hand-spun milkshakes late into the night. <a href="/reviews/baam-burger-nashville.html">Read Sam's full review →</a></p>
       <p><strong>Must Try:</strong></p>
       <ul>
         <li>The Baam Burger with fries and a vanilla milkshake</li>
       </ul>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dbty_4GxOFT/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>11. <a href="/reviews/nadc-burger-nashville.html">NADC Burger</a></h2>
+      <p><strong>Best For:</strong> Wagyu Smash Burgers</p>
+      <p>NADC, short for "Not A Damn Chance," keeps things simple: one burger, done one way, made with two smashed 3 oz patties of 100% Wagyu beef. Tucked inside the historic Arcade downtown, it's a quick, no-seating counter stop that's become one of the most talked-about burger spots in the city. <a href="/reviews/nadc-burger-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>The NADC Burger, everything, with fries</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dbb0-Tct6r6/" data-instgrm-version="14"></blockquote></div>
 
       <h2>How I Rate Every Burger</h2>
       <p>Every burger reviewed on Eat With Sam K is scored using the same criteria:</p>
@@ -2249,12 +2257,12 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
-        <li><a href="post.html?id=best-date-night-restaurants-nashville">Best Date Night Restaurants in Nashville</a></li>
-        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
-        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
   },
@@ -2302,7 +2310,7 @@ const BLOG_POSTS = [
         <li><strong>8. <a href="https://www.bastionnashville.com/" target="_blank" rel="noopener">Bastion</a></strong></li>
         <li><strong>9. <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></strong></li>
         <li><strong>10. <a href="https://peninsulanashville.com/" target="_blank" rel="noopener">Peninsula</a></strong></li>
-        <li><strong>11. <a href="reviews/maru-weho-nashville.html">Maru WeHo</a></strong> ⭐ (Personally Reviewed)</li>
+        <li><strong>11. <a href="/reviews/maru-weho-nashville.html">Maru WeHo</a></strong> ⭐ (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://www.theoptimistrestaurant.com/nashville" target="_blank" rel="noopener">The Optimist</a></h2>
@@ -2377,11 +2385,11 @@ const BLOG_POSTS = [
       <p>For adventurous couples, Peninsula offers Spanish-inspired tasting menus that are unlike anything else in Nashville.</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C3GGN2IuN8M/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>11. <a href="reviews/maru-weho-nashville.html">Maru WeHo</a> ⭐</h2>
+      <h2>11. <a href="/reviews/maru-weho-nashville.html">Maru WeHo</a> ⭐</h2>
       <p><strong>Best For:</strong> Sushi & Cocktails</p>
-      <p>Maru WeHo sits in the Wedgewood-Houston neighborhood, with a sleek sushi bar, specialty rolls, and a cocktail menu that makes it one of my favorite date night picks. <a href="reviews/maru-weho-nashville.html">Read Sam's full review →</a></p>
+      <p>Maru WeHo sits in the Wedgewood-Houston neighborhood, with a sleek sushi bar, specialty rolls, and a cocktail menu that makes it one of my favorite date night picks. <a href="/reviews/maru-weho-nashville.html">Read Sam's full review →</a></p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="reviews/maru-weho-nashville.html">Read my full Maru WeHo review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/maru-weho-nashville.html">Read my full Maru WeHo review →</a></p>
 
       <h2>How I Rate Date Night Restaurants</h2>
       <p>Every restaurant reviewed on Eat With Sam K is scored using the same criteria:</p>
@@ -2410,12 +2418,12 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
-        <li><a href="post.html?id=best-pizza-nashville">Best Pizza in Nashville</a></li>
-        <li><a href="post.html?id=best-burgers-nashville">Best Burgers in Nashville</a></li>
-        <li><a href="post.html?id=best-hot-chicken-nashville">Best Hot Chicken in Nashville</a></li>
-        <li><a href="post.html?id=best-brunch-nashville">Best Brunch in Nashville</a></li>
-        <li><a href="post.html?id=best-coffee-shops-nashville">Best Coffee Shops in Nashville</a></li>
-        <li><a href="post.html?id=best-cheap-eats-nashville">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
   },

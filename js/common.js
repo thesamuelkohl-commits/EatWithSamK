@@ -93,7 +93,9 @@ document.addEventListener("click", (e) => {
    `<footer data-footer>` — common.js fills both in, so adding a new
    page (like "About") only means editing NAV_LINKS once here instead
    of five separate HTML files. `data-prefix="../"` is used on pages
-   one directory deep (reviews/<id>.html) so links still resolve. */
+   one directory deep (reviews/<id>.html); guides/<id>/index.html uses
+   `data-prefix="/"` (root-relative) since it sits inside its own
+   per-guide folder — see generate-reviews.js's renderGuidePage(). */
 
 const NAV_LINKS = [
   { id: "home", label: "Home", href: "index.html" },
@@ -106,9 +108,9 @@ const NAV_LINKS = [
 // Footer "Resources" column — add a line here any time you want another
 // resource-style post (guides, comparisons, etc.) linked site-wide from
 // every page's footer. `href` is relative the same way NAV_LINKS is (a
-// `post.html?id=...` link, or any other page).
+// `guides/<id>/` link, or any other page).
 const FOOTER_RESOURCES = [
-  { label: "Best Credit Cards for Dining", href: "post.html?id=best-credit-cards-for-dining" },
+  { label: "Best Credit Cards for Dining", href: "guides/best-credit-cards-for-dining/" },
   { label: "Advertise & Sponsorships", href: "advertise.html" },
 ];
 
@@ -408,7 +410,7 @@ function postCoverPhoto(post) {
 function blogCardHtml(post) {
   const cover = postCoverPhoto(post);
   return `
-    <a class="blog-card reveal" href="post.html?id=${post.id}">
+    <a class="blog-card reveal" href="guides/${post.id}/">
       ${cover ? `<div class="blog-card-banner blog-card-banner-photo" style="background-image: url('${cover}')"></div>` : `<div class="blog-card-banner">${post.emoji}</div>`}
       <div class="blog-card-body">
         <div class="blog-meta"><span class="pill">${post.city}</span><span>${formatPostDate(post.date)}</span></div>
