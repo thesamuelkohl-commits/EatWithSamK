@@ -725,6 +725,65 @@ function bakeHomepageStats() {
   console.log(`updated index.html stats (${placesCount} places, ${citiesCount} cities, ${avgRating.toFixed(1)} avg)`);
 }
 
+// Same card markup as js/common.js's blogCardHtml() (browser-side) —
+// duplicated here since this script runs in Node, not the browser (same
+// reasoning as referralWidgetHtml()/postCoverPhoto() above).
+function blogCardHtml(post) {
+  const cover = postCoverPhoto(post);
+  return `
+    <a class="blog-card reveal" href="guides/${post.id}/">
+      ${cover ? `<div class="blog-card-banner blog-card-banner-photo" style="background-image: url('${cover}')"></div>` : `<div class="blog-card-banner">${post.emoji}</div>`}
+      <div class="blog-card-body">
+        <div class="blog-meta"><span class="pill">${escapeHtml(post.city)}</span><span>${formatVisitDate(post.date)}</span></div>
+        <h3>${escapeHtml(post.title)}</h3>
+        <p>${escapeHtml(post.excerpt)}</p>
+        <span class="read-more">Read more →</span>
+      </div>
+    </a>`;
+}
+
+// Replaces the content between `<!-- baked:<marker>:start -->` and
+// `<!-- baked:<marker>:end -->` in `file` with `html`. Marker comments (not
+// a naive "match up to the next </div>") because the content being baked in
+// is itself full of nested <div>s — a marker pair is the only thing that's
+// safe to find unambiguously and stays idempotent across repeated runs.
+function bakeMarkedSection(file, marker, html) {
+  const filePath = path.join(__dirname, file);
+  const original = fs.readFileSync(filePath, "utf8");
+  const start = `<!-- baked:${marker}:start -->`;
+  const end = `<!-- baked:${marker}:end -->`;
+  const pattern = new RegExp(`${escapeRegExp(start)}[\\s\\S]*?${escapeRegExp(end)}`);
+  if (!pattern.test(original)) {
+    throw new Error(`bakeMarkedSection: couldn't find "${marker}" markers in ${file} — did someone edit them by hand?`);
+  }
+  fs.writeFileSync(filePath, original.replace(pattern, `${start}${html}${end}`));
+}
+
+function escapeRegExp(str) {
+  return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+// best-of.html's guide grid, and index.html's homepage "Best Of Guides"
+// section, both render their cards purely client-side (js/best-of.js /
+// js/app.js) — meaning a crawler that doesn't run JS would see an empty
+// <div> and zero real links to any guide from either page. Baking the same
+// card markup in at build time (JS then just overwrites it with the exact
+// same HTML on load — this is what already happens with the homepage
+// stats above) means the real <a href="guides/<id>/"> links are present
+// in the raw HTML response, same as everything else this script generates.
+function bakeBestOfGrid() {
+  const cards = BLOG_POSTS.map(blogCardHtml).join("");
+  bakeMarkedSection("best-of.html", "blog-grid", cards);
+  console.log(`updated best-of.html guide grid (${BLOG_POSTS.length} guides)`);
+}
+
+function bakeHomeBlogGrid() {
+  const recentPosts = [...BLOG_POSTS].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
+  const cards = recentPosts.map(blogCardHtml).join("");
+  bakeMarkedSection("index.html", "home-blog", cards);
+  console.log(`updated index.html "Best Of Guides" section (${recentPosts.length} most recent)`);
+}
+
 const reviewsDir = path.join(__dirname, "reviews");
 fs.mkdirSync(reviewsDir, { recursive: true });
 
@@ -773,5 +832,7 @@ console.log("wrote _redirects");
 writeDataExport();
 
 bakeHomepageStats();
+bakeBestOfGrid();
+bakeHomeBlogGrid();
 
 console.log(`\nDone — ${PLACES.length} review page(s), ${BLOG_POSTS.length} guide page(s) generated.`);
