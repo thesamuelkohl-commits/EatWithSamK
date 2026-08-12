@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T20:41:00.027Z",
+  "generatedAt": "2026-08-12T20:45:01.429Z",
   "places": [
     {
       "id": "halal-birdz-nashville",
@@ -16,7 +16,8 @@
       "cuisine": "Halal Hot Chicken",
       "badges": [
         "quick-bite",
-        "easy-parking"
+        "easy-parking",
+        "hidden-gem"
       ],
       "about": "Halal Birdz is a newer halal hot chicken concept on Murfreesboro Pike in South Nashville, serving Nashville-style hot chicken tenders, wings, and loaded snack packs at a counter-service spot.",
       "ate": "The #3 Broadway Box (medium heat) and the #4 Halal Snack Pack (medium heat).",

@@ -603,6 +603,37 @@ a { color: var(--red); }
 
 .card-tags { display: flex; gap: 6px; flex-wrap: wrap; }
 
+/* ---------- Homepage "Sam's Top Rated" ---------- */
+.top-rated-list { display: flex; flex-direction: column; gap: 10px; }
+
+.top-rated-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 14px 20px;
+  text-decoration: none;
+  color: var(--ink);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.top-rated-row:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+
+.top-rated-rank {
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--red);
+  flex-shrink: 0;
+  width: 32px;
+}
+
+.top-rated-name { font-weight: 700; flex: 1; }
+
+.top-rated-row .rating-badge { padding: 6px 10px; font-size: 0.95rem; }
+
 .tag {
   background: #f6ebdd;
   color: var(--ink-soft);

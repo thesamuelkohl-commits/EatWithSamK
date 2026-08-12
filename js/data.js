@@ -69,7 +69,7 @@ const PLACES = [
     date: "2026-08-07",
     price: "$$",
     cuisine: "Halal Hot Chicken",
-    badges: ["quick-bite", "easy-parking"],
+    badges: ["quick-bite", "easy-parking", "hidden-gem"],
     about: "Halal Birdz is a newer halal hot chicken concept on Murfreesboro Pike in South Nashville, serving Nashville-style hot chicken tenders, wings, and loaded snack packs at a counter-service spot.",
     ate: "The #3 Broadway Box (medium heat) and the #4 Halal Snack Pack (medium heat).",
     heroPhoto: "images/reviews/halal-birdz-nashville/order.jpg",
