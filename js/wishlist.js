@@ -120,6 +120,14 @@ function renderCards() {
   if (!listEl) return;
   let items = filteredItems();
 
+  const countEl = document.getElementById("wishlist-count");
+  if (countEl) {
+    countEl.textContent =
+      items.length === allItems.length
+        ? `${allItems.length} place${allItems.length === 1 ? "" : "s"}`
+        : `${items.length} of ${allItems.length} places`;
+  }
+
   if (userLoc) {
     items = [...items].sort((a, b) => {
       const da = a.lat != null ? distanceMiles(userLoc.lat, userLoc.lng, a.lat, a.lng) : Infinity;
@@ -219,6 +227,7 @@ function renderAuthed() {
   wishlistMarkers = {};
   gate.innerHTML = `
     <div class="toolbar">
+      <h2 id="wishlist-count"></h2>
       <input type="search" class="search-input" id="wishlist-search" placeholder="Search by name, city, or food…" />
     </div>
     <div class="filters-panel">
