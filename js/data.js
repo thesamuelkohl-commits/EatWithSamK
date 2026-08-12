@@ -65,7 +65,7 @@ const PLACES = [
     address: "1069 Murfreesboro Pike, Nashville, TN 37217",
     phone: "(615) 710-7534",
     parking: "Free parking",
-    website: "https://halal-birdz.square.site/",
+    website: "https://halalbirdz.com/index.html",
     date: "2026-08-07",
     price: "$$",
     cuisine: "Halal Hot Chicken",
@@ -75,7 +75,9 @@ const PLACES = [
     heroPhoto: "images/reviews/halal-birdz-nashville/order.jpg",
     photos: [
       { src: "images/reviews/halal-birdz-nashville/storefront.jpg", alt: "Halal Birdz storefront sign, Nashville" },
-      { src: "images/reviews/halal-birdz-nashville/order.jpg", alt: "Sam's order: the #3 Broadway Box and #4 Halal Snack Pack, medium heat, Halal Birdz" },
+      { src: "images/reviews/halal-birdz-nashville/interior.jpg", alt: "Halal Birdz counter and dining area, Nashville" },
+      { src: "images/reviews/halal-birdz-nashville/order-spread.jpg", alt: "Sam's full order: the #3 Broadway Box and #4 Halal Snack Pack, medium heat, Halal Birdz" },
+      { src: "images/reviews/halal-birdz-nashville/order.jpg", alt: "Close-up of the #4 Halal Snack Pack, medium heat, Halal Birdz" },
     ],
     // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
     pros: ["Quick service", "Great presentation", "Fun vibes"],

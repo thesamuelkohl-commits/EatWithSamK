@@ -2453,4 +2453,294 @@ const BLOG_POSTS = [
       </ul>
     `,
   },
+  {
+    id: "best-bbq-nashville",
+    places: [],
+    title: "Best BBQ Restaurants in Nashville (2026 Updated Guide)",
+    city: "Nashville, TN",
+    date: "2026-08-12",
+    emoji: "🍖",
+    excerpt:
+      "From Texas-style brisket at Shotgun Willie's to dry-rub ribs at Peg Leg Porker and whole-hog BBQ at Martin's, the best BBQ restaurants in Nashville for 2026, ranked with no paid placements.",
+    faq: [
+      {
+        question: "What is the best BBQ in Nashville?",
+        answer:
+          "Shotgun Willie's is a strong choice for Texas-style brisket, Peg Leg Porker is known for its ribs, and Martin's is one of Nashville's best-known destinations for West Tennessee whole-hog barbecue. As I personally review more of Nashville's BBQ restaurants, I'll continue updating this guide with my own rankings and Sam Scores.",
+      },
+      {
+        question: "What is the best BBQ near Broadway in Nashville?",
+        answer:
+          "Martin's Bar-B-Que Joint is a convenient option for visitors staying around Broadway, while Peg Leg Porker is located nearby in The Gulch.",
+      },
+      {
+        question: "Where can I get good brisket in Nashville?",
+        answer:
+          "Shotgun Willie's, Bringle's Smoking Oasis, and HoneyFire are good places to start if brisket is your priority.",
+      },
+      {
+        question: "Where should I get ribs in Nashville?",
+        answer:
+          "Peg Leg Porker is particularly well known for its dry-rub pork ribs, with Shotgun Willie's as another strong choice.",
+      },
+      {
+        question: "Is Nashville known for BBQ?",
+        answer:
+          "Nashville may be more nationally associated with hot chicken, but barbecue has a long history throughout Tennessee. Nashville offers everything from West Tennessee whole-hog cooking to Memphis- and Texas-influenced barbecue.",
+      },
+    ],
+    content: `
+      <p>Looking for the best BBQ in Nashville? From Tennessee whole-hog barbecue and dry-rub ribs to Texas-style brisket, Nashville has plenty of options when you're craving smoked meat.</p>
+      <p>Whether you're visiting Nashville for the first time or you're a local looking for a new barbecue spot, this guide covers Nashville BBQ restaurants worth knowing about.</p>
+      <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food. As I work my way through Nashville's barbecue scene, I'll continue updating this guide with my own Sam Scores, photos, videos, and firsthand rankings.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>Quick List: Best BBQ in Nashville</h2>
+      <ul>
+        <li><strong>1. <a href="https://sgwbbq.com/" target="_blank" rel="noopener">Shotgun Willie's BBQ</a></strong></li>
+        <li><strong>2. <a href="https://peglegporker.com/" target="_blank" rel="noopener">Peg Leg Porker</a></strong></li>
+        <li><strong>3. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
+        <li><strong>4. <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">Edley's Bar-B-Que</a></strong></li>
+        <li><strong>5. <a href="https://www.bringlessmokingoasis.com/" target="_blank" rel="noopener">Bringle's Smoking Oasis</a></strong></li>
+        <li><strong>6. <a href="https://honeyfire.com/" target="_blank" rel="noopener">HoneyFire BBQ</a></strong></li>
+        <li><strong>7. <a href="https://jacksbarbque.com/" target="_blank" rel="noopener">Jack's Bar-B-Que</a></strong></li>
+        <li><strong>8. <a href="https://theridgenashville.com/" target="_blank" rel="noopener">The Ridge</a></strong></li>
+        <li><strong>9. <a href="https://www.bar-b-cutie.com/" target="_blank" rel="noopener">Bar-B-Cutie SmokeHouse</a></strong></li>
+      </ul>
+
+      <h2>1. <a href="https://sgwbbq.com/" target="_blank" rel="noopener">Shotgun Willie's BBQ</a></h2>
+      <p><strong>Best For:</strong> Texas-Style BBQ & Brisket</p>
+      <p>If brisket is what you're after, Shotgun Willie's deserves to be near the top of your Nashville BBQ list.</p>
+      <p>Known for Texas-style barbecue, Shotgun Willie's has developed a strong local following for its brisket, ribs, sausage, and other smoked meats.</p>
+      <p>This is the type of BBQ spot where I'd recommend arriving earlier rather than later, popular meats can sell out.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Brisket</li>
+        <li>Ribs</li>
+        <li>Sausage</li>
+        <li>Pulled Pork</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🥩 <strong>Brisket Pick</strong> &nbsp; 🔥 <strong>Worth the Trip</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C9II4Avum-U/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>2. <a href="https://peglegporker.com/" target="_blank" rel="noopener">Peg Leg Porker</a></h2>
+      <p><strong>Best For:</strong> Ribs</p>
+      <p>Located in The Gulch, Peg Leg Porker is one of Nashville's most recognizable barbecue restaurants.</p>
+      <p>Pitmaster Carey Bringle specializes in Tennessee-style barbecue, and the restaurant has become especially well known for its dry-rub ribs.</p>
+      <p>If you're visiting Nashville and want BBQ close to downtown without heading directly onto Broadway, Peg Leg Porker is an easy option to put on your list.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Dry-Rub Ribs</li>
+        <li>Pulled Pork</li>
+        <li>Smoked Chicken</li>
+        <li>Mac & Cheese</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🍖 <strong>Rib Pick</strong> &nbsp; 🔥 <strong>Nashville Favorite</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKFfFUZu96L/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>3. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
+      <p><strong>Best For:</strong> Whole-Hog BBQ</p>
+      <p>Martin's is one of the biggest names in Nashville barbecue and is especially known for West Tennessee-style whole-hog cooking.</p>
+      <p>If you're visiting downtown Nashville, Martin's 4th Avenue location also makes it one of the most convenient places to experience Tennessee BBQ near Broadway and Bridgestone Arena.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Whole Hog BBQ</li>
+        <li>Pulled Pork</li>
+        <li>Brisket</li>
+        <li>Redneck Taco</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🐷 <strong>Whole-Hog Pick</strong> &nbsp; 📍 <strong>Great Downtown Option</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DXjNHQeipI6/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>4. <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">Edley's Bar-B-Que</a></h2>
+      <p><strong>Best For:</strong> BBQ + Southern Sides</p>
+      <p>Edley's combines smoked meats with a broader Southern-style menu and has grown into one of Nashville's most recognizable local BBQ brands.</p>
+      <p>It's a particularly good option for groups because there's more to choose from than simply ordering meat by the pound.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Brisket</li>
+        <li>Pulled Pork</li>
+        <li>Smoked Wings</li>
+        <li>Ribs</li>
+        <li>Southern Sides</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>👨‍👩‍👧 <strong>Group Friendly</strong> &nbsp; 🍗 <strong>Great for Wings</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C7HhwLtO3PP/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>5. <a href="https://www.bringlessmokingoasis.com/" target="_blank" rel="noopener">Bringle's Smoking Oasis</a></h2>
+      <p><strong>Best For:</strong> Texas-Style BBQ & Atmosphere</p>
+      <p>Bringle's Smoking Oasis is another concept from Carey Bringle of Peg Leg Porker, but it offers a different barbecue experience.</p>
+      <p>Expect Texas-inspired smoked meats combined with a large indoor/outdoor environment that's built for hanging out.</p>
+      <p>It's a great option when you want BBQ to be more of an afternoon or group experience rather than simply grabbing a plate and leaving.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Brisket</li>
+        <li>Pastrami</li>
+        <li>Sausage</li>
+        <li>Rotating BBQ Specials</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🎉 <strong>Great for Groups</strong> &nbsp; 🥩 <strong>Texas-Style Pick</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIzMiJwyWQP/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>6. <a href="https://honeyfire.com/" target="_blank" rel="noopener">HoneyFire BBQ</a></h2>
+      <p><strong>Best For:</strong> Modern Nashville BBQ</p>
+      <p>HoneyFire brings a more modern feel to Nashville barbecue while still focusing on smoked meats and Southern hospitality.</p>
+      <p>The menu offers plenty of traditional BBQ alongside creative dishes and sauces, making it a good choice for someone who wants something beyond a basic meat-and-three style plate.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Brisket</li>
+        <li>Pulled Pork</li>
+        <li>Wings</li>
+        <li>Banana Pudding</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🔥 <strong>Modern BBQ Pick</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DAo6DB5Sn9P/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>7. <a href="https://jacksbarbque.com/" target="_blank" rel="noopener">Jack's Bar-B-Que</a></h2>
+      <p><strong>Best For:</strong> Nashville BBQ Tradition</p>
+      <p>Jack's has been part of Nashville's barbecue scene for decades. The original Lower Broadway location has closed, but Jack's continues serving Nashville BBQ from its Charlotte Avenue and West Trinity Lane locations, both just outside downtown.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Tennessee Pork Shoulder</li>
+        <li>Brisket</li>
+        <li>Ribs</li>
+        <li>Smoked Turkey</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🏛️ <strong>Nashville Original</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DALwR-9AiB7/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>8. <a href="https://theridgenashville.com/" target="_blank" rel="noopener">The Ridge</a></h2>
+      <p><strong>Best For:</strong> Neighborhood BBQ</p>
+      <p>The Ridge is a neighborhood Southern eatery in Sylvan Park serving BBQ alongside catfish and other Southern staples.</p>
+      <p>For locals, or visitors willing to venture beyond downtown, neighborhood spots like this can offer a completely different experience from the city's most famous BBQ names.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>💎 <strong>Neighborhood Pick</strong></p>
+
+      <h2>9. <a href="https://www.bar-b-cutie.com/" target="_blank" rel="noopener">Bar-B-Cutie SmokeHouse</a></h2>
+      <p><strong>Best For:</strong> Casual BBQ</p>
+      <p>Bar-B-Cutie has deep Nashville roots and offers a more casual, approachable BBQ experience.</p>
+      <p>It's a good option when you're looking for traditional smoked meats and sides without turning dinner into a major event.</p>
+      <p><strong>Must Try:</strong></p>
+      <ul>
+        <li>Pulled Pork</li>
+        <li>Brisket</li>
+        <li>Ribs</li>
+        <li>Classic BBQ Sides</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>👨‍👩‍👧 <strong>Family Friendly</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DOYmjlOCffR/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>Best Nashville BBQ by Category</h2>
+      <p><strong>🥩 Best for Brisket</strong></p>
+      <ul>
+        <li>Shotgun Willie's</li>
+        <li>Bringle's Smoking Oasis</li>
+        <li>HoneyFire BBQ</li>
+      </ul>
+      <p><strong>🍖 Best for Ribs</strong></p>
+      <ul>
+        <li>Peg Leg Porker</li>
+        <li>Shotgun Willie's</li>
+      </ul>
+      <p><strong>🐷 Best for Pulled Pork & Tennessee BBQ</strong></p>
+      <ul>
+        <li>Martin's Bar-B-Que Joint</li>
+        <li>Peg Leg Porker</li>
+        <li>Edley's</li>
+      </ul>
+      <p><strong>📍 Best BBQ Near Downtown Nashville</strong></p>
+      <ul>
+        <li>Martin's Bar-B-Que Joint</li>
+        <li>Peg Leg Porker</li>
+        <li>Jack's Bar-B-Que</li>
+      </ul>
+      <p><strong>👨‍👩‍👧 Best for Groups</strong></p>
+      <ul>
+        <li>Edley's</li>
+        <li>Bringle's Smoking Oasis</li>
+        <li>Martin's</li>
+      </ul>
+      <p><strong>🎸 Best for Nashville Visitors</strong></p>
+      <ul>
+        <li>Martin's</li>
+        <li>Peg Leg Porker</li>
+        <li>Jack's</li>
+      </ul>
+
+      <h2>What Style of BBQ Is Nashville Known For?</h2>
+      <p>Nashville doesn't have one single barbecue style in the same way some other Southern cities do.</p>
+      <p>You'll find influences from across Tennessee and beyond, including West Tennessee whole-hog barbecue, Memphis-style ribs, Texas-style brisket, pulled pork, smoked chicken, and plenty of regional sauces.</p>
+      <p>That variety is part of what makes exploring Nashville BBQ interesting.</p>
+      <p>Instead of trying one restaurant and deciding you've experienced Nashville barbecue, try restaurants specializing in different styles.</p>
+
+      <h2>What Should You Order at a Nashville BBQ Restaurant?</h2>
+      <p>If you're trying a restaurant for the first time, I recommend ordering a sampler or multiple meats whenever possible.</p>
+      <p>A good first plate might include:</p>
+      <ul>
+        <li>🥩 Brisket</li>
+        <li>🐷 Pulled Pork</li>
+        <li>🍖 Ribs</li>
+        <li>🍗 Smoked Chicken or Wings</li>
+      </ul>
+      <p>Then add a few sides.</p>
+      <p>Mac & cheese, baked beans, coleslaw, greens, potato salad, and cornbread are all common options depending on the restaurant.</p>
+      <p>It gives you a much better idea of what the pitmaster does well than judging an entire restaurant from one sandwich.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What is the best BBQ in Nashville?</strong></p>
+      <p>Shotgun Willie's is a strong choice for Texas-style brisket, Peg Leg Porker is known for its ribs, and Martin's is one of Nashville's best-known destinations for West Tennessee whole-hog barbecue. As I personally review more of Nashville's BBQ restaurants, I'll continue updating this guide with my own rankings and Sam Scores.</p>
+      <p><strong>What is the best BBQ near Broadway in Nashville?</strong></p>
+      <p>Martin's Bar-B-Que Joint is a convenient option for visitors staying around Broadway, while Peg Leg Porker is located nearby in The Gulch.</p>
+      <p><strong>Where can I get good brisket in Nashville?</strong></p>
+      <p>Shotgun Willie's, Bringle's Smoking Oasis, and HoneyFire are good places to start if brisket is your priority.</p>
+      <p><strong>Where should I get ribs in Nashville?</strong></p>
+      <p>Peg Leg Porker is particularly well known for its dry-rub pork ribs, with Shotgun Willie's as another strong choice.</p>
+      <p><strong>Is Nashville known for BBQ?</strong></p>
+      <p>Nashville may be more nationally associated with hot chicken, but barbecue has a long history throughout Tennessee. Nashville offers everything from West Tennessee whole-hog cooking to Memphis- and Texas-influenced barbecue.</p>
+
+      <h2>How I Rate Nashville BBQ</h2>
+      <p>When I personally review these restaurants for Eat With Sam K, I look at more than just whether the meat tastes good.</p>
+      <ul>
+        <li>🥩 Meat Quality — Flavor, tenderness, smoke and consistency</li>
+        <li>🔥 BBQ Execution — Bark, seasoning, moisture and smoke</li>
+        <li>🥘 Sides — Because great BBQ deserves great sides</li>
+        <li>💰 Value — Portion size and quality for the price</li>
+        <li>👨‍🍳 Service — Speed, friendliness and overall experience</li>
+        <li>🏠 Atmosphere — The overall environment and experience</li>
+      </ul>
+      <p>Each restaurant I personally visit receives a Sam Score out of 10.</p>
+      <p>And I keep the top of my scale intentionally difficult, an extremely high Sam Score is reserved for restaurants that truly stand out.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Nashville's BBQ scene is much deeper than one famous restaurant.</p>
+      <p>You can experience West Tennessee whole-hog barbecue at Martin's, dry-rub ribs at Peg Leg Porker, Texas-style brisket at Shotgun Willie's, and plenty of different interpretations throughout the city.</p>
+      <p>This ranking will change.</p>
+      <p>As I personally work my way through Nashville's BBQ restaurants, I'll update this guide with my own Sam Scores, photos, videos, exact orders, and firsthand rankings.</p>
+      <p>The goal is for this list to eventually be based entirely on places I've personally tried, and to help you figure out where your BBQ money is actually worth spending.</p>
+      <p><em>Last Updated: August 2026</em></p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-steakhouses-nashville/">Best Steakhouses in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
+        <li><a href="/guides/best-restaurants-near-bridgestone-arena-nashville/">Best Restaurants Near Bridgestone Arena</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+      </ul>
+    `,
+  },
 ];
