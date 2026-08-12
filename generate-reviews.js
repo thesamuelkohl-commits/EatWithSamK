@@ -1,21 +1,27 @@
 /* ============================================================
-   EAT WITH SAM K — REVIEW PAGE GENERATOR
+   EAT WITH SAM K — STATIC PAGE GENERATOR
    Run this any time you add, edit, or remove a place in
-   js/data.js (or a post in js/blog-data.js):
+   js/data.js, or a guide in js/blog-data.js:
 
      node generate-reviews.js
 
    It builds:
-     - reviews/<id>.html   (one real, static, SEO-optimized
+     - reviews/<id>.html      (one real, static, SEO-optimized
        page per place — full <title>, meta description, Open
        Graph tags, and Review structured data baked in, so
        Google — and anyone sharing the link on social — sees
        real content immediately, no JavaScript required)
+     - guides/<id>/index.html (same deal, one per Best Of guide —
+       serves at the clean URL /guides/<id>/, full article text
+       and structured data in the raw HTML, no JS required)
      - sitemap.xml
      - robots.txt
+     - _redirects             (Netlify-format 301s from the old
+       /post.html?id=<id> URLs to their new /guides/<id>/ home)
 
-   You never edit the files in reviews/ by hand — they're
-   regenerated from js/data.js every time you run this script.
+   You never edit the files in reviews/ or guides/ by hand —
+   they're regenerated from js/data.js and js/blog-data.js every
+   time you run this script.
    ============================================================ */
 
 const fs = require("fs");
@@ -137,6 +143,22 @@ function reviewUrl(place) {
   return `${SITE_URL}/reviews/${place.id}.html`;
 }
 
+function guideUrl(post) {
+  return `${SITE_URL}/guides/${post.id}/`;
+}
+
+// Same rule as js/common.js's postCoverPhoto() (browser-side): a guide only
+// gets a photo cover once Sam has personally reviewed one of the places in
+// it (via post.places) and that review has a heroPhoto — otherwise it keeps
+// the plain emoji banner. Duplicated here since this script runs in Node,
+// not the browser (same reasoning as referralWidgetHtml() above).
+function postCoverPhoto(post) {
+  const withPhoto = (post.places || [])
+    .map((id) => PLACES.find((p) => p.id === id))
+    .find((p) => p && p.heroPhoto);
+  return withPhoto ? withPhoto.heroPhoto : null;
+}
+
 function socialButtonsHtml() {
   return ""; // filled client-side by js/common.js via [data-socials]
 }
@@ -220,7 +242,7 @@ function renderReviewPage(place, relatedPosts) {
       <h2 class="review-section-title">Related Articles</h2>
       <p class="review-about">${escapeHtml(place.name)} appears on:</p>
       <ul class="related-articles">
-        ${relatedPosts.map((post) => `<li><a href="../post.html?id=${post.id}">${escapeHtml(post.title)}</a></li>`).join("")}
+        ${relatedPosts.map((post) => `<li><a href="/guides/${post.id}/">${escapeHtml(post.title)}</a></li>`).join("")}
       </ul>
     </div>`
     : "";
@@ -434,6 +456,164 @@ function renderReviewPage(place, relatedPosts) {
 `;
 }
 
+// Guide pages live one directory deeper than reviews/<id>.html — the URL is
+// /guides/<id>/ (a folder + index.html, so it resolves as a clean trailing-
+// slash path with no .html in the address bar). Rather than compute a
+// different "../../" relative-path depth than reviews/*.html uses, every
+// internal link/asset in this template is root-relative (a leading "/"),
+// which resolves correctly no matter how deep the page sits. js/blog-data.js
+// content is authored with the same convention (see the bulk migration note
+// at the top of that file) so it drops in here unmodified.
+function renderGuidePage(post) {
+  const canonical = guideUrl(post);
+  const title = `${post.title}, Eat With Sam K`;
+  const description = post.excerpt;
+  const cover = postCoverPhoto(post);
+  const ogImage = cover ? `${SITE_URL}/${cover}` : `${SITE_URL}/images/logo.png`;
+  const fmt = formatVisitDate(post.date);
+  const hasInstagramEmbed = post.content.includes("instagram-media");
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description,
+    datePublished: post.date,
+    image: ogImage,
+    author: { "@type": "Person", name: "Sam K" },
+    publisher: { "@type": "Organization", name: SITE.name },
+    mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
+    url: canonical,
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Best Of", item: `${SITE_URL}/best-of.html` },
+      { "@type": "ListItem", position: 3, name: post.title, item: canonical },
+    ],
+  };
+
+  const faqLd =
+    post.faq && post.faq.length
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: post.faq.map((qa) => ({
+            "@type": "Question",
+            name: qa.question,
+            acceptedAnswer: { "@type": "Answer", text: qa.answer },
+          })),
+        }
+      : null;
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2V4D6ZQV6Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2V4D6ZQV6Q');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7072826210873110"
+       crossorigin="anonymous"></script>
+
+  <title>${escapeHtml(title)}</title>
+  <meta name="description" content="${escapeHtml(description)}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="${canonical}" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="${escapeHtml(title)}" />
+  <meta property="og:description" content="${escapeHtml(description)}" />
+  <meta property="og:url" content="${canonical}" />
+  <meta property="og:image" content="${ogImage}" />
+  <meta property="og:site_name" content="${escapeHtml(SITE.name)}" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="${escapeHtml(title)}" />
+  <meta name="twitter:description" content="${escapeHtml(description)}" />
+  <meta name="twitter:image" content="${ogImage}" />
+
+  <link rel="icon" type="image/png" href="/images/favicon.png?v=2" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#c05a24" />
+  <link rel="apple-touch-icon" href="/images/icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css?v=29" />
+
+  <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
+  <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
+  ${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>` : ""}
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="/index.html"><img class="logo-img" src="/images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <nav class="main-nav" data-nav="blog" data-prefix="/"></nav>
+      <div class="header-right">
+        <div class="social-row" data-socials></div>
+        <div class="auth-widget" data-auth></div>
+        <div class="install-widget" data-install></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="post-wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/index.html">Home</a><span>›</span>
+      <a href="/best-of.html">Best Of</a><span>›</span>
+      <span aria-current="page">${escapeHtml(post.title)}</span>
+    </nav>
+
+    <a class="post-back" href="/best-of.html">← Back to Best Of</a>
+    ${
+      cover
+        ? `
+    <div class="post-hero-banner" style="background-image: url('/${cover}')">
+      <div class="post-hero-on-photo">
+        <div class="post-emoji post-emoji-on-photo">${post.emoji}</div>
+        <h1>${escapeHtml(post.title)}</h1>
+      </div>
+    </div>`
+        : `
+    <div class="post-emoji">${post.emoji}</div>
+    <h1>${escapeHtml(post.title)}</h1>`
+    }
+    <div class="blog-meta"><span class="pill">${escapeHtml(post.city)}</span><span>${fmt}</span></div>
+    <div class="post-body">${post.content}</div>
+    ${referralWidgetHtml()}
+  </main>
+
+  <footer class="site-footer" data-footer data-prefix="/"></footer>
+
+  ${hasInstagramEmbed ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
+  <script src="/js/data.js?v=14"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/js/supabase-config.js?v=1"></script>
+  <script src="/js/common.js?v=25"></script>
+  <script src="/js/auth.js?v=3"></script>
+  <script src="/js/pwa.js?v=1"></script>
+</body>
+</html>
+`;
+}
+
 function renderSitemap() {
   const urls = [
     { loc: `${SITE_URL}/`, priority: "1.0" },
@@ -443,17 +623,36 @@ function renderSitemap() {
     { loc: `${SITE_URL}/about.html`, priority: "0.5" },
     { loc: `${SITE_URL}/advertise.html`, priority: "0.4" },
     { loc: `${SITE_URL}/privacy.html`, priority: "0.2" },
-    ...PLACES.map((p) => ({ loc: reviewUrl(p), priority: "0.9" })),
-    ...BLOG_POSTS.map((post) => ({ loc: `${SITE_URL}/post.html?id=${post.id}`, priority: "0.6" })),
+    ...PLACES.map((p) => ({ loc: reviewUrl(p), priority: "0.9", lastmod: p.date })),
+    ...BLOG_POSTS.map((post) => ({ loc: guideUrl(post), priority: "0.7", lastmod: post.date })),
   ];
   const body = urls
-    .map((u) => `  <url>\n    <loc>${u.loc}</loc>\n    <priority>${u.priority}</priority>\n  </url>`)
+    .map((u) => {
+      const lastmod = u.lastmod ? `\n    <lastmod>${u.lastmod}</lastmod>` : "";
+      return `  <url>\n    <loc>${u.loc}</loc>${lastmod}\n    <priority>${u.priority}</priority>\n  </url>`;
+    })
     .join("\n");
   return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`;
 }
 
 function renderRobots() {
   return `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`;
+}
+
+// Netlify's declarative redirect format (https://docs.netlify.com/routing/redirects/).
+// Old guide links looked like /post.html?id=<id> — now that every guide has
+// its own real page at /guides/<id>/, every one of those old URLs gets a
+// permanent 301 here so bookmarks, backlinks, and anything Google already
+// indexed keep working instead of breaking. The trailing "!" forces the
+// redirect to fire even though post.html itself still exists as a real file
+// (Netlify would otherwise serve that file directly for an exact match).
+// Only takes effect on hosts that read a _redirects file (Netlify, and a few
+// others) — see README's "Publishing" section for the GitHub Pages caveat.
+function renderRedirects() {
+  const lines = BLOG_POSTS.map(
+    (post) => `/post.html?id=${post.id}  /guides/${post.id}/  301!`
+  );
+  return lines.join("\n") + "\n";
 }
 
 // ---------- Portable data export ----------
@@ -544,14 +743,35 @@ for (const place of PLACES) {
   console.log(`wrote reviews/${place.id}.html`);
 }
 
+const guidesDir = path.join(__dirname, "guides");
+fs.mkdirSync(guidesDir, { recursive: true });
+
+// Clear out stale guide folders for posts no longer in blog-data.js.
+for (const d of fs.readdirSync(guidesDir)) {
+  if (!BLOG_POSTS.some((post) => post.id === d)) {
+    fs.rmSync(path.join(guidesDir, d), { recursive: true, force: true });
+    console.log(`removed stale guides/${d}/`);
+  }
+}
+
+for (const post of BLOG_POSTS) {
+  const outDir = path.join(guidesDir, post.id);
+  fs.mkdirSync(outDir, { recursive: true });
+  fs.writeFileSync(path.join(outDir, "index.html"), renderGuidePage(post));
+  console.log(`wrote guides/${post.id}/index.html`);
+}
+
 fs.writeFileSync(path.join(__dirname, "sitemap.xml"), renderSitemap());
 console.log("wrote sitemap.xml");
 
 fs.writeFileSync(path.join(__dirname, "robots.txt"), renderRobots());
 console.log("wrote robots.txt");
 
+fs.writeFileSync(path.join(__dirname, "_redirects"), renderRedirects());
+console.log("wrote _redirects");
+
 writeDataExport();
 
 bakeHomepageStats();
 
-console.log(`\nDone — ${PLACES.length} review page(s) generated.`);
+console.log(`\nDone — ${PLACES.length} review page(s), ${BLOG_POSTS.length} guide page(s) generated.`);

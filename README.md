@@ -10,7 +10,8 @@ Your food review site: an interactive map of every place you've rated, plus a bl
 | `map.html` | A dedicated, full-size version of the interactive map — nothing else on the page |
 | `reviews.html` | **All** reviews — searchable, sortable, and filterable by city, cuisine, price, and tags |
 | `reviews/<id>.html` | One SEO-optimized landing page per place (auto-generated) |
-| `best-of.html` / `post.html` | Your "Best Of" guides — city round-up lists like "Best Pizza in Nashville" |
+| `best-of.html` | Index/listing of every "Best Of" guide — city round-up lists like "Best Pizza in Nashville" |
+| `guides/<id>/` | One SEO-optimized landing page per guide (auto-generated) |
 | `about.html` | Your About page — nav tab, bio, how you rate, socials |
 | `privacy.html` | Privacy policy (required by Google AdSense's program policies) — linked from every footer |
 
@@ -93,20 +94,22 @@ You can also add your own photos with the `photos` field (see above) — drop th
 
 For restaurants you write about but haven't personally photographed (like a multi-restaurant blog roundup), a different approach applies: embed the restaurant's *own* official Instagram post rather than downloading and rehosting a photo from Google, Yelp, or their website. Grabbing someone else's photo and hosting it directly on a site that runs ads is a real copyright risk, not just a technicality — embedding keeps the image on Instagram's servers with full attribution to whoever posted it, which is the legally clean way to do this.
 
-## ⭐ Every review gets its own page (and is optimized for Google)
+## ⭐ Every review and guide gets its own page (and is optimized for Google)
 
-Each place in `js/data.js` gets a real, standalone page at `reviews/<id>.html` — e.g. `reviews/prince-street-pizza-nashville.html`. These aren't just template views: each one has its own unique page title, meta description, Open Graph/Twitter preview tags (so links look good when shared on social), and "Review" structured data that helps Google show star ratings directly in search results.
+Each place in `js/data.js` gets a real, standalone page at `reviews/<id>.html` — e.g. `reviews/prince-street-pizza-nashville.html`. Each guide in `js/blog-data.js` gets the same treatment at the clean URL `guides/<id>/` — e.g. `guides/best-burgers-nashville/` (a folder with an `index.html` inside, so the address bar never shows a `.html` or a `?id=`). These aren't just template views: each one has its own unique page title, meta description, Open Graph/Twitter preview tags (so links look good when shared on social), and structured data (`Review` on place pages, `BlogPosting`/`FAQPage` on guide pages) that helps Google show rich results directly in search.
 
-**Whenever you add, edit, or remove a place in `js/data.js`, run:**
+**Whenever you add, edit, or remove a place in `js/data.js`, or a guide in `js/blog-data.js`, run:**
 
 ```bash
 cd "/Users/samkohl/Sam's Personal/Eat With Sam K"
 node generate-reviews.js
 ```
 
-This rebuilds every file in `reviews/`, plus `sitemap.xml`, `robots.txt`, and `data/*.json` (see below), from whatever is currently in `js/data.js`. (Requires Node.js, which is already installed if `node --version` works in your terminal.) You never hand-edit anything inside `reviews/` or `data/` — both are fully regenerated each time.
+This rebuilds every file in `reviews/` and `guides/`, plus `sitemap.xml`, `robots.txt`, `_redirects`, and `data/*.json` (see below), from whatever is currently in `js/data.js` and `js/blog-data.js`. (Requires Node.js, which is already installed if `node --version` works in your terminal.) You never hand-edit anything inside `reviews/`, `guides/`, or `data/` — all three are fully regenerated each time.
 
-**Before you go live**, open `generate-reviews.js` and update the `SITE_URL` constant near the top (currently a placeholder: `https://www.eatwithsamk.com`) to your real domain once you've deployed. It's used in canonical links, social preview tags, the sitemap, and the `data/*.json` export — all of which need your real, final domain to work correctly.
+**Before you go live**, open `generate-reviews.js` and update the `SITE_URL` constant near the top (currently a placeholder: `https://www.eatwithsamk.com`) to your real domain once you've deployed. It's used in canonical links, social preview tags, the sitemap, the `_redirects` file, and the `data/*.json` export — all of which need your real, final domain to work correctly.
+
+**Old guide links (`post.html?id=...`)**: guides used to be client-side-rendered behind that URL — Google Search Console flagged those as barely-indexed because a crawler saw almost no content without running JavaScript. Every guide now has real, static HTML at `guides/<id>/` instead, and `post.html` itself just 301-redirects any old link to its new home (via the generated `_redirects` file, on hosts that support it — see "Publishing" below) and is marked `noindex` so it drops out of Google over time in favor of the real page. You never need to link to `post.html?id=...` anywhere yourself going forward — `blogCardHtml()` and the footer already point at `guides/<id>/`.
 
 ## Portable data export (`data/*.json`) — for a future mobile app
 
@@ -122,7 +125,7 @@ You never hand-edit anything in `data/` — like `reviews/`, it's fully regenera
 
 ## Analytics & Ads
 
-Google Analytics (`G-2V4D6ZQV6Q`) and Google AdSense (`ca-pub-7072826210873110`) are both wired into every page: `index.html`, `reviews.html`, `best-of.html`, `post.html`, and the `generate-reviews.js` template (so every generated `reviews/<id>.html` page gets them too). You don't need to touch these — they're already live.
+Google Analytics (`G-2V4D6ZQV6Q`) and Google AdSense (`ca-pub-7072826210873110`) are both wired into every page: `index.html`, `reviews.html`, `best-of.html`, `post.html`, and both `generate-reviews.js` templates (so every generated `reviews/<id>.html` and `guides/<id>/` page gets them too). You don't need to touch these — they're already live.
 
 **On ads:** the script we added enables **Auto ads** — once you turn that on in your AdSense account (Ads → Overview → Auto ads, toggle "On" for this site), Google automatically places ad units in good spots across every page with no further code changes. If you'd rather control exact placement yourself (e.g. an ad between the review and the map on `reviews/<id>.html`), come back and ask — that needs a real ad-unit slot ID from your AdSense dashboard first.
 
@@ -131,7 +134,7 @@ Google Analytics (`G-2V4D6ZQV6Q`) and Google AdSense (`ca-pub-7072826210873110`)
 The top nav and site footer are **shared components**, not copy-pasted per page — each HTML page just has an empty `<nav class="main-nav" data-nav="..."></nav>` and `<footer class="site-footer" data-footer></footer>`, and `js/common.js` fills both in at runtime from one place (`NAV_LINKS` and `footerHtml()`). This means adding, renaming, or reordering a nav link, or changing anything in the footer, is a one-line edit in `js/common.js` — it updates everywhere instantly, including every auto-generated `reviews/<id>.html` page.
 
 - The `data-nav="home"` / `"reviews"` / `"blog"` / `"about"` value tells it which tab to highlight as active. Leave it blank (as on `privacy.html`) for a page that isn't part of the primary nav.
-- Pages inside a subfolder (`reviews/<id>.html`) add `data-prefix="../"` so the generated links point back up correctly.
+- Pages inside a subfolder (`reviews/<id>.html`) add `data-prefix="../"` so the generated links point back up correctly. Guide pages (`guides/<id>/index.html`) sit one directory deeper still, so they use `data-prefix="/"` (root-relative) instead.
 - The footer has three columns — brand/tagline/socials, an Explore link list, and a newsletter signup — plus a bottom bar with the copyright and a Privacy Policy link.
 
 **About page (`about.html`):** your story, hero photo, and "Get In Touch" links are all filled in and real.
@@ -178,7 +181,7 @@ Until step 3 is done, the "Sign In" button is already live on every page — it 
 
 ## "Best Of" guides (formerly "Blog")
 
-The nav tab, footer link, page titles, and URL all say **Best Of** now instead of Blog, since every post here is a "Best of [City]" round-up rather than a diary-style blog — the page itself is `best-of.html` (renamed from `blog.html`). The data file is still `js/blog-data.js` and post URLs (`post.html?id=...`) are unchanged, so nothing about how you write a new post is different (see "Writing a blog post" below).
+The nav tab, footer link, page titles, and URL all say **Best Of** now instead of Blog, since every post here is a "Best of [City]" round-up rather than a diary-style blog — the listing page is `best-of.html` (renamed from `blog.html`), and each individual guide lives at `guides/<id>/` (see above — this used to be `post.html?id=...`). The data file is still `js/blog-data.js`, and nothing about how you write a new post is different (see "Writing a blog post" below) — the id you give it just becomes a folder name instead of a query string value.
 
 ## Motion & animation
 
@@ -193,11 +196,12 @@ If a scroll-reveal or count-up ever seems stuck (a slow connection, an odd embed
 
 ## Other SEO groundwork already in place
 
-- **`sitemap.xml` + `robots.txt`** — regenerated automatically every time you run `node generate-reviews.js`, listing every page so Google can find them.
-- **Structured data (JSON-LD)** on every page type: `WebSite` + `Organization` (with links to your Instagram/TikTok/YouTube) on the homepage, `Restaurant` + `Review` + `BreadcrumbList` on each review page, `ItemList` on the Reviews page, `BlogPosting` on each post.
+- **`sitemap.xml` + `robots.txt` + `_redirects`** — regenerated automatically every time you run `node generate-reviews.js`. The sitemap lists every real page (including a `<lastmod>` for every review and guide) so Google can find them; `_redirects` sends any old `post.html?id=...` link to its new `guides/<id>/` home with a real 301 (see "Publishing" below for host support).
+- **Structured data (JSON-LD)** on every page type: `WebSite` + `Organization` (with links to your Instagram/TikTok/YouTube) on the homepage, `Restaurant` + `Review` + `BreadcrumbList` on each review page, `ItemList` on the Reviews page, `BlogPosting` + `BreadcrumbList` on each guide page.
 - **Canonical URLs, Open Graph, and Twitter Card tags** on every page, so links look right when shared and Google doesn't see duplicate content.
-- **One clear heading (`<h1>`) per page** and a breadcrumb trail (Home → Reviews → [Place]) for both users and Google.
+- **One clear heading (`<h1>`) per page** and a breadcrumb trail (Home → Reviews → [Place], or Home → Best Of → [Guide]) for both users and Google.
 - **FAQ structured data (`FAQPage`)** — if a blog post has a `faq` array (see below), those questions can show up as an expandable rich result directly in Google search, above your regular listing.
+- **Full article content in the raw HTML response** — every review and guide page is a real, pre-rendered file (built by `generate-reviews.js`), not something assembled by JavaScript after the page loads. `curl` any `reviews/<id>.html` or `guides/<id>/` URL and the title, meta description, and full article text are all there in the initial response.
 
 Idea for later: swapping AdSense's Auto ads for a couple of hand-placed in-content units once you know which spots perform best.
 
@@ -235,8 +239,8 @@ Then visit http://localhost:8000.
 
 ## Publishing (free options)
 
-- **Netlify Drop** — drag the whole folder onto https://app.netlify.com/drop. Done.
-- **GitHub Pages** — push this folder to a repo, enable Pages in settings.
+- **Netlify Drop** — drag the whole folder onto https://app.netlify.com/drop. Done. Netlify reads the generated `_redirects` file automatically, so old `post.html?id=...` links get a real, permanent 301 to their new `guides/<id>/` page.
+- **GitHub Pages** — push this folder to a repo, enable Pages in settings. **Caveat:** plain GitHub Pages has no server-side redirect support at all — it can't read `_redirects`. Old `post.html?id=...` links will still work (the page does a same-origin JavaScript redirect and is marked `noindex`), but it won't be a true 301, so if a real permanent redirect matters to you specifically, Netlify (or another host that supports redirect rules, like Cloudflare Pages or Vercel) is the one to pick.
 - Works with any custom domain (e.g. eatwithsamk.com) via either host.
 
-It's all static files — no server, no framework. The one exception is `generate-reviews.js`, a small Node script that builds the `reviews/` pages from `js/data.js` (see above); run it once before each deploy so the live site includes your latest reviews.
+It's all static files — no server, no framework. The one exception is `generate-reviews.js`, a small Node script that builds the `reviews/` and `guides/` pages from `js/data.js` and `js/blog-data.js` (see above); run it once before each deploy so the live site includes your latest reviews and guides.
