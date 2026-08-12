@@ -103,6 +103,7 @@ const NAV_LINKS = [
   { id: "reviews", label: "Reviews", href: "reviews.html" },
   { id: "blog", label: "Best Of", href: "best-of.html" },
   { id: "about", label: "About", href: "about.html" },
+  { id: "advertise", label: "Advertise", href: "advertise.html" },
 ];
 
 // Footer "Resources" column — add a line here any time you want another

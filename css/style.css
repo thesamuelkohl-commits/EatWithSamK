@@ -1048,7 +1048,9 @@ a { color: var(--red); }
 .pros li, .cons li { font-size: 0.95rem; padding-left: 4px; }
 
 /* Final rating */
-.final-rating { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; }
+.final-rating { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; margin-bottom: 8px; }
+
+.deals-section { margin-top: 30px; }
 
 /* Related articles */
 .related-articles { list-style: none; display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
@@ -1205,6 +1207,7 @@ a { color: var(--red); }
 /* ---------- Responsive ---------- */
 @media (max-width: 720px) {
   .header-inner { flex-wrap: wrap; justify-content: center; }
+  .main-nav { flex-wrap: wrap; justify-content: center; }
   #map { height: 380px; }
   .map-page-section #map { height: 60vh; min-height: 380px; }
   .toolbar h2 { width: 100%; }
