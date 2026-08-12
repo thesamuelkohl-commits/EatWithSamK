@@ -348,7 +348,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Overall Steakhouse Experience</p>
       <p>Jeff Ruby's combines luxury dining, exceptional service, and some of the finest USDA Prime steaks available in Nashville.</p>
       <p>Whether you're celebrating an anniversary or entertaining clients, it's one of the city's premier dining destinations.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Filet Mignon</li>
         <li>Bone-In Ribeye</li>
@@ -361,7 +361,7 @@ const BLOG_POSTS = [
       <h2>2. <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak by Michael Mina</a></h2>
       <p><strong>Best For:</strong> Luxury Dining</p>
       <p>Located inside the JW Marriott, Bourbon Steak delivers an upscale dining experience with premium cuts, incredible views, and outstanding service.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>American Wagyu</li>
         <li>Dry-Aged Ribeye</li>
@@ -374,7 +374,7 @@ const BLOG_POSTS = [
       <h2>3. <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h2>
       <p><strong>Best For:</strong> Modern Steakhouse</p>
       <p>Kayne Prime has become one of Nashville's signature modern steakhouses thanks to creative sides, premium beef, and an impressive cocktail program.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Dry-Aged Strip</li>
         <li>Wagyu Filet</li>
@@ -387,7 +387,7 @@ const BLOG_POSTS = [
       <h2>4. <a href="https://www.harpersnashville.com/" target="_blank" rel="noopener">Harper's</a></h2>
       <p><strong>Best For:</strong> New Luxury Dining</p>
       <p>Harper's has quickly become one of Nashville's hottest reservations by combining premium steaks with an elegant atmosphere and elevated menu.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Filet</li>
         <li>Ribeye</li>
@@ -401,7 +401,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Service</p>
       <p>Halls has earned a reputation for exceptional hospitality and consistently outstanding steaks.</p>
       <p>If service is just as important as the food, this belongs near the top of your list.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Bone-In Ribeye</li>
         <li>Filet</li>
@@ -414,7 +414,7 @@ const BLOG_POSTS = [
       <h2>6. <a href="https://stksteakhouse.com/en-us/location/nashville/" target="_blank" rel="noopener">STK Nashville</a></h2>
       <p><strong>Best For:</strong> Dinner & Nightlife</p>
       <p>STK combines steakhouse dining with a lively atmosphere, making it popular for birthdays, celebrations, and group dinners.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Filet</li>
         <li>Wagyu Burger</li>
@@ -427,7 +427,7 @@ const BLOG_POSTS = [
       <h2>7. <a href="https://www.oaksteakhouse.com/location/oak-steakhouse-nashville/" target="_blank" rel="noopener">Oak Steakhouse</a></h2>
       <p><strong>Best For:</strong> Traditional Steakhouse</p>
       <p>Oak offers a more classic steakhouse experience while consistently serving premium cuts and excellent cocktails.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Dry-Aged Ribeye</li>
         <li>Filet</li>
@@ -440,7 +440,7 @@ const BLOG_POSTS = [
       <h2>8. <a href="https://www.eddiev.com/locations/tn/nashville/nashville/8529" target="_blank" rel="noopener">Eddie V's Prime Seafood</a></h2>
       <p><strong>Best For:</strong> Steak & Seafood</p>
       <p>If your group wants both exceptional steak and fresh seafood, Eddie V's is one of the best choices in Nashville.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Filet</li>
         <li>Bone-In Ribeye</li>
@@ -453,7 +453,7 @@ const BLOG_POSTS = [
       <h2>9. <a href="https://www.thesouthernnashville.com/" target="_blank" rel="noopener">The Southern Steak & Oyster</a></h2>
       <p><strong>Best For:</strong> Southern Steakhouse</p>
       <p>The Southern blends premium steaks with Southern hospitality and seafood, making it a favorite for both visitors and locals.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Filet</li>
         <li>New York Strip</li>
@@ -467,7 +467,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Nashville Tradition</p>
       <p>Serving Nashville since 1974, Sperry's remains one of the city's most beloved classic steakhouses.</p>
       <p>If you're looking for old-school charm and consistency, Sperry's is worth visiting.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Prime Rib</li>
         <li>Filet</li>
@@ -604,7 +604,7 @@ const BLOG_POSTS = [
       <h2>1. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
       <p><strong>Best For:</strong> Authentic Tennessee BBQ</p>
       <p>Martin's has become one of Nashville's must-visit barbecue destinations. From whole-hog barbecue to brisket and ribs, it's one of the city's most iconic restaurants.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Brisket</li>
         <li>Pulled Pork</li>
@@ -637,7 +637,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Gourmet Burgers</p>
       <p>Jack Brown's serves one of Nashville's favorite burgers without feeling overly fancy.</p>
       <p>It's an easy recommendation before or after a night on Broadway.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>The Elvis</li>
         <li>Classic Cheeseburger</li>
@@ -649,7 +649,7 @@ const BLOG_POSTS = [
       <h2>5. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
       <p><strong>Best For:</strong> Tacos & Margaritas</p>
       <p>Bakersfield offers fresh tacos, excellent margaritas, and a lively atmosphere that's perfect before heading out downtown.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Street Tacos</li>
         <li>Margaritas</li>
@@ -666,7 +666,7 @@ const BLOG_POSTS = [
       <h2>7. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></h2>
       <p><strong>Best For:</strong> Brunch & Celebrations</p>
       <p>Known for its bright atmosphere and coastal-inspired design, Hampton Social is a popular destination for brunch, birthdays, and girls' trips.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Lobster Roll</li>
         <li>Avocado Toast</li>
@@ -1282,7 +1282,7 @@ const BLOG_POSTS = [
       <h2>1. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
       <p><strong>Best For:</strong> Gourmet Burgers Under $20</p>
       <p>Jack Brown's proves that you don't need a luxury steakhouse budget to enjoy one of Nashville's best burgers. Their creative burger menu and laid-back atmosphere make it one of the city's best values.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>The Elvis Burger</li>
         <li>Classic Cheeseburger</li>
@@ -1294,7 +1294,7 @@ const BLOG_POSTS = [
       <h2>2. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h2>
       <p><strong>Best For:</strong> Pizza by the Slice</p>
       <p>Five Points Pizza is one of Nashville's best places to grab an affordable meal. Huge New York-style slices mean you can eat well without spending much.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Pepperoni Slice</li>
         <li>Cheese Slice</li>
@@ -1306,7 +1306,7 @@ const BLOG_POSTS = [
       <h2>3. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h2>
       <p><strong>Best For:</strong> Nashville's Signature Food</p>
       <p>If you're visiting Nashville, Prince's lets you experience the city's most famous food without an expensive bill.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Hot Chicken</li>
         <li>Fries</li>
@@ -1318,7 +1318,7 @@ const BLOG_POSTS = [
       <h2>4. <a href="https://www.hughbabys.com/" target="_blank" rel="noopener">Hugh-Baby's</a></h2>
       <p><strong>Best For:</strong> Burgers, BBQ & Milkshakes</p>
       <p>Hugh-Baby's has quietly become one of Nashville's favorite casual restaurants. Between the burgers, pulled pork, and shakes, it's one of the best food values in town.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Cheeseburger</li>
         <li>BBQ Sandwich</li>
@@ -1330,7 +1330,7 @@ const BLOG_POSTS = [
       <h2>5. <a href="https://redshotchicken.com/" target="_blank" rel="noopener">Red's Hot Chicken</a></h2>
       <p><strong>Best For:</strong> Hot Chicken Sandwiches</p>
       <p>Red's delivers big flavor at a reasonable price, making it one of the better budget lunch options around Nashville.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Hot Chicken Sandwich</li>
         <li>Loaded Fries</li>
@@ -1341,7 +1341,7 @@ const BLOG_POSTS = [
       <h2>6. <a href="https://fatmosburgers.com/" target="_blank" rel="noopener">Fat Mo's</a></h2>
       <p><strong>Best For:</strong> Giant Burgers</p>
       <p>Fat Mo's has been serving massive burgers for years. If you're hungry, it's hard to find a better value.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Double Cheeseburger</li>
         <li>Fries</li>
@@ -1351,7 +1351,7 @@ const BLOG_POSTS = [
       <h2>7. <a href="https://oscarstacoshop.com/" target="_blank" rel="noopener">Oscar's Taco Shop</a></h2>
       <p><strong>Best For:</strong> Fast Mexican Food</p>
       <p>Oscar's offers generous portions, fresh ingredients, and affordable prices across its menu.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>California Burrito</li>
         <li>Carne Asada Fries</li>
@@ -1363,7 +1363,7 @@ const BLOG_POSTS = [
       <h2>8. <a href="https://www.bajaburrito.com/" target="_blank" rel="noopener">Baja Burrito</a></h2>
       <p><strong>Best For:</strong> Fresh Burritos</p>
       <p>A longtime Nashville favorite, Baja Burrito consistently delivers fresh ingredients, generous portions, and great prices.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Burritos</li>
         <li>Fish Tacos</li>
@@ -1375,7 +1375,7 @@ const BLOG_POSTS = [
       <h2>9. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h2>
       <p><strong>Best For:</strong> Late-Night Burgers</p>
       <p>Dino's has earned legendary status among locals for serving one of Nashville's best affordable burgers, especially late at night.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Cheeseburger</li>
         <li>Fries</li>
@@ -1387,7 +1387,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Sandwiches</p>
       <p>If you're craving an incredible sandwich without spending a fortune, Mitchell Delicatessen belongs on your list.</p>
       <p>Fresh ingredients and large portions make it one of East Nashville's best lunch spots.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Turkey Avocado</li>
         <li>Cubano</li>
@@ -1496,7 +1496,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Classic Nashville Brunch</p>
       <p>Milk & Honey has become one of the city's most popular brunch destinations thanks to its beautiful atmosphere, creative menu, and consistently excellent breakfast dishes.</p>
       <p>Whether you're meeting friends or grabbing brunch before exploring Nashville, this is one of the safest recommendations in town.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Chicken & Waffles</li>
         <li>French Toast</li>
@@ -1510,7 +1510,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Southern Comfort Brunch</p>
       <p>Known for generous portions and Southern-inspired dishes, The Butter Milk Ranch has become a favorite among locals looking for hearty brunch food.</p>
       <p>The biscuits alone are worth the visit.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Biscuits & Gravy</li>
         <li>Chicken Biscuit</li>
@@ -1523,7 +1523,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> First-Time Nashville Visitors</p>
       <p>Biscuit Love is one of Nashville's most recognizable brunch spots.</p>
       <p>While there can be a wait, the homemade biscuits and Southern breakfast classics continue bringing people back.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Bonuts</li>
         <li>East Nasty</li>
@@ -1536,7 +1536,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Creative Breakfast</p>
       <p>Snooze offers one of Nashville's most creative brunch menus, featuring unique pancakes, breakfast tacos, Benedicts, and cocktails.</p>
       <p>Perfect for groups looking for plenty of variety.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Pineapple Upside Down Pancakes</li>
         <li>Breakfast Burrito</li>
@@ -1548,7 +1548,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Upscale Weekend Brunch</p>
       <p>If you're looking for a more elevated brunch experience, Adele's continues to be one of Nashville's most popular choices.</p>
       <p>Their weekend brunch buffet has earned a strong reputation among locals.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Weekend Brunch Buffet</li>
         <li>Shrimp & Grits</li>
@@ -1561,7 +1561,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> French-Inspired Brunch</p>
       <p>Located downtown, Liberty Common combines French café vibes with classic brunch favorites.</p>
       <p>It's an excellent choice before exploring Broadway or attending nearby events.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Croque Madame</li>
         <li>Eggs Benedict</li>
@@ -1574,7 +1574,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Coffee & Light Brunch</p>
       <p>Hearts is one of Nashville's newer favorites, offering quality coffee alongside fresh pastries and lighter breakfast options.</p>
       <p>Great for casual mornings or working remotely for a few hours.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Breakfast Sandwich</li>
         <li>Seasonal Pastries</li>
@@ -1586,7 +1586,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Local Neighborhood Brunch</p>
       <p>Fenwick's has built a loyal following by serving reliable breakfast favorites without the tourist crowds.</p>
       <p>If you want a more relaxed local brunch experience, this is a great option.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Omelets</li>
         <li>Pancakes</li>
@@ -1605,7 +1605,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Brunch with Friends</p>
       <p>Known for its bright coastal atmosphere and fun brunch cocktails, The Hampton Social is one of Nashville's most Instagram-worthy brunch destinations.</p>
       <p>It's ideal for celebrations, birthdays, and larger groups.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Lobster Roll</li>
         <li>Avocado Toast</li>
@@ -1723,7 +1723,7 @@ const BLOG_POSTS = [
       <p>You can't talk about Nashville hot chicken without talking about Prince's. The restaurant's history is deeply connected to the creation of the dish itself, making it one of the most important food stops in Nashville.</p>
       <p>Prince's serves its chicken with different heat levels, allowing you to choose how much punishment you're willing to take. Beyond the heat, the seasoning and crispy fried chicken are what have kept people coming back for generations.</p>
       <p>If you're visiting Nashville and want to experience the roots of Nashville hot chicken, Prince's belongs near the top of your list.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Hot Chicken</li>
         <li>Fries</li>
@@ -1737,7 +1737,7 @@ const BLOG_POSTS = [
       <p>Hattie B's has become one of the most recognizable names associated with Nashville hot chicken. With multiple locations and a range of heat levels, it's an approachable introduction to the dish for anyone trying it for the first time.</p>
       <p>You can start mild or work your way up to the restaurant's famous Shut the Cluck Up!!! heat level if you're feeling brave.</p>
       <p>The chicken is crispy, juicy, and heavily seasoned, while the sides help balance out the heat.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Hot Chicken Sandwich</li>
         <li>Dirty Bird Fries</li>
@@ -1751,7 +1751,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Hot Chicken Sandwiches</p>
       <p>Brave Idiot has developed a loyal following in Nashville for massive, creative hot chicken sandwiches and bold flavors.</p>
       <p>This is a great option if you're looking for something beyond the traditional chicken-on-white-bread presentation. The sandwiches are loaded, messy, and designed for people who want serious flavor along with their heat.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Hot Chicken Sandwich</li>
         <li>Loaded Fries</li>
@@ -1764,7 +1764,7 @@ const BLOG_POSTS = [
       <p>Red's has earned a strong reputation among Nashville hot chicken fans while remaining smaller and more low-key than some of the city's biggest names.</p>
       <p>It's an especially convenient stop if you're exploring Centennial Park or the Vanderbilt area.</p>
       <p>The menu focuses on crispy chicken, sandwiches, and creative combinations that still stay true to Nashville's hot chicken roots.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Hot Chicken Sandwich</li>
         <li>Hot Chicken Crunchwrap</li>
@@ -1777,7 +1777,7 @@ const BLOG_POSTS = [
       <p>400 Degrees is another longtime Nashville hot chicken destination with a loyal local following.</p>
       <p>The restaurant's name comes from its heat levels, with options ranging from mild to seriously spicy.</p>
       <p>If you're someone who thinks most hot chicken isn't actually hot enough, this is one of the Nashville restaurants you'll want to test.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Hot Chicken</li>
         <li>Hot Chicken Sandwich</li>
@@ -1791,7 +1791,7 @@ const BLOG_POSTS = [
       <p>Bolton's is another important name in Nashville's hot chicken history.</p>
       <p>Unlike many newer hot chicken restaurants, Bolton's maintains a straightforward, old-school approach. The menu includes both spicy chicken and fish, making it one of the more unique stops on a Nashville hot chicken tour.</p>
       <p>Don't underestimate the heat here.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Spicy Chicken</li>
         <li>Spicy Fish</li>
@@ -1824,7 +1824,7 @@ const BLOG_POSTS = [
       <p>Party Fowl takes Nashville hot chicken and turns it into more of a full sit-down restaurant experience.</p>
       <p>Along with traditional hot chicken, you'll find creative dishes incorporating Nashville heat into different meals.</p>
       <p>It's a good option for groups where some people want hot chicken while others want a broader menu.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Nashville Hot Chicken</li>
         <li>Hot Chicken & Waffles</li>
@@ -1977,7 +1977,7 @@ const BLOG_POSTS = [
       <h2>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h2>
       <p><strong>Best For:</strong> New York-Style Pizza</p>
       <p>Five Points Pizza has become one of Nashville's most iconic pizza destinations. Known for its massive New York-style slices, perfectly crisp crust, and quality ingredients, it's a must-visit whether you're grabbing a quick lunch or a late-night bite.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Pepperoni Slice</li>
         <li>Cheese Pizza</li>
@@ -1989,7 +1989,7 @@ const BLOG_POSTS = [
       <h2>2. <a href="https://www.smithandlentz.com/" target="_blank" rel="noopener">Smith & Lentz</a></h2>
       <p><strong>Best For:</strong> Artisan Pizza</p>
       <p>Originally known for its brewery, Smith & Lentz has developed a reputation for serving some of the city's best artisan pizzas. Their naturally fermented dough creates a light, airy crust with outstanding flavor.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Margherita</li>
         <li>Pepperoni</li>
@@ -2001,7 +2001,7 @@ const BLOG_POSTS = [
       <h2>3. <a href="https://www.diceystavern.com/nashville" target="_blank" rel="noopener">Dicey's Tavern</a></h2>
       <p><strong>Best For:</strong> Thin Crust Pizza</p>
       <p>Dicey's Tavern has quickly become one of Nashville's favorite neighborhood pizza spots. Their crispy, tavern-style pizzas are perfect for sharing alongside a drink.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Tavern Pepperoni</li>
         <li>House Special</li>
@@ -2011,7 +2011,7 @@ const BLOG_POSTS = [
       <h2>4. <a href="https://slimandhuskys.com/" target="_blank" rel="noopener">Slim & Husky's Pizza Beeria</a></h2>
       <p><strong>Best For:</strong> Custom Pizza</p>
       <p>Slim & Husky's offers a fun build-your-own concept while also serving signature pizzas packed with flavor. It's one of Nashville's most recognizable local pizza brands.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Cee No Green</li>
         <li>Rony, Roni, Rone</li>
@@ -2022,7 +2022,7 @@ const BLOG_POSTS = [
       <h2>5. <a href="https://desanopizza.com/desanonashville" target="_blank" rel="noopener">DeSano Pizzeria Napoletana</a></h2>
       <p><strong>Best For:</strong> Authentic Neapolitan Pizza</p>
       <p>If you're looking for authentic Italian pizza, DeSano is one of the closest experiences you'll find in Nashville. Imported ingredients and wood-fired ovens produce soft, flavorful pizzas with beautifully blistered crusts.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Margherita</li>
         <li>San Gennaro</li>
@@ -2037,7 +2037,7 @@ const BLOG_POSTS = [
 
       <h2>7. <a href="https://www.emmysquaredpizza.com/" target="_blank" rel="noopener">Emmy Squared Pizza</a></h2>
       <p>Known for its Detroit-style pizza, Emmy Squared serves thick, crispy, cheesy square slices loaded with premium toppings.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Colony Pizza</li>
         <li>MVP Pizza</li>
@@ -2057,7 +2057,7 @@ const BLOG_POSTS = [
 
       <h2>10. <a href="https://www.tailgatebeer.com/" target="_blank" rel="noopener">TailGate Brewery</a></h2>
       <p>TailGate Brewery serves excellent craft beer alongside one of the city's most underrated pizza menus. With multiple locations around Nashville, it's a great casual option.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Hot Honey Pepperoni</li>
         <li>Buffalo Chicken Pizza</li>
@@ -2163,7 +2163,7 @@ const BLOG_POSTS = [
       <h2>1. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
       <p><strong>Best For:</strong> Overall Burger Experience</p>
       <p>Jack Brown's is consistently considered one of Nashville's best burger destinations. Their simple menu focuses on perfectly cooked burgers served on toasted buns with fresh toppings. If you're visiting Nashville and only have time for one burger, this is a great place to start.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Classic Jack Burger</li>
         <li>Greg Brady Burger</li>
@@ -2175,7 +2175,7 @@ const BLOG_POSTS = [
       <h2>2. <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></h2>
       <p><strong>Best For:</strong> Smash Burgers</p>
       <p>Bad Luck Burger Club has built a cult following thanks to its perfectly crisp smash burgers and simple menu. Every burger is made fresh and packed with flavor.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Double Smash Burger</li>
         <li>Loaded Fries</li>
@@ -2186,7 +2186,7 @@ const BLOG_POSTS = [
       <h2>3. <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></h2>
       <p><strong>Best For:</strong> Creative Burgers</p>
       <p>Dreamburger combines classic smash burger techniques with premium ingredients and unique flavor combinations. Their burgers have become one of Nashville's hottest food destinations.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Double Dreamburger</li>
         <li>Loaded Fries</li>
@@ -2196,7 +2196,7 @@ const BLOG_POSTS = [
 
       <h2>4. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></h2>
       <p>Known for its house-ground beef, locally sourced ingredients, and huge beer garden, Pharmacy has remained a Nashville favorite for years.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Pharmacy Burger</li>
         <li>Currywurst</li>
@@ -2226,7 +2226,7 @@ const BLOG_POSTS = [
 
       <h2>9. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h2>
       <p>Open since 1971 in East Nashville and reportedly the city's oldest bar, Dino's serves a thick, charred, cheese-dripping bar cheeseburger so good Bon Appétit once named it one of the three best burgers in the country. No frills, ice-cold beer, and a legendary dive-bar atmosphere.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Dino's Cheeseburger</li>
         <li>Fries "Joe's Style"</li>
@@ -2237,7 +2237,7 @@ const BLOG_POSTS = [
       <h2>10. <a href="/reviews/baam-burger-nashville.html">Baam Burger</a></h2>
       <p><strong>Best For:</strong> Late-Night Smash Burgers Near Broadway</p>
       <p>Baam Burger is tucked into The Arcade downtown, just steps off Broadway, serving smashed patties, fries, and hand-spun milkshakes late into the night. <a href="/reviews/baam-burger-nashville.html">Read Sam's full review →</a></p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>The Baam Burger with fries and a vanilla milkshake</li>
       </ul>
@@ -2247,7 +2247,7 @@ const BLOG_POSTS = [
       <h2>11. <a href="/reviews/nadc-burger-nashville.html">NADC Burger</a></h2>
       <p><strong>Best For:</strong> Wagyu Smash Burgers</p>
       <p>NADC, short for "Not A Damn Chance," keeps things simple: one burger, done one way, made with two smashed 3 oz patties of 100% Wagyu beef. Tucked inside the historic Arcade downtown, it's a quick, no-seating counter stop that's become one of the most talked-about burger spots in the city. <a href="/reviews/nadc-burger-nashville.html">Read Sam's full review →</a></p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>The NADC Burger, everything, with fries</li>
       </ul>
@@ -2342,7 +2342,7 @@ const BLOG_POSTS = [
       <h2>1. <a href="https://www.theoptimistrestaurant.com/nashville" target="_blank" rel="noopener">The Optimist</a></h2>
       <p><strong>Best For:</strong> Seafood lovers</p>
       <p>The Optimist consistently ranks among Nashville's best date night destinations thanks to its fresh seafood, elegant atmosphere, and exceptional service. The oysters, lobster roll, and wood-fired fish make this an excellent choice for couples looking for a memorable dinner.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Oysters</li>
         <li>Lobster Roll</li>
@@ -2354,7 +2354,7 @@ const BLOG_POSTS = [
       <h2>2. <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak</a></h2>
       <p><strong>Best For:</strong> Luxury date nights</p>
       <p>Located inside the JW Marriott, Bourbon Steak delivers one of Nashville's premier steakhouse experiences. If you're celebrating an anniversary or special occasion, this restaurant offers incredible steaks, beautiful city views, and outstanding service.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Filet Mignon</li>
         <li>Wagyu</li>
@@ -2366,7 +2366,7 @@ const BLOG_POSTS = [
       <h2>3. <a href="https://thetwelvethirtyclub.com/" target="_blank" rel="noopener">The Twelve Thirty Club</a></h2>
       <p><strong>Best For:</strong> Dinner with live entertainment</p>
       <p>Broadway isn't just for tourists. The Twelve Thirty Club offers elevated dining combined with live music and rooftop cocktails, making it ideal for couples wanting dinner before a night out.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Steak Frites</li>
         <li>Seafood Tower</li>
@@ -2387,7 +2387,7 @@ const BLOG_POSTS = [
 
       <h2>6. <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h2>
       <p>Arguably Nashville's most famous steakhouse, Kayne Prime combines modern design with premium steaks and creative appetizers.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Bacon Appetizer</li>
         <li>Bone-In Ribeye</li>
@@ -2513,7 +2513,7 @@ const BLOG_POSTS = [
       <p>If brisket is what you're after, Shotgun Willie's deserves to be near the top of your Nashville BBQ list.</p>
       <p>Known for Texas-style barbecue, Shotgun Willie's has developed a strong local following for its brisket, ribs, sausage, and other smoked meats.</p>
       <p>This is the type of BBQ spot where I'd recommend arriving earlier rather than later, popular meats can sell out.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Brisket</li>
         <li>Ribs</li>
@@ -2529,7 +2529,7 @@ const BLOG_POSTS = [
       <p>Located in The Gulch, Peg Leg Porker is one of Nashville's most recognizable barbecue restaurants.</p>
       <p>Pitmaster Carey Bringle specializes in Tennessee-style barbecue, and the restaurant has become especially well known for its dry-rub ribs.</p>
       <p>If you're visiting Nashville and want BBQ close to downtown without heading directly onto Broadway, Peg Leg Porker is an easy option to put on your list.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Dry-Rub Ribs</li>
         <li>Pulled Pork</li>
@@ -2544,7 +2544,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Whole-Hog BBQ</p>
       <p>Martin's is one of the biggest names in Nashville barbecue and is especially known for West Tennessee-style whole-hog cooking.</p>
       <p>If you're visiting downtown Nashville, Martin's 4th Avenue location also makes it one of the most convenient places to experience Tennessee BBQ near Broadway and Bridgestone Arena.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Whole Hog BBQ</li>
         <li>Pulled Pork</li>
@@ -2559,7 +2559,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> BBQ + Southern Sides</p>
       <p>Edley's combines smoked meats with a broader Southern-style menu and has grown into one of Nashville's most recognizable local BBQ brands.</p>
       <p>It's a particularly good option for groups because there's more to choose from than simply ordering meat by the pound.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Brisket</li>
         <li>Pulled Pork</li>
@@ -2576,7 +2576,7 @@ const BLOG_POSTS = [
       <p>Bringle's Smoking Oasis is another concept from Carey Bringle of Peg Leg Porker, but it offers a different barbecue experience.</p>
       <p>Expect Texas-inspired smoked meats combined with a large indoor/outdoor environment that's built for hanging out.</p>
       <p>It's a great option when you want BBQ to be more of an afternoon or group experience rather than simply grabbing a plate and leaving.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Brisket</li>
         <li>Pastrami</li>
@@ -2591,7 +2591,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Modern Nashville BBQ</p>
       <p>HoneyFire brings a more modern feel to Nashville barbecue while still focusing on smoked meats and Southern hospitality.</p>
       <p>The menu offers plenty of traditional BBQ alongside creative dishes and sauces, making it a good choice for someone who wants something beyond a basic meat-and-three style plate.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Brisket</li>
         <li>Pulled Pork</li>
@@ -2605,7 +2605,7 @@ const BLOG_POSTS = [
       <h2>7. <a href="https://jacksbarbque.com/" target="_blank" rel="noopener">Jack's Bar-B-Que</a></h2>
       <p><strong>Best For:</strong> Nashville BBQ Tradition</p>
       <p>Jack's has been part of Nashville's barbecue scene for decades. The original Lower Broadway location has closed, but Jack's continues serving Nashville BBQ from its Charlotte Avenue and West Trinity Lane locations, both just outside downtown.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Tennessee Pork Shoulder</li>
         <li>Brisket</li>
@@ -2627,7 +2627,7 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Casual BBQ</p>
       <p>Bar-B-Cutie has deep Nashville roots and offers a more casual, approachable BBQ experience.</p>
       <p>It's a good option when you're looking for traditional smoked meats and sides without turning dinner into a major event.</p>
-      <p><strong>Must Try:</strong></p>
+      <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Pulled Pork</li>
         <li>Brisket</li>
