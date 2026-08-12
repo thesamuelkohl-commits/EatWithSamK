@@ -1657,7 +1657,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-hot-chicken-nashville",
-    places: ["chen-chens-nashville"],
+    places: ["chen-chens-nashville", "halal-birdz-nashville"],
     title: "Best Hot Chicken in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-02",
@@ -1714,6 +1714,7 @@ const BLOG_POSTS = [
         <li><strong>8. <a href="https://mooreschicken.com/" target="_blank" rel="noopener">Moore's Spicy Fried Chicken</a></strong></li>
         <li><strong>9. <a href="https://www.hurtshotchicken.com/" target="_blank" rel="noopener">Hurt's Hot Chicken</a></strong></li>
         <li><strong>10. <a href="https://partyfowl.com/" target="_blank" rel="noopener">Party Fowl</a></strong></li>
+        <li><strong>11. <a href="/reviews/halal-birdz-nashville.html">Halal Birdz ⭐</a></strong> (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h2>
@@ -1829,6 +1830,18 @@ const BLOG_POSTS = [
       </ul>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CzXGBoXOQ0_/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>11. <a href="/reviews/halal-birdz-nashville.html">Halal Birdz ⭐</a></h2>
+      <p><strong>Best For:</strong> Halal Nashville Hot Chicken</p>
+      <p>Halal Birdz is a newer spot on Murfreesboro Pike bringing a halal-certified take on Nashville hot chicken, with a counter-service setup and a menu built around numbered boxes and loaded snack packs.</p>
+      <p>I've personally reviewed Halal Birdz for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
+      <p><strong>What to Try:</strong></p>
+      <ul>
+        <li>#3 Broadway Box</li>
+        <li>#4 Halal Snack Pack</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/halal-birdz-nashville.html">Read my full Halal Birdz review →</a></p>
 
       <h2>What Is Nashville Hot Chicken?</h2>
       <p>Nashville hot chicken is fried chicken coated in a spicy seasoning mixture traditionally made with cayenne pepper and other spices.</p>

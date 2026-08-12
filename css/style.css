@@ -933,6 +933,25 @@ a { color: var(--red); }
 }
 
 .review-about { font-size: 1rem; line-height: 1.7; color: var(--ink); }
+.review-about + .review-about { margin-top: 14px; }
+
+/* About page: a lighter, larger opening line, and a pulled-out mission
+   statement — breaks up a long run of same-weight paragraphs into a
+   clearer read instead of one dense block of text. */
+.bio-lead { font-size: 1.12rem; color: var(--ink-soft); }
+
+.mission-callout {
+  background: linear-gradient(135deg, #fff 0%, #fdf3e4 100%);
+  border-left: 4px solid var(--red);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px 24px;
+  margin: 22px 0;
+  font-family: "Fredoka", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
 
 /* Rating scale legend (About page) */
 .rating-scale-card {
@@ -964,6 +983,25 @@ a { color: var(--red); }
   padding: 18px 22px;
   margin: 18px 0;
 }
+
+/* An honest "not live yet" state (Work With Me stats, past collabs) —
+   dashed border instead of the solid quick-facts-card look, so it visibly
+   reads as "in progress" rather than as broken or finished content. */
+.coming-soon-card {
+  border: 2px dashed var(--line);
+  border-radius: var(--radius);
+  padding: 22px 24px;
+  margin: 18px 0;
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+.coming-soon-card strong { color: var(--ink); }
+.coming-soon-card p + p { margin-top: 6px; }
+
+.simple-list { margin: 10px 0 0 22px; color: var(--ink); font-size: 1rem; line-height: 1.7; }
+.simple-list li { margin-bottom: 6px; }
 
 .quick-facts { list-style: none; display: flex; flex-direction: column; gap: 8px; }
 .quick-facts li { font-size: 0.98rem; }

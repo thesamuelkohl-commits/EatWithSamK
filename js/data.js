@@ -57,6 +57,34 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "halal-birdz-nashville",
+    name: "Halal Birdz",
+    city: "Nashville, TN",
+    lat: 36.1288406,
+    lng: -86.7140132,
+    address: "1069 Murfreesboro Pike, Nashville, TN 37217",
+    phone: "(615) 710-7534",
+    parking: "Free parking",
+    website: "https://halal-birdz.square.site/",
+    date: "2026-08-07",
+    price: "$$",
+    cuisine: "Halal Hot Chicken",
+    badges: ["quick-bite", "easy-parking"],
+    about: "Halal Birdz is a newer halal hot chicken concept on Murfreesboro Pike in South Nashville, serving Nashville-style hot chicken tenders, wings, and loaded snack packs at a counter-service spot.",
+    ate: "The #3 Broadway Box (medium heat) and the #4 Halal Snack Pack (medium heat).",
+    heroPhoto: "images/reviews/halal-birdz-nashville/order.jpg",
+    photos: [
+      { src: "images/reviews/halal-birdz-nashville/storefront.jpg", alt: "Halal Birdz storefront sign, Nashville" },
+      { src: "images/reviews/halal-birdz-nashville/order.jpg", alt: "Sam's order: the #3 Broadway Box and #4 Halal Snack Pack, medium heat, Halal Birdz" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Quick service", "Great presentation", "Fun vibes"],
+    cons: ["Shake machine was broken", "Not a lot of seating"],
+    rating: 8.9,
+    video: "https://www.instagram.com/reel/Db8lIF6RgBx/",
+    tags: ["Hot Chicken", "Halal"],
+  },
+  {
     id: "maru-weho-nashville",
     name: "Maru WeHo",
     city: "Nashville, TN",
