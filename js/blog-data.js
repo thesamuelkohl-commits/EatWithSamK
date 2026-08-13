@@ -35,7 +35,7 @@
 const BLOG_POSTS = [
   {
     id: "best-restaurants-near-bridgestone-arena-nashville",
-    places: ["prince-street-pizza-nashville", "nadc-burger-nashville"],
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville"],
     title: "Best Restaurants Near Bridgestone Arena in Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-10",
@@ -87,7 +87,8 @@ const BLOG_POSTS = [
         <li><strong>7. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></strong></li>
         <li><strong>8. <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></strong></li>
         <li><strong>9. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>10. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>10. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>11. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h2>
@@ -187,7 +188,15 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville.html">Read my full NADC Burger review →</a></p>
       <p>🍔 <strong>Smash Burger Pick</strong></p>
 
-      <h2>10. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
+      <h2>10. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></h2>
+      <p><strong>Best For:</strong> Philly Cheesesteaks Before the Game</p>
+      <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall, directly across from Bridgestone Arena at Fifth + Broadway.</p>
+      <p>I've personally reviewed The Philly Special for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/the-philly-special-nashville.html">Read my full Philly Special review →</a></p>
+      <p>🥪 <strong>Cheesesteak Pick</strong></p>
+
+      <h2>11. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
       <p><strong>Best For:</strong> Quick Pizza</p>
       <p>Sometimes you don't want a full meal before an event. Prince Street Pizza makes it easy to grab a slice and continue toward Bridgestone or Broadway.</p>
       <p>I've personally reviewed Prince Street Pizza for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
@@ -213,6 +222,10 @@ const BLOG_POSTS = [
       <ul>
         <li>Prince St. Pizza ⭐</li>
       </ul>
+      <p><strong>🥪 Best for Sandwiches</strong></p>
+      <ul>
+        <li>The Philly Special ⭐</li>
+      </ul>
       <p><strong>🌮 Best for Tacos</strong></p>
       <ul>
         <li>Bakersfield</li>
@@ -232,6 +245,7 @@ const BLOG_POSTS = [
       <ul>
         <li>Assembly Food Hall</li>
         <li>Prince St. Pizza ⭐</li>
+        <li>The Philly Special ⭐</li>
         <li>Hattie B's</li>
       </ul>
 
@@ -553,7 +567,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-broadway-nashville",
-    places: ["prince-street-pizza-nashville", "nadc-burger-nashville"],
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville"],
     title: "Best Restaurants Near Broadway Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-07",
@@ -598,7 +612,8 @@ const BLOG_POSTS = [
         <li><strong>7. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></strong></li>
         <li><strong>8. <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></strong></li>
         <li><strong>9. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>10. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>10. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>11. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
@@ -690,7 +705,14 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville.html">Read my full NADC Burger review →</a></p>
 
-      <h2>10. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
+      <h2>10. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></h2>
+      <p><strong>Best For:</strong> Philly Cheesesteaks</p>
+      <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall at Fifth + Broadway, just steps from Broadway itself.</p>
+      <p>I've personally reviewed The Philly Special for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/the-philly-special-nashville.html">Read my full Philly Special review →</a></p>
+
+      <h2>11. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
       <p><strong>Best For:</strong> A Quick Slice Near Broadway</p>
       <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown.</p>
       <p>If you're looking for something fast before a concert or after the bars, this is an easy recommendation.</p>
@@ -706,6 +728,10 @@ const BLOG_POSTS = [
       <p><strong>🍕 Best Pizza</strong></p>
       <ul>
         <li>Prince St. Pizza ⭐</li>
+      </ul>
+      <p><strong>🥪 Best Sandwich</strong></p>
+      <ul>
+        <li>The Philly Special ⭐</li>
       </ul>
       <p><strong>🍖 Best BBQ</strong></p>
       <ul>

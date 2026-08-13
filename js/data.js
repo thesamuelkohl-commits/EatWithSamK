@@ -57,6 +57,35 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "the-philly-special-nashville",
+    name: "The Philly Special",
+    city: "Nashville, TN",
+    lat: 36.160411,
+    lng: -86.779725,
+    address: "5055 Broadway Pl, Nashville, TN 37203 (Assembly Food Hall)",
+    phone: "(615) 800-5395",
+    parking: "Paid parking",
+    website: "https://www.assemblyfoodhall.com/vendor/the-philly-special/",
+    date: "2026-08-09",
+    price: "$$",
+    cuisine: "Cheesesteaks",
+    badges: ["quick-bite", "group-friendly"],
+    about: "The Philly Special is a Philadelphia cheesesteak counter inside Assembly Food Hall at Fifth + Broadway in downtown Nashville, serving classic cheesesteaks and sides just steps from Broadway.",
+    ate: "The Original with ribeye and white American cheese, plus Cajun fries.",
+    heroPhoto: "images/reviews/the-philly-special-nashville/order.jpg",
+    photos: [
+      { src: "images/reviews/the-philly-special-nashville/storefront.jpg", alt: "The Philly Special stall sign inside Assembly Food Hall, Nashville" },
+      { src: "images/reviews/the-philly-special-nashville/order-spread.jpg", alt: "Sam's order: The Original cheesesteak with ribeye and white American, plus Cajun fries, The Philly Special" },
+      { src: "images/reviews/the-philly-special-nashville/order.jpg", alt: "Close-up of The Original cheesesteak with ribeye and white American, The Philly Special" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Quick service", "Lots of seating", "Fun environment", "Close to Broadway"],
+    cons: ["Paid parking"],
+    rating: 7.7,
+    video: "https://www.instagram.com/reel/Db_zNXxxw7B/",
+    tags: ["Cheesesteaks", "Assembly Food Hall"],
+  },
+  {
     id: "halal-birdz-nashville",
     name: "Halal Birdz",
     city: "Nashville, TN",
