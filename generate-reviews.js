@@ -772,9 +772,10 @@ function escapeRegExp(str) {
 // stats above) means the real <a href="guides/<id>/"> links are present
 // in the raw HTML response, same as everything else this script generates.
 function bakeBestOfGrid() {
-  const cards = BLOG_POSTS.map(blogCardHtml).join("");
+  const sorted = [...BLOG_POSTS].sort((a, b) => b.date.localeCompare(a.date));
+  const cards = sorted.map(blogCardHtml).join("");
   bakeMarkedSection("best-of.html", "blog-grid", cards);
-  console.log(`updated best-of.html guide grid (${BLOG_POSTS.length} guides)`);
+  console.log(`updated best-of.html guide grid (${BLOG_POSTS.length} guides, most recent first)`);
 }
 
 function bakeHomeBlogGrid() {

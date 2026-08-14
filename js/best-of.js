@@ -9,9 +9,13 @@ const clearBtn = document.getElementById("filters-clear");
 const cities = [...new Set(BLOG_POSTS.map((p) => p.city).filter(Boolean))].sort();
 cityEl.innerHTML = `<option value="">All Cities</option>` + cities.map((c) => `<option value="${escapeForAttr(c)}">${c}</option>`).join("");
 
+// Most recent guide first by default, same as the homepage's "Best Of
+// Guides" section and the server-baked grid below.
+const postsByDate = [...BLOG_POSTS].sort((a, b) => b.date.localeCompare(a.date));
+
 function filteredPosts() {
   const q = searchEl.value.trim().toLowerCase();
-  return BLOG_POSTS.filter((p) => {
+  return postsByDate.filter((p) => {
     const matchesQuery = !q || [p.title, p.city, p.excerpt].filter(Boolean).join(" ").toLowerCase().includes(q);
     const matchesCity = !cityEl.value || p.city === cityEl.value;
     return matchesQuery && matchesCity;
