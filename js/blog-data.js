@@ -2769,4 +2769,338 @@ const BLOG_POSTS = [
       </ul>
     `,
   },
+  {
+    id: "best-tacos-nashville",
+    places: ["ladybird-taco-nashville"],
+    title: "Best Tacos in Nashville (2026 Updated Guide)",
+    city: "Nashville, TN",
+    date: "2026-08-13",
+    emoji: "🌮",
+    excerpt:
+      "From Maiz de la Vida's handmade tortillas to my own review of Ladybird Taco, the best tacos in Nashville for 2026 — spots worth knowing about as I work toward a personal ranking, with no paid placements.",
+    faq: [
+      {
+        question: "What are the best tacos in Nashville?",
+        answer:
+          "Nashville has several different styles of tacos worth trying. Maiz de la Vida is known for its focus on masa and handmade tortillas, while spots like Taqueria San Luis offer a more traditional street-taco experience. As I personally review more Nashville taco restaurants, I'll update this guide with my own Sam Scores and rankings.",
+      },
+      {
+        question: "Where can I find authentic Mexican tacos in Nashville?",
+        answer:
+          "South Nashville, particularly around the Nolensville Pike corridor, is one of the most interesting areas to explore for Mexican and Latin American food.",
+      },
+      {
+        question: "What are the best cheap tacos in Nashville?",
+        answer:
+          "Taqueria San Luis, Mas Tacos Por Favor, and other casual taquerias are good places to start if value is important.",
+      },
+      {
+        question: "Where can I get breakfast tacos in Nashville?",
+        answer:
+          "Tempo and Ladybird Taco are two Nashville options to consider for breakfast tacos. I've personally reviewed Ladybird Taco, so you can see exactly what I ordered and how I rated it.",
+      },
+      {
+        question: "Where can I get tacos and margaritas in Nashville?",
+        answer:
+          "Bakersfield and Superica offer more of a sit-down tacos-and-drinks experience than Nashville's traditional taquerias.",
+      },
+      {
+        question: "Are there good tacos near downtown Nashville?",
+        answer:
+          "Yes. There are taco and Tex-Mex options around downtown and nearby neighborhoods, although I'd recommend exploring beyond downtown if tacos are the main reason for your meal.",
+      },
+    ],
+    content: `
+      <p>Looking for the best tacos in Nashville? Nashville's taco scene has everything from authentic Mexican street tacos and birria to creative tacos, margaritas, and late-night spots.</p>
+      <p>Whether you're looking for a quick lunch, cheap tacos, a casual date-night spot, or somewhere to grab tacos and drinks with friends, these are some of the Nashville taco restaurants worth knowing about.</p>
+      <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food. As I personally try more Nashville taco spots, I'll update this guide with my Sam Scores, original photos, videos, exact orders, and firsthand rankings.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>Quick List: Best Tacos in Nashville</h2>
+      <ul>
+        <li><strong>1. <a href="https://www.maizdelavida.com/" target="_blank" rel="noopener">Maiz de la Vida</a></strong></li>
+        <li><strong>2. <a href="https://www.instagram.com/carniceriaytaqueriasanluis/" target="_blank" rel="noopener">Taqueria San Luis</a></strong></li>
+        <li><strong>3. <a href="https://mas-tacos-togo.square.site/" target="_blank" rel="noopener">Mas Tacos Por Favor</a></strong></li>
+        <li><strong>4. <a href="https://www.instagram.com/tacosymariscoslindomexico/" target="_blank" rel="noopener">Tacos y Mariscos Lindo México</a></strong></li>
+        <li><strong>5. <a href="https://www.instagram.com/tacosymariscoseltapatio/" target="_blank" rel="noopener">El Tapatio</a></strong></li>
+        <li><strong>6. <a href="https://www.temponashville.com/" target="_blank" rel="noopener">Tempo</a></strong></li>
+        <li><strong>7. <a href="/reviews/ladybird-taco-nashville.html">Ladybird Taco ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>8. <a href="https://redheadedstrangertacos.com/" target="_blank" rel="noopener">Redheaded Stranger</a></strong></li>
+        <li><strong>9. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
+        <li><strong>10. <a href="https://superica.com/nashville/" target="_blank" rel="noopener">Superica</a></strong></li>
+      </ul>
+      <p><em>Note: I'm still working my way through Nashville's taco scene. This list highlights spots worth knowing about and will evolve into my personal ranking as I review more of them.</em></p>
+
+      <h2>1. <a href="https://www.maizdelavida.com/" target="_blank" rel="noopener">Maiz de la Vida</a></h2>
+      <p><strong>Best For:</strong> Handmade Tortillas & Authentic Mexican Flavor</p>
+      <p>Maiz de la Vida has become one of Nashville's most talked-about destinations for Mexican food, with a focus on fresh masa and handmade tortillas.</p>
+      <p>Rather than treating the tortilla as an afterthought, it's a major part of the experience here.</p>
+      <p>If you're looking for tacos that focus heavily on traditional preparation and quality ingredients, Maiz de la Vida belongs on your list.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Birria</li>
+        <li>Carne Asada</li>
+        <li>Al Pastor</li>
+        <li>Handmade Corn Tortillas</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🌽 <strong>Handmade Tortilla Pick</strong> &nbsp; 🇲🇽 <strong>Authentic Mexican Pick</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Db5wEv0vO32/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>2. <a href="https://www.instagram.com/carniceriaytaqueriasanluis/" target="_blank" rel="noopener">Taqueria San Luis</a></h2>
+      <p><strong>Best For:</strong> Street Tacos</p>
+      <p>If you're searching for a more traditional taco experience without the upscale atmosphere, Taqueria San Luis is one to know.</p>
+      <p>It's the type of spot to visit when the food matters more than fancy presentation.</p>
+      <p>Grab a few different tacos so you can try multiple meats and figure out your favorite.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Carne Asada</li>
+        <li>Al Pastor</li>
+        <li>Lengua</li>
+        <li>Chicken</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>🌮 <strong>Street Taco Pick</strong> &nbsp; 💰 <strong>Great Value</strong></p>
+
+      <h2>3. <a href="https://mas-tacos-togo.square.site/" target="_blank" rel="noopener">Mas Tacos Por Favor</a></h2>
+      <p><strong>Best For:</strong> Nashville Taco Institution</p>
+      <p>Mas Tacos Por Favor has been part of Nashville's food scene for years and helped establish itself as one of the city's best-known casual taco destinations.</p>
+      <p>The East Nashville restaurant serves tacos alongside soups, sides, and other Mexican-inspired dishes.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Fried Avocado Taco</li>
+        <li>Chicken Taco</li>
+        <li>Carne Molida Taco</li>
+        <li>Chicken Tortilla Soup</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>🔥 <strong>Nashville Favorite</strong> &nbsp; 💰 <strong>Affordable Pick</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbyJRMAkZPk/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>4. <a href="https://www.instagram.com/tacosymariscoslindomexico/" target="_blank" rel="noopener">Tacos y Mariscos Lindo México</a></h2>
+      <p><strong>Best For:</strong> Tacos & Mexican Seafood</p>
+      <p>For those willing to explore beyond Nashville's trendier restaurant districts, Tacos y Mariscos Lindo México offers another side of the city's Mexican food scene.</p>
+      <p>The combination of tacos and seafood makes it especially interesting if you're looking for more variety than a standard taco menu.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Street Tacos</li>
+        <li>Carne Asada</li>
+        <li>Seafood</li>
+        <li>Mexican Specialties</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>💎 <strong>Hidden Gem Pick</strong></p>
+
+      <h2>5. <a href="https://www.instagram.com/tacosymariscoseltapatio/" target="_blank" rel="noopener">El Tapatio</a></h2>
+      <p><strong>Best For:</strong> No-Frills Mexican Food</p>
+      <p>El Tapatio is another Nashville option for straightforward Mexican food and tacos without the trendy restaurant atmosphere.</p>
+      <p>It's a good reminder that some of the city's most interesting food isn't necessarily located around Broadway, The Gulch, or 12 South.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Carne Asada Tacos</li>
+        <li>Al Pastor</li>
+        <li>Burritos</li>
+        <li>Mexican Plates</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>🌮 <strong>Casual Pick</strong> &nbsp; 💰 <strong>Good Value</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C6xse20OuVU/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>6. <a href="https://www.temponashville.com/" target="_blank" rel="noopener">Tempo</a></h2>
+      <p><strong>Best For:</strong> Breakfast Tacos</p>
+      <p>Not every taco needs to be lunch or dinner.</p>
+      <p>Tempo brings a Texas influence to Nashville and is particularly known for breakfast tacos, coffee, and a casual neighborhood atmosphere.</p>
+      <p>If you're looking for something different from Nashville's usual brunch restaurants, breakfast tacos are worth considering.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Breakfast Tacos</li>
+        <li>Bacon, Egg & Cheese</li>
+        <li>Chorizo</li>
+        <li>Coffee</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>🍳 <strong>Breakfast Taco Pick</strong> &nbsp; ☕ <strong>Coffee + Tacos</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dbs5L9KO1pK/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>7. <a href="/reviews/ladybird-taco-nashville.html">Ladybird Taco ⭐</a></h2>
+      <p><strong>Best For:</strong> Breakfast & Lunch Tacos</p>
+      <p>Ladybird Taco specializes in Texas-inspired breakfast and lunch tacos with freshly made tortillas.</p>
+      <p>It's particularly convenient when you want something quick in the morning or around lunchtime rather than a traditional sit-down Mexican restaurant.</p>
+      <p>I've personally reviewed Ladybird Taco for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ladybird-taco-nashville.html">Read my full Ladybird Taco review →</a></p>
+
+      <h2>8. <a href="https://redheadedstrangertacos.com/" target="_blank" rel="noopener">Redheaded Stranger</a></h2>
+      <p><strong>Best For:</strong> Creative Tacos</p>
+      <p>Redheaded Stranger brings a Southwestern/New Mexican influence to East Nashville.</p>
+      <p>This isn't necessarily where I'd send someone specifically looking for traditional Mexican street tacos. Instead, it's a good choice if you want something creative and different.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Creative Specialty Tacos</li>
+        <li>Hatch Green Chile</li>
+        <li>Queso</li>
+        <li>Southwestern-Inspired Dishes</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🔥 <strong>Creative Taco Pick</strong> &nbsp; 💎 <strong>Something Different</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db8cdT7gYrT/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>9. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
+      <p><strong>Best For:</strong> Tacos & Margaritas</p>
+      <p>Bakersfield is a good option when tacos are only one part of the night.</p>
+      <p>Its combination of tacos, tequila, margaritas, queso, and a lively atmosphere makes it particularly well suited to groups and casual nights out.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Tacos</li>
+        <li>Queso</li>
+        <li>Guacamole</li>
+        <li>Margaritas</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🍹 <strong>Tacos & Drinks Pick</strong> &nbsp; 🎉 <strong>Great for Groups</strong></p>
+
+      <h2>10. <a href="https://superica.com/nashville/" target="_blank" rel="noopener">Superica</a></h2>
+      <p><strong>Best For:</strong> Tex-Mex Experience</p>
+      <p>Superica brings a polished Tex-Mex experience with tacos, fajitas, queso, margaritas, and other classics.</p>
+      <p>It's a different experience from Nashville's smaller taquerias, but that can be exactly what you're looking for if you want a sit-down meal with drinks.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Tacos</li>
+        <li>Fajitas</li>
+        <li>Queso</li>
+        <li>Margaritas</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span>–<span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>🍹 <strong>Tex-Mex Pick</strong> &nbsp; ❤️ <strong>Casual Date Night</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db_ObewoE-1/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>Best Nashville Tacos by Category</h2>
+      <p><strong>🌮 Best for Street Tacos</strong></p>
+      <ul>
+        <li>Taqueria San Luis</li>
+        <li>El Tapatio</li>
+        <li>Tacos y Mariscos Lindo México</li>
+      </ul>
+      <p><strong>🇲🇽 Best for Authentic Mexican Flavor</strong></p>
+      <ul>
+        <li>Maiz de la Vida</li>
+        <li>Taqueria San Luis</li>
+        <li>Tacos y Mariscos Lindo México</li>
+      </ul>
+      <p><strong>🧀 Best for Birria</strong></p>
+      <ul>
+        <li>Maiz de la Vida</li>
+      </ul>
+      <p><strong>🍳 Best Breakfast Tacos</strong></p>
+      <ul>
+        <li>Tempo</li>
+        <li>Ladybird Taco ⭐</li>
+      </ul>
+      <p><strong>💰 Best Cheap Tacos</strong></p>
+      <ul>
+        <li>Taqueria San Luis</li>
+        <li>Mas Tacos Por Favor</li>
+        <li>El Tapatio</li>
+      </ul>
+      <p><strong>🍹 Best Tacos & Margaritas</strong></p>
+      <ul>
+        <li>Bakersfield</li>
+        <li>Superica</li>
+      </ul>
+      <p><strong>🔥 Best Creative Tacos</strong></p>
+      <ul>
+        <li>Redheaded Stranger</li>
+        <li>Mas Tacos Por Favor</li>
+      </ul>
+      <p><strong>👥 Best for Groups</strong></p>
+      <ul>
+        <li>Bakersfield</li>
+        <li>Superica</li>
+      </ul>
+
+      <h2>Where to Find Authentic Tacos in Nashville</h2>
+      <p>Some of Nashville's best Mexican food is found outside the neighborhoods tourists visit most often.</p>
+      <p>If authentic street-style tacos are your priority, don't limit your search to Broadway, The Gulch, or downtown Nashville.</p>
+      <p>Areas along Nolensville Pike and other parts of South Nashville are home to numerous Mexican and Latin American restaurants, markets, food trucks, and taquerias.</p>
+      <p>Exploring these neighborhoods can lead you to a completely different side of Nashville's food scene.</p>
+
+      <h2>What Makes a Great Taco?</h2>
+      <p>Tacos look simple, which makes the details even more important.</p>
+      <p>When I personally review Nashville taco spots, I'm looking at:</p>
+      <ul>
+        <li>🌮 Tortilla — Freshness, texture, flavor, and whether it holds together.</li>
+        <li>🥩 Meat/Filling — Seasoning, tenderness, portion, and preparation.</li>
+        <li>🌶️ Salsa — Flavor, heat, freshness, and how well it complements the taco.</li>
+        <li>🧅 Toppings — Freshness and whether they improve rather than overpower the filling.</li>
+        <li>💰 Value — Taco size, quality, and price.</li>
+        <li>⭐ Overall Experience — Would I actually come back and order it again?</li>
+      </ul>
+      <p>Restaurants I personally review receive a Sam Score out of 10.</p>
+
+      <h2>What Tacos Should You Order First?</h2>
+      <p>If you're visiting a taqueria for the first time, don't order four of the exact same taco.</p>
+      <p>Try several.</p>
+      <p>A good first order could be:</p>
+      <ul>
+        <li>🥩 Carne Asada</li>
+        <li>🐷 Al Pastor</li>
+        <li>🧀 Birria</li>
+        <li>🌮 House Specialty</li>
+      </ul>
+      <p>That lets you experience more of the menu and gives you a better idea of what the restaurant does best.</p>
+      <p>And don't ignore the salsa.</p>
+      <p>A great salsa can completely change a taco.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What are the best tacos in Nashville?</strong></p>
+      <p>Nashville has several different styles of tacos worth trying. Maiz de la Vida is known for its focus on masa and handmade tortillas, while spots like Taqueria San Luis offer a more traditional street-taco experience. As I personally review more Nashville taco restaurants, I'll update this guide with my own Sam Scores and rankings.</p>
+      <p><strong>Where can I find authentic Mexican tacos in Nashville?</strong></p>
+      <p>South Nashville, particularly around the Nolensville Pike corridor, is one of the most interesting areas to explore for Mexican and Latin American food.</p>
+      <p><strong>What are the best cheap tacos in Nashville?</strong></p>
+      <p>Taqueria San Luis, Mas Tacos Por Favor, and other casual taquerias are good places to start if value is important.</p>
+      <p><strong>Where can I get breakfast tacos in Nashville?</strong></p>
+      <p>Tempo and Ladybird Taco are two Nashville options to consider for breakfast tacos. I've personally reviewed Ladybird Taco, so you can see exactly what I ordered and how I rated it.</p>
+      <p><strong>Where can I get tacos and margaritas in Nashville?</strong></p>
+      <p>Bakersfield and Superica offer more of a sit-down tacos-and-drinks experience than Nashville's traditional taquerias.</p>
+      <p><strong>Are there good tacos near downtown Nashville?</strong></p>
+      <p>Yes. There are taco and Tex-Mex options around downtown and nearby neighborhoods, although I'd recommend exploring beyond downtown if tacos are the main reason for your meal.</p>
+
+      <h2>How I'm Finding Nashville's Best Taco</h2>
+      <p>This guide is going to change.</p>
+      <p>My goal isn't to permanently publish a list based on reputation. I want to personally work my way through Nashville's taco scene and find out which places are actually worth your money.</p>
+      <p>Every restaurant I visit can eventually receive:</p>
+      <ul>
+        <li>⭐ Sam Score</li>
+        <li>🌮 Individual Taco Ratings</li>
+        <li>📸 Original Photos</li>
+        <li>🎥 Video Review</li>
+        <li>💬 Sam Says</li>
+        <li>💰 Price/Value Assessment</li>
+        <li>🔁 Would I Go Back?</li>
+      </ul>
+      <p>As I collect enough firsthand reviews, this page will transition from 10 Nashville taco spots worth knowing into my actual ranking of the best tacos in Nashville.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Nashville's taco scene goes far beyond one style of taco.</p>
+      <p>You can find traditional street tacos, handmade tortillas, birria, breakfast tacos, creative Southwestern options, and full Tex-Mex restaurants throughout the city.</p>
+      <p>The best choice depends on what you're looking for.</p>
+      <p>And as I personally try more of them, the rankings will change based on my actual experiences, not who's paying to be included.</p>
+      <p><em>Last Updated: August 2026</em></p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-bbq-nashville/">Best BBQ in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-steakhouses-nashville/">Best Steakhouses in Nashville</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
+        <li><a href="/guides/best-restaurants-near-bridgestone-arena-nashville/">Best Restaurants Near Bridgestone Arena</a></li>
+      </ul>
+    `,
+  },
 ];
