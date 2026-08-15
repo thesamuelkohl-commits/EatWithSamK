@@ -1254,6 +1254,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-cheap-eats-nashville",
+    places: ["hugh-babys-nashville"],
     title: "Best Cheap Eats in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-04",
@@ -1296,7 +1297,7 @@ const BLOG_POSTS = [
         <li><strong>1. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></strong></li>
         <li><strong>2. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></strong></li>
         <li><strong>3. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></strong></li>
-        <li><strong>4. <a href="https://www.hughbabys.com/" target="_blank" rel="noopener">Hugh-Baby's</a></strong></li>
+        <li><strong>4. <a href="/reviews/hugh-babys-nashville.html">Hugh-Baby's ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>5. <a href="https://redshotchicken.com/" target="_blank" rel="noopener">Red's Hot Chicken</a></strong></li>
         <li><strong>6. <a href="https://fatmosburgers.com/" target="_blank" rel="noopener">Fat Mo's</a></strong></li>
         <li><strong>7. <a href="https://oscarstacoshop.com/" target="_blank" rel="noopener">Oscar's Taco Shop</a></strong></li>
@@ -1341,17 +1342,12 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BZ4dLAvDftD/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>4. <a href="https://www.hughbabys.com/" target="_blank" rel="noopener">Hugh-Baby's</a></h2>
+      <h2>4. <a href="/reviews/hugh-babys-nashville.html">Hugh-Baby's ⭐</a></h2>
       <p><strong>Best For:</strong> Burgers, BBQ & Milkshakes</p>
       <p>Hugh-Baby's has quietly become one of Nashville's favorite casual restaurants. Between the burgers, pulled pork, and shakes, it's one of the best food values in town.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Cheeseburger</li>
-        <li>BBQ Sandwich</li>
-        <li>Chocolate Shake</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DJxLZ0IhlIo/" data-instgrm-version="14"></blockquote></div>
+      <p>I've personally reviewed Hugh-Baby's for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/hugh-babys-nashville.html">Read my full Hugh-Baby's review →</a></p>
 
       <h2>5. <a href="https://redshotchicken.com/" target="_blank" rel="noopener">Red's Hot Chicken</a></h2>
       <p><strong>Best For:</strong> Hot Chicken Sandwiches</p>
@@ -2136,7 +2132,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-burgers-nashville",
-    places: ["nadc-burger-nashville", "baam-burger-nashville"],
+    places: ["nadc-burger-nashville", "baam-burger-nashville", "hugh-babys-nashville"],
     title: "Best Burgers in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-25",
@@ -2177,11 +2173,11 @@ const BLOG_POSTS = [
         <li><strong>2. <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></strong></li>
         <li><strong>3. <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></strong></li>
         <li><strong>4. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></strong></li>
-        <li><strong>5. <a href="https://www.hughbabys.com/" target="_blank" rel="noopener">Hugh-Baby's BBQ & Burger Shop</a></strong></li>
-        <li><strong>6. <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></strong></li>
-        <li><strong>7. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></strong></li>
-        <li><strong>8. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></strong></li>
-        <li><strong>9. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></strong></li>
+        <li><strong>5. <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></strong></li>
+        <li><strong>6. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></strong></li>
+        <li><strong>7. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></strong></li>
+        <li><strong>8. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></strong></li>
+        <li><strong>9. <a href="/reviews/hugh-babys-nashville.html">Hugh-Baby's</a></strong> (full review)</li>
         <li><strong>10. <a href="/reviews/baam-burger-nashville.html">Baam Burger</a></strong> (full review)</li>
         <li><strong>11. <a href="/reviews/nadc-burger-nashville.html">NADC Burger</a></strong> (full review)</li>
       </ul>
@@ -2231,26 +2227,21 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDhpG9gOeVA/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>5. <a href="https://www.hughbabys.com/" target="_blank" rel="noopener">Hugh-Baby's BBQ & Burger Shop</a></h2>
-      <p>Founded by Nashville pitmaster Pat Martin (of Martin's Bar-B-Que Joint), Hugh-Baby's serves one of the city's best old-school cheeseburgers at an affordable price.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DJxLZ0IhlIo/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>6. <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></h2>
+      <h2>5. <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></h2>
       <p>Gabby's is one of Nashville's original burger legends. Fresh beef, hand-cut fries, and consistently excellent service keep locals coming back.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>7. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></h2>
+      <h2>6. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></h2>
       <p>If you're looking for a quality burger that won't break the bank, Grillshack delivers one of the best values in Nashville, fresh ingredients, quick service, and no downtown crowds.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CTIJABarj1h/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>8. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></h2>
+      <h2>7. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></h2>
       <p>Part butcher shop, part restaurant, Bare Bones serves premium burgers using high-quality beef prepared in-house.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbLpXewHLSJ/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>9. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h2>
+      <h2>8. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h2>
       <p>Open since 1971 in East Nashville and reportedly the city's oldest bar, Dino's serves a thick, charred, cheese-dripping bar cheeseburger so good Bon Appétit once named it one of the three best burgers in the country. No frills, ice-cold beer, and a legendary dive-bar atmosphere.</p>
       <p><strong>Popular Picks:</strong></p>
       <ul>
@@ -2259,6 +2250,18 @@ const BLOG_POSTS = [
       </ul>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>9. <a href="/reviews/hugh-babys-nashville.html">Hugh-Baby's</a></h2>
+      <p><strong>Best For:</strong> Old-School Cheeseburgers</p>
+      <p>Founded by Nashville pitmaster Pat Martin (of Martin's Bar-B-Que Joint), Hugh-Baby's serves one of the city's best old-school cheeseburgers, on Charlotte Avenue with a drive-through and a patio. <a href="/reviews/hugh-babys-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Double Cheeseburger</li>
+        <li>Fries</li>
+        <li>Vanilla Milkshake</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DcCTuuWM3L0/" data-instgrm-version="14"></blockquote></div>
 
       <h2>10. <a href="/reviews/baam-burger-nashville.html">Baam Burger</a></h2>
       <p><strong>Best For:</strong> Late-Night Smash Burgers Near Broadway</p>

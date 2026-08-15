@@ -57,6 +57,35 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "hugh-babys-nashville",
+    name: "Hugh-Baby's",
+    city: "Nashville, TN",
+    lat: 36.1521763,
+    lng: -86.8450429,
+    address: "4816 Charlotte Ave, Nashville, TN 37209",
+    phone: "(615) 610-3340",
+    parking: "Free parking",
+    website: "https://www.hughbabys.com/charlotte",
+    date: "2026-08-11",
+    price: "$$",
+    cuisine: "Burgers & BBQ",
+    badges: ["quick-bite", "family-friendly", "best-patio", "easy-parking"],
+    about: "Hugh-Baby's BBQ & Burger Shop is a Pat Martin concept on Charlotte Avenue in Nashville, the original location, serving old-school smashed cheeseburgers, BBQ, hot dogs, and hand-spun shakes with a drive-through and a patio out front.",
+    ate: "A double cheeseburger, no pickle, add bacon, with fries and a vanilla milkshake.",
+    heroPhoto: "images/reviews/hugh-babys-nashville/order.jpg",
+    photos: [
+      { src: "images/reviews/hugh-babys-nashville/storefront.jpg", alt: "Hugh-Baby's storefront sign and patio, Charlotte Ave, Nashville" },
+      { src: "images/reviews/hugh-babys-nashville/interior.jpg", alt: "Inside Hugh-Baby's, counter and menu boards" },
+      { src: "images/reviews/hugh-babys-nashville/order-spread.jpg", alt: "Sam's order: double cheeseburger and fries, Hugh-Baby's" },
+      { src: "images/reviews/hugh-babys-nashville/order.jpg", alt: "Close-up of the double cheeseburger, no pickle, add bacon, Hugh-Baby's" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Great patio", "Quick", "Drive through", "Free parking", "Great for families"],
+    rating: 8.5,
+    video: "https://www.instagram.com/reel/DcCTuuWM3L0/",
+    tags: ["Burgers", "BBQ", "Charlotte Ave"],
+  },
+  {
     id: "the-philly-special-nashville",
     name: "The Philly Special",
     city: "Nashville, TN",
