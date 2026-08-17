@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T15:16:07.790Z",
+  "generatedAt": "2026-08-17T15:20:24.245Z",
   "places": [
     {
       "id": "ocean-prime-nashville",
@@ -16,7 +16,8 @@
       "cuisine": "Steakhouse & Seafood",
       "badges": [
         "date-night",
-        "best-drinks"
+        "best-drinks",
+        "best-patio"
       ],
       "about": "Ocean Prime is an upscale steakhouse and seafood restaurant near Broadway in downtown Nashville, part of a national fine-dining group, serving prime steaks, fresh seafood, and craft cocktails in a polished, modern dining room.",
       "ate": "Jumbo Lump Crab Cake, Ahi Tuna Tartare, Sea Scallops, a 10oz Filet Mignon cooked medium rare with black garlic butter, and a side of black truffle mac and cheese.",
