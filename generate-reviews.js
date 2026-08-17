@@ -17,7 +17,10 @@
      - sitemap.xml
      - robots.txt
      - _redirects             (Netlify-format 301s from the old
-       /post.html?id=<id> URLs to their new /guides/<id>/ home)
+       /post.html?id=<id> URLs to their new /guides/<id>/ home —
+       kept for portability, but NOT what the live site reads)
+     - vercel.json             (same redirects, in the format Vercel
+       actually honors — the site is hosted there, see README)
 
    You never edit the files in reviews/ or guides/ by hand —
    they're regenerated from js/data.js and js/blog-data.js every
@@ -655,6 +658,22 @@ function renderRedirects() {
   return lines.join("\n") + "\n";
 }
 
+// The site is actually hosted on Vercel (see README's "Publishing" section —
+// that's now stale), which does NOT read the Netlify-format _redirects file
+// above. Without this, /post.html?id=<x> serves 200 with only a client-side
+// JS redirect, which Google Search Console flags as "Page with redirect" and
+// won't index — and worse, isn't a real 301 for anyone/anything that can't
+// run JS. vercel.json's redirects array is what Vercel actually honors.
+function renderVercelConfig() {
+  const redirects = BLOG_POSTS.map((post) => ({
+    source: "/post.html",
+    has: [{ type: "query", key: "id", value: post.id }],
+    destination: `/guides/${post.id}/`,
+    permanent: true,
+  }));
+  return JSON.stringify({ redirects }, null, 2) + "\n";
+}
+
 // ---------- Portable data export ----------
 // A clean, comment-free JSON mirror of js/data.js — the same restaurant/
 // review database, reshaped so it's fetchable by anything (a future API
@@ -849,6 +868,9 @@ console.log("wrote robots.txt");
 
 fs.writeFileSync(path.join(__dirname, "_redirects"), renderRedirects());
 console.log("wrote _redirects");
+
+fs.writeFileSync(path.join(__dirname, "vercel.json"), renderVercelConfig());
+console.log("wrote vercel.json");
 
 writeDataExport();
 

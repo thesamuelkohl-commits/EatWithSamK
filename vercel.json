@@ -1,0 +1,160 @@
+{
+  "redirects": [
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-restaurants-near-bridgestone-arena-nashville"
+        }
+      ],
+      "destination": "/guides/best-restaurants-near-bridgestone-arena-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-steakhouses-nashville"
+        }
+      ],
+      "destination": "/guides/best-steakhouses-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-restaurants-near-broadway-nashville"
+        }
+      ],
+      "destination": "/guides/best-restaurants-near-broadway-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-coffee-shops-nashville"
+        }
+      ],
+      "destination": "/guides/best-coffee-shops-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-credit-cards-for-dining"
+        }
+      ],
+      "destination": "/guides/best-credit-cards-for-dining/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-cheap-eats-nashville"
+        }
+      ],
+      "destination": "/guides/best-cheap-eats-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-brunch-nashville"
+        }
+      ],
+      "destination": "/guides/best-brunch-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-hot-chicken-nashville"
+        }
+      ],
+      "destination": "/guides/best-hot-chicken-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-pizza-nashville"
+        }
+      ],
+      "destination": "/guides/best-pizza-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-burgers-nashville"
+        }
+      ],
+      "destination": "/guides/best-burgers-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-date-night-restaurants-nashville"
+        }
+      ],
+      "destination": "/guides/best-date-night-restaurants-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-bbq-nashville"
+        }
+      ],
+      "destination": "/guides/best-bbq-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-tacos-nashville"
+        }
+      ],
+      "destination": "/guides/best-tacos-nashville/",
+      "permanent": true
+    }
+  ]
+}

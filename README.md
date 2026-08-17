@@ -237,10 +237,10 @@ python3 -m http.server 8000
 
 Then visit http://localhost:8000.
 
-## Publishing (free options)
+## Publishing
 
-- **Netlify Drop** — drag the whole folder onto https://app.netlify.com/drop. Done. Netlify reads the generated `_redirects` file automatically, so old `post.html?id=...` links get a real, permanent 301 to their new `guides/<id>/` page.
-- **GitHub Pages** — push this folder to a repo, enable Pages in settings. **Caveat:** plain GitHub Pages has no server-side redirect support at all — it can't read `_redirects`. Old `post.html?id=...` links will still work (the page does a same-origin JavaScript redirect and is marked `noindex`), but it won't be a true 301, so if a real permanent redirect matters to you specifically, Netlify (or another host that supports redirect rules, like Cloudflare Pages or Vercel) is the one to pick.
-- Works with any custom domain (e.g. eatwithsamk.com) via either host.
+The live site (eatwithsamk.com) is hosted on **Vercel**, auto-deploying from the GitHub repo `thesamuelkohl-commits/EatWithSamK` on every push to `main` — just `git push origin main` from this folder once you've run the generator.
 
-It's all static files — no server, no framework. The one exception is `generate-reviews.js`, a small Node script that builds the `reviews/` and `guides/` pages from `js/data.js` and `js/blog-data.js` (see above); run it once before each deploy so the live site includes your latest reviews and guides.
+Old `post.html?id=...` links get a real, permanent redirect to their new `guides/<id>/` page via `vercel.json`'s `redirects` array (regenerated automatically by `generate-reviews.js`, one rule per guide). A Netlify-format `_redirects` file is also generated for portability, but Vercel doesn't read it — `vercel.json` is what actually takes effect on the live site.
+
+It's all static files — no server, no framework. The one exception is `generate-reviews.js`, a small Node script that builds the `reviews/` and `guides/` pages from `js/data.js` and `js/blog-data.js` (see above); run it once before each push so the live site includes your latest reviews and guides.
