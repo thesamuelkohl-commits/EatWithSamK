@@ -155,6 +155,18 @@
       ],
       "destination": "/guides/best-tacos-nashville/",
       "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
+          "value": "best-restaurants-near-nissan-stadium-nashville"
+        }
+      ],
+      "destination": "/guides/best-restaurants-near-nissan-stadium-nashville/",
+      "permanent": true
     }
   ]
 }

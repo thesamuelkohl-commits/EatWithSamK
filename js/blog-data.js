@@ -3141,4 +3141,328 @@ const BLOG_POSTS = [
       </ul>
     `,
   },
+  {
+    id: "best-restaurants-near-nissan-stadium-nashville",
+    places: ["ocean-prime-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "prince-street-pizza-nashville"],
+    title: "Best Restaurants Near Nissan Stadium in Nashville (2026 Guide)",
+    city: "Nashville, TN",
+    date: "2026-08-17",
+    emoji: "🏈",
+    excerpt:
+      "From Butchertown Hall's smoked meats to my own reviews of Ocean Prime, NADC Burger, and Prince St. Pizza, the best restaurants near Nissan Stadium for 2026, ranked with no paid placements.",
+    faq: [
+      {
+        question: "What are the best restaurants near Nissan Stadium?",
+        answer:
+          "There are plenty of options around downtown, Germantown, and East Nashville. Ocean Prime is my top personal pick for a proper pregame meal, and the best restaurant beyond that depends on whether you're looking for BBQ, burgers, pizza, drinks, or a quick meal before an event.",
+      },
+      {
+        question: "Where should I eat before a Tennessee Titans game?",
+        answer:
+          "Ocean Prime is my top choice for a sit-down pregame meal. For BBQ, consider Martin's or Edley's. For burgers, The Pharmacy and Jack Brown's are options. For groups that want different foods, Assembly Food Hall can make things easier.",
+      },
+      {
+        question: "What restaurants are near Nissan Stadium and Broadway?",
+        answer:
+          "Because Nissan Stadium sits across the river from downtown Nashville, many downtown restaurants can work for game day if you're comfortable walking toward the stadium afterward.",
+      },
+      {
+        question: "Where can I get BBQ near Nissan Stadium?",
+        answer:
+          "Martin's Bar-B-Que Joint and Edley's are two recognizable Nashville BBQ options, while Butchertown Hall offers another meat-focused option.",
+      },
+      {
+        question: "Where can I get burgers near Nissan Stadium?",
+        answer:
+          "The Pharmacy and Jack Brown's are solid options, and I've personally reviewed NADC Burger downtown in The Arcade if you want to see exactly what I ordered and how I rated it.",
+      },
+      {
+        question: "Should I make a restaurant reservation before a Titans game?",
+        answer:
+          "If the restaurant accepts reservations, I'd strongly consider it. Downtown and surrounding neighborhoods can become extremely busy before major Nissan Stadium events.",
+      },
+    ],
+    content: `
+      <p>Heading to a Tennessee Titans game, concert, or event at Nissan Stadium? Finding somewhere to eat beforehand can make a huge difference, especially when downtown Nashville gets packed on game days.</p>
+      <p>Nissan Stadium sits directly across the Cumberland River from downtown Nashville, giving you access to restaurants on both the stadium side of the river and across the pedestrian bridge around Broadway and downtown.</p>
+      <p>Whether you want Nashville hot chicken, BBQ, burgers, pizza, or somewhere to grab a drink before kickoff, here are some of the best restaurants near Nissan Stadium in Nashville to know about.</p>
+      <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food. As I personally visit more restaurants around Nissan Stadium, I'll continue updating this guide with Sam Scores, original photos, videos, and firsthand recommendations.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>Quick List: Restaurants Near Nissan Stadium</h2>
+      <ul>
+        <li><strong>1. <a href="/reviews/ocean-prime-nashville.html">Ocean Prime ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>2. <a href="https://www.butchertownhall.com/" target="_blank" rel="noopener">Butchertown Hall</a></strong></li>
+        <li><strong>3. <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">Edley's Bar-B-Que</a></strong></li>
+        <li><strong>4. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">The Pharmacy Burger Parlor & Beer Garden</a></strong></li>
+        <li><strong>5. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></strong></li>
+        <li><strong>6. <a href="https://eathawkers.com/locations/nashville/" target="_blank" rel="noopener">Hawkers Asian Street Food</a></strong></li>
+        <li><strong>7. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
+        <li><strong>8. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></strong></li>
+        <li><strong>9. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></strong></li>
+        <li><strong>10. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>11. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>12. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
+      </ul>
+
+      <h2>1. <a href="/reviews/ocean-prime-nashville.html">Ocean Prime ⭐</a></h2>
+      <p><strong>Best For:</strong> Upscale Pregame Dinner</p>
+      <p>Ocean Prime is my top pick near Nissan Stadium, a polished steakhouse and seafood restaurant just across the river near Broadway, with a lively bar scene and a menu that swings from crab cakes and ahi tuna tartare to prime steaks. <a href="/reviews/ocean-prime-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville.html">Read my full Ocean Prime review →</a></p>
+
+      <h2>2. <a href="https://www.butchertownhall.com/" target="_blank" rel="noopener">Butchertown Hall</a></h2>
+      <p><strong>Best For:</strong> BBQ, Meat & Groups</p>
+      <p>Located in Germantown, Butchertown Hall is a strong option if you want a proper sit-down meal before heading toward Nissan Stadium.</p>
+      <p>The menu focuses heavily on smoked meats, Tex-Mex influences, burgers, and other hearty options that work particularly well before a football game.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Smoked Meats</li>
+        <li>Tex-Mex Plates</li>
+        <li>Burgers</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span>–<span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>🥩 <strong>Meat & BBQ</strong> &nbsp; 🏈 <strong>Pregame Meal</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DFN0gZLOdx7/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>3. <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">Edley's Bar-B-Que</a></h2>
+      <p><strong>Best For:</strong> Nashville BBQ</p>
+      <p>If you're coming to Nashville for a Titans game and want barbecue as part of the experience, Edley's is one of the city's best-known local BBQ names.</p>
+      <p>Expect smoked meats, wings, sandwiches, and Southern sides.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Ribs</li>
+        <li>Pulled Pork</li>
+        <li>Brisket</li>
+        <li>Smoked Wings</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🔥 <strong>Nashville BBQ Pick</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C7HhwLtO3PP/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>4. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">The Pharmacy Burger Parlor & Beer Garden</a></h2>
+      <p><strong>Best For:</strong> Burgers & Beer</p>
+      <p>The Pharmacy is an East Nashville favorite known for burgers, beer, and its outdoor beer garden.</p>
+      <p>It's particularly appealing for a casual game-day meal when you're looking for something substantial before heading toward the stadium.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Burgers</li>
+        <li>Beer</li>
+        <li>Fries</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🍔 <strong>Burger Pick</strong> &nbsp; 🍺 <strong>Pregame Pick</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDhpG9gOeVA/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>5. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h2>
+      <p><strong>Best For:</strong> Pizza in East Nashville</p>
+      <p>Sometimes pizza is exactly what you want before football.</p>
+      <p>Five Points Pizza is one of East Nashville's better-known pizza destinations and works particularly well if you want something casual before heading toward Nissan Stadium.</p>
+      <p>Grab a few slices or split a pizza with your group.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🍕 <strong>Pizza Pick</strong> &nbsp; 👥 <strong>Good for Groups</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTPJFpFsAU/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>6. <a href="https://eathawkers.com/locations/nashville/" target="_blank" rel="noopener">Hawkers Asian Street Food</a></h2>
+      <p><strong>Best For:</strong> Something Different</p>
+      <p>If everyone else is recommending burgers, BBQ, and hot chicken, Hawkers gives you something completely different.</p>
+      <p>The menu takes inspiration from Asian street-food dishes and is especially useful for groups that want to share several things.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🥟 <strong>Something Different</strong> &nbsp; 👥 <strong>Great for Sharing</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DHWjEYQRWL1/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>7. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
+      <p><strong>Best For:</strong> BBQ Near Downtown</p>
+      <p>Martin's downtown location is convenient if you're starting your day around Broadway before walking toward Nissan Stadium.</p>
+      <p>Martin's specializes in West Tennessee-style whole-hog barbecue and is one of Nashville's most recognizable BBQ restaurants.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Whole Hog BBQ</li>
+        <li>Ribs</li>
+        <li>Brisket</li>
+        <li>Redneck Taco</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🔥 <strong>Nashville BBQ</strong> &nbsp; 🎸 <strong>Good for Visitors</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbF85digGm/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>8. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
+      <p><strong>Best For:</strong> Burgers Before the Game</p>
+      <p>Jack Brown's is a casual burger-and-beer spot downtown.</p>
+      <p>If you want to spend some time downtown before walking over to Nissan Stadium, it's a straightforward option that doesn't require turning your pregame meal into a huge dinner.</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🍔 <strong>Burger Pick</strong> &nbsp; 🍺 <strong>Beer Pick</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DaqKhWJoWjl/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>9. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h2>
+      <p><strong>Best For:</strong> Groups That Can't Decide</p>
+      <p>Assembly Food Hall is one of the easiest recommendations when everyone wants something different.</p>
+      <p>Instead of choosing one restaurant, your group can pick from multiple food concepts in the same building.</p>
+      <p>It's also located at Fifth + Broadway, making it easy to combine food with time downtown before heading across the river.</p>
+      <p><strong>Good For:</strong></p>
+      <ul>
+        <li>Families</li>
+        <li>Large Groups</li>
+        <li>Quick Meals</li>
+        <li>Variety</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>👥 <strong>Best for Groups</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZYBG08kXI3/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>10. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
+      <p><strong>Best For:</strong> Wagyu Smash Burgers Downtown</p>
+      <p>NADC Burger is another downtown option I've personally reviewed, tucked inside The Arcade. If you want a smash burger before or after your event, it's worth considering, especially if you're looking for something casual rather than a traditional sit-down dinner. <a href="/reviews/nadc-burger-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville.html">Read my full NADC Burger review →</a></p>
+
+      <h2>11. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></h2>
+      <p><strong>Best For:</strong> Philly Cheesesteaks Downtown</p>
+      <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall at Fifth + Broadway, an easy addition if you're already eating there before the game. <a href="/reviews/the-philly-special-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/the-philly-special-nashville.html">Read my full Philly Special review →</a></p>
+
+      <h2>12. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
+      <p><strong>Best For:</strong> Quick Downtown Pizza</p>
+      <p>If you don't want a massive meal before the game, grabbing pizza downtown can be one of the easiest options.</p>
+      <p>I've personally reviewed Prince Street Pizza for Eat With Sam K, so this is one where you can see exactly what I ordered and how I rated it. <a href="/reviews/prince-street-pizza-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/prince-street-pizza-nashville.html">Read my full Prince St. Pizza review →</a></p>
+      <p>🍕 <strong>Quick Pizza Pick</strong></p>
+
+      <h2>🏈 Best Places to Eat Before a Titans Game</h2>
+      <p><strong>❤️ Upscale Pregame</strong></p>
+      <ul>
+        <li>Ocean Prime ⭐</li>
+      </ul>
+      <p><strong>🍔 Burgers</strong></p>
+      <ul>
+        <li>The Pharmacy</li>
+        <li>Jack Brown's</li>
+        <li>NADC Burger ⭐</li>
+      </ul>
+      <p><strong>🍖 BBQ</strong></p>
+      <ul>
+        <li>Edley's</li>
+        <li>Martin's</li>
+        <li>Butchertown Hall</li>
+      </ul>
+      <p><strong>🍕 Pizza</strong></p>
+      <ul>
+        <li>Five Points Pizza</li>
+        <li>Prince St. Pizza ⭐</li>
+      </ul>
+      <p><strong>👥 Groups</strong></p>
+      <ul>
+        <li>Assembly Food Hall</li>
+        <li>Butchertown Hall</li>
+        <li>Hawkers</li>
+      </ul>
+      <p><strong>⚡ Quick Meal</strong></p>
+      <ul>
+        <li>Prince St. Pizza ⭐</li>
+        <li>The Philly Special ⭐</li>
+        <li>Assembly Food Hall</li>
+      </ul>
+
+      <h2>Where Should You Eat Before a Titans Game?</h2>
+      <p>The biggest decision is whether you want to eat on the downtown side or East Nashville side of the river.</p>
+      <p>If you're already spending the morning around Broadway, staying downtown makes sense. You can eat at somewhere like:</p>
+      <ul>
+        <li>❤️ Ocean Prime ⭐</li>
+        <li>🍖 Martin's</li>
+        <li>🍔 Jack Brown's</li>
+        <li>🍕 Prince St. Pizza ⭐</li>
+        <li>🍴 Assembly Food Hall</li>
+      </ul>
+      <p>Then make your way toward Nissan Stadium.</p>
+      <p>If you're approaching from East Nashville, restaurants like The Pharmacy, Five Points Pizza, and other East Nashville spots give you plenty of options without needing to start downtown.</p>
+
+      <h2>🍺 Where to Pregame Before a Titans Game</h2>
+      <p>If you're looking for food and drinks, prioritize somewhere where you won't feel rushed.</p>
+      <p>Burger restaurants, BBQ joints, food halls, and East Nashville restaurants can all work well depending on where you're coming from.</p>
+      <p>My biggest recommendation:</p>
+      <p>Don't cut it close.</p>
+      <p>Nashville traffic and crowds can get significantly heavier around major Nissan Stadium events.</p>
+      <p>I'd rather finish eating early and have extra time around the stadium than spend the final 20 minutes of lunch watching the clock.</p>
+
+      <h2>🚶 Can You Walk From Broadway to Nissan Stadium?</h2>
+      <p>Yes.</p>
+      <p>Downtown Nashville and Nissan Stadium are connected across the Cumberland River, making downtown restaurants viable options before Titans games and other stadium events.</p>
+      <p>That means you don't necessarily need to find a restaurant immediately beside the stadium.</p>
+      <p>You can eat downtown and then head toward Nissan Stadium afterward.</p>
+
+      <h2>⏰ How Early Should You Eat Before a Titans Game?</h2>
+      <p>For a noon Titans kickoff, I'd consider making your meal part of the morning rather than trying to eat immediately before the game.</p>
+      <p>For later games, give yourself plenty of time for a sit-down meal.</p>
+      <p>Restaurants can become significantly busier on NFL Sundays, particularly when thousands of fans are arriving downtown at the same time.</p>
+      <p>If the restaurant accepts reservations, make one.</p>
+
+      <h2>🏈 Tennessee Titans 2026 Home Games</h2>
+      <p>The Titans have multiple home games at Nissan Stadium this season, meaning this guide should remain useful throughout the fall and into January.</p>
+      <p>The 2026 regular-season home schedule includes:</p>
+      <ul>
+        <li>September 13 — New York Jets</li>
+        <li>September 20 — Philadelphia Eagles</li>
+        <li>October 11 — Houston Texans</li>
+        <li>October 25 — Cleveland Browns</li>
+        <li>November 15 — Jacksonville Jaguars</li>
+        <li>December 6 — Washington Commanders</li>
+        <li>December 20 — Indianapolis Colts</li>
+        <li>January 3 — Pittsburgh Steelers</li>
+      </ul>
+      <p>Game times can change, so always check the Titans' official schedule before making game-day plans.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What are the best restaurants near Nissan Stadium?</strong></p>
+      <p>There are plenty of options around downtown, Germantown, and East Nashville. Ocean Prime is my top personal pick for a proper pregame meal, and the best restaurant beyond that depends on whether you're looking for BBQ, burgers, pizza, drinks, or a quick meal before an event.</p>
+      <p><strong>Where should I eat before a Tennessee Titans game?</strong></p>
+      <p>Ocean Prime is my top choice for a sit-down pregame meal. For BBQ, consider Martin's or Edley's. For burgers, The Pharmacy and Jack Brown's are options. For groups that want different foods, Assembly Food Hall can make things easier.</p>
+      <p><strong>What restaurants are near Nissan Stadium and Broadway?</strong></p>
+      <p>Because Nissan Stadium sits across the river from downtown Nashville, many downtown restaurants can work for game day if you're comfortable walking toward the stadium afterward.</p>
+      <p><strong>Where can I get BBQ near Nissan Stadium?</strong></p>
+      <p>Martin's Bar-B-Que Joint and Edley's are two recognizable Nashville BBQ options, while Butchertown Hall offers another meat-focused option.</p>
+      <p><strong>Where can I get burgers near Nissan Stadium?</strong></p>
+      <p>The Pharmacy and Jack Brown's are solid options, and I've personally reviewed NADC Burger downtown in The Arcade if you want to see exactly what I ordered and how I rated it.</p>
+      <p><strong>Should I make a restaurant reservation before a Titans game?</strong></p>
+      <p>If the restaurant accepts reservations, I'd strongly consider it. Downtown and surrounding neighborhoods can become extremely busy before major Nissan Stadium events.</p>
+
+      <h2>How I'm Building This Guide</h2>
+      <p>My goal is for this page to eventually become more than a list of restaurants that happen to be close to Nissan Stadium.</p>
+      <p>As I personally visit these places, I'll add:</p>
+      <ul>
+        <li>⭐ Sam Scores</li>
+        <li>📸 Original Photos</li>
+        <li>🎥 Video Reviews</li>
+        <li>🍽️ Exactly What I Ordered</li>
+        <li>💰 Value Ratings</li>
+        <li>💬 Sam Says</li>
+        <li>➡️ Links to My Full Reviews</li>
+      </ul>
+      <p>Eventually, you'll be able to see exactly which restaurants I'd personally choose before a Titans game.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>One advantage of Nissan Stadium's location is that you don't have to settle for stadium food just because you're going to a game.</p>
+      <p>You've got restaurants throughout downtown, East Nashville, Germantown, and the surrounding area.</p>
+      <p>For a first-time Nashville visitor, I'd consider making the entire experience part of game day: eat, pregame, head to Nissan Stadium, Titans.</p>
+      <p>Just make sure you give yourself plenty of time.</p>
+      <p>Nobody wants to miss kickoff because they were waiting on a burger.</p>
+      <p><em>Last Updated: August 2026</em></p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="/guides/best-restaurants-near-bridgestone-arena-nashville/">Best Restaurants Near Bridgestone Arena</a></li>
+        <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-bbq-nashville/">Best BBQ in Nashville</a></li>
+        <li><a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+      </ul>
+    `,
+  },
 ];
