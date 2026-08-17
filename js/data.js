@@ -57,6 +57,37 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "ocean-prime-nashville",
+    name: "Ocean Prime",
+    city: "Nashville, TN",
+    lat: 36.159286,
+    lng: -86.7856423,
+    address: "990 Signal Crossing, Nashville, TN 37203",
+    phone: "(629) 235-7555",
+    parking: "Paid parking",
+    website: "https://ocean-prime.com/locations-menus/nashville/",
+    date: "2026-08-12",
+    price: "$$$$",
+    cuisine: "Steakhouse & Seafood",
+    badges: ["date-night", "best-drinks"],
+    about: "Ocean Prime is an upscale steakhouse and seafood restaurant near Broadway in downtown Nashville, part of a national fine-dining group, serving prime steaks, fresh seafood, and craft cocktails in a polished, modern dining room.",
+    ate: "Jumbo Lump Crab Cake, Ahi Tuna Tartare, Sea Scallops, a 10oz Filet Mignon cooked medium rare with black garlic butter, and a side of black truffle mac and cheese.",
+    heroPhoto: "images/reviews/ocean-prime-nashville/order.jpg",
+    photos: [
+      { src: "images/reviews/ocean-prime-nashville/storefront.jpg", alt: "Ocean Prime entrance and patio, Nashville" },
+      { src: "images/reviews/ocean-prime-nashville/interior.jpg", alt: "Inside Ocean Prime, Nashville" },
+      { src: "images/reviews/ocean-prime-nashville/order.jpg", alt: "Ahi Tuna Tartare, Ocean Prime" },
+      { src: "images/reviews/ocean-prime-nashville/order-crabcake.jpg", alt: "Jumbo Lump Crab Cake, Ocean Prime" },
+      { src: "images/reviews/ocean-prime-nashville/order-mains.jpg", alt: "10oz Filet Mignon with black garlic butter, Sea Scallops, and black truffle mac and cheese, Ocean Prime" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Great environment", "Great drinks", "Great area of town"],
+    cons: ["Slower service, but it's meant to be that way"],
+    rating: 9.3,
+    video: "https://www.instagram.com/reel/DcEzWiJMxbu/",
+    tags: ["Steakhouse", "Seafood", "Date Night"],
+  },
+  {
     id: "hugh-babys-nashville",
     name: "Hugh-Baby's",
     city: "Nashville, TN",

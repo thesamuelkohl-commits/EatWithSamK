@@ -309,7 +309,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-steakhouses-nashville",
-    places: [],
+    places: ["ocean-prime-nashville"],
     title: "Best Steakhouses in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-10",
@@ -356,6 +356,7 @@ const BLOG_POSTS = [
         <li><strong>8. <a href="https://www.eddiev.com/locations/tn/nashville/nashville/8529" target="_blank" rel="noopener">Eddie V's Prime Seafood</a></strong></li>
         <li><strong>9. <a href="https://www.thesouthernnashville.com/" target="_blank" rel="noopener">The Southern Steak & Oyster</a></strong></li>
         <li><strong>10. <a href="https://www.sperrys.com/belle-meade-about/" target="_blank" rel="noopener">Sperry's Restaurant</a></strong></li>
+        <li><strong>11. <a href="/reviews/ocean-prime-nashville.html">Ocean Prime</a></strong> ⭐ (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://www.jeffruby.com/nashville" target="_blank" rel="noopener">Jeff Ruby's Steakhouse</a></h2>
@@ -491,6 +492,12 @@ const BLOG_POSTS = [
       <p>🏛️ <strong>Nashville Classic</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DEU4yQURi_a/" data-instgrm-version="14"></blockquote></div>
 
+      <h2>11. <a href="/reviews/ocean-prime-nashville.html">Ocean Prime</a> ⭐</h2>
+      <p><strong>Best For:</strong> Steak & Seafood Near Broadway</p>
+      <p>Ocean Prime pairs premium steaks with fresh seafood and a lively bar scene just steps from Broadway. <a href="/reviews/ocean-prime-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville.html">Read my full Ocean Prime review →</a></p>
+
       <h2>Best Steakhouses by Category</h2>
       <p><strong>🏆 Best Overall</strong></p>
       <ul>
@@ -523,6 +530,7 @@ const BLOG_POSTS = [
       <ul>
         <li>Eddie V's</li>
         <li>The Southern</li>
+        <li>Ocean Prime ⭐</li>
       </ul>
 
       <h2>How I Rate Steakhouses</h2>
@@ -2323,7 +2331,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-date-night-restaurants-nashville",
-    places: ["maru-weho-nashville"],
+    places: ["maru-weho-nashville", "ocean-prime-nashville"],
     title: "Best Date Night Restaurants in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-24",
@@ -2365,7 +2373,8 @@ const BLOG_POSTS = [
         <li><strong>8. <a href="https://www.bastionnashville.com/" target="_blank" rel="noopener">Bastion</a></strong></li>
         <li><strong>9. <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></strong></li>
         <li><strong>10. <a href="https://peninsulanashville.com/" target="_blank" rel="noopener">Peninsula</a></strong></li>
-        <li><strong>11. <a href="/reviews/maru-weho-nashville.html">Maru WeHo</a></strong> ⭐ (Personally Reviewed)</li>
+        <li><strong>11. <a href="/reviews/ocean-prime-nashville.html">Ocean Prime</a></strong> ⭐ (Personally Reviewed)</li>
+        <li><strong>12. <a href="/reviews/maru-weho-nashville.html">Maru WeHo</a></strong> ⭐ (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://www.theoptimistrestaurant.com/nashville" target="_blank" rel="noopener">The Optimist</a></h2>
@@ -2440,7 +2449,13 @@ const BLOG_POSTS = [
       <p>For adventurous couples, Peninsula offers Spanish-inspired tasting menus that are unlike anything else in Nashville.</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C3GGN2IuN8M/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>11. <a href="/reviews/maru-weho-nashville.html">Maru WeHo</a> ⭐</h2>
+      <h2>11. <a href="/reviews/ocean-prime-nashville.html">Ocean Prime</a> ⭐</h2>
+      <p><strong>Best For:</strong> Upscale Steak & Seafood</p>
+      <p>Ocean Prime is a polished steakhouse and seafood restaurant near Broadway, with a lively bar scene and a menu that swings from crab cakes and ahi tuna tartare to prime steaks and fresh seafood. <a href="/reviews/ocean-prime-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville.html">Read my full Ocean Prime review →</a></p>
+
+      <h2>12. <a href="/reviews/maru-weho-nashville.html">Maru WeHo</a> ⭐</h2>
       <p><strong>Best For:</strong> Sushi & Cocktails</p>
       <p>Maru WeHo sits in the Wedgewood-Houston neighborhood, with a sleek sushi bar, specialty rolls, and a cocktail menu that makes it one of my favorite date night picks. <a href="/reviews/maru-weho-nashville.html">Read Sam's full review →</a></p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
