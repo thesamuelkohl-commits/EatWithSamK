@@ -583,7 +583,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-broadway-nashville",
-    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville"],
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "chile-burrito-nashville"],
     title: "Best Restaurants Near Broadway Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-07",
@@ -628,9 +628,10 @@ const BLOG_POSTS = [
         <li><strong>7. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></strong></li>
         <li><strong>8. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></strong></li>
         <li><strong>9. <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></strong></li>
-        <li><strong>10. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>11. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>12. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>10. <a href="/reviews/chile-burrito-nashville.html">The Chile Burrito Co. ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>11. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>12. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>13. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="/reviews/ocean-prime-nashville.html">Ocean Prime ⭐</a></h2>
@@ -720,7 +721,13 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DblDA05lRPK/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>10. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
+      <h2>10. <a href="/reviews/chile-burrito-nashville.html">The Chile Burrito Co. ⭐</a></h2>
+      <p><strong>Best For:</strong> Build-Your-Own Burritos Downtown</p>
+      <p>The Chile Burrito Co. is a counter-service Mexican spot just off Broadway, an easy stop for a quick burrito loaded with whatever you want from the salsa bar. <a href="/reviews/chile-burrito-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chile-burrito-nashville.html">Read my full Chile Burrito Co. review →</a></p>
+
+      <h2>11. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
       <p><strong>Best For:</strong> Smash Burgers</p>
       <p>NADC Burger serves one of the better smash burgers close to downtown Nashville.</p>
       <p>Simple menu. Excellent execution.</p>
@@ -728,14 +735,14 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville.html">Read my full NADC Burger review →</a></p>
 
-      <h2>11. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></h2>
+      <h2>12. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></h2>
       <p><strong>Best For:</strong> Philly Cheesesteaks</p>
       <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall at Fifth + Broadway, just steps from Broadway itself.</p>
       <p>I've personally reviewed The Philly Special for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/the-philly-special-nashville.html">Read my full Philly Special review →</a></p>
 
-      <h2>12. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
+      <h2>13. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></h2>
       <p><strong>Best For:</strong> A Quick Slice Near Broadway</p>
       <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown.</p>
       <p>If you're looking for something fast before a concert or after the bars, this is an easy recommendation.</p>
@@ -763,6 +770,7 @@ const BLOG_POSTS = [
       <p><strong>🌮 Best Mexican</strong></p>
       <ul>
         <li>Bakersfield</li>
+        <li>The Chile Burrito Co. ⭐</li>
       </ul>
       <p><strong>🍳 Best Brunch</strong></p>
       <ul>

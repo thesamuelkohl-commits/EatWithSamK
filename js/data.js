@@ -57,6 +57,35 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "chile-burrito-nashville",
+    name: "The Chile Burrito Co.",
+    city: "Nashville, TN",
+    lat: 36.1633893,
+    lng: -86.7786117,
+    address: "162 4th Ave N, Nashville, TN 37219",
+    phone: "(615) 248-0025",
+    parking: "Paid parking",
+    website: "https://www.chileburrito.com/",
+    date: "2026-08-13",
+    price: "$$",
+    cuisine: "Mexican",
+    badges: ["quick-bite"],
+    about: "The Chile Burrito Co. is a counter-service Mexican spot in downtown Nashville, just off Broadway, serving build-your-own burritos, tacos, and salsa bar sides in a colorful, casual dining room.",
+    ate: "A 12-inch burrito with steak, rice, cheese, queso, pico, cilantro, onions, lettuce, and medium sauce, plus a side of chips.",
+    heroPhoto: "images/reviews/chile-burrito-nashville/order.jpg",
+    photos: [
+      { src: "images/reviews/chile-burrito-nashville/storefront.jpg", alt: "The Chile Burrito Co. storefront sign, downtown Nashville" },
+      { src: "images/reviews/chile-burrito-nashville/interior.jpg", alt: "Inside The Chile Burrito Co., counter and salsa bar" },
+      { src: "images/reviews/chile-burrito-nashville/order.jpg", alt: "Sam's 12-inch steak burrito, The Chile Burrito Co." },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Quick", "Close to downtown and Broadway"],
+    cons: ["Not a lot of seating", "Weird hours", "No free parking, only paid"],
+    rating: 8.7,
+    video: "https://www.instagram.com/reel/DcKDWA2Rw3z/",
+    tags: ["Mexican", "Downtown"],
+  },
+  {
     id: "ocean-prime-nashville",
     name: "Ocean Prime",
     city: "Nashville, TN",
