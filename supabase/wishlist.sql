@@ -1,8 +1,9 @@
 -- Eat With Sam K — private "want to try" list (wishlist.html), for Sam's own
--- use only. Run this once in your Supabase project's SQL Editor (Dashboard →
--- SQL Editor → New query → paste → Run). Safe to re-run, and safe to re-run
--- even if you already ran an earlier version of this file — every new
--- column uses ADD COLUMN IF NOT EXISTS.
+-- use plus a small number of invited read-only viewers. Run this once in
+-- your Supabase project's SQL Editor (Dashboard → SQL Editor → New query →
+-- paste → Run). Safe to re-run, and safe to re-run even if you already ran
+-- an earlier version of this file — every new column uses ADD COLUMN IF NOT
+-- EXISTS, and every policy uses DROP POLICY IF EXISTS before recreating it.
 
 create table if not exists public.wishlist (
   id uuid primary key default gen_random_uuid(),
@@ -49,3 +50,14 @@ drop policy if exists "delete own wishlist" on public.wishlist;
 create policy "delete own wishlist"
   on public.wishlist for delete
   using (auth.uid() = user_id);
+
+-- Read-only access for invited viewers (see VIEWER_EMAILS in js/wishlist.js,
+-- which must match this list — that file's check is UX only, this policy is
+-- what actually grants the access). This is a second, additive SELECT
+-- policy: Postgres OR's multiple permissive policies for the same command,
+-- so it doesn't touch "select own wishlist" above. No insert/update/delete
+-- policy is added for viewers, so they can never edit or remove Sam's rows.
+drop policy if exists "select wishlist for invited viewers" on public.wishlist;
+create policy "select wishlist for invited viewers"
+  on public.wishlist for select
+  using ((auth.jwt() ->> 'email') in ('melanie.davis044@gmail.com'));

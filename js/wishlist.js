@@ -1,8 +1,11 @@
 /* Private "want to try" list — not linked from the public nav, bookmark
    this page directly. Gated behind Supabase sign-in (js/auth.js) AND
-   restricted to OWNER_EMAIL specifically; every row is also scoped to the
-   signed-in user via RLS (see supabase/wishlist.sql), so the data itself
-   stays private even if the client-side email check were ever bypassed.
+   restricted to OWNER_EMAIL plus any emails in VIEWER_EMAILS; every row is
+   also scoped by RLS (see supabase/wishlist.sql — the SELECT-for-viewers
+   policy has to be added there too, in the Supabase SQL Editor, since this
+   file's checks are UX only and can't grant real database access on their
+   own). Only the owner gets the mark-tried/remove controls — viewers get a
+   read-only version of the same list (see isOwner in itemHtml()/renderAuthed()).
 
    Every entry is added by Claude: Sam names a place in chat, Claude
    researches the address/phone/website/coordinates, finds a cover photo
@@ -15,6 +18,8 @@
 
 const gate = document.getElementById("wishlist-gate");
 const OWNER_EMAIL = "thesamuelkohl@gmail.com";
+const VIEWER_EMAILS = ["melanie.davis044@gmail.com"];
+const ALLOWED_EMAILS = [OWNER_EMAIL, ...VIEWER_EMAILS];
 
 let allItems = [];
 let cityFilter = "";
@@ -46,7 +51,7 @@ function signInPromptHtml() {
 }
 
 function notOwnerHtml() {
-  return `<div class="quick-facts-card"><p class="review-about">This page is private to Sam's own account. Signed in as ${escHtml(currentUser.email)}, which isn't it.</p></div>`;
+  return `<div class="quick-facts-card"><p class="review-about">This page is private to Sam's account and a few invited viewers. Signed in as ${escHtml(currentUser.email)}, which isn't on that list.</p></div>`;
 }
 
 function itemHtml(item) {
@@ -56,6 +61,9 @@ function itemHtml(item) {
       ? `${distanceMiles(userLoc.lat, userLoc.lng, item.lat, item.lng).toFixed(1)} mi away`
       : "";
   const hasContact = item.address || item.phone || item.website;
+  // Viewers (anyone in VIEWER_EMAILS, not the owner) get a read-only card —
+  // no mark-tried/remove controls, since RLS only grants them SELECT anyway.
+  const isOwner = currentUser && currentUser.email === OWNER_EMAIL;
   return `
     <article class="place-card reveal wishlist-item" data-id="${item.id}" data-tried="${item.tried}" style="${item.tried ? "opacity:0.6;" : ""}">
       ${cover ? `<div class="card-photo" style="background-image: url('${cover}')"></div>` : ""}
@@ -66,9 +74,13 @@ function itemHtml(item) {
             ${item.city || dist ? `<div class="card-city">${item.city ? `📍 ${escHtml(item.city)}` : ""}${item.city && dist ? " · " : dist ? "📍 " : ""}${dist}</div>` : ""}
             ${item.cuisine ? `<div class="card-tags"><span class="tag">${escHtml(item.cuisine)}</span></div>` : ""}
           </div>
-          <div class="card-top-actions">
+          ${
+            isOwner
+              ? `<div class="card-top-actions">
             <button type="button" class="favorite-btn has-tooltip" data-toggle-tried data-tooltip="${item.tried ? "Mark as not tried yet" : "Mark as tried"}" aria-label="${item.tried ? "Mark as not tried yet" : "Mark as tried"}" tabindex="0">${item.tried ? "↩️" : "✅"}</button>
-          </div>
+          </div>`
+              : ""
+          }
         </div>
         ${
           hasContact
@@ -80,9 +92,11 @@ function itemHtml(item) {
             : ""
         }
         ${item.notes ? `<p class="card-ate">${escHtml(item.notes)}</p>` : ""}
-        <div class="card-actions">
-          <button type="button" class="btn btn-ghost" data-delete>Remove</button>
-        </div>
+        ${
+          isOwner
+            ? `<div class="card-actions"><button type="button" class="btn btn-ghost" data-delete>Remove</button></div>`
+            : ""
+        }
       </div>
     </article>`;
 }
@@ -246,7 +260,7 @@ function renderAuthed() {
 function applyAuthState() {
   if (!currentUser) {
     gate.innerHTML = signInPromptHtml();
-  } else if (currentUser.email !== OWNER_EMAIL) {
+  } else if (!ALLOWED_EMAILS.includes(currentUser.email)) {
     gate.innerHTML = notOwnerHtml();
   } else {
     renderAuthed();
