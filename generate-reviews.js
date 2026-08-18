@@ -204,7 +204,7 @@ function renderReviewPage(place, relatedPosts) {
   const isInstagramWebsite = !!(place.website && place.website.includes("instagram.com"));
   const quickFactsHtml = `
     <ul class="quick-facts">
-      <li>⭐ <strong>Overall:</strong> ${place.rating}/10</li>
+      <li>⭐ <strong>Sam Score:</strong> ${place.rating}/10</li>
       ${place.date ? `<li>📅 <strong>Visited:</strong> ${formatVisitDate(place.date)}</li>` : ""}
       <li>📍 <strong>Address:</strong> ${escapeHtml(place.address)}</li>
       ${place.price ? `<li>💰 <strong>Price:</strong> ${priceTagHtml(place.price)}</li>` : ""}
@@ -413,7 +413,7 @@ function renderReviewPage(place, relatedPosts) {
     ${hasProsOrCons ? `<div class="reveal"><h2 class="review-section-title">Pros &amp; Cons</h2>${prosConsHtml}</div>` : ""}
 
     <div class="reveal final-rating">
-      <h2 class="review-section-title">Final Rating</h2>
+      <h2 class="review-section-title">Sam Score</h2>
       <div class="rating-badge rating-badge-lg ${cls}">${place.rating}<small>/ 10</small></div>
     </div>
 
