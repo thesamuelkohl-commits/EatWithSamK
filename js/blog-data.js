@@ -35,7 +35,7 @@
 const BLOG_POSTS = [
   {
     id: "best-restaurants-near-bridgestone-arena-nashville",
-    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville"],
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "jack-browns-nashville"],
     title: "Best Restaurants Near Bridgestone Arena in Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-10",
@@ -81,12 +81,12 @@ const BLOG_POSTS = [
         <li><strong>1. <a href="/reviews/ocean-prime-nashville.html">Ocean Prime ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>2. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></strong></li>
         <li><strong>3. <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></strong></li>
-        <li><strong>4. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></strong></li>
-        <li><strong>5. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
-        <li><strong>6. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></strong></li>
-        <li><strong>7. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
-        <li><strong>8. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></strong></li>
-        <li><strong>9. <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></strong></li>
+        <li><strong>4. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
+        <li><strong>5. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></strong></li>
+        <li><strong>6. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
+        <li><strong>7. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></strong></li>
+        <li><strong>8. <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></strong></li>
+        <li><strong>9. <a href="/reviews/jack-browns-nashville.html">Jack Brown's Beer & Burger Joint ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>10. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>11. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>12. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
@@ -128,21 +128,7 @@ const BLOG_POSTS = [
       <p>🔥 <strong>Nashville Classic</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBe_wdQpGP_/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>4. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
-      <p><strong>Best For:</strong> Burgers Before the Game</p>
-      <p>Jack Brown's keeps things simple: burgers, fries, and beer.</p>
-      <p>It's a casual option if you want a good burger without committing to an expensive sit-down dinner before heading to Bridgestone.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Cheeseburger</li>
-        <li>The Elvis</li>
-        <li>Sweet Potato Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🍔 <strong>Burger Pick</strong> &nbsp; 💰 <strong>Good Value</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DaqKhWJoWjl/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>5. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
+      <h2>4. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
       <p><strong>Best For:</strong> Tennessee BBQ</p>
       <p>If barbecue is on your Nashville checklist, Martin's is an excellent downtown option. It's especially good for visitors who want to try Tennessee-style barbecue without traveling far from Bridgestone Arena.</p>
       <p><strong>What to Try:</strong></p>
@@ -156,13 +142,13 @@ const BLOG_POSTS = [
       <p>🍖 <strong>BBQ Pick</strong> &nbsp; 🔥 <strong>Worth the Wait</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbF85digGm/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>6. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h2>
+      <h2>5. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h2>
       <p><strong>Best For:</strong> Nashville Atmosphere</p>
       <p>The Stillery combines comfort food, drinks, and live music with a downtown Nashville atmosphere. The menu includes burgers, pizza, hot chicken, and other casual options, making it an easy pregame choice.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>🎵 <strong>Nashville Atmosphere</strong> &nbsp; 🎉 <strong>Good for Groups</strong></p>
 
-      <h2>7. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
+      <h2>6. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
       <p><strong>Best For:</strong> Tacos & Margaritas</p>
       <p>Bakersfield is a fun option if you're looking for tacos and drinks before an event. The atmosphere works especially well for groups that want something lively without going directly into the Broadway honky-tonks.</p>
       <p><strong>What to Try:</strong></p>
@@ -175,18 +161,24 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>🌮 <strong>Mexican Pick</strong></p>
 
-      <h2>8. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></h2>
+      <h2>7. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></h2>
       <p><strong>Best For:</strong> Upscale Dinner Before an Event</p>
       <p>Not every Bridgestone meal needs to be burgers and barbecue. If you're going to a concert, celebrating something special, or want a proper dinner beforehand, Etch is one of downtown Nashville's better upscale options.</p>
       <p>Give yourself plenty of time before your event rather than trying to rush through dinner.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
       <p>❤️ <strong>Date Night Pick</strong> &nbsp; 🥂 <strong>Special Occasion</strong></p>
 
-      <h2>9. <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></h2>
+      <h2>8. <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></h2>
       <p><strong>Best For:</strong> Wine & Dinner</p>
       <p>Sixty Vines is another strong option when you want something nicer before heading to Bridgestone. It's particularly appealing for date nights and concerts when you want dinner and wine before walking over to the arena.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <p>🍷 <strong>Wine Pick</strong> &nbsp; ❤️ <strong>Date Night</strong></p>
+
+      <h2>9. <a href="/reviews/jack-browns-nashville.html">Jack Brown's Beer & Burger Joint ⭐</a></h2>
+      <p><strong>Best For:</strong> Creative Burgers Before the Game</p>
+      <p>Jack Brown's is a casual burger-and-beer spot in Germantown, an easy stop if you want a good burger without committing to an expensive sit-down dinner before heading to Bridgestone. <a href="/reviews/jack-browns-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville.html">Read my full Jack Brown's review →</a></p>
 
       <h2>10. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
       <p><strong>Best For:</strong> Smash Burgers</p>
@@ -214,7 +206,7 @@ const BLOG_POSTS = [
       <h2>Best Restaurants Near Bridgestone Arena by Category</h2>
       <p><strong>🍔 Best for Burgers</strong></p>
       <ul>
-        <li>Jack Brown's Beer & Burger Joint</li>
+        <li>Jack Brown's Beer & Burger Joint ⭐</li>
         <li>NADC Burger ⭐</li>
       </ul>
       <p><strong>🔥 Best for Nashville Hot Chicken</strong></p>
@@ -583,7 +575,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-broadway-nashville",
-    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "chile-burrito-nashville"],
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "chile-burrito-nashville", "jack-browns-nashville"],
     title: "Best Restaurants Near Broadway Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-07",
@@ -623,12 +615,12 @@ const BLOG_POSTS = [
         <li><strong>2. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
         <li><strong>3. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></strong></li>
         <li><strong>4. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></strong></li>
-        <li><strong>5. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></strong></li>
-        <li><strong>6. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
-        <li><strong>7. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></strong></li>
-        <li><strong>8. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></strong></li>
-        <li><strong>9. <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></strong></li>
-        <li><strong>10. <a href="/reviews/chile-burrito-nashville.html">The Chile Burrito Co. ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>5. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
+        <li><strong>6. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></strong></li>
+        <li><strong>7. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></strong></li>
+        <li><strong>8. <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></strong></li>
+        <li><strong>9. <a href="/reviews/chile-burrito-nashville.html">The Chile Burrito Co. ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>10. <a href="/reviews/jack-browns-nashville.html">Jack Brown's Beer & Burger Joint ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>11. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>12. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>13. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
@@ -672,20 +664,7 @@ const BLOG_POSTS = [
       <p>Creative dishes, outstanding service, and an upscale atmosphere make it one of Nashville's premier restaurants.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
 
-      <h2>5. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
-      <p><strong>Best For:</strong> Gourmet Burgers</p>
-      <p>Jack Brown's serves one of Nashville's favorite burgers without feeling overly fancy.</p>
-      <p>It's an easy recommendation before or after a night on Broadway.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>The Elvis</li>
-        <li>Classic Cheeseburger</li>
-        <li>Sweet Potato Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DaqKhWJoWjl/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>6. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
+      <h2>5. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
       <p><strong>Best For:</strong> Tacos & Margaritas</p>
       <p>Bakersfield offers fresh tacos, excellent margaritas, and a lively atmosphere that's perfect before heading out downtown.</p>
       <p><strong>Popular Picks:</strong></p>
@@ -696,13 +675,13 @@ const BLOG_POSTS = [
       </ul>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>7. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h2>
+      <h2>6. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h2>
       <p><strong>Best For:</strong> Live Music & Comfort Food</p>
       <p>The Stillery blends Nashville's live music atmosphere with burgers, pizza, hot chicken, and Southern comfort food.</p>
       <p>A great option if you want dinner while staying close to the Broadway action.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>8. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></h2>
+      <h2>7. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></h2>
       <p><strong>Best For:</strong> Brunch & Celebrations</p>
       <p>Known for its bright atmosphere and coastal-inspired design, Hampton Social is a popular destination for brunch, birthdays, and girls' trips.</p>
       <p><strong>Popular Picks:</strong></p>
@@ -714,18 +693,24 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DAtxPZrPGfP/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>9. <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></h2>
+      <h2>8. <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></h2>
       <p><strong>Best For:</strong> A Classic Nashville Night Out</p>
       <p>Located in historic Printer's Alley, Skull's combines excellent food with one of the city's most unique entertainment experiences.</p>
       <p>Perfect for dinner before live jazz or a special night out.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DblDA05lRPK/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>10. <a href="/reviews/chile-burrito-nashville.html">The Chile Burrito Co. ⭐</a></h2>
+      <h2>9. <a href="/reviews/chile-burrito-nashville.html">The Chile Burrito Co. ⭐</a></h2>
       <p><strong>Best For:</strong> Build-Your-Own Burritos Downtown</p>
       <p>The Chile Burrito Co. is a counter-service Mexican spot just off Broadway, an easy stop for a quick burrito loaded with whatever you want from the salsa bar. <a href="/reviews/chile-burrito-nashville.html">Read Sam's full review →</a></p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chile-burrito-nashville.html">Read my full Chile Burrito Co. review →</a></p>
+
+      <h2>10. <a href="/reviews/jack-browns-nashville.html">Jack Brown's Beer & Burger Joint ⭐</a></h2>
+      <p><strong>Best For:</strong> Creative Burgers</p>
+      <p>Jack Brown's is a casual burger-and-beer spot in Germantown, an easy recommendation before or after a night on Broadway. <a href="/reviews/jack-browns-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville.html">Read my full Jack Brown's review →</a></p>
 
       <h2>11. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
       <p><strong>Best For:</strong> Smash Burgers</p>
@@ -752,7 +737,7 @@ const BLOG_POSTS = [
       <h2>Best Restaurants Near Broadway by Category</h2>
       <p><strong>🍔 Best Burger</strong></p>
       <ul>
-        <li>Jack Brown's</li>
+        <li>Jack Brown's ⭐</li>
         <li>NADC Burger ⭐</li>
       </ul>
       <p><strong>🍕 Best Pizza</strong></p>
@@ -790,7 +775,7 @@ const BLOG_POSTS = [
       <p><strong>💰 Best Budget Options</strong></p>
       <ul>
         <li>Prince St. Pizza ⭐</li>
-        <li>Jack Brown's</li>
+        <li>Jack Brown's ⭐</li>
         <li>Assembly Food Hall</li>
       </ul>
 
@@ -1290,13 +1275,13 @@ const BLOG_POSTS = [
   },
   {
     id: "best-cheap-eats-nashville",
-    places: ["hugh-babys-nashville"],
+    places: ["jack-browns-nashville", "hugh-babys-nashville"],
     title: "Best Cheap Eats in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-04",
     emoji: "💵",
     excerpt:
-      "From Jack Brown's gourmet burgers to Prince's legendary hot chicken, the best cheap eats in Nashville for 2026, all $20 or less, ranked with no paid placements.",
+      "From my own review of Jack Brown's to Prince's legendary hot chicken, the best cheap eats in Nashville for 2026, all $20 or less, ranked with no paid placements.",
     faq: [
       {
         question: "What is considered a cheap meal in Nashville?",
@@ -1330,9 +1315,9 @@ const BLOG_POSTS = [
 
       <h2>Quick List: Best Cheap Eats in Nashville (2026)</h2>
       <ul>
-        <li><strong>1. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></strong></li>
-        <li><strong>2. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></strong></li>
-        <li><strong>3. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></strong></li>
+        <li><strong>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></strong></li>
+        <li><strong>2. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></strong></li>
+        <li><strong>3. <a href="/reviews/jack-browns-nashville.html">Jack Brown's Beer & Burger Joint ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>4. <a href="/reviews/hugh-babys-nashville.html">Hugh-Baby's ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>5. <a href="https://redshotchicken.com/" target="_blank" rel="noopener">Red's Hot Chicken</a></strong></li>
         <li><strong>6. <a href="https://fatmosburgers.com/" target="_blank" rel="noopener">Fat Mo's</a></strong></li>
@@ -1342,19 +1327,7 @@ const BLOG_POSTS = [
         <li><strong>10. <a href="https://www.mitchelldeli.com/" target="_blank" rel="noopener">Mitchell Delicatessen</a></strong></li>
       </ul>
 
-      <h2>1. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
-      <p><strong>Best For:</strong> Gourmet Burgers Under $20</p>
-      <p>Jack Brown's proves that you don't need a luxury steakhouse budget to enjoy one of Nashville's best burgers. Their creative burger menu and laid-back atmosphere make it one of the city's best values.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>The Elvis Burger</li>
-        <li>Classic Cheeseburger</li>
-        <li>Sweet Potato Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DaqKhWJoWjl/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>2. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h2>
+      <h2>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h2>
       <p><strong>Best For:</strong> Pizza by the Slice</p>
       <p>Five Points Pizza is one of Nashville's best places to grab an affordable meal. Huge New York-style slices mean you can eat well without spending much.</p>
       <p><strong>Popular Picks:</strong></p>
@@ -1366,7 +1339,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTPJFpFsAU/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>3. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h2>
+      <h2>2. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h2>
       <p><strong>Best For:</strong> Nashville's Signature Food</p>
       <p>If you're visiting Nashville, Prince's lets you experience the city's most famous food without an expensive bill.</p>
       <p><strong>Popular Picks:</strong></p>
@@ -1377,6 +1350,12 @@ const BLOG_POSTS = [
       </ul>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BZ4dLAvDftD/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>3. <a href="/reviews/jack-browns-nashville.html">Jack Brown's Beer & Burger Joint ⭐</a></h2>
+      <p><strong>Best For:</strong> Creative Burgers Under $20</p>
+      <p>Jack Brown's is a casual burger-and-beer spot in Germantown with a covered patio, proving you don't need a big budget for a great burger. <a href="/reviews/jack-browns-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville.html">Read my full Jack Brown's review →</a></p>
 
       <h2>4. <a href="/reviews/hugh-babys-nashville.html">Hugh-Baby's ⭐</a></h2>
       <p><strong>Best For:</strong> Burgers, BBQ & Milkshakes</p>
@@ -2168,13 +2147,13 @@ const BLOG_POSTS = [
   },
   {
     id: "best-burgers-nashville",
-    places: ["nadc-burger-nashville", "baam-burger-nashville", "hugh-babys-nashville"],
+    places: ["jack-browns-nashville", "hugh-babys-nashville", "baam-burger-nashville", "nadc-burger-nashville"],
     title: "Best Burgers in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-25",
     emoji: "🍔",
     excerpt:
-      "From Jack Brown's classic joint to Dino's legendary dive-bar cheeseburger, the best burgers in Nashville for 2026, ranked with no paid placements.",
+      "From my own review of Jack Brown's to Dino's legendary dive-bar cheeseburger, the best burgers in Nashville for 2026, ranked with no paid placements.",
     faq: [
       {
         question: "What is the best burger in Nashville?",
@@ -2205,32 +2184,20 @@ const BLOG_POSTS = [
 
       <h2>Quick List: Best Burgers in Nashville (2026)</h2>
       <ul>
-        <li><strong>1. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></strong></li>
-        <li><strong>2. <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></strong></li>
-        <li><strong>3. <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></strong></li>
-        <li><strong>4. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></strong></li>
-        <li><strong>5. <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></strong></li>
-        <li><strong>6. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></strong></li>
-        <li><strong>7. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></strong></li>
-        <li><strong>8. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></strong></li>
+        <li><strong>1. <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></strong></li>
+        <li><strong>2. <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></strong></li>
+        <li><strong>3. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></strong></li>
+        <li><strong>4. <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></strong></li>
+        <li><strong>5. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></strong></li>
+        <li><strong>6. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></strong></li>
+        <li><strong>7. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></strong></li>
+        <li><strong>8. <a href="/reviews/jack-browns-nashville.html">Jack Brown's Beer & Burger Joint</a></strong> (full review)</li>
         <li><strong>9. <a href="/reviews/hugh-babys-nashville.html">Hugh-Baby's</a></strong> (full review)</li>
         <li><strong>10. <a href="/reviews/baam-burger-nashville.html">Baam Burger</a></strong> (full review)</li>
         <li><strong>11. <a href="/reviews/nadc-burger-nashville.html">NADC Burger</a></strong> (full review)</li>
       </ul>
 
-      <h2>1. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
-      <p><strong>Best For:</strong> Overall Burger Experience</p>
-      <p>Jack Brown's is consistently considered one of Nashville's best burger destinations. Their simple menu focuses on perfectly cooked burgers served on toasted buns with fresh toppings. If you're visiting Nashville and only have time for one burger, this is a great place to start.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Classic Jack Burger</li>
-        <li>Greg Brady Burger</li>
-        <li>Sweet Potato Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DaqKhWJoWjl/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>2. <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></h2>
+      <h2>1. <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></h2>
       <p><strong>Best For:</strong> Smash Burgers</p>
       <p>Bad Luck Burger Club has built a cult following thanks to its perfectly crisp smash burgers and simple menu. Every burger is made fresh and packed with flavor.</p>
       <p><strong>Popular Picks:</strong></p>
@@ -2241,7 +2208,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Da09rNYp2es/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>3. <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></h2>
+      <h2>2. <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></h2>
       <p><strong>Best For:</strong> Creative Burgers</p>
       <p>Dreamburger combines classic smash burger techniques with premium ingredients and unique flavor combinations. Their burgers have become one of Nashville's hottest food destinations.</p>
       <p><strong>Popular Picks:</strong></p>
@@ -2252,7 +2219,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C4Ax8TLunSF/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>4. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></h2>
+      <h2>3. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></h2>
       <p>Known for its house-ground beef, locally sourced ingredients, and huge beer garden, Pharmacy has remained a Nashville favorite for years.</p>
       <p><strong>Popular Picks:</strong></p>
       <ul>
@@ -2263,21 +2230,21 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDhpG9gOeVA/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>5. <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></h2>
+      <h2>4. <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></h2>
       <p>Gabby's is one of Nashville's original burger legends. Fresh beef, hand-cut fries, and consistently excellent service keep locals coming back.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>6. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></h2>
+      <h2>5. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></h2>
       <p>If you're looking for a quality burger that won't break the bank, Grillshack delivers one of the best values in Nashville, fresh ingredients, quick service, and no downtown crowds.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CTIJABarj1h/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>7. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></h2>
+      <h2>6. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></h2>
       <p>Part butcher shop, part restaurant, Bare Bones serves premium burgers using high-quality beef prepared in-house.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbLpXewHLSJ/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>8. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h2>
+      <h2>7. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h2>
       <p>Open since 1971 in East Nashville and reportedly the city's oldest bar, Dino's serves a thick, charred, cheese-dripping bar cheeseburger so good Bon Appétit once named it one of the three best burgers in the country. No frills, ice-cold beer, and a legendary dive-bar atmosphere.</p>
       <p><strong>Popular Picks:</strong></p>
       <ul>
@@ -2286,6 +2253,12 @@ const BLOG_POSTS = [
       </ul>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>8. <a href="/reviews/jack-browns-nashville.html">Jack Brown's Beer & Burger Joint</a></h2>
+      <p><strong>Best For:</strong> Creative Burgers</p>
+      <p>Jack Brown's is a casual burger-and-beer spot in Germantown with a long beer list and a covered patio, focused on creative specialty burgers. <a href="/reviews/jack-browns-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DcMocSYxALb/" data-instgrm-version="14"></blockquote></div>
 
       <h2>9. <a href="/reviews/hugh-babys-nashville.html">Hugh-Baby's</a></h2>
       <p><strong>Best For:</strong> Old-School Cheeseburgers</p>
@@ -3151,13 +3124,13 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-nissan-stadium-nashville",
-    places: ["ocean-prime-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "prince-street-pizza-nashville"],
+    places: ["ocean-prime-nashville", "jack-browns-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "prince-street-pizza-nashville"],
     title: "Best Restaurants Near Nissan Stadium in Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-17",
     emoji: "🏈",
     excerpt:
-      "From Butchertown Hall's smoked meats to my own reviews of Ocean Prime, NADC Burger, and Prince St. Pizza, the best restaurants near Nissan Stadium for 2026, ranked with no paid placements.",
+      "From Butchertown Hall's smoked meats to my own reviews of Ocean Prime, Jack Brown's, NADC Burger, and Prince St. Pizza, the best restaurants near Nissan Stadium for 2026, ranked with no paid placements.",
     faq: [
       {
         question: "What are the best restaurants near Nissan Stadium?",
@@ -3182,7 +3155,7 @@ const BLOG_POSTS = [
       {
         question: "Where can I get burgers near Nissan Stadium?",
         answer:
-          "The Pharmacy and Jack Brown's are solid options, and I've personally reviewed NADC Burger downtown in The Arcade if you want to see exactly what I ordered and how I rated it.",
+          "The Pharmacy is a solid option, and I've personally reviewed Jack Brown's in Germantown and NADC Burger downtown in The Arcade if you want to see exactly what I ordered and how I rated each one.",
       },
       {
         question: "Should I make a restaurant reservation before a Titans game?",
@@ -3206,8 +3179,8 @@ const BLOG_POSTS = [
         <li><strong>5. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></strong></li>
         <li><strong>6. <a href="https://eathawkers.com/locations/nashville/" target="_blank" rel="noopener">Hawkers Asian Street Food</a></strong></li>
         <li><strong>7. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
-        <li><strong>8. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></strong></li>
-        <li><strong>9. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></strong></li>
+        <li><strong>8. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></strong></li>
+        <li><strong>9. <a href="/reviews/jack-browns-nashville.html">Jack Brown's Beer & Burger Joint ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>10. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>11. <a href="/reviews/the-philly-special-nashville.html">The Philly Special ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>12. <a href="/reviews/prince-street-pizza-nashville.html">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
@@ -3294,15 +3267,7 @@ const BLOG_POSTS = [
       <p>🔥 <strong>Nashville BBQ</strong> &nbsp; 🎸 <strong>Good for Visitors</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbF85digGm/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>8. <a href="https://www.jackbrownsjoint.com/locations/germantown-nashville/" target="_blank" rel="noopener">Jack Brown's Beer & Burger Joint</a></h2>
-      <p><strong>Best For:</strong> Burgers Before the Game</p>
-      <p>Jack Brown's is a casual burger-and-beer spot downtown.</p>
-      <p>If you want to spend some time downtown before walking over to Nissan Stadium, it's a straightforward option that doesn't require turning your pregame meal into a huge dinner.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🍔 <strong>Burger Pick</strong> &nbsp; 🍺 <strong>Beer Pick</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DaqKhWJoWjl/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>9. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h2>
+      <h2>8. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h2>
       <p><strong>Best For:</strong> Groups That Can't Decide</p>
       <p>Assembly Food Hall is one of the easiest recommendations when everyone wants something different.</p>
       <p>Instead of choosing one restaurant, your group can pick from multiple food concepts in the same building.</p>
@@ -3317,6 +3282,12 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>👥 <strong>Best for Groups</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZYBG08kXI3/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>9. <a href="/reviews/jack-browns-nashville.html">Jack Brown's Beer & Burger Joint ⭐</a></h2>
+      <p><strong>Best For:</strong> Creative Burgers Before the Game</p>
+      <p>Jack Brown's is a casual burger-and-beer spot in Germantown, an easy stop if you want to spend some time downtown before walking over to Nissan Stadium without turning your pregame meal into a huge dinner. <a href="/reviews/jack-browns-nashville.html">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville.html">Read my full Jack Brown's review →</a></p>
 
       <h2>10. <a href="/reviews/nadc-burger-nashville.html">NADC Burger ⭐</a></h2>
       <p><strong>Best For:</strong> Wagyu Smash Burgers Downtown</p>
@@ -3346,7 +3317,7 @@ const BLOG_POSTS = [
       <p><strong>🍔 Burgers</strong></p>
       <ul>
         <li>The Pharmacy</li>
-        <li>Jack Brown's</li>
+        <li>Jack Brown's ⭐</li>
         <li>NADC Burger ⭐</li>
       </ul>
       <p><strong>🍖 BBQ</strong></p>
@@ -3379,7 +3350,7 @@ const BLOG_POSTS = [
       <ul>
         <li>❤️ Ocean Prime ⭐</li>
         <li>🍖 Martin's</li>
-        <li>🍔 Jack Brown's</li>
+        <li>🍔 Jack Brown's ⭐</li>
         <li>🍕 Prince St. Pizza ⭐</li>
         <li>🍴 Assembly Food Hall</li>
       </ul>
@@ -3431,7 +3402,7 @@ const BLOG_POSTS = [
       <p><strong>Where can I get BBQ near Nissan Stadium?</strong></p>
       <p>Martin's Bar-B-Que Joint and Edley's are two recognizable Nashville BBQ options, while Butchertown Hall offers another meat-focused option.</p>
       <p><strong>Where can I get burgers near Nissan Stadium?</strong></p>
-      <p>The Pharmacy and Jack Brown's are solid options, and I've personally reviewed NADC Burger downtown in The Arcade if you want to see exactly what I ordered and how I rated it.</p>
+      <p>The Pharmacy is a solid option, and I've personally reviewed Jack Brown's in Germantown and NADC Burger downtown in The Arcade if you want to see exactly what I ordered and how I rated each one.</p>
       <p><strong>Should I make a restaurant reservation before a Titans game?</strong></p>
       <p>If the restaurant accepts reservations, I'd strongly consider it. Downtown and surrounding neighborhoods can become extremely busy before major Nissan Stadium events.</p>
 

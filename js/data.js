@@ -57,6 +57,37 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "jack-browns-nashville",
+    name: "Jack Brown's Beer & Burger Joint",
+    city: "Nashville, TN",
+    lat: 36.1759474,
+    lng: -86.785611,
+    address: "1123 3rd Ave N, Nashville, TN 37208",
+    phone: "(615) 928-6774",
+    parking: "Free and paid parking available",
+    website: "https://www.jackbrownsjoint.com/locations/germantown-nashville/",
+    date: "2026-08-13",
+    price: "$",
+    cuisine: "Burgers",
+    badges: ["easy-parking"],
+    about: "Jack Brown's Beer & Burger Joint is a casual burger-and-beer spot in Germantown, Nashville, known for creative specialty burgers, a long beer list, and a covered patio out front.",
+    ate: "The Trabue, the Cobra Kai, and the Classic Jack.",
+    heroPhoto: "images/reviews/jack-browns-nashville/order.jpg",
+    photos: [
+      { src: "images/reviews/jack-browns-nashville/storefront.jpg", alt: "Jack Brown's Beer & Burger Joint storefront and patio, Germantown, Nashville" },
+      { src: "images/reviews/jack-browns-nashville/interior.jpg", alt: "Inside Jack Brown's, bar and kitchen" },
+      { src: "images/reviews/jack-browns-nashville/order.jpg", alt: "One of Sam's burgers, topped with a fried egg, Jack Brown's" },
+      { src: "images/reviews/jack-browns-nashville/order-2.jpg", alt: "One of Sam's burgers, topped with jalapeños, Jack Brown's" },
+      { src: "images/reviews/jack-browns-nashville/order-3.jpg", alt: "One of Sam's burgers, cross-section, Jack Brown's" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Free parking", "Fun environment", "Great area of town", "Creative food"],
+    cons: ["Not much AC", "Small parking lot", "Small portions"],
+    rating: 8.6,
+    video: "https://www.instagram.com/reel/DcMocSYxALb/",
+    tags: ["Burgers", "Germantown"],
+  },
+  {
     id: "chile-burrito-nashville",
     name: "The Chile Burrito Co.",
     city: "Nashville, TN",
