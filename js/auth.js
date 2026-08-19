@@ -27,9 +27,9 @@ const supabaseClient =
 
 let currentUser = null;
 // Flips true right before the first "auth:change" dispatch. Scripts loaded
-// after auth.js (like js/wishlist.js) can check this on load to cover the
-// case where getSession() already resolved before their own listener was
-// registered — the event alone can't be relied on for that first check.
+// after auth.js can check this on load to cover the case where getSession()
+// already resolved before their own listener was registered — the event
+// alone can't be relied on for that first check.
 let authReady = false;
 let authPopoverOpen = false;
 let authWidgetState = "signed-out"; // "signed-out" | "sending" | "sent"
