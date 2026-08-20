@@ -1094,6 +1094,16 @@ a { color: var(--red); }
 .ig-embed { display: flex; justify-content: center; margin: 10px 0 6px; }
 .ig-embed iframe { border-radius: 12px !important; }
 
+.own-photo { margin: 10px 0 6px; }
+.own-photo img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+
 @media (max-width: 560px) {
   .review-hero { flex-direction: column; align-items: flex-start; }
 }
