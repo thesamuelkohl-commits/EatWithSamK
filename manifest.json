@@ -2,7 +2,7 @@
   "name": "Eat With Sam K",
   "short_name": "Sam K Eats",
   "description": "Every restaurant Sam K has personally rated, all in one app.",
-  "start_url": "index.html",
+  "start_url": "/",
   "scope": "./",
   "display": "standalone",
   "background_color": "#faf3e8",

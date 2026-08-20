@@ -143,7 +143,7 @@ itemListLd.textContent = JSON.stringify({
     "@type": "ListItem",
     position: i + 1,
     name: p.name,
-    url: `https://www.eatwithsamk.com/reviews/${p.id}.html`,
+    url: `https://www.eatwithsamk.com/reviews/${p.id}`,
   })),
 });
 document.head.appendChild(itemListLd);

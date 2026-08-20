@@ -4,9 +4,9 @@
    installed. Bump CACHE_NAME any time the core shell files change so old
    caches get cleaned up automatically. */
 
-const CACHE_NAME = "eatwithsamk-shell-v3";
+const CACHE_NAME = "eatwithsamk-shell-v4";
 const SHELL_ASSETS = [
-  "index.html",
+  "/",
   "css/style.css",
   "js/data.js",
   "js/common.js",

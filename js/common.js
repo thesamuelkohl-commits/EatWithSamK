@@ -92,34 +92,37 @@ document.addEventListener("click", (e) => {
    Every page has an empty `<nav data-nav="home">` and
    `<footer data-footer>` — common.js fills both in, so adding a new
    page (like "About") only means editing NAV_LINKS once here instead
-   of five separate HTML files. `data-prefix="../"` is used on pages
-   one directory deep (reviews/<id>.html); guides/<id>/index.html uses
-   `data-prefix="/"` (root-relative) since it sits inside its own
-   per-guide folder — see generate-reviews.js's renderGuidePage(). */
+   of five separate HTML files. NAV_LINKS and FOOTER_RESOURCES hrefs
+   are root-relative (a leading "/") since every page's real URL is
+   clean now (see vercel.json's "cleanUrls") — that resolves correctly
+   no matter how deep the current page sits, so nav/footer page-links
+   ignore `data-prefix` entirely. `data-prefix` still matters for the
+   footer's own logo image src below, which is a real asset path, not
+   a page URL — `data-prefix="../"` on pages one directory deep
+   (reviews/<id>.html), `data-prefix="/"` (root-relative) on
+   guides/<id>/index.html — see generate-reviews.js's renderGuidePage(). */
 
 const NAV_LINKS = [
-  { id: "home", label: "Home", href: "index.html" },
-  { id: "map", label: "Map", href: "map.html" },
-  { id: "reviews", label: "Reviews", href: "reviews.html" },
-  { id: "blog", label: "Best Of", href: "best-of.html" },
-  { id: "about", label: "About", href: "about.html" },
-  { id: "advertise", label: "Advertise", href: "advertise.html" },
+  { id: "home", label: "Home", href: "/" },
+  { id: "map", label: "Map", href: "/map" },
+  { id: "reviews", label: "Reviews", href: "/reviews" },
+  { id: "blog", label: "Best Of", href: "/best-of" },
+  { id: "about", label: "About", href: "/about" },
+  { id: "advertise", label: "Advertise", href: "/advertise" },
 ];
 
 // Footer "Resources" column — add a line here any time you want another
 // resource-style post (guides, comparisons, etc.) linked site-wide from
-// every page's footer. `href` is relative the same way NAV_LINKS is (a
-// `guides/<id>/` link, or any other page).
+// every page's footer. `href` is root-relative, same as NAV_LINKS above.
 const FOOTER_RESOURCES = [
-  { label: "Best Credit Cards for Dining", href: "guides/best-credit-cards-for-dining/" },
-  { label: "Advertise & Sponsorships", href: "advertise.html" },
+  { label: "Best Credit Cards for Dining", href: "/guides/best-credit-cards-for-dining/" },
+  { label: "Advertise & Sponsorships", href: "/advertise" },
 ];
 
 document.querySelectorAll("[data-nav]").forEach((nav) => {
   const current = nav.dataset.nav;
-  const prefix = nav.dataset.prefix || "";
   nav.innerHTML = NAV_LINKS.map(
-    (link) => `<a href="${prefix}${link.href}"${link.id === current ? ' class="active"' : ""}>${link.label}</a>`
+    (link) => `<a href="${link.href}"${link.id === current ? ' class="active"' : ""}>${link.label}</a>`
   ).join("");
 });
 
@@ -160,21 +163,21 @@ function footerHtml(prefix) {
     <div class="footer-inner">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a class="logo" href="${prefix}index.html"><img class="logo-img" src="${prefix}images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+          <a class="logo" href="/"><img class="logo-img" src="${prefix}images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
           <p class="footer-tagline" data-tagline></p>
           <div class="social-row" data-socials></div>
         </div>
         <div class="footer-col">
           <h4>Explore</h4>
-          <a href="${prefix}index.html">Home</a>
-          <a href="${prefix}map.html">Map</a>
-          <a href="${prefix}reviews.html">All Reviews</a>
-          <a href="${prefix}best-of.html">Best Of</a>
-          <a href="${prefix}about.html">About Me</a>
+          <a href="/">Home</a>
+          <a href="/map">Map</a>
+          <a href="/reviews">All Reviews</a>
+          <a href="/best-of">Best Of</a>
+          <a href="/about">About Me</a>
         </div>
         <div class="footer-col">
           <h4>Resources</h4>
-          ${FOOTER_RESOURCES.map((r) => `<a href="${prefix}${r.href}">${r.label}</a>`).join("")}
+          ${FOOTER_RESOURCES.map((r) => `<a href="${r.href}">${r.label}</a>`).join("")}
         </div>
         <div class="footer-col">
           <h4>Stay Updated</h4>
@@ -188,7 +191,7 @@ function footerHtml(prefix) {
       </div>
       <div class="footer-bottom">
         <p class="footer-note">© <span id="year"></span> Eat With Sam K · All reviews are my own, I pay for every meal.</p>
-        <div class="footer-legal"><a href="${prefix}privacy.html">Privacy Policy</a></div>
+        <div class="footer-legal"><a href="/privacy">Privacy Policy</a></div>
       </div>
     </div>`;
 }
@@ -283,13 +286,13 @@ function placeCardHtml(p, opts) {
     <article class="place-card reveal" id="card-${p.id}">
       ${
         p.heroPhoto
-          ? `<a class="card-photo" href="reviews/${p.id}.html" style="background-image: url('${p.heroPhoto}')" aria-hidden="true" tabindex="-1">${ratingBadge}</a>`
+          ? `<a class="card-photo" href="/reviews/${p.id}" style="background-image: url('${p.heroPhoto}')" aria-hidden="true" tabindex="-1">${ratingBadge}</a>`
           : ""
       }
       <div class="card-body">
         <div class="card-top">
           <div>
-            <h3><a href="reviews/${p.id}.html">${p.name}</a></h3>
+            <h3><a href="/reviews/${p.id}">${p.name}</a></h3>
             <div class="card-city">📍 ${p.city}</div>
           </div>
           <div class="card-top-actions">
@@ -309,9 +312,9 @@ function placeCardHtml(p, opts) {
           <a class="btn btn-primary" href="${p.video}" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch Review
           </a>
-          ${opts.showMapJump ? `<button class="btn btn-ghost" data-map-jump="${p.id}">View on map</button>` : `<a class="btn btn-ghost" href="reviews/${p.id}.html">Full Review</a>`}
+          ${opts.showMapJump ? `<button class="btn btn-ghost" data-map-jump="${p.id}">View on map</button>` : `<a class="btn btn-ghost" href="/reviews/${p.id}">Full Review</a>`}
         </div>
-        <a class="read-more" href="reviews/${p.id}.html">Read full review →</a>
+        <a class="read-more" href="/reviews/${p.id}">Read full review →</a>
       </div>
     </article>`;
 }
@@ -355,7 +358,7 @@ function initPlacesMap(containerId, places) {
       <div class="popup-city">📍 ${place.city}</div>
       ${place.heroPhoto ? "" : `<div class="popup-rating">★ ${place.rating}/10</div>`}
       <a class="popup-link" href="${place.video}" target="_blank" rel="noopener">▶ Watch my review</a><br>
-      <a class="popup-link" href="reviews/${place.id}.html">📖 Full review</a>
+      <a class="popup-link" href="/reviews/${place.id}">📖 Full review</a>
     `);
     markers[place.id] = marker;
   });
@@ -411,7 +414,7 @@ function postCoverPhoto(post) {
 function blogCardHtml(post) {
   const cover = postCoverPhoto(post);
   return `
-    <a class="blog-card reveal" href="guides/${post.id}/">
+    <a class="blog-card reveal" href="/guides/${post.id}/">
       ${cover ? `<div class="blog-card-banner blog-card-banner-photo" style="background-image: url('${cover}')"></div>` : `<div class="blog-card-banner">${post.emoji}</div>`}
       <div class="blog-card-body">
         <div class="blog-meta"><span class="pill">${post.city}</span><span>${formatPostDate(post.date)}</span></div>

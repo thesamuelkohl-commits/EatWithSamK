@@ -10,7 +10,9 @@
        page per place — full <title>, meta description, Open
        Graph tags, and Review structured data baked in, so
        Google — and anyone sharing the link on social — sees
-       real content immediately, no JavaScript required)
+       real content immediately, no JavaScript required. Lives
+       on disk as reviews/<id>.html but SERVES at the clean URL
+       /reviews/<id> — see vercel.json's "cleanUrls" below)
      - guides/<id>/index.html (same deal, one per Best Of guide —
        serves at the clean URL /guides/<id>/, full article text
        and structured data in the raw HTML, no JS required)
@@ -20,7 +22,9 @@
        /post.html?id=<id> URLs to their new /guides/<id>/ home —
        kept for portability, but NOT what the live site reads)
      - vercel.json             (same redirects, in the format Vercel
-       actually honors — the site is hosted there, see README)
+       actually honors — the site is hosted there, see README —
+       plus "cleanUrls": true, which strips ".html" from every
+       page's URL without moving any file on disk)
 
    You never edit the files in reviews/ or guides/ by hand —
    they're regenerated from js/data.js and js/blog-data.js every
@@ -143,7 +147,7 @@ function parseAddress(address) {
 }
 
 function reviewUrl(place) {
-  return `${SITE_URL}/reviews/${place.id}.html`;
+  return `${SITE_URL}/reviews/${place.id}`;
 }
 
 function guideUrl(post) {
@@ -218,7 +222,7 @@ function renderReviewPage(place, relatedPosts) {
       <a class="btn btn-primary" href="${place.video}" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch My Review
       </a>
-      <a class="btn btn-ghost" href="../reviews.html">← All Reviews</a>
+      <a class="btn btn-ghost" href="/reviews">← All Reviews</a>
     </div>`;
 
   const scores = place.scores || {};
@@ -289,7 +293,7 @@ function renderReviewPage(place, relatedPosts) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-      { "@type": "ListItem", position: 2, name: "Reviews", item: `${SITE_URL}/reviews.html` },
+      { "@type": "ListItem", position: 2, name: "Reviews", item: `${SITE_URL}/reviews` },
       { "@type": "ListItem", position: 3, name: place.name, item: canonical },
     ],
   };
@@ -349,7 +353,7 @@ function renderReviewPage(place, relatedPosts) {
 
   <header class="site-header">
     <div class="header-inner">
-      <a class="logo" href="../index.html"><img class="logo-img" src="../images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <a class="logo" href="/"><img class="logo-img" src="../images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
       <nav class="main-nav" data-nav="reviews" data-prefix="../"></nav>
       <div class="header-right">
         <div class="social-row" data-socials></div>
@@ -361,8 +365,8 @@ function renderReviewPage(place, relatedPosts) {
 
   <main class="post-wrap">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="../index.html">Home</a><span>›</span>
-      <a href="../reviews.html">Reviews</a><span>›</span>
+      <a href="/">Home</a><span>›</span>
+      <a href="/reviews">Reviews</a><span>›</span>
       <span aria-current="page">${escapeHtml(place.name)}</span>
     </nav>
 
@@ -432,7 +436,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="../js/data.js?v=14"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=26"></script>
+  <script src="../js/common.js?v=27"></script>
   <script src="../js/auth.js?v=3"></script>
   <script src="../js/pwa.js?v=1"></script>
   <script>
@@ -494,7 +498,7 @@ function renderGuidePage(post) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-      { "@type": "ListItem", position: 2, name: "Best Of", item: `${SITE_URL}/best-of.html` },
+      { "@type": "ListItem", position: 2, name: "Best Of", item: `${SITE_URL}/best-of` },
       { "@type": "ListItem", position: 3, name: post.title, item: canonical },
     ],
   };
@@ -567,7 +571,7 @@ function renderGuidePage(post) {
 
   <header class="site-header">
     <div class="header-inner">
-      <a class="logo" href="/index.html"><img class="logo-img" src="/images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <a class="logo" href="/"><img class="logo-img" src="/images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
       <nav class="main-nav" data-nav="blog" data-prefix="/"></nav>
       <div class="header-right">
         <div class="social-row" data-socials></div>
@@ -579,12 +583,12 @@ function renderGuidePage(post) {
 
   <main class="post-wrap">
     <nav class="breadcrumb" aria-label="Breadcrumb">
-      <a href="/index.html">Home</a><span>›</span>
-      <a href="/best-of.html">Best Of</a><span>›</span>
+      <a href="/">Home</a><span>›</span>
+      <a href="/best-of">Best Of</a><span>›</span>
       <span aria-current="page">${escapeHtml(post.title)}</span>
     </nav>
 
-    <a class="post-back" href="/best-of.html">← Back to Best Of</a>
+    <a class="post-back" href="/best-of">← Back to Best Of</a>
     ${
       cover
         ? `
@@ -609,7 +613,7 @@ function renderGuidePage(post) {
   <script src="/js/data.js?v=14"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=26"></script>
+  <script src="/js/common.js?v=27"></script>
   <script src="/js/auth.js?v=3"></script>
   <script src="/js/pwa.js?v=1"></script>
 </body>
@@ -620,12 +624,12 @@ function renderGuidePage(post) {
 function renderSitemap() {
   const urls = [
     { loc: `${SITE_URL}/`, priority: "1.0" },
-    { loc: `${SITE_URL}/map.html`, priority: "0.9" },
-    { loc: `${SITE_URL}/reviews.html`, priority: "0.9" },
-    { loc: `${SITE_URL}/best-of.html`, priority: "0.8" },
-    { loc: `${SITE_URL}/about.html`, priority: "0.5" },
-    { loc: `${SITE_URL}/advertise.html`, priority: "0.4" },
-    { loc: `${SITE_URL}/privacy.html`, priority: "0.2" },
+    { loc: `${SITE_URL}/map`, priority: "0.9" },
+    { loc: `${SITE_URL}/reviews`, priority: "0.9" },
+    { loc: `${SITE_URL}/best-of`, priority: "0.8" },
+    { loc: `${SITE_URL}/about`, priority: "0.5" },
+    { loc: `${SITE_URL}/advertise`, priority: "0.4" },
+    { loc: `${SITE_URL}/privacy`, priority: "0.2" },
     ...PLACES.map((p) => ({ loc: reviewUrl(p), priority: "0.9", lastmod: p.date })),
     ...BLOG_POSTS.map((post) => ({ loc: guideUrl(post), priority: "0.7", lastmod: post.date })),
   ];
@@ -671,7 +675,13 @@ function renderVercelConfig() {
     destination: `/guides/${post.id}/`,
     permanent: true,
   }));
-  return JSON.stringify({ redirects }, null, 2) + "\n";
+  // cleanUrls strips ".html" from every page's URL (and 308-redirects any
+  // request that still has it) without moving a single file on disk — every
+  // top-level page and reviews/<id>.html keep living exactly where they are.
+  // post.html is deliberately left reachable at its real name: its whole job
+  // is catching old /post.html?id=... links (see the redirects above), and
+  // this doesn't change that — it can still just also be visited at /post.
+  return JSON.stringify({ cleanUrls: true, redirects }, null, 2) + "\n";
 }
 
 // ---------- Portable data export ----------
@@ -750,7 +760,7 @@ function bakeHomepageStats() {
 function blogCardHtml(post) {
   const cover = postCoverPhoto(post);
   return `
-    <a class="blog-card reveal" href="guides/${post.id}/">
+    <a class="blog-card reveal" href="/guides/${post.id}/">
       ${cover ? `<div class="blog-card-banner blog-card-banner-photo" style="background-image: url('${cover}')"></div>` : `<div class="blog-card-banner">${post.emoji}</div>`}
       <div class="blog-card-body">
         <div class="blog-meta"><span class="pill">${escapeHtml(post.city)}</span><span>${formatVisitDate(post.date)}</span></div>
@@ -810,7 +820,7 @@ function bakeHomeBlogGrid() {
 // restaurants, so this never implies a ranking of somewhere he hasn't been.
 function topRatedRowHtml(place, rank) {
   return `
-    <a class="top-rated-row reveal" href="reviews/${place.id}.html">
+    <a class="top-rated-row reveal" href="/reviews/${place.id}">
       <span class="top-rated-rank">#${rank}</span>
       <span class="top-rated-name">${escapeHtml(place.name)}</span>
       <span class="rating-badge ${ratingClass(place.rating)}">${place.rating}<small>/ 10</small></span>
