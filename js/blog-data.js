@@ -1293,13 +1293,13 @@ const BLOG_POSTS = [
   },
   {
     id: "best-cheap-eats-nashville",
-    places: ["jack-browns-nashville", "hugh-babys-nashville"],
+    places: ["reds-hot-chicken-nashville", "jack-browns-nashville", "hugh-babys-nashville"],
     title: "Best Cheap Eats in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-04",
     emoji: "💵",
     excerpt:
-      "From my own review of Jack Brown's to Prince's legendary hot chicken, the best cheap eats in Nashville for 2026, all $20 or less, ranked with no paid placements.",
+      "From my own reviews of Red's Hot Chicken and Jack Brown's to Prince's legendary hot chicken, the best cheap eats in Nashville for 2026, all $20 or less, ranked with no paid placements.",
     faq: [
       {
         question: "What is considered a cheap meal in Nashville?",
@@ -1335,9 +1335,9 @@ const BLOG_POSTS = [
       <ul>
         <li><strong>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></strong></li>
         <li><strong>2. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></strong></li>
-        <li><strong>3. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>4. <a href="/reviews/hugh-babys-nashville">Hugh-Baby's ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>5. <a href="https://redshotchicken.com/" target="_blank" rel="noopener">Red's Hot Chicken</a></strong></li>
+        <li><strong>3. <a href="/reviews/reds-hot-chicken-nashville">Red's Hot Chicken ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>4. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>5. <a href="/reviews/hugh-babys-nashville">Hugh-Baby's ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>6. <a href="https://fatmosburgers.com/" target="_blank" rel="noopener">Fat Mo's</a></strong></li>
         <li><strong>7. <a href="https://oscarstacoshop.com/" target="_blank" rel="noopener">Oscar's Taco Shop</a></strong></li>
         <li><strong>8. <a href="https://www.bajaburrito.com/" target="_blank" rel="noopener">Baja Burrito</a></strong></li>
@@ -1369,31 +1369,32 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BZ4dLAvDftD/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>3. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></h2>
+      <h2>3. <a href="/reviews/reds-hot-chicken-nashville">Red's Hot Chicken ⭐</a></h2>
+      <p><strong>Best For:</strong> Hot Chicken Sandwiches</p>
+      <p>Red's delivers big flavor at a reasonable price, making it one of the better budget lunch options around Nashville. <a href="/reviews/reds-hot-chicken-nashville">Read Sam's full review →</a></p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Hot Chicken Sandwich</li>
+        <li>Hot Chicken Mac & Cheese Crunch Wrap</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/reds-hot-chicken-nashville">Read my full Red's Hot Chicken review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/reds-hot-chicken-nashville/order.jpg" alt="Sam's Hot Chicken Mac & Cheese Crunch Wrap with a side of ranch, Red's Hot Chicken" loading="lazy" /></div>
+
+      <h2>4. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></h2>
       <p><strong>Best For:</strong> Creative Burgers Under $20</p>
       <p>Jack Brown's is a casual burger-and-beer spot in Germantown with a covered patio, proving you don't need a big budget for a great burger. <a href="/reviews/jack-browns-nashville">Read Sam's full review →</a></p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
-      <h2>4. <a href="/reviews/hugh-babys-nashville">Hugh-Baby's ⭐</a></h2>
+      <h2>5. <a href="/reviews/hugh-babys-nashville">Hugh-Baby's ⭐</a></h2>
       <p><strong>Best For:</strong> Burgers, BBQ & Milkshakes</p>
       <p>Hugh-Baby's has quietly become one of Nashville's favorite casual restaurants. Between the burgers, pulled pork, and shakes, it's one of the best food values in town.</p>
       <p>I've personally reviewed Hugh-Baby's for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/hugh-babys-nashville">Read my full Hugh-Baby's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/hugh-babys-nashville/order.jpg" alt="Close-up of the double cheeseburger, no pickle, add bacon, Hugh-Baby's" loading="lazy" /></div>
-
-      <h2>5. <a href="https://redshotchicken.com/" target="_blank" rel="noopener">Red's Hot Chicken</a></h2>
-      <p><strong>Best For:</strong> Hot Chicken Sandwiches</p>
-      <p>Red's delivers big flavor at a reasonable price, making it one of the better budget lunch options around Nashville.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Hot Chicken Sandwich</li>
-        <li>Loaded Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBCntyyth-_/" data-instgrm-version="14"></blockquote></div>
 
       <h2>6. <a href="https://fatmosburgers.com/" target="_blank" rel="noopener">Fat Mo's</a></h2>
       <p><strong>Best For:</strong> Giant Burgers</p>
@@ -1714,13 +1715,13 @@ const BLOG_POSTS = [
   },
   {
     id: "best-hot-chicken-nashville",
-    places: ["chen-chens-nashville", "halal-birdz-nashville"],
+    places: ["reds-hot-chicken-nashville", "chen-chens-nashville", "halal-birdz-nashville"],
     title: "Best Hot Chicken in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-02",
     emoji: "🔥",
     excerpt:
-      "From Prince's legendary original to newer spots like Brave Idiot and Slow Burn putting their own spin on it, the best hot chicken in Nashville for 2026, ranked with no paid placements.",
+      "From my own review of Red's Hot Chicken to Prince's legendary original and newer spots like Brave Idiot putting their own spin on it, the best hot chicken in Nashville for 2026, ranked with no paid placements.",
     faq: [
       {
         question: "What is the best hot chicken in Nashville?",
@@ -1764,7 +1765,7 @@ const BLOG_POSTS = [
         <li><strong>1. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></strong></li>
         <li><strong>2. <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></strong></li>
         <li><strong>3. <a href="https://www.braveidiot.com/" target="_blank" rel="noopener">Brave Idiot</a></strong></li>
-        <li><strong>4. <a href="https://redshotchicken.com/" target="_blank" rel="noopener">Red's Hot Chicken</a></strong></li>
+        <li><strong>4. <a href="/reviews/reds-hot-chicken-nashville">Red's Hot Chicken ⭐</a></strong> (Personally Reviewed)</li>
         <li><strong>5. <a href="https://www.400degreeshotchicken.com/" target="_blank" rel="noopener">400 Degrees</a></strong></li>
         <li><strong>6. <a href="https://www.boltonsfamous.com/" target="_blank" rel="noopener">Bolton's Spicy Chicken & Fish</a></strong></li>
         <li><strong>7. <a href="https://www.slowburnhotchicken.com/" target="_blank" rel="noopener">Slow Burn Hot Chicken</a></strong></li>
@@ -1816,18 +1817,18 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DAlZ4iNuJT9/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>4. <a href="https://redshotchicken.com/" target="_blank" rel="noopener">Red's Hot Chicken</a></h2>
+      <h2>4. <a href="/reviews/reds-hot-chicken-nashville">Red's Hot Chicken ⭐</a></h2>
       <p><strong>Best For:</strong> Hot Chicken Near Centennial Park</p>
       <p>Red's has earned a strong reputation among Nashville hot chicken fans while remaining smaller and more low-key than some of the city's biggest names.</p>
-      <p>It's an especially convenient stop if you're exploring Centennial Park or the Vanderbilt area.</p>
-      <p>The menu focuses on crispy chicken, sandwiches, and creative combinations that still stay true to Nashville's hot chicken roots.</p>
+      <p>It's an especially convenient stop if you're exploring Centennial Park or the Vanderbilt area. <a href="/reviews/reds-hot-chicken-nashville">Read Sam's full review →</a></p>
       <p><strong>Popular Picks:</strong></p>
       <ul>
         <li>Hot Chicken Sandwich</li>
-        <li>Hot Chicken Crunchwrap</li>
+        <li>Hot Chicken Mac & Cheese Crunch Wrap</li>
       </ul>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBCntyyth-_/" data-instgrm-version="14"></blockquote></div>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/reds-hot-chicken-nashville">Read my full Red's Hot Chicken review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/reds-hot-chicken-nashville/order.jpg" alt="Sam's Hot Chicken Mac & Cheese Crunch Wrap with a side of ranch, Red's Hot Chicken" loading="lazy" /></div>
 
       <h2>5. <a href="https://www.400degreeshotchicken.com/" target="_blank" rel="noopener">400 Degrees</a></h2>
       <p><strong>Best For:</strong> Serious Heat</p>

@@ -57,6 +57,37 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "reds-hot-chicken-nashville",
+    name: "Red's Hot Chicken",
+    city: "Nashville, TN",
+    lat: 36.1463807,
+    lng: -86.8123587,
+    address: "115 27th Ave N, Nashville, TN 37203",
+    phone: "(615) 400-1454",
+    parking: "Free parking nearby",
+    website: "https://redshotchicken.com/",
+    date: "2026-08-15",
+    price: "$$",
+    cuisine: "Hot Chicken",
+    badges: ["hidden-gem", "worth-the-wait"],
+    about: "Red's Hot Chicken is a walk-up hot chicken counter in Midtown Nashville, near Centennial Park and Vanderbilt, serving crispy tenders, sandwiches, and creative combinations like a hot chicken mac and cheese crunch wrap. It draws a steady lunch crowd, so ordering online for pickup is the easiest way to skip the line.",
+    ate: "The Hot Chicken Mac & Cheese Crunch Wrap, no pickles, with a side of seasoned fries and ranch.",
+    heroPhoto: "images/reviews/reds-hot-chicken-nashville/order.jpg",
+    photos: [
+      { src: "images/reviews/reds-hot-chicken-nashville/storefront.jpg", alt: "Red's Hot Chicken storefront sign, Midtown Nashville" },
+      { src: "images/reviews/reds-hot-chicken-nashville/interior.jpg", alt: "Red's Hot Chicken order window and menu board" },
+      { src: "images/reviews/reds-hot-chicken-nashville/order.jpg", alt: "Sam's Hot Chicken Mac & Cheese Crunch Wrap with a side of ranch, Red's Hot Chicken" },
+      { src: "images/reviews/reds-hot-chicken-nashville/order-closeup.jpg", alt: "Close-up cross-section of the Hot Chicken Mac & Cheese Crunch Wrap, Red's Hot Chicken" },
+      { src: "images/reviews/reds-hot-chicken-nashville/order-fries.jpg", alt: "Seasoned fries, Red's Hot Chicken" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Free parking"],
+    cons: ["Not a lot of seating", "Long waits"],
+    rating: 8.7,
+    video: "https://www.instagram.com/reel/DcR3AUjxnr_/",
+    tags: ["Hot Chicken", "Midtown"],
+  },
+  {
     id: "jack-browns-nashville",
     name: "Jack Brown's Beer & Burger Joint",
     city: "Nashville, TN",
