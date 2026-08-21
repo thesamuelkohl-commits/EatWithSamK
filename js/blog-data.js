@@ -40,6 +40,327 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-late-night-food-nashville",
+    places: ["baam-burger-nashville"],
+    title: "9 Best Late-Night Food Spots in Nashville (2026)",
+    city: "Nashville, TN",
+    date: "2026-08-21",
+    emoji: "🌙",
+    excerpt:
+      "Looking for late-night food in Nashville? Find burgers, pizza, hot chicken, tacos and restaurants serving food late near Broadway and beyond.",
+    faq: [
+      {
+        question: "What is the best late-night food in Nashville?",
+        answer:
+          "Nashville has late-night options ranging from classic burgers at Dino's and Earls Kitchen + Bar to hot chicken, pizza, tacos, and Broadway bar food. As I personally review more of them, I'll update this guide with my own Sam Scores and rankings.",
+      },
+      {
+        question: "Where can I get a late-night burger in Nashville?",
+        answer:
+          "Dino's, Earls Kitchen + Bar, and Baam Burger are several options to consider depending on where you are in Nashville.",
+      },
+      {
+        question: "Where can I eat late near Broadway?",
+        answer:
+          "Robert's Western World, JBJ's Nashville, Prince's Hot Chicken, Baam Burger, and other downtown restaurants can provide options depending on the night and current kitchen hours.",
+      },
+      {
+        question: "Where can I get late-night pizza in Nashville?",
+        answer:
+          "Till Five Pizza is one Nashville option specifically geared toward very late-night food.",
+      },
+      {
+        question: "Where can I eat after a Predators game?",
+        answer:
+          "Because Bridgestone Arena is located downtown, Broadway and the surrounding area give you several options depending on when the game ends.",
+      },
+      {
+        question: "Where can I eat after a concert in Nashville?",
+        answer:
+          "That depends on the venue. Downtown concerts give you access to Broadway-area restaurants, while East Nashville and Germantown provide additional options if you're willing to leave downtown.",
+      },
+    ],
+    content: `
+      <p>Looking for the best late-night food in Nashville? Whether you're leaving Broadway, a concert, a Predators game, or you're just hungry after midnight, Nashville has plenty of places to grab burgers, pizza, hot chicken, tacos, and classic late-night comfort food.</p>
+      <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinion in exchange for free food.</p>
+      <p>As I personally try more Nashville late-night spots, I'll update this guide with Sam Scores, original photos, videos, exact orders, and firsthand recommendations.</p>
+      <p><em>Last Updated: August 2026</em></p>
+      <p><em>Note: Late-night kitchen hours can change by day and season. Always check current hours before making the trip.</em></p>
+
+      <h2>🌙 Quick List: Best Late-Night Food in Nashville</h2>
+      <ul>
+        <li><strong>1. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></strong></li>
+        <li><strong>2. <a href="https://earls.ca/locations/earls-nashville-yards/" target="_blank" rel="noopener">Earls Kitchen + Bar</a></strong></li>
+        <li><strong>3. <a href="https://mothersruinnashville.com/" target="_blank" rel="noopener">Mother's Ruin</a></strong></li>
+        <li><strong>4. <a href="https://robertswesternworld.com/" target="_blank" rel="noopener">Robert's Western World</a></strong></li>
+        <li><strong>5. <a href="/reviews/baam-burger-nashville">Baam Burger ⭐</a></strong> (Personally Reviewed)</li>
+        <li><strong>6. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></strong></li>
+        <li><strong>7. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
+        <li><strong>8. <a href="https://till5pizza.com/" target="_blank" rel="noopener">Till Five Pizza</a></strong></li>
+        <li><strong>9. <a href="https://www.jbjsnash.com/" target="_blank" rel="noopener">JBJ's Nashville</a></strong></li>
+      </ul>
+
+      <h2>1. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h2>
+      <p><strong>Best For:</strong> Classic Nashville Late-Night Burgers</p>
+      <p>Dino's is basically a Nashville late-night institution.</p>
+      <p>Located in East Nashville, this dive bar is known for keeping things simple: burgers, fries, drinks, and a laid-back atmosphere.</p>
+      <p>You're not coming here for an upscale dining experience. You're coming because it's late, you're hungry, and a greasy cheeseburger sounds incredible.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Cheeseburger</li>
+        <li>Fries</li>
+        <li>Cold Beer</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>🏆 <strong>Late-Night Burger Pick</strong> &nbsp; 🌙 <strong>Nashville Classic</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>2. <a href="https://earls.ca/locations/earls-nashville-yards/" target="_blank" rel="noopener">Earls Kitchen + Bar</a></h2>
+      <p><strong>Best For:</strong> A Bigger Late-Night Menu at Nashville Yards</p>
+      <p>Earls Kitchen + Bar is a polished, upscale-casual chain that opened in 2026 at The Pinnacle at Nashville Yards, with a menu that ranges from sushi and steaks to salads and handhelds.</p>
+      <p>It's a different vibe than most of this list, not a dive bar, but its kitchen stays open later than a lot of nearby restaurants, up to 1-2 a.m. Wednesday through Saturday, making it a solid option when you want more of a full sit-down menu instead of another late-night diner.</p>
+      <p><strong>What to Look For:</strong></p>
+      <ul>
+        <li>Steaks</li>
+        <li>Sushi</li>
+        <li>Handhelds</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🍽️ <strong>Bigger Menu Pick</strong> &nbsp; 🌙 <strong>Late Kitchen Pick</strong></p>
+
+      <h2>3. <a href="https://mothersruinnashville.com/" target="_blank" rel="noopener">Mother's Ruin</a></h2>
+      <p><strong>Best For:</strong> Late-Night Bar Food</p>
+      <p>Mother's Ruin in Germantown has become one of Nashville's recognizable destinations for food and drinks late into the night.</p>
+      <p>Expect burgers, fries, cocktails, and other comfort food.</p>
+      <p>This is especially useful when you want somewhere that still feels lively rather than simply grabbing food and heading home.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Burgers</li>
+        <li>Waffle Fries</li>
+        <li>Cocktails</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🍟 <strong>Bar Food Pick</strong> &nbsp; 🌙 <strong>Germantown Pick</strong></p>
+
+      <h2>4. <a href="https://robertswesternworld.com/" target="_blank" rel="noopener">Robert's Western World</a></h2>
+      <p><strong>Best For:</strong> Late-Night Food on Broadway</p>
+      <p>If you're already spending your night on Lower Broadway, Robert's Western World gives you one of the most uniquely Nashville ways to get something to eat.</p>
+      <p>Instead of leaving Broadway to hunt down food, you can grab something while experiencing one of Nashville's classic honky-tonks.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Fried Bologna Sandwich</li>
+        <li>Classic Bar Food</li>
+        <li>Beer</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>🎸 <strong>Broadway Pick</strong> &nbsp; 💰 <strong>Great Value</strong></p>
+
+      <h2>5. <a href="/reviews/baam-burger-nashville">Baam Burger ⭐</a></h2>
+      <p><strong>Best For:</strong> Halal Late-Night Burgers</p>
+      <p>Baam Burger is a downtown Nashville burger spot tucked into The Arcade, just steps off Broadway, that stands out for its halal menu.</p>
+      <p>And unlike most of the restaurants on this list, I've personally reviewed Baam Burger for Eat With Sam K. <a href="/reviews/baam-burger-nashville">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order: Baam burger with bacon and cheese, fries, and a vanilla milkshake" loading="lazy" /></div>
+      <p>🍔 <strong>Halal Burger Pick</strong> &nbsp; 🌙 <strong>Downtown Pick</strong></p>
+
+      <h2>6. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h2>
+      <p><strong>Best For:</strong> Late-Night Nashville Hot Chicken</p>
+      <p>If you're visiting Nashville and haven't tried hot chicken yet, Prince's gives you a chance to knock out one of the city's signature foods.</p>
+      <p>Prince's is the restaurant credited with originating Nashville hot chicken, making it especially appealing for visitors.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Hot Chicken</li>
+        <li>Fries</li>
+        <li>Baked Beans</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🔥 <strong>Hot Chicken Pick</strong> &nbsp; 🎸 <strong>Nashville Classic</strong></p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BZ4dLAvDftD/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>7. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
+      <p><strong>Best For:</strong> Tacos & Drinks</p>
+      <p>Not every late-night meal needs to be a burger or pizza.</p>
+      <p>Bakersfield gives you tacos, queso, guacamole, tequila, and margaritas in a more social environment.</p>
+      <p>It's especially useful when you're out with a group and want food to be part of the night rather than simply grabbing something on the way home.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Tacos</li>
+        <li>Queso</li>
+        <li>Guacamole</li>
+        <li>Margaritas</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🌮 <strong>Taco Pick</strong> &nbsp; 🍹 <strong>Food + Drinks</strong></p>
+
+      <h2>8. <a href="https://till5pizza.com/" target="_blank" rel="noopener">Till Five Pizza</a></h2>
+      <p><strong>Best For:</strong> Really Late-Night Pizza</p>
+      <p>The name gives this one away.</p>
+      <p>Till Five Pizza is built around serving people when most traditional restaurants have already closed.</p>
+      <p>If it's extremely late and you want pizza, wings, sandwiches, pasta, or other comfort food, this is one of the Nashville options worth knowing.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Pizza</li>
+        <li>Wings</li>
+        <li>Subs</li>
+        <li>Pasta</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🕔 <strong>Really Late Pick</strong> &nbsp; 🍕 <strong>Pizza Pick</strong></p>
+
+      <h2>9. <a href="https://www.jbjsnash.com/" target="_blank" rel="noopener">JBJ's Nashville</a></h2>
+      <p><strong>Best For:</strong> Broadway Late-Night Food</p>
+      <p>JBJ's gives you another option directly on Broadway when you're already downtown.</p>
+      <p>Its late-night menu focuses on the kind of straightforward food that makes sense after a night out.</p>
+      <p><strong>Popular Picks:</strong></p>
+      <ul>
+        <li>Pizza</li>
+        <li>Hot Dogs</li>
+        <li>Fries</li>
+        <li>Walking Tacos</li>
+      </ul>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>🎸 <strong>Broadway Pick</strong></p>
+
+      <h2>🏆 Best Late-Night Nashville Food by Category</h2>
+      <p><strong>🍔 Best for Burgers</strong></p>
+      <ul>
+        <li>Dino's</li>
+        <li>Earls Kitchen + Bar</li>
+        <li>Baam Burger ⭐</li>
+      </ul>
+      <p><strong>🍕 Best for Pizza</strong></p>
+      <ul>
+        <li>Till Five Pizza</li>
+      </ul>
+      <p><strong>🔥 Best for Hot Chicken</strong></p>
+      <ul>
+        <li>Prince's Hot Chicken</li>
+      </ul>
+      <p><strong>🌮 Best for Tacos</strong></p>
+      <ul>
+        <li>Bakersfield</li>
+      </ul>
+      <p><strong>🎸 Best Near Broadway</strong></p>
+      <ul>
+        <li>Robert's Western World</li>
+        <li>JBJ's Nashville</li>
+        <li>Prince's Hot Chicken</li>
+      </ul>
+      <p><strong>💰 Best Budget-Friendly Options</strong></p>
+      <ul>
+        <li>Dino's</li>
+        <li>Robert's Western World</li>
+      </ul>
+      <p><strong>🌙 Best Classic Late-Night Experience</strong></p>
+      <ul>
+        <li>Dino's</li>
+        <li>Robert's Western World</li>
+      </ul>
+
+      <h2>🎸 Best Late-Night Food Near Broadway</h2>
+      <p>If you're visiting Nashville, there's a good chance this is what you're actually searching for.</p>
+      <p>After spending the night around Broadway, you probably don't need a fancy restaurant.</p>
+      <p>You need: Good food + nearby + still serving.</p>
+      <p>Some options to consider include:</p>
+      <ul>
+        <li>🎸 Robert's Western World</li>
+        <li>🎵 JBJ's Nashville</li>
+        <li>🔥 Prince's Hot Chicken</li>
+        <li>🍔 Baam Burger ⭐</li>
+      </ul>
+      <p>If you're willing to leave downtown, you'll have even more options in East Nashville, Germantown, and elsewhere around the city.</p>
+
+      <h2>🏒 Where to Eat After a Predators Game</h2>
+      <p>One of the advantages of Bridgestone Arena is its location.</p>
+      <p>When a Predators game or concert ends, you're already surrounded by downtown Nashville restaurants and bars.</p>
+      <p>Depending on what time your event ends, Broadway and the surrounding downtown area can give you several late-night options.</p>
+      <p>➡️ Read: <a href="/guides/best-restaurants-near-bridgestone-arena-nashville/">Best Restaurants Near Bridgestone Arena</a></p>
+
+      <h2>🏈 Where to Eat After a Titans Game</h2>
+      <p>Nissan Stadium sits across the Cumberland River from downtown Nashville.</p>
+      <p>That means after an evening Titans game or stadium event, you can head toward downtown or farther into East Nashville.</p>
+      <p>East Nashville can be particularly useful for late-night spots like Dino's.</p>
+      <p>➡️ Read: <a href="/guides/best-restaurants-near-nissan-stadium-nashville/">Best Restaurants Near Nissan Stadium</a></p>
+
+      <h2>🍔 What Should You Eat Late at Night in Nashville?</h2>
+      <p>At midnight, I'm probably not looking for a tasting menu.</p>
+      <p>I'm looking for:</p>
+      <ul>
+        <li>🍔 Burgers</li>
+        <li>🍕 Pizza</li>
+        <li>🔥 Hot Chicken</li>
+        <li>🌮 Tacos</li>
+        <li>🍟 Something involving way too many fries</li>
+      </ul>
+      <p>That's why this guide focuses heavily on casual food.</p>
+
+      <h2>💰 Cheap Late-Night Food in Nashville</h2>
+      <p>Going out in Nashville can get expensive quickly.</p>
+      <p>If you've already paid for dinner, drinks, parking, a concert, or a game, you probably don't want to spend another $50 on food at midnight.</p>
+      <p>That's where places serving burgers, pizza, sandwiches, tacos, and classic diner food become especially useful.</p>
+      <p>As I personally review more of these restaurants, I'll add a dedicated 🏆 Sam's Best Late-Night Value based on the food I've actually tried.</p>
+
+      <h2>🌙 5 Tips for Eating Late in Nashville</h2>
+      <ol>
+        <li><strong>Check kitchen hours, not just closing time.</strong> A bar might remain open until 2 a.m. while its kitchen closes considerably earlier.</li>
+        <li><strong>Check the specific day.</strong> Friday and Saturday hours can be very different from Monday through Thursday.</li>
+        <li><strong>Expect downtown crowds.</strong> Broadway, concerts, Predators games, and other events can all create major late-night rushes.</li>
+        <li><strong>Look beyond Broadway.</strong> East Nashville and Germantown can give you considerably more options.</li>
+        <li><strong>Verify before driving somewhere.</strong> Late-night hours change frequently, so always check the restaurant's current hours before making a special trip.</li>
+      </ol>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What is the best late-night food in Nashville?</strong></p>
+      <p>Nashville has late-night options ranging from classic burgers at Dino's and Earls Kitchen + Bar to hot chicken, pizza, tacos, and Broadway bar food. As I personally review more of them, I'll update this guide with my own Sam Scores and rankings.</p>
+      <p><strong>Where can I get a late-night burger in Nashville?</strong></p>
+      <p>Dino's, Earls Kitchen + Bar, and Baam Burger are several options to consider depending on where you are in Nashville.</p>
+      <p><strong>Where can I eat late near Broadway?</strong></p>
+      <p>Robert's Western World, JBJ's Nashville, Prince's Hot Chicken, Baam Burger, and other downtown restaurants can provide options depending on the night and current kitchen hours.</p>
+      <p><strong>Where can I get late-night pizza in Nashville?</strong></p>
+      <p>Till Five Pizza is one Nashville option specifically geared toward very late-night food.</p>
+      <p><strong>Where can I eat after a Predators game?</strong></p>
+      <p>Because Bridgestone Arena is located downtown, Broadway and the surrounding area give you several options depending on when the game ends.</p>
+      <p><strong>Where can I eat after a concert in Nashville?</strong></p>
+      <p>That depends on the venue. Downtown concerts give you access to Broadway-area restaurants, while East Nashville and Germantown provide additional options if you're willing to leave downtown.</p>
+
+      <h2>How I'm Finding Nashville's Best Late-Night Food</h2>
+      <p>This list will change.</p>
+      <p>I'm personally working my way through Nashville restaurants, and as I review more late-night spots I'll add:</p>
+      <ul>
+        <li>⭐ Sam Scores</li>
+        <li>📸 Original Photos</li>
+        <li>🎥 Video Reviews</li>
+        <li>🍽️ Exactly What I Ordered</li>
+        <li>💰 Price & Value</li>
+        <li>💬 Sam Says</li>
+        <li>🔁 Would I Go Back?</li>
+      </ul>
+      <p>Eventually I don't want this guide to simply tell you what's open late. I want it to answer what's actually worth eating late. That's a much more useful question.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Nashville doesn't completely shut down when normal dinner service ends.</p>
+      <p>Whether you're leaving Broadway, a Predators game, a Titans game, a concert, or you're simply hungry after midnight, you still have options.</p>
+      <p>The biggest thing to remember is that late-night hours change frequently, so check current kitchen hours before heading somewhere.</p>
+      <p>And as I personally try more of these places, this guide will increasingly become based on my own experiences rather than reputation alone.</p>
+      <p><em>Last Updated: August 2026</em></p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
+        <li><a href="/guides/best-restaurants-near-bridgestone-arena-nashville/">Best Restaurants Near Bridgestone Arena</a></li>
+        <li><a href="/guides/best-restaurants-near-nissan-stadium-nashville/">Best Restaurants Near Nissan Stadium</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a></li>
+        <li><a href="/guides/best-bbq-nashville/">Best BBQ in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-restaurants-near-bridgestone-arena-nashville",
     places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "jack-browns-nashville"],
     title: "Best Restaurants Near Bridgestone Arena in Nashville (2026 Guide)",

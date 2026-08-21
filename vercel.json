@@ -7,6 +7,18 @@
         {
           "type": "query",
           "key": "id",
+          "value": "best-late-night-food-nashville"
+        }
+      ],
+      "destination": "/guides/best-late-night-food-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
           "value": "best-restaurants-near-bridgestone-arena-nashville"
         }
       ],
