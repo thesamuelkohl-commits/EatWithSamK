@@ -42,7 +42,7 @@ const BLOG_POSTS = [
   {
     id: "best-late-night-food-nashville",
     places: ["baam-burger-nashville"],
-    title: "9 Best Late-Night Food Spots in Nashville (2026)",
+    title: "Best Late-Night Food Spots in Nashville (2026)",
     city: "Nashville, TN",
     date: "2026-08-21",
     emoji: "🌙",
