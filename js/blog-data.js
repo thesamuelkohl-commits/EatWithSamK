@@ -2677,13 +2677,13 @@ const BLOG_POSTS = [
   },
   {
     id: "best-date-night-restaurants-nashville",
-    places: ["maru-weho-nashville", "ocean-prime-nashville"],
+    places: ["maru-weho-nashville", "ocean-prime-nashville", "culaccino-nashville"],
     title: "Best Date Night Restaurants in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-24",
     emoji: "🥂",
     excerpt:
-      "From The Optimist's fresh seafood to Bourbon Steak's steakhouse luxury, the 10 best date night restaurants in Nashville for 2026, ranked with no paid placements.",
+      "From The Optimist's fresh seafood to Bourbon Steak's steakhouse luxury and my own review of Culaccino, the best date night restaurants in Nashville for 2026, ranked with no paid placements.",
     faq: [
       {
         question: "What is the most romantic restaurant in Nashville?",
@@ -2721,6 +2721,7 @@ const BLOG_POSTS = [
         <li><strong>10. <a href="https://peninsulanashville.com/" target="_blank" rel="noopener">Peninsula</a></strong></li>
         <li><strong>11. <a href="/reviews/ocean-prime-nashville">Ocean Prime</a></strong> ⭐ (Personally Reviewed)</li>
         <li><strong>12. <a href="/reviews/maru-weho-nashville">Maru WeHo</a></strong> ⭐ (Personally Reviewed)</li>
+        <li><strong>13. <a href="/reviews/culaccino-nashville">Culaccino</a></strong> ⭐ (Personally Reviewed)</li>
       </ul>
 
       <h2>1. <a href="https://www.theoptimistrestaurant.com/nashville" target="_blank" rel="noopener">The Optimist</a></h2>
@@ -2808,6 +2809,13 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/maru-weho-nashville">Read my full Maru WeHo review →</a></p>
       <div class="own-photo"><img src="/images/reviews/maru-weho-nashville/order.jpg" alt="Sam's order: Pink Lady, Tiger, and Dynamite rolls, Maru WeHo" loading="lazy" /></div>
+
+      <h2>13. <a href="/reviews/culaccino-nashville">Culaccino</a> ⭐</h2>
+      <p><strong>Best For:</strong> Upscale Italian at Nashville Yards</p>
+      <p>Culaccino is a Franklin-based Italian concept's second location, tucked into The Emory tower at Nashville Yards, with scratch-made pasta, wood-fired pizza, and a lively dining room that makes it a solid date night option a short walk from downtown. <a href="/reviews/culaccino-nashville">Read Sam's full review →</a></p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/culaccino-nashville">Read my full Culaccino review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/culaccino-nashville/order-pizza.jpg" alt="Sam's order: Il Re Di Bologna pizza, Culaccino" loading="lazy" /></div>
 
       <h2>How I Rate Date Night Restaurants</h2>
       <p>Every restaurant reviewed on Eat With Sam K is scored using the same criteria:</p>

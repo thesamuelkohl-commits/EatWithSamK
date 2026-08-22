@@ -57,6 +57,36 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "culaccino-nashville",
+    name: "Culaccino",
+    city: "Nashville, TN",
+    lat: 36.1595814,
+    lng: -86.7843087,
+    address: "900 Commerce St, Nashville, TN 37203",
+    phone: "(629) 702-3896",
+    parking: "Paid parking nearby",
+    website: "https://www.culaccinotn.com/",
+    date: "2026-08-22",
+    price: "$$$",
+    cuisine: "Italian",
+    about: "Culaccino is an upscale Italian restaurant and bar in Nashville Yards, the second location of a Franklin-based concept from chef Frank Pullara, with scratch-made pasta, wood-fired pizzas, and a lively dining room inside The Emory tower.",
+    ate: "Nonno's Fennel Sausage, Ricotta Carrozza, Gnocchi, and the Il Re Di Bologna pizza.",
+    heroPhoto: "images/reviews/culaccino-nashville/order-pizza.jpg",
+    photos: [
+      { src: "images/reviews/culaccino-nashville/storefront.jpg", alt: "Culaccino storefront sign, Nashville Yards" },
+      { src: "images/reviews/culaccino-nashville/interior.jpg", alt: "Inside Culaccino, dining room and bar, Nashville Yards" },
+      { src: "images/reviews/culaccino-nashville/order-sausage.jpg", alt: "Sam's order: Nonno's Fennel Sausage, Culaccino" },
+      { src: "images/reviews/culaccino-nashville/order-ricotta-carrozza.jpg", alt: "Sam's order: Ricotta Carrozza, Culaccino" },
+      { src: "images/reviews/culaccino-nashville/order-gnocchi.jpg", alt: "Sam's order: Gnocchi, Culaccino" },
+      { src: "images/reviews/culaccino-nashville/order-pizza.jpg", alt: "Sam's order: Il Re Di Bologna pizza, Culaccino" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Cool environment"],
+    rating: 7.3,
+    video: "https://www.instagram.com/reel/DcW0skXMNye/",
+    tags: ["Italian", "Cool Environment"],
+  },
+  {
     id: "reds-hot-chicken-nashville",
     name: "Red's Hot Chicken",
     city: "Nashville, TN",
