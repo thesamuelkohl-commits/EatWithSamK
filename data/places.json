@@ -1,6 +1,68 @@
 {
-  "generatedAt": "2026-08-22T22:36:37.363Z",
+  "generatedAt": "2026-08-24T04:21:24.546Z",
   "places": [
+    {
+      "id": "pelato-nashville",
+      "name": "Pelato",
+      "city": "Nashville, TN",
+      "lat": 36.177941,
+      "lng": -86.786471,
+      "address": "1300 3rd Ave N, Nashville, TN 37208",
+      "phone": "(615) 953-0012",
+      "parking": "Paid and free parking nearby",
+      "website": "https://www.pelatorestaurant.com/",
+      "date": "2026-08-23",
+      "price": "$$$$",
+      "cuisine": "Italian",
+      "badges": [
+        "favorite",
+        "date-night",
+        "best-patio"
+      ],
+      "about": "Pelato is a Brooklyn-Italian, family-run restaurant in Nashville's Salemtown neighborhood, serving small, sharable plates built around cherished family recipes — handmade pasta, wood-fired dishes, and a lively bar scene, with 2-3 dishes per person recommended.",
+      "ate": "Mozzarella Caprese, two orders of the Radiatori Vodka, Chicken Parmigiana, and the Campanelle Shrimp Limone.",
+      "heroPhoto": "images/reviews/pelato-nashville/order-chicken-parm.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/pelato-nashville/storefront.jpg",
+          "alt": "Pelato storefront sign, Salemtown, Nashville"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/pelato-nashville/interior.jpg",
+          "alt": "Inside Pelato, bar and dining room, Nashville"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/pelato-nashville/order-mozzarella.jpg",
+          "alt": "Sam's order: Mozzarella Caprese, Pelato"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/pelato-nashville/order-radiatori-vodka.jpg",
+          "alt": "Sam's order: Radiatori Vodka, Pelato"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/pelato-nashville/order-chicken-parm.jpg",
+          "alt": "Sam's order: Chicken Parmigiana, Pelato"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/pelato-nashville/order-campanelle.jpg",
+          "alt": "Sam's order: Campanelle Shrimp Limone, Pelato"
+        }
+      ],
+      "pros": [
+        "Great environment",
+        "Good drinks"
+      ],
+      "cons": [
+        "Busy — recommend a reservation"
+      ],
+      "rating": 9.3,
+      "video": "https://www.instagram.com/reel/DcZp6XwN1gh/",
+      "tags": [
+        "Italian",
+        "Fun Environment"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/pelato-nashville"
+    },
     {
       "id": "culaccino-nashville",
       "name": "Culaccino",
@@ -235,6 +297,7 @@
       "price": "$$$$",
       "cuisine": "Steakhouse & Seafood",
       "badges": [
+        "favorite",
         "date-night",
         "best-drinks",
         "best-patio"
@@ -458,6 +521,7 @@
       "price": "$$",
       "cuisine": "Sushi",
       "badges": [
+        "favorite",
         "quick-bite",
         "date-night",
         "best-drinks"
