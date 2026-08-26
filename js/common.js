@@ -282,6 +282,7 @@ function priceTagHtml(price) {
 function placeCardHtml(p, opts) {
   opts = opts || {};
   const ratingBadge = `<div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>`;
+  const metaBits = [p.cuisine, p.price ? priceTagHtml(p.price) : ""].filter(Boolean);
   return `
     <article class="place-card reveal" id="card-${p.id}">
       ${
@@ -293,16 +294,18 @@ function placeCardHtml(p, opts) {
         <div class="card-top">
           <div>
             <h3><a href="/reviews/${p.id}">${p.name}</a></h3>
-            <div class="card-city">📍 ${p.city}</div>
+            <div class="card-city">📍 ${p.city}${opts.distanceLabel ? ` · ${opts.distanceLabel}` : ""}</div>
           </div>
           <div class="card-top-actions">
             ${favoriteButtonHtml(p)}
             ${p.heroPhoto ? "" : ratingBadge}
           </div>
         </div>
+        ${metaBits.length ? `<p class="card-meta">${metaBits.join(" • ")}</p>` : ""}
         ${badgeRowHtml(p)}
         ${p.tags && p.tags.length ? `<div class="card-tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>` : ""}
         <p class="card-ate"><strong>What I ate:</strong> ${p.ate}</p>
+        ${p.quickTake ? `<p class="card-quicktake">💬 <strong>Sam Says:</strong> “${p.quickTake}”</p>` : ""}
         <div class="card-contact">
           <span>🏠 ${p.address}</span>
           ${p.phone ? `<span>📞 <a href="tel:${p.phone.replace(/[^+\d]/g, "")}">${p.phone}</a></span>` : ""}

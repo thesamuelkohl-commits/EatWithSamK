@@ -344,7 +344,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=35" />
+  <link rel="stylesheet" href="../css/style.css?v=36" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -436,7 +436,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="../js/data.js?v=14"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=27"></script>
+  <script src="../js/common.js?v=28"></script>
   <script src="../js/auth.js?v=3"></script>
   <script src="../js/pwa.js?v=1"></script>
   <script>
@@ -561,7 +561,7 @@ function renderGuidePage(post) {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=35" />
+  <link rel="stylesheet" href="/css/style.css?v=36" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -613,7 +613,7 @@ function renderGuidePage(post) {
   <script src="/js/data.js?v=14"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=27"></script>
+  <script src="/js/common.js?v=28"></script>
   <script src="/js/auth.js?v=3"></script>
   <script src="/js/pwa.js?v=1"></script>
 </body>
@@ -814,26 +814,6 @@ function bakeHomeBlogGrid() {
   console.log(`updated index.html "Best Of Guides" section (${recentPosts.length} most recent)`);
 }
 
-// Homepage "Sam's Top Rated" — the top few personally-reviewed places by
-// rating, linking straight to each review. Deliberately pulls only from
-// PLACES (places Sam has actually eaten at and scored), never guide-only
-// restaurants, so this never implies a ranking of somewhere he hasn't been.
-function topRatedRowHtml(place, rank) {
-  return `
-    <a class="top-rated-row reveal" href="/reviews/${place.id}">
-      <span class="top-rated-rank">#${rank}</span>
-      <span class="top-rated-name">${escapeHtml(place.name)}</span>
-      <span class="rating-badge ${ratingClass(place.rating)}">${place.rating}<small>/ 10</small></span>
-    </a>`;
-}
-
-function bakeTopRated() {
-  const top = [...PLACES].sort((a, b) => b.rating - a.rating).slice(0, 3);
-  const rows = top.map((p, i) => topRatedRowHtml(p, i + 1)).join("");
-  bakeMarkedSection("index.html", "top-rated", rows);
-  console.log(`updated index.html "Sam's Top Rated" section (top ${top.length})`);
-}
-
 const reviewsDir = path.join(__dirname, "reviews");
 fs.mkdirSync(reviewsDir, { recursive: true });
 
@@ -887,6 +867,5 @@ writeDataExport();
 bakeHomepageStats();
 bakeBestOfGrid();
 bakeHomeBlogGrid();
-bakeTopRated();
 
 console.log(`\nDone — ${PLACES.length} review page(s), ${BLOG_POSTS.length} guide page(s) generated.`);

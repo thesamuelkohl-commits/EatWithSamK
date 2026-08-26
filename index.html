@@ -41,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="css/style.css?v=35" />
+  <link rel="stylesheet" href="css/style.css?v=36" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -90,28 +90,59 @@
     </div>
   </section>
 
-  <section class="places-section">
+  <section class="finder-section" id="food-finder">
     <div class="container">
-      <div class="toolbar reveal">
-        <h2>🏆 Sam's Top Rated</h2>
-        <a class="btn btn-ghost" href="/reviews">See All Rankings →</a>
+      <div class="finder-card reveal">
+        <div class="finder-intro">
+          <h2>🍽️ What Should I Eat?</h2>
+          <p class="finder-subhead">Tell me what you're craving and I'll help you find a spot.</p>
+          <p class="finder-blurb">Search every Nashville restaurant Sam K has personally reviewed and Sam Score'd, filtered by cuisine, budget, vibe, and distance, for real food discovery instead of just another list.</p>
+        </div>
+
+        <div class="finder-location">
+          <button type="button" class="btn btn-ghost" id="finder-use-location">📍 Use My Location</button>
+          <p class="finder-location-note" id="finder-location-note">Only used to find restaurants near you, your exact location is never stored.</p>
+          <div class="filter-group" id="finder-distance-group" hidden>
+            <label class="filter-group-label" for="finder-distance">📍 Near You</label>
+            <select class="filter-select" id="finder-distance">
+              <option value="5">Within 5 Miles</option>
+              <option value="10" selected>Within 10 Miles</option>
+              <option value="25">Within 25 Miles</option>
+              <option value="50">Within 50 Miles</option>
+              <option value="any">Any Distance</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="finder-filters">
+          <div class="filter-group">
+            <label class="filter-group-label" for="finder-cuisine">Cuisine</label>
+            <select class="filter-select" id="finder-cuisine"><option value="">Anything</option></select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-group-label" for="finder-price">Budget</label>
+            <select class="filter-select" id="finder-price"><option value="">Any</option></select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-group-label" for="finder-tag">Vibe</label>
+            <select class="filter-select" id="finder-tag"><option value="">Anything</option></select>
+          </div>
+          <div class="filter-group">
+            <label class="filter-group-label" for="finder-score">Minimum Sam Score</label>
+            <select class="filter-select" id="finder-score">
+              <option value="0">Any</option>
+              <option value="7">7.0+</option>
+              <option value="8">8.0+</option>
+              <option value="8.5">8.5+</option>
+              <option value="9">9.0+</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="button" class="btn btn-primary finder-cta" id="finder-submit">Find My Food</button>
+
+        <div class="finder-result" id="finder-result" aria-live="polite"></div>
       </div>
-      <div class="top-rated-list" id="top-rated"><!-- baked:top-rated:start -->
-    <a class="top-rated-row reveal" href="/reviews/pelato-nashville">
-      <span class="top-rated-rank">#1</span>
-      <span class="top-rated-name">Pelato</span>
-      <span class="rating-badge great">9.3<small>/ 10</small></span>
-    </a>
-    <a class="top-rated-row reveal" href="/reviews/ocean-prime-nashville">
-      <span class="top-rated-rank">#2</span>
-      <span class="top-rated-name">Ocean Prime</span>
-      <span class="rating-badge great">9.3<small>/ 10</small></span>
-    </a>
-    <a class="top-rated-row reveal" href="/reviews/maru-weho-nashville">
-      <span class="top-rated-rank">#3</span>
-      <span class="top-rated-name">Maru WeHo</span>
-      <span class="rating-badge great">9.2<small>/ 10</small></span>
-    </a><!-- baked:top-rated:end --></div>
     </div>
   </section>
 
@@ -175,9 +206,10 @@
   <script src="js/blog-data.js?v=32"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-config.js?v=1"></script>
-  <script src="js/common.js?v=27"></script>
+  <script src="js/common.js?v=28"></script>
   <script src="js/auth.js?v=3"></script>
   <script src="js/pwa.js?v=1"></script>
   <script src="js/app.js?v=7"></script>
+  <script src="js/food-finder.js?v=1"></script>
 </body>
 </html>

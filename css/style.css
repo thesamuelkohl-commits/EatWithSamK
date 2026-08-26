@@ -462,6 +462,8 @@ a { color: var(--red); }
   outline: none;
 }
 
+.filter-select:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+
 .filter-pills { display: flex; flex-wrap: wrap; gap: 6px; }
 
 .filter-pill {
@@ -504,6 +506,107 @@ a { color: var(--red); }
   margin-left: auto;
   padding: 7px 16px;
   font-size: 0.85rem;
+}
+
+/* ---------- Homepage "What Should I Eat?" food finder ---------- */
+.finder-section { padding: 8px 0 40px; }
+
+.finder-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 30px 32px;
+}
+
+.finder-intro { text-align: center; margin-bottom: 22px; }
+.finder-intro h2 { font-size: 1.7rem; }
+.finder-subhead { color: var(--ink-soft); font-size: 1.05rem; margin-top: 6px; }
+.finder-blurb { color: var(--ink-soft); font-size: 0.88rem; max-width: 560px; margin: 8px auto 0; }
+
+.finder-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px dashed var(--line);
+}
+
+.finder-location-note { color: var(--ink-soft); font-size: 0.82rem; text-align: center; max-width: 380px; }
+
+.finder-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px 26px;
+  margin-bottom: 22px;
+}
+
+.finder-filters .filter-group,
+.finder-location .filter-group {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.finder-filters .filter-select,
+.finder-location .filter-select { min-width: 170px; }
+
+.finder-cta {
+  display: flex;
+  margin: 0 auto;
+  padding: 14px 44px;
+  font-size: 1rem;
+}
+
+.finder-result { margin-top: 28px; }
+
+.finder-result-label {
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 600;
+  color: var(--red);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.9rem;
+  margin-bottom: 14px;
+}
+
+.finder-result .place-card { max-width: 440px; margin: 0 auto; }
+
+.finder-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.finder-empty {
+  text-align: center;
+  color: var(--ink-soft);
+  padding: 30px 20px;
+  border: 2px dashed var(--line);
+  border-radius: var(--radius);
+  font-size: 1rem;
+}
+
+@media (max-width: 620px) {
+  .finder-card { padding: 24px 18px; }
+  .finder-filters { flex-direction: column; align-items: stretch; }
+  .finder-filters .filter-group,
+  .finder-location .filter-group { width: 100%; }
+  .finder-filters .filter-select,
+  .finder-location .filter-select,
+  #finder-distance {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 1rem;
+  }
+  .finder-cta { width: 100%; padding: 16px; }
+  #finder-use-location { width: 100%; padding: 12px 16px; }
 }
 
 /* ---------- Place cards ---------- */
@@ -602,37 +705,6 @@ a { color: var(--red); }
 .rating-badge.poor { background: var(--red); }
 
 .card-tags { display: flex; gap: 6px; flex-wrap: wrap; }
-
-/* ---------- Homepage "Sam's Top Rated" ---------- */
-.top-rated-list { display: flex; flex-direction: column; gap: 10px; }
-
-.top-rated-row {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  background: var(--card);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 14px 20px;
-  text-decoration: none;
-  color: var(--ink);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.top-rated-row:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
-
-.top-rated-rank {
-  font-family: "Fredoka", sans-serif;
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: var(--red);
-  flex-shrink: 0;
-  width: 32px;
-}
-
-.top-rated-name { font-weight: 700; flex: 1; }
-
-.top-rated-row .rating-badge { padding: 6px 10px; font-size: 0.95rem; }
 
 .tag {
   background: #f6ebdd;
@@ -733,6 +805,18 @@ a { color: var(--red); }
 
 .card-ate { color: var(--ink); font-size: 0.95rem; }
 .card-ate strong { color: var(--red); }
+
+.card-meta { color: var(--ink-soft); font-size: 0.85rem; font-weight: 700; }
+
+.card-quicktake {
+  font-size: 0.92rem;
+  font-style: italic;
+  color: var(--ink);
+  background: var(--cream);
+  border-left: 3px solid var(--gold);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
 
 .card-contact {
   border-top: 1px dashed var(--line);

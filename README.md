@@ -151,6 +151,17 @@ The top nav and site footer are **shared components**, not copy-pasted per page 
 
 Selecting more than one Price or Tag pill is an **OR** within that row (e.g. picking `$` and `$$$` shows places matching either), while City, Cuisine, Price, and Tags together are combined with **AND** (a place has to match all of the filters you've set, plus the search box and sort). "Clear Filters" resets all of it back to showing everything.
 
+## "What Should I Eat?" (homepage food finder)
+
+`index.html` has an interactive picker (`js/food-finder.js`) right below the hero — it replaced the old "Sam's Top Rated" list. Pick a Cuisine/Budget/Vibe/Minimum Sam Score, hit **Find My Food**, and it randomly surfaces one matching place from `PLACES`, rendered with the exact same `placeCardHtml()` card used everywhere else on the site. **Show Me Another** re-rolls within the same filters (never immediately repeating the last pick when other matches exist).
+
+- **Filter options are never hardcoded** — Cuisine and Vibe are built the same way as the Reviews page filters (only values actually present in `js/data.js`/`BADGES` show up), and Budget comes straight from `PRICE_GUIDE`. Minimum Sam Score is a fixed 0/7/8/8.5/9 scale, same idea as the Map page's rating slider.
+- **"Use My Location"** only asks for geolocation permission when a visitor clicks it — never on page load. Coordinates stay in a JS variable for that page view only (never stored, never sent to analytics) and get compared to every place's `lat`/`lng` with a Haversine distance calculation. Denied/unsupported/timed-out geolocation just shows a fallback line and disables the distance filter — cuisine/budget/vibe/score keep working normally.
+- **No match found** offers "Reset Filters" / "Show Closest Match" (relaxes score → vibe → budget → cuisine → distance, in that order, until something real matches — it only ever surfaces an actual place from `PLACES`), or, once location is on, "Expand to 25/50 Miles" / "Search Any Distance".
+- Fires `food_finder_used`, `food_finder_result`, `food_finder_review_clicked`, `food_finder_saved`, `food_finder_location_enabled`, and `food_finder_radius_selected` to Google Analytics (see "Analytics & Ads" below) — never with precise coordinates.
+
+Two small `placeCardHtml()` additions ship with this that show up everywhere, not just the finder: a cuisine/price line under every card's name, and a "💬 Sam Says" line on any place with a `quickTake` field.
+
 ## Saved places (favorites) + real accounts
 
 Every place — cards, map pins, and each review page's hero — has a 🤍/❤️ save button. Two layers, and visitors never have to think about which one they're in:
