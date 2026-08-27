@@ -186,14 +186,14 @@
   <script src="../js/data.js?v=14"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=28"></script>
+  <script src="../js/common.js?v=29"></script>
   <script src="../js/auth.js?v=3"></script>
   <script src="../js/pwa.js?v=1"></script>
   <script>
     hydrateFavoriteButtons();
     var map = L.map("map", { scrollWheelZoom: false }).setView([36.16417, -86.78], 15);
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png", {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
       maxZoom: 19,
     }).addTo(map);
     var icon = L.divIcon({
