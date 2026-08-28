@@ -990,198 +990,73 @@ const BLOG_POSTS = [
     content: `
       <p>Searching for the best coffee shops in Nashville? Whether you want carefully roasted specialty coffee, a comfortable place to work, an impressive seasonal latte, or a full breakfast with your morning drink, Nashville has no shortage of excellent cafés.</p>
       <p>Nashville's coffee scene includes longtime local institutions, specialty roasters, all-day cafés, neighborhood gathering places, and newer shops offering creative drinks and modern spaces.</p>
-      <p>At Eat With Sam K, every visit is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food or drinks. As I personally visit more Nashville coffee shops, this guide will be updated with my own scores, photos, videos, and rankings.</p>
+      <p>At Eat With Sam K, every visit is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food or drinks. I haven't personally reviewed a Nashville coffee shop yet, so nothing below has a Sam Score. As soon as I do, it'll move to the top of this guide.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
 
-      <h2>Quick List: Best Coffee Shops in Nashville</h2>
-      <ul>
-        <li><strong>1. <a href="https://crema-coffee.com/" target="_blank" rel="noopener">Crema Coffee Roasters</a></strong></li>
-        <li><strong>2. <a href="https://baristaparlor.com/" target="_blank" rel="noopener">Barista Parlor</a></strong></li>
-        <li><strong>3. <a href="https://8thandroast.com/" target="_blank" rel="noopener">8th & Roast</a></strong></li>
-        <li><strong>4. <a href="https://frothymonkey.com/" target="_blank" rel="noopener">Frothy Monkey</a></strong></li>
-        <li><strong>5. <a href="https://humphreysstreet.com/" target="_blank" rel="noopener">Humphreys Street Coffee</a></strong></li>
-        <li><strong>6. <a href="https://www.elegycoffee.com/" target="_blank" rel="noopener">Elegy Coffee</a></strong></li>
-        <li><strong>7. <a href="https://dosenashville.com/" target="_blank" rel="noopener">Dose Coffee & Tea</a></strong></li>
-        <li><strong>8. <a href="https://www.instagram.com/florafaunanashville/" target="_blank" rel="noopener">Flora + Fauna</a></strong></li>
-        <li><strong>9. <a href="https://www.bongojava.com/pages/fido" target="_blank" rel="noopener">Fido</a></strong></li>
-        <li><strong>10. <a href="https://www.matryoshkacoffee.com/" target="_blank" rel="noopener">Matryoshka Coffee</a></strong></li>
-      </ul>
+      <h2>Nashville Coffee Shops Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's coffee scene, so the shops below haven't received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
 
-      <h2>1. <a href="https://crema-coffee.com/" target="_blank" rel="noopener">Crema Coffee Roasters</a></h2>
-      <p><strong>Best For:</strong> Specialty Coffee</p>
+      <h3>☕ <a href="https://crema-coffee.com/" target="_blank" rel="noopener">Crema Coffee Roasters</a></h3>
       <p>Crema is one of Nashville's best-known specialty coffee roasters and operates with a strong focus on thoughtful sourcing, education, sustainability, and quality coffee.</p>
-      <p>Its downtown café is a convenient choice for locals and visitors looking for espresso drinks, carefully prepared coffee, and a comfortable café experience near the center of Nashville. Crema describes itself as a zero-waste Nashville roaster focused on creating welcoming café spaces and delivering an exceptional seed-to-cup experience.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Espresso</li>
-        <li>Pour-over coffee</li>
-        <li>Seasonal latte</li>
-        <li>Coffee beans to take home</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Its downtown café is a convenient choice for locals and visitors looking for espresso drinks, carefully prepared coffee, and a comfortable café experience near the center of Nashville.</p>
+      <p><strong>Best For:</strong> Specialty Coffee</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DHoKcHdRQSh/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>2. <a href="https://baristaparlor.com/" target="_blank" rel="noopener">Barista Parlor</a></h2>
+      <h3>🎨 <a href="https://baristaparlor.com/" target="_blank" rel="noopener">Barista Parlor</a></h3>
+      <p>Barista Parlor has been part of Nashville's specialty coffee scene since 2012 and emphasizes ethically sourced coffee and sweetness-focused roasting. The shops are known for distinctive interiors and an experience that feels more intentional than a typical grab-and-go coffee stop.</p>
       <p><strong>Best For:</strong> Coffee and Atmosphere</p>
-      <p>Barista Parlor has been part of Nashville's specialty coffee scene since 2012 and emphasizes ethically sourced coffee and sweetness-focused roasting.</p>
-      <p>The shops are known for distinctive interiors, carefully prepared drinks, and an experience that feels more intentional than a typical grab-and-go coffee stop.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Espresso</li>
-        <li>Hand-brewed coffee</li>
-        <li>Seasonal drinks</li>
-        <li>Breakfast sandwich</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CrO4Jn3OvUV/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>3. <a href="https://8thandroast.com/" target="_blank" rel="noopener">8th & Roast</a></h2>
+      <h3>📍 <a href="https://8thandroast.com/" target="_blank" rel="noopener">8th & Roast</a></h3>
+      <p>8th & Roast is a strong option for anyone who wants locally roasted coffee paired with breakfast, pastries, or a quick morning meal, useful whether you want to sit down or grab something on the way to work.</p>
       <p><strong>Best For:</strong> Local Roasted Coffee</p>
-      <p>8th & Roast is a strong option for anyone who wants locally roasted coffee paired with breakfast, pastries, or a quick morning meal.</p>
-      <p>Its café menu includes curated coffee drinks along with fresh pastry and breakfast options, making it useful whether you want to sit down or grab something on the way to work.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Cold brew</li>
-        <li>Latte</li>
-        <li>Seasonal specialty drink</li>
-        <li>Breakfast sandwich</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>4. <a href="https://frothymonkey.com/" target="_blank" rel="noopener">Frothy Monkey</a></h2>
+      <h3>🍽️ <a href="https://frothymonkey.com/" target="_blank" rel="noopener">Frothy Monkey</a></h3>
+      <p>Frothy Monkey is more than a traditional coffee shop. It operates as an all-day café serving coffee, breakfast, brunch, lunch, dinner, and cocktails, one of the better choices when one person wants coffee but the rest of the group wants a full meal.</p>
       <p><strong>Best For:</strong> Coffee and a Full Meal</p>
-      <p>Frothy Monkey is more than a traditional coffee shop. It operates as an all-day café serving coffee, breakfast, brunch, lunch, dinner, and cocktails at its public café locations.</p>
-      <p>This is one of the better choices when one person wants coffee but the rest of the group wants a full meal.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Latte</li>
-        <li>Vanilla-cinnamon French toast</li>
-        <li>Omelette</li>
-        <li>Seasonal coffee drink</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>5. <a href="https://humphreysstreet.com/" target="_blank" rel="noopener">Humphreys Street Coffee</a></h2>
+      <h3>🤝 <a href="https://humphreysstreet.com/" target="_blank" rel="noopener">Humphreys Street Coffee</a></h3>
+      <p>Humphreys Street Coffee is a Nashville social enterprise that employs and empowers young people through coffee roasting and handmade goods, reinvesting its profits into youth programs and scholarships.</p>
       <p><strong>Best For:</strong> Coffee with a Mission</p>
-      <p>Humphreys Street Coffee is a Nashville social enterprise that employs and empowers young people through coffee roasting and handmade goods. The organization reinvests its profits into youth programs and scholarships.</p>
-      <p>Beyond the mission, the café offers thoughtfully prepared drinks in a welcoming neighborhood environment.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Drip coffee</li>
-        <li>Latte</li>
-        <li>Seasonal drink</li>
-        <li>Fresh pastry</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>6. <a href="https://www.elegycoffee.com/" target="_blank" rel="noopener">Elegy Coffee</a></h2>
+      <h3>✨ <a href="https://www.elegycoffee.com/" target="_blank" rel="noopener">Elegy Coffee</a></h3>
+      <p>Elegy has expanded across Nashville with locations in East Nashville, Germantown, Downtown, and Wedgewood-Houston, a strong option for people who enjoy modern coffee shops and creative seasonal drinks.</p>
       <p><strong>Best For:</strong> Creative Drinks</p>
-      <p>Elegy has expanded across Nashville with locations in East Nashville, Germantown, Downtown, and Wedgewood-Houston.</p>
-      <p>It's a strong option for people who enjoy modern coffee shops, creative seasonal drinks, and polished branding. Food is also available during part of the day at its locations.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Honey Bear</li>
-        <li>Seasonal latte</li>
-        <li>Cold brew</li>
-        <li>Breakfast item</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>7. <a href="https://dosenashville.com/" target="_blank" rel="noopener">Dose Coffee & Tea</a></h2>
+      <h3>🍵 <a href="https://dosenashville.com/" target="_blank" rel="noopener">Dose Coffee & Tea</a></h3>
+      <p>Dose combines specialty coffee and tea with a more substantial food menu than many traditional coffee shops, especially useful when you want to work, meet someone for coffee, or have breakfast or lunch without changing locations.</p>
       <p><strong>Best For:</strong> Coffee, Tea, and Food</p>
-      <p>Dose combines specialty coffee and tea with a more substantial food menu than many traditional coffee shops.</p>
-      <p>The business describes itself as more than a coffee shop, emphasizing dishes, baked goods, coffee, and tea that can be enjoyed together. It's especially useful when you want to work, meet someone for coffee, or have breakfast or lunch without changing locations.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Espresso drink</li>
-        <li>Tea</li>
-        <li>Baked goods</li>
-        <li>Breakfast or lunch item</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C4DscDGO0al/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>8. <a href="https://www.instagram.com/florafaunanashville/" target="_blank" rel="noopener">Flora + Fauna</a></h2>
+      <h3>🌱 <a href="https://www.instagram.com/florafaunanashville/" target="_blank" rel="noopener">Flora + Fauna</a></h3>
+      <p>Flora + Fauna is a locally owned East Nashville café and coffee roaster focused on exceptional coffee and food prepared with local and seasonal ingredients, a good choice when the food matters just as much as the coffee.</p>
       <p><strong>Best For:</strong> Seasonal Food and Coffee</p>
-      <p>Flora + Fauna is a locally owned East Nashville café and coffee roaster focused on exceptional coffee and food prepared with local and seasonal ingredients.</p>
-      <p>This is a good choice when the food matters just as much as the coffee.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Seasonal coffee drink</li>
-        <li>Espresso</li>
-        <li>Breakfast plate</li>
-        <li>Pastry</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>9. <a href="https://www.bongojava.com/pages/fido" target="_blank" rel="noopener">Fido</a></h2>
-      <p><strong>Best For:</strong> Coffee and All-Day Breakfast</p>
+      <h3>🐕 <a href="https://www.bongojava.com/pages/fido" target="_blank" rel="noopener">Fido</a></h3>
       <p>Fido has been part of Hillsboro Village since 1996. What began as a coffee-roasting café evolved into an all-day dining destination with organic coffee and a menu built around local ingredients.</p>
-      <p>Its location and larger food menu make it a practical stop for breakfast, brunch, lunch, a casual meeting, or coffee before exploring the neighborhood.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Organic coffee</li>
-        <li>Breakfast</li>
-        <li>Breakfast sandwich</li>
-        <li>Seasonal café drink</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p><strong>Best For:</strong> Coffee and All-Day Breakfast</p>
 
-      <h2>10. <a href="https://www.matryoshkacoffee.com/" target="_blank" rel="noopener">Matryoshka Coffee</a></h2>
+      <h3>🪆 <a href="https://www.matryoshkacoffee.com/" target="_blank" rel="noopener">Matryoshka Coffee</a></h3>
+      <p>Matryoshka stands out from Nashville's more traditional specialty coffee shops with an art-focused, colorful, playful atmosphere, a place where good coffee can be fun.</p>
       <p><strong>Best For:</strong> Creative and Fun Coffee</p>
-      <p>Matryoshka stands out from Nashville's more traditional specialty coffee shops with an art-focused, colorful, playful atmosphere.</p>
-      <p>The shop describes itself as a place where good coffee can be fun, with creative drinks and an intentionally welcoming environment.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Seasonal specialty drink</li>
-        <li>Matcha</li>
-        <li>Latte</li>
-        <li>Creative signature drink</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
       <h2>Best Nashville Coffee Shops by Occasion</h2>
-      <p><strong>Best for Specialty Coffee</strong></p>
-      <ul>
-        <li>Crema Coffee Roasters</li>
-        <li>Barista Parlor</li>
-        <li>8th & Roast</li>
-      </ul>
-      <p><strong>Best for Breakfast or Brunch</strong></p>
-      <ul>
-        <li>Frothy Monkey</li>
-        <li>Fido</li>
-        <li>Dose Coffee & Tea</li>
-        <li>Flora + Fauna</li>
-      </ul>
-      <p><strong>Best for Working Remotely</strong></p>
-      <ul>
-        <li>Dose Coffee & Tea</li>
-        <li>Frothy Monkey</li>
-        <li>8th & Roast</li>
-      </ul>
-      <p><strong>Best for Creative Drinks</strong></p>
-      <ul>
-        <li>Elegy Coffee</li>
-        <li>Matryoshka Coffee</li>
-        <li>Barista Parlor</li>
-      </ul>
-      <p><strong>Best for Coffee with a Mission</strong></p>
-      <ul>
-        <li>Humphreys Street Coffee</li>
-      </ul>
-
-      <h2>How I Rate Coffee Shops</h2>
-      <p>Every coffee shop I personally review on Eat With Sam K is evaluated using the same core categories.</p>
-      <ul>
-        <li>☕ Coffee Quality — Flavor, freshness, preparation, and consistency.</li>
-        <li>🥐 Food and Pastries — Quality and variety of breakfast items, pastries, and snacks.</li>
-        <li>💰 Value — Whether the drinks and food are worth the price.</li>
-        <li>👨‍🍳 Service — Friendliness, accuracy, and speed.</li>
-        <li>🏠 Atmosphere — Seating, cleanliness, design, noise level, and overall comfort.</li>
-        <li>💻 Workability — Seating, outlets, Wi-Fi, and whether the environment is suitable for getting work done.</li>
-      </ul>
-      <p>The final Sam Score reflects the overall experience, with coffee quality carrying the most weight.</p>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>☕ Specialty Coffee</td><td>Crema / Barista Parlor / 8th & Roast</td></tr>
+          <tr><td>🍳 Breakfast or Brunch</td><td>Frothy Monkey / Fido / Dose / Flora + Fauna</td></tr>
+          <tr><td>💻 Working Remotely</td><td>Dose / Frothy Monkey / 8th & Roast</td></tr>
+          <tr><td>✨ Creative Drinks</td><td>Elegy Coffee / Matryoshka Coffee</td></tr>
+          <tr><td>🤝 Coffee with a Mission</td><td>Humphreys Street Coffee</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What is the best coffee shop in Nashville?</strong></p>
@@ -1195,11 +1070,10 @@ const BLOG_POSTS = [
       <p><strong>Which Nashville coffee shops roast their own coffee?</strong></p>
       <p>Crema, Barista Parlor, 8th & Roast, Frothy Monkey, Humphreys Street, and Flora + Fauna are among the Nashville businesses connected to coffee roasting.</p>
 
-      <h2>Final Thoughts</h2>
-      <p>Nashville's coffee scene offers far more than a basic morning cup.</p>
-      <p>You can find specialty roasters, creative neighborhood cafés, all-day brunch destinations, work-friendly spaces, and coffee businesses built around meaningful community missions.</p>
-      <p>As I personally visit more of these shops, I'll continue updating this guide with Eat With Sam K scores, photos, videos, favorite drinks, and firsthand rankings.</p>
-      <p>The goal is to make this the most useful guide to finding the best coffee in Nashville.</p>
+      <h2>The Sam Score</h2>
+      <p>Every coffee shop that receives a Sam Score has been personally visited and reviewed by me, coffee quality, food and pastries, value, service, atmosphere, and workability all factor in.</p>
+      <p>Cafés cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the coffee myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more coffee shops around Nashville, I'll update this guide with my first Sam Scores, photos, and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
@@ -1622,155 +1496,76 @@ const BLOG_POSTS = [
     content: `
       <p>Searching for the best brunch in Nashville? Whether you're craving chicken and waffles, avocado toast, giant cinnamon rolls, bottomless mimosas, or the perfect breakfast burrito, this guide highlights some of the best brunch spots Music City has to offer.</p>
       <p>Brunch has become one of Nashville's biggest dining traditions. From neighborhood cafés and trendy patios to upscale brunch destinations, there's no shortage of incredible places to spend a Saturday or Sunday morning.</p>
-      <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept paid reviews or exchange positive ratings for free food. As I continue reviewing more Nashville restaurants, this guide will be updated with my personal rankings, scores, and recommendations.</p>
+      <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept paid reviews or exchange positive ratings for free food. I haven't personally reviewed a Nashville brunch spot yet, so nothing below has a Sam Score. As soon as I do, it'll move to the top of this guide.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
 
-      <h2>Quick List: Best Brunch in Nashville (2026)</h2>
-      <ul>
-        <li><strong>1. <a href="https://www.milkandhoneynashville.com/" target="_blank" rel="noopener">Milk & Honey</a></strong></li>
-        <li><strong>2. <a href="https://buttermilkranch.com/" target="_blank" rel="noopener">The Butter Milk Ranch</a></strong></li>
-        <li><strong>3. <a href="https://www.biscuitlove.com/" target="_blank" rel="noopener">Biscuit Love</a></strong></li>
-        <li><strong>4. <a href="https://www.snoozeeatery.com/restaurant/tennessee/east-nashville" target="_blank" rel="noopener">Snooze, an A.M. Eatery</a></strong></li>
-        <li><strong>5. <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></strong></li>
-        <li><strong>6. <a href="https://www.liberty-common.com/" target="_blank" rel="noopener">Liberty Common</a></strong></li>
-        <li><strong>7. <a href="https://www.heartsnashville.com/" target="_blank" rel="noopener">Hearts</a></strong></li>
-        <li><strong>8. <a href="https://www.fenwicks300.com/" target="_blank" rel="noopener">Fenwick's 300</a></strong></li>
-        <li><strong>9. <a href="https://www.anotherbrokenegg.com/locations/nashville-tn/" target="_blank" rel="noopener">Another Broken Egg Cafe</a></strong></li>
-        <li><strong>10. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></strong></li>
-      </ul>
+      <h2>Nashville Brunch Spots Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's brunch scene, so the restaurants below haven't received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
 
-      <h2>1. <a href="https://www.milkandhoneynashville.com/" target="_blank" rel="noopener">Milk & Honey</a></h2>
+      <h3>🍯 <a href="https://www.milkandhoneynashville.com/" target="_blank" rel="noopener">Milk & Honey</a></h3>
+      <p>Milk & Honey has become one of the city's most popular brunch destinations thanks to its beautiful atmosphere, creative menu, and consistently excellent breakfast dishes. Whether you're meeting friends or grabbing brunch before exploring Nashville, this is one of the safest recommendations in town.</p>
       <p><strong>Best For:</strong> Classic Nashville Brunch</p>
-      <p>Milk & Honey has become one of the city's most popular brunch destinations thanks to its beautiful atmosphere, creative menu, and consistently excellent breakfast dishes.</p>
-      <p>Whether you're meeting friends or grabbing brunch before exploring Nashville, this is one of the safest recommendations in town.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Chicken & Waffles</li>
-        <li>French Toast</li>
-        <li>Avocado Toast</li>
-        <li>Lattes</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_c9nTRurYD/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>2. <a href="https://buttermilkranch.com/" target="_blank" rel="noopener">The Butter Milk Ranch</a></h2>
+      <h3>🧈 <a href="https://buttermilkranch.com/" target="_blank" rel="noopener">The Butter Milk Ranch</a></h3>
+      <p>Known for generous portions and Southern-inspired dishes, The Butter Milk Ranch has become a favorite among locals looking for hearty brunch food. The biscuits alone are worth the visit.</p>
       <p><strong>Best For:</strong> Southern Comfort Brunch</p>
-      <p>Known for generous portions and Southern-inspired dishes, The Butter Milk Ranch has become a favorite among locals looking for hearty brunch food.</p>
-      <p>The biscuits alone are worth the visit.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Biscuits & Gravy</li>
-        <li>Chicken Biscuit</li>
-        <li>Cinnamon Roll</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C75TLA4OF_y/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>3. <a href="https://www.biscuitlove.com/" target="_blank" rel="noopener">Biscuit Love</a></h2>
+      <h3>🥐 <a href="https://www.biscuitlove.com/" target="_blank" rel="noopener">Biscuit Love</a></h3>
+      <p>Biscuit Love is one of Nashville's most recognizable brunch spots. While there can be a wait, the homemade biscuits and Southern breakfast classics continue bringing people back.</p>
       <p><strong>Best For:</strong> First-Time Nashville Visitors</p>
-      <p>Biscuit Love is one of Nashville's most recognizable brunch spots.</p>
-      <p>While there can be a wait, the homemade biscuits and Southern breakfast classics continue bringing people back.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Bonuts</li>
-        <li>East Nasty</li>
-        <li>Biscuit & Gravy</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CrLxyWagYQJ/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>4. <a href="https://www.snoozeeatery.com/restaurant/tennessee/east-nashville" target="_blank" rel="noopener">Snooze, an A.M. Eatery</a></h2>
+      <h3>🥞 <a href="https://www.snoozeeatery.com/restaurant/tennessee/east-nashville" target="_blank" rel="noopener">Snooze, an A.M. Eatery</a></h3>
+      <p>Snooze offers one of Nashville's most creative brunch menus, featuring unique pancakes, breakfast tacos, Benedicts, and cocktails, perfect for groups looking for plenty of variety.</p>
       <p><strong>Best For:</strong> Creative Breakfast</p>
-      <p>Snooze offers one of Nashville's most creative brunch menus, featuring unique pancakes, breakfast tacos, Benedicts, and cocktails.</p>
-      <p>Perfect for groups looking for plenty of variety.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Pineapple Upside Down Pancakes</li>
-        <li>Breakfast Burrito</li>
-        <li>Pancake Flight</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>5. <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></h2>
+      <h3>🥂 <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></h3>
+      <p>If you're looking for a more elevated brunch experience, Adele's continues to be one of Nashville's most popular choices. Their weekend brunch buffet has earned a strong reputation among locals.</p>
       <p><strong>Best For:</strong> Upscale Weekend Brunch</p>
-      <p>If you're looking for a more elevated brunch experience, Adele's continues to be one of Nashville's most popular choices.</p>
-      <p>Their weekend brunch buffet has earned a strong reputation among locals.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Weekend Brunch Buffet</li>
-        <li>Shrimp & Grits</li>
-        <li>Pastries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DJ4YayguUSl/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>6. <a href="https://www.liberty-common.com/" target="_blank" rel="noopener">Liberty Common</a></h2>
+      <h3>🇫🇷 <a href="https://www.liberty-common.com/" target="_blank" rel="noopener">Liberty Common</a></h3>
+      <p>Located downtown, Liberty Common combines French café vibes with classic brunch favorites, an excellent choice before exploring Broadway or attending nearby events.</p>
       <p><strong>Best For:</strong> French-Inspired Brunch</p>
-      <p>Located downtown, Liberty Common combines French café vibes with classic brunch favorites.</p>
-      <p>It's an excellent choice before exploring Broadway or attending nearby events.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Croque Madame</li>
-        <li>Eggs Benedict</li>
-        <li>Pastries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DEx9PoWyddL/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>7. <a href="https://www.heartsnashville.com/" target="_blank" rel="noopener">Hearts</a></h2>
+      <h3>☕ <a href="https://www.heartsnashville.com/" target="_blank" rel="noopener">Hearts</a></h3>
+      <p>Hearts is one of Nashville's newer favorites, offering quality coffee alongside fresh pastries and lighter breakfast options, great for casual mornings or working remotely for a few hours.</p>
       <p><strong>Best For:</strong> Coffee & Light Brunch</p>
-      <p>Hearts is one of Nashville's newer favorites, offering quality coffee alongside fresh pastries and lighter breakfast options.</p>
-      <p>Great for casual mornings or working remotely for a few hours.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Breakfast Sandwich</li>
-        <li>Seasonal Pastries</li>
-        <li>Coffee</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>8. <a href="https://www.fenwicks300.com/" target="_blank" rel="noopener">Fenwick's 300</a></h2>
+      <h3>🏘️ <a href="https://www.fenwicks300.com/" target="_blank" rel="noopener">Fenwick's 300</a></h3>
+      <p>Fenwick's has built a loyal following by serving reliable breakfast favorites without the tourist crowds, a great option if you want a more relaxed local brunch experience.</p>
       <p><strong>Best For:</strong> Local Neighborhood Brunch</p>
-      <p>Fenwick's has built a loyal following by serving reliable breakfast favorites without the tourist crowds.</p>
-      <p>If you want a more relaxed local brunch experience, this is a great option.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Omelets</li>
-        <li>Pancakes</li>
-        <li>Country Breakfast</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CKwg9Myh6eZ/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>9. <a href="https://www.anotherbrokenegg.com/locations/nashville-tn/" target="_blank" rel="noopener">Another Broken Egg Cafe</a></h2>
+      <h3>🍳 <a href="https://www.anotherbrokenegg.com/locations/nashville-tn/" target="_blank" rel="noopener">Another Broken Egg Cafe</a></h3>
+      <p>With an extensive breakfast and brunch menu, Another Broken Egg is a dependable choice for groups with different tastes, everything from omelets and pancakes to seafood-inspired brunch dishes.</p>
       <p><strong>Best For:</strong> Variety</p>
-      <p>With an extensive breakfast and brunch menu, Another Broken Egg is a dependable choice for groups with different tastes.</p>
-      <p>You'll find everything from omelets and pancakes to seafood-inspired brunch dishes.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
 
-      <h2>10. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></h2>
+      <h3>🦞 <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></h3>
+      <p>Known for its bright coastal atmosphere and fun brunch cocktails, The Hampton Social is one of Nashville's most Instagram-worthy brunch destinations, ideal for celebrations, birthdays, and larger groups.</p>
       <p><strong>Best For:</strong> Brunch with Friends</p>
-      <p>Known for its bright coastal atmosphere and fun brunch cocktails, The Hampton Social is one of Nashville's most Instagram-worthy brunch destinations.</p>
-      <p>It's ideal for celebrations, birthdays, and larger groups.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Lobster Roll</li>
-        <li>Avocado Toast</li>
-        <li>Rosé</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DAtxPZrPGfP/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>How I Rate Every Brunch Spot</h2>
-      <p>Every brunch restaurant I personally review on Eat With Sam K is scored using the same rating system. I look at:</p>
-      <ul>
-        <li>🍳 Food Quality</li>
-        <li>☕ Coffee & Drinks</li>
-        <li>💰 Value</li>
-        <li>👨‍🍳 Service</li>
-        <li>🏠 Atmosphere</li>
-      </ul>
-      <p>The best brunch isn't just about the food, it's about the overall experience.</p>
+      <h2>Best Nashville Brunch by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>🥇 First-Time Visitors</td><td>Biscuit Love / Milk & Honey</td></tr>
+          <tr><td>🥂 A Brunch Date</td><td>Milk & Honey / Adele's / Liberty Common</td></tr>
+          <tr><td>👯 Groups</td><td>The Hampton Social / Snooze / Another Broken Egg</td></tr>
+          <tr><td>⏱️ Shortest Wait</td><td>Fenwick's 300 / Hearts</td></tr>
+          <tr><td>🧈 Southern Comfort</td><td>The Butter Milk Ranch</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What is the best brunch in Nashville?</strong></p>
@@ -1784,10 +1579,10 @@ const BLOG_POSTS = [
       <p><strong>What is the best brunch for groups?</strong></p>
       <p>The Hampton Social, Snooze, and Another Broken Egg Cafe all work well for larger groups thanks to spacious seating and diverse menus.</p>
 
-      <h2>Final Thoughts</h2>
-      <p>Nashville has become one of the best brunch cities in the country, offering everything from classic Southern breakfasts to modern cafés and upscale weekend brunch experiences.</p>
-      <p>As I continue eating my way across Nashville, I'll keep updating this guide with my personal reviews, rankings, photos, and videos to help you find your next great brunch.</p>
-      <p>Whether you're visiting for the weekend or you're a longtime local, I hope this guide helps you discover your next favorite brunch spot.</p>
+      <h2>The Sam Score</h2>
+      <p>Every brunch spot that receives a Sam Score has been personally visited and reviewed by me, food quality, coffee and drinks, value, service, and atmosphere all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more brunch spots around Nashville, I'll update this guide with my first Sam Scores, photos, and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
@@ -2552,188 +2347,73 @@ const BLOG_POSTS = [
     content: `
       <p>Looking for the best BBQ in Nashville? From Tennessee whole-hog barbecue and dry-rub ribs to Texas-style brisket, Nashville has plenty of options when you're craving smoked meat.</p>
       <p>Whether you're visiting Nashville for the first time or you're a local looking for a new barbecue spot, this guide covers Nashville BBQ restaurants worth knowing about.</p>
-      <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food. As I work my way through Nashville's barbecue scene, I'll continue updating this guide with my own Sam Scores, photos, videos, and firsthand rankings.</p>
+      <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food. I haven't personally reviewed a Nashville BBQ spot yet, so nothing below has a Sam Score. As soon as I do, it'll move to the top of this guide.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
 
-      <h2>Quick List: Best BBQ in Nashville</h2>
-      <ul>
-        <li><strong>1. <a href="https://sgwbbq.com/" target="_blank" rel="noopener">Shotgun Willie's BBQ</a></strong></li>
-        <li><strong>2. <a href="https://peglegporker.com/" target="_blank" rel="noopener">Peg Leg Porker</a></strong></li>
-        <li><strong>3. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
-        <li><strong>4. <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">Edley's Bar-B-Que</a></strong></li>
-        <li><strong>5. <a href="https://www.bringlessmokingoasis.com/" target="_blank" rel="noopener">Bringle's Smoking Oasis</a></strong></li>
-        <li><strong>6. <a href="https://honeyfire.com/" target="_blank" rel="noopener">HoneyFire BBQ</a></strong></li>
-        <li><strong>7. <a href="https://jacksbarbque.com/" target="_blank" rel="noopener">Jack's Bar-B-Que</a></strong></li>
-        <li><strong>8. <a href="https://theridgenashville.com/" target="_blank" rel="noopener">The Ridge</a></strong></li>
-        <li><strong>9. <a href="https://www.bar-b-cutie.com/" target="_blank" rel="noopener">Bar-B-Cutie SmokeHouse</a></strong></li>
-      </ul>
+      <h2>Nashville BBQ Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's BBQ scene, so the restaurants below haven't received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
 
-      <h2>1. <a href="https://sgwbbq.com/" target="_blank" rel="noopener">Shotgun Willie's BBQ</a></h2>
+      <h3>🥩 <a href="https://sgwbbq.com/" target="_blank" rel="noopener">Shotgun Willie's BBQ</a></h3>
+      <p>If brisket is what you're after, Shotgun Willie's deserves to be near the top of your Nashville BBQ list. Known for Texas-style barbecue, it's developed a strong local following for its brisket, ribs, sausage, and other smoked meats. Arrive early, popular meats can sell out.</p>
       <p><strong>Best For:</strong> Texas-Style BBQ & Brisket</p>
-      <p>If brisket is what you're after, Shotgun Willie's deserves to be near the top of your Nashville BBQ list.</p>
-      <p>Known for Texas-style barbecue, Shotgun Willie's has developed a strong local following for its brisket, ribs, sausage, and other smoked meats.</p>
-      <p>This is the type of BBQ spot where I'd recommend arriving earlier rather than later, popular meats can sell out.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Brisket</li>
-        <li>Ribs</li>
-        <li>Sausage</li>
-        <li>Pulled Pork</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🥩 <strong>Brisket Pick</strong> &nbsp; 🔥 <strong>Worth the Trip</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C9II4Avum-U/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>2. <a href="https://peglegporker.com/" target="_blank" rel="noopener">Peg Leg Porker</a></h2>
+      <h3>🍖 <a href="https://peglegporker.com/" target="_blank" rel="noopener">Peg Leg Porker</a></h3>
+      <p>Located in The Gulch, Peg Leg Porker is one of Nashville's most recognizable barbecue restaurants. Pitmaster Carey Bringle specializes in Tennessee-style barbecue, and the restaurant has become especially well known for its dry-rub ribs.</p>
       <p><strong>Best For:</strong> Ribs</p>
-      <p>Located in The Gulch, Peg Leg Porker is one of Nashville's most recognizable barbecue restaurants.</p>
-      <p>Pitmaster Carey Bringle specializes in Tennessee-style barbecue, and the restaurant has become especially well known for its dry-rub ribs.</p>
-      <p>If you're visiting Nashville and want BBQ close to downtown without heading directly onto Broadway, Peg Leg Porker is an easy option to put on your list.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Dry-Rub Ribs</li>
-        <li>Pulled Pork</li>
-        <li>Smoked Chicken</li>
-        <li>Mac & Cheese</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🍖 <strong>Rib Pick</strong> &nbsp; 🔥 <strong>Nashville Favorite</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKFfFUZu96L/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>3. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
+      <h3>🐷 <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h3>
+      <p>Martin's is one of the biggest names in Nashville barbecue and is especially known for West Tennessee-style whole-hog cooking. Its 4th Avenue location makes it one of the most convenient places to experience Tennessee BBQ near Broadway and Bridgestone Arena.</p>
       <p><strong>Best For:</strong> Whole-Hog BBQ</p>
-      <p>Martin's is one of the biggest names in Nashville barbecue and is especially known for West Tennessee-style whole-hog cooking.</p>
-      <p>If you're visiting downtown Nashville, Martin's 4th Avenue location also makes it one of the most convenient places to experience Tennessee BBQ near Broadway and Bridgestone Arena.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Whole Hog BBQ</li>
-        <li>Pulled Pork</li>
-        <li>Brisket</li>
-        <li>Redneck Taco</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🐷 <strong>Whole-Hog Pick</strong> &nbsp; 📍 <strong>Great Downtown Option</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DXjNHQeipI6/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>4. <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">Edley's Bar-B-Que</a></h2>
+      <h3>🍽️ <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">Edley's Bar-B-Que</a></h3>
+      <p>Edley's combines smoked meats with a broader Southern-style menu and has grown into one of Nashville's most recognizable local BBQ brands, a particularly good option for groups since there's more to choose from than meat by the pound.</p>
       <p><strong>Best For:</strong> BBQ + Southern Sides</p>
-      <p>Edley's combines smoked meats with a broader Southern-style menu and has grown into one of Nashville's most recognizable local BBQ brands.</p>
-      <p>It's a particularly good option for groups because there's more to choose from than simply ordering meat by the pound.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Brisket</li>
-        <li>Pulled Pork</li>
-        <li>Smoked Wings</li>
-        <li>Ribs</li>
-        <li>Southern Sides</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>👨‍👩‍👧 <strong>Group Friendly</strong> &nbsp; 🍗 <strong>Great for Wings</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C7HhwLtO3PP/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>5. <a href="https://www.bringlessmokingoasis.com/" target="_blank" rel="noopener">Bringle's Smoking Oasis</a></h2>
+      <h3>🏝️ <a href="https://www.bringlessmokingoasis.com/" target="_blank" rel="noopener">Bringle's Smoking Oasis</a></h3>
+      <p>Another concept from Carey Bringle of Peg Leg Porker, but a different experience: Texas-inspired smoked meats combined with a large indoor/outdoor environment built for hanging out, more of an afternoon or group experience than grab-a-plate-and-leave.</p>
       <p><strong>Best For:</strong> Texas-Style BBQ & Atmosphere</p>
-      <p>Bringle's Smoking Oasis is another concept from Carey Bringle of Peg Leg Porker, but it offers a different barbecue experience.</p>
-      <p>Expect Texas-inspired smoked meats combined with a large indoor/outdoor environment that's built for hanging out.</p>
-      <p>It's a great option when you want BBQ to be more of an afternoon or group experience rather than simply grabbing a plate and leaving.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Brisket</li>
-        <li>Pastrami</li>
-        <li>Sausage</li>
-        <li>Rotating BBQ Specials</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🎉 <strong>Great for Groups</strong> &nbsp; 🥩 <strong>Texas-Style Pick</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DIzMiJwyWQP/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>6. <a href="https://honeyfire.com/" target="_blank" rel="noopener">HoneyFire BBQ</a></h2>
+      <h3>🔥 <a href="https://honeyfire.com/" target="_blank" rel="noopener">HoneyFire BBQ</a></h3>
+      <p>HoneyFire brings a more modern feel to Nashville barbecue while still focusing on smoked meats and Southern hospitality, with creative dishes and sauces beyond a basic meat-and-three plate.</p>
       <p><strong>Best For:</strong> Modern Nashville BBQ</p>
-      <p>HoneyFire brings a more modern feel to Nashville barbecue while still focusing on smoked meats and Southern hospitality.</p>
-      <p>The menu offers plenty of traditional BBQ alongside creative dishes and sauces, making it a good choice for someone who wants something beyond a basic meat-and-three style plate.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Brisket</li>
-        <li>Pulled Pork</li>
-        <li>Wings</li>
-        <li>Banana Pudding</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🔥 <strong>Modern BBQ Pick</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DAo6DB5Sn9P/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>7. <a href="https://jacksbarbque.com/" target="_blank" rel="noopener">Jack's Bar-B-Que</a></h2>
-      <p><strong>Best For:</strong> Nashville BBQ Tradition</p>
+      <h3>🏛️ <a href="https://jacksbarbque.com/" target="_blank" rel="noopener">Jack's Bar-B-Que</a></h3>
       <p>Jack's has been part of Nashville's barbecue scene for decades. The original Lower Broadway location has closed, but Jack's continues serving Nashville BBQ from its Charlotte Avenue and West Trinity Lane locations, both just outside downtown.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Tennessee Pork Shoulder</li>
-        <li>Brisket</li>
-        <li>Ribs</li>
-        <li>Smoked Turkey</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🏛️ <strong>Nashville Original</strong></p>
+      <p><strong>Best For:</strong> Nashville BBQ Tradition</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DALwR-9AiB7/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>8. <a href="https://theridgenashville.com/" target="_blank" rel="noopener">The Ridge</a></h2>
+      <h3>💎 <a href="https://theridgenashville.com/" target="_blank" rel="noopener">The Ridge</a></h3>
+      <p>The Ridge is a neighborhood Southern eatery in Sylvan Park serving BBQ alongside catfish and other Southern staples, a completely different experience from the city's most famous BBQ names.</p>
       <p><strong>Best For:</strong> Neighborhood BBQ</p>
-      <p>The Ridge is a neighborhood Southern eatery in Sylvan Park serving BBQ alongside catfish and other Southern staples.</p>
-      <p>For locals, or visitors willing to venture beyond downtown, neighborhood spots like this can offer a completely different experience from the city's most famous BBQ names.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>💎 <strong>Neighborhood Pick</strong></p>
 
-      <h2>9. <a href="https://www.bar-b-cutie.com/" target="_blank" rel="noopener">Bar-B-Cutie SmokeHouse</a></h2>
+      <h3>👨‍👩‍👧 <a href="https://www.bar-b-cutie.com/" target="_blank" rel="noopener">Bar-B-Cutie SmokeHouse</a></h3>
+      <p>Bar-B-Cutie has deep Nashville roots and offers a more casual, approachable BBQ experience, traditional smoked meats and sides without turning dinner into a major event.</p>
       <p><strong>Best For:</strong> Casual BBQ</p>
-      <p>Bar-B-Cutie has deep Nashville roots and offers a more casual, approachable BBQ experience.</p>
-      <p>It's a good option when you're looking for traditional smoked meats and sides without turning dinner into a major event.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Pulled Pork</li>
-        <li>Brisket</li>
-        <li>Ribs</li>
-        <li>Classic BBQ Sides</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>👨‍👩‍👧 <strong>Family Friendly</strong></p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DOYmjlOCffR/" data-instgrm-version="14"></blockquote></div>
 
-      <h2>Best Nashville BBQ by Category</h2>
-      <p><strong>🥩 Best for Brisket</strong></p>
-      <ul>
-        <li>Shotgun Willie's</li>
-        <li>Bringle's Smoking Oasis</li>
-        <li>HoneyFire BBQ</li>
-      </ul>
-      <p><strong>🍖 Best for Ribs</strong></p>
-      <ul>
-        <li>Peg Leg Porker</li>
-        <li>Shotgun Willie's</li>
-      </ul>
-      <p><strong>🐷 Best for Pulled Pork & Tennessee BBQ</strong></p>
-      <ul>
-        <li>Martin's Bar-B-Que Joint</li>
-        <li>Peg Leg Porker</li>
-        <li>Edley's</li>
-      </ul>
-      <p><strong>📍 Best BBQ Near Downtown Nashville</strong></p>
-      <ul>
-        <li>Martin's Bar-B-Que Joint</li>
-        <li>Peg Leg Porker</li>
-        <li>Jack's Bar-B-Que</li>
-      </ul>
-      <p><strong>👨‍👩‍👧 Best for Groups</strong></p>
-      <ul>
-        <li>Edley's</li>
-        <li>Bringle's Smoking Oasis</li>
-        <li>Martin's</li>
-      </ul>
-      <p><strong>🎸 Best for Nashville Visitors</strong></p>
-      <ul>
-        <li>Martin's</li>
-        <li>Peg Leg Porker</li>
-        <li>Jack's</li>
-      </ul>
+      <h2>Best Nashville BBQ by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>🥩 Brisket</td><td>Shotgun Willie's / Bringle's / HoneyFire</td></tr>
+          <tr><td>🍖 Ribs</td><td>Peg Leg Porker / Shotgun Willie's</td></tr>
+          <tr><td>🐷 Whole-Hog & Tennessee BBQ</td><td>Martin's / Peg Leg Porker / Edley's</td></tr>
+          <tr><td>📍 Near Downtown</td><td>Martin's / Peg Leg Porker / Jack's</td></tr>
+          <tr><td>👨‍👩‍👧 Groups</td><td>Edley's / Bringle's Smoking Oasis</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2>What Style of BBQ Is Nashville Known For?</h2>
       <p>Nashville doesn't have one single barbecue style in the same way some other Southern cities do.</p>
@@ -2766,25 +2446,10 @@ const BLOG_POSTS = [
       <p><strong>Is Nashville known for BBQ?</strong></p>
       <p>Nashville may be more nationally associated with hot chicken, but barbecue has a long history throughout Tennessee. Nashville offers everything from West Tennessee whole-hog cooking to Memphis- and Texas-influenced barbecue.</p>
 
-      <h2>How I Rate Nashville BBQ</h2>
-      <p>When I personally review these restaurants for Eat With Sam K, I look at more than just whether the meat tastes good.</p>
-      <ul>
-        <li>🥩 Meat Quality — Flavor, tenderness, smoke and consistency</li>
-        <li>🔥 BBQ Execution — Bark, seasoning, moisture and smoke</li>
-        <li>🥘 Sides — Because great BBQ deserves great sides</li>
-        <li>💰 Value — Portion size and quality for the price</li>
-        <li>👨‍🍳 Service — Speed, friendliness and overall experience</li>
-        <li>🏠 Atmosphere — The overall environment and experience</li>
-      </ul>
-      <p>Each restaurant I personally visit receives a Sam Score out of 10.</p>
-      <p>And I keep the top of my scale intentionally difficult, an extremely high Sam Score is reserved for restaurants that truly stand out.</p>
-
-      <h2>Final Thoughts</h2>
-      <p>Nashville's BBQ scene is much deeper than one famous restaurant.</p>
-      <p>You can experience West Tennessee whole-hog barbecue at Martin's, dry-rub ribs at Peg Leg Porker, Texas-style brisket at Shotgun Willie's, and plenty of different interpretations throughout the city.</p>
-      <p>This ranking will change.</p>
-      <p>As I personally work my way through Nashville's BBQ restaurants, I'll update this guide with my own Sam Scores, photos, videos, exact orders, and firsthand rankings.</p>
-      <p>The goal is for this list to eventually be based entirely on places I've personally tried, and to help you figure out where your BBQ money is actually worth spending.</p>
+      <h2>The Sam Score</h2>
+      <p>Every BBQ spot that receives a Sam Score has been personally visited and reviewed by me, meat quality, BBQ execution, sides, value, service, and atmosphere all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money. I keep the top of my scale intentionally difficult, an extremely high Sam Score is reserved for restaurants that truly stand out.</p>
+      <p>As I visit more BBQ spots around Nashville, I'll update this guide with my first Sam Scores, photos, and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
