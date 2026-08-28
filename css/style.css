@@ -753,6 +753,7 @@ a { color: var(--red); }
   white-space: normal;
   width: max-content;
   max-width: min(220px, calc(100vw - 24px));
+  box-sizing: border-box;
   text-align: center;
   box-shadow: var(--shadow-lg);
   opacity: 0;
