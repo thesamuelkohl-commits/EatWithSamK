@@ -384,8 +384,6 @@ function renderReviewPage(place, relatedPosts) {
 
     <div class="reveal quick-facts-card">${quickFactsHtml}</div>
 
-    ${place.quickTake ? `<div class="reveal"><h2 class="review-section-title">Quick Take</h2><p class="review-about">${escapeHtml(place.quickTake)}</p></div>` : ""}
-
     ${videoPermalink ? `
     <div class="reveal">
       <h2 class="review-section-title">My Video Review</h2>

@@ -40,7 +40,6 @@ You never need to touch the HTML or CSS.
    - **price** *(optional)* — `"$"`, `"$$"`, `"$$$"`, or `"$$$$"`. Shows in the review page's quick-facts block; hovering it pops up what that tier means (cost range + description) — see "Price tooltips" below.
    - **cuisine** *(optional)* — e.g. `"Pizza"`, `"BBQ"`. Also shows in quick facts.
    - **parking** *(optional)* — a short free-text description, e.g. `"Free and paid parking nearby"` or `"Paid parking nearby"`. Shows in quick facts. Leave it out and that line just won't appear.
-   - **quickTake** *(optional)* — a short TL;DR paragraph, shown right up top under "Quick Take" — your honest one-paragraph verdict.
    - **photos** *(optional)* — an array of `{ src, alt }`, e.g. `photos: [{ src: "images/reviews/my-place/dish.jpg", alt: "The burger" }]`. Shown as a photo grid under "What I Ordered." Drop your photo files in `images/reviews/<place-id>/` and reference them here.
    - **scores** *(optional)* — `{ taste, value, atmosphere, service }`, each 0–10. Renders as "The Breakdown" with visual bars. Leave it out entirely and that section just won't appear.
    - **pros** / **cons** *(optional)* — arrays of short strings, e.g. `pros: ["Great heat variety", "Fast service"]`. Renders as a "Pros & Cons" section; only shows if at least one of the two has entries.
@@ -88,7 +87,7 @@ Both badge pills and `$` price tags use the same hover-tooltip style — a small
 
 ## Photos & video
 
-Every review page shows the actual Instagram reel you filmed there, embedded and playable — pulled straight from the `video` link already in `js/data.js`, so there's nothing extra to upload. It's your own content, so there's no copyright concern. It shows near the top of the page (right under "Quick Take"), since it's usually the best proof of what a place is actually like.
+Every review page shows the actual Instagram reel you filmed there, embedded and playable — pulled straight from the `video` link already in `js/data.js`, so there's nothing extra to upload. It's your own content, so there's no copyright concern. It shows near the top of the page, since it's usually the best proof of what a place is actually like.
 
 You can also add your own photos with the `photos` field (see above) — drop the files in `images/reviews/<place-id>/` and they'll show as a gallery under "What I Ordered." These are your own photos, so — same as the video — no copyright concern.
 
@@ -160,7 +159,7 @@ Selecting more than one Price or Tag pill is an **OR** within that row (e.g. pic
 - **No match found** offers "Reset Filters" / "Show Closest Match" (relaxes score → vibe → budget → cuisine → distance, in that order, until something real matches — it only ever surfaces an actual place from `PLACES`), or, once location is on, "Expand to 25/50 Miles" / "Search Any Distance".
 - Fires `food_finder_used`, `food_finder_result`, `food_finder_review_clicked`, `food_finder_saved`, `food_finder_location_enabled`, and `food_finder_radius_selected` to Google Analytics (see "Analytics & Ads" below) — never with precise coordinates.
 
-Two small `placeCardHtml()` additions ship with this that show up everywhere, not just the finder: a cuisine/price line under every card's name, and a "💬 Sam Says" line on any place with a `quickTake` field.
+A `placeCardHtml()` addition ships with this that shows up everywhere, not just the finder: a cuisine/price line under every card's name.
 
 ## Saved places (favorites) + real accounts
 

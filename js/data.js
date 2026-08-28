@@ -8,7 +8,7 @@
 
    Optional review-template fields (see README for the full list):
    price ("$".."$$$$" — hover shows the price guide automatically),
-   cuisine, quickTake, photos [{src, alt}], scores {taste,value,
+   cuisine, photos [{src, alt}], scores {taste,value,
    atmosphere,service}, pros [...], cons [...]. Leave any of them
    out and that section of the review page just won't appear.
    ============================================================ */
@@ -543,7 +543,6 @@ const PLACES = [
     cuisine: "Pizza",
     badges: ["family-friendly"],
     about: "Prince St. Pizza traces back to 2012 in New York's Nolita neighborhood, built on recipes that have stayed in the Morano family for generations, their philosophy is simple: if it works on pasta, it works on pizza. The original NYC shop made its name on the Sicilian \"SoHo Square,\" a thick, crispy-bottomed slice, and the Spicy Spring, its signature square topped with pepperoni cups, fresh mozzarella, and tomato sauce. The brand has since expanded well beyond New York, and this location, inside the Fifth + Broadway development in downtown Nashville, is its first in Tennessee.",
-    quickTake: "A solid, no-frills square slice with real New York pedigree, the Spicy Vodka and Naughty Pie both deliver plenty of flavor. It doesn't quite live up to the legendary hype of the original Nolita shop, but it's a dependable, affordable stop if you're downtown and want a genuinely good slice fast.",
     ate: "The Spicy Vodka, The Naughty Pie, and the Houston Jalapeno, three square slices, three very different heat levels.",
     heroPhoto: "images/reviews/prince-street-pizza-nashville/order.jpg",
     photos: [

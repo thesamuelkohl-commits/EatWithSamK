@@ -305,7 +305,6 @@ function placeCardHtml(p, opts) {
         ${badgeRowHtml(p)}
         ${p.tags && p.tags.length ? `<div class="card-tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div>` : ""}
         <p class="card-ate"><strong>What I ate:</strong> ${p.ate}</p>
-        ${p.quickTake ? `<p class="card-quicktake">💬 <strong>Sam Says:</strong> “${p.quickTake}”</p>` : ""}
         <div class="card-contact">
           <span>🏠 ${p.address}</span>
           ${p.phone ? `<span>📞 <a href="tel:${p.phone.replace(/[^+\d]/g, "")}">${p.phone}</a></span>` : ""}
