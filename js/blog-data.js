@@ -234,176 +234,75 @@ const BLOG_POSTS = [
       <p><em>Last Updated: August 2026</em></p>
       <p><em>Note: Late-night kitchen hours can change by day and season. Always check current hours before making the trip.</em></p>
 
-      <h2>🌙 Quick List: Best Late-Night Food in Nashville</h2>
-      <ul>
-        <li><strong>1. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></strong></li>
-        <li><strong>2. <a href="https://earls.ca/locations/earls-nashville-yards/" target="_blank" rel="noopener">Earls Kitchen + Bar</a></strong></li>
-        <li><strong>3. <a href="https://mothersruinnashville.com/" target="_blank" rel="noopener">Mother's Ruin</a></strong></li>
-        <li><strong>4. <a href="https://robertswesternworld.com/" target="_blank" rel="noopener">Robert's Western World</a></strong></li>
-        <li><strong>5. <a href="/reviews/baam-burger-nashville">Baam Burger ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>6. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></strong></li>
-        <li><strong>7. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
-        <li><strong>8. <a href="https://till5pizza.com/" target="_blank" rel="noopener">Till Five Pizza</a></strong></li>
-        <li><strong>9. <a href="https://www.jbjsnash.com/" target="_blank" rel="noopener">JBJ's Nashville</a></strong></li>
-      </ul>
-
-      <h2>1. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h2>
-      <p><strong>Best For:</strong> Classic Nashville Late-Night Burgers</p>
-      <p>Dino's is basically a Nashville late-night institution.</p>
-      <p>Located in East Nashville, this dive bar is known for keeping things simple: burgers, fries, drinks, and a laid-back atmosphere.</p>
-      <p>You're not coming here for an upscale dining experience. You're coming because it's late, you're hungry, and a greasy cheeseburger sounds incredible.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Cheeseburger</li>
-        <li>Fries</li>
-        <li>Cold Beer</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <p>🏆 <strong>Late-Night Burger Pick</strong> &nbsp; 🌙 <strong>Nashville Classic</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>2. <a href="https://earls.ca/locations/earls-nashville-yards/" target="_blank" rel="noopener">Earls Kitchen + Bar</a></h2>
-      <p><strong>Best For:</strong> A Bigger Late-Night Menu at Nashville Yards</p>
-      <p>Earls Kitchen + Bar is a polished, upscale-casual chain that opened in 2026 at The Pinnacle at Nashville Yards, with a menu that ranges from sushi and steaks to salads and handhelds.</p>
-      <p>It's a different vibe than most of this list, not a dive bar, but its kitchen stays open later than a lot of nearby restaurants, up to 1-2 a.m. Wednesday through Saturday, making it a solid option when you want more of a full sit-down menu instead of another late-night diner.</p>
-      <p><strong>What to Look For:</strong></p>
-      <ul>
-        <li>Steaks</li>
-        <li>Sushi</li>
-        <li>Handhelds</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🍽️ <strong>Bigger Menu Pick</strong> &nbsp; 🌙 <strong>Late Kitchen Pick</strong></p>
-
-      <h2>3. <a href="https://mothersruinnashville.com/" target="_blank" rel="noopener">Mother's Ruin</a></h2>
-      <p><strong>Best For:</strong> Late-Night Bar Food</p>
-      <p>Mother's Ruin in Germantown has become one of Nashville's recognizable destinations for food and drinks late into the night.</p>
-      <p>Expect burgers, fries, cocktails, and other comfort food.</p>
-      <p>This is especially useful when you want somewhere that still feels lively rather than simply grabbing food and heading home.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Burgers</li>
-        <li>Waffle Fries</li>
-        <li>Cocktails</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🍟 <strong>Bar Food Pick</strong> &nbsp; 🌙 <strong>Germantown Pick</strong></p>
-
-      <h2>4. <a href="https://robertswesternworld.com/" target="_blank" rel="noopener">Robert's Western World</a></h2>
-      <p><strong>Best For:</strong> Late-Night Food on Broadway</p>
-      <p>If you're already spending your night on Lower Broadway, Robert's Western World gives you one of the most uniquely Nashville ways to get something to eat.</p>
-      <p>Instead of leaving Broadway to hunt down food, you can grab something while experiencing one of Nashville's classic honky-tonks.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Fried Bologna Sandwich</li>
-        <li>Classic Bar Food</li>
-        <li>Beer</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <p>🎸 <strong>Broadway Pick</strong> &nbsp; 💰 <strong>Great Value</strong></p>
-
-      <h2>5. <a href="/reviews/baam-burger-nashville">Baam Burger ⭐</a></h2>
-      <p><strong>Best For:</strong> Halal Late-Night Burgers</p>
+      <h2>⭐ <a href="/reviews/baam-burger-nashville">Baam Burger</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
+      <p><strong>Sam Score:</strong> 8.3/10</p>
+      <p><strong>Best For:</strong> Halal late-night burgers</p>
       <p>Baam Burger is a downtown Nashville burger spot tucked into The Arcade, just steps off Broadway, that stands out for its halal menu.</p>
       <p>And unlike most of the restaurants on this list, I've personally reviewed Baam Burger for Eat With Sam K. <a href="/reviews/baam-burger-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "A quick, halal smash burger that's an easy stop late on Broadway."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order: Baam burger with bacon and cheese, fries, and a vanilla milkshake" loading="lazy" /></div>
-      <p>🍔 <strong>Halal Burger Pick</strong> &nbsp; 🌙 <strong>Downtown Pick</strong></p>
 
-      <h2>6. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h2>
-      <p><strong>Best For:</strong> Late-Night Nashville Hot Chicken</p>
-      <p>If you're visiting Nashville and haven't tried hot chicken yet, Prince's gives you a chance to knock out one of the city's signature foods.</p>
-      <p>Prince's is the restaurant credited with originating Nashville hot chicken, making it especially appealing for visitors.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Hot Chicken</li>
-        <li>Fries</li>
-        <li>Baked Beans</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🔥 <strong>Hot Chicken Pick</strong> &nbsp; 🎸 <strong>Nashville Classic</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BZ4dLAvDftD/" data-instgrm-version="14"></blockquote></div>
+      <h2>More Late-Night Nashville Food Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's late-night spots, so the restaurants below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
 
-      <h2>7. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
-      <p><strong>Best For:</strong> Tacos & Drinks</p>
-      <p>Not every late-night meal needs to be a burger or pizza.</p>
-      <p>Bakersfield gives you tacos, queso, guacamole, tequila, and margaritas in a more social environment.</p>
-      <p>It's especially useful when you're out with a group and want food to be part of the night rather than simply grabbing something on the way home.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Tacos</li>
-        <li>Queso</li>
-        <li>Guacamole</li>
-        <li>Margaritas</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🌮 <strong>Taco Pick</strong> &nbsp; 🍹 <strong>Food + Drinks</strong></p>
+      <h3>🏆 <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h3>
+      <p>Dino's is basically a Nashville late-night institution. Located in East Nashville, this dive bar is known for keeping things simple: burgers, fries, drinks, and a laid-back atmosphere.</p>
+      <p><strong>Best For:</strong> Classic late-night burgers</p>
 
-      <h2>8. <a href="https://till5pizza.com/" target="_blank" rel="noopener">Till Five Pizza</a></h2>
-      <p><strong>Best For:</strong> Really Late-Night Pizza</p>
-      <p>The name gives this one away.</p>
-      <p>Till Five Pizza is built around serving people when most traditional restaurants have already closed.</p>
-      <p>If it's extremely late and you want pizza, wings, sandwiches, pasta, or other comfort food, this is one of the Nashville options worth knowing.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Pizza</li>
-        <li>Wings</li>
-        <li>Subs</li>
-        <li>Pasta</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🕔 <strong>Really Late Pick</strong> &nbsp; 🍕 <strong>Pizza Pick</strong></p>
+      <h3>🍽️ <a href="https://earls.ca/locations/earls-nashville-yards/" target="_blank" rel="noopener">Earls Kitchen + Bar</a></h3>
+      <p>Earls Kitchen + Bar is a polished, upscale-casual chain at Nashville Yards, with a menu that ranges from sushi and steaks to salads and handhelds. Its kitchen stays open later than a lot of nearby restaurants, up to 1-2 a.m. Wednesday through Saturday.</p>
+      <p><strong>Best For:</strong> A bigger late-night menu</p>
 
-      <h2>9. <a href="https://www.jbjsnash.com/" target="_blank" rel="noopener">JBJ's Nashville</a></h2>
-      <p><strong>Best For:</strong> Broadway Late-Night Food</p>
-      <p>JBJ's gives you another option directly on Broadway when you're already downtown.</p>
-      <p>Its late-night menu focuses on the kind of straightforward food that makes sense after a night out.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Pizza</li>
-        <li>Hot Dogs</li>
-        <li>Fries</li>
-        <li>Walking Tacos</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🎸 <strong>Broadway Pick</strong></p>
+      <h3>🍟 <a href="https://mothersruinnashville.com/" target="_blank" rel="noopener">Mother's Ruin</a></h3>
+      <p>Mother's Ruin in Germantown has become one of Nashville's recognizable destinations for food and drinks late into the night, burgers, fries, cocktails, and other comfort food.</p>
+      <p><strong>Best For:</strong> Late-night bar food in Germantown</p>
 
-      <h2>🏆 Best Late-Night Nashville Food by Category</h2>
-      <p><strong>🍔 Best for Burgers</strong></p>
-      <ul>
-        <li>Dino's</li>
-        <li>Earls Kitchen + Bar</li>
-        <li>Baam Burger ⭐</li>
-      </ul>
-      <p><strong>🍕 Best for Pizza</strong></p>
-      <ul>
-        <li>Till Five Pizza</li>
-      </ul>
-      <p><strong>🔥 Best for Hot Chicken</strong></p>
-      <ul>
-        <li>Prince's Hot Chicken</li>
-      </ul>
-      <p><strong>🌮 Best for Tacos</strong></p>
-      <ul>
-        <li>Bakersfield</li>
-      </ul>
-      <p><strong>🎸 Best Near Broadway</strong></p>
-      <ul>
-        <li>Robert's Western World</li>
-        <li>JBJ's Nashville</li>
-        <li>Prince's Hot Chicken</li>
-      </ul>
-      <p><strong>💰 Best Budget-Friendly Options</strong></p>
-      <ul>
-        <li>Dino's</li>
-        <li>Robert's Western World</li>
-      </ul>
-      <p><strong>🌙 Best Classic Late-Night Experience</strong></p>
-      <ul>
-        <li>Dino's</li>
-        <li>Robert's Western World</li>
-      </ul>
+      <h3>🎸 <a href="https://robertswesternworld.com/" target="_blank" rel="noopener">Robert's Western World</a></h3>
+      <p>If you're already spending your night on Lower Broadway, Robert's Western World gives you one of the most uniquely Nashville ways to get something to eat without leaving one of the city's classic honky-tonks.</p>
+      <p><strong>Best For:</strong> Late-night food on Broadway, great value</p>
+
+      <h3>🔥 <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h3>
+      <p>If you're visiting Nashville and haven't tried hot chicken yet, Prince's gives you a chance to knock out one of the city's signature foods, the restaurant credited with originating Nashville hot chicken.</p>
+      <p><strong>Best For:</strong> Late-night Nashville hot chicken</p>
+
+      <h3>🌮 <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h3>
+      <p>Not every late-night meal needs to be a burger or pizza. Bakersfield gives you tacos, queso, guacamole, tequila, and margaritas in a more social environment, especially useful when you're out with a group.</p>
+      <p><strong>Best For:</strong> Tacos and drinks</p>
+
+      <h3>🕔 <a href="https://till5pizza.com/" target="_blank" rel="noopener">Till Five Pizza</a></h3>
+      <p>The name gives this one away: Till Five Pizza is built around serving people when most traditional restaurants have already closed, with pizza, wings, subs, and pasta.</p>
+      <p><strong>Best For:</strong> Really late-night pizza</p>
+
+      <h3>🎸 <a href="https://www.jbjsnash.com/" target="_blank" rel="noopener">JBJ's Nashville</a></h3>
+      <p>JBJ's gives you another option directly on Broadway when you're already downtown, with a late-night menu focused on straightforward food that makes sense after a night out.</p>
+      <p><strong>Best For:</strong> Broadway late-night food</p>
+
+      <h2>Best Late-Night Food in Nashville by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Baam Burger — 8.3</td></tr>
+          <tr><td>🍔 Burgers</td><td>Baam Burger / Dino's</td></tr>
+          <tr><td>🍕 Pizza</td><td>Till Five Pizza</td></tr>
+          <tr><td>🔥 Hot Chicken</td><td>Prince's Hot Chicken</td></tr>
+          <tr><td>🌮 Tacos</td><td>Bakersfield</td></tr>
+          <tr><td>🎸 Near Broadway</td><td>Baam Burger / Robert's Western World / JBJ's</td></tr>
+          <tr><td>💰 Budget-Friendly</td><td>Dino's / Robert's Western World</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Is My Favorite Late-Night Spot in Nashville?</h2>
+      <p>Right now, Baam Burger is my top personally-reviewed pick, with an 8.3 Sam Score.</p>
+      <p>That doesn't mean the ranking is permanent. I'm continuing to visit late-night spots throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
+      <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
 
       <h2>🎸 Best Late-Night Food Near Broadway</h2>
       <p>If you're visiting Nashville, there's a good chance this is what you're actually searching for.</p>
@@ -471,30 +370,16 @@ const BLOG_POSTS = [
       <p><strong>Where can I eat after a concert in Nashville?</strong></p>
       <p>That depends on the venue. Downtown concerts give you access to Broadway-area restaurants, while East Nashville and Germantown provide additional options if you're willing to leave downtown.</p>
 
-      <h2>How I'm Finding Nashville's Best Late-Night Food</h2>
-      <p>This list will change.</p>
-      <p>I'm personally working my way through Nashville restaurants, and as I review more late-night spots I'll add:</p>
-      <ul>
-        <li>⭐ Sam Scores</li>
-        <li>📸 Original Photos</li>
-        <li>🎥 Video Reviews</li>
-        <li>🍽️ Exactly What I Ordered</li>
-        <li>💰 Price & Value</li>
-        <li>💬 Sam Says</li>
-        <li>🔁 Would I Go Back?</li>
-      </ul>
-      <p>Eventually I don't want this guide to simply tell you what's open late. I want it to answer what's actually worth eating late. That's a much more useful question.</p>
-
-      <h2>Final Thoughts</h2>
-      <p>Nashville doesn't completely shut down when normal dinner service ends.</p>
-      <p>Whether you're leaving Broadway, a Predators game, a Titans game, a concert, or you're simply hungry after midnight, you still have options.</p>
-      <p>The biggest thing to remember is that late-night hours change frequently, so check current kitchen hours before heading somewhere.</p>
-      <p>And as I personally try more of these places, this guide will increasingly become based on my own experiences rather than reputation alone.</p>
+      <h2>The Sam Score</h2>
+      <p>Every late-night spot that receives a Sam Score has been personally visited and reviewed by me.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more late-night spots around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
         <li><a href="/guides/best-restaurants-near-bridgestone-arena-nashville/">Best Restaurants Near Bridgestone Arena</a></li>
         <li><a href="/guides/best-restaurants-near-nissan-stadium-nashville/">Best Restaurants Near Nissan Stadium</a></li>
@@ -546,187 +431,104 @@ const BLOG_POSTS = [
     content: `
       <p>Looking for the best restaurants near Bridgestone Arena in Nashville? Whether you're heading downtown for a Nashville Predators game, concert, SEC basketball, or another event, there are plenty of great places to eat within walking distance of the arena.</p>
       <p>Bridgestone Arena sits right in the heart of downtown Nashville, directly next to Broadway. That means you have everything from quick burgers and pizza to Nashville hot chicken, barbecue, steakhouses, and upscale restaurants nearby.</p>
-      <p>This guide breaks down some of the best places to eat near Bridgestone Arena based on what you're looking for before or after an event.</p>
-      <p>At Eat With Sam K, every meal I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food. As I visit more of these restaurants, I'll continue updating this guide with my personal Sam Scores, photos, videos, and recommendations.</p>
-      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+      <p>At Eat With Sam K, every meal I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food.</p>
 
-      <h2>Quick List: Best Restaurants Near Bridgestone Arena</h2>
-      <ul>
-        <li><strong>1. <a href="/reviews/ocean-prime-nashville">Ocean Prime ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>2. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></strong></li>
-        <li><strong>3. <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></strong></li>
-        <li><strong>4. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
-        <li><strong>5. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></strong></li>
-        <li><strong>6. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
-        <li><strong>7. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></strong></li>
-        <li><strong>8. <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></strong></li>
-        <li><strong>9. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>10. <a href="/reviews/nadc-burger-nashville">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>11. <a href="/reviews/the-philly-special-nashville">The Philly Special ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>12. <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
-      </ul>
-
-      <h2>1. <a href="/reviews/ocean-prime-nashville">Ocean Prime ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/ocean-prime-nashville">Ocean Prime</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (steps from Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 9.3/10</p>
       <p><strong>Best For:</strong> Upscale Steak & Seafood Before the Game</p>
       <p>Ocean Prime is my top pick near Bridgestone Arena, a polished steakhouse and seafood restaurant just steps from Fifth + Broadway, with a lively bar and a menu that swings from crab cakes and ahi tuna tartare to prime steaks. <a href="/reviews/ocean-prime-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "My top pick before a Bridgestone show, close enough to walk and good enough to make the meal the whole point."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
 
-      <h2>2. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h2>
-      <p><strong>Best For:</strong> Groups & Variety</p>
-      <p>Located directly across from Bridgestone Arena at Fifth + Broadway, Assembly Food Hall is probably one of the easiest places to eat before an event.</p>
-      <p>Instead of forcing everyone in your group to agree on one restaurant, you can choose from a large collection of food concepts under one roof. That makes it especially convenient for families and groups heading to a Predators game or concert.</p>
-      <p><strong>Good For:</strong></p>
-      <ul>
-        <li>Large groups</li>
-        <li>Families</li>
-        <li>Quick meals</li>
-        <li>Different food preferences</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>👨‍👩‍👧 <strong>Family Friendly</strong> &nbsp; 🎉 <strong>Great for Groups</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZYBG08kXI3/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>3. <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></h2>
-      <p><strong>Best For:</strong> Nashville Hot Chicken</p>
-      <p>If you're visiting Nashville and want hot chicken before your event, Hattie B's is one of the most recognizable options near Bridgestone Arena. Its Fifth + Broadway location makes it extremely convenient for arena events.</p>
-      <p>Choose your heat level carefully: you can go from completely mild to seriously hot.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Hot Chicken Sandwich</li>
-        <li>Tenders</li>
-        <li>Pimento Mac & Cheese</li>
-        <li>Dirty Bird Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🔥 <strong>Nashville Classic</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBe_wdQpGP_/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>4. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
-      <p><strong>Best For:</strong> Tennessee BBQ</p>
-      <p>If barbecue is on your Nashville checklist, Martin's is an excellent downtown option. It's especially good for visitors who want to try Tennessee-style barbecue without traveling far from Bridgestone Arena.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Whole Hog BBQ</li>
-        <li>Brisket</li>
-        <li>Ribs</li>
-        <li>Mac & Cheese</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🍖 <strong>BBQ Pick</strong> &nbsp; 🔥 <strong>Worth the Wait</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbF85digGm/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>5. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h2>
-      <p><strong>Best For:</strong> Nashville Atmosphere</p>
-      <p>The Stillery combines comfort food, drinks, and live music with a downtown Nashville atmosphere. The menu includes burgers, pizza, hot chicken, and other casual options, making it an easy pregame choice.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🎵 <strong>Nashville Atmosphere</strong> &nbsp; 🎉 <strong>Good for Groups</strong></p>
-
-      <h2>6. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
-      <p><strong>Best For:</strong> Tacos & Margaritas</p>
-      <p>Bakersfield is a fun option if you're looking for tacos and drinks before an event. The atmosphere works especially well for groups that want something lively without going directly into the Broadway honky-tonks.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Tacos</li>
-        <li>Queso</li>
-        <li>Guacamole</li>
-        <li>Margaritas</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🌮 <strong>Mexican Pick</strong></p>
-
-      <h2>7. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></h2>
-      <p><strong>Best For:</strong> Upscale Dinner Before an Event</p>
-      <p>Not every Bridgestone meal needs to be burgers and barbecue. If you're going to a concert, celebrating something special, or want a proper dinner beforehand, Etch is one of downtown Nashville's better upscale options.</p>
-      <p>Give yourself plenty of time before your event rather than trying to rush through dinner.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-      <p>❤️ <strong>Date Night Pick</strong> &nbsp; 🥂 <strong>Special Occasion</strong></p>
-
-      <h2>8. <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></h2>
-      <p><strong>Best For:</strong> Wine & Dinner</p>
-      <p>Sixty Vines is another strong option when you want something nicer before heading to Bridgestone. It's particularly appealing for date nights and concerts when you want dinner and wine before walking over to the arena.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <p>🍷 <strong>Wine Pick</strong> &nbsp; ❤️ <strong>Date Night</strong></p>
-
-      <h2>9. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
+      <p><strong>Neighborhood:</strong> Germantown</p>
+      <p><strong>Sam Score:</strong> 8.6/10</p>
       <p><strong>Best For:</strong> Creative Burgers Before the Game</p>
       <p>Jack Brown's is a casual burger-and-beer spot in Germantown, an easy stop if you want a good burger without committing to an expensive sit-down dinner before heading to Bridgestone. <a href="/reviews/jack-browns-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
-      <h2>10. <a href="/reviews/nadc-burger-nashville">NADC Burger ⭐</a></h2>
-      <p><strong>Best For:</strong> Smash Burgers</p>
-      <p>NADC Burger is another downtown option I've personally reviewed. If you want a smash burger before or after your event, it's worth considering, especially if you're looking for something casual rather than a traditional sit-down dinner.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
+      <p><strong>Sam Score:</strong> 8.2/10</p>
+      <p><strong>Best For:</strong> Smash Burgers Before or After the Game</p>
+      <p>NADC Burger is another downtown option I've personally reviewed. If you want a smash burger before or after your event, it's worth considering, especially if you're looking for something casual rather than a traditional sit-down dinner. <a href="/reviews/nadc-burger-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "One burger, done exactly one way, and Wagyu beef makes the case for why that's enough."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
-      <p>🍔 <strong>Smash Burger Pick</strong></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
 
-      <h2>11. <a href="/reviews/the-philly-special-nashville">The Philly Special ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/the-philly-special-nashville">The Philly Special</a></h2>
+      <p><strong>Neighborhood:</strong> Assembly Food Hall (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 7.7/10</p>
       <p><strong>Best For:</strong> Philly Cheesesteaks Before the Game</p>
-      <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall, directly across from Bridgestone Arena at Fifth + Broadway.</p>
-      <p>I've personally reviewed The Philly Special for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall, directly across from Bridgestone Arena at Fifth + Broadway. <a href="/reviews/the-philly-special-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A genuine Philly-style cheesesteak inside the food hall directly across from the arena, hard to beat for convenience."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
-      <p>🥪 <strong>Cheesesteak Pick</strong></p>
       <div class="own-photo"><img src="/images/reviews/the-philly-special-nashville/order.jpg" alt="Close-up of The Original cheesesteak with ribeye and white American, The Philly Special" loading="lazy" /></div>
 
-      <h2>12. <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza ⭐</a></h2>
-      <p><strong>Best For:</strong> Quick Pizza</p>
-      <p>Sometimes you don't want a full meal before an event. Prince Street Pizza makes it easy to grab a slice and continue toward Bridgestone or Broadway.</p>
-      <p>I've personally reviewed Prince Street Pizza for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <h2>⭐ <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 7.4/10</p>
+      <p><strong>Best For:</strong> Quick Pizza Before the Game</p>
+      <p>Sometimes you don't want a full meal before an event. Prince Street Pizza makes it easy to grab a slice and continue toward Bridgestone or Broadway. <a href="/reviews/prince-street-pizza-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A dependable, affordable stop if you're downtown and want a genuinely good slice fast."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
-      <p>🍕 <strong>Quick Bite</strong></p>
       <div class="own-photo"><img src="/images/reviews/prince-street-pizza-nashville/order.jpg" alt="Sam's order: three square slices in the box, Prince St. Pizza Nashville" loading="lazy" /></div>
 
-      <h2>Best Restaurants Near Bridgestone Arena by Category</h2>
-      <p><strong>🍔 Best for Burgers</strong></p>
-      <ul>
-        <li>Jack Brown's Beer & Burger Joint ⭐</li>
-        <li>NADC Burger ⭐</li>
-      </ul>
-      <p><strong>🔥 Best for Nashville Hot Chicken</strong></p>
-      <ul>
-        <li>Hattie B's Hot Chicken</li>
-      </ul>
-      <p><strong>🍖 Best for BBQ</strong></p>
-      <ul>
-        <li>Martin's Bar-B-Que Joint</li>
-      </ul>
-      <p><strong>🍕 Best for Pizza</strong></p>
-      <ul>
-        <li>Prince St. Pizza ⭐</li>
-      </ul>
-      <p><strong>🥪 Best for Sandwiches</strong></p>
-      <ul>
-        <li>The Philly Special ⭐</li>
-      </ul>
-      <p><strong>🌮 Best for Tacos</strong></p>
-      <ul>
-        <li>Bakersfield</li>
-      </ul>
-      <p><strong>👨‍👩‍👧 Best for Families & Groups</strong></p>
-      <ul>
-        <li>Assembly Food Hall</li>
-        <li>Martin's Bar-B-Que Joint</li>
-        <li>The Stillery</li>
-      </ul>
-      <p><strong>❤️ Best for Date Night</strong></p>
-      <ul>
-        <li>Ocean Prime ⭐</li>
-        <li>Etch</li>
-        <li>Sixty Vines</li>
-      </ul>
-      <p><strong>⚡ Best for a Quick Meal</strong></p>
-      <ul>
-        <li>Assembly Food Hall</li>
-        <li>Prince St. Pizza ⭐</li>
-        <li>The Philly Special ⭐</li>
-        <li>Hattie B's</li>
-      </ul>
+      <h2>More Restaurants Near Bridgestone Arena Worth Knowing</h2>
+      <p>I'm still working my way through the restaurants near Bridgestone Arena, so the spots below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
+
+      <h3>🍽️ <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h3>
+      <p>Located directly across from Bridgestone Arena at Fifth + Broadway, Assembly Food Hall is one of the easiest places to eat before an event. Instead of forcing everyone in your group to agree on one restaurant, you can choose from a large collection of food concepts under one roof.</p>
+      <p><strong>Best For:</strong> Groups & Variety</p>
+
+      <h3>🔥 <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></h3>
+      <p>If you're visiting Nashville and want hot chicken before your event, Hattie B's is one of the most recognizable options near Bridgestone Arena. Its Fifth + Broadway location makes it extremely convenient for arena events.</p>
+      <p><strong>Best For:</strong> Nashville Hot Chicken</p>
+
+      <h3>🍖 <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h3>
+      <p>If barbecue is on your Nashville checklist, Martin's is an excellent downtown option, especially good for visitors who want to try Tennessee-style barbecue without traveling far from Bridgestone Arena.</p>
+      <p><strong>Best For:</strong> Tennessee BBQ</p>
+
+      <h3>🎵 <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h3>
+      <p>The Stillery combines comfort food, drinks, and live music with a downtown Nashville atmosphere. The menu includes burgers, pizza, hot chicken, and other casual options, making it an easy pregame choice.</p>
+      <p><strong>Best For:</strong> Nashville Atmosphere</p>
+
+      <h3>🌮 <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h3>
+      <p>Bakersfield is a fun option if you're looking for tacos and drinks before an event, working especially well for groups that want something lively without going directly into the Broadway honky-tonks.</p>
+      <p><strong>Best For:</strong> Tacos & Margaritas</p>
+
+      <h3>🥂 <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></h3>
+      <p>Not every Bridgestone meal needs to be burgers and barbecue. If you're going to a concert, celebrating something special, or want a proper dinner beforehand, Etch is one of downtown Nashville's better upscale options.</p>
+      <p><strong>Best For:</strong> Upscale Dinner Before an Event</p>
+
+      <h3>🍷 <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></h3>
+      <p>Sixty Vines is another strong option when you want something nicer before heading to Bridgestone, particularly appealing for date nights and concerts when you want dinner and wine before walking over to the arena.</p>
+      <p><strong>Best For:</strong> Wine & Dinner</p>
+
+      <h2>Best Restaurants Near Bridgestone Arena by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime — 9.3</td></tr>
+          <tr><td>🥩 Date Night / Special Occasion</td><td>Ocean Prime / Etch / Sixty Vines</td></tr>
+          <tr><td>🍔 Burgers</td><td>Jack Brown's / NADC Burger</td></tr>
+          <tr><td>🔥 Nashville Hot Chicken</td><td>Hattie B's</td></tr>
+          <tr><td>🍖 BBQ</td><td>Martin's Bar-B-Que Joint</td></tr>
+          <tr><td>🍕 Quick Pizza</td><td>Prince St. Pizza</td></tr>
+          <tr><td>🥪 Cheesesteaks</td><td>The Philly Special</td></tr>
+          <tr><td>👨‍👩‍👧 Groups & Families</td><td>Assembly Food Hall / The Stillery</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2>Where Should You Eat Before a Predators Game?</h2>
       <p>For a Nashville Predators game, I'd prioritize somewhere that's convenient enough that you aren't stressing about getting to your seats on time.</p>
@@ -735,18 +537,8 @@ const BLOG_POSTS = [
       <p>For burgers, Jack Brown's and NADC Burger are good options. And if you just need something quick, Prince Street Pizza works well.</p>
 
       <h2>Where Should You Eat Before a Concert at Bridgestone Arena?</h2>
-      <p>For a concert date night, I'd lean toward somewhere that feels more like part of the night out. Consider:</p>
-      <ul>
-        <li>❤️ Etch</li>
-        <li>🍷 Sixty Vines</li>
-        <li>🌮 Bakersfield</li>
-      </ul>
-      <p>For something more casual:</p>
-      <ul>
-        <li>🍔 Jack Brown's</li>
-        <li>🍕 Prince Street Pizza</li>
-        <li>🔥 Hattie B's</li>
-      </ul>
+      <p>For a concert date night, I'd lean toward Ocean Prime, Etch, Sixty Vines, or Bakersfield, somewhere that feels more like part of the night out.</p>
+      <p>For something more casual, Jack Brown's, Prince Street Pizza, and Hattie B's all work well.</p>
 
       <h2>How Early Should You Eat Before an Event at Bridgestone Arena?</h2>
       <p>Downtown Nashville can become extremely busy when Bridgestone Arena has a major event, particularly when it overlaps with weekend Broadway traffic.</p>
@@ -765,24 +557,23 @@ const BLOG_POSTS = [
       <p><strong>Can I walk from these restaurants to Bridgestone Arena?</strong></p>
       <p>Many downtown restaurants are within walking distance of Bridgestone Arena. Always check the exact location before your visit, particularly if you're trying to arrive at the arena by a specific time.</p>
 
-      <h2>Final Thoughts</h2>
-      <p>One of the best things about attending an event at Bridgestone Arena is how many food options you have nearby.</p>
-      <p>You can grab hot chicken or barbecue for the full Nashville experience, get a quick burger or slice of pizza, or make the night more special with an upscale dinner.</p>
-      <p>As I personally visit more restaurants around Bridgestone Arena, I'll continue updating this guide with Sam Scores, firsthand reviews, photos, videos, and my personal rankings.</p>
+      <h2>The Sam Score</h2>
+      <p>Every restaurant that receives a Sam Score has been personally visited and reviewed by me, food quality, value, service, and atmosphere all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more restaurants around Bridgestone Arena, I'll continue updating this guide with new Sam Scores and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
         <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
         <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
         <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
-        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
         <li><a href="/guides/best-steakhouses-nashville/">Best Steakhouses in Nashville</a></li>
         <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
         <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
-        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
       </ul>
     `,
   },
@@ -819,231 +610,109 @@ const BLOG_POSTS = [
     ],
     content: `
       <p>Searching for the best steakhouses in Nashville? Whether you're celebrating a special occasion, planning an unforgettable date night, entertaining clients, or simply craving a perfectly cooked steak, Nashville is home to some of the best steakhouses in the South.</p>
-      <p>From world-class steakhouses serving Japanese Wagyu to classic chophouses with decades of history, Nashville offers something for every steak lover. This guide highlights the restaurants consistently known for exceptional steaks, service, and atmosphere.</p>
-      <p>At Eat With Sam K, every meal I review is paid for with my own money. I don't accept paid reviews or free meals in exchange for positive coverage. As I continue exploring Nashville's steak scene, this guide will be updated with my personal reviews, Sam Scores, photos, and recommendations.</p>
-      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+      <p>I'm working my way through Nashville's steakhouses and giving the places I personally visit a Sam Score based on my overall experience. This guide will continue to change as I try more of them.</p>
+      <p>At Eat With Sam K, every meal I review is paid for with my own money. I don't accept paid reviews or free meals in exchange for positive coverage.</p>
 
-      <h2>Quick List: Best Steakhouses in Nashville</h2>
-      <ul>
-        <li><strong>1. <a href="https://www.jeffruby.com/nashville" target="_blank" rel="noopener">Jeff Ruby's Steakhouse</a></strong></li>
-        <li><strong>2. <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak by Michael Mina</a></strong></li>
-        <li><strong>3. <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></strong></li>
-        <li><strong>4. <a href="https://www.harpersnashville.com/" target="_blank" rel="noopener">Harper's</a></strong></li>
-        <li><strong>5. <a href="https://hallschophousenashville.com/" target="_blank" rel="noopener">Halls Chophouse</a></strong></li>
-        <li><strong>6. <a href="https://stksteakhouse.com/en-us/location/nashville/" target="_blank" rel="noopener">STK Nashville</a></strong></li>
-        <li><strong>7. <a href="https://www.oaksteakhouse.com/location/oak-steakhouse-nashville/" target="_blank" rel="noopener">Oak Steakhouse</a></strong></li>
-        <li><strong>8. <a href="https://www.eddiev.com/locations/tn/nashville/nashville/8529" target="_blank" rel="noopener">Eddie V's Prime Seafood</a></strong></li>
-        <li><strong>9. <a href="https://www.thesouthernnashville.com/" target="_blank" rel="noopener">The Southern Steak & Oyster</a></strong></li>
-        <li><strong>10. <a href="https://www.sperrys.com/belle-meade-about/" target="_blank" rel="noopener">Sperry's Restaurant</a></strong></li>
-        <li><strong>11. <a href="/reviews/ocean-prime-nashville">Ocean Prime</a></strong> ⭐ (Personally Reviewed)</li>
-      </ul>
-
-      <h2>1. <a href="https://www.jeffruby.com/nashville" target="_blank" rel="noopener">Jeff Ruby's Steakhouse</a></h2>
-      <p><strong>Best For:</strong> Overall Steakhouse Experience</p>
-      <p>Jeff Ruby's combines luxury dining, exceptional service, and some of the finest USDA Prime steaks available in Nashville.</p>
-      <p>Whether you're celebrating an anniversary or entertaining clients, it's one of the city's premier dining destinations.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Filet Mignon</li>
-        <li>Bone-In Ribeye</li>
-        <li>Japanese Wagyu</li>
-        <li>Lobster Mac & Cheese</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-      <p>🏆 <strong>Best Overall</strong> &nbsp; ❤️ <strong>Date Night Pick</strong></p>
-
-      <h2>2. <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak by Michael Mina</a></h2>
-      <p><strong>Best For:</strong> Luxury Dining</p>
-      <p>Located inside the JW Marriott, Bourbon Steak delivers an upscale dining experience with premium cuts, incredible views, and outstanding service.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>American Wagyu</li>
-        <li>Dry-Aged Ribeye</li>
-        <li>Truffle Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-      <p>🥂 <strong>Special Occasion</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CsZsPxTsNCr/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>3. <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h2>
-      <p><strong>Best For:</strong> Modern Steakhouse</p>
-      <p>Kayne Prime has become one of Nashville's signature modern steakhouses thanks to creative sides, premium beef, and an impressive cocktail program.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Dry-Aged Strip</li>
-        <li>Wagyu Filet</li>
-        <li>Mac & Cheese</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-      <p>🔥 <strong>Worth the Splurge</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DXuZLgYD29p/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>4. <a href="https://www.harpersnashville.com/" target="_blank" rel="noopener">Harper's</a></h2>
-      <p><strong>Best For:</strong> New Luxury Dining</p>
-      <p>Harper's has quickly become one of Nashville's hottest reservations by combining premium steaks with an elegant atmosphere and elevated menu.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Filet</li>
-        <li>Ribeye</li>
-        <li>Seafood Tower</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-      <p>✨ <strong>Trending Restaurant</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DEqF9qypFQ0/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>5. <a href="https://hallschophousenashville.com/" target="_blank" rel="noopener">Halls Chophouse</a></h2>
-      <p><strong>Best For:</strong> Service</p>
-      <p>Halls has earned a reputation for exceptional hospitality and consistently outstanding steaks.</p>
-      <p>If service is just as important as the food, this belongs near the top of your list.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Bone-In Ribeye</li>
-        <li>Filet</li>
-        <li>Creamed Spinach</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-      <p>⭐ <strong>Exceptional Service</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C9x4UGjBK8T/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>6. <a href="https://stksteakhouse.com/en-us/location/nashville/" target="_blank" rel="noopener">STK Nashville</a></h2>
-      <p><strong>Best For:</strong> Dinner & Nightlife</p>
-      <p>STK combines steakhouse dining with a lively atmosphere, making it popular for birthdays, celebrations, and group dinners.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Filet</li>
-        <li>Wagyu Burger</li>
-        <li>Truffle Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-      <p>🎉 <strong>Great for Groups</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CoFotU8Njls/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>7. <a href="https://www.oaksteakhouse.com/location/oak-steakhouse-nashville/" target="_blank" rel="noopener">Oak Steakhouse</a></h2>
-      <p><strong>Best For:</strong> Traditional Steakhouse</p>
-      <p>Oak offers a more classic steakhouse experience while consistently serving premium cuts and excellent cocktails.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Dry-Aged Ribeye</li>
-        <li>Filet</li>
-        <li>Brussels Sprouts</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-      <p>🥩 <strong>Classic Steakhouse</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C72gbplBw9v/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>8. <a href="https://www.eddiev.com/locations/tn/nashville/nashville/8529" target="_blank" rel="noopener">Eddie V's Prime Seafood</a></h2>
-      <p><strong>Best For:</strong> Steak & Seafood</p>
-      <p>If your group wants both exceptional steak and fresh seafood, Eddie V's is one of the best choices in Nashville.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Filet</li>
-        <li>Bone-In Ribeye</li>
-        <li>Lobster Tail</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-      <p>🦞 <strong>Best Surf & Turf</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DCsPnhtSWkG/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>9. <a href="https://www.thesouthernnashville.com/" target="_blank" rel="noopener">The Southern Steak & Oyster</a></h2>
-      <p><strong>Best For:</strong> Southern Steakhouse</p>
-      <p>The Southern blends premium steaks with Southern hospitality and seafood, making it a favorite for both visitors and locals.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Filet</li>
-        <li>New York Strip</li>
-        <li>Oysters</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <p>🌆 <strong>Downtown Favorite</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBUYjR5v2JU/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>10. <a href="https://www.sperrys.com/belle-meade-about/" target="_blank" rel="noopener">Sperry's Restaurant</a></h2>
-      <p><strong>Best For:</strong> Nashville Tradition</p>
-      <p>Serving Nashville since 1974, Sperry's remains one of the city's most beloved classic steakhouses.</p>
-      <p>If you're looking for old-school charm and consistency, Sperry's is worth visiting.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Prime Rib</li>
-        <li>Filet</li>
-        <li>Salad Bar</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <p>🏛️ <strong>Nashville Classic</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DEU4yQURi_a/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>11. <a href="/reviews/ocean-prime-nashville">Ocean Prime</a> ⭐</h2>
-      <p><strong>Best For:</strong> Steak & Seafood Near Broadway</p>
-      <p>Ocean Prime pairs premium steaks with fresh seafood and a lively bar scene just steps from Broadway. <a href="/reviews/ocean-prime-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <h2>⭐ <a href="/reviews/ocean-prime-nashville">Ocean Prime</a></h2>
+      <p><strong>Neighborhood:</strong> Near Broadway</p>
+      <p><strong>Sam Score:</strong> 9.3/10</p>
+      <p><strong>Best For:</strong> Steak &amp; seafood near Broadway</p>
+      <p>Ocean Prime pairs premium steaks with fresh seafood and a lively bar scene just steps from Broadway.</p>
+      <p>The 9.3 Sam Score puts it among the highest-rated restaurants I've reviewed anywhere in Nashville, not just among steakhouses. <a href="/reviews/ocean-prime-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "One of the best overall meals I've had since starting Eat With Sam K, the kind of steakhouse that backs up the price."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
 
-      <h2>Best Steakhouses by Category</h2>
-      <p><strong>🏆 Best Overall</strong></p>
-      <ul>
-        <li>Jeff Ruby's Steakhouse</li>
-      </ul>
-      <p><strong>❤️ Best Date Night</strong></p>
-      <ul>
-        <li>Jeff Ruby's</li>
-        <li>Bourbon Steak</li>
-        <li>Kayne Prime</li>
-      </ul>
-      <p><strong>🥂 Best Special Occasion</strong></p>
-      <ul>
-        <li>Bourbon Steak</li>
-        <li>Jeff Ruby's</li>
-        <li>Harper's</li>
-      </ul>
-      <p><strong>👔 Best Business Dinner</strong></p>
-      <ul>
-        <li>Jeff Ruby's</li>
-        <li>Oak Steakhouse</li>
-        <li>Halls Chophouse</li>
-      </ul>
-      <p><strong>🎉 Best for Groups</strong></p>
-      <ul>
-        <li>STK</li>
-        <li>Halls Chophouse</li>
-      </ul>
-      <p><strong>🦞 Best Steak & Seafood</strong></p>
-      <ul>
-        <li>Eddie V's</li>
-        <li>The Southern</li>
-        <li>Ocean Prime ⭐</li>
-      </ul>
+      <h2>More Nashville Steakhouses Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's steakhouses, so the restaurants below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
 
-      <h2>How I Rate Steakhouses</h2>
-      <p>Every steakhouse I personally review on Eat With Sam K is evaluated using the same criteria.</p>
-      <ul>
-        <li>🥩 Steak Quality — Flavor, tenderness, seasoning, and temperature.</li>
-        <li>🍽️ Sides — Are they memorable or just an afterthought?</li>
-        <li>💰 Value — Does the experience justify the price?</li>
-        <li>👨‍🍳 Service — Professionalism, attentiveness, and consistency.</li>
-        <li>🏠 Atmosphere — Comfort, ambiance, and overall dining experience.</li>
-      </ul>
-      <p>⭐ Every review receives a Sam Score, making it easy to compare Nashville's best steakhouses.</p>
+      <h3>🏆 <a href="https://www.jeffruby.com/nashville" target="_blank" rel="noopener">Jeff Ruby's Steakhouse</a></h3>
+      <p>Jeff Ruby's combines luxury dining, exceptional service, and some of the finest USDA Prime steaks available in Nashville.</p>
+      <p>Whether you're celebrating an anniversary or entertaining clients, it's one of the city's premier dining destinations.</p>
+      <p><strong>Best For:</strong> Overall steakhouse experience</p>
+
+      <h3>🥂 <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak by Michael Mina</a></h3>
+      <p>Located inside the JW Marriott, Bourbon Steak delivers an upscale dining experience with premium cuts, incredible views, and outstanding service.</p>
+      <p><strong>Best For:</strong> Luxury dining and special occasions</p>
+
+      <h3>🔥 <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h3>
+      <p>Kayne Prime has become one of Nashville's signature modern steakhouses thanks to creative sides, premium beef, and an impressive cocktail program.</p>
+      <p><strong>Best For:</strong> Modern steakhouse, worth the splurge</p>
+
+      <h3>✨ <a href="https://www.harpersnashville.com/" target="_blank" rel="noopener">Harper's</a></h3>
+      <p>Harper's has quickly become one of Nashville's hottest reservations by combining premium steaks with an elegant atmosphere and elevated menu.</p>
+      <p><strong>Best For:</strong> Trending, newer luxury dining</p>
+
+      <h3>⭐ <a href="https://hallschophousenashville.com/" target="_blank" rel="noopener">Halls Chophouse</a></h3>
+      <p>Halls has earned a reputation for exceptional hospitality and consistently outstanding steaks. If service is just as important as the food, this belongs near the top of your list.</p>
+      <p><strong>Best For:</strong> Exceptional service, business dinners</p>
+
+      <h3>🎉 <a href="https://stksteakhouse.com/en-us/location/nashville/" target="_blank" rel="noopener">STK Nashville</a></h3>
+      <p>STK combines steakhouse dining with a lively atmosphere, making it popular for birthdays, celebrations, and group dinners.</p>
+      <p><strong>Best For:</strong> Dinner and nightlife, groups</p>
+
+      <h3>🥩 <a href="https://www.oaksteakhouse.com/location/oak-steakhouse-nashville/" target="_blank" rel="noopener">Oak Steakhouse</a></h3>
+      <p>Oak offers a more classic steakhouse experience while consistently serving premium cuts and excellent cocktails.</p>
+      <p><strong>Best For:</strong> Traditional steakhouse</p>
+
+      <h3>🦞 <a href="https://www.eddiev.com/locations/tn/nashville/nashville/8529" target="_blank" rel="noopener">Eddie V's Prime Seafood</a></h3>
+      <p>If your group wants both exceptional steak and fresh seafood, Eddie V's is one of the best choices in Nashville.</p>
+      <p><strong>Best For:</strong> Steak and seafood, surf and turf</p>
+
+      <h3>🌆 <a href="https://www.thesouthernnashville.com/" target="_blank" rel="noopener">The Southern Steak &amp; Oyster</a></h3>
+      <p>The Southern blends premium steaks with Southern hospitality and seafood, making it a favorite for both visitors and locals.</p>
+      <p><strong>Best For:</strong> Downtown, steak and oysters</p>
+
+      <h3>🏛️ <a href="https://www.sperrys.com/belle-meade-about/" target="_blank" rel="noopener">Sperry's Restaurant</a></h3>
+      <p>Serving Nashville since 1974, Sperry's remains one of the city's most beloved classic steakhouses. If you're looking for old-school charm and consistency, Sperry's is worth visiting.</p>
+      <p><strong>Best For:</strong> Nashville tradition, old-school charm</p>
+
+      <h2>Best Steakhouses in Nashville by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime — 9.3</td></tr>
+          <tr><td>🏆 Best Overall</td><td>Jeff Ruby's</td></tr>
+          <tr><td>❤️ Date Night</td><td>Ocean Prime / Jeff Ruby's</td></tr>
+          <tr><td>🥂 Special Occasion</td><td>Bourbon Steak / Harper's</td></tr>
+          <tr><td>👔 Business Dinner</td><td>Jeff Ruby's / Halls Chophouse</td></tr>
+          <tr><td>🎉 Group Dinner</td><td>STK / Halls Chophouse</td></tr>
+          <tr><td>🦞 Steak &amp; Seafood</td><td>Ocean Prime / Eddie V's</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Is My Favorite Steakhouse in Nashville?</h2>
+      <p>Right now, Ocean Prime holds the top spot among the steakhouses I've personally reviewed, with a 9.3 Sam Score.</p>
+      <p>That doesn't mean the ranking is permanent. I'm continuing to visit steakhouses throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
+      <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What is the best steakhouse in Nashville?</strong></p>
-      <p>Jeff Ruby's, Bourbon Steak, and Kayne Prime are consistently considered among Nashville's top steakhouses. As I continue reviewing more restaurants, I'll update this guide with my own personal rankings and Sam Scores.</p>
+      <p>Of the steakhouses I've personally reviewed so far, Ocean Prime is my highest rated at 9.3/10. Jeff Ruby's, Bourbon Steak, and Kayne Prime are also consistently considered among Nashville's top steakhouses, and I'll update this guide with my own Sam Score for each as I visit them.</p>
       <p><strong>Which steakhouse is best for a date night?</strong></p>
-      <p>Jeff Ruby's, Bourbon Steak, and Harper's all offer upscale atmospheres that are perfect for anniversaries and special occasions.</p>
+      <p>Ocean Prime is my personal pick, with Jeff Ruby's, Bourbon Steak, and Harper's all offering upscale atmospheres that work well for anniversaries and special occasions.</p>
       <p><strong>Where should I take a client for dinner?</strong></p>
       <p>Jeff Ruby's, Oak Steakhouse, and Halls Chophouse are excellent choices for business dinners thanks to their service, atmosphere, and menu.</p>
       <p><strong>What's the best steakhouse downtown?</strong></p>
-      <p>Jeff Ruby's, The Southern, and Bourbon Steak are all conveniently located near downtown attractions and hotels.</p>
+      <p>Ocean Prime, Jeff Ruby's, The Southern, and Bourbon Steak are all conveniently located near downtown attractions and hotels.</p>
 
-      <h2>Final Thoughts</h2>
-      <p>Whether you're celebrating something special or simply treating yourself to a great steak, Nashville offers incredible options ranging from timeless classics to modern luxury steakhouses.</p>
-      <p>As I continue visiting these restaurants, I'll update this guide with Sam Scores, photos, videos, favorite menu items, and honest reviews to help you decide which steakhouse deserves your next reservation.</p>
+      <h2>The Sam Score</h2>
+      <p>Every steakhouse that receives a Sam Score has been personally visited and reviewed by me, steak quality, sides, value, service, and atmosphere all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more steakhouses around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
         <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
-        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
         <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
         <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
@@ -1086,192 +755,116 @@ const BLOG_POSTS = [
     content: `
       <p>Looking for the best restaurants near Broadway in Nashville? Whether you're in town for a concert, a Titans game, a Predators game, or simply exploring the famous honky-tonks, you don't have to settle for tourist traps. These are some of the best restaurants within walking distance or a short drive from Broadway.</p>
       <p>Broadway may be Nashville's most famous street, but some of the city's best food is found just outside the busiest blocks. From award-winning barbecue and upscale dining to burgers, tacos, and pizza, there's something here for every budget and occasion.</p>
-      <p>At Eat With Sam K, every meal I review is paid for with my own money. I don't accept paid reviews or free meals in exchange for positive coverage. As I continue exploring Nashville's restaurant scene, this guide will be updated with my personal reviews, Sam Scores, photos, and recommendations.</p>
-      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+      <p>At Eat With Sam K, every meal I review is paid for with my own money. I don't accept paid reviews or free meals in exchange for positive coverage.</p>
 
-      <h2>Quick List: Best Restaurants Near Broadway Nashville</h2>
-      <ul>
-        <li><strong>1. <a href="/reviews/ocean-prime-nashville">Ocean Prime ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>2. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
-        <li><strong>3. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></strong></li>
-        <li><strong>4. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></strong></li>
-        <li><strong>5. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
-        <li><strong>6. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></strong></li>
-        <li><strong>7. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></strong></li>
-        <li><strong>8. <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></strong></li>
-        <li><strong>9. <a href="/reviews/chile-burrito-nashville">The Chile Burrito Co. ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>10. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>11. <a href="/reviews/nadc-burger-nashville">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>12. <a href="/reviews/the-philly-special-nashville">The Philly Special ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>13. <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
-      </ul>
-
-      <h2>1. <a href="/reviews/ocean-prime-nashville">Ocean Prime ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/ocean-prime-nashville">Ocean Prime</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (steps from Broadway)</p>
+      <p><strong>Sam Score:</strong> 9.3/10</p>
       <p><strong>Best For:</strong> Upscale Steak & Seafood</p>
       <p>Ocean Prime is my top pick near Broadway, a polished steakhouse and seafood restaurant just steps away, with a lively bar scene and a menu that swings from crab cakes and ahi tuna tartare to prime steaks. <a href="/reviews/ocean-prime-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "My top pick near Broadway, close enough to walk and good enough to make the meal the whole point."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
 
-      <h2>2. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
-      <p><strong>Best For:</strong> Authentic Tennessee BBQ</p>
-      <p>Martin's has become one of Nashville's must-visit barbecue destinations. From whole-hog barbecue to brisket and ribs, it's one of the city's most iconic restaurants.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Brisket</li>
-        <li>Pulled Pork</li>
-        <li>Ribs</li>
-        <li>Mac & Cheese</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbF85digGm/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>3. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h2>
-      <p><strong>Best For:</strong> Groups That Can't Decide</p>
-      <p>Assembly Food Hall is one of the easiest recommendations near Broadway because everyone can order something different.</p>
-      <p>With dozens of local vendors under one roof, it's perfect for:</p>
-      <ul>
-        <li>Families</li>
-        <li>Bachelor & bachelorette parties</li>
-        <li>Large groups</li>
-        <li>Visitors wanting variety</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZYBG08kXI3/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>4. <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></h2>
-      <p><strong>Best For:</strong> Fine Dining Downtown</p>
-      <p>If you're celebrating a special occasion or simply want one of the nicest dinners downtown, Etch consistently delivers.</p>
-      <p>Creative dishes, outstanding service, and an upscale atmosphere make it one of Nashville's premier restaurants.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-
-      <h2>5. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
-      <p><strong>Best For:</strong> Tacos & Margaritas</p>
-      <p>Bakersfield offers fresh tacos, excellent margaritas, and a lively atmosphere that's perfect before heading out downtown.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Street Tacos</li>
-        <li>Margaritas</li>
-        <li>Queso</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-
-      <h2>6. <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h2>
-      <p><strong>Best For:</strong> Live Music & Comfort Food</p>
-      <p>The Stillery blends Nashville's live music atmosphere with burgers, pizza, hot chicken, and Southern comfort food.</p>
-      <p>A great option if you want dinner while staying close to the Broadway action.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-
-      <h2>7. <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></h2>
-      <p><strong>Best For:</strong> Brunch & Celebrations</p>
-      <p>Known for its bright atmosphere and coastal-inspired design, Hampton Social is a popular destination for brunch, birthdays, and girls' trips.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Lobster Roll</li>
-        <li>Avocado Toast</li>
-        <li>Rosé</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DAtxPZrPGfP/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>8. <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></h2>
-      <p><strong>Best For:</strong> A Classic Nashville Night Out</p>
-      <p>Located in historic Printer's Alley, Skull's combines excellent food with one of the city's most unique entertainment experiences.</p>
-      <p>Perfect for dinner before live jazz or a special night out.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DblDA05lRPK/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>9. <a href="/reviews/chile-burrito-nashville">The Chile Burrito Co. ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/chile-burrito-nashville">The Chile Burrito Co.</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (just off Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.7/10</p>
       <p><strong>Best For:</strong> Build-Your-Own Burritos Downtown</p>
       <p>The Chile Burrito Co. is a counter-service Mexican spot just off Broadway, an easy stop for a quick burrito loaded with whatever you want from the salsa bar. <a href="/reviews/chile-burrito-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "A build-your-own burrito counter that's fast, cheap, and genuinely good, exactly what you want a block off Broadway."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chile-burrito-nashville">Read my full Chile Burrito Co. review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chile-burrito-nashville/order.jpg" alt="Sam's 12-inch steak burrito, The Chile Burrito Co." loading="lazy" /></div>
 
-      <h2>10. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
+      <p><strong>Neighborhood:</strong> Germantown</p>
+      <p><strong>Sam Score:</strong> 8.6/10</p>
       <p><strong>Best For:</strong> Creative Burgers</p>
       <p>Jack Brown's is a casual burger-and-beer spot in Germantown, an easy recommendation before or after a night on Broadway. <a href="/reviews/jack-browns-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
-      <h2>11. <a href="/reviews/nadc-burger-nashville">NADC Burger ⭐</a></h2>
-      <p><strong>Best For:</strong> Smash Burgers</p>
-      <p>NADC Burger serves one of the better smash burgers close to downtown Nashville.</p>
-      <p>Simple menu. Excellent execution.</p>
-      <p>If you're craving a burger after walking Broadway, this is absolutely worth checking out.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
+      <p><strong>Sam Score:</strong> 8.2/10</p>
+      <p><strong>Best For:</strong> Smash Burgers Close to Downtown</p>
+      <p>NADC Burger serves one of the better smash burgers close to downtown Nashville. Simple menu, excellent execution. If you're craving a burger after walking Broadway, this is absolutely worth checking out. <a href="/reviews/nadc-burger-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "One burger, done exactly one way, and Wagyu beef makes the case for why that's enough."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
 
-      <h2>12. <a href="/reviews/the-philly-special-nashville">The Philly Special ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/the-philly-special-nashville">The Philly Special</a></h2>
+      <p><strong>Neighborhood:</strong> Assembly Food Hall (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 7.7/10</p>
       <p><strong>Best For:</strong> Philly Cheesesteaks</p>
-      <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall at Fifth + Broadway, just steps from Broadway itself.</p>
-      <p>I've personally reviewed The Philly Special for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall at Fifth + Broadway, just steps from Broadway itself. <a href="/reviews/the-philly-special-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A genuine Philly-style cheesesteak inside the food hall right off Broadway, hard to beat for convenience."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
       <div class="own-photo"><img src="/images/reviews/the-philly-special-nashville/order.jpg" alt="Close-up of The Original cheesesteak with ribeye and white American, The Philly Special" loading="lazy" /></div>
 
-      <h2>13. <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 7.4/10</p>
       <p><strong>Best For:</strong> A Quick Slice Near Broadway</p>
-      <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown.</p>
-      <p>If you're looking for something fast before a concert or after the bars, this is an easy recommendation.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown. If you're looking for something fast before a concert or after the bars, this is an easy recommendation. <a href="/reviews/prince-street-pizza-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A dependable, affordable stop if you're downtown and want a genuinely good slice fast."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
       <div class="own-photo"><img src="/images/reviews/prince-street-pizza-nashville/order.jpg" alt="Sam's order: three square slices in the box, Prince St. Pizza Nashville" loading="lazy" /></div>
 
-      <h2>Best Restaurants Near Broadway by Category</h2>
-      <p><strong>🍔 Best Burger</strong></p>
-      <ul>
-        <li>Jack Brown's ⭐</li>
-        <li>NADC Burger ⭐</li>
-      </ul>
-      <p><strong>🍕 Best Pizza</strong></p>
-      <ul>
-        <li>Prince St. Pizza ⭐</li>
-      </ul>
-      <p><strong>🥪 Best Sandwich</strong></p>
-      <ul>
-        <li>The Philly Special ⭐</li>
-      </ul>
-      <p><strong>🍖 Best BBQ</strong></p>
-      <ul>
-        <li>Martin's Bar-B-Que Joint</li>
-      </ul>
-      <p><strong>🌮 Best Mexican</strong></p>
-      <ul>
-        <li>Bakersfield</li>
-        <li>The Chile Burrito Co. ⭐</li>
-      </ul>
-      <p><strong>🍳 Best Brunch</strong></p>
-      <ul>
-        <li>The Hampton Social</li>
-      </ul>
-      <p><strong>👨‍👩‍👧 Best for Groups</strong></p>
-      <ul>
-        <li>Assembly Food Hall</li>
-        <li>The Hampton Social</li>
-        <li>The Stillery</li>
-      </ul>
-      <p><strong>❤️ Best for Date Night</strong></p>
-      <ul>
-        <li>Ocean Prime ⭐</li>
-        <li>Etch</li>
-      </ul>
-      <p><strong>💰 Best Budget Options</strong></p>
-      <ul>
-        <li>Prince St. Pizza ⭐</li>
-        <li>Jack Brown's ⭐</li>
-        <li>Assembly Food Hall</li>
-      </ul>
+      <h2>More Restaurants Near Broadway Worth Knowing</h2>
+      <p>I'm still working my way through the restaurants near Broadway, so the spots below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
+
+      <h3>🍖 <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h3>
+      <p>Martin's has become one of Nashville's must-visit barbecue destinations. From whole-hog barbecue to brisket and ribs, it's one of the city's most iconic restaurants.</p>
+      <p><strong>Best For:</strong> Authentic Tennessee BBQ</p>
+
+      <h3>🍽️ <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h3>
+      <p>Assembly Food Hall is one of the easiest recommendations near Broadway because everyone can order something different, with dozens of local vendors under one roof.</p>
+      <p><strong>Best For:</strong> Groups That Can't Decide</p>
+
+      <h3>🥂 <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></h3>
+      <p>If you're celebrating a special occasion or simply want one of the nicest dinners downtown, Etch consistently delivers with creative dishes and outstanding service.</p>
+      <p><strong>Best For:</strong> Fine Dining Downtown</p>
+
+      <h3>🌮 <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h3>
+      <p>Bakersfield offers fresh tacos, excellent margaritas, and a lively atmosphere that's perfect before heading out downtown.</p>
+      <p><strong>Best For:</strong> Tacos & Margaritas</p>
+
+      <h3>🎵 <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h3>
+      <p>The Stillery blends Nashville's live music atmosphere with burgers, pizza, hot chicken, and Southern comfort food, a great option while staying close to the Broadway action.</p>
+      <p><strong>Best For:</strong> Live Music & Comfort Food</p>
+
+      <h3>🍳 <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></h3>
+      <p>Known for its bright atmosphere and coastal-inspired design, Hampton Social is a popular destination for brunch, birthdays, and girls' trips.</p>
+      <p><strong>Best For:</strong> Brunch & Celebrations</p>
+
+      <h3>🎷 <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></h3>
+      <p>Located in historic Printer's Alley, Skull's combines excellent food with one of the city's most unique entertainment experiences, perfect before live jazz or a special night out.</p>
+      <p><strong>Best For:</strong> A Classic Nashville Night Out</p>
+
+      <h2>Best Restaurants Near Broadway by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime — 9.3</td></tr>
+          <tr><td>🥩 Date Night</td><td>Ocean Prime / Etch</td></tr>
+          <tr><td>🌮 Mexican</td><td>The Chile Burrito Co. / Bakersfield</td></tr>
+          <tr><td>🍔 Burgers</td><td>Jack Brown's / NADC Burger</td></tr>
+          <tr><td>🥪 Sandwiches</td><td>The Philly Special</td></tr>
+          <tr><td>🍕 Quick Pizza</td><td>Prince St. Pizza</td></tr>
+          <tr><td>🍖 BBQ</td><td>Martin's Bar-B-Que Joint</td></tr>
+          <tr><td>👨‍👩‍👧 Groups</td><td>Assembly Food Hall / The Hampton Social</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2>How Far Are These Restaurants From Broadway?</h2>
-      <p>Most restaurants on this list are:</p>
-      <ul>
-        <li>🚶 5–15 minute walk</li>
-        <li>🚗 Less than 10 minutes by car</li>
-      </ul>
-      <p>That makes them perfect before concerts, sporting events, or a night exploring downtown Nashville.</p>
+      <p>Most restaurants on this list are a 5-15 minute walk or less than 10 minutes by car, making them perfect before concerts, sporting events, or a night exploring downtown Nashville.</p>
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>Where should I eat before going to Broadway?</strong></p>
@@ -1283,20 +876,20 @@ const BLOG_POSTS = [
       <p><strong>Is there good food near Broadway?</strong></p>
       <p>Absolutely. Some of Nashville's best restaurants are located just a few blocks away from Lower Broadway, making it easy to enjoy a great meal before or after your downtown plans.</p>
 
-      <h2>Final Thoughts</h2>
-      <p>Broadway may be famous for live music, but the food around it has become just as exciting.</p>
-      <p>Whether you're looking for award-winning barbecue, gourmet burgers, pizza, tacos, or an upscale dinner, these restaurants offer some of the best dining experiences close to downtown Nashville.</p>
-      <p>As I continue reviewing more restaurants, I'll keep updating this guide with Sam Scores, photos, videos, and firsthand recommendations to help you avoid tourist traps and find meals that are actually worth your time.</p>
+      <h2>The Sam Score</h2>
+      <p>Every restaurant that receives a Sam Score has been personally visited and reviewed by me, food quality, value, service, and atmosphere all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more restaurants near Broadway, I'll continue updating this guide with new Sam Scores and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
+        <li><a href="/guides/best-restaurants-near-bridgestone-arena-nashville/">Best Restaurants Near Bridgestone Arena</a></li>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
         <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
         <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
-        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
-        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
         <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
         <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
       </ul>
@@ -1796,141 +1389,98 @@ const BLOG_POSTS = [
     content: `
       <p>Looking for the best cheap eats in Nashville? You don't have to spend a fortune to enjoy incredible food in Music City. Whether you're craving burgers, tacos, pizza, BBQ, hot chicken, or breakfast, this guide highlights some of the best budget-friendly restaurants in Nashville.</p>
       <p>Great food doesn't always come with a high price tag. Some of Nashville's best meals cost less than $20, making it easy to enjoy amazing local restaurants without breaking the bank.</p>
-      <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept free food or paid reviews, so every recommendation is based on my honest experience and research. As I continue reviewing more restaurants across Nashville, this guide will be updated with my personal rankings, photos, and scores.</p>
-      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+      <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept free food or paid reviews, so every recommendation is based on my honest experience and research.</p>
 
-      <h2>Quick List: Best Cheap Eats in Nashville (2026)</h2>
-      <ul>
-        <li><strong>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></strong></li>
-        <li><strong>2. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></strong></li>
-        <li><strong>3. <a href="/reviews/reds-hot-chicken-nashville">Red's Hot Chicken ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>4. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>5. <a href="/reviews/hugh-babys-nashville">Hugh-Baby's ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>6. <a href="https://fatmosburgers.com/" target="_blank" rel="noopener">Fat Mo's</a></strong></li>
-        <li><strong>7. <a href="https://oscarstacoshop.com/" target="_blank" rel="noopener">Oscar's Taco Shop</a></strong></li>
-        <li><strong>8. <a href="https://www.bajaburrito.com/" target="_blank" rel="noopener">Baja Burrito</a></strong></li>
-        <li><strong>9. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></strong></li>
-        <li><strong>10. <a href="https://www.mitchelldeli.com/" target="_blank" rel="noopener">Mitchell Delicatessen</a></strong></li>
-      </ul>
-
-      <h2>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h2>
-      <p><strong>Best For:</strong> Pizza by the Slice</p>
-      <p>Five Points Pizza is one of Nashville's best places to grab an affordable meal. Huge New York-style slices mean you can eat well without spending much.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Pepperoni Slice</li>
-        <li>Cheese Slice</li>
-        <li>Garlic Knots</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTPJFpFsAU/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>2. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h2>
-      <p><strong>Best For:</strong> Nashville's Signature Food</p>
-      <p>If you're visiting Nashville, Prince's lets you experience the city's most famous food without an expensive bill.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Hot Chicken</li>
-        <li>Fries</li>
-        <li>Baked Beans</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BZ4dLAvDftD/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>3. <a href="/reviews/reds-hot-chicken-nashville">Red's Hot Chicken ⭐</a></h2>
-      <p><strong>Best For:</strong> Hot Chicken Sandwiches</p>
-      <p>Red's delivers big flavor at a reasonable price, making it one of the better budget lunch options around Nashville. <a href="/reviews/reds-hot-chicken-nashville">Read Sam's full review →</a></p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Hot Chicken Sandwich</li>
-        <li>Hot Chicken Mac & Cheese Crunch Wrap</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <h2>⭐ <a href="/reviews/reds-hot-chicken-nashville">Red's Hot Chicken</a></h2>
+      <p><strong>Neighborhood:</strong> Midtown (near Centennial Park)</p>
+      <p><strong>Sam Score:</strong> 8.7/10</p>
+      <p><strong>Best For:</strong> Hot Chicken Sandwiches Under $20</p>
+      <p>Red's delivers big flavor at a reasonable price, making it one of the better budget lunch options around Nashville. The Hot Chicken Mac & Cheese Crunch Wrap is a standout. <a href="/reviews/reds-hot-chicken-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "Big, creative flavor for a counter-service price, one of the best budget lunches in Midtown."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/reds-hot-chicken-nashville">Read my full Red's Hot Chicken review →</a></p>
       <div class="own-photo"><img src="/images/reviews/reds-hot-chicken-nashville/order.jpg" alt="Sam's Hot Chicken Mac & Cheese Crunch Wrap with a side of ranch, Red's Hot Chicken" loading="lazy" /></div>
 
-      <h2>4. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
+      <p><strong>Neighborhood:</strong> Germantown</p>
+      <p><strong>Sam Score:</strong> 8.6/10</p>
       <p><strong>Best For:</strong> Creative Burgers Under $20</p>
       <p>Jack Brown's is a casual burger-and-beer spot in Germantown with a covered patio, proving you don't need a big budget for a great burger. <a href="/reviews/jack-browns-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
-      <h2>5. <a href="/reviews/hugh-babys-nashville">Hugh-Baby's ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/hugh-babys-nashville">Hugh-Baby's</a></h2>
+      <p><strong>Neighborhood:</strong> Charlotte Avenue (The Nations)</p>
+      <p><strong>Sam Score:</strong> 8.5/10</p>
       <p><strong>Best For:</strong> Burgers, BBQ & Milkshakes</p>
-      <p>Hugh-Baby's has quietly become one of Nashville's favorite casual restaurants. Between the burgers, pulled pork, and shakes, it's one of the best food values in town.</p>
-      <p>I've personally reviewed Hugh-Baby's for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Hugh-Baby's has quietly become one of Nashville's favorite casual restaurants. Between the burgers, pulled pork, and shakes, it's one of the best food values in town. <a href="/reviews/hugh-babys-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "Smashed cheeseburgers, BBQ, and hand-spun shakes in one order, hard to find a better dollar-for-dollar meal."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/hugh-babys-nashville">Read my full Hugh-Baby's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/hugh-babys-nashville/order.jpg" alt="Close-up of the double cheeseburger, no pickle, add bacon, Hugh-Baby's" loading="lazy" /></div>
 
-      <h2>6. <a href="https://fatmosburgers.com/" target="_blank" rel="noopener">Fat Mo's</a></h2>
-      <p><strong>Best For:</strong> Giant Burgers</p>
+      <h2>More Nashville Cheap Eats Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's budget-friendly restaurants, so the spots below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
+
+      <h3>🍕 <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h3>
+      <p>Five Points Pizza is one of Nashville's best places to grab an affordable meal. Huge New York-style slices mean you can eat well without spending much.</p>
+      <p><strong>Best For:</strong> Pizza by the Slice</p>
+
+      <h3>👑 <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h3>
+      <p>If you're visiting Nashville, Prince's lets you experience the city's most famous food without an expensive bill.</p>
+      <p><strong>Best For:</strong> Nashville's Signature Food</p>
+
+      <h3>🍔 <a href="https://fatmosburgers.com/" target="_blank" rel="noopener">Fat Mo's</a></h3>
       <p>Fat Mo's has been serving massive burgers for years. If you're hungry, it's hard to find a better value.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Double Cheeseburger</li>
-        <li>Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p><strong>Best For:</strong> Giant Burgers</p>
 
-      <h2>7. <a href="https://oscarstacoshop.com/" target="_blank" rel="noopener">Oscar's Taco Shop</a></h2>
-      <p><strong>Best For:</strong> Fast Mexican Food</p>
+      <h3>🌮 <a href="https://oscarstacoshop.com/" target="_blank" rel="noopener">Oscar's Taco Shop</a></h3>
       <p>Oscar's offers generous portions, fresh ingredients, and affordable prices across its menu.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>California Burrito</li>
-        <li>Carne Asada Fries</li>
-        <li>Street Tacos</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0u3kkktcOa/" data-instgrm-version="14"></blockquote></div>
+      <p><strong>Best For:</strong> Fast Mexican Food</p>
 
-      <h2>8. <a href="https://www.bajaburrito.com/" target="_blank" rel="noopener">Baja Burrito</a></h2>
-      <p><strong>Best For:</strong> Fresh Burritos</p>
+      <h3>🌯 <a href="https://www.bajaburrito.com/" target="_blank" rel="noopener">Baja Burrito</a></h3>
       <p>A longtime Nashville favorite, Baja Burrito consistently delivers fresh ingredients, generous portions, and great prices.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Burritos</li>
-        <li>Fish Tacos</li>
-        <li>Quesadillas</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DMONwtXOZ1s/" data-instgrm-version="14"></blockquote></div>
+      <p><strong>Best For:</strong> Fresh Burritos</p>
 
-      <h2>9. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h2>
-      <p><strong>Best For:</strong> Late-Night Burgers</p>
+      <h3>🌙 <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h3>
       <p>Dino's has earned legendary status among locals for serving one of Nashville's best affordable burgers, especially late at night.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Cheeseburger</li>
-        <li>Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
+      <p><strong>Best For:</strong> Late-Night Burgers</p>
 
-      <h2>10. <a href="https://www.mitchelldeli.com/" target="_blank" rel="noopener">Mitchell Delicatessen</a></h2>
+      <h3>🥪 <a href="https://www.mitchelldeli.com/" target="_blank" rel="noopener">Mitchell Delicatessen</a></h3>
+      <p>If you're craving an incredible sandwich without spending a fortune, Mitchell Delicatessen belongs on your list. Fresh ingredients and large portions make it one of East Nashville's best lunch spots.</p>
       <p><strong>Best For:</strong> Sandwiches</p>
-      <p>If you're craving an incredible sandwich without spending a fortune, Mitchell Delicatessen belongs on your list.</p>
-      <p>Fresh ingredients and large portions make it one of East Nashville's best lunch spots.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Turkey Avocado</li>
-        <li>Cubano</li>
-        <li>Daily Specials</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DG0vqh1PYNh/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>Best Cheap Eats in Nashville by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Red's Hot Chicken — 8.7</td></tr>
+          <tr><td>🍔 Burgers Under $20</td><td>Jack Brown's / Hugh-Baby's</td></tr>
+          <tr><td>🔥 Hot Chicken</td><td>Red's Hot Chicken / Prince's</td></tr>
+          <tr><td>🍕 Pizza by the Slice</td><td>Five Points Pizza</td></tr>
+          <tr><td>🌮 Mexican</td><td>Oscar's Taco Shop / Baja Burrito</td></tr>
+          <tr><td>🌙 Late-Night</td><td>Dino's</td></tr>
+          <tr><td>🥪 Sandwiches</td><td>Mitchell Delicatessen</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Is My Favorite Cheap Eat in Nashville?</h2>
+      <p>Right now, Red's Hot Chicken is my top personally-reviewed pick, with an 8.7 Sam Score, just ahead of Jack Brown's (8.6) and Hugh-Baby's (8.5).</p>
+      <p>That doesn't mean the ranking is permanent. I'm continuing to visit budget-friendly restaurants throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
 
       <h2>What Makes a Great Cheap Eat?</h2>
-      <p>For a restaurant to make this list, I'm looking for more than just low prices.</p>
-      <p>I consider:</p>
+      <p>For a restaurant to make this list, I'm looking for more than just low prices. I consider:</p>
       <ul>
-        <li>🍽️ Food Quality — Great food comes first.</li>
-        <li>💰 Value — Is the experience worth what you pay?</li>
-        <li>📏 Portion Size — Will you leave full?</li>
-        <li>👨‍🍳 Service — Friendly and efficient service.</li>
-        <li>🏠 Atmosphere — A welcoming place you'll actually want to visit again.</li>
+        <li>🍽️ Food Quality, great food comes first.</li>
+        <li>💰 Value, is the experience worth what you pay?</li>
+        <li>📏 Portion Size, will you leave full?</li>
+        <li>👨‍🍳 Service, friendly and efficient service.</li>
+        <li>🏠 Atmosphere, a welcoming place you'll actually want to visit again.</li>
       </ul>
       <p>The best cheap eats are restaurants that make you feel like you got more than you paid for.</p>
 
@@ -1946,21 +1496,21 @@ const BLOG_POSTS = [
       <p><strong>Can you eat well in Nashville on a budget?</strong></p>
       <p>Absolutely. While Nashville has plenty of upscale restaurants, many of the city's best local favorites are also some of its most affordable.</p>
 
-      <h2>Final Thoughts</h2>
-      <p>Some of Nashville's best restaurants aren't the most expensive.</p>
-      <p>Whether you're looking for a quick lunch, a late-night burger, hot chicken, pizza, or tacos, there are plenty of incredible meals that won't empty your wallet.</p>
-      <p>As I continue reviewing more restaurants around the city, I'll update this guide with my own Eat With Sam K scores, photos, videos, and recommendations so you can find the best cheap eats Nashville has to offer.</p>
+      <h2>The Sam Score</h2>
+      <p>Every cheap eat that receives a Sam Score has been personally visited and reviewed by me, food quality, value, portion size, service, and atmosphere all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more budget-friendly restaurants around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
         <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
         <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
         <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
         <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
-        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
       </ul>
     `,
   },
@@ -2194,7 +1744,7 @@ const BLOG_POSTS = [
       {
         question: "What is the best hot chicken in Nashville?",
         answer:
-          "Prince's Hot Chicken and Hattie B's are two of Nashville's most famous hot chicken restaurants, while spots like Brave Idiot, Red's, 400 Degrees, Bolton's, and Slow Burn give you plenty of alternatives to explore.",
+          "Of the hot chicken spots Sam has personally reviewed so far, Halal Birdz is his highest rated at 8.9/10, followed by Red's Hot Chicken (8.7) and Chen Chen's (8.6). Prince's Hot Chicken and Hattie B's are two of Nashville's most famous hot chicken restaurants, while spots like Brave Idiot, 400 Degrees, Bolton's, and Slow Burn give you plenty of alternatives to explore.",
       },
       {
         question: "Where did Nashville hot chicken originate?",
@@ -2226,163 +1776,101 @@ const BLOG_POSTS = [
       <p>Looking for the best hot chicken in Nashville? From the legendary restaurants that helped put Nashville hot chicken on the map to newer spots putting their own spin on the city's most famous dish, this updated 2026 guide covers some of the best places to get hot chicken in Music City.</p>
       <p>Nashville hot chicken has become famous across the country, but there's nothing quite like eating it where it all started. Whether you want just a little heat or something that'll have you questioning your decisions halfway through the meal, Nashville has a hot chicken spot for you.</p>
       <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept paid reviews or exchange positive ratings for free food. My rankings and recommendations are based on my own experiences as I continue eating my way through Nashville.</p>
-      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
 
-      <h2>Quick List: Best Hot Chicken in Nashville (2026)</h2>
-      <ul>
-        <li><strong>1. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></strong></li>
-        <li><strong>2. <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></strong></li>
-        <li><strong>3. <a href="https://www.braveidiot.com/" target="_blank" rel="noopener">Brave Idiot</a></strong></li>
-        <li><strong>4. <a href="/reviews/reds-hot-chicken-nashville">Red's Hot Chicken ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>5. <a href="https://www.400degreeshotchicken.com/" target="_blank" rel="noopener">400 Degrees</a></strong></li>
-        <li><strong>6. <a href="https://www.boltonsfamous.com/" target="_blank" rel="noopener">Bolton's Spicy Chicken & Fish</a></strong></li>
-        <li><strong>7. <a href="https://www.slowburnhotchicken.com/" target="_blank" rel="noopener">Slow Burn Hot Chicken</a></strong></li>
-        <li><strong>8. <a href="https://mooreschicken.com/" target="_blank" rel="noopener">Moore's Spicy Fried Chicken</a></strong></li>
-        <li><strong>9. <a href="https://www.hurtshotchicken.com/" target="_blank" rel="noopener">Hurt's Hot Chicken</a></strong></li>
-        <li><strong>10. <a href="https://partyfowl.com/" target="_blank" rel="noopener">Party Fowl</a></strong></li>
-        <li><strong>11. <a href="/reviews/halal-birdz-nashville">Halal Birdz ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>12. <a href="/reviews/chen-chens-nashville">Chen Chen's ⭐</a></strong> (Personally Reviewed)</li>
-      </ul>
-
-      <h2>1. <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h2>
-      <p><strong>Best For:</strong> The Original Nashville Hot Chicken Experience</p>
-      <p>You can't talk about Nashville hot chicken without talking about Prince's. The restaurant's history is deeply connected to the creation of the dish itself, making it one of the most important food stops in Nashville.</p>
-      <p>Prince's serves its chicken with different heat levels, allowing you to choose how much punishment you're willing to take. Beyond the heat, the seasoning and crispy fried chicken are what have kept people coming back for generations.</p>
-      <p>If you're visiting Nashville and want to experience the roots of Nashville hot chicken, Prince's belongs near the top of your list.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Hot Chicken</li>
-        <li>Fries</li>
-        <li>Baked Beans</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/BZ4dLAvDftD/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>2. <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></h2>
-      <p><strong>Best For:</strong> First-Time Hot Chicken Visitors</p>
-      <p>Hattie B's has become one of the most recognizable names associated with Nashville hot chicken. With multiple locations and a range of heat levels, it's an approachable introduction to the dish for anyone trying it for the first time.</p>
-      <p>You can start mild or work your way up to the restaurant's famous Shut the Cluck Up!!! heat level if you're feeling brave.</p>
-      <p>The chicken is crispy, juicy, and heavily seasoned, while the sides help balance out the heat.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Hot Chicken Sandwich</li>
-        <li>Dirty Bird Fries</li>
-        <li>Pimento Mac & Cheese</li>
-        <li>Banana Pudding</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBe_wdQpGP_/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>3. <a href="https://www.braveidiot.com/" target="_blank" rel="noopener">Brave Idiot</a></h2>
-      <p><strong>Best For:</strong> Hot Chicken Sandwiches</p>
-      <p>Brave Idiot has developed a loyal following in Nashville for massive, creative hot chicken sandwiches and bold flavors.</p>
-      <p>This is a great option if you're looking for something beyond the traditional chicken-on-white-bread presentation. The sandwiches are loaded, messy, and designed for people who want serious flavor along with their heat.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Hot Chicken Sandwich</li>
-        <li>Loaded Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DAlZ4iNuJT9/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>4. <a href="/reviews/reds-hot-chicken-nashville">Red's Hot Chicken ⭐</a></h2>
-      <p><strong>Best For:</strong> Hot Chicken Near Centennial Park</p>
-      <p>Red's has earned a strong reputation among Nashville hot chicken fans while remaining smaller and more low-key than some of the city's biggest names.</p>
-      <p>It's an especially convenient stop if you're exploring Centennial Park or the Vanderbilt area. <a href="/reviews/reds-hot-chicken-nashville">Read Sam's full review →</a></p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Hot Chicken Sandwich</li>
-        <li>Hot Chicken Mac & Cheese Crunch Wrap</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/reds-hot-chicken-nashville">Read my full Red's Hot Chicken review →</a></p>
-      <div class="own-photo"><img src="/images/reviews/reds-hot-chicken-nashville/order.jpg" alt="Sam's Hot Chicken Mac & Cheese Crunch Wrap with a side of ranch, Red's Hot Chicken" loading="lazy" /></div>
-
-      <h2>5. <a href="https://www.400degreeshotchicken.com/" target="_blank" rel="noopener">400 Degrees</a></h2>
-      <p><strong>Best For:</strong> Serious Heat</p>
-      <p>400 Degrees is another longtime Nashville hot chicken destination with a loyal local following.</p>
-      <p>The restaurant's name comes from its heat levels, with options ranging from mild to seriously spicy.</p>
-      <p>If you're someone who thinks most hot chicken isn't actually hot enough, this is one of the Nashville restaurants you'll want to test.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Hot Chicken</li>
-        <li>Hot Chicken Sandwich</li>
-        <li>Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DC0H8J9x2rp/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>6. <a href="https://www.boltonsfamous.com/" target="_blank" rel="noopener">Bolton's Spicy Chicken & Fish</a></h2>
-      <p><strong>Best For:</strong> Old-School Nashville</p>
-      <p>Bolton's is another important name in Nashville's hot chicken history.</p>
-      <p>Unlike many newer hot chicken restaurants, Bolton's maintains a straightforward, old-school approach. The menu includes both spicy chicken and fish, making it one of the more unique stops on a Nashville hot chicken tour.</p>
-      <p>Don't underestimate the heat here.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Spicy Chicken</li>
-        <li>Spicy Fish</li>
-        <li>Traditional Sides</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-
-      <h2>7. <a href="https://www.slowburnhotchicken.com/" target="_blank" rel="noopener">Slow Burn Hot Chicken</a></h2>
-      <p><strong>Best For:</strong> Flavor and Heat</p>
-      <p>Slow Burn has built its reputation around balancing spice with flavor rather than simply trying to make the hottest chicken possible.</p>
-      <p>With multiple heat levels and plenty of Southern sides, it's a strong choice for people who want to explore Nashville hot chicken beyond the most famous names.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CzJdBq5uLta/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>8. <a href="https://mooreschicken.com/" target="_blank" rel="noopener">Moore's Spicy Fried Chicken</a></h2>
-      <p><strong>Best For:</strong> Local Hidden Gem</p>
-      <p>Moore's is the type of place that makes exploring Nashville's food scene so much fun.</p>
-      <p>It's far less polished and commercialized than the city's major hot chicken chains, but that's part of the appeal.</p>
-      <p>For people looking to venture beyond the restaurants every Nashville tourist already knows, Moore's deserves consideration.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-
-      <h2>9. <a href="https://www.hurtshotchicken.com/" target="_blank" rel="noopener">Hurt's Hot Chicken</a></h2>
-      <p><strong>Best For:</strong> Trying Something New</p>
-      <p>Hurt's Hot Chicken is another option worth checking out as you explore Nashville's constantly evolving hot chicken scene.</p>
-      <p>With bold seasoning and plenty of heat, it's another stop for anyone attempting to find their personal favorite Nashville hot chicken.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-
-      <h2>10. <a href="https://partyfowl.com/" target="_blank" rel="noopener">Party Fowl</a></h2>
-      <p><strong>Best For:</strong> Groups and a Full Restaurant Experience</p>
-      <p>Party Fowl takes Nashville hot chicken and turns it into more of a full sit-down restaurant experience.</p>
-      <p>Along with traditional hot chicken, you'll find creative dishes incorporating Nashville heat into different meals.</p>
-      <p>It's a good option for groups where some people want hot chicken while others want a broader menu.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Nashville Hot Chicken</li>
-        <li>Hot Chicken & Waffles</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CzXGBoXOQ0_/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>11. <a href="/reviews/halal-birdz-nashville">Halal Birdz ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/halal-birdz-nashville">Halal Birdz</a></h2>
+      <p><strong>Neighborhood:</strong> South Nashville (Murfreesboro Pike)</p>
+      <p><strong>Sam Score:</strong> 8.9/10</p>
       <p><strong>Best For:</strong> Halal Nashville Hot Chicken</p>
       <p>Halal Birdz is a newer spot on Murfreesboro Pike bringing a halal-certified take on Nashville hot chicken, with a counter-service setup and a menu built around numbered boxes and loaded snack packs.</p>
-      <p>I've personally reviewed Halal Birdz for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>#3 Broadway Box</li>
-        <li>#4 Halal Snack Pack</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Quick service, a fun atmosphere, and genuinely well-seasoned chicken made this one of my highest-scoring reviews on the site. <a href="/reviews/halal-birdz-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "The highest Sam Score of any hot chicken spot I've reviewed, and a halal option that doesn't cut any corners on flavor."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/halal-birdz-nashville">Read my full Halal Birdz review →</a></p>
       <div class="own-photo"><img src="/images/reviews/halal-birdz-nashville/order.jpg" alt="Close-up of the #4 Halal Snack Pack, medium heat, Halal Birdz" loading="lazy" /></div>
 
-      <h2>12. <a href="/reviews/chen-chens-nashville">Chen Chen's ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/reds-hot-chicken-nashville">Red's Hot Chicken</a></h2>
+      <p><strong>Neighborhood:</strong> Midtown (near Centennial Park)</p>
+      <p><strong>Sam Score:</strong> 8.7/10</p>
+      <p><strong>Best For:</strong> Hot Chicken Near Centennial Park</p>
+      <p>Red's has earned a strong reputation among Nashville hot chicken fans while remaining smaller and more low-key than some of the city's biggest names.</p>
+      <p>It's an especially convenient stop if you're exploring Centennial Park or the Vanderbilt area, and the Hot Chicken Mac & Cheese Crunch Wrap is worth the trip on its own. <a href="/reviews/reds-hot-chicken-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A Midtown counter spot with a genuinely creative menu, not just another sandwich-and-fries hot chicken shop."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/reds-hot-chicken-nashville">Read my full Red's Hot Chicken review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/reds-hot-chicken-nashville/order.jpg" alt="Sam's Hot Chicken Mac & Cheese Crunch Wrap with a side of ranch, Red's Hot Chicken" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/chen-chens-nashville">Chen Chen's</a></h2>
+      <p><strong>Neighborhood:</strong> Midtown Nashville</p>
+      <p><strong>Sam Score:</strong> 8.6/10</p>
       <p><strong>Best For:</strong> Asian-Inspired Nashville Hot Chicken</p>
       <p>Chen Chen's started as a pop-up in Toronto before becoming a permanent restaurant there, and has now brought the concept back to chef Chen Chen's hometown of Nashville, combining classic Nashville hot chicken with his own Asian-inspired flavors and sauces.</p>
-      <p>I've personally reviewed Chen Chen's for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
-      <p><strong>What to Try:</strong></p>
-      <ul>
-        <li>Homemade Mac & Cheese with Hot Chicken Bites</li>
-        <li>Szechuan Sauce</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>The Homemade Mac & Cheese with Hot Chicken Bites in Szechuan sauce is unlike anything else on this list. <a href="/reviews/chen-chens-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "Nashville hot chicken with real Szechuan flavor behind it, a genuinely original take on a classic."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chen-chens-nashville">Read my full Chen Chen's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chen-chens-nashville/order.jpg" alt="Sam's order: Mac & Cheese with Szechuan hot chicken bites, Chen Chen's Nashville" loading="lazy" /></div>
+
+      <h2>More Nashville Hot Chicken Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's hot chicken scene, so the restaurants below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
+
+      <h3>👑 <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h3>
+      <p>You can't talk about Nashville hot chicken without talking about Prince's. The restaurant's history is deeply connected to the creation of the dish itself, and it serves its chicken at different heat levels backed by generations of seasoning know-how.</p>
+      <p><strong>Best For:</strong> The Original Nashville Hot Chicken Experience</p>
+
+      <h3>🐔 <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></h3>
+      <p>Hattie B's has become one of the most recognizable names associated with Nashville hot chicken. With multiple locations and a range of heat levels from mild up to the famous Shut the Cluck Up!!!, it's an approachable introduction for first-timers.</p>
+      <p><strong>Best For:</strong> First-Time Hot Chicken Visitors</p>
+
+      <h3>🥪 <a href="https://www.braveidiot.com/" target="_blank" rel="noopener">Brave Idiot</a></h3>
+      <p>Brave Idiot has developed a loyal following in Nashville for massive, creative hot chicken sandwiches. It's a great option if you want serious flavor and loaded toppings along with your heat.</p>
+      <p><strong>Best For:</strong> Hot Chicken Sandwiches</p>
+
+      <h3>🌡️ <a href="https://www.400degreeshotchicken.com/" target="_blank" rel="noopener">400 Degrees</a></h3>
+      <p>400 Degrees is another longtime Nashville hot chicken destination with a loyal local following and heat levels ranging from mild to seriously spicy. If you think most hot chicken isn't actually hot enough, this is the one to test.</p>
+      <p><strong>Best For:</strong> Serious Heat</p>
+
+      <h3>🐟 <a href="https://www.boltonsfamous.com/" target="_blank" rel="noopener">Bolton's Spicy Chicken & Fish</a></h3>
+      <p>Bolton's is another important name in Nashville's hot chicken history, maintaining a straightforward, old-school approach with both spicy chicken and fish on the menu. Don't underestimate the heat here.</p>
+      <p><strong>Best For:</strong> Old-School Nashville</p>
+
+      <h3>🔥 <a href="https://www.slowburnhotchicken.com/" target="_blank" rel="noopener">Slow Burn Hot Chicken</a></h3>
+      <p>Slow Burn has built its reputation around balancing spice with flavor rather than simply trying to make the hottest chicken possible, with multiple heat levels and plenty of Southern sides.</p>
+      <p><strong>Best For:</strong> Flavor and Heat</p>
+
+      <h3>💎 <a href="https://mooreschicken.com/" target="_blank" rel="noopener">Moore's Spicy Fried Chicken</a></h3>
+      <p>Moore's is far less polished and commercialized than the city's major hot chicken chains, and that's part of the appeal for anyone looking to venture beyond the spots every Nashville tourist already knows.</p>
+      <p><strong>Best For:</strong> Local Hidden Gem</p>
+
+      <h3>🆕 <a href="https://www.hurtshotchicken.com/" target="_blank" rel="noopener">Hurt's Hot Chicken</a></h3>
+      <p>Hurt's Hot Chicken is another option worth checking out as you explore Nashville's constantly evolving hot chicken scene, with bold seasoning and plenty of heat.</p>
+      <p><strong>Best For:</strong> Trying Something New</p>
+
+      <h3>🍽️ <a href="https://partyfowl.com/" target="_blank" rel="noopener">Party Fowl</a></h3>
+      <p>Party Fowl takes Nashville hot chicken and turns it into more of a full sit-down restaurant experience, with creative dishes incorporating Nashville heat into different meals. Good for groups with mixed preferences.</p>
+      <p><strong>Best For:</strong> Groups and a Full Restaurant Experience</p>
+
+      <h2>Best Hot Chicken in Nashville by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Halal Birdz — 8.9</td></tr>
+          <tr><td>🕌 Halal Hot Chicken</td><td>Halal Birdz</td></tr>
+          <tr><td>🌳 Near Centennial Park</td><td>Red's Hot Chicken</td></tr>
+          <tr><td>🥢 Asian-Inspired</td><td>Chen Chen's</td></tr>
+          <tr><td>👑 Nashville Hot Chicken History</td><td>Prince's Hot Chicken</td></tr>
+          <tr><td>🐔 First-Timers</td><td>Hattie B's</td></tr>
+          <tr><td>🥪 Loaded Sandwiches</td><td>Brave Idiot</td></tr>
+          <tr><td>🌶️ Serious Heat</td><td>400 Degrees</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Is My Favorite Hot Chicken Spot in Nashville?</h2>
+      <p>Right now, Halal Birdz is my top personally-reviewed pick, with an 8.9 Sam Score, just ahead of Red's Hot Chicken (8.7) and Chen Chen's (8.6).</p>
+      <p>That doesn't mean the ranking is permanent. I'm continuing to visit hot chicken spots throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
+      <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
 
       <h2>What Is Nashville Hot Chicken?</h2>
       <p>Nashville hot chicken is fried chicken coated in a spicy seasoning mixture traditionally made with cayenne pepper and other spices.</p>
@@ -2394,32 +1882,19 @@ const BLOG_POSTS = [
       <p>Most Nashville hot chicken restaurants offer several levels ranging from no heat or mild all the way to extremely hot.</p>
       <p>If it's your first time trying Nashville hot chicken, I'd recommend starting somewhere in the middle. You can always go hotter next time. Going directly for the hottest option might turn your first hot chicken experience into a survival challenge instead of dinner.</p>
 
-      <h2>How I Rate Nashville Hot Chicken</h2>
-      <p>Every restaurant I personally review on Eat With Sam K is evaluated using the same overall system so it's easy to compare different restaurants. For hot chicken specifically, I'm paying close attention to:</p>
-      <ul>
-        <li>🌶️ Flavor & Heat — Is it flavorful or just painfully hot?</li>
-        <li>🍗 Chicken Quality — Crispy outside, juicy inside.</li>
-        <li>🧂 Seasoning — How well is the chicken seasoned beyond the spice?</li>
-        <li>💰 Value — Is the portion and quality worth the price?</li>
-        <li>🍽️ Sides — Mac & cheese, fries, beans, slaw and everything else that comes with the meal.</li>
-        <li>👨‍🍳 Service — Speed, friendliness, and overall experience.</li>
-        <li>🏠 Atmosphere — The restaurant itself and overall dining experience.</li>
-      </ul>
-      <p>The most important thing for me is that heat doesn't replace flavor. The best Nashville hot chicken should taste great before the spice even becomes part of the conversation.</p>
-
       <h2>Nashville Hot Chicken Heat Guide</h2>
       <ul>
-        <li>🌶️ Mild — Flavor-forward with a small kick.</li>
-        <li>🌶️🌶️ Medium — Noticeable heat without overwhelming the chicken.</li>
-        <li>🌶️🌶️🌶️ Hot — Serious spice for people who enjoy spicy food.</li>
-        <li>🌶️🌶️🌶️🌶️ Very Hot — You're probably going to feel this one.</li>
-        <li>🌶️🌶️🌶️🌶️🌶️ Proceed at Your Own Risk — You knew what you were signing up for.</li>
+        <li>🌶️ Mild, flavor-forward with a small kick.</li>
+        <li>🌶️🌶️ Medium, noticeable heat without overwhelming the chicken.</li>
+        <li>🌶️🌶️🌶️ Hot, serious spice for people who enjoy spicy food.</li>
+        <li>🌶️🌶️🌶️🌶️ Very Hot, you're probably going to feel this one.</li>
+        <li>🌶️🌶️🌶️🌶️🌶️ Proceed at Your Own Risk, you knew what you were signing up for.</li>
       </ul>
       <p>Heat levels vary significantly between restaurants, so a "Hot" at one restaurant may be completely different from a "Hot" somewhere else.</p>
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What is the best hot chicken in Nashville?</strong></p>
-      <p>Prince's Hot Chicken and Hattie B's are two of Nashville's most famous hot chicken restaurants, while spots like Brave Idiot, Red's, 400 Degrees, Bolton's, and Slow Burn give you plenty of alternatives to explore. As I personally review more of Nashville's hot chicken restaurants, I'll continue updating this guide with my own rankings and scores.</p>
+      <p>Of the hot chicken spots I've personally reviewed so far, Halal Birdz is my highest rated at 8.9/10, followed by Red's Hot Chicken (8.7) and Chen Chen's (8.6). Prince's Hot Chicken and Hattie B's are two of Nashville's most famous hot chicken restaurants, while spots like Brave Idiot, 400 Degrees, Bolton's, and Slow Burn give you plenty of alternatives to explore.</p>
       <p><strong>Where did Nashville hot chicken originate?</strong></p>
       <p>Prince's Hot Chicken is widely associated with the origin of Nashville hot chicken and remains an essential destination for anyone interested in experiencing the history behind the dish.</p>
       <p><strong>Is Hattie B's or Prince's better?</strong></p>
@@ -2431,21 +1906,20 @@ const BLOG_POSTS = [
       <p><strong>Where should tourists get hot chicken in Nashville?</strong></p>
       <p>Prince's is an excellent choice if you want to experience the history of Nashville hot chicken, while Hattie B's is one of the easiest and most accessible options for first-time visitors. If you have more time, exploring smaller local spots is one of the best ways to experience Nashville's broader hot chicken scene.</p>
 
-      <h2>Final Thoughts</h2>
-      <p>Hot chicken isn't just another Nashville food trend. It's one of the dishes most closely associated with the city and an essential part of Nashville's food culture.</p>
-      <p>Prince's helped create the tradition, restaurants like Bolton's and 400 Degrees helped carry it forward, and newer restaurants continue finding different ways to put their own spin on it.</p>
-      <p>But this list isn't finished. I'm continuing to visit Nashville's hot chicken restaurants, and as I personally review more of them, I'll update this guide with Eat With Sam K scores, rankings, photos, videos, and recommendations.</p>
-      <p>The ultimate goal is simple: find the best hot chicken in Nashville.</p>
+      <h2>The Sam Score</h2>
+      <p>Every hot chicken spot that receives a Sam Score has been personally visited and reviewed by me, taste, heat balance, chicken quality, value, sides, service, and atmosphere all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more hot chicken spots around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
         <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
         <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
         <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
-        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
         <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
@@ -2483,156 +1957,111 @@ const BLOG_POSTS = [
     ],
     content: `
       <p>Searching for the best pizza in Nashville? Whether you're craving a classic New York-style slice, authentic Neapolitan pizza, Detroit-style, or a creative local favorite, this guide highlights some of the top pizza restaurants in Music City.</p>
-      <p>Nashville's pizza scene has exploded over the past few years. While the city is famous for hot chicken, it's also home to incredible pizzerias serving everything from perfectly charred wood-fired pies to giant New York-style slices.</p>
-      <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept paid reviews or exchange positive ratings for free food. Every recommendation is based on my honest experience, and this guide will continue to grow as I review more pizza restaurants throughout Nashville.</p>
-      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+      <p>I'm working my way through Nashville's pizzerias and giving the places I personally visit a Sam Score based on my overall experience. This guide will continue to change as I try more of them.</p>
+      <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept paid reviews or exchange positive ratings for free food.</p>
 
-      <h2>Quick List: Best Pizza in Nashville (2026)</h2>
-      <ul>
-        <li><strong>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></strong></li>
-        <li><strong>2. <a href="https://www.smithandlentz.com/" target="_blank" rel="noopener">Smith & Lentz</a></strong></li>
-        <li><strong>3. <a href="https://www.diceystavern.com/nashville" target="_blank" rel="noopener">Dicey's Tavern</a></strong></li>
-        <li><strong>4. <a href="https://slimandhuskys.com/" target="_blank" rel="noopener">Slim & Husky's Pizza Beeria</a></strong></li>
-        <li><strong>5. <a href="https://desanopizza.com/desanonashville" target="_blank" rel="noopener">DeSano Pizzeria Napoletana</a></strong></li>
-        <li><strong>6. <a href="https://www.nickysnashville.com/" target="_blank" rel="noopener">Nicky's Coal Fired</a></strong></li>
-        <li><strong>7. <a href="https://www.emmysquaredpizza.com/" target="_blank" rel="noopener">Emmy Squared Pizza</a></strong></li>
-        <li><strong>8. <a href="https://bellanapolipizzeria.com/" target="_blank" rel="noopener">Bella Napoli Pizzeria</a></strong></li>
-        <li><strong>9. <a href="https://pennepazze.net/" target="_blank" rel="noopener">PennePazze</a></strong></li>
-        <li><strong>10. <a href="https://www.tailgatebeer.com/" target="_blank" rel="noopener">TailGate Brewery</a></strong></li>
-        <li><strong>11. <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
-      </ul>
-
-      <h2>1. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h2>
-      <p><strong>Best For:</strong> New York-Style Pizza</p>
-      <p>Five Points Pizza has become one of Nashville's most iconic pizza destinations. Known for its massive New York-style slices, perfectly crisp crust, and quality ingredients, it's a must-visit whether you're grabbing a quick lunch or a late-night bite.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Pepperoni Slice</li>
-        <li>Cheese Pizza</li>
-        <li>Garlic Knots</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTPJFpFsAU/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>2. <a href="https://www.smithandlentz.com/" target="_blank" rel="noopener">Smith & Lentz</a></h2>
-      <p><strong>Best For:</strong> Artisan Pizza</p>
-      <p>Originally known for its brewery, Smith & Lentz has developed a reputation for serving some of the city's best artisan pizzas. Their naturally fermented dough creates a light, airy crust with outstanding flavor.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Margherita</li>
-        <li>Pepperoni</li>
-        <li>Seasonal Specials</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Da8lt7QFn11/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>3. <a href="https://www.diceystavern.com/nashville" target="_blank" rel="noopener">Dicey's Tavern</a></h2>
-      <p><strong>Best For:</strong> Thin Crust Pizza</p>
-      <p>Dicey's Tavern has quickly become one of Nashville's favorite neighborhood pizza spots. Their crispy, tavern-style pizzas are perfect for sharing alongside a drink.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Tavern Pepperoni</li>
-        <li>House Special</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-
-      <h2>4. <a href="https://slimandhuskys.com/" target="_blank" rel="noopener">Slim & Husky's Pizza Beeria</a></h2>
-      <p><strong>Best For:</strong> Custom Pizza</p>
-      <p>Slim & Husky's offers a fun build-your-own concept while also serving signature pizzas packed with flavor. It's one of Nashville's most recognizable local pizza brands.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Cee No Green</li>
-        <li>Rony, Roni, Rone</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DW1MzmhjZjj/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>5. <a href="https://desanopizza.com/desanonashville" target="_blank" rel="noopener">DeSano Pizzeria Napoletana</a></h2>
-      <p><strong>Best For:</strong> Authentic Neapolitan Pizza</p>
-      <p>If you're looking for authentic Italian pizza, DeSano is one of the closest experiences you'll find in Nashville. Imported ingredients and wood-fired ovens produce soft, flavorful pizzas with beautifully blistered crusts.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Margherita</li>
-        <li>San Gennaro</li>
-        <li>Calabrese</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-
-      <h2>6. <a href="https://www.nickysnashville.com/" target="_blank" rel="noopener">Nicky's Coal Fired</a></h2>
-      <p>Coal-fired ovens give Nicky's pizzas a unique texture and smoky flavor. Their handcrafted pizzas pair perfectly with fresh pasta and Italian-inspired appetizers.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DQKd0vCESML/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>7. <a href="https://www.emmysquaredpizza.com/" target="_blank" rel="noopener">Emmy Squared Pizza</a></h2>
-      <p>Known for its Detroit-style pizza, Emmy Squared serves thick, crispy, cheesy square slices loaded with premium toppings.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Colony Pizza</li>
-        <li>MVP Pizza</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DbRGWAlzQci/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>8. <a href="https://bellanapolipizzeria.com/" target="_blank" rel="noopener">Bella Napoli Pizzeria</a></h2>
-      <p>Bella Napoli has become a local favorite for authentic Italian-style pizza served in a cozy neighborhood atmosphere.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbHOZkVRf0x/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>9. <a href="https://pennepazze.net/" target="_blank" rel="noopener">PennePazze</a></h2>
-      <p>PennePazze combines authentic Italian recipes with high-quality ingredients, creating wood-fired pizzas that continue to earn praise from Nashville diners.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbMURtZH7wo/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>10. <a href="https://www.tailgatebeer.com/" target="_blank" rel="noopener">TailGate Brewery</a></h2>
-      <p>TailGate Brewery serves excellent craft beer alongside one of the city's most underrated pizza menus. With multiple locations around Nashville, it's a great casual option.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Hot Honey Pepperoni</li>
-        <li>Buffalo Chicken Pizza</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTSASnk3vf/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>11. <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza ⭐</a></h2>
-      <p><strong>Best For:</strong> Quick New York-Style Slices Downtown</p>
-      <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown, inside the Fifth + Broadway development. <a href="/reviews/prince-street-pizza-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <h2>⭐ <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 7.4/10</p>
+      <p><strong>Best For:</strong> Quick New York-style slices downtown</p>
+      <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown, inside the Fifth + Broadway development.</p>
+      <p>It's a solid, no-frills square slice with real New York pedigree, the Spicy Vodka and Naughty Pie both deliver plenty of flavor. It doesn't quite live up to the legendary hype of the original Nolita shop, but it's a dependable, affordable stop if you're downtown and want a genuinely good slice fast. <a href="/reviews/prince-street-pizza-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A dependable, affordable stop if you're downtown and want a genuinely good slice fast."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
       <div class="own-photo"><img src="/images/reviews/prince-street-pizza-nashville/order.jpg" alt="Sam's order: three square slices in the box, Prince St. Pizza Nashville" loading="lazy" /></div>
 
-      <h2>How I Rate Every Pizza</h2>
-      <p>Every pizza reviewed on Eat With Sam K is scored using the same criteria:</p>
-      <ul>
-        <li>🍕 Taste</li>
-        <li>💰 Value</li>
-        <li>🧀 Quality of Ingredients</li>
-        <li>👨‍🍳 Service</li>
-        <li>🏠 Atmosphere</li>
-      </ul>
-      <p>This consistent rating system makes it easy to compare restaurants fairly.</p>
+      <h2>More Nashville Pizza Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's pizzerias, so the restaurants below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
+
+      <h3>🍕 <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h3>
+      <p>Five Points Pizza has become one of Nashville's most iconic pizza destinations. Known for its massive New York-style slices, perfectly crisp crust, and quality ingredients, it's a must-visit whether you're grabbing a quick lunch or a late-night bite.</p>
+      <p><strong>Best For:</strong> New York-style pizza</p>
+
+      <h3>🎨 <a href="https://www.smithandlentz.com/" target="_blank" rel="noopener">Smith &amp; Lentz</a></h3>
+      <p>Originally known for its brewery, Smith &amp; Lentz has developed a reputation for serving some of the city's best artisan pizzas. Their naturally fermented dough creates a light, airy crust with outstanding flavor.</p>
+      <p><strong>Best For:</strong> Artisan pizza</p>
+
+      <h3>🍺 <a href="https://www.diceystavern.com/nashville" target="_blank" rel="noopener">Dicey's Tavern</a></h3>
+      <p>Dicey's Tavern has quickly become one of Nashville's favorite neighborhood pizza spots. Their crispy, tavern-style pizzas are perfect for sharing alongside a drink.</p>
+      <p><strong>Best For:</strong> Thin crust pizza</p>
+
+      <h3>🧀 <a href="https://slimandhuskys.com/" target="_blank" rel="noopener">Slim &amp; Husky's Pizza Beeria</a></h3>
+      <p>Slim &amp; Husky's offers a fun build-your-own concept while also serving signature pizzas packed with flavor. It's one of Nashville's most recognizable local pizza brands.</p>
+      <p><strong>Best For:</strong> Custom pizza</p>
+
+      <h3>🇮🇹 <a href="https://desanopizza.com/desanonashville" target="_blank" rel="noopener">DeSano Pizzeria Napoletana</a></h3>
+      <p>If you're looking for authentic Italian pizza, DeSano is one of the closest experiences you'll find in Nashville. Imported ingredients and wood-fired ovens produce soft, flavorful pizzas with beautifully blistered crusts.</p>
+      <p><strong>Best For:</strong> Authentic Neapolitan pizza</p>
+
+      <h3>🔥 <a href="https://www.nickysnashville.com/" target="_blank" rel="noopener">Nicky's Coal Fired</a></h3>
+      <p>Coal-fired ovens give Nicky's pizzas a unique texture and smoky flavor. Their handcrafted pizzas pair perfectly with fresh pasta and Italian-inspired appetizers.</p>
+      <p><strong>Best For:</strong> Coal-fired pizza and pasta</p>
+
+      <h3>🟥 <a href="https://www.emmysquaredpizza.com/" target="_blank" rel="noopener">Emmy Squared Pizza</a></h3>
+      <p>Known for its Detroit-style pizza, Emmy Squared serves thick, crispy, cheesy square slices loaded with premium toppings.</p>
+      <p><strong>Best For:</strong> Detroit-style pizza</p>
+
+      <h3>🇮🇹 <a href="https://bellanapolipizzeria.com/" target="_blank" rel="noopener">Bella Napoli Pizzeria</a></h3>
+      <p>Bella Napoli has become a local favorite for authentic Italian-style pizza served in a cozy neighborhood atmosphere.</p>
+      <p><strong>Best For:</strong> Cozy, neighborhood Italian pizza</p>
+
+      <h3>🌲 <a href="https://pennepazze.net/" target="_blank" rel="noopener">PennePazze</a></h3>
+      <p>PennePazze combines authentic Italian recipes with high-quality ingredients, creating wood-fired pizzas that continue to earn praise from Nashville diners.</p>
+      <p><strong>Best For:</strong> Wood-fired Italian pizza</p>
+
+      <h3>🍻 <a href="https://www.tailgatebeer.com/" target="_blank" rel="noopener">TailGate Brewery</a></h3>
+      <p>TailGate Brewery serves excellent craft beer alongside one of the city's most underrated pizza menus. With multiple locations around Nashville, it's a great casual option.</p>
+      <p><strong>Best For:</strong> Pizza and craft beer</p>
+
+      <h2>Best Pizza in Nashville by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Prince St. Pizza — 7.4</td></tr>
+          <tr><td>🍕 New York-Style</td><td>Prince St. Pizza / Five Points Pizza</td></tr>
+          <tr><td>🇮🇹 Neapolitan</td><td>DeSano Pizzeria</td></tr>
+          <tr><td>🟥 Detroit-Style</td><td>Emmy Squared</td></tr>
+          <tr><td>🍺 Pizza &amp; Beer</td><td>TailGate Brewery / Slim &amp; Husky's</td></tr>
+          <tr><td>🎨 Artisan</td><td>Smith &amp; Lentz</td></tr>
+          <tr><td>📍 Quick, Downtown</td><td>Prince St. Pizza</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Is My Favorite Pizza Spot in Nashville?</h2>
+      <p>Right now, Prince St. Pizza is my top personally-reviewed pick, with a 7.4 Sam Score.</p>
+      <p>That doesn't mean the ranking is permanent. I'm continuing to visit pizzerias throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
+      <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What is the best pizza in Nashville?</strong></p>
-      <p>Five Points Pizza, Smith & Lentz, Dicey's Tavern, and DeSano Pizzeria are consistently recognized as some of Nashville's top pizza destinations.</p>
+      <p>Of the pizzerias I've personally reviewed so far, Prince St. Pizza is my highest rated at 7.4/10. Five Points Pizza, Smith &amp; Lentz, Dicey's Tavern, and DeSano Pizzeria are also consistently recognized as some of Nashville's top pizza destinations.</p>
       <p><strong>Where can I get New York-style pizza in Nashville?</strong></p>
-      <p>Five Points Pizza is widely considered one of the best places for authentic New York-style pizza in the city.</p>
+      <p>Prince St. Pizza and Five Points Pizza are both widely considered among the best places for authentic New York-style pizza in the city.</p>
       <p><strong>Where can I find authentic Neapolitan pizza?</strong></p>
       <p>DeSano Pizzeria Napoletana is one of Nashville's best choices for authentic wood-fired Neapolitan pizza.</p>
       <p><strong>What is the best Detroit-style pizza in Nashville?</strong></p>
       <p>Emmy Squared Pizza is the city's standout destination for Detroit-style pizza.</p>
 
-      <h2>Final Thoughts</h2>
-      <p>Whether you're looking for a giant New York slice, an authentic Neapolitan pizza, or a crispy Detroit-style pie, Nashville has no shortage of outstanding pizza restaurants.</p>
-      <p>As I continue visiting more restaurants across the city, this guide will be updated with new rankings, detailed reviews, and hidden gems. My goal is to make Eat With Sam K the most trusted resource for finding the best pizza in Nashville.</p>
-      <p><em>Last Updated: July 2026</em></p>
+      <h2>The Sam Score</h2>
+      <p>Every pizza spot that receives a Sam Score has been personally visited and reviewed by me, taste, value, quality of ingredients, service, and atmosphere all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more pizzerias around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
+      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
         <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
         <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
         <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
-        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
         <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
@@ -2650,12 +2079,12 @@ const BLOG_POSTS = [
       {
         question: "What is the best burger in Nashville?",
         answer:
-          "Jack Brown's, Bad Luck Burger Club, Dreamburger, and Pharmacy Burger Parlor are consistently considered among the best burgers in Nashville.",
+          "Of the burger spots Sam has personally reviewed so far, Jack Brown's is his highest rated at 8.6/10, followed by Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2). Bad Luck Burger Club, Dreamburger, and Pharmacy Burger Parlor are also consistently considered among the best burgers in Nashville.",
       },
       {
         question: "What is the best smash burger in Nashville?",
         answer:
-          "Bad Luck Burger Club and Dreamburger are two of the most popular smash burger restaurants in the city.",
+          "Bad Luck Burger Club and Dreamburger are two of the most popular smash burger restaurants in the city, alongside NADC Burger, which Sam has personally reviewed.",
       },
       {
         question: "What is the best cheap burger in Nashville?",
@@ -2672,152 +2101,123 @@ const BLOG_POSTS = [
       <p>Looking for the best burgers in Nashville? Whether you're craving a classic smash burger, a thick gourmet burger, or a local hidden gem, this updated 2026 guide highlights some of the best burger restaurants in Music City.</p>
       <p>Nashville has quietly become one of the best burger cities in the South. From award-winning smash burgers to neighborhood favorites and premium steakhouse burgers, there's something for everyone.</p>
       <p>At Eat With Sam K, every burger is purchased with my own money. I do not accept paid reviews or exchange positive ratings for free food. Every recommendation is based on my honest experience.</p>
-      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
 
-      <h2>Quick List: Best Burgers in Nashville (2026)</h2>
-      <ul>
-        <li><strong>1. <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></strong></li>
-        <li><strong>2. <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></strong></li>
-        <li><strong>3. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></strong></li>
-        <li><strong>4. <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></strong></li>
-        <li><strong>5. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></strong></li>
-        <li><strong>6. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></strong></li>
-        <li><strong>7. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></strong></li>
-        <li><strong>8. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></strong> (full review)</li>
-        <li><strong>9. <a href="/reviews/hugh-babys-nashville">Hugh-Baby's</a></strong> (full review)</li>
-        <li><strong>10. <a href="/reviews/baam-burger-nashville">Baam Burger</a></strong> (full review)</li>
-        <li><strong>11. <a href="/reviews/nadc-burger-nashville">NADC Burger</a></strong> (full review)</li>
-      </ul>
-
-      <h2>1. <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></h2>
-      <p><strong>Best For:</strong> Smash Burgers</p>
-      <p>Bad Luck Burger Club has built a cult following thanks to its perfectly crisp smash burgers and simple menu. Every burger is made fresh and packed with flavor.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Double Smash Burger</li>
-        <li>Loaded Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Da09rNYp2es/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>2. <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></h2>
-      <p><strong>Best For:</strong> Creative Burgers</p>
-      <p>Dreamburger combines classic smash burger techniques with premium ingredients and unique flavor combinations. Their burgers have become one of Nashville's hottest food destinations.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Double Dreamburger</li>
-        <li>Loaded Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C4Ax8TLunSF/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>3. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></h2>
-      <p>Known for its house-ground beef, locally sourced ingredients, and huge beer garden, Pharmacy has remained a Nashville favorite for years.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Pharmacy Burger</li>
-        <li>Currywurst</li>
-        <li>Hand-Cut Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDhpG9gOeVA/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>4. <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></h2>
-      <p>Gabby's is one of Nashville's original burger legends. Fresh beef, hand-cut fries, and consistently excellent service keep locals coming back.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-
-      <h2>5. <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></h2>
-      <p>If you're looking for a quality burger that won't break the bank, Grillshack delivers one of the best values in Nashville, fresh ingredients, quick service, and no downtown crowds.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CTIJABarj1h/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>6. <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></h2>
-      <p>Part butcher shop, part restaurant, Bare Bones serves premium burgers using high-quality beef prepared in-house.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbLpXewHLSJ/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>7. <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h2>
-      <p>Open since 1971 in East Nashville and reportedly the city's oldest bar, Dino's serves a thick, charred, cheese-dripping bar cheeseburger so good Bon Appétit once named it one of the three best burgers in the country. No frills, ice-cold beer, and a legendary dive-bar atmosphere.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Dino's Cheeseburger</li>
-        <li>Fries "Joe's Style"</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>8. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
+      <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
+      <p><strong>Neighborhood:</strong> Germantown</p>
+      <p><strong>Sam Score:</strong> 8.6/10</p>
       <p><strong>Best For:</strong> Creative Burgers</p>
       <p>Jack Brown's is a casual burger-and-beer spot in Germantown with a long beer list and a covered patio, focused on creative specialty burgers. <a href="/reviews/jack-browns-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
-      <h2>9. <a href="/reviews/hugh-babys-nashville">Hugh-Baby's</a></h2>
+      <h2>⭐ <a href="/reviews/hugh-babys-nashville">Hugh-Baby's</a></h2>
+      <p><strong>Neighborhood:</strong> Charlotte Avenue (The Nations)</p>
+      <p><strong>Sam Score:</strong> 8.5/10</p>
       <p><strong>Best For:</strong> Old-School Cheeseburgers</p>
       <p>Founded by Nashville pitmaster Pat Martin (of Martin's Bar-B-Que Joint), Hugh-Baby's serves one of the city's best old-school cheeseburgers, on Charlotte Avenue with a drive-through and a patio. <a href="/reviews/hugh-babys-nashville">Read Sam's full review →</a></p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Double Cheeseburger</li>
-        <li>Fries</li>
-        <li>Vanilla Milkshake</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "Smashed cheeseburgers, BBQ, and hand-spun shakes in one order, hard to find a better dollar-for-dollar meal."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/hugh-babys-nashville">Read my full Hugh-Baby's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/hugh-babys-nashville/order.jpg" alt="Close-up of the double cheeseburger, no pickle, add bacon, Hugh-Baby's" loading="lazy" /></div>
 
-      <h2>10. <a href="/reviews/baam-burger-nashville">Baam Burger</a></h2>
+      <h2>⭐ <a href="/reviews/baam-burger-nashville">Baam Burger</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (The Arcade, off Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.3/10</p>
       <p><strong>Best For:</strong> Late-Night Smash Burgers Near Broadway</p>
       <p>Baam Burger is tucked into The Arcade downtown, just steps off Broadway, serving smashed patties, fries, and hand-spun milkshakes late into the night. <a href="/reviews/baam-burger-nashville">Read Sam's full review →</a></p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>The Baam Burger with fries and a vanilla milkshake</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "A steps-off-Broadway smash burger that actually holds up, and stays open when you need it most."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order: Baam burger with bacon and cheese, fries, and a vanilla milkshake" loading="lazy" /></div>
 
-      <h2>11. <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
+      <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
+      <p><strong>Sam Score:</strong> 8.2/10</p>
       <p><strong>Best For:</strong> Wagyu Smash Burgers</p>
       <p>NADC, short for "Not A Damn Chance," keeps things simple: one burger, done one way, made with two smashed 3 oz patties of 100% Wagyu beef. Tucked inside the historic Arcade downtown, it's a quick, no-seating counter stop that's become one of the most talked-about burger spots in the city. <a href="/reviews/nadc-burger-nashville">Read Sam's full review →</a></p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>The NADC Burger, everything, with fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "One burger, done exactly one way, and Wagyu beef makes the case for why that's enough."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
 
-      <h2>How I Rate Every Burger</h2>
-      <p>Every burger reviewed on Eat With Sam K is scored using the same criteria:</p>
-      <ul>
-        <li>🍔 Taste</li>
-        <li>💰 Value</li>
-        <li>🍟 Sides</li>
-        <li>👨‍🍳 Service</li>
-        <li>🏠 Atmosphere</li>
-      </ul>
-      <p>This standardized system helps compare every burger fairly.</p>
+      <h2>More Nashville Burgers Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's burger scene, so the restaurants below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
+
+      <h3>🎲 <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></h3>
+      <p>Bad Luck Burger Club has built a cult following thanks to its perfectly crisp smash burgers and simple menu. Every burger is made fresh and packed with flavor.</p>
+      <p><strong>Best For:</strong> Smash Burgers</p>
+
+      <h3>💭 <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></h3>
+      <p>Dreamburger combines classic smash burger techniques with premium ingredients and unique flavor combinations. Their burgers have become one of Nashville's hottest food destinations.</p>
+      <p><strong>Best For:</strong> Creative Burgers</p>
+
+      <h3>💊 <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></h3>
+      <p>Known for its house-ground beef, locally sourced ingredients, and huge beer garden, Pharmacy has remained a Nashville favorite for years.</p>
+      <p><strong>Best For:</strong> Beer Garden Burgers</p>
+
+      <h3>🍟 <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></h3>
+      <p>Gabby's is one of Nashville's original burger legends. Fresh beef, hand-cut fries, and consistently excellent service keep locals coming back.</p>
+      <p><strong>Best For:</strong> Classic Burgers</p>
+
+      <h3>💵 <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></h3>
+      <p>If you're looking for a quality burger that won't break the bank, Grillshack delivers one of the best values in Nashville, fresh ingredients, quick service, and no downtown crowds.</p>
+      <p><strong>Best For:</strong> Budget Burgers</p>
+
+      <h3>🥩 <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></h3>
+      <p>Part butcher shop, part restaurant, Bare Bones serves premium burgers using high-quality beef prepared in-house.</p>
+      <p><strong>Best For:</strong> Premium Butcher-Shop Burgers</p>
+
+      <h3>🍺 <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h3>
+      <p>Open since 1971 in East Nashville and reportedly the city's oldest bar, Dino's serves a thick, charred, cheese-dripping bar cheeseburger so good Bon Appétit once named it one of the three best burgers in the country.</p>
+      <p><strong>Best For:</strong> Legendary Dive-Bar Cheeseburgers</p>
+
+      <h2>Best Burgers in Nashville by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Jack Brown's — 8.6</td></tr>
+          <tr><td>🌙 Late-Night, Near Broadway</td><td>Baam Burger</td></tr>
+          <tr><td>🥩 Wagyu Smash Burger</td><td>NADC Burger</td></tr>
+          <tr><td>🍔 Old-School Cheeseburger</td><td>Hugh-Baby's / Dino's</td></tr>
+          <tr><td>🎲 Smash Burger</td><td>Bad Luck Burger Club / Dreamburger</td></tr>
+          <tr><td>🍺 Beer Garden</td><td>Pharmacy Burger Parlor</td></tr>
+          <tr><td>💵 Budget-Friendly</td><td>Grillshack</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Is My Favorite Burger in Nashville?</h2>
+      <p>Right now, Jack Brown's is my top personally-reviewed pick, with an 8.6 Sam Score, just ahead of Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2).</p>
+      <p>That doesn't mean the ranking is permanent. I'm continuing to visit burger restaurants throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
+      <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What is the best burger in Nashville?</strong></p>
-      <p>Jack Brown's, Bad Luck Burger Club, Dreamburger, and Pharmacy Burger Parlor are consistently considered among the best burgers in Nashville.</p>
+      <p>Of the burger spots I've personally reviewed so far, Jack Brown's is my highest rated at 8.6/10, followed by Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2). Bad Luck Burger Club, Dreamburger, and Pharmacy Burger Parlor are also consistently considered among the best burgers in Nashville.</p>
       <p><strong>What is the best smash burger in Nashville?</strong></p>
-      <p>Bad Luck Burger Club and Dreamburger are two of the most popular smash burger restaurants in the city.</p>
+      <p>Bad Luck Burger Club and Dreamburger are two of the most popular smash burger restaurants in the city, alongside NADC Burger, which I've personally reviewed.</p>
       <p><strong>What is the best cheap burger in Nashville?</strong></p>
       <p>Hugh-Baby's BBQ & Burger Shop and Grillshack Fries & Burgers offer some of the best burgers under $15.</p>
       <p><strong>What burger restaurant is best for a first-time visitor?</strong></p>
       <p>If it's your first trip to Nashville, Jack Brown's Beer & Burger Joint is one of the best places to experience the city's burger scene.</p>
 
-      <h2>Final Thoughts</h2>
-      <p>Nashville's burger scene continues to grow every year, with everything from classic cheeseburgers to gourmet creations. Whether you're visiting for the weekend or you're a local searching for your next favorite spot, these restaurants represent some of the best burgers Music City has to offer.</p>
-      <p>This guide will continue to be updated throughout 2026 as I visit more burger restaurants, publish full reviews, and adjust my rankings based on firsthand experience.</p>
-      <p><em>Last Updated: July 2026</em></p>
+      <h2>The Sam Score</h2>
+      <p>Every burger that receives a Sam Score has been personally visited and reviewed by me, taste, value, sides, service, and atmosphere all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more burger restaurants around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
+      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
         <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
         <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
         <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
-        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
         <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
@@ -2835,7 +2235,7 @@ const BLOG_POSTS = [
       {
         question: "What is the most romantic restaurant in Nashville?",
         answer:
-          "Yolan, Bourbon Steak, and The Optimist consistently rank among Nashville's most romantic restaurants thanks to their upscale atmosphere and exceptional dining experiences.",
+          "Of the date night spots Sam has personally reviewed, Ocean Prime and Pelato are tied for his highest Sam Score at 9.3/10. Yolan, Bourbon Steak, and The Optimist also consistently rank among Nashville's most romantic restaurants thanks to their upscale atmosphere and exceptional dining experiences.",
       },
       {
         question: "What's the best first date restaurant in Nashville?",
@@ -2852,158 +2252,133 @@ const BLOG_POSTS = [
       <p>Looking for the best date night restaurants in Nashville? Whether you're planning a first date, celebrating an anniversary, or simply searching for a romantic dinner spot, this updated 2026 guide highlights some of the top restaurants in Music City based on food quality, atmosphere, service, and overall experience.</p>
       <p>Nashville has become one of the best food cities in the country. From intimate Italian restaurants and rooftop dining to upscale steakhouses and cozy neighborhood favorites, there's a perfect restaurant for every type of date.</p>
       <p>At Eat With Sam K, every restaurant is paid for personally and reviewed honestly, no paid reviews, no sponsored ratings, just genuine recommendations.</p>
-      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
 
-      <h2>Quick List: Best Date Night Restaurants in Nashville (2026)</h2>
-      <ul>
-        <li><strong>1. <a href="https://www.theoptimistrestaurant.com/nashville" target="_blank" rel="noopener">The Optimist</a></strong></li>
-        <li><strong>2. <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak</a></strong></li>
-        <li><strong>3. <a href="https://thetwelvethirtyclub.com/" target="_blank" rel="noopener">The Twelve Thirty Club</a></strong></li>
-        <li><strong>4. <a href="https://www.rolfanddaughters.com/" target="_blank" rel="noopener">Rolf and Daughters</a></strong></li>
-        <li><strong>5. <a href="https://www.yolannashville.com/" target="_blank" rel="noopener">Yolan</a></strong></li>
-        <li><strong>6. <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></strong></li>
-        <li><strong>7. <a href="https://www.goodasfolk.com/" target="_blank" rel="noopener">Folk</a></strong></li>
-        <li><strong>8. <a href="https://www.bastionnashville.com/" target="_blank" rel="noopener">Bastion</a></strong></li>
-        <li><strong>9. <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></strong></li>
-        <li><strong>10. <a href="https://peninsulanashville.com/" target="_blank" rel="noopener">Peninsula</a></strong></li>
-        <li><strong>11. <a href="/reviews/ocean-prime-nashville">Ocean Prime</a></strong> ⭐ (Personally Reviewed)</li>
-        <li><strong>12. <a href="/reviews/pelato-nashville">Pelato</a></strong> ⭐ (Personally Reviewed)</li>
-        <li><strong>13. <a href="/reviews/maru-weho-nashville">Maru WeHo</a></strong> ⭐ (Personally Reviewed)</li>
-        <li><strong>14. <a href="/reviews/culaccino-nashville">Culaccino</a></strong> ⭐ (Personally Reviewed)</li>
-      </ul>
-
-      <h2>1. <a href="https://www.theoptimistrestaurant.com/nashville" target="_blank" rel="noopener">The Optimist</a></h2>
-      <p><strong>Best For:</strong> Seafood lovers</p>
-      <p>The Optimist consistently ranks among Nashville's best date night destinations thanks to its fresh seafood, elegant atmosphere, and exceptional service. The oysters, lobster roll, and wood-fired fish make this an excellent choice for couples looking for a memorable dinner.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Oysters</li>
-        <li>Lobster Roll</li>
-        <li>Whole Fish</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C_tRSLBverP/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>2. <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak</a></h2>
-      <p><strong>Best For:</strong> Luxury date nights</p>
-      <p>Located inside the JW Marriott, Bourbon Steak delivers one of Nashville's premier steakhouse experiences. If you're celebrating an anniversary or special occasion, this restaurant offers incredible steaks, beautiful city views, and outstanding service.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Filet Mignon</li>
-        <li>Wagyu</li>
-        <li>Truffle Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DCDTaOEuswQ/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>3. <a href="https://thetwelvethirtyclub.com/" target="_blank" rel="noopener">The Twelve Thirty Club</a></h2>
-      <p><strong>Best For:</strong> Dinner with live entertainment</p>
-      <p>Broadway isn't just for tourists. The Twelve Thirty Club offers elevated dining combined with live music and rooftop cocktails, making it ideal for couples wanting dinner before a night out.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Steak Frites</li>
-        <li>Seafood Tower</li>
-        <li>Signature Cocktails</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBALJtms4Wp/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>4. <a href="https://www.rolfanddaughters.com/" target="_blank" rel="noopener">Rolf and Daughters</a></h2>
-      <p>One of Nashville's most popular neighborhood restaurants, Rolf and Daughters specializes in handmade pasta and seasonal ingredients. The cozy atmosphere makes it one of the city's best first-date locations.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DPZRlUcDZb8/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>5. <a href="https://www.yolannashville.com/" target="_blank" rel="noopener">Yolan</a></h2>
-      <p>If authentic Italian cuisine is your idea of romance, Yolan should be on your list. Located inside The Joseph Hotel, it offers an upscale dining experience with one of Nashville's best wine selections.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDkwiY8SNh0/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>6. <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h2>
-      <p>Arguably Nashville's most famous steakhouse, Kayne Prime combines modern design with premium steaks and creative appetizers.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Bacon Appetizer</li>
-        <li>Bone-In Ribeye</li>
-        <li>Mac & Cheese</li>
-      </ul>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C4rIgmSrSNJ/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>7. <a href="https://www.goodasfolk.com/" target="_blank" rel="noopener">Folk</a></h2>
-      <p>Simple, modern, and consistently excellent, Folk is known for wood-fired pizzas and seasonal dishes. It's ideal for couples wanting a more relaxed but still memorable evening.</p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DOUKRurksuu/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>8. <a href="https://www.bastionnashville.com/" target="_blank" rel="noopener">Bastion</a></h2>
-      <p>Bastion offers one of the most unique dining experiences in Nashville. Reservations can be difficult to secure, but the intimate atmosphere makes it well worth the effort.</p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DEfwcXFvE0N/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>9. <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></h2>
-      <p>Adele's features an inviting atmosphere with Southern-inspired cuisine. Weekend brunch is also among the city's best if you're planning a daytime date.</p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C3qEn9YpTJl/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>10. <a href="https://peninsulanashville.com/" target="_blank" rel="noopener">Peninsula</a></h2>
-      <p>For adventurous couples, Peninsula offers Spanish-inspired tasting menus that are unlike anything else in Nashville.</p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C3GGN2IuN8M/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>11. <a href="/reviews/ocean-prime-nashville">Ocean Prime</a> ⭐</h2>
+      <h2>⭐ <a href="/reviews/ocean-prime-nashville">Ocean Prime</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (near Broadway)</p>
+      <p><strong>Sam Score:</strong> 9.3/10</p>
       <p><strong>Best For:</strong> Upscale Steak & Seafood</p>
       <p>Ocean Prime is a polished steakhouse and seafood restaurant near Broadway, with a lively bar scene and a menu that swings from crab cakes and ahi tuna tartare to prime steaks and fresh seafood. <a href="/reviews/ocean-prime-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "One of my highest-scoring reviews on the site, a Broadway-adjacent steakhouse that actually earns the price tag."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
 
-      <h2>12. <a href="/reviews/pelato-nashville">Pelato</a> ⭐</h2>
+      <h2>⭐ <a href="/reviews/pelato-nashville">Pelato</a></h2>
+      <p><strong>Neighborhood:</strong> Germantown</p>
+      <p><strong>Sam Score:</strong> 9.3/10</p>
       <p><strong>Best For:</strong> Brooklyn-Italian Sharable Plates</p>
       <p>Pelato is a family-run, Brooklyn-Italian spot in Germantown, built around small, sharable plates like handmade pasta and fresh mozzarella, with a lively bar scene that makes it one of my favorite date night picks. <a href="/reviews/pelato-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "Sharable plates, handmade pasta, and a bar scene that turns dinner into a whole night out."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/pelato-nashville">Read my full Pelato review →</a></p>
       <div class="own-photo"><img src="/images/reviews/pelato-nashville/order-chicken-parm.jpg" alt="Sam's order: Chicken Parmigiana, Pelato" loading="lazy" /></div>
 
-      <h2>13. <a href="/reviews/maru-weho-nashville">Maru WeHo</a> ⭐</h2>
+      <h2>⭐ <a href="/reviews/maru-weho-nashville">Maru WeHo</a></h2>
+      <p><strong>Neighborhood:</strong> Wedgewood-Houston (WeHo)</p>
+      <p><strong>Sam Score:</strong> 9.2/10</p>
       <p><strong>Best For:</strong> Sushi & Cocktails</p>
       <p>Maru WeHo sits in the Wedgewood-Houston neighborhood, with a sleek sushi bar, specialty rolls, and a cocktail menu that makes it one of my favorite date night picks. <a href="/reviews/maru-weho-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "A sleek WeHo sushi bar with a cocktail menu that makes it one of my go-to date night picks."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/maru-weho-nashville">Read my full Maru WeHo review →</a></p>
       <div class="own-photo"><img src="/images/reviews/maru-weho-nashville/order.jpg" alt="Sam's order: Pink Lady, Tiger, and Dynamite rolls, Maru WeHo" loading="lazy" /></div>
 
-      <h2>14. <a href="/reviews/culaccino-nashville">Culaccino</a> ⭐</h2>
+      <h2>⭐ <a href="/reviews/culaccino-nashville">Culaccino</a></h2>
+      <p><strong>Neighborhood:</strong> Nashville Yards</p>
+      <p><strong>Sam Score:</strong> 7.3/10</p>
       <p><strong>Best For:</strong> Upscale Italian at Nashville Yards</p>
       <p>Culaccino is a Franklin-based Italian concept's second location, tucked into The Emory tower at Nashville Yards, with scratch-made pasta, wood-fired pizza, and a lively dining room that makes it a solid date night option a short walk from downtown. <a href="/reviews/culaccino-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "A solid, convenient date night option a short walk from downtown, not a destination trip on its own."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/culaccino-nashville">Read my full Culaccino review →</a></p>
       <div class="own-photo"><img src="/images/reviews/culaccino-nashville/order-pizza.jpg" alt="Sam's order: Il Re Di Bologna pizza, Culaccino" loading="lazy" /></div>
 
-      <h2>How I Rate Date Night Restaurants</h2>
-      <p>Every restaurant reviewed on Eat With Sam K is scored using the same criteria:</p>
-      <ul>
-        <li>⭐ Food Quality</li>
-        <li>💰 Value</li>
-        <li>❤️ Date Night Atmosphere</li>
-        <li>👨‍🍳 Service</li>
-        <li>🍽️ Overall Experience</li>
-      </ul>
-      <p>This standardized system helps you compare restaurants fairly before deciding where to eat.</p>
+      <h2>More Nashville Date Night Restaurants Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's date night scene, so the restaurants below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
+
+      <h3>🐟 <a href="https://www.theoptimistrestaurant.com/nashville" target="_blank" rel="noopener">The Optimist</a></h3>
+      <p>The Optimist consistently ranks among Nashville's best date night destinations thanks to its fresh seafood, elegant atmosphere, and exceptional service.</p>
+      <p><strong>Best For:</strong> Seafood Lovers</p>
+
+      <h3>🥩 <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak</a></h3>
+      <p>Located inside the JW Marriott, Bourbon Steak delivers one of Nashville's premier steakhouse experiences, with incredible steaks, beautiful city views, and outstanding service.</p>
+      <p><strong>Best For:</strong> Luxury Date Nights</p>
+
+      <h3>🎶 <a href="https://thetwelvethirtyclub.com/" target="_blank" rel="noopener">The Twelve Thirty Club</a></h3>
+      <p>Broadway isn't just for tourists. The Twelve Thirty Club offers elevated dining combined with live music and rooftop cocktails, making it ideal for couples wanting dinner before a night out.</p>
+      <p><strong>Best For:</strong> Dinner With Live Entertainment</p>
+
+      <h3>🍝 <a href="https://www.rolfanddaughters.com/" target="_blank" rel="noopener">Rolf and Daughters</a></h3>
+      <p>One of Nashville's most popular neighborhood restaurants, Rolf and Daughters specializes in handmade pasta and seasonal ingredients in a cozy first-date-friendly atmosphere.</p>
+      <p><strong>Best For:</strong> Relaxed First Dates</p>
+
+      <h3>🍷 <a href="https://www.yolannashville.com/" target="_blank" rel="noopener">Yolan</a></h3>
+      <p>If authentic Italian cuisine is your idea of romance, Yolan should be on your list. Located inside The Joseph Hotel, it offers an upscale dining experience with one of Nashville's best wine selections.</p>
+      <p><strong>Best For:</strong> Romantic Italian</p>
+
+      <h3>🥂 <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h3>
+      <p>Arguably Nashville's most famous steakhouse, Kayne Prime combines modern design with premium steaks and creative appetizers.</p>
+      <p><strong>Best For:</strong> Celebrations & Anniversaries</p>
+
+      <h3>🍕 <a href="https://www.goodasfolk.com/" target="_blank" rel="noopener">Folk</a></h3>
+      <p>Simple, modern, and consistently excellent, Folk is known for wood-fired pizzas and seasonal dishes. Ideal for couples wanting a more relaxed but still memorable evening.</p>
+      <p><strong>Best For:</strong> Relaxed, Memorable Evenings</p>
+
+      <h3>✨ <a href="https://www.bastionnashville.com/" target="_blank" rel="noopener">Bastion</a></h3>
+      <p>Bastion offers one of the most unique dining experiences in Nashville. Reservations can be difficult to secure, but the intimate atmosphere makes it well worth the effort.</p>
+      <p><strong>Best For:</strong> A Truly Unique Experience</p>
+
+      <h3>🌤️ <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></h3>
+      <p>Adele's features an inviting atmosphere with Southern-inspired cuisine. Weekend brunch is also among the city's best if you're planning a daytime date.</p>
+      <p><strong>Best For:</strong> Southern-Inspired Dinner or Brunch</p>
+
+      <h3>🇪🇸 <a href="https://peninsulanashville.com/" target="_blank" rel="noopener">Peninsula</a></h3>
+      <p>For adventurous couples, Peninsula offers Spanish-inspired tasting menus that are unlike anything else in Nashville.</p>
+      <p><strong>Best For:</strong> Adventurous Tasting Menus</p>
+
+      <h2>Best Date Night Restaurants in Nashville by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime / Pelato — 9.3</td></tr>
+          <tr><td>🥩 Upscale Steak & Seafood</td><td>Ocean Prime</td></tr>
+          <tr><td>🍝 Sharable Italian Plates</td><td>Pelato</td></tr>
+          <tr><td>🍣 Sushi & Cocktails</td><td>Maru WeHo</td></tr>
+          <tr><td>📍 Convenient, Near Nashville Yards</td><td>Culaccino</td></tr>
+          <tr><td>🥂 Anniversary or Big Occasion</td><td>Bourbon Steak / Kayne Prime</td></tr>
+          <tr><td>💬 Relaxed First Date</td><td>Rolf and Daughters / Folk</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Is My Favorite Date Night Restaurant in Nashville?</h2>
+      <p>Right now, Ocean Prime and Pelato are tied at the top of my personally-reviewed list, both with a 9.3 Sam Score, just ahead of Maru WeHo (9.2) and Culaccino (7.3).</p>
+      <p>That doesn't mean the ranking is permanent. I'm continuing to visit date night restaurants throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
+      <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What is the most romantic restaurant in Nashville?</strong></p>
-      <p>Yolan, Bourbon Steak, and The Optimist consistently rank among Nashville's most romantic restaurants thanks to their upscale atmosphere and exceptional dining experiences.</p>
+      <p>Of the date night spots I've personally reviewed, Ocean Prime and Pelato are tied for my highest Sam Score at 9.3/10. Yolan, Bourbon Steak, and The Optimist also consistently rank among Nashville's most romantic restaurants thanks to their upscale atmosphere and exceptional dining experiences.</p>
       <p><strong>What's the best first date restaurant in Nashville?</strong></p>
       <p>Rolf and Daughters and Folk are excellent first-date choices because they offer relaxed atmospheres without feeling overly formal.</p>
       <p><strong>What's the best anniversary restaurant?</strong></p>
       <p>Bourbon Steak, Yolan, and Kayne Prime are among the best restaurants in Nashville for anniversaries and celebrations.</p>
 
-      <h2>Final Thoughts</h2>
-      <p>Nashville's restaurant scene continues to grow every year, making it one of the best cities in the country for food lovers. Whether you're planning a casual first date or celebrating a special occasion, these restaurants offer memorable food, great service, and the perfect atmosphere.</p>
-      <p>This guide will continue to be updated throughout 2026 as new restaurants open and more reviews are added.</p>
-      <p><em>Last Updated: July 2026</em></p>
+      <h2>The Sam Score</h2>
+      <p>Every restaurant that receives a Sam Score has been personally visited and reviewed by me, food quality, value, date night atmosphere, service, and overall experience all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more date night restaurants around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
+      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
         <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
         <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
         <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
-        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
         <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
       </ul>
     `,
@@ -3306,7 +2681,7 @@ const BLOG_POSTS = [
     date: "2026-08-13",
     emoji: "🌮",
     excerpt:
-      "From Maiz de la Vida's handmade tortillas to my own review of Ladybird Taco, the best tacos in Nashville for 2026 — spots worth knowing about as I work toward a personal ranking, with no paid placements.",
+      "From Maiz de la Vida's handmade tortillas to my own review of Ladybird Taco, the best tacos in Nashville for 2026, spots worth knowing about as I work toward a personal ranking, with no paid placements.",
     faq: [
       {
         question: "What are the best tacos in Nashville?",
@@ -3341,212 +2716,83 @@ const BLOG_POSTS = [
     ],
     content: `
       <p>Looking for the best tacos in Nashville? Nashville's taco scene has everything from authentic Mexican street tacos and birria to creative tacos, margaritas, and late-night spots.</p>
-      <p>Whether you're looking for a quick lunch, cheap tacos, a casual date-night spot, or somewhere to grab tacos and drinks with friends, these are some of the Nashville taco restaurants worth knowing about.</p>
-      <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food. As I personally try more Nashville taco spots, I'll update this guide with my Sam Scores, original photos, videos, exact orders, and firsthand rankings.</p>
-      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+      <p>I'm working my way through Nashville's taco restaurants and giving the places I personally visit a Sam Score based on my overall experience. This guide will continue to change as I try more of them.</p>
+      <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food.</p>
 
-      <h2>Quick List: Best Tacos in Nashville</h2>
-      <ul>
-        <li><strong>1. <a href="https://www.maizdelavida.com/" target="_blank" rel="noopener">Maiz de la Vida</a></strong></li>
-        <li><strong>2. <a href="https://www.instagram.com/carniceriaytaqueriasanluis/" target="_blank" rel="noopener">Taqueria San Luis</a></strong></li>
-        <li><strong>3. <a href="https://mas-tacos-togo.square.site/" target="_blank" rel="noopener">Mas Tacos Por Favor</a></strong></li>
-        <li><strong>4. <a href="https://www.instagram.com/tacosymariscoslindomexico/" target="_blank" rel="noopener">Tacos y Mariscos Lindo México</a></strong></li>
-        <li><strong>5. <a href="https://www.instagram.com/tacosymariscoseltapatio/" target="_blank" rel="noopener">El Tapatio</a></strong></li>
-        <li><strong>6. <a href="https://www.temponashville.com/" target="_blank" rel="noopener">Tempo</a></strong></li>
-        <li><strong>7. <a href="/reviews/ladybird-taco-nashville">Ladybird Taco ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>8. <a href="https://redheadedstrangertacos.com/" target="_blank" rel="noopener">Redheaded Stranger</a></strong></li>
-        <li><strong>9. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></strong></li>
-        <li><strong>10. <a href="https://superica.com/nashville/" target="_blank" rel="noopener">Superica</a></strong></li>
-      </ul>
-      <p><em>Note: I'm still working my way through Nashville's taco scene. This list highlights spots worth knowing about and will evolve into my personal ranking as I review more of them.</em></p>
-
-      <h2>1. <a href="https://www.maizdelavida.com/" target="_blank" rel="noopener">Maiz de la Vida</a></h2>
-      <p><strong>Best For:</strong> Handmade Tortillas & Authentic Mexican Flavor</p>
-      <p>Maiz de la Vida has become one of Nashville's most talked-about destinations for Mexican food, with a focus on fresh masa and handmade tortillas.</p>
-      <p>Rather than treating the tortilla as an afterthought, it's a major part of the experience here.</p>
-      <p>If you're looking for tacos that focus heavily on traditional preparation and quality ingredients, Maiz de la Vida belongs on your list.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Birria</li>
-        <li>Carne Asada</li>
-        <li>Al Pastor</li>
-        <li>Handmade Corn Tortillas</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🌽 <strong>Handmade Tortilla Pick</strong> &nbsp; 🇲🇽 <strong>Authentic Mexican Pick</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Db5wEv0vO32/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>2. <a href="https://www.instagram.com/carniceriaytaqueriasanluis/" target="_blank" rel="noopener">Taqueria San Luis</a></h2>
-      <p><strong>Best For:</strong> Street Tacos</p>
-      <p>If you're searching for a more traditional taco experience without the upscale atmosphere, Taqueria San Luis is one to know.</p>
-      <p>It's the type of spot to visit when the food matters more than fancy presentation.</p>
-      <p>Grab a few different tacos so you can try multiple meats and figure out your favorite.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Carne Asada</li>
-        <li>Al Pastor</li>
-        <li>Lengua</li>
-        <li>Chicken</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <p>🌮 <strong>Street Taco Pick</strong> &nbsp; 💰 <strong>Great Value</strong></p>
-
-      <h2>3. <a href="https://mas-tacos-togo.square.site/" target="_blank" rel="noopener">Mas Tacos Por Favor</a></h2>
-      <p><strong>Best For:</strong> Nashville Taco Institution</p>
-      <p>Mas Tacos Por Favor has been part of Nashville's food scene for years and helped establish itself as one of the city's best-known casual taco destinations.</p>
-      <p>The East Nashville restaurant serves tacos alongside soups, sides, and other Mexican-inspired dishes.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Fried Avocado Taco</li>
-        <li>Chicken Taco</li>
-        <li>Carne Molida Taco</li>
-        <li>Chicken Tortilla Soup</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <p>🔥 <strong>Nashville Favorite</strong> &nbsp; 💰 <strong>Affordable Pick</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbyJRMAkZPk/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>4. <a href="https://www.instagram.com/tacosymariscoslindomexico/" target="_blank" rel="noopener">Tacos y Mariscos Lindo México</a></h2>
-      <p><strong>Best For:</strong> Tacos & Mexican Seafood</p>
-      <p>For those willing to explore beyond Nashville's trendier restaurant districts, Tacos y Mariscos Lindo México offers another side of the city's Mexican food scene.</p>
-      <p>The combination of tacos and seafood makes it especially interesting if you're looking for more variety than a standard taco menu.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Street Tacos</li>
-        <li>Carne Asada</li>
-        <li>Seafood</li>
-        <li>Mexican Specialties</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>💎 <strong>Hidden Gem Pick</strong></p>
-
-      <h2>5. <a href="https://www.instagram.com/tacosymariscoseltapatio/" target="_blank" rel="noopener">El Tapatio</a></h2>
-      <p><strong>Best For:</strong> No-Frills Mexican Food</p>
-      <p>El Tapatio is another Nashville option for straightforward Mexican food and tacos without the trendy restaurant atmosphere.</p>
-      <p>It's a good reminder that some of the city's most interesting food isn't necessarily located around Broadway, The Gulch, or 12 South.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Carne Asada Tacos</li>
-        <li>Al Pastor</li>
-        <li>Burritos</li>
-        <li>Mexican Plates</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <p>🌮 <strong>Casual Pick</strong> &nbsp; 💰 <strong>Good Value</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C6xse20OuVU/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>6. <a href="https://www.temponashville.com/" target="_blank" rel="noopener">Tempo</a></h2>
-      <p><strong>Best For:</strong> Breakfast Tacos</p>
-      <p>Not every taco needs to be lunch or dinner.</p>
-      <p>Tempo brings a Texas influence to Nashville and is particularly known for breakfast tacos, coffee, and a casual neighborhood atmosphere.</p>
-      <p>If you're looking for something different from Nashville's usual brunch restaurants, breakfast tacos are worth considering.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Breakfast Tacos</li>
-        <li>Bacon, Egg & Cheese</li>
-        <li>Chorizo</li>
-        <li>Coffee</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
-      <p>🍳 <strong>Breakfast Taco Pick</strong> &nbsp; ☕ <strong>Coffee + Tacos</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dbs5L9KO1pK/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>7. <a href="/reviews/ladybird-taco-nashville">Ladybird Taco ⭐</a></h2>
-      <p><strong>Best For:</strong> Breakfast & Lunch Tacos</p>
+      <h2>⭐ <a href="/reviews/ladybird-taco-nashville">Ladybird Taco</a></h2>
+      <p><strong>Neighborhood:</strong> 12 South</p>
+      <p><strong>Sam Score:</strong> 7.6/10</p>
+      <p><strong>Best For:</strong> Breakfast &amp; lunch tacos</p>
       <p>Ladybird Taco specializes in Texas-inspired breakfast and lunch tacos with freshly made tortillas.</p>
-      <p>It's particularly convenient when you want something quick in the morning or around lunchtime rather than a traditional sit-down Mexican restaurant.</p>
-      <p>I've personally reviewed Ladybird Taco for Eat With Sam K, so you can see exactly what I ordered and how I rated it in my full review.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>It's particularly convenient when you want something quick in the morning or around lunchtime rather than a traditional sit-down Mexican restaurant. <a href="/reviews/ladybird-taco-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A quick, freshly-made breakfast taco stop that's become a go-to 12 South morning order."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ladybird-taco-nashville">Read my full Ladybird Taco review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ladybird-taco-nashville/order.jpg" alt="Sam's order: three foil-wrapped breakfast tacos, Ladybird Taco" loading="lazy" /></div>
 
-      <h2>8. <a href="https://redheadedstrangertacos.com/" target="_blank" rel="noopener">Redheaded Stranger</a></h2>
-      <p><strong>Best For:</strong> Creative Tacos</p>
-      <p>Redheaded Stranger brings a Southwestern/New Mexican influence to East Nashville.</p>
-      <p>This isn't necessarily where I'd send someone specifically looking for traditional Mexican street tacos. Instead, it's a good choice if you want something creative and different.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Creative Specialty Tacos</li>
-        <li>Hatch Green Chile</li>
-        <li>Queso</li>
-        <li>Southwestern-Inspired Dishes</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🔥 <strong>Creative Taco Pick</strong> &nbsp; 💎 <strong>Something Different</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db8cdT7gYrT/" data-instgrm-version="14"></blockquote></div>
+      <h2>More Nashville Tacos Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's taco scene, so the restaurants below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
 
-      <h2>9. <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h2>
-      <p><strong>Best For:</strong> Tacos & Margaritas</p>
-      <p>Bakersfield is a good option when tacos are only one part of the night.</p>
-      <p>Its combination of tacos, tequila, margaritas, queso, and a lively atmosphere makes it particularly well suited to groups and casual nights out.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Tacos</li>
-        <li>Queso</li>
-        <li>Guacamole</li>
-        <li>Margaritas</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🍹 <strong>Tacos & Drinks Pick</strong> &nbsp; 🎉 <strong>Great for Groups</strong></p>
+      <h3>🌽 <a href="https://www.maizdelavida.com/" target="_blank" rel="noopener">Maiz de la Vida</a></h3>
+      <p>Maiz de la Vida has become one of Nashville's most talked-about destinations for Mexican food, with a focus on fresh masa and handmade tortillas. Rather than treating the tortilla as an afterthought, it's a major part of the experience here.</p>
+      <p><strong>Best For:</strong> Handmade tortillas, authentic Mexican flavor</p>
 
-      <h2>10. <a href="https://superica.com/nashville/" target="_blank" rel="noopener">Superica</a></h2>
-      <p><strong>Best For:</strong> Tex-Mex Experience</p>
-      <p>Superica brings a polished Tex-Mex experience with tacos, fajitas, queso, margaritas, and other classics.</p>
-      <p>It's a different experience from Nashville's smaller taquerias, but that can be exactly what you're looking for if you want a sit-down meal with drinks.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Tacos</li>
-        <li>Fajitas</li>
-        <li>Queso</li>
-        <li>Margaritas</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span>–<span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <p>🍹 <strong>Tex-Mex Pick</strong> &nbsp; ❤️ <strong>Casual Date Night</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db_ObewoE-1/" data-instgrm-version="14"></blockquote></div>
+      <h3>🌮 <a href="https://www.instagram.com/carniceriaytaqueriasanluis/" target="_blank" rel="noopener">Taqueria San Luis</a></h3>
+      <p>If you're searching for a more traditional taco experience without the upscale atmosphere, Taqueria San Luis is one to know. Grab a few different tacos so you can try multiple meats and figure out your favorite.</p>
+      <p><strong>Best For:</strong> Street tacos, great value</p>
 
-      <h2>Best Nashville Tacos by Category</h2>
-      <p><strong>🌮 Best for Street Tacos</strong></p>
-      <ul>
-        <li>Taqueria San Luis</li>
-        <li>El Tapatio</li>
-        <li>Tacos y Mariscos Lindo México</li>
-      </ul>
-      <p><strong>🇲🇽 Best for Authentic Mexican Flavor</strong></p>
-      <ul>
-        <li>Maiz de la Vida</li>
-        <li>Taqueria San Luis</li>
-        <li>Tacos y Mariscos Lindo México</li>
-      </ul>
-      <p><strong>🧀 Best for Birria</strong></p>
-      <ul>
-        <li>Maiz de la Vida</li>
-      </ul>
-      <p><strong>🍳 Best Breakfast Tacos</strong></p>
-      <ul>
-        <li>Tempo</li>
-        <li>Ladybird Taco ⭐</li>
-      </ul>
-      <p><strong>💰 Best Cheap Tacos</strong></p>
-      <ul>
-        <li>Taqueria San Luis</li>
-        <li>Mas Tacos Por Favor</li>
-        <li>El Tapatio</li>
-      </ul>
-      <p><strong>🍹 Best Tacos & Margaritas</strong></p>
-      <ul>
-        <li>Bakersfield</li>
-        <li>Superica</li>
-      </ul>
-      <p><strong>🔥 Best Creative Tacos</strong></p>
-      <ul>
-        <li>Redheaded Stranger</li>
-        <li>Mas Tacos Por Favor</li>
-      </ul>
-      <p><strong>👥 Best for Groups</strong></p>
-      <ul>
-        <li>Bakersfield</li>
-        <li>Superica</li>
-      </ul>
+      <h3>🔥 <a href="https://mas-tacos-togo.square.site/" target="_blank" rel="noopener">Mas Tacos Por Favor</a></h3>
+      <p>Mas Tacos Por Favor has been part of Nashville's food scene for years and helped establish itself as one of the city's best-known casual taco destinations. The East Nashville restaurant serves tacos alongside soups, sides, and other Mexican-inspired dishes.</p>
+      <p><strong>Best For:</strong> Nashville taco institution, affordable</p>
+
+      <h3>💎 <a href="https://www.instagram.com/tacosymariscoslindomexico/" target="_blank" rel="noopener">Tacos y Mariscos Lindo México</a></h3>
+      <p>For those willing to explore beyond Nashville's trendier restaurant districts, Tacos y Mariscos Lindo México offers another side of the city's Mexican food scene, tacos and seafood together.</p>
+      <p><strong>Best For:</strong> Tacos and Mexican seafood, hidden gem</p>
+
+      <h3>🌮 <a href="https://www.instagram.com/tacosymariscoseltapatio/" target="_blank" rel="noopener">El Tapatio</a></h3>
+      <p>El Tapatio is another Nashville option for straightforward Mexican food and tacos without the trendy restaurant atmosphere, a good reminder that some of the city's most interesting food isn't necessarily located around Broadway, The Gulch, or 12 South.</p>
+      <p><strong>Best For:</strong> No-frills Mexican food</p>
+
+      <h3>🍳 <a href="https://www.temponashville.com/" target="_blank" rel="noopener">Tempo</a></h3>
+      <p>Tempo brings a Texas influence to Nashville and is particularly known for breakfast tacos, coffee, and a casual neighborhood atmosphere, a good alternative to Nashville's usual brunch restaurants.</p>
+      <p><strong>Best For:</strong> Breakfast tacos and coffee</p>
+
+      <h3>🌶️ <a href="https://redheadedstrangertacos.com/" target="_blank" rel="noopener">Redheaded Stranger</a></h3>
+      <p>Redheaded Stranger brings a Southwestern/New Mexican influence to East Nashville. This isn't necessarily where I'd send someone specifically looking for traditional Mexican street tacos, it's a good choice if you want something creative and different.</p>
+      <p><strong>Best For:</strong> Creative, Southwestern-inspired tacos</p>
+
+      <h3>🍹 <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h3>
+      <p>Bakersfield is a good option when tacos are only one part of the night, its combination of tacos, tequila, margaritas, queso, and a lively atmosphere makes it particularly well suited to groups and casual nights out.</p>
+      <p><strong>Best For:</strong> Tacos and margaritas, groups</p>
+
+      <h3>🇲🇽 <a href="https://superica.com/nashville/" target="_blank" rel="noopener">Superica</a></h3>
+      <p>Superica brings a polished Tex-Mex experience with tacos, fajitas, queso, margaritas, and other classics, a different experience from Nashville's smaller taquerias, but exactly what you want for a sit-down meal with drinks.</p>
+      <p><strong>Best For:</strong> Tex-Mex, casual date night</p>
+
+      <h2>Best Tacos in Nashville by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Ladybird Taco — 7.6</td></tr>
+          <tr><td>🍳 Breakfast Tacos</td><td>Ladybird Taco / Tempo</td></tr>
+          <tr><td>🌮 Street Tacos</td><td>Taqueria San Luis</td></tr>
+          <tr><td>🇲🇽 Authentic Mexican</td><td>Maiz de la Vida</td></tr>
+          <tr><td>🧀 Birria</td><td>Maiz de la Vida</td></tr>
+          <tr><td>💰 Cheap Tacos</td><td>Taqueria San Luis / Mas Tacos Por Favor</td></tr>
+          <tr><td>🍹 Tacos &amp; Margaritas</td><td>Bakersfield / Superica</td></tr>
+          <tr><td>🔥 Creative Tacos</td><td>Redheaded Stranger</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Is My Favorite Taco Spot in Nashville?</h2>
+      <p>Right now, Ladybird Taco is my top personally-reviewed pick, with a 7.6 Sam Score.</p>
+      <p>That doesn't mean the ranking is permanent. I'm continuing to visit taco spots throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
+      <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
 
       <h2>Where to Find Authentic Tacos in Nashville</h2>
       <p>Some of Nashville's best Mexican food is found outside the neighborhoods tourists visit most often.</p>
@@ -3595,31 +2841,16 @@ const BLOG_POSTS = [
       <p><strong>Are there good tacos near downtown Nashville?</strong></p>
       <p>Yes. There are taco and Tex-Mex options around downtown and nearby neighborhoods, although I'd recommend exploring beyond downtown if tacos are the main reason for your meal.</p>
 
-      <h2>How I'm Finding Nashville's Best Taco</h2>
-      <p>This guide is going to change.</p>
-      <p>My goal isn't to permanently publish a list based on reputation. I want to personally work my way through Nashville's taco scene and find out which places are actually worth your money.</p>
-      <p>Every restaurant I visit can eventually receive:</p>
-      <ul>
-        <li>⭐ Sam Score</li>
-        <li>🌮 Individual Taco Ratings</li>
-        <li>📸 Original Photos</li>
-        <li>🎥 Video Review</li>
-        <li>💬 Sam Says</li>
-        <li>💰 Price/Value Assessment</li>
-        <li>🔁 Would I Go Back?</li>
-      </ul>
-      <p>As I collect enough firsthand reviews, this page will transition from 10 Nashville taco spots worth knowing into my actual ranking of the best tacos in Nashville.</p>
-
-      <h2>Final Thoughts</h2>
-      <p>Nashville's taco scene goes far beyond one style of taco.</p>
-      <p>You can find traditional street tacos, handmade tortillas, birria, breakfast tacos, creative Southwestern options, and full Tex-Mex restaurants throughout the city.</p>
-      <p>The best choice depends on what you're looking for.</p>
-      <p>And as I personally try more of them, the rankings will change based on my actual experiences, not who's paying to be included.</p>
+      <h2>The Sam Score</h2>
+      <p>Every taco spot that receives a Sam Score has been personally visited and reviewed by me, tortilla, meat/filling, salsa, toppings, and value all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more taco spots around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
         <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
         <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
@@ -3677,234 +2908,128 @@ const BLOG_POSTS = [
     content: `
       <p>Heading to a Tennessee Titans game, concert, or event at Nissan Stadium? Finding somewhere to eat beforehand can make a huge difference, especially when downtown Nashville gets packed on game days.</p>
       <p>Nissan Stadium sits directly across the Cumberland River from downtown Nashville, giving you access to restaurants on both the stadium side of the river and across the pedestrian bridge around Broadway and downtown.</p>
-      <p>Whether you want Nashville hot chicken, BBQ, burgers, pizza, or somewhere to grab a drink before kickoff, here are some of the best restaurants near Nissan Stadium in Nashville to know about.</p>
-      <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food. As I personally visit more restaurants around Nissan Stadium, I'll continue updating this guide with Sam Scores, original photos, videos, and firsthand recommendations.</p>
-      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+      <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food.</p>
 
-      <h2>Quick List: Restaurants Near Nissan Stadium</h2>
-      <ul>
-        <li><strong>1. <a href="/reviews/ocean-prime-nashville">Ocean Prime ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>2. <a href="https://www.butchertownhall.com/" target="_blank" rel="noopener">Butchertown Hall</a></strong></li>
-        <li><strong>3. <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">Edley's Bar-B-Que</a></strong></li>
-        <li><strong>4. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">The Pharmacy Burger Parlor & Beer Garden</a></strong></li>
-        <li><strong>5. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></strong></li>
-        <li><strong>6. <a href="https://eathawkers.com/locations/nashville/" target="_blank" rel="noopener">Hawkers Asian Street Food</a></strong></li>
-        <li><strong>7. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></strong></li>
-        <li><strong>8. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></strong></li>
-        <li><strong>9. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>10. <a href="/reviews/nadc-burger-nashville">NADC Burger ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>11. <a href="/reviews/the-philly-special-nashville">The Philly Special ⭐</a></strong> (Personally Reviewed)</li>
-        <li><strong>12. <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza ⭐</a></strong> (Personally Reviewed)</li>
-      </ul>
-
-      <h2>1. <a href="/reviews/ocean-prime-nashville">Ocean Prime ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/ocean-prime-nashville">Ocean Prime</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (across the river near Broadway)</p>
+      <p><strong>Sam Score:</strong> 9.3/10</p>
       <p><strong>Best For:</strong> Upscale Pregame Dinner</p>
       <p>Ocean Prime is my top pick near Nissan Stadium, a polished steakhouse and seafood restaurant just across the river near Broadway, with a lively bar scene and a menu that swings from crab cakes and ahi tuna tartare to prime steaks. <a href="/reviews/ocean-prime-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "My top pick before a Titans game, close enough to walk to the stadium and good enough to make the meal part of the day."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
 
-      <h2>2. <a href="https://www.butchertownhall.com/" target="_blank" rel="noopener">Butchertown Hall</a></h2>
-      <p><strong>Best For:</strong> BBQ, Meat & Groups</p>
-      <p>Located in Germantown, Butchertown Hall is a strong option if you want a proper sit-down meal before heading toward Nissan Stadium.</p>
-      <p>The menu focuses heavily on smoked meats, Tex-Mex influences, burgers, and other hearty options that work particularly well before a football game.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Smoked Meats</li>
-        <li>Tex-Mex Plates</li>
-        <li>Burgers</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span>–<span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
-      <p>🥩 <strong>Meat & BBQ</strong> &nbsp; 🏈 <strong>Pregame Meal</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DFN0gZLOdx7/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>3. <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">Edley's Bar-B-Que</a></h2>
-      <p><strong>Best For:</strong> Nashville BBQ</p>
-      <p>If you're coming to Nashville for a Titans game and want barbecue as part of the experience, Edley's is one of the city's best-known local BBQ names.</p>
-      <p>Expect smoked meats, wings, sandwiches, and Southern sides.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Ribs</li>
-        <li>Pulled Pork</li>
-        <li>Brisket</li>
-        <li>Smoked Wings</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🔥 <strong>Nashville BBQ Pick</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C7HhwLtO3PP/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>4. <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">The Pharmacy Burger Parlor & Beer Garden</a></h2>
-      <p><strong>Best For:</strong> Burgers & Beer</p>
-      <p>The Pharmacy is an East Nashville favorite known for burgers, beer, and its outdoor beer garden.</p>
-      <p>It's particularly appealing for a casual game-day meal when you're looking for something substantial before heading toward the stadium.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Burgers</li>
-        <li>Beer</li>
-        <li>Fries</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🍔 <strong>Burger Pick</strong> &nbsp; 🍺 <strong>Pregame Pick</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDhpG9gOeVA/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>5. <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h2>
-      <p><strong>Best For:</strong> Pizza in East Nashville</p>
-      <p>Sometimes pizza is exactly what you want before football.</p>
-      <p>Five Points Pizza is one of East Nashville's better-known pizza destinations and works particularly well if you want something casual before heading toward Nissan Stadium.</p>
-      <p>Grab a few slices or split a pizza with your group.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🍕 <strong>Pizza Pick</strong> &nbsp; 👥 <strong>Good for Groups</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbTPJFpFsAU/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>6. <a href="https://eathawkers.com/locations/nashville/" target="_blank" rel="noopener">Hawkers Asian Street Food</a></h2>
-      <p><strong>Best For:</strong> Something Different</p>
-      <p>If everyone else is recommending burgers, BBQ, and hot chicken, Hawkers gives you something completely different.</p>
-      <p>The menu takes inspiration from Asian street-food dishes and is especially useful for groups that want to share several things.</p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🥟 <strong>Something Different</strong> &nbsp; 👥 <strong>Great for Sharing</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DHWjEYQRWL1/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>7. <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h2>
-      <p><strong>Best For:</strong> BBQ Near Downtown</p>
-      <p>Martin's downtown location is convenient if you're starting your day around Broadway before walking toward Nissan Stadium.</p>
-      <p>Martin's specializes in West Tennessee-style whole-hog barbecue and is one of Nashville's most recognizable BBQ restaurants.</p>
-      <p><strong>Popular Picks:</strong></p>
-      <ul>
-        <li>Whole Hog BBQ</li>
-        <li>Ribs</li>
-        <li>Brisket</li>
-        <li>Redneck Taco</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>🔥 <strong>Nashville BBQ</strong> &nbsp; 🎸 <strong>Good for Visitors</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbF85digGm/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>8. <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h2>
-      <p><strong>Best For:</strong> Groups That Can't Decide</p>
-      <p>Assembly Food Hall is one of the easiest recommendations when everyone wants something different.</p>
-      <p>Instead of choosing one restaurant, your group can pick from multiple food concepts in the same building.</p>
-      <p>It's also located at Fifth + Broadway, making it easy to combine food with time downtown before heading across the river.</p>
-      <p><strong>Good For:</strong></p>
-      <ul>
-        <li>Families</li>
-        <li>Large Groups</li>
-        <li>Quick Meals</li>
-        <li>Variety</li>
-      </ul>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span>–<span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
-      <p>👥 <strong>Best for Groups</strong></p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZYBG08kXI3/" data-instgrm-version="14"></blockquote></div>
-
-      <h2>9. <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
+      <p><strong>Neighborhood:</strong> Germantown</p>
+      <p><strong>Sam Score:</strong> 8.6/10</p>
       <p><strong>Best For:</strong> Creative Burgers Before the Game</p>
       <p>Jack Brown's is a casual burger-and-beer spot in Germantown, an easy stop if you want to spend some time downtown before walking over to Nissan Stadium without turning your pregame meal into a huge dinner. <a href="/reviews/jack-browns-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
-      <h2>10. <a href="/reviews/nadc-burger-nashville">NADC Burger ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
+      <p><strong>Sam Score:</strong> 8.2/10</p>
       <p><strong>Best For:</strong> Wagyu Smash Burgers Downtown</p>
       <p>NADC Burger is another downtown option I've personally reviewed, tucked inside The Arcade. If you want a smash burger before or after your event, it's worth considering, especially if you're looking for something casual rather than a traditional sit-down dinner. <a href="/reviews/nadc-burger-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "One burger, done exactly one way, and Wagyu beef makes the case for why that's enough."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
 
-      <h2>11. <a href="/reviews/the-philly-special-nashville">The Philly Special ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/the-philly-special-nashville">The Philly Special</a></h2>
+      <p><strong>Neighborhood:</strong> Assembly Food Hall (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 7.7/10</p>
       <p><strong>Best For:</strong> Philly Cheesesteaks Downtown</p>
       <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall at Fifth + Broadway, an easy addition if you're already eating there before the game. <a href="/reviews/the-philly-special-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>💬 <strong>Sam Says:</strong> "A genuine Philly-style cheesesteak inside the food hall, an easy add-on if you're already eating there before the game."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
       <div class="own-photo"><img src="/images/reviews/the-philly-special-nashville/order.jpg" alt="Close-up of The Original cheesesteak with ribeye and white American, The Philly Special" loading="lazy" /></div>
 
-      <h2>12. <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza ⭐</a></h2>
+      <h2>⭐ <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 7.4/10</p>
       <p><strong>Best For:</strong> Quick Downtown Pizza</p>
-      <p>If you don't want a massive meal before the game, grabbing pizza downtown can be one of the easiest options.</p>
-      <p>I've personally reviewed Prince Street Pizza for Eat With Sam K, so this is one where you can see exactly what I ordered and how I rated it. <a href="/reviews/prince-street-pizza-nashville">Read Sam's full review →</a></p>
-      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>If you don't want a massive meal before the game, grabbing pizza downtown can be one of the easiest options. <a href="/reviews/prince-street-pizza-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A dependable, affordable stop if you're downtown and want a genuinely good slice fast."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
-      <p>🍕 <strong>Quick Pizza Pick</strong></p>
       <div class="own-photo"><img src="/images/reviews/prince-street-pizza-nashville/order.jpg" alt="Sam's order: three square slices in the box, Prince St. Pizza Nashville" loading="lazy" /></div>
 
-      <h2>🏈 Best Places to Eat Before a Titans Game</h2>
-      <p><strong>❤️ Upscale Pregame</strong></p>
-      <ul>
-        <li>Ocean Prime ⭐</li>
-      </ul>
-      <p><strong>🍔 Burgers</strong></p>
-      <ul>
-        <li>The Pharmacy</li>
-        <li>Jack Brown's ⭐</li>
-        <li>NADC Burger ⭐</li>
-      </ul>
-      <p><strong>🍖 BBQ</strong></p>
-      <ul>
-        <li>Edley's</li>
-        <li>Martin's</li>
-        <li>Butchertown Hall</li>
-      </ul>
-      <p><strong>🍕 Pizza</strong></p>
-      <ul>
-        <li>Five Points Pizza</li>
-        <li>Prince St. Pizza ⭐</li>
-      </ul>
-      <p><strong>👥 Groups</strong></p>
-      <ul>
-        <li>Assembly Food Hall</li>
-        <li>Butchertown Hall</li>
-        <li>Hawkers</li>
-      </ul>
-      <p><strong>⚡ Quick Meal</strong></p>
-      <ul>
-        <li>Prince St. Pizza ⭐</li>
-        <li>The Philly Special ⭐</li>
-        <li>Assembly Food Hall</li>
-      </ul>
+      <h2>More Restaurants Near Nissan Stadium Worth Knowing</h2>
+      <p>I'm still working my way through the restaurants near Nissan Stadium, so the spots below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
+
+      <h3>🥩 <a href="https://www.butchertownhall.com/" target="_blank" rel="noopener">Butchertown Hall</a></h3>
+      <p>Located in Germantown, Butchertown Hall is a strong option if you want a proper sit-down meal before heading toward Nissan Stadium, with smoked meats, Tex-Mex influences, and burgers.</p>
+      <p><strong>Best For:</strong> BBQ, Meat & Groups</p>
+
+      <h3>🔥 <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">Edley's Bar-B-Que</a></h3>
+      <p>If you're coming to Nashville for a Titans game and want barbecue as part of the experience, Edley's is one of the city's best-known local BBQ names.</p>
+      <p><strong>Best For:</strong> Nashville BBQ</p>
+
+      <h3>🍺 <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">The Pharmacy Burger Parlor & Beer Garden</a></h3>
+      <p>The Pharmacy is an East Nashville favorite known for burgers, beer, and its outdoor beer garden, particularly appealing for a casual game-day meal.</p>
+      <p><strong>Best For:</strong> Burgers & Beer</p>
+
+      <h3>🍕 <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h3>
+      <p>Five Points Pizza is one of East Nashville's better-known pizza destinations and works particularly well if you want something casual before heading toward Nissan Stadium.</p>
+      <p><strong>Best For:</strong> Pizza in East Nashville</p>
+
+      <h3>🥟 <a href="https://eathawkers.com/locations/nashville/" target="_blank" rel="noopener">Hawkers Asian Street Food</a></h3>
+      <p>If everyone else is recommending burgers, BBQ, and hot chicken, Hawkers gives you something completely different, especially useful for groups that want to share several things.</p>
+      <p><strong>Best For:</strong> Something Different</p>
+
+      <h3>🔥 <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h3>
+      <p>Martin's downtown location is convenient if you're starting your day around Broadway before walking toward Nissan Stadium, specializing in West Tennessee-style whole-hog barbecue.</p>
+      <p><strong>Best For:</strong> BBQ Near Downtown</p>
+
+      <h3>🍽️ <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h3>
+      <p>Assembly Food Hall is one of the easiest recommendations when everyone wants something different, with multiple food concepts under one roof at Fifth + Broadway.</p>
+      <p><strong>Best For:</strong> Groups That Can't Decide</p>
+
+      <h2>Best Restaurants Near Nissan Stadium by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime — 9.3</td></tr>
+          <tr><td>🥩 Upscale Pregame</td><td>Ocean Prime</td></tr>
+          <tr><td>🍔 Burgers</td><td>Jack Brown's / NADC Burger / The Pharmacy</td></tr>
+          <tr><td>🍖 BBQ</td><td>Edley's / Martin's / Butchertown Hall</td></tr>
+          <tr><td>🍕 Pizza</td><td>Prince St. Pizza / Five Points Pizza</td></tr>
+          <tr><td>🥪 Cheesesteaks</td><td>The Philly Special</td></tr>
+          <tr><td>👥 Groups</td><td>Assembly Food Hall / Butchertown Hall / Hawkers</td></tr>
+        </tbody>
+      </table>
+      </div>
 
       <h2>Where Should You Eat Before a Titans Game?</h2>
       <p>The biggest decision is whether you want to eat on the downtown side or East Nashville side of the river.</p>
-      <p>If you're already spending the morning around Broadway, staying downtown makes sense. You can eat at somewhere like:</p>
-      <ul>
-        <li>❤️ Ocean Prime ⭐</li>
-        <li>🍖 Martin's</li>
-        <li>🍔 Jack Brown's ⭐</li>
-        <li>🍕 Prince St. Pizza ⭐</li>
-        <li>🍴 Assembly Food Hall</li>
-      </ul>
-      <p>Then make your way toward Nissan Stadium.</p>
+      <p>If you're already spending the morning around Broadway, staying downtown makes sense: Ocean Prime, Martin's, Jack Brown's, Prince St. Pizza, or Assembly Food Hall, then make your way toward Nissan Stadium.</p>
       <p>If you're approaching from East Nashville, restaurants like The Pharmacy, Five Points Pizza, and other East Nashville spots give you plenty of options without needing to start downtown.</p>
 
-      <h2>🍺 Where to Pregame Before a Titans Game</h2>
-      <p>If you're looking for food and drinks, prioritize somewhere where you won't feel rushed.</p>
-      <p>Burger restaurants, BBQ joints, food halls, and East Nashville restaurants can all work well depending on where you're coming from.</p>
-      <p>My biggest recommendation:</p>
-      <p>Don't cut it close.</p>
-      <p>Nashville traffic and crowds can get significantly heavier around major Nissan Stadium events.</p>
-      <p>I'd rather finish eating early and have extra time around the stadium than spend the final 20 minutes of lunch watching the clock.</p>
+      <h2>Can You Walk From Broadway to Nissan Stadium?</h2>
+      <p>Yes. Downtown Nashville and Nissan Stadium are connected across the Cumberland River, making downtown restaurants viable options before Titans games and other stadium events.</p>
+      <p>That means you don't necessarily need to find a restaurant immediately beside the stadium. You can eat downtown and then head toward Nissan Stadium afterward.</p>
 
-      <h2>🚶 Can You Walk From Broadway to Nissan Stadium?</h2>
-      <p>Yes.</p>
-      <p>Downtown Nashville and Nissan Stadium are connected across the Cumberland River, making downtown restaurants viable options before Titans games and other stadium events.</p>
-      <p>That means you don't necessarily need to find a restaurant immediately beside the stadium.</p>
-      <p>You can eat downtown and then head toward Nissan Stadium afterward.</p>
-
-      <h2>⏰ How Early Should You Eat Before a Titans Game?</h2>
+      <h2>How Early Should You Eat Before a Titans Game?</h2>
       <p>For a noon Titans kickoff, I'd consider making your meal part of the morning rather than trying to eat immediately before the game.</p>
-      <p>For later games, give yourself plenty of time for a sit-down meal.</p>
-      <p>Restaurants can become significantly busier on NFL Sundays, particularly when thousands of fans are arriving downtown at the same time.</p>
-      <p>If the restaurant accepts reservations, make one.</p>
+      <p>Restaurants can become significantly busier on NFL Sundays, particularly when thousands of fans are arriving downtown at the same time. If the restaurant accepts reservations, make one.</p>
 
-      <h2>🏈 Tennessee Titans 2026 Home Games</h2>
-      <p>The Titans have multiple home games at Nissan Stadium this season, meaning this guide should remain useful throughout the fall and into January.</p>
-      <p>The 2026 regular-season home schedule includes:</p>
+      <h2>Tennessee Titans 2026 Home Games</h2>
+      <p>The Titans have multiple home games at Nissan Stadium this season, meaning this guide should remain useful throughout the fall and into January. The 2026 regular-season home schedule includes:</p>
       <ul>
-        <li>September 13 — New York Jets</li>
-        <li>September 20 — Philadelphia Eagles</li>
-        <li>October 11 — Houston Texans</li>
-        <li>October 25 — Cleveland Browns</li>
-        <li>November 15 — Jacksonville Jaguars</li>
-        <li>December 6 — Washington Commanders</li>
-        <li>December 20 — Indianapolis Colts</li>
-        <li>January 3 — Pittsburgh Steelers</li>
+        <li>September 13, New York Jets</li>
+        <li>September 20, Philadelphia Eagles</li>
+        <li>October 11, Houston Texans</li>
+        <li>October 25, Cleveland Browns</li>
+        <li>November 15, Jacksonville Jaguars</li>
+        <li>December 6, Washington Commanders</li>
+        <li>December 20, Indianapolis Colts</li>
+        <li>January 3, Pittsburgh Steelers</li>
       </ul>
       <p>Game times can change, so always check the Titans' official schedule before making game-day plans.</p>
 
@@ -3922,26 +3047,10 @@ const BLOG_POSTS = [
       <p><strong>Should I make a restaurant reservation before a Titans game?</strong></p>
       <p>If the restaurant accepts reservations, I'd strongly consider it. Downtown and surrounding neighborhoods can become extremely busy before major Nissan Stadium events.</p>
 
-      <h2>How I'm Building This Guide</h2>
-      <p>My goal is for this page to eventually become more than a list of restaurants that happen to be close to Nissan Stadium.</p>
-      <p>As I personally visit these places, I'll add:</p>
-      <ul>
-        <li>⭐ Sam Scores</li>
-        <li>📸 Original Photos</li>
-        <li>🎥 Video Reviews</li>
-        <li>🍽️ Exactly What I Ordered</li>
-        <li>💰 Value Ratings</li>
-        <li>💬 Sam Says</li>
-        <li>➡️ Links to My Full Reviews</li>
-      </ul>
-      <p>Eventually, you'll be able to see exactly which restaurants I'd personally choose before a Titans game.</p>
-
-      <h2>Final Thoughts</h2>
-      <p>One advantage of Nissan Stadium's location is that you don't have to settle for stadium food just because you're going to a game.</p>
-      <p>You've got restaurants throughout downtown, East Nashville, Germantown, and the surrounding area.</p>
-      <p>For a first-time Nashville visitor, I'd consider making the entire experience part of game day: eat, pregame, head to Nissan Stadium, Titans.</p>
-      <p>Just make sure you give yourself plenty of time.</p>
-      <p>Nobody wants to miss kickoff because they were waiting on a burger.</p>
+      <h2>The Sam Score</h2>
+      <p>Every restaurant that receives a Sam Score has been personally visited and reviewed by me, food quality, value, service, and atmosphere all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more restaurants around Nissan Stadium, I'll continue updating this guide with new Sam Scores and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
@@ -3949,12 +3058,10 @@ const BLOG_POSTS = [
       <ul>
         <li><a href="/guides/best-restaurants-near-bridgestone-arena-nashville/">Best Restaurants Near Bridgestone Arena</a></li>
         <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
         <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
         <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
-        <li><a href="/guides/best-bbq-nashville/">Best BBQ in Nashville</a></li>
-        <li><a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a></li>
-        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
         <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
         <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
       </ul>
