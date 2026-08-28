@@ -114,12 +114,16 @@ const BLOG_POSTS = [
       <p>This is the type of restaurant I'd look toward for an anniversary, special occasion or more luxurious date night rather than a casual pasta dinner.</p>
       <p>📍 <strong>Neighborhood:</strong> Downtown Nashville</p>
       <p><strong>Best For:</strong> Special occasions and upscale dining</p>
+      <div class="sourced-photo"><img src="/images/guides/yolan-nashville/dish.jpg" alt="Chitarra pasta with uni and caviar, Yolan Nashville" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.yolannashville.com/" target="_blank" rel="noopener">Yolan</a>, not personally taken</span>
 
       <h3>🍝 <a href="https://www.rolfanddaughters.com/" target="_blank" rel="noopener">Rolf and Daughters</a></h3>
       <p>Rolf and Daughters has been one of the better-known names in Nashville's restaurant scene for years.</p>
       <p>Located in Germantown, the restaurant is particularly known for its pasta and creative approach to Italian-inspired food.</p>
       <p>📍 <strong>Neighborhood:</strong> Germantown</p>
       <p><strong>Best For:</strong> Pasta and date night</p>
+      <div class="sourced-photo"><img src="/images/guides/rolf-and-daughters-nashville/dish.jpg" alt="Fresh handmade pasta, Rolf and Daughters Nashville" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.rolfanddaughters.com/" target="_blank" rel="noopener">Rolf and Daughters</a>, not personally taken</span>
 
       <h3>🍕 <a href="https://cityhousenashville.com/" target="_blank" rel="noopener">City House</a></h3>
       <p>City House combines Italian influences with Southern ingredients, giving it a style that feels distinctly Nashville.</p>

@@ -1192,6 +1192,25 @@ a { color: var(--red); }
   box-shadow: var(--shadow);
 }
 
+.sourced-photo { margin: 10px 0 6px; }
+.sourced-photo img {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+}
+.sourced-photo-credit {
+  display: block;
+  max-width: 420px;
+  margin: 6px auto 0;
+  text-align: center;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
 @media (max-width: 560px) {
   .review-hero { flex-direction: column; align-items: flex-start; }
 }
