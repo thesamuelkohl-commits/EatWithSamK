@@ -273,10 +273,14 @@ const BLOG_POSTS = [
       <h3>🎸 <a href="https://robertswesternworld.com/" target="_blank" rel="noopener">Robert's Western World</a></h3>
       <p>If you're already spending your night on Lower Broadway, Robert's Western World gives you one of the most uniquely Nashville ways to get something to eat without leaving one of the city's classic honky-tonks.</p>
       <p><strong>Best For:</strong> Late-night food on Broadway, great value</p>
+      <div class="sourced-photo"><img src="/images/guides/roberts-western-world-nashville/dish.jpg" alt="Honky Tonk Grill neon sign, Robert's Western World" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://robertswesternworld.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🔥 <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h3>
       <p>If you're visiting Nashville and haven't tried hot chicken yet, Prince's gives you a chance to knock out one of the city's signature foods, the restaurant credited with originating Nashville hot chicken.</p>
       <p><strong>Best For:</strong> Late-night Nashville hot chicken</p>
+      <div class="sourced-photo"><img src="/images/guides/princes-hot-chicken-nashville/dish.jpg" alt="Hot chicken sandwich with fries and coleslaw, Prince's Hot Chicken" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🌮 <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h3>
       <p>Not every late-night meal needs to be a burger or pizza. Bakersfield gives you tacos, queso, guacamole, tequila, and margaritas in a more social environment, especially useful when you're out with a group.</p>
@@ -521,6 +525,8 @@ const BLOG_POSTS = [
       <h3>🥂 <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></h3>
       <p>Not every Bridgestone meal needs to be burgers and barbecue. If you're going to a concert, celebrating something special, or want a proper dinner beforehand, Etch is one of downtown Nashville's better upscale options.</p>
       <p><strong>Best For:</strong> Upscale Dinner Before an Event</p>
+      <div class="sourced-photo"><img src="/images/guides/etch-nashville/dish.jpg" alt="Plated entree with broccolini, Etch Nashville" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🍷 <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></h3>
       <p>Sixty Vines is another strong option when you want something nicer before heading to Bridgestone, particularly appealing for date nights and concerts when you want dinner and wine before walking over to the arena.</p>
@@ -661,14 +667,20 @@ const BLOG_POSTS = [
       <h3>✨ <a href="https://www.harpersnashville.com/" target="_blank" rel="noopener">Harper's</a></h3>
       <p>Harper's has quickly become one of Nashville's hottest reservations by combining premium steaks with an elegant atmosphere and elevated menu.</p>
       <p><strong>Best For:</strong> Trending, newer luxury dining</p>
+      <div class="sourced-photo"><img src="/images/guides/harpers-nashville/dish.jpg" alt="Herb-crusted lamb chops, Harper's Nashville" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.harpersnashville.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>⭐ <a href="https://hallschophousenashville.com/" target="_blank" rel="noopener">Halls Chophouse</a></h3>
       <p>Halls has earned a reputation for exceptional hospitality and consistently outstanding steaks. If service is just as important as the food, this belongs near the top of your list.</p>
       <p><strong>Best For:</strong> Exceptional service, business dinners</p>
+      <div class="sourced-photo"><img src="/images/guides/halls-chophouse-nashville/dish.jpg" alt="Sliced steak on a Halls Chophouse cutting board" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://hallschophousenashville.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🎉 <a href="https://stksteakhouse.com/en-us/location/nashville/" target="_blank" rel="noopener">STK Nashville</a></h3>
       <p>STK combines steakhouse dining with a lively atmosphere, making it popular for birthdays, celebrations, and group dinners.</p>
       <p><strong>Best For:</strong> Dinner and nightlife, groups</p>
+      <div class="sourced-photo"><img src="/images/guides/stk-nashville-nashville/dish.jpg" alt="Steak platter with sliders and dipping sauces, STK Nashville" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://stksteakhouse.com/en-us/location/nashville/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🥩 <a href="https://www.oaksteakhouse.com/location/oak-steakhouse-nashville/" target="_blank" rel="noopener">Oak Steakhouse</a></h3>
       <p>Oak offers a more classic steakhouse experience while consistently serving premium cuts and excellent cocktails.</p>
@@ -851,6 +863,8 @@ const BLOG_POSTS = [
       <h3>🥂 <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></h3>
       <p>If you're celebrating a special occasion or simply want one of the nicest dinners downtown, Etch consistently delivers with creative dishes and outstanding service.</p>
       <p><strong>Best For:</strong> Fine Dining Downtown</p>
+      <div class="sourced-photo"><img src="/images/guides/etch-nashville/dish.jpg" alt="Plated entree with broccolini, Etch Nashville" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🌮 <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h3>
       <p>Bakersfield offers fresh tacos, excellent margaritas, and a lively atmosphere that's perfect before heading out downtown.</p>
@@ -1454,10 +1468,14 @@ const BLOG_POSTS = [
       <h3>🍕 <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h3>
       <p>Five Points Pizza is one of Nashville's best places to grab an affordable meal. Huge New York-style slices mean you can eat well without spending much.</p>
       <p><strong>Best For:</strong> Pizza by the Slice</p>
+      <div class="sourced-photo"><img src="/images/guides/five-points-pizza-nashville/dish.jpg" alt="New York-style cheese slice, Five Points Pizza" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>👑 <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h3>
       <p>If you're visiting Nashville, Prince's lets you experience the city's most famous food without an expensive bill.</p>
       <p><strong>Best For:</strong> Nashville's Signature Food</p>
+      <div class="sourced-photo"><img src="/images/guides/princes-hot-chicken-nashville/dish.jpg" alt="Hot chicken sandwich with fries and coleslaw, Prince's Hot Chicken" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🍔 <a href="https://fatmosburgers.com/" target="_blank" rel="noopener">Fat Mo's</a></h3>
       <p>Fat Mo's has been serving massive burgers for years. If you're hungry, it's hard to find a better value.</p>
@@ -1847,6 +1865,8 @@ const BLOG_POSTS = [
       <h3>👑 <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">Prince's Hot Chicken</a></h3>
       <p>You can't talk about Nashville hot chicken without talking about Prince's. The restaurant's history is deeply connected to the creation of the dish itself, and it serves its chicken at different heat levels backed by generations of seasoning know-how.</p>
       <p><strong>Best For:</strong> The Original Nashville Hot Chicken Experience</p>
+      <div class="sourced-photo"><img src="/images/guides/princes-hot-chicken-nashville/dish.jpg" alt="Hot chicken sandwich with fries and coleslaw, Prince's Hot Chicken" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.princeshotchicken.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🐔 <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></h3>
       <p>Hattie B's has become one of the most recognizable names associated with Nashville hot chicken. With multiple locations and a range of heat levels from mild up to the famous Shut the Cluck Up!!!, it's an approachable introduction for first-timers.</p>
@@ -2012,6 +2032,8 @@ const BLOG_POSTS = [
       <h3>🍕 <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h3>
       <p>Five Points Pizza has become one of Nashville's most iconic pizza destinations. Known for its massive New York-style slices, perfectly crisp crust, and quality ingredients, it's a must-visit whether you're grabbing a quick lunch or a late-night bite.</p>
       <p><strong>Best For:</strong> New York-style pizza</p>
+      <div class="sourced-photo"><img src="/images/guides/five-points-pizza-nashville/dish.jpg" alt="New York-style cheese slice, Five Points Pizza" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🎨 <a href="https://www.smithandlentz.com/" target="_blank" rel="noopener">Smith &amp; Lentz</a></h3>
       <p>Originally known for its brewery, Smith &amp; Lentz has developed a reputation for serving some of the city's best artisan pizzas. Their naturally fermented dough creates a light, airy crust with outstanding flavor.</p>
@@ -2020,6 +2042,8 @@ const BLOG_POSTS = [
       <h3>🍺 <a href="https://www.diceystavern.com/nashville" target="_blank" rel="noopener">Dicey's Tavern</a></h3>
       <p>Dicey's Tavern has quickly become one of Nashville's favorite neighborhood pizza spots. Their crispy, tavern-style pizzas are perfect for sharing alongside a drink.</p>
       <p><strong>Best For:</strong> Thin crust pizza</p>
+      <div class="sourced-photo"><img src="/images/guides/diceys-tavern-nashville/dish.jpg" alt="Greek salad and pizza, Dicey's Tavern" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.diceystavern.com/nashville" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🧀 <a href="https://slimandhuskys.com/" target="_blank" rel="noopener">Slim &amp; Husky's Pizza Beeria</a></h3>
       <p>Slim &amp; Husky's offers a fun build-your-own concept while also serving signature pizzas packed with flavor. It's one of Nashville's most recognizable local pizza brands.</p>
@@ -2040,6 +2064,8 @@ const BLOG_POSTS = [
       <h3>🇮🇹 <a href="https://bellanapolipizzeria.com/" target="_blank" rel="noopener">Bella Napoli Pizzeria</a></h3>
       <p>Bella Napoli has become a local favorite for authentic Italian-style pizza served in a cozy neighborhood atmosphere.</p>
       <p><strong>Best For:</strong> Cozy, neighborhood Italian pizza</p>
+      <div class="sourced-photo"><img src="/images/guides/bella-napoli-pizzeria-nashville/dish.jpg" alt="Assorted wood-fired pizzas, Bella Napoli Pizzeria" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://bellanapolipizzeria.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🌲 <a href="https://pennepazze.net/" target="_blank" rel="noopener">PennePazze</a></h3>
       <p>PennePazze combines authentic Italian recipes with high-quality ingredients, creating wood-fired pizzas that continue to earn praise from Nashville diners.</p>
@@ -2197,14 +2223,20 @@ const BLOG_POSTS = [
       <h3>🍟 <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></h3>
       <p>Gabby's is one of Nashville's original burger legends. Fresh beef, hand-cut fries, and consistently excellent service keep locals coming back.</p>
       <p><strong>Best For:</strong> Classic Burgers</p>
+      <div class="sourced-photo"><img src="/images/guides/gabbys-burgers-and-fries-nashville/dish.jpg" alt="Inside the kitchen and counter, Gabby's Burgers & Fries" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>💵 <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">Grillshack Fries & Burgers</a></h3>
       <p>If you're looking for a quality burger that won't break the bank, Grillshack delivers one of the best values in Nashville, fresh ingredients, quick service, and no downtown crowds.</p>
       <p><strong>Best For:</strong> Budget Burgers</p>
+      <div class="sourced-photo"><img src="/images/guides/grillshack-fries-and-burgers-nashville/dish.jpg" alt="Close-up of a smash burger, Grillshack Fries & Burgers" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://grillshack.wixsite.com/grillshack" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🥩 <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">Bare Bones Butcher</a></h3>
       <p>Part butcher shop, part restaurant, Bare Bones serves premium burgers using high-quality beef prepared in-house.</p>
       <p><strong>Best For:</strong> Premium Butcher-Shop Burgers</p>
+      <div class="sourced-photo"><img src="/images/guides/bare-bones-butcher-nashville/dish.jpg" alt="Dry-aged ribeye on the butcher's scale, Bare Bones Butcher" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.barebonesbutcher.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🍺 <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h3>
       <p>Open since 1971 in East Nashville and reportedly the city's oldest bar, Dino's serves a thick, charred, cheese-dripping bar cheeseburger so good Bon Appétit once named it one of the three best burgers in the country.</p>
@@ -2365,10 +2397,14 @@ const BLOG_POSTS = [
       <h3>🍕 <a href="https://www.goodasfolk.com/" target="_blank" rel="noopener">Folk</a></h3>
       <p>Simple, modern, and consistently excellent, Folk is known for wood-fired pizzas and seasonal dishes. Ideal for couples wanting a more relaxed but still memorable evening.</p>
       <p><strong>Best For:</strong> Relaxed, Memorable Evenings</p>
+      <div class="sourced-photo"><img src="/images/guides/folk-nashville/dish.jpg" alt="Dining room interior, Folk Nashville" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.goodasfolk.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>✨ <a href="https://www.bastionnashville.com/" target="_blank" rel="noopener">Bastion</a></h3>
       <p>Bastion offers one of the most unique dining experiences in Nashville. Reservations can be difficult to secure, but the intimate atmosphere makes it well worth the effort.</p>
       <p><strong>Best For:</strong> A Truly Unique Experience</p>
+      <div class="sourced-photo"><img src="/images/guides/bastion-nashville/dish.jpg" alt="Tasting menu spread of small plates, Bastion Nashville" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.bastionnashville.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🌤️ <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></h3>
       <p>Adele's features an inviting atmosphere with Southern-inspired cuisine. Weekend brunch is also among the city's best if you're planning a daytime date.</p>
@@ -3015,10 +3051,14 @@ const BLOG_POSTS = [
       <h3>🥩 <a href="https://www.butchertownhall.com/" target="_blank" rel="noopener">Butchertown Hall</a></h3>
       <p>Located in Germantown, Butchertown Hall is a strong option if you want a proper sit-down meal before heading toward Nissan Stadium, with smoked meats, Tex-Mex influences, and burgers.</p>
       <p><strong>Best For:</strong> BBQ, Meat & Groups</p>
+      <div class="sourced-photo"><img src="/images/guides/butchertown-hall-nashville/dish.jpg" alt="Sliced grilled steak with chimichurri, Butchertown Hall" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.butchertownhall.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🔥 <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">Edley's Bar-B-Que</a></h3>
       <p>If you're coming to Nashville for a Titans game and want barbecue as part of the experience, Edley's is one of the city's best-known local BBQ names.</p>
       <p><strong>Best For:</strong> Nashville BBQ</p>
+      <div class="sourced-photo"><img src="/images/guides/edleys-bar-b-que-nashville/dish.jpg" alt="Pulled pork sandwich with sides, Edley's Bar-B-Que" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.edleysbbq.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🍺 <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">The Pharmacy Burger Parlor & Beer Garden</a></h3>
       <p>The Pharmacy is an East Nashville favorite known for burgers, beer, and its outdoor beer garden, particularly appealing for a casual game-day meal.</p>
@@ -3027,6 +3067,8 @@ const BLOG_POSTS = [
       <h3>🍕 <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h3>
       <p>Five Points Pizza is one of East Nashville's better-known pizza destinations and works particularly well if you want something casual before heading toward Nissan Stadium.</p>
       <p><strong>Best For:</strong> Pizza in East Nashville</p>
+      <div class="sourced-photo"><img src="/images/guides/five-points-pizza-nashville/dish.jpg" alt="New York-style cheese slice, Five Points Pizza" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🥟 <a href="https://eathawkers.com/locations/nashville/" target="_blank" rel="noopener">Hawkers Asian Street Food</a></h3>
       <p>If everyone else is recommending burgers, BBQ, and hot chicken, Hawkers gives you something completely different, especially useful for groups that want to share several things.</p>
