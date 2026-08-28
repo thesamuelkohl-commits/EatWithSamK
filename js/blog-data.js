@@ -261,6 +261,7 @@ const BLOG_POSTS = [
       <h3>🏆 <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h3>
       <p>Dino's is basically a Nashville late-night institution. Located in East Nashville, this dive bar is known for keeping things simple: burgers, fries, drinks, and a laid-back atmosphere.</p>
       <p><strong>Best For:</strong> Classic late-night burgers</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍽️ <a href="https://earls.ca/locations/earls-nashville-yards/" target="_blank" rel="noopener">Earls Kitchen + Bar</a></h3>
       <p>Earls Kitchen + Bar is a polished, upscale-casual chain at Nashville Yards, with a menu that ranges from sushi and steaks to salads and handhelds. Its kitchen stays open later than a lot of nearby restaurants, up to 1-2 a.m. Wednesday through Saturday.</p>
@@ -508,14 +509,17 @@ const BLOG_POSTS = [
       <h3>🍽️ <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h3>
       <p>Located directly across from Bridgestone Arena at Fifth + Broadway, Assembly Food Hall is one of the easiest places to eat before an event. Instead of forcing everyone in your group to agree on one restaurant, you can choose from a large collection of food concepts under one roof.</p>
       <p><strong>Best For:</strong> Groups & Variety</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZYBG08kXI3/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🔥 <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></h3>
       <p>If you're visiting Nashville and want hot chicken before your event, Hattie B's is one of the most recognizable options near Bridgestone Arena. Its Fifth + Broadway location makes it extremely convenient for arena events.</p>
       <p><strong>Best For:</strong> Nashville Hot Chicken</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBe_wdQpGP_/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍖 <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h3>
       <p>If barbecue is on your Nashville checklist, Martin's is an excellent downtown option, especially good for visitors who want to try Tennessee-style barbecue without traveling far from Bridgestone Arena.</p>
       <p><strong>Best For:</strong> Tennessee BBQ</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbF85digGm/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🎵 <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h3>
       <p>The Stillery combines comfort food, drinks, and live music with a downtown Nashville atmosphere. The menu includes burgers, pizza, hot chicken, and other casual options, making it an easy pregame choice.</p>
@@ -867,10 +871,12 @@ const BLOG_POSTS = [
       <h3>🍖 <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h3>
       <p>Martin's has become one of Nashville's must-visit barbecue destinations. From whole-hog barbecue to brisket and ribs, it's one of the city's most iconic restaurants.</p>
       <p><strong>Best For:</strong> Authentic Tennessee BBQ</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbF85digGm/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍽️ <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h3>
       <p>Assembly Food Hall is one of the easiest recommendations near Broadway because everyone can order something different, with dozens of local vendors under one roof.</p>
       <p><strong>Best For:</strong> Groups That Can't Decide</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZYBG08kXI3/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🥂 <a href="https://etchrestaurant.com/nashville/" target="_blank" rel="noopener">Etch</a></h3>
       <p>If you're celebrating a special occasion or simply want one of the nicest dinners downtown, Etch consistently delivers with creative dishes and outstanding service.</p>
@@ -1508,6 +1514,7 @@ const BLOG_POSTS = [
       <h3>🌙 <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h3>
       <p>Dino's has earned legendary status among locals for serving one of Nashville's best affordable burgers, especially late at night.</p>
       <p><strong>Best For:</strong> Late-Night Burgers</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🥪 <a href="https://www.mitchelldeli.com/" target="_blank" rel="noopener">Mitchell Delicatessen</a></h3>
       <p>If you're craving an incredible sandwich without spending a fortune, Mitchell Delicatessen belongs on your list. Fresh ingredients and large portions make it one of East Nashville's best lunch spots.</p>
@@ -1888,6 +1895,7 @@ const BLOG_POSTS = [
       <h3>🐔 <a href="https://www.hattieb.com/" target="_blank" rel="noopener">Hattie B's Hot Chicken</a></h3>
       <p>Hattie B's has become one of the most recognizable names associated with Nashville hot chicken. With multiple locations and a range of heat levels from mild up to the famous Shut the Cluck Up!!!, it's an approachable introduction for first-timers.</p>
       <p><strong>Best For:</strong> First-Time Hot Chicken Visitors</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBe_wdQpGP_/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🥪 <a href="https://www.braveidiot.com/" target="_blank" rel="noopener">Brave Idiot</a></h3>
       <p>Brave Idiot has developed a loyal following in Nashville for massive, creative hot chicken sandwiches. It's a great option if you want serious flavor and loaded toppings along with your heat.</p>
@@ -2270,6 +2278,7 @@ const BLOG_POSTS = [
       <h3>🍺 <a href="https://dinosnashville.com/" target="_blank" rel="noopener">Dino's</a></h3>
       <p>Open since 1971 in East Nashville and reportedly the city's oldest bar, Dino's serves a thick, charred, cheese-dripping bar cheeseburger so good Bon Appétit once named it one of the three best burgers in the country.</p>
       <p><strong>Best For:</strong> Legendary Dive-Bar Cheeseburgers</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
 
       <h2>Best Burgers in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -2416,10 +2425,14 @@ const BLOG_POSTS = [
       <h3>🍝 <a href="https://www.rolfanddaughters.com/" target="_blank" rel="noopener">Rolf and Daughters</a></h3>
       <p>One of Nashville's most popular neighborhood restaurants, Rolf and Daughters specializes in handmade pasta and seasonal ingredients in a cozy first-date-friendly atmosphere.</p>
       <p><strong>Best For:</strong> Relaxed First Dates</p>
+      <div class="sourced-photo"><img src="/images/guides/rolf-and-daughters-nashville/dish.jpg" alt="Fresh handmade pasta, Rolf and Daughters Nashville" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.rolfanddaughters.com/" target="_blank" rel="noopener">Rolf and Daughters</a>, not personally taken</span>
 
       <h3>🍷 <a href="https://www.yolannashville.com/" target="_blank" rel="noopener">Yolan</a></h3>
       <p>If authentic Italian cuisine is your idea of romance, Yolan should be on your list. Located inside The Joseph Hotel, it offers an upscale dining experience with one of Nashville's best wine selections.</p>
       <p><strong>Best For:</strong> Romantic Italian</p>
+      <div class="sourced-photo"><img src="/images/guides/yolan-nashville/dish.jpg" alt="Chitarra pasta with uni and caviar, Yolan Nashville" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.yolannashville.com/" target="_blank" rel="noopener">Yolan</a>, not personally taken</span>
 
       <h3>🥂 <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h3>
       <p>Arguably Nashville's most famous steakhouse, Kayne Prime combines modern design with premium steaks and creative appetizers.</p>
@@ -3116,10 +3129,12 @@ const BLOG_POSTS = [
       <h3>🔥 <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h3>
       <p>Martin's downtown location is convenient if you're starting your day around Broadway before walking toward Nissan Stadium, specializing in West Tennessee-style whole-hog barbecue.</p>
       <p><strong>Best For:</strong> BBQ Near Downtown</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DUbF85digGm/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍽️ <a href="https://www.assemblyfoodhall.com/" target="_blank" rel="noopener">Assembly Food Hall</a></h3>
       <p>Assembly Food Hall is one of the easiest recommendations when everyone wants something different, with multiple food concepts under one roof at Fifth + Broadway.</p>
       <p><strong>Best For:</strong> Groups That Can't Decide</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZYBG08kXI3/" data-instgrm-version="14"></blockquote></div>
 
       <h2>Best Restaurants Near Nissan Stadium by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
