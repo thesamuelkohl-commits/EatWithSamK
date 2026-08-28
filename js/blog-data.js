@@ -533,6 +533,7 @@ const BLOG_POSTS = [
       <h3>🍷 <a href="https://www.sixtyvines.com/locations/nashville" target="_blank" rel="noopener">Sixty Vines</a></h3>
       <p>Sixty Vines is another strong option when you want something nicer before heading to Bridgestone, particularly appealing for date nights and concerts when you want dinner and wine before walking over to the arena.</p>
       <p><strong>Best For:</strong> Wine & Dinner</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dcerl4jwu3N/" data-instgrm-version="14"></blockquote></div>
 
       <h2>Best Restaurants Near Bridgestone Arena by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -888,6 +889,7 @@ const BLOG_POSTS = [
       <h3>🎷 <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></h3>
       <p>Located in historic Printer's Alley, Skull's combines excellent food with one of the city's most unique entertainment experiences, perfect before live jazz or a special night out.</p>
       <p><strong>Best For:</strong> A Classic Nashville Night Out</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DblDA05lRPK/" data-instgrm-version="14"></blockquote></div>
 
       <h2>Best Restaurants Near Broadway by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -1911,6 +1913,7 @@ const BLOG_POSTS = [
       <h3>🍽️ <a href="https://partyfowl.com/" target="_blank" rel="noopener">Party Fowl</a></h3>
       <p>Party Fowl takes Nashville hot chicken and turns it into more of a full sit-down restaurant experience, with creative dishes incorporating Nashville heat into different meals. Good for groups with mixed preferences.</p>
       <p><strong>Best For:</strong> Groups and a Full Restaurant Experience</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CzXGBoXOQ0_/" data-instgrm-version="14"></blockquote></div>
 
       <h2>Best Hot Chicken in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -2060,6 +2063,7 @@ const BLOG_POSTS = [
       <h3>🧀 <a href="https://slimandhuskys.com/" target="_blank" rel="noopener">Slim &amp; Husky's Pizza Beeria</a></h3>
       <p>Slim &amp; Husky's offers a fun build-your-own concept while also serving signature pizzas packed with flavor. It's one of Nashville's most recognizable local pizza brands.</p>
       <p><strong>Best For:</strong> Custom pizza</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DcY5RIAIEDU/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🇮🇹 <a href="https://desanopizza.com/desanonashville" target="_blank" rel="noopener">DeSano Pizzeria Napoletana</a></h3>
       <p>If you're looking for authentic Italian pizza, DeSano is one of the closest experiences you'll find in Nashville. Imported ingredients and wood-fired ovens produce soft, flavorful pizzas with beautifully blistered crusts.</p>
@@ -2236,6 +2240,7 @@ const BLOG_POSTS = [
       <h3>💊 <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></h3>
       <p>Known for its house-ground beef, locally sourced ingredients, and huge beer garden, Pharmacy has remained a Nashville favorite for years.</p>
       <p><strong>Best For:</strong> Beer Garden Burgers</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DcEiOstsgYa/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍟 <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></h3>
       <p>Gabby's is one of Nashville's original burger legends. Fresh beef, hand-cut fries, and consistently excellent service keep locals coming back.</p>
@@ -2865,6 +2870,7 @@ const BLOG_POSTS = [
       <h3>🌶️ <a href="https://redheadedstrangertacos.com/" target="_blank" rel="noopener">Redheaded Stranger</a></h3>
       <p>Redheaded Stranger brings a Southwestern/New Mexican influence to East Nashville. This isn't necessarily where I'd send someone specifically looking for traditional Mexican street tacos, it's a good choice if you want something creative and different.</p>
       <p><strong>Best For:</strong> Creative, Southwestern-inspired tacos</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db8cdT7gYrT/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍹 <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h3>
       <p>Bakersfield is a good option when tacos are only one part of the night, its combination of tacos, tequila, margaritas, queso, and a lively atmosphere makes it particularly well suited to groups and casual nights out.</p>
@@ -3085,6 +3091,7 @@ const BLOG_POSTS = [
       <h3>🍺 <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">The Pharmacy Burger Parlor & Beer Garden</a></h3>
       <p>The Pharmacy is an East Nashville favorite known for burgers, beer, and its outdoor beer garden, particularly appealing for a casual game-day meal.</p>
       <p><strong>Best For:</strong> Burgers & Beer</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DcEiOstsgYa/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍕 <a href="https://fivepointspizza.com/" target="_blank" rel="noopener">Five Points Pizza</a></h3>
       <p>Five Points Pizza is one of East Nashville's better-known pizza destinations and works particularly well if you want something casual before heading toward Nissan Stadium.</p>
