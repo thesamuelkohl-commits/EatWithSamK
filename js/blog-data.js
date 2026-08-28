@@ -690,6 +690,7 @@ const BLOG_POSTS = [
       <h3>🥩 <a href="https://www.oaksteakhouse.com/location/oak-steakhouse-nashville/" target="_blank" rel="noopener">Oak Steakhouse</a></h3>
       <p>Oak offers a more classic steakhouse experience while consistently serving premium cuts and excellent cocktails.</p>
       <p><strong>Best For:</strong> Traditional steakhouse</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DcbhdjeoFF9/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🦞 <a href="https://www.eddiev.com/locations/tn/nashville/nashville/8529" target="_blank" rel="noopener">Eddie V's Prime Seafood</a></h3>
       <p>If your group wants both exceptional steak and fresh seafood, Eddie V's is one of the best choices in Nashville.</p>
@@ -1503,6 +1504,7 @@ const BLOG_POSTS = [
       <h3>🥪 <a href="https://www.mitchelldeli.com/" target="_blank" rel="noopener">Mitchell Delicatessen</a></h3>
       <p>If you're craving an incredible sandwich without spending a fortune, Mitchell Delicatessen belongs on your list. Fresh ingredients and large portions make it one of East Nashville's best lunch spots.</p>
       <p><strong>Best For:</strong> Sandwiches</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DcgQyI0nUCx/" data-instgrm-version="14"></blockquote></div>
 
       <h2>Best Cheap Eats in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -2067,6 +2069,7 @@ const BLOG_POSTS = [
       <h3>🔥 <a href="https://www.nickysnashville.com/" target="_blank" rel="noopener">Nicky's Coal Fired</a></h3>
       <p>Coal-fired ovens give Nicky's pizzas a unique texture and smoky flavor. Their handcrafted pizzas pair perfectly with fresh pasta and Italian-inspired appetizers.</p>
       <p><strong>Best For:</strong> Coal-fired pizza and pasta</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DcWDTxxpROI/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🟥 <a href="https://www.emmysquaredpizza.com/" target="_blank" rel="noopener">Emmy Squared Pizza</a></h3>
       <p>Known for its Detroit-style pizza, Emmy Squared serves thick, crispy, cheesy square slices loaded with premium toppings.</p>
@@ -2836,6 +2839,7 @@ const BLOG_POSTS = [
       <h3>🌽 <a href="https://www.maizdelavida.com/" target="_blank" rel="noopener">Maiz de la Vida</a></h3>
       <p>Maiz de la Vida has become one of Nashville's most talked-about destinations for Mexican food, with a focus on fresh masa and handmade tortillas. Rather than treating the tortilla as an afterthought, it's a major part of the experience here.</p>
       <p><strong>Best For:</strong> Handmade tortillas, authentic Mexican flavor</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DI4OZ-oOZoN/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🌮 <a href="https://www.instagram.com/carniceriaytaqueriasanluis/" target="_blank" rel="noopener">Taqueria San Luis</a></h3>
       <p>If you're searching for a more traditional taco experience without the upscale atmosphere, Taqueria San Luis is one to know. Grab a few different tacos so you can try multiple meats and figure out your favorite.</p>
