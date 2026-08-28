@@ -2104,10 +2104,12 @@ const BLOG_POSTS = [
       <h3>🌲 <a href="https://pennepazze.net/" target="_blank" rel="noopener">PennePazze</a></h3>
       <p>PennePazze combines authentic Italian recipes with high-quality ingredients, creating wood-fired pizzas that continue to earn praise from Nashville diners.</p>
       <p><strong>Best For:</strong> Wood-fired Italian pizza</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DcPaI6kjMNl/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍻 <a href="https://www.tailgatebeer.com/" target="_blank" rel="noopener">TailGate Brewery</a></h3>
       <p>TailGate Brewery serves excellent craft beer alongside one of the city's most underrated pizza menus. With multiple locations around Nashville, it's a great casual option.</p>
       <p><strong>Best For:</strong> Pizza and craft beer</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dcbhf4uFlHk/" data-instgrm-version="14"></blockquote></div>
 
       <h2>Best Pizza in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -2421,6 +2423,7 @@ const BLOG_POSTS = [
       <h3>🎶 <a href="https://thetwelvethirtyclub.com/" target="_blank" rel="noopener">The Twelve Thirty Club</a></h3>
       <p>Broadway isn't just for tourists. The Twelve Thirty Club offers elevated dining combined with live music and rooftop cocktails, making it ideal for couples wanting dinner before a night out.</p>
       <p><strong>Best For:</strong> Dinner With Live Entertainment</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DBALJtms4Wp/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍝 <a href="https://www.rolfanddaughters.com/" target="_blank" rel="noopener">Rolf and Daughters</a></h3>
       <p>One of Nashville's most popular neighborhood restaurants, Rolf and Daughters specializes in handmade pasta and seasonal ingredients in a cozy first-date-friendly atmosphere.</p>
