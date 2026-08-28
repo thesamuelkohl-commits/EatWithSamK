@@ -290,6 +290,7 @@ const BLOG_POSTS = [
       <h3>🕔 <a href="https://till5pizza.com/" target="_blank" rel="noopener">Till Five Pizza</a></h3>
       <p>The name gives this one away: Till Five Pizza is built around serving people when most traditional restaurants have already closed, with pizza, wings, subs, and pasta.</p>
       <p><strong>Best For:</strong> Really late-night pizza</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DHWJgGCRb-c/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🎸 <a href="https://www.jbjsnash.com/" target="_blank" rel="noopener">JBJ's Nashville</a></h3>
       <p>JBJ's gives you another option directly on Broadway when you're already downtown, with a late-night menu focused on straightforward food that makes sense after a night out.</p>
@@ -519,6 +520,7 @@ const BLOG_POSTS = [
       <h3>🎵 <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h3>
       <p>The Stillery combines comfort food, drinks, and live music with a downtown Nashville atmosphere. The menu includes burgers, pizza, hot chicken, and other casual options, making it an easy pregame choice.</p>
       <p><strong>Best For:</strong> Nashville Atmosphere</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C-nnUtKuXwt/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🌮 <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h3>
       <p>Bakersfield is a fun option if you're looking for tacos and drinks before an event, working especially well for groups that want something lively without going directly into the Broadway honky-tonks.</p>
@@ -701,10 +703,12 @@ const BLOG_POSTS = [
       <h3>🌆 <a href="https://www.thesouthernnashville.com/" target="_blank" rel="noopener">The Southern Steak &amp; Oyster</a></h3>
       <p>The Southern blends premium steaks with Southern hospitality and seafood, making it a favorite for both visitors and locals.</p>
       <p><strong>Best For:</strong> Downtown, steak and oysters</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dbd95lUMG2-/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🏛️ <a href="https://www.sperrys.com/belle-meade-about/" target="_blank" rel="noopener">Sperry's Restaurant</a></h3>
       <p>Serving Nashville since 1974, Sperry's remains one of the city's most beloved classic steakhouses. If you're looking for old-school charm and consistency, Sperry's is worth visiting.</p>
       <p><strong>Best For:</strong> Nashville tradition, old-school charm</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DcJRDaIxxvU/" data-instgrm-version="14"></blockquote></div>
 
       <h2>Best Steakhouses in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -881,10 +885,12 @@ const BLOG_POSTS = [
       <h3>🎵 <a href="https://www.thestillery.com/" target="_blank" rel="noopener">The Stillery</a></h3>
       <p>The Stillery blends Nashville's live music atmosphere with burgers, pizza, hot chicken, and Southern comfort food, a great option while staying close to the Broadway action.</p>
       <p><strong>Best For:</strong> Live Music & Comfort Food</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C-nnUtKuXwt/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍳 <a href="https://www.thehamptonsocial.com/nashville" target="_blank" rel="noopener">The Hampton Social</a></h3>
       <p>Known for its bright atmosphere and coastal-inspired design, Hampton Social is a popular destination for brunch, birthdays, and girls' trips.</p>
       <p><strong>Best For:</strong> Brunch & Celebrations</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dcbu5Z_p4CT/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🎷 <a href="https://www.skullsrainbowroom.com/" target="_blank" rel="noopener">Skull's Rainbow Room</a></h3>
       <p>Located in historic Printer's Alley, Skull's combines excellent food with one of the city's most unique entertainment experiences, perfect before live jazz or a special night out.</p>
@@ -1901,6 +1907,7 @@ const BLOG_POSTS = [
       <h3>🔥 <a href="https://www.slowburnhotchicken.com/" target="_blank" rel="noopener">Slow Burn Hot Chicken</a></h3>
       <p>Slow Burn has built its reputation around balancing spice with flavor rather than simply trying to make the hottest chicken possible, with multiple heat levels and plenty of Southern sides.</p>
       <p><strong>Best For:</strong> Flavor and Heat</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZazoENmfjT/" data-instgrm-version="14"></blockquote></div>
 
       <h3>💎 <a href="https://mooreschicken.com/" target="_blank" rel="noopener">Moore's Spicy Fried Chicken</a></h3>
       <p>Moore's is far less polished and commercialized than the city's major hot chicken chains, and that's part of the appeal for anyone looking to venture beyond the spots every Nashville tourist already knows.</p>
@@ -2395,6 +2402,7 @@ const BLOG_POSTS = [
       <h3>🐟 <a href="https://www.theoptimistrestaurant.com/nashville" target="_blank" rel="noopener">The Optimist</a></h3>
       <p>The Optimist consistently ranks among Nashville's best date night destinations thanks to its fresh seafood, elegant atmosphere, and exceptional service.</p>
       <p><strong>Best For:</strong> Seafood Lovers</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dcj6sy6nPk4/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🥩 <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak</a></h3>
       <p>Located inside the JW Marriott, Bourbon Steak delivers one of Nashville's premier steakhouse experiences, with incredible steaks, beautiful city views, and outstanding service.</p>
@@ -2866,6 +2874,7 @@ const BLOG_POSTS = [
       <h3>🍳 <a href="https://www.temponashville.com/" target="_blank" rel="noopener">Tempo</a></h3>
       <p>Tempo brings a Texas influence to Nashville and is particularly known for breakfast tacos, coffee, and a casual neighborhood atmosphere, a good alternative to Nashville's usual brunch restaurants.</p>
       <p><strong>Best For:</strong> Breakfast tacos and coffee</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Czl-CGiOjbV/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🌶️ <a href="https://redheadedstrangertacos.com/" target="_blank" rel="noopener">Redheaded Stranger</a></h3>
       <p>Redheaded Stranger brings a Southwestern/New Mexican influence to East Nashville. This isn't necessarily where I'd send someone specifically looking for traditional Mexican street tacos, it's a good choice if you want something creative and different.</p>
