@@ -70,11 +70,11 @@ const PLACES = [
     price: "$$$$",
     cuisine: "Italian",
     badges: ["favorite", "date-night", "best-patio"],
-    about: "Pelato is a Brooklyn-Italian, family-run restaurant in Nashville's Salemtown neighborhood, serving small, sharable plates built around cherished family recipes — handmade pasta, wood-fired dishes, and a lively bar scene, with 2-3 dishes per person recommended.",
+    about: "Pelato is a Brooklyn-Italian, family-run restaurant in Nashville's Germantown neighborhood, serving small, sharable plates built around cherished family recipes — handmade pasta, wood-fired dishes, and a lively bar scene, with 2-3 dishes per person recommended.",
     ate: "Mozzarella Caprese, two orders of the Radiatori Vodka, Chicken Parmigiana, and the Campanelle Shrimp Limone.",
     heroPhoto: "images/reviews/pelato-nashville/order-chicken-parm.jpg",
     photos: [
-      { src: "images/reviews/pelato-nashville/storefront.jpg", alt: "Pelato storefront sign, Salemtown, Nashville" },
+      { src: "images/reviews/pelato-nashville/storefront.jpg", alt: "Pelato storefront sign, Germantown, Nashville" },
       { src: "images/reviews/pelato-nashville/interior.jpg", alt: "Inside Pelato, bar and dining room, Nashville" },
       { src: "images/reviews/pelato-nashville/order-mozzarella.jpg", alt: "Sam's order: Mozzarella Caprese, Pelato" },
       { src: "images/reviews/pelato-nashville/order-radiatori-vodka.jpg", alt: "Sam's order: Radiatori Vodka, Pelato" },

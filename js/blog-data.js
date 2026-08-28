@@ -40,6 +40,153 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-italian-restaurants-nashville",
+    places: ["pelato-nashville", "culaccino-nashville"],
+    title: "Best Italian Restaurants in Nashville (2026)",
+    city: "Nashville, TN",
+    date: "2026-08-27",
+    emoji: "🍝",
+    excerpt:
+      "Looking for the best Italian restaurants in Nashville? Discover pasta, date-night spots and Italian favorites, including restaurants personally reviewed and rated with the Sam Score.",
+    faq: [
+      {
+        question: "What is the best Italian restaurant in Nashville?",
+        answer:
+          "Of the Italian restaurants I've personally reviewed so far, Pelato is currently my highest rated at 9.3/10. I'm continuing to review Nashville Italian restaurants, so this can change as I try more.",
+      },
+      {
+        question: "What's a good Italian restaurant for date night in Nashville?",
+        answer:
+          "Pelato and Culaccino are two places I've personally visited that I'd consider for date night. For a more luxurious experience, Yolan is another option worth considering.",
+      },
+      {
+        question: "Where can I get Italian food near downtown Nashville?",
+        answer:
+          "Culaccino at Nashville Yards is particularly convenient for downtown Nashville. It's also close to Bridgestone Arena and Broadway.",
+      },
+      {
+        question: "What are the best Italian restaurants in Germantown?",
+        answer:
+          "Germantown has several notable Italian and Italian-inspired restaurants, including Pelato, Rolf and Daughters, and City House.",
+      },
+      {
+        question: "Does Nashville have good Italian food?",
+        answer:
+          "Yes. Nashville's food scene goes well beyond hot chicken and barbecue, with everything from casual pizza and pasta restaurants to modern Italian restaurants and high-end dining experiences.",
+      },
+    ],
+    content: `
+      <p>Nashville might be known for hot chicken and barbecue, but the city has quietly built a seriously good Italian food scene. From handmade pasta and traditional Italian dishes to modern restaurants perfect for date night, there are plenty of options when you're craving Italian food in Nashville.</p>
+      <p>I'm working my way through Nashville's restaurants and giving the places I personally visit a Sam Score based on my overall experience. This guide will continue to change as I try more Italian restaurants around the city.</p>
+      <p>If you're looking for the best Italian restaurants in Nashville, here's where I'd start.</p>
+
+      <h2>⭐ <a href="/reviews/pelato-nashville">Pelato</a></h2>
+      <p><strong>Neighborhood:</strong> Germantown</p>
+      <p><strong>Sam Score:</strong> 9.3/10</p>
+      <p><strong>Best For:</strong> Sharing plates, date night, groups</p>
+      <p>Pelato has been one of my favorite meals since starting Eat With Sam K.</p>
+      <p>Instead of the traditional entrée-per-person Italian dinner, Pelato focuses heavily on smaller plates designed for the table. That makes it a great place to go with a few people because you can order several dishes and try a little bit of everything.</p>
+      <p>The food impressed me enough to give Pelato a 9.3 Sam Score, putting it among the highest-rated restaurants I've reviewed so far.</p>
+      <p>If you're looking for Italian food in Nashville and want somewhere that feels a little different from the standard Italian restaurant, Pelato should be high on your list. <a href="/reviews/pelato-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "One of the best overall meals I've had in Nashville since starting Eat With Sam K."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/pelato-nashville">Read my full Pelato review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/pelato-nashville/order-chicken-parm.jpg" alt="Sam's order: Chicken Parmigiana, Pelato" loading="lazy" /></div>
+
+      <h2>🍝 <a href="/reviews/culaccino-nashville">Culaccino</a></h2>
+      <p><strong>Neighborhood:</strong> Nashville Yards</p>
+      <p><strong>Sam Score:</strong> 7.3/10</p>
+      <p><strong>Best For:</strong> Date night, pasta, upscale-casual dinner</p>
+      <p>Culaccino brings modern Italian food to Nashville Yards and is another restaurant I've personally visited.</p>
+      <p>The restaurant has a polished atmosphere without feeling overly formal, making it a good option for a date night, dinner before going downtown, or simply when you're looking for a nicer Italian meal.</p>
+      <p>It's also conveniently located near downtown Nashville, Bridgestone Arena and Broadway, which makes Culaccino particularly useful if you're visiting the city or heading to an event. <a href="/reviews/culaccino-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A strong option when you want Italian food near downtown Nashville in a setting that feels elevated without going completely fine dining."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/culaccino-nashville">Read my full Culaccino review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/culaccino-nashville/order-pizza.jpg" alt="Sam's order: Il Re Di Bologna pizza, Culaccino" loading="lazy" /></div>
+
+      <h2>More Italian Restaurants in Nashville Worth Knowing</h2>
+      <p>I'm still working my way through Nashville's Italian restaurants, so the restaurants below haven't all received an official Sam Score yet.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
+
+      <h3>🍷 <a href="https://www.yolannashville.com/" target="_blank" rel="noopener">Yolan</a></h3>
+      <p>Located inside The Joseph Nashville, Yolan is one of Nashville's higher-end Italian dining experiences.</p>
+      <p>This is the type of restaurant I'd look toward for an anniversary, special occasion or more luxurious date night rather than a casual pasta dinner.</p>
+      <p>📍 <strong>Neighborhood:</strong> Downtown Nashville</p>
+      <p><strong>Best For:</strong> Special occasions and upscale dining</p>
+
+      <h3>🍝 <a href="https://www.rolfanddaughters.com/" target="_blank" rel="noopener">Rolf and Daughters</a></h3>
+      <p>Rolf and Daughters has been one of the better-known names in Nashville's restaurant scene for years.</p>
+      <p>Located in Germantown, the restaurant is particularly known for its pasta and creative approach to Italian-inspired food.</p>
+      <p>📍 <strong>Neighborhood:</strong> Germantown</p>
+      <p><strong>Best For:</strong> Pasta and date night</p>
+
+      <h3>🍕 <a href="https://cityhousenashville.com/" target="_blank" rel="noopener">City House</a></h3>
+      <p>City House combines Italian influences with Southern ingredients, giving it a style that feels distinctly Nashville.</p>
+      <p>It's another long-running Germantown restaurant and a spot I want to eventually put through a full Eat With Sam K review.</p>
+      <p>📍 <strong>Neighborhood:</strong> Germantown</p>
+      <p><strong>Best For:</strong> Italian-inspired food with a Nashville twist</p>
+
+      <h3>🍷 <a href="https://www.motonashville.com/" target="_blank" rel="noopener">Moto</a></h3>
+      <p>Moto is a modern Italian restaurant in The Gulch serving pasta, pizza, steaks and other Italian-inspired dishes.</p>
+      <p>Its location makes it particularly convenient if you're staying around The Gulch or downtown.</p>
+      <p>📍 <strong>Neighborhood:</strong> The Gulch</p>
+      <p><strong>Best For:</strong> Date night and groups</p>
+
+      <h2>Best Italian Restaurants in Nashville by Occasion</h2>
+      <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Pelato — 9.3</td></tr>
+          <tr><td>❤️ Date Night</td><td>Pelato / Culaccino</td></tr>
+          <tr><td>💎 Upscale Italian</td><td>Yolan</td></tr>
+          <tr><td>🍝 Pasta</td><td>Rolf and Daughters</td></tr>
+          <tr><td>🍕 Casual Italian</td><td>City House</td></tr>
+          <tr><td>📍 Near Downtown</td><td>Culaccino</td></tr>
+          <tr><td>🎉 Group Dinner</td><td>Pelato / Moto</td></tr>
+          <tr><td>🌃 Special Occasion</td><td>Yolan</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Is My Favorite Italian Restaurant in Nashville?</h2>
+      <p>Right now, Pelato holds the top spot among the Italian restaurants I've personally reviewed, with a 9.3 Sam Score.</p>
+      <p>That doesn't mean the ranking is permanent.</p>
+      <p>I'm continuing to visit Italian restaurants throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
+      <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What is the best Italian restaurant in Nashville?</strong></p>
+      <p>Of the Italian restaurants I've personally reviewed so far, Pelato is currently my highest rated at 9.3/10. I'm continuing to review Nashville Italian restaurants, so this can change as I try more.</p>
+      <p><strong>What's a good Italian restaurant for date night in Nashville?</strong></p>
+      <p>Pelato and Culaccino are two places I've personally visited that I'd consider for date night. For a more luxurious experience, Yolan is another option worth considering.</p>
+      <p><strong>Where can I get Italian food near downtown Nashville?</strong></p>
+      <p>Culaccino at Nashville Yards is particularly convenient for downtown Nashville. It's also close to Bridgestone Arena and Broadway.</p>
+      <p><strong>What are the best Italian restaurants in Germantown?</strong></p>
+      <p>Germantown has several notable Italian and Italian-inspired restaurants, including Pelato, Rolf and Daughters, and City House.</p>
+      <p><strong>Does Nashville have good Italian food?</strong></p>
+      <p>Yes. Nashville's food scene goes well beyond hot chicken and barbecue, with everything from casual pizza and pasta restaurants to modern Italian restaurants and high-end dining experiences.</p>
+
+      <h2>The Sam Score</h2>
+      <p>Every restaurant that receives a Sam Score has been personally visited and reviewed by me.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+      <p>As I visit more Italian restaurants around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
+      <p><em>Last Updated: August 2026</em></p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-steakhouses-nashville/">Best Steakhouses in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-late-night-food-nashville",
     places: ["baam-burger-nashville"],
     title: "Best Late-Night Food Spots in Nashville (2026)",
@@ -2806,7 +2953,7 @@ const BLOG_POSTS = [
 
       <h2>12. <a href="/reviews/pelato-nashville">Pelato</a> ⭐</h2>
       <p><strong>Best For:</strong> Brooklyn-Italian Sharable Plates</p>
-      <p>Pelato is a family-run, Brooklyn-Italian spot in Salemtown, built around small, sharable plates like handmade pasta and fresh mozzarella, with a lively bar scene that makes it one of my favorite date night picks. <a href="/reviews/pelato-nashville">Read Sam's full review →</a></p>
+      <p>Pelato is a family-run, Brooklyn-Italian spot in Germantown, built around small, sharable plates like handmade pasta and fresh mozzarella, with a lively bar scene that makes it one of my favorite date night picks. <a href="/reviews/pelato-nashville">Read Sam's full review →</a></p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/pelato-nashville">Read my full Pelato review →</a></p>
       <div class="own-photo"><img src="/images/reviews/pelato-nashville/order-chicken-parm.jpg" alt="Sam's order: Chicken Parmigiana, Pelato" loading="lazy" /></div>

@@ -7,6 +7,18 @@
         {
           "type": "query",
           "key": "id",
+          "value": "best-italian-restaurants-nashville"
+        }
+      ],
+      "destination": "/guides/best-italian-restaurants-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
           "value": "best-late-night-food-nashville"
         }
       ],
