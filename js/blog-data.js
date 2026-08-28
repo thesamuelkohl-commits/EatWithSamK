@@ -265,6 +265,7 @@ const BLOG_POSTS = [
       <h3>🍽️ <a href="https://earls.ca/locations/earls-nashville-yards/" target="_blank" rel="noopener">Earls Kitchen + Bar</a></h3>
       <p>Earls Kitchen + Bar is a polished, upscale-casual chain at Nashville Yards, with a menu that ranges from sushi and steaks to salads and handhelds. Its kitchen stays open later than a lot of nearby restaurants, up to 1-2 a.m. Wednesday through Saturday.</p>
       <p><strong>Best For:</strong> A bigger late-night menu</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DcjKpgtvS6L/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍟 <a href="https://mothersruinnashville.com/" target="_blank" rel="noopener">Mother's Ruin</a></h3>
       <p>Mother's Ruin in Germantown has become one of Nashville's recognizable destinations for food and drinks late into the night, burgers, fries, cocktails, and other comfort food.</p>
@@ -659,6 +660,7 @@ const BLOG_POSTS = [
       <h3>🥂 <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak by Michael Mina</a></h3>
       <p>Located inside the JW Marriott, Bourbon Steak delivers an upscale dining experience with premium cuts, incredible views, and outstanding service.</p>
       <p><strong>Best For:</strong> Luxury dining and special occasions</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Db4Qe6_JFNL/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🔥 <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h3>
       <p>Kayne Prime has become one of Nashville's signature modern steakhouses thanks to creative sides, premium beef, and an impressive cocktail program.</p>
@@ -689,6 +691,7 @@ const BLOG_POSTS = [
       <h3>🦞 <a href="https://www.eddiev.com/locations/tn/nashville/nashville/8529" target="_blank" rel="noopener">Eddie V's Prime Seafood</a></h3>
       <p>If your group wants both exceptional steak and fresh seafood, Eddie V's is one of the best choices in Nashville.</p>
       <p><strong>Best For:</strong> Steak and seafood, surf and turf</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DcZldFsCcHR/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🌆 <a href="https://www.thesouthernnashville.com/" target="_blank" rel="noopener">The Southern Steak &amp; Oyster</a></h3>
       <p>The Southern blends premium steaks with Southern hospitality and seafood, making it a favorite for both visitors and locals.</p>
@@ -1875,14 +1878,17 @@ const BLOG_POSTS = [
       <h3>🥪 <a href="https://www.braveidiot.com/" target="_blank" rel="noopener">Brave Idiot</a></h3>
       <p>Brave Idiot has developed a loyal following in Nashville for massive, creative hot chicken sandwiches. It's a great option if you want serious flavor and loaded toppings along with your heat.</p>
       <p><strong>Best For:</strong> Hot Chicken Sandwiches</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DceS2qGxnEb/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🌡️ <a href="https://www.400degreeshotchicken.com/" target="_blank" rel="noopener">400 Degrees</a></h3>
       <p>400 Degrees is another longtime Nashville hot chicken destination with a loyal local following and heat levels ranging from mild to seriously spicy. If you think most hot chicken isn't actually hot enough, this is the one to test.</p>
       <p><strong>Best For:</strong> Serious Heat</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DajeHcQgSqo/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🐟 <a href="https://www.boltonsfamous.com/" target="_blank" rel="noopener">Bolton's Spicy Chicken & Fish</a></h3>
       <p>Bolton's is another important name in Nashville's hot chicken history, maintaining a straightforward, old-school approach with both spicy chicken and fish on the menu. Don't underestimate the heat here.</p>
       <p><strong>Best For:</strong> Old-School Nashville</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CDMbU1yhqqO/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🔥 <a href="https://www.slowburnhotchicken.com/" target="_blank" rel="noopener">Slow Burn Hot Chicken</a></h3>
       <p>Slow Burn has built its reputation around balancing spice with flavor rather than simply trying to make the hottest chicken possible, with multiple heat levels and plenty of Southern sides.</p>
@@ -2052,6 +2058,7 @@ const BLOG_POSTS = [
       <h3>🇮🇹 <a href="https://desanopizza.com/desanonashville" target="_blank" rel="noopener">DeSano Pizzeria Napoletana</a></h3>
       <p>If you're looking for authentic Italian pizza, DeSano is one of the closest experiences you'll find in Nashville. Imported ingredients and wood-fired ovens produce soft, flavorful pizzas with beautifully blistered crusts.</p>
       <p><strong>Best For:</strong> Authentic Neapolitan pizza</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CdWw3-UPr_u/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🔥 <a href="https://www.nickysnashville.com/" target="_blank" rel="noopener">Nicky's Coal Fired</a></h3>
       <p>Coal-fired ovens give Nicky's pizzas a unique texture and smoky flavor. Their handcrafted pizzas pair perfectly with fresh pasta and Italian-inspired appetizers.</p>
@@ -2060,6 +2067,7 @@ const BLOG_POSTS = [
       <h3>🟥 <a href="https://www.emmysquaredpizza.com/" target="_blank" rel="noopener">Emmy Squared Pizza</a></h3>
       <p>Known for its Detroit-style pizza, Emmy Squared serves thick, crispy, cheesy square slices loaded with premium toppings.</p>
       <p><strong>Best For:</strong> Detroit-style pizza</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DcTykv6zUAM/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🇮🇹 <a href="https://bellanapolipizzeria.com/" target="_blank" rel="noopener">Bella Napoli Pizzeria</a></h3>
       <p>Bella Napoli has become a local favorite for authentic Italian-style pizza served in a cozy neighborhood atmosphere.</p>
@@ -2211,10 +2219,12 @@ const BLOG_POSTS = [
       <h3>🎲 <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></h3>
       <p>Bad Luck Burger Club has built a cult following thanks to its perfectly crisp smash burgers and simple menu. Every burger is made fresh and packed with flavor.</p>
       <p><strong>Best For:</strong> Smash Burgers</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db8MetzpVAJ/" data-instgrm-version="14"></blockquote></div>
 
       <h3>💭 <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></h3>
       <p>Dreamburger combines classic smash burger techniques with premium ingredients and unique flavor combinations. Their burgers have become one of Nashville's hottest food destinations.</p>
       <p><strong>Best For:</strong> Creative Burgers</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DaNkUQNOD-A/" data-instgrm-version="14"></blockquote></div>
 
       <h3>💊 <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></h3>
       <p>Known for its house-ground beef, locally sourced ingredients, and huge beer garden, Pharmacy has remained a Nashville favorite for years.</p>
@@ -2377,6 +2387,7 @@ const BLOG_POSTS = [
       <h3>🥩 <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak</a></h3>
       <p>Located inside the JW Marriott, Bourbon Steak delivers one of Nashville's premier steakhouse experiences, with incredible steaks, beautiful city views, and outstanding service.</p>
       <p><strong>Best For:</strong> Luxury Date Nights</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Db4Qe6_JFNL/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🎶 <a href="https://thetwelvethirtyclub.com/" target="_blank" rel="noopener">The Twelve Thirty Club</a></h3>
       <p>Broadway isn't just for tourists. The Twelve Thirty Club offers elevated dining combined with live music and rooftop cocktails, making it ideal for couples wanting dinner before a night out.</p>
@@ -2409,6 +2420,7 @@ const BLOG_POSTS = [
       <h3>🌤️ <a href="https://www.adelesnashville.com/" target="_blank" rel="noopener">Adele's</a></h3>
       <p>Adele's features an inviting atmosphere with Southern-inspired cuisine. Weekend brunch is also among the city's best if you're planning a daytime date.</p>
       <p><strong>Best For:</strong> Southern-Inspired Dinner or Brunch</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DcCCyHGkmFR/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🇪🇸 <a href="https://peninsulanashville.com/" target="_blank" rel="noopener">Peninsula</a></h3>
       <p>For adventurous couples, Peninsula offers Spanish-inspired tasting menus that are unlike anything else in Nashville.</p>
