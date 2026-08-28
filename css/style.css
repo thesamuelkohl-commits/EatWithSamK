@@ -742,7 +742,7 @@ a { color: var(--red); }
   position: absolute;
   bottom: calc(100% + 9px);
   left: 50%;
-  transform: translateX(-50%) translateY(4px);
+  transform: translateX(calc(-50% + var(--tt-shift, 0px))) translateY(4px);
   background: var(--ink);
   color: #fff;
   font-size: 0.78rem;
@@ -752,7 +752,7 @@ a { color: var(--red); }
   border-radius: 10px;
   white-space: normal;
   width: max-content;
-  max-width: 220px;
+  max-width: min(220px, calc(100vw - 24px));
   text-align: center;
   box-shadow: var(--shadow-lg);
   opacity: 0;
@@ -775,10 +775,14 @@ a { color: var(--red); }
   z-index: 20;
 }
 
-.has-tooltip:hover::after, .has-tooltip:focus-visible::after,
+.has-tooltip:hover::after, .has-tooltip:focus-visible::after {
+  opacity: 1;
+  transform: translateX(calc(-50% + var(--tt-shift, 0px))) translateY(0);
+}
+
 .has-tooltip:hover::before, .has-tooltip:focus-visible::before {
   opacity: 1;
-  transform: translateX(-50%) translateY(0);
+  transform: translateX(-50%);
 }
 
 .price-tag {

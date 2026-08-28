@@ -526,3 +526,36 @@ if (siteHeaderEl) {
     { passive: true }
   );
 }
+
+// Keep hover tooltips (price tags, badges) from getting clipped off-screen
+// near the edge of the viewport. Delegated so it also covers cards rendered
+// dynamically after page load (e.g. placeCardHtml()).
+function positionTooltip(el) {
+  if (!el || !el.classList || !el.classList.contains("has-tooltip")) return;
+  const rect = el.getBoundingClientRect();
+  const tooltipWidth = Math.min(220, window.innerWidth - 24);
+  const margin = 12;
+  const centerX = rect.left + rect.width / 2;
+  const halfWidth = tooltipWidth / 2;
+  let shift = 0;
+  if (centerX - halfWidth < margin) {
+    shift = margin - (centerX - halfWidth);
+  } else if (centerX + halfWidth > window.innerWidth - margin) {
+    shift = window.innerWidth - margin - (centerX + halfWidth);
+  }
+  el.style.setProperty("--tt-shift", `${shift}px`);
+}
+
+document.addEventListener(
+  "mouseover",
+  (e) => positionTooltip(e.target.closest && e.target.closest(".has-tooltip")),
+  { passive: true }
+);
+document.addEventListener("focusin", (e) =>
+  positionTooltip(e.target.closest && e.target.closest(".has-tooltip"))
+);
+window.addEventListener(
+  "resize",
+  () => document.querySelectorAll(".has-tooltip:hover").forEach(positionTooltip),
+  { passive: true }
+);
