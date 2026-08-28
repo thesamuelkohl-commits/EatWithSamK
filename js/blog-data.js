@@ -294,6 +294,7 @@ const BLOG_POSTS = [
       <h3>🎸 <a href="https://www.jbjsnash.com/" target="_blank" rel="noopener">JBJ's Nashville</a></h3>
       <p>JBJ's gives you another option directly on Broadway when you're already downtown, with a late-night menu focused on straightforward food that makes sense after a night out.</p>
       <p><strong>Best For:</strong> Broadway late-night food</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DbV-Mz7u42w/" data-instgrm-version="14"></blockquote></div>
 
       <h2>Best Late-Night Food in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -656,6 +657,7 @@ const BLOG_POSTS = [
       <p>Jeff Ruby's combines luxury dining, exceptional service, and some of the finest USDA Prime steaks available in Nashville.</p>
       <p>Whether you're celebrating an anniversary or entertaining clients, it's one of the city's premier dining destinations.</p>
       <p><strong>Best For:</strong> Overall steakhouse experience</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Db_jAKjEqIC/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🥂 <a href="https://www.bourbonsteak.com/location/nashville/" target="_blank" rel="noopener">Bourbon Steak by Michael Mina</a></h3>
       <p>Located inside the JW Marriott, Bourbon Steak delivers an upscale dining experience with premium cuts, incredible views, and outstanding service.</p>
@@ -665,6 +667,7 @@ const BLOG_POSTS = [
       <h3>🔥 <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h3>
       <p>Kayne Prime has become one of Nashville's signature modern steakhouses thanks to creative sides, premium beef, and an impressive cocktail program.</p>
       <p><strong>Best For:</strong> Modern steakhouse, worth the splurge</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbmVYYVDPx6/" data-instgrm-version="14"></blockquote></div>
 
       <h3>✨ <a href="https://www.harpersnashville.com/" target="_blank" rel="noopener">Harper's</a></h3>
       <p>Harper's has quickly become one of Nashville's hottest reservations by combining premium steaks with an elegant atmosphere and elevated menu.</p>
@@ -1483,6 +1486,7 @@ const BLOG_POSTS = [
       <h3>🍔 <a href="https://fatmosburgers.com/" target="_blank" rel="noopener">Fat Mo's</a></h3>
       <p>Fat Mo's has been serving massive burgers for years. If you're hungry, it's hard to find a better value.</p>
       <p><strong>Best For:</strong> Giant Burgers</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C0X_pVbOjxx/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🌮 <a href="https://oscarstacoshop.com/" target="_blank" rel="noopener">Oscar's Taco Shop</a></h3>
       <p>Oscar's offers generous portions, fresh ingredients, and affordable prices across its menu.</p>
@@ -2404,6 +2408,7 @@ const BLOG_POSTS = [
       <h3>🥂 <a href="https://www.kayneprimenashville.com/" target="_blank" rel="noopener">Kayne Prime</a></h3>
       <p>Arguably Nashville's most famous steakhouse, Kayne Prime combines modern design with premium steaks and creative appetizers.</p>
       <p><strong>Best For:</strong> Celebrations & Anniversaries</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbmVYYVDPx6/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍕 <a href="https://www.goodasfolk.com/" target="_blank" rel="noopener">Folk</a></h3>
       <p>Simple, modern, and consistently excellent, Folk is known for wood-fired pizzas and seasonal dishes. Ideal for couples wanting a more relaxed but still memorable evening.</p>
@@ -2847,6 +2852,7 @@ const BLOG_POSTS = [
       <h3>🌮 <a href="https://www.instagram.com/tacosymariscoseltapatio/" target="_blank" rel="noopener">El Tapatio</a></h3>
       <p>El Tapatio is another Nashville option for straightforward Mexican food and tacos without the trendy restaurant atmosphere, a good reminder that some of the city's most interesting food isn't necessarily located around Broadway, The Gulch, or 12 South.</p>
       <p><strong>Best For:</strong> No-frills Mexican food</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C6xse20OuVU/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍳 <a href="https://www.temponashville.com/" target="_blank" rel="noopener">Tempo</a></h3>
       <p>Tempo brings a Texas influence to Nashville and is particularly known for breakfast tacos, coffee, and a casual neighborhood atmosphere, a good alternative to Nashville's usual brunch restaurants.</p>
@@ -3085,6 +3091,7 @@ const BLOG_POSTS = [
       <h3>🥟 <a href="https://eathawkers.com/locations/nashville/" target="_blank" rel="noopener">Hawkers Asian Street Food</a></h3>
       <p>If everyone else is recommending burgers, BBQ, and hot chicken, Hawkers gives you something completely different, especially useful for groups that want to share several things.</p>
       <p><strong>Best For:</strong> Something Different</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DchXEfNuEjo/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🔥 <a href="https://www.martinsbbqjoint.com/downtown" target="_blank" rel="noopener">Martin's Bar-B-Que Joint</a></h3>
       <p>Martin's downtown location is convenient if you're starting your day around Broadway before walking toward Nissan Stadium, specializing in West Tennessee-style whole-hog barbecue.</p>
