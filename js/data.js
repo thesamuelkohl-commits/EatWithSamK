@@ -126,7 +126,7 @@ const PLACES = [
     phone: "(629) 702-3896",
     parking: "Paid parking nearby",
     website: "https://www.culaccinotn.com/",
-    date: "2026-08-22",
+    date: "2026-08-15",
     price: "$$$",
     cuisine: "Italian",
     about: "Culaccino is an upscale Italian restaurant and bar in Nashville Yards, the second location of a Franklin-based concept from chef Frank Pullara, with scratch-made pasta, wood-fired pizzas, and a lively dining room inside The Emory tower.",
