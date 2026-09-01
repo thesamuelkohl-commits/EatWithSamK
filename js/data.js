@@ -94,7 +94,7 @@ const PLACES = [
     phone: "(615) 953-0012",
     parking: "Paid and free parking nearby",
     website: "https://www.pelatorestaurant.com/",
-    date: "2026-08-23",
+    date: "2026-08-20",
     price: "$$$$",
     cuisine: "Italian",
     badges: ["favorite", "date-night", "best-patio"],
