@@ -434,7 +434,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="../js/data.js?v=15"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=31"></script>
+  <script src="../js/common.js?v=32"></script>
   <script src="../js/auth.js?v=3"></script>
   <script src="../js/pwa.js?v=1"></script>
   <script>
@@ -611,7 +611,7 @@ function renderGuidePage(post) {
   <script src="/js/data.js?v=15"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=31"></script>
+  <script src="/js/common.js?v=32"></script>
   <script src="/js/auth.js?v=3"></script>
   <script src="/js/pwa.js?v=1"></script>
 </body>

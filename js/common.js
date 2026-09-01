@@ -182,11 +182,7 @@ function footerHtml(prefix) {
         <div class="footer-col">
           <h4>Stay Updated</h4>
           <p>Get new reviews and city guides sent to your inbox, no spam, just good food.</p>
-          <form class="newsletter-form" data-newsletter>
-            <input type="email" placeholder="Your email" required aria-label="Email address" />
-            <button type="submit" class="btn btn-primary">Subscribe</button>
-          </form>
-          <p class="newsletter-note" hidden></p>
+          <div class="newsletter-embed" data-newsletter-embed></div>
         </div>
       </div>
       <div class="footer-bottom">
@@ -216,18 +212,15 @@ document.querySelectorAll("[data-tagline]").forEach((el) => (el.textContent = SI
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-// Newsletter form isn't wired to a real email service yet — this just gives
-// honest, immediate feedback instead of silently discarding what someone types.
-document.querySelectorAll("[data-newsletter]").forEach((form) => {
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const note = form.parentElement.querySelector(".newsletter-note");
-    if (note) {
-      note.textContent = "Newsletter signup is launching soon, follow on Instagram to stay in the loop for now!";
-      note.hidden = false;
-    }
-    form.reset();
-  });
+// Beehiiv's embed script reads its own data-beehiiv-form attribute via
+// document.currentScript, so it has to be a real appended <script> element,
+// not markup set through innerHTML (which never executes embedded scripts).
+document.querySelectorAll("[data-newsletter-embed]").forEach((container) => {
+  const script = document.createElement("script");
+  script.async = true;
+  script.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
+  script.dataset.beehiivForm = "0a8371cb-2d20-496e-ad87-a73d26ec1847";
+  container.appendChild(script);
 });
 
 /* ---------- Shared place helpers (used by app.js and reviews.js) ---------- */
