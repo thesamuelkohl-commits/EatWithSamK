@@ -57,6 +57,35 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "biscuit-love-nashville",
+    name: "Biscuit Love",
+    city: "Nashville, TN",
+    lat: 36.153867,
+    lng: -86.784358,
+    address: "316 11th Ave S, Nashville, TN 37203",
+    phone: "(615) 490-9584",
+    parking: "Paid parking",
+    website: "https://biscuitlove.com/",
+    date: "2026-08-22",
+    price: "$$",
+    cuisine: "Brunch",
+    badges: ["brunch-favorite", "best-patio"],
+    about: "Biscuit Love is one of Nashville's most iconic brunch spots, a Gulch mainstay known for scratch-made biscuits and Southern breakfast classics, with a line out the door most mornings.",
+    ate: "The B-Roll, the Egg Plate, and the Hungry Hash Bowl.",
+    heroPhoto: "images/reviews/biscuit-love-nashville/order-broll.jpg",
+    photos: [
+      { src: "images/reviews/biscuit-love-nashville/storefront.jpg", alt: "Biscuit Love storefront and line, The Gulch, Nashville" },
+      { src: "images/reviews/biscuit-love-nashville/interior.jpg", alt: "Inside Biscuit Love, packed dining room, Nashville" },
+      { src: "images/reviews/biscuit-love-nashville/order-broll.jpg", alt: "Sam's order: The B-Roll, Biscuit Love" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Good environment", "Great area", "Quick service", "Great patio"],
+    cons: ["Busy", "Can be a wait to get in"],
+    rating: 7.4,
+    video: "https://www.instagram.com/reel/DccNKhCNf4u/",
+    tags: ["Brunch", "The Gulch"],
+  },
+  {
     id: "chilangos-tacos-nashville",
     name: "Chilangos Tacos",
     city: "Nashville, TN",
@@ -82,6 +111,7 @@ const PLACES = [
     pros: ["Cool atmosphere", "Quick service", "Plenty of seating"],
     cons: ["Can be crowded", "Paid parking"],
     rating: 8.7,
+    video: "https://www.instagram.com/reel/DcmgaesR3mK/",
     tags: ["Tacos", "Assembly Food Hall"],
   },
   {
@@ -111,7 +141,7 @@ const PLACES = [
     ],
     // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
     pros: ["Great environment", "Good drinks"],
-    cons: ["Busy — recommend a reservation"],
+    cons: ["Busy, recommend a reservation"],
     rating: 9.3,
     video: "https://www.instagram.com/reel/DcZp6XwN1gh/",
     tags: ["Italian", "Fun Environment"],

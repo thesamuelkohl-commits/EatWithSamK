@@ -1,6 +1,58 @@
 {
-  "generatedAt": "2026-09-01T15:28:15.334Z",
+  "generatedAt": "2026-09-01T15:40:42.457Z",
   "places": [
+    {
+      "id": "biscuit-love-nashville",
+      "name": "Biscuit Love",
+      "city": "Nashville, TN",
+      "lat": 36.153867,
+      "lng": -86.784358,
+      "address": "316 11th Ave S, Nashville, TN 37203",
+      "phone": "(615) 490-9584",
+      "parking": "Paid parking",
+      "website": "https://biscuitlove.com/",
+      "date": "2026-08-22",
+      "price": "$$",
+      "cuisine": "Brunch",
+      "badges": [
+        "brunch-favorite",
+        "best-patio"
+      ],
+      "about": "Biscuit Love is one of Nashville's most iconic brunch spots, a Gulch mainstay known for scratch-made biscuits and Southern breakfast classics, with a line out the door most mornings.",
+      "ate": "The B-Roll, the Egg Plate, and the Hungry Hash Bowl.",
+      "heroPhoto": "images/reviews/biscuit-love-nashville/order-broll.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/biscuit-love-nashville/storefront.jpg",
+          "alt": "Biscuit Love storefront and line, The Gulch, Nashville"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/biscuit-love-nashville/interior.jpg",
+          "alt": "Inside Biscuit Love, packed dining room, Nashville"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/biscuit-love-nashville/order-broll.jpg",
+          "alt": "Sam's order: The B-Roll, Biscuit Love"
+        }
+      ],
+      "pros": [
+        "Good environment",
+        "Great area",
+        "Quick service",
+        "Great patio"
+      ],
+      "cons": [
+        "Busy",
+        "Can be a wait to get in"
+      ],
+      "rating": 7.4,
+      "video": "https://www.instagram.com/reel/DccNKhCNf4u/",
+      "tags": [
+        "Brunch",
+        "The Gulch"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/biscuit-love-nashville"
+    },
     {
       "id": "chilangos-tacos-nashville",
       "name": "Chilangos Tacos",
@@ -45,6 +97,7 @@
         "Paid parking"
       ],
       "rating": 8.7,
+      "video": "https://www.instagram.com/reel/DcmgaesR3mK/",
       "tags": [
         "Tacos",
         "Assembly Food Hall"
@@ -103,7 +156,7 @@
         "Good drinks"
       ],
       "cons": [
-        "Busy — recommend a reservation"
+        "Busy, recommend a reservation"
       ],
       "rating": 9.3,
       "video": "https://www.instagram.com/reel/DcZp6XwN1gh/",

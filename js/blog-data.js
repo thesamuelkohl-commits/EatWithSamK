@@ -1482,22 +1482,23 @@ const BLOG_POSTS = [
   },
   {
     id: "best-brunch-nashville",
+    places: ["biscuit-love-nashville"],
     title: "Best Brunch in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-03",
     emoji: "🍳",
     excerpt:
-      "From Milk & Honey's classic Nashville brunch to The Hampton Social's coastal rooftop scene, the best brunch in Nashville for 2026, ranked with no paid placements.",
+      "From my own review of Biscuit Love to Milk & Honey's classic Nashville brunch and The Hampton Social's coastal rooftop scene, the best brunch in Nashville for 2026, ranked with no paid placements.",
     faq: [
       {
         question: "What is the best brunch in Nashville?",
         answer:
-          "Milk & Honey, The Butter Milk Ranch, Biscuit Love, Snooze, and Adele's are consistently among Nashville's most popular brunch destinations. As I continue reviewing more restaurants, I'll update this guide with my own Eat With Sam K rankings.",
+          "Of the brunch spots Sam has personally reviewed so far, Biscuit Love is his highest rated at 7.4/10. Milk & Honey, The Butter Milk Ranch, Snooze, and Adele's are also consistently among Nashville's most popular brunch destinations, and I'll keep adding my own rankings as I visit more of them.",
       },
       {
         question: "Where should tourists go for brunch in Nashville?",
         answer:
-          "Biscuit Love and Milk & Honey are two of the city's most iconic brunch spots and are great choices for first-time visitors.",
+          "Biscuit Love and Milk & Honey are two of the city's most iconic brunch spots and are great choices for first-time visitors. I've personally reviewed Biscuit Love, so you can see exactly what I ordered and how I rated it.",
       },
       {
         question: "Which Nashville brunch has the shortest wait?",
@@ -1517,10 +1518,21 @@ const BLOG_POSTS = [
     content: `
       <p>Searching for the best brunch in Nashville? Whether you're craving chicken and waffles, avocado toast, giant cinnamon rolls, bottomless mimosas, or the perfect breakfast burrito, this guide highlights some of the best brunch spots Music City has to offer.</p>
       <p>Brunch has become one of Nashville's biggest dining traditions. From neighborhood cafés and trendy patios to upscale brunch destinations, there's no shortage of incredible places to spend a Saturday or Sunday morning.</p>
-      <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept paid reviews or exchange positive ratings for free food. I haven't personally reviewed a Nashville brunch spot yet, so nothing below has a Sam Score. As soon as I do, it'll move to the top of this guide.</p>
+      <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept paid reviews or exchange positive ratings for free food. I'm working my way through Nashville's brunch scene and giving the places I personally visit a Sam Score based on my overall experience.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
 
-      <h2>Nashville Brunch Spots Worth Knowing</h2>
+      <h2>⭐ <a href="/reviews/biscuit-love-nashville">Biscuit Love</a></h2>
+      <p><strong>Neighborhood:</strong> The Gulch</p>
+      <p><strong>Sam Score:</strong> 7.4/10</p>
+      <p><strong>Best For:</strong> First-time Nashville visitors</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Biscuit Love is one of Nashville's most recognizable brunch spots, a Gulch mainstay known for scratch-made biscuits and Southern breakfast classics.</p>
+      <p>Good environment and a great patio make the wait worth it, though it can get busy and there's often a line to get in. <a href="/reviews/biscuit-love-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A great area and a great patio, just budget extra time for the wait."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/biscuit-love-nashville">Read my full Biscuit Love review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/biscuit-love-nashville/order-broll.jpg" alt="Sam's order: The B-Roll, Biscuit Love" loading="lazy" /></div>
+
+      <h2>More Nashville Brunch Worth Knowing</h2>
       <p>I'm still working my way through Nashville's brunch scene, so the restaurants below haven't received an official Sam Score yet.</p>
       <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
 
@@ -1533,11 +1545,6 @@ const BLOG_POSTS = [
       <p>Known for generous portions and Southern-inspired dishes, The Butter Milk Ranch has become a favorite among locals looking for hearty brunch food. The biscuits alone are worth the visit.</p>
       <p><strong>Best For:</strong> Southern Comfort Brunch</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C75TLA4OF_y/" data-instgrm-version="14"></blockquote></div>
-
-      <h3>🥐 <a href="https://www.biscuitlove.com/" target="_blank" rel="noopener">Biscuit Love</a></h3>
-      <p>Biscuit Love is one of Nashville's most recognizable brunch spots. While there can be a wait, the homemade biscuits and Southern breakfast classics continue bringing people back.</p>
-      <p><strong>Best For:</strong> First-Time Nashville Visitors</p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/CrLxyWagYQJ/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🥞 <a href="https://www.snoozeeatery.com/restaurant/tennessee/east-nashville" target="_blank" rel="noopener">Snooze, an A.M. Eatery</a></h3>
       <p>Snooze offers one of Nashville's most creative brunch menus, featuring unique pancakes, breakfast tacos, Benedicts, and cocktails, perfect for groups looking for plenty of variety.</p>
@@ -1579,6 +1586,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Biscuit Love, 7.4</td></tr>
           <tr><td>🥇 First-Time Visitors</td><td>Biscuit Love / Milk & Honey</td></tr>
           <tr><td>🥂 A Brunch Date</td><td>Milk & Honey / Adele's / Liberty Common</td></tr>
           <tr><td>👯 Groups</td><td>The Hampton Social / Snooze / Another Broken Egg</td></tr>
@@ -1590,9 +1598,9 @@ const BLOG_POSTS = [
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What is the best brunch in Nashville?</strong></p>
-      <p>Milk & Honey, The Butter Milk Ranch, Biscuit Love, Snooze, and Adele's are consistently among Nashville's most popular brunch destinations. As I continue reviewing more restaurants, I'll update this guide with my own Eat With Sam K rankings.</p>
+      <p>Of the brunch spots Sam has personally reviewed so far, Biscuit Love is his highest rated at 7.4/10. Milk & Honey, The Butter Milk Ranch, Snooze, and Adele's are also consistently among Nashville's most popular brunch destinations, and I'll keep adding my own rankings as I visit more of them.</p>
       <p><strong>Where should tourists go for brunch in Nashville?</strong></p>
-      <p>Biscuit Love and Milk & Honey are two of the city's most iconic brunch spots and are great choices for first-time visitors.</p>
+      <p>Biscuit Love and Milk & Honey are two of the city's most iconic brunch spots and are great choices for first-time visitors. I've personally reviewed Biscuit Love, so you can see exactly what I ordered and how I rated it.</p>
       <p><strong>Which Nashville brunch has the shortest wait?</strong></p>
       <p>Neighborhood restaurants like Fenwick's 300 or Hearts often have shorter waits than Nashville's biggest brunch destinations.</p>
       <p><strong>What is the best brunch for a date?</strong></p>
@@ -1603,7 +1611,7 @@ const BLOG_POSTS = [
       <h2>The Sam Score</h2>
       <p>Every brunch spot that receives a Sam Score has been personally visited and reviewed by me, food quality, coffee and drinks, value, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
-      <p>As I visit more brunch spots around Nashville, I'll update this guide with my first Sam Scores, photos, and rankings.</p>
+      <p>As I visit more brunch spots around Nashville, I'll update this guide with more Sam Scores, photos, and rankings.</p>
       <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
@@ -2606,7 +2614,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Chilangos Tacos — 8.7</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Chilangos Tacos, 8.7</td></tr>
           <tr><td>📍 Quick, Downtown</td><td>Chilangos Tacos</td></tr>
           <tr><td>🍳 Breakfast Tacos</td><td>Ladybird Taco / Tempo</td></tr>
           <tr><td>🌮 Street Tacos</td><td>Taqueria San Luis</td></tr>
