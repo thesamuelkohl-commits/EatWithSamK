@@ -2565,7 +2565,6 @@ const BLOG_POSTS = [
       <h3>🌽 <a href="https://www.maizdelavida.com/" target="_blank" rel="noopener">Maiz de la Vida</a></h3>
       <p>Maiz de la Vida has become one of Nashville's most talked-about destinations for Mexican food, with a focus on fresh masa and handmade tortillas. Rather than treating the tortilla as an afterthought, it's a major part of the experience here.</p>
       <p><strong>Best For:</strong> Handmade tortillas, authentic Mexican flavor</p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DI4OZ-oOZoN/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🌮 <a href="https://www.instagram.com/carniceriaytaqueriasanluis/" target="_blank" rel="noopener">Taqueria San Luis</a></h3>
       <p>If you're searching for a more traditional taco experience without the upscale atmosphere, Taqueria San Luis is one to know. Grab a few different tacos so you can try multiple meats and figure out your favorite.</p>
@@ -2582,17 +2581,14 @@ const BLOG_POSTS = [
       <h3>🌮 <a href="https://www.instagram.com/tacosymariscoseltapatio/" target="_blank" rel="noopener">El Tapatio</a></h3>
       <p>El Tapatio is another Nashville option for straightforward Mexican food and tacos without the trendy restaurant atmosphere, a good reminder that some of the city's most interesting food isn't necessarily located around Broadway, The Gulch, or 12 South.</p>
       <p><strong>Best For:</strong> No-frills Mexican food</p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C6xse20OuVU/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍳 <a href="https://www.temponashville.com/" target="_blank" rel="noopener">Tempo</a></h3>
       <p>Tempo brings a Texas influence to Nashville and is particularly known for breakfast tacos, coffee, and a casual neighborhood atmosphere, a good alternative to Nashville's usual brunch restaurants.</p>
       <p><strong>Best For:</strong> Breakfast tacos and coffee</p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Czl-CGiOjbV/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🌶️ <a href="https://redheadedstrangertacos.com/" target="_blank" rel="noopener">Redheaded Stranger</a></h3>
       <p>Redheaded Stranger brings a Southwestern/New Mexican influence to East Nashville. This isn't necessarily where I'd send someone specifically looking for traditional Mexican street tacos, it's a good choice if you want something creative and different.</p>
       <p><strong>Best For:</strong> Creative, Southwestern-inspired tacos</p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db8cdT7gYrT/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍹 <a href="https://www.bakersfieldtacos.com/locations/" target="_blank" rel="noopener">Bakersfield</a></h3>
       <p>Bakersfield is a good option when tacos are only one part of the night, its combination of tacos, tequila, margaritas, queso, and a lively atmosphere makes it particularly well suited to groups and casual nights out.</p>
