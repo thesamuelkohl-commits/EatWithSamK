@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T15:40:42.457Z",
+  "generatedAt": "2026-09-01T15:43:28.429Z",
   "places": [
     {
       "id": "biscuit-love-nashville",
@@ -33,6 +33,14 @@
         {
           "src": "https://www.eatwithsamk.com/images/reviews/biscuit-love-nashville/order-broll.jpg",
           "alt": "Sam's order: The B-Roll, Biscuit Love"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/biscuit-love-nashville/order-egg-plate.jpg",
+          "alt": "Sam's order: the Egg Plate with scrambled eggs, bacon, grits, and a biscuit, Biscuit Love"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/biscuit-love-nashville/order-hungry-hash.jpg",
+          "alt": "Sam's order: the Hungry Hash Bowl, Biscuit Love"
         }
       ],
       "pros": [

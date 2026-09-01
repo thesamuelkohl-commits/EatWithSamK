@@ -77,6 +77,8 @@ const PLACES = [
       { src: "images/reviews/biscuit-love-nashville/storefront.jpg", alt: "Biscuit Love storefront and line, The Gulch, Nashville" },
       { src: "images/reviews/biscuit-love-nashville/interior.jpg", alt: "Inside Biscuit Love, packed dining room, Nashville" },
       { src: "images/reviews/biscuit-love-nashville/order-broll.jpg", alt: "Sam's order: The B-Roll, Biscuit Love" },
+      { src: "images/reviews/biscuit-love-nashville/order-egg-plate.jpg", alt: "Sam's order: the Egg Plate with scrambled eggs, bacon, grits, and a biscuit, Biscuit Love" },
+      { src: "images/reviews/biscuit-love-nashville/order-hungry-hash.jpg", alt: "Sam's order: the Hungry Hash Bowl, Biscuit Love" },
     ],
     // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
     pros: ["Good environment", "Great area", "Quick service", "Great patio"],
