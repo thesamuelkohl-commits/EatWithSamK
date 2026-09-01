@@ -41,7 +41,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="css/style.css?v=39" />
+  <link rel="stylesheet" href="css/style.css?v=40" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -96,7 +96,7 @@
         <div class="finder-intro">
           <h2>🍽️ What Should I Eat?</h2>
           <p class="finder-subhead">Tell me what you're craving and I'll help you find a spot.</p>
-          <p class="finder-blurb">Search every Nashville restaurant Sam K has personally reviewed and Sam Score'd, filtered by cuisine, budget, vibe, and distance, for real food discovery instead of just another list.</p>
+          <p class="finder-blurb">Search Sam K's 8.0+ Sam Score picks in Nashville, filtered by cuisine, budget, vibe, and distance, for real food discovery instead of just another list.</p>
         </div>
 
         <div class="finder-location">
@@ -127,17 +127,8 @@
             <label class="filter-group-label" for="finder-tag">Vibe</label>
             <select class="filter-select" id="finder-tag"><option value="">Anything</option></select>
           </div>
-          <div class="filter-group">
-            <label class="filter-group-label" for="finder-score">Minimum Sam Score</label>
-            <select class="filter-select" id="finder-score">
-              <option value="0">Any</option>
-              <option value="7">7.0+</option>
-              <option value="8">8.0+</option>
-              <option value="8.5">8.5+</option>
-              <option value="9">9.0+</option>
-            </select>
-          </div>
         </div>
+        <p class="finder-score-note">⭐ Only showing places Sam scored 8.0/10 or higher.</p>
 
         <button type="button" class="btn btn-primary finder-cta" id="finder-submit">Find My Food</button>
 
@@ -210,6 +201,6 @@
   <script src="js/auth.js?v=3"></script>
   <script src="js/pwa.js?v=1"></script>
   <script src="js/app.js?v=7"></script>
-  <script src="js/food-finder.js?v=1"></script>
+  <script src="js/food-finder.js?v=2"></script>
 </body>
 </html>

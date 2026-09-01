@@ -554,6 +554,14 @@ a { color: var(--red); }
 .finder-filters .filter-select,
 .finder-location .filter-select { min-width: 170px; }
 
+.finder-score-note {
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin: -6px 0 22px;
+}
+
 .finder-cta {
   display: flex;
   margin: 0 auto;

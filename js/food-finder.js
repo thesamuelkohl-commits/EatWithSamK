@@ -10,6 +10,10 @@
   const root = document.getElementById("food-finder");
   if (!root || typeof PLACES === "undefined") return;
 
+  // Hard floor, not a filter the visitor can loosen — no UI control sets
+  // this, and showClosestMatch() below never relaxes it either.
+  const MIN_SCORE = 8.0;
+
   const els = {
     useLocationBtn: document.getElementById("finder-use-location"),
     locationNote: document.getElementById("finder-location-note"),
@@ -18,7 +22,6 @@
     cuisine: document.getElementById("finder-cuisine"),
     price: document.getElementById("finder-price"),
     tag: document.getElementById("finder-tag"),
-    score: document.getElementById("finder-score"),
     submit: document.getElementById("finder-submit"),
     result: document.getElementById("finder-result"),
   };
@@ -104,16 +107,16 @@
       cuisine: els.cuisine.value,
       price: els.price.value,
       tag: els.tag.value,
-      minScore: parseFloat(els.score.value) || 0,
       radius: userCoords ? els.distanceSelect.value : null,
     };
   }
 
   // `skip*` flags let "Show Closest Match" relax one filter at a time
-  // without ever inventing a restaurant that isn't in PLACES.
+  // without ever inventing a restaurant that isn't in PLACES. MIN_SCORE is
+  // deliberately not skippable here — it's a floor, not a filter.
   function poolFor(filters, skip) {
     skip = skip || {};
-    let list = PLACES;
+    let list = PLACES.filter((p) => p.rating >= MIN_SCORE);
     if (userCoords && filters.radius && filters.radius !== "any" && !skip.distance) {
       const r = parseFloat(filters.radius);
       list = list.filter((p) => haversineMiles(userCoords.lat, userCoords.lng, p.lat, p.lng) <= r);
@@ -121,7 +124,6 @@
     if (filters.cuisine && !skip.cuisine) list = list.filter((p) => p.cuisine === filters.cuisine);
     if (filters.price && !skip.price) list = list.filter((p) => p.price === filters.price);
     if (filters.tag && !skip.tag) list = list.filter((p) => (p.badges || []).includes(filters.tag));
-    if (filters.minScore && !skip.score) list = list.filter((p) => p.rating >= filters.minScore);
     return list;
   }
 
@@ -155,7 +157,7 @@
     track("food_finder_result", {
       cuisine: filters.cuisine || "any",
       price: filters.price || "any",
-      min_score: filters.minScore || 0,
+      min_score: MIN_SCORE,
       result: place.id,
     });
   }
@@ -187,7 +189,7 @@
   function renderEmptyGeneral() {
     els.result.innerHTML = `
       <div class="finder-empty">
-        <p>No exact match yet — try widening your filters.</p>
+        <p>No exact match yet, try widening your filters.</p>
         <div class="finder-actions">
           <button type="button" class="btn btn-ghost" id="finder-reset">Reset Filters</button>
           <button type="button" class="btn btn-primary" id="finder-closest">Show Closest Match</button>
@@ -201,21 +203,19 @@
     els.cuisine.value = "";
     els.price.value = "";
     els.tag.value = "";
-    els.score.value = "0";
     runFinder();
   }
 
-  // Relaxes filters one at a time (score, then tag, then price, then
-  // cuisine, then distance) until something matches — always a real place
-  // from PLACES, never invented.
+  // Relaxes filters one at a time (tag, then price, then cuisine, then
+  // distance) until something matches — always a real place from PLACES,
+  // never invented, and never below MIN_SCORE.
   function showClosestMatch() {
     const filters = currentFilters();
     const steps = [
-      { score: true },
-      { score: true, tag: true },
-      { score: true, tag: true, price: true },
-      { score: true, tag: true, price: true, cuisine: true },
-      { score: true, tag: true, price: true, cuisine: true, distance: true },
+      { tag: true },
+      { tag: true, price: true },
+      { tag: true, price: true, cuisine: true },
+      { tag: true, price: true, cuisine: true, distance: true },
     ];
     for (const skip of steps) {
       const pool = poolFor(filters, skip);
@@ -232,7 +232,7 @@
     track("food_finder_used", {
       cuisine: filters.cuisine || "any",
       price: filters.price || "any",
-      min_score: filters.minScore || 0,
+      min_score: MIN_SCORE,
       radius: filters.radius || "any",
     });
     const pool = poolFor(filters);
