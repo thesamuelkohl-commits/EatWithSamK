@@ -311,9 +311,9 @@ function placeCardHtml(p, opts) {
           ${p.website ? `<span>🌐 <a href="${p.website}" target="_blank" rel="noopener">${p.website.replace(/^https?:\/\/(www\.)?/, "")}</a></span>` : ""}
         </div>
         <div class="card-actions">
-          <a class="btn btn-primary" href="${p.video}" target="_blank" rel="noopener">
+          ${p.video ? `<a class="btn btn-primary" href="${p.video}" target="_blank" rel="noopener">
             <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch Review
-          </a>
+          </a>` : ""}
           ${opts.showMapJump ? `<button class="btn btn-ghost" data-map-jump="${p.id}">View on map</button>` : `<a class="btn btn-ghost" href="/reviews/${p.id}">Full Review</a>`}
         </div>
         <a class="read-more" href="/reviews/${p.id}">Read full review →</a>
@@ -358,7 +358,7 @@ function initPlacesMap(containerId, places) {
       </div>
       <div class="popup-city">📍 ${place.city}</div>
       ${place.heroPhoto ? "" : `<div class="popup-rating">★ ${place.rating}/10</div>`}
-      <a class="popup-link" href="${place.video}" target="_blank" rel="noopener">▶ Watch my review</a><br>
+      ${place.video ? `<a class="popup-link" href="${place.video}" target="_blank" rel="noopener">▶ Watch my review</a><br>` : ""}
       <a class="popup-link" href="/reviews/${place.id}">📖 Full review</a>
     `);
     markers[place.id] = marker;

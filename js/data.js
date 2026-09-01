@@ -57,6 +57,34 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "chilangos-tacos-nashville",
+    name: "Chilangos Tacos",
+    city: "Nashville, TN",
+    lat: 36.160411,
+    lng: -86.779725,
+    address: "5055 Broadway Pl, Nashville, TN 37203 (Assembly Food Hall)",
+    phone: "(615) 800-5395",
+    parking: "Paid parking",
+    website: "https://www.assemblyfoodhall.com/vendor/chilangos-tacos/",
+    date: "2026-08-22",
+    price: "$$",
+    cuisine: "Tacos",
+    badges: ["quick-bite", "group-friendly"],
+    about: "Chilangos Tacos is a taco stand on Level 2 North of Assembly Food Hall at Fifth + Broadway in downtown Nashville, the Nashville outpost of a Dallas-based taco brand serving tacos, quesadillas, and nachos with a mix of classic and specialty fillings.",
+    ate: "A chicken, steak, and pastor (pork) taco, plus a side of chips and queso.",
+    heroPhoto: "images/reviews/chilangos-tacos-nashville/order.jpg",
+    photos: [
+      { src: "images/reviews/chilangos-tacos-nashville/storefront.jpg", alt: "Chilangos Tacos counter and menu board inside Assembly Food Hall, Nashville" },
+      { src: "images/reviews/chilangos-tacos-nashville/kitchen.jpg", alt: "Chilangos Tacos kitchen with the al pastor trompo, Nashville" },
+      { src: "images/reviews/chilangos-tacos-nashville/order.jpg", alt: "Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Cool atmosphere", "Quick service", "Plenty of seating"],
+    cons: ["Can be crowded", "Paid parking"],
+    rating: 8.7,
+    tags: ["Tacos", "Assembly Food Hall"],
+  },
+  {
     id: "pelato-nashville",
     name: "Pelato",
     city: "Nashville, TN",

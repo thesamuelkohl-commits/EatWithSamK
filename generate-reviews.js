@@ -219,9 +219,9 @@ function renderReviewPage(place, relatedPosts) {
     </ul>
     ${greatForBadges.length ? `<p class="quick-facts-label">❤️ <strong>Great For:</strong></p><div class="badge-row">${badgesHtml}</div>` : ""}
     <div class="card-actions" style="margin-top: 14px;">
-      <a class="btn btn-primary" href="${place.video}" target="_blank" rel="noopener">
+      ${place.video ? `<a class="btn btn-primary" href="${place.video}" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg> Watch My Review
-      </a>
+      </a>` : ""}
       <a class="btn btn-ghost" href="/reviews">← All Reviews</a>
     </div>`;
 
@@ -434,7 +434,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="../js/data.js?v=14"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=30"></script>
+  <script src="../js/common.js?v=31"></script>
   <script src="../js/auth.js?v=3"></script>
   <script src="../js/pwa.js?v=1"></script>
   <script>
@@ -611,7 +611,7 @@ function renderGuidePage(post) {
   <script src="/js/data.js?v=14"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=30"></script>
+  <script src="/js/common.js?v=31"></script>
   <script src="/js/auth.js?v=3"></script>
   <script src="/js/pwa.js?v=1"></script>
 </body>

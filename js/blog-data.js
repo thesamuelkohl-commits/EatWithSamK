@@ -412,7 +412,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-bridgestone-arena-nashville",
-    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "jack-browns-nashville"],
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "jack-browns-nashville", "chilangos-tacos-nashville"],
     title: "Best Restaurants Near Bridgestone Arena in Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-10",
@@ -461,6 +461,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "My top pick before a Bridgestone show, close enough to walk and good enough to make the meal the whole point."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/chilangos-tacos-nashville">Chilangos Tacos</a></h2>
+      <p><strong>Neighborhood:</strong> Assembly Food Hall (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.7/10</p>
+      <p><strong>Best For:</strong> Quick Tacos Before the Game</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Chilangos Tacos is a counter on Level 2 North of Assembly Food Hall, directly across from Bridgestone Arena, the Nashville outpost of a Dallas-based taco brand. <a href="/reviews/chilangos-tacos-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A quick, genuinely good taco counter right across from the arena, my highest-scoring taco review so far."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
       <p><strong>Neighborhood:</strong> Germantown</p>
@@ -551,6 +561,7 @@ const BLOG_POSTS = [
         <tbody>
           <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime — 9.3</td></tr>
           <tr><td>🥩 Date Night / Special Occasion</td><td>Ocean Prime / Etch / Sixty Vines</td></tr>
+          <tr><td>🌮 Tacos</td><td>Chilangos Tacos</td></tr>
           <tr><td>🍔 Burgers</td><td>Jack Brown's / NADC Burger</td></tr>
           <tr><td>🔥 Nashville Hot Chicken</td><td>Hattie B's</td></tr>
           <tr><td>🍖 BBQ</td><td>Martin's Bar-B-Que Joint</td></tr>
@@ -770,7 +781,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-broadway-nashville",
-    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "chile-burrito-nashville", "jack-browns-nashville"],
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "chile-burrito-nashville", "jack-browns-nashville", "chilangos-tacos-nashville"],
     title: "Best Restaurants Near Broadway Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-07",
@@ -823,6 +834,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "A build-your-own burrito counter that's fast, cheap, and genuinely good, exactly what you want a block off Broadway."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chile-burrito-nashville">Read my full Chile Burrito Co. review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chile-burrito-nashville/order.jpg" alt="Sam's 12-inch steak burrito, The Chile Burrito Co." loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/chilangos-tacos-nashville">Chilangos Tacos</a></h2>
+      <p><strong>Neighborhood:</strong> Assembly Food Hall (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.7/10</p>
+      <p><strong>Best For:</strong> Quick Tacos Near Broadway</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Chilangos Tacos is a counter on Level 2 North of Assembly Food Hall, the Nashville outpost of a Dallas-based taco brand, just steps from Broadway. <a href="/reviews/chilangos-tacos-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A quick, genuinely good taco counter right off Broadway, my highest-scoring taco review so far."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
       <p><strong>Neighborhood:</strong> Germantown</p>
@@ -913,7 +934,7 @@ const BLOG_POSTS = [
         <tbody>
           <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime — 9.3</td></tr>
           <tr><td>🥩 Date Night</td><td>Ocean Prime / Etch</td></tr>
-          <tr><td>🌮 Mexican</td><td>The Chile Burrito Co. / Bakersfield</td></tr>
+          <tr><td>🌮 Mexican &amp; Tacos</td><td>Chilangos Tacos / The Chile Burrito Co. / Bakersfield</td></tr>
           <tr><td>🍔 Burgers</td><td>Jack Brown's / NADC Burger</td></tr>
           <tr><td>🥪 Sandwiches</td><td>The Philly Special</td></tr>
           <tr><td>🍕 Quick Pizza</td><td>Prince St. Pizza</td></tr>
@@ -2470,18 +2491,18 @@ const BLOG_POSTS = [
   },
   {
     id: "best-tacos-nashville",
-    places: ["ladybird-taco-nashville"],
+    places: ["chilangos-tacos-nashville", "ladybird-taco-nashville"],
     title: "Best Tacos in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-13",
     emoji: "🌮",
     excerpt:
-      "From Maiz de la Vida's handmade tortillas to my own review of Ladybird Taco, the best tacos in Nashville for 2026, spots worth knowing about as I work toward a personal ranking, with no paid placements.",
+      "From Maiz de la Vida's handmade tortillas to my own reviews of Chilangos Tacos and Ladybird Taco, the best tacos in Nashville for 2026, ranked with no paid placements.",
     faq: [
       {
         question: "What are the best tacos in Nashville?",
         answer:
-          "Nashville has several different styles of tacos worth trying. Maiz de la Vida is known for its focus on masa and handmade tortillas, while spots like Taqueria San Luis offer a more traditional street-taco experience. As I personally review more Nashville taco restaurants, I'll update this guide with my own Sam Scores and rankings.",
+          "Of the taco spots Sam has personally reviewed so far, Chilangos Tacos is his highest rated at 8.7/10, followed by Ladybird Taco (7.6). Nashville also has several other styles worth trying: Maiz de la Vida is known for its focus on masa and handmade tortillas, while spots like Taqueria San Luis offer a more traditional street-taco experience.",
       },
       {
         question: "Where can I find authentic Mexican tacos in Nashville?",
@@ -2514,6 +2535,17 @@ const BLOG_POSTS = [
       <p>I'm working my way through Nashville's taco restaurants and giving the places I personally visit a Sam Score based on my overall experience. This guide will continue to change as I try more of them.</p>
       <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinions in exchange for free food.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>⭐ <a href="/reviews/chilangos-tacos-nashville">Chilangos Tacos</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (Assembly Food Hall)</p>
+      <p><strong>Sam Score:</strong> 8.7/10</p>
+      <p><strong>Best For:</strong> Quick tacos downtown</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Chilangos Tacos is a counter on Level 2 North of Assembly Food Hall, the Nashville outpost of a Dallas-based taco brand serving tacos, quesadillas, and nachos.</p>
+      <p>Good atmosphere, quick service, and plenty of seating make it an easy stop if you're already downtown near Broadway. <a href="/reviews/chilangos-tacos-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A quick, genuinely good taco counter inside the food hall, my highest-scoring taco review so far."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/ladybird-taco-nashville">Ladybird Taco</a></h2>
       <p><strong>Neighborhood:</strong> 12 South</p>
@@ -2578,7 +2610,8 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Ladybird Taco — 7.6</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Chilangos Tacos — 8.7</td></tr>
+          <tr><td>📍 Quick, Downtown</td><td>Chilangos Tacos</td></tr>
           <tr><td>🍳 Breakfast Tacos</td><td>Ladybird Taco / Tempo</td></tr>
           <tr><td>🌮 Street Tacos</td><td>Taqueria San Luis</td></tr>
           <tr><td>🇲🇽 Authentic Mexican</td><td>Maiz de la Vida</td></tr>
@@ -2591,7 +2624,7 @@ const BLOG_POSTS = [
       </div>
 
       <h2>What Is My Favorite Taco Spot in Nashville?</h2>
-      <p>Right now, Ladybird Taco is my top personally-reviewed pick, with a 7.6 Sam Score.</p>
+      <p>Right now, Chilangos Tacos is my top personally-reviewed pick, with an 8.7 Sam Score, just ahead of Ladybird Taco (7.6).</p>
       <p>That doesn't mean the ranking is permanent. I'm continuing to visit taco spots throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
       <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
 
@@ -2630,7 +2663,7 @@ const BLOG_POSTS = [
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What are the best tacos in Nashville?</strong></p>
-      <p>Nashville has several different styles of tacos worth trying. Maiz de la Vida is known for its focus on masa and handmade tortillas, while spots like Taqueria San Luis offer a more traditional street-taco experience. As I personally review more Nashville taco restaurants, I'll update this guide with my own Sam Scores and rankings.</p>
+      <p>Of the taco spots I've personally reviewed so far, Chilangos Tacos is my highest rated at 8.7/10, followed by Ladybird Taco (7.6). Nashville also has several other styles worth trying: Maiz de la Vida is known for its focus on masa and handmade tortillas, while spots like Taqueria San Luis offer a more traditional street-taco experience.</p>
       <p><strong>Where can I find authentic Mexican tacos in Nashville?</strong></p>
       <p>South Nashville, particularly around the Nolensville Pike corridor, is one of the most interesting areas to explore for Mexican and Latin American food.</p>
       <p><strong>What are the best cheap tacos in Nashville?</strong></p>
@@ -2640,7 +2673,7 @@ const BLOG_POSTS = [
       <p><strong>Where can I get tacos and margaritas in Nashville?</strong></p>
       <p>Bakersfield and Superica offer more of a sit-down tacos-and-drinks experience than Nashville's traditional taquerias.</p>
       <p><strong>Are there good tacos near downtown Nashville?</strong></p>
-      <p>Yes. There are taco and Tex-Mex options around downtown and nearby neighborhoods, although I'd recommend exploring beyond downtown if tacos are the main reason for your meal.</p>
+      <p>Yes. Chilangos Tacos inside Assembly Food Hall is my top personal pick downtown, and there are other taco and Tex-Mex options around downtown and nearby neighborhoods, although I'd recommend exploring beyond downtown if tacos are the main reason for your meal.</p>
 
       <h2>The Sam Score</h2>
       <p>Every taco spot that receives a Sam Score has been personally visited and reviewed by me, tortilla, meat/filling, salsa, toppings, and value all factor in.</p>
@@ -2667,7 +2700,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-nissan-stadium-nashville",
-    places: ["ocean-prime-nashville", "jack-browns-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "prince-street-pizza-nashville"],
+    places: ["ocean-prime-nashville", "jack-browns-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "prince-street-pizza-nashville", "chilangos-tacos-nashville"],
     title: "Best Restaurants Near Nissan Stadium in Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-17",
@@ -2721,6 +2754,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "My top pick before a Titans game, close enough to walk to the stadium and good enough to make the meal part of the day."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/chilangos-tacos-nashville">Chilangos Tacos</a></h2>
+      <p><strong>Neighborhood:</strong> Assembly Food Hall (across the river near Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.7/10</p>
+      <p><strong>Best For:</strong> Quick Tacos Before the Game</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Chilangos Tacos is a counter on Level 2 North of Assembly Food Hall, the Nashville outpost of a Dallas-based taco brand, an easy stop if you're spending time downtown before crossing over to Nissan Stadium. <a href="/reviews/chilangos-tacos-nashville">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A quick, genuinely good taco counter downtown, my highest-scoring taco review so far."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
       <p><strong>Neighborhood:</strong> Germantown</p>
@@ -2814,6 +2857,7 @@ const BLOG_POSTS = [
         <tbody>
           <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime — 9.3</td></tr>
           <tr><td>🥩 Upscale Pregame</td><td>Ocean Prime</td></tr>
+          <tr><td>🌮 Tacos</td><td>Chilangos Tacos</td></tr>
           <tr><td>🍔 Burgers</td><td>Jack Brown's / NADC Burger / The Pharmacy</td></tr>
           <tr><td>🍖 BBQ</td><td>Edley's / Martin's / Butchertown Hall</td></tr>
           <tr><td>🍕 Pizza</td><td>Prince St. Pizza / Five Points Pizza</td></tr>
