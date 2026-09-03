@@ -566,32 +566,34 @@ a { color: var(--red); }
   border: 1px solid var(--glass-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
-  padding: 30px 32px;
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 22px 26px;
 }
 
-.finder-intro { text-align: center; margin-bottom: 22px; }
-.finder-intro h2 { font-size: 1.7rem; }
-.finder-subhead { color: var(--ink-soft); font-size: 1.05rem; margin-top: 6px; }
-.finder-blurb { color: var(--ink-soft); font-size: 0.88rem; max-width: 560px; margin: 8px auto 0; }
+.finder-intro { text-align: center; margin-bottom: 16px; }
+.finder-intro h2 { font-size: 1.4rem; }
+.finder-subhead { color: var(--ink-soft); font-size: 0.95rem; margin-top: 4px; }
+.finder-blurb { color: var(--ink-soft); font-size: 0.82rem; max-width: 560px; margin: 6px auto 0; }
 
 .finder-location {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  gap: 8px;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
   border-bottom: 1px dashed var(--line);
 }
 
-.finder-location-note { color: var(--ink-soft); font-size: 0.82rem; text-align: center; max-width: 380px; }
+.finder-location-note { color: var(--ink-soft); font-size: 0.78rem; text-align: center; max-width: 380px; }
 
 .finder-filters {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 16px 26px;
-  margin-bottom: 22px;
+  gap: 12px 20px;
+  margin-bottom: 16px;
 }
 
 .finder-filters .filter-group,
@@ -602,21 +604,15 @@ a { color: var(--red); }
 }
 
 .finder-filters .filter-select,
-.finder-location .filter-select { min-width: 170px; }
+.finder-location .filter-select { min-width: 150px; }
 
-.finder-score-note {
-  text-align: center;
-  color: var(--ink-soft);
-  font-size: 0.82rem;
-  font-weight: 700;
-  margin: -6px 0 22px;
-}
-
-.finder-cta {
+/* Beats .btn's inline-flex on specificity alone (0-2-0 vs 0-1-0), which is
+   what makes margin: auto centering actually take effect here. */
+.finder-card .finder-cta {
   display: flex;
   margin: 0 auto;
-  padding: 14px 44px;
-  font-size: 1rem;
+  padding: 12px 38px;
+  font-size: 0.95rem;
 }
 
 .finder-result { margin-top: 28px; }
@@ -652,7 +648,7 @@ a { color: var(--red); }
 }
 
 @media (max-width: 620px) {
-  .finder-card { padding: 24px 18px; }
+  .finder-card { padding: 18px 16px; }
   .finder-filters { flex-direction: column; align-items: stretch; }
   .finder-filters .filter-group,
   .finder-location .filter-group { width: 100%; }
@@ -663,7 +659,7 @@ a { color: var(--red); }
     padding: 12px 14px;
     font-size: 1rem;
   }
-  .finder-cta { width: 100%; padding: 16px; }
+  .finder-card .finder-cta { width: 100%; padding: 14px; }
   #finder-use-location { width: 100%; padding: 12px 16px; }
 }
 
