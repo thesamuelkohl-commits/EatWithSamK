@@ -344,7 +344,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=42" />
+  <link rel="stylesheet" href="../css/style.css?v=43" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -434,7 +434,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="../js/data.js?v=16"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=33"></script>
+  <script src="../js/common.js?v=34"></script>
   <script src="../js/auth.js?v=4"></script>
   <script src="../js/pwa.js?v=2"></script>
   <script>
@@ -559,7 +559,7 @@ function renderGuidePage(post) {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=42" />
+  <link rel="stylesheet" href="/css/style.css?v=43" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -611,7 +611,7 @@ function renderGuidePage(post) {
   <script src="/js/data.js?v=16"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=33"></script>
+  <script src="/js/common.js?v=34"></script>
   <script src="/js/auth.js?v=4"></script>
   <script src="/js/pwa.js?v=2"></script>
 </body>

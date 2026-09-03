@@ -223,8 +223,7 @@ document.querySelectorAll("[data-newsletter-embed]").forEach((container) => {
   container.appendChild(script);
 });
 
-/* ---------- Cinematic pointer effects: cursor beam, spotlight-on-hover,
-   tilt ----------
+/* ---------- Cinematic pointer effects: spotlight-on-hover, tilt ----------
    Desktop-only (a real mouse, not a touch/coarse pointer) and skipped
    entirely under prefers-reduced-motion, this is pure visual flourish and
    never required for using the site. Everything runs off one rAF-throttled
@@ -233,11 +232,6 @@ const canHoverWithMouse = window.matchMedia("(hover: hover) and (pointer: fine)"
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 if (canHoverWithMouse && !prefersReducedMotion) {
-  const beam = document.createElement("div");
-  beam.className = "cursor-beam";
-  beam.setAttribute("aria-hidden", "true");
-  document.body.appendChild(beam);
-
   let pendingPointer = null;
   let pointerRaf = null;
 
@@ -245,10 +239,6 @@ if (canHoverWithMouse && !prefersReducedMotion) {
     pointerRaf = null;
     if (!pendingPointer) return;
     const { x, y, target } = pendingPointer;
-
-    beam.style.setProperty("--beam-x", `${x}px`);
-    beam.style.setProperty("--beam-y", `${y}px`);
-    beam.classList.add("is-active");
 
     const glowCard = target.closest(".glow-card");
     if (glowCard) {
@@ -274,8 +264,6 @@ if (canHoverWithMouse && !prefersReducedMotion) {
     pendingPointer = { x: e.clientX, y: e.clientY, target: e.target };
     if (!pointerRaf) pointerRaf = requestAnimationFrame(applyPointerEffects);
   });
-
-  document.addEventListener("mouseleave", () => beam.classList.remove("is-active"));
 
   // Reset tilt the moment the pointer leaves a tilt-card, rather than
   // waiting for the next mousemove elsewhere, so it doesn't hang mid-tilt.
