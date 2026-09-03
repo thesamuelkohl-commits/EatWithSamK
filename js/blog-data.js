@@ -91,7 +91,7 @@ const BLOG_POSTS = [
       <p>The food impressed me enough to give Pelato a 9.3 Sam Score, putting it among the highest-rated restaurants I've reviewed so far.</p>
       <p>If you're looking for Italian food in Nashville and want somewhere that feels a little different from the standard Italian restaurant, Pelato should be high on your list. <a href="/reviews/pelato-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "One of the best overall meals I've had in Nashville since starting Eat With Sam K."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/pelato-nashville">Read my full Pelato review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/pelato-nashville">Read my full Pelato review →</a></p>
       <div class="own-photo"><img src="/images/reviews/pelato-nashville/order-chicken-parm.jpg" alt="Sam's order: Chicken Parmigiana, Pelato" loading="lazy" /></div>
 
       <h2>🍝 <a href="/reviews/culaccino-nashville">Culaccino</a></h2>
@@ -102,7 +102,7 @@ const BLOG_POSTS = [
       <p>The restaurant has a polished atmosphere without feeling overly formal, making it a good option for a date night, dinner before going downtown, or simply when you're looking for a nicer Italian meal.</p>
       <p>It's also conveniently located near downtown Nashville, Bridgestone Arena and Broadway, which makes Culaccino particularly useful if you're visiting the city or heading to an event. <a href="/reviews/culaccino-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A strong option when you want Italian food near downtown Nashville in a setting that feels elevated without going completely fine dining."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/culaccino-nashville">Read my full Culaccino review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/culaccino-nashville">Read my full Culaccino review →</a></p>
       <div class="own-photo"><img src="/images/reviews/culaccino-nashville/order-pizza.jpg" alt="Sam's order: Il Re Di Bologna pizza, Culaccino" loading="lazy" /></div>
 
       <h2>More Italian Restaurants in Nashville Worth Knowing</h2>
@@ -147,7 +147,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Pelato — 9.3</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Pelato, 9.3</td></tr>
           <tr><td>❤️ Date Night</td><td>Pelato / Culaccino</td></tr>
           <tr><td>💎 Upscale Italian</td><td>Yolan</td></tr>
           <tr><td>🍝 Pasta</td><td>Rolf and Daughters</td></tr>
@@ -251,7 +251,7 @@ const BLOG_POSTS = [
       <p>Baam Burger is a downtown Nashville burger spot tucked into The Arcade, just steps off Broadway, that stands out for its halal menu.</p>
       <p>And unlike most of the restaurants on this list, I've personally reviewed Baam Burger for Eat With Sam K. <a href="/reviews/baam-burger-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A quick, halal smash burger that's an easy stop late on Broadway."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order: Baam burger with bacon and cheese, fries, and a vanilla milkshake" loading="lazy" /></div>
 
       <h2>More Late-Night Nashville Food Worth Knowing</h2>
@@ -306,7 +306,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Baam Burger — 8.3</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Baam Burger, 8.3</td></tr>
           <tr><td>🍔 Burgers</td><td>Baam Burger / Dino's</td></tr>
           <tr><td>🍕 Pizza</td><td>Till Five Pizza</td></tr>
           <tr><td>🔥 Hot Chicken</td><td>Prince's Hot Chicken</td></tr>
@@ -459,7 +459,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
       <p>Ocean Prime is my top pick near Bridgestone Arena, a polished steakhouse and seafood restaurant just steps from Fifth + Broadway, with a lively bar and a menu that swings from crab cakes and ahi tuna tartare to prime steaks. <a href="/reviews/ocean-prime-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "My top pick before a Bridgestone show, close enough to walk and good enough to make the meal the whole point."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/chilangos-tacos-nashville">Chilangos Tacos</a></h2>
@@ -469,7 +469,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>Chilangos Tacos is a counter on Level 2 North of Assembly Food Hall, directly across from Bridgestone Arena, the Nashville outpost of a Dallas-based taco brand. <a href="/reviews/chilangos-tacos-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A quick, genuinely good taco counter right across from the arena, my highest-scoring taco review so far."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
@@ -479,7 +479,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <p>Jack Brown's is a casual burger-and-beer spot in Germantown, an easy stop if you want a good burger without committing to an expensive sit-down dinner before heading to Bridgestone. <a href="/reviews/jack-browns-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
@@ -489,7 +489,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>NADC Burger is another downtown option I've personally reviewed. If you want a smash burger before or after your event, it's worth considering, especially if you're looking for something casual rather than a traditional sit-down dinner. <a href="/reviews/nadc-burger-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "One burger, done exactly one way, and Wagyu beef makes the case for why that's enough."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/the-philly-special-nashville">The Philly Special</a></h2>
@@ -499,7 +499,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall, directly across from Bridgestone Arena at Fifth + Broadway. <a href="/reviews/the-philly-special-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A genuine Philly-style cheesesteak inside the food hall directly across from the arena, hard to beat for convenience."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
       <div class="own-photo"><img src="/images/reviews/the-philly-special-nashville/order.jpg" alt="Close-up of The Original cheesesteak with ribeye and white American, The Philly Special" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza</a></h2>
@@ -509,7 +509,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>Sometimes you don't want a full meal before an event. Prince Street Pizza makes it easy to grab a slice and continue toward Bridgestone or Broadway. <a href="/reviews/prince-street-pizza-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A dependable, affordable stop if you're downtown and want a genuinely good slice fast."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
       <div class="own-photo"><img src="/images/reviews/prince-street-pizza-nashville/order.jpg" alt="Sam's order: three square slices in the box, Prince St. Pizza Nashville" loading="lazy" /></div>
 
       <h2>More Restaurants Near Bridgestone Arena Worth Knowing</h2>
@@ -559,7 +559,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime — 9.3</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime, 9.3</td></tr>
           <tr><td>🥩 Date Night / Special Occasion</td><td>Ocean Prime / Etch / Sixty Vines</td></tr>
           <tr><td>🌮 Tacos</td><td>Chilangos Tacos</td></tr>
           <tr><td>🍔 Burgers</td><td>Jack Brown's / NADC Burger</td></tr>
@@ -664,7 +664,7 @@ const BLOG_POSTS = [
       <p>Ocean Prime pairs premium steaks with fresh seafood and a lively bar scene just steps from Broadway.</p>
       <p>The 9.3 Sam Score puts it among the highest-rated restaurants I've reviewed anywhere in Nashville, not just among steakhouses. <a href="/reviews/ocean-prime-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "One of the best overall meals I've had since starting Eat With Sam K, the kind of steakhouse that backs up the price."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
 
       <h2>More Nashville Steakhouses Worth Knowing</h2>
@@ -733,7 +733,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime — 9.3</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime, 9.3</td></tr>
           <tr><td>🏆 Best Overall</td><td>Jeff Ruby's</td></tr>
           <tr><td>❤️ Date Night</td><td>Ocean Prime / Jeff Ruby's</td></tr>
           <tr><td>🥂 Special Occasion</td><td>Bourbon Steak / Harper's</td></tr>
@@ -822,7 +822,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
       <p>Ocean Prime is my top pick near Broadway, a polished steakhouse and seafood restaurant just steps away, with a lively bar scene and a menu that swings from crab cakes and ahi tuna tartare to prime steaks. <a href="/reviews/ocean-prime-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "My top pick near Broadway, close enough to walk and good enough to make the meal the whole point."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/chile-burrito-nashville">The Chile Burrito Co.</a></h2>
@@ -832,7 +832,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>The Chile Burrito Co. is a counter-service Mexican spot just off Broadway, an easy stop for a quick burrito loaded with whatever you want from the salsa bar. <a href="/reviews/chile-burrito-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A build-your-own burrito counter that's fast, cheap, and genuinely good, exactly what you want a block off Broadway."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chile-burrito-nashville">Read my full Chile Burrito Co. review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chile-burrito-nashville">Read my full Chile Burrito Co. review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chile-burrito-nashville/order.jpg" alt="Sam's 12-inch steak burrito, The Chile Burrito Co." loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/chilangos-tacos-nashville">Chilangos Tacos</a></h2>
@@ -842,7 +842,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>Chilangos Tacos is a counter on Level 2 North of Assembly Food Hall, the Nashville outpost of a Dallas-based taco brand, just steps from Broadway. <a href="/reviews/chilangos-tacos-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A quick, genuinely good taco counter right off Broadway, my highest-scoring taco review so far."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
@@ -852,7 +852,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <p>Jack Brown's is a casual burger-and-beer spot in Germantown, an easy recommendation before or after a night on Broadway. <a href="/reviews/jack-browns-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
@@ -862,7 +862,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>NADC Burger serves one of the better smash burgers close to downtown Nashville. Simple menu, excellent execution. If you're craving a burger after walking Broadway, this is absolutely worth checking out. <a href="/reviews/nadc-burger-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "One burger, done exactly one way, and Wagyu beef makes the case for why that's enough."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/the-philly-special-nashville">The Philly Special</a></h2>
@@ -872,7 +872,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall at Fifth + Broadway, just steps from Broadway itself. <a href="/reviews/the-philly-special-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A genuine Philly-style cheesesteak inside the food hall right off Broadway, hard to beat for convenience."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
       <div class="own-photo"><img src="/images/reviews/the-philly-special-nashville/order.jpg" alt="Close-up of The Original cheesesteak with ribeye and white American, The Philly Special" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza</a></h2>
@@ -882,7 +882,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown. If you're looking for something fast before a concert or after the bars, this is an easy recommendation. <a href="/reviews/prince-street-pizza-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A dependable, affordable stop if you're downtown and want a genuinely good slice fast."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
       <div class="own-photo"><img src="/images/reviews/prince-street-pizza-nashville/order.jpg" alt="Sam's order: three square slices in the box, Prince St. Pizza Nashville" loading="lazy" /></div>
 
       <h2>More Restaurants Near Broadway Worth Knowing</h2>
@@ -932,7 +932,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime — 9.3</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime, 9.3</td></tr>
           <tr><td>🥩 Date Night</td><td>Ocean Prime / Etch</td></tr>
           <tr><td>🌮 Mexican &amp; Tacos</td><td>Chilangos Tacos / The Chile Burrito Co. / Bakersfield</td></tr>
           <tr><td>🍔 Burgers</td><td>Jack Brown's / NADC Burger</td></tr>
@@ -1354,7 +1354,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>Red's delivers big flavor at a reasonable price, making it one of the better budget lunch options around Nashville. The Hot Chicken Mac & Cheese Crunch Wrap is a standout. <a href="/reviews/reds-hot-chicken-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "Big, creative flavor for a counter-service price, one of the best budget lunches in Midtown."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/reds-hot-chicken-nashville">Read my full Red's Hot Chicken review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/reds-hot-chicken-nashville">Read my full Red's Hot Chicken review →</a></p>
       <div class="own-photo"><img src="/images/reviews/reds-hot-chicken-nashville/order.jpg" alt="Sam's Hot Chicken Mac & Cheese Crunch Wrap with a side of ranch, Red's Hot Chicken" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
@@ -1364,7 +1364,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <p>Jack Brown's is a casual burger-and-beer spot in Germantown with a covered patio, proving you don't need a big budget for a great burger. <a href="/reviews/jack-browns-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/hugh-babys-nashville">Hugh-Baby's</a></h2>
@@ -1374,7 +1374,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>Hugh-Baby's has quietly become one of Nashville's favorite casual restaurants. Between the burgers, pulled pork, and shakes, it's one of the best food values in town. <a href="/reviews/hugh-babys-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "Smashed cheeseburgers, BBQ, and hand-spun shakes in one order, hard to find a better dollar-for-dollar meal."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/hugh-babys-nashville">Read my full Hugh-Baby's review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/hugh-babys-nashville">Read my full Hugh-Baby's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/hugh-babys-nashville/order.jpg" alt="Close-up of the double cheeseburger, no pickle, add bacon, Hugh-Baby's" loading="lazy" /></div>
 
       <h2>More Nashville Cheap Eats Worth Knowing</h2>
@@ -1424,7 +1424,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Red's Hot Chicken — 8.7</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Red's Hot Chicken, 8.7</td></tr>
           <tr><td>🍔 Burgers Under $20</td><td>Jack Brown's / Hugh-Baby's</td></tr>
           <tr><td>🔥 Hot Chicken</td><td>Red's Hot Chicken / Prince's</td></tr>
           <tr><td>🍕 Pizza by the Slice</td><td>Five Points Pizza</td></tr>
@@ -1529,7 +1529,7 @@ const BLOG_POSTS = [
       <p>Biscuit Love is one of Nashville's most recognizable brunch spots, a Gulch mainstay known for scratch-made biscuits and Southern breakfast classics.</p>
       <p>Good environment and a great patio make the wait worth it, though it can get busy and there's often a line to get in. <a href="/reviews/biscuit-love-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A great area and a great patio, just budget extra time for the wait."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/biscuit-love-nashville">Read my full Biscuit Love review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/biscuit-love-nashville">Read my full Biscuit Love review →</a></p>
       <div class="own-photo"><img src="/images/reviews/biscuit-love-nashville/order-broll.jpg" alt="Sam's order: The B-Roll, Biscuit Love" loading="lazy" /></div>
 
       <h2>More Nashville Brunch Worth Knowing</h2>
@@ -1681,7 +1681,7 @@ const BLOG_POSTS = [
       <p>Halal Birdz is a newer spot on Murfreesboro Pike bringing a halal-certified take on Nashville hot chicken, with a counter-service setup and a menu built around numbered boxes and loaded snack packs.</p>
       <p>Quick service, a fun atmosphere, and genuinely well-seasoned chicken made this one of my highest-scoring reviews on the site. <a href="/reviews/halal-birdz-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "The highest Sam Score of any hot chicken spot I've reviewed, and a halal option that doesn't cut any corners on flavor."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/halal-birdz-nashville">Read my full Halal Birdz review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/halal-birdz-nashville">Read my full Halal Birdz review →</a></p>
       <div class="own-photo"><img src="/images/reviews/halal-birdz-nashville/order.jpg" alt="Close-up of the #4 Halal Snack Pack, medium heat, Halal Birdz" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/reds-hot-chicken-nashville">Red's Hot Chicken</a></h2>
@@ -1692,7 +1692,7 @@ const BLOG_POSTS = [
       <p>Red's has earned a strong reputation among Nashville hot chicken fans while remaining smaller and more low-key than some of the city's biggest names.</p>
       <p>It's an especially convenient stop if you're exploring Centennial Park or the Vanderbilt area, and the Hot Chicken Mac & Cheese Crunch Wrap is worth the trip on its own. <a href="/reviews/reds-hot-chicken-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A Midtown counter spot with a genuinely creative menu, not just another sandwich-and-fries hot chicken shop."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/reds-hot-chicken-nashville">Read my full Red's Hot Chicken review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/reds-hot-chicken-nashville">Read my full Red's Hot Chicken review →</a></p>
       <div class="own-photo"><img src="/images/reviews/reds-hot-chicken-nashville/order.jpg" alt="Sam's Hot Chicken Mac & Cheese Crunch Wrap with a side of ranch, Red's Hot Chicken" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/chen-chens-nashville">Chen Chen's</a></h2>
@@ -1703,7 +1703,7 @@ const BLOG_POSTS = [
       <p>Chen Chen's started as a pop-up in Toronto before becoming a permanent restaurant there, and has now brought the concept back to chef Chen Chen's hometown of Nashville, combining classic Nashville hot chicken with his own Asian-inspired flavors and sauces.</p>
       <p>The Homemade Mac & Cheese with Hot Chicken Bites in Szechuan sauce is unlike anything else on this list. <a href="/reviews/chen-chens-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "Nashville hot chicken with real Szechuan flavor behind it, a genuinely original take on a classic."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chen-chens-nashville">Read my full Chen Chen's review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chen-chens-nashville">Read my full Chen Chen's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chen-chens-nashville/order.jpg" alt="Sam's order: Mac & Cheese with Szechuan hot chicken bites, Chen Chen's Nashville" loading="lazy" /></div>
 
       <h2>More Nashville Hot Chicken Worth Knowing</h2>
@@ -1762,7 +1762,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Halal Birdz — 8.9</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Halal Birdz, 8.9</td></tr>
           <tr><td>🕌 Halal Hot Chicken</td><td>Halal Birdz</td></tr>
           <tr><td>🌳 Near Centennial Park</td><td>Red's Hot Chicken</td></tr>
           <tr><td>🥢 Asian-Inspired</td><td>Chen Chen's</td></tr>
@@ -1876,7 +1876,7 @@ const BLOG_POSTS = [
       <p>Prince St. Pizza has become one of my favorite places to grab a quick New York-style slice downtown, inside the Fifth + Broadway development.</p>
       <p>It's a solid, no-frills square slice with real New York pedigree, the Spicy Vodka and Naughty Pie both deliver plenty of flavor. It doesn't quite live up to the legendary hype of the original Nolita shop, but it's a dependable, affordable stop if you're downtown and want a genuinely good slice fast. <a href="/reviews/prince-street-pizza-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A dependable, affordable stop if you're downtown and want a genuinely good slice fast."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
       <div class="own-photo"><img src="/images/reviews/prince-street-pizza-nashville/order.jpg" alt="Sam's order: three square slices in the box, Prince St. Pizza Nashville" loading="lazy" /></div>
 
       <h2>More Nashville Pizza Worth Knowing</h2>
@@ -1943,7 +1943,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Prince St. Pizza — 7.4</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Prince St. Pizza, 7.4</td></tr>
           <tr><td>🍕 New York-Style</td><td>Prince St. Pizza / Five Points Pizza</td></tr>
           <tr><td>🇮🇹 Neapolitan</td><td>DeSano Pizzeria</td></tr>
           <tr><td>🟥 Detroit-Style</td><td>Emmy Squared</td></tr>
@@ -2031,7 +2031,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <p>Jack Brown's is a casual burger-and-beer spot in Germantown with a long beer list and a covered patio, focused on creative specialty burgers. <a href="/reviews/jack-browns-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/hugh-babys-nashville">Hugh-Baby's</a></h2>
@@ -2041,7 +2041,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>Founded by Nashville pitmaster Pat Martin (of Martin's Bar-B-Que Joint), Hugh-Baby's serves one of the city's best old-school cheeseburgers, on Charlotte Avenue with a drive-through and a patio. <a href="/reviews/hugh-babys-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "Smashed cheeseburgers, BBQ, and hand-spun shakes in one order, hard to find a better dollar-for-dollar meal."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/hugh-babys-nashville">Read my full Hugh-Baby's review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/hugh-babys-nashville">Read my full Hugh-Baby's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/hugh-babys-nashville/order.jpg" alt="Close-up of the double cheeseburger, no pickle, add bacon, Hugh-Baby's" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/baam-burger-nashville">Baam Burger</a></h2>
@@ -2051,7 +2051,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>Baam Burger is tucked into The Arcade downtown, just steps off Broadway, serving smashed patties, fries, and hand-spun milkshakes late into the night. <a href="/reviews/baam-burger-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A steps-off-Broadway smash burger that actually holds up, and stays open when you need it most."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order: Baam burger with bacon and cheese, fries, and a vanilla milkshake" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
@@ -2061,7 +2061,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>NADC, short for "Not A Damn Chance," keeps things simple: one burger, done one way, made with two smashed 3 oz patties of 100% Wagyu beef. Tucked inside the historic Arcade downtown, it's a quick, no-seating counter stop that's become one of the most talked-about burger spots in the city. <a href="/reviews/nadc-burger-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "One burger, done exactly one way, and Wagyu beef makes the case for why that's enough."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
 
       <h2>More Nashville Burgers Worth Knowing</h2>
@@ -2114,7 +2114,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Jack Brown's — 8.6</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Jack Brown's, 8.6</td></tr>
           <tr><td>🌙 Late-Night, Near Broadway</td><td>Baam Burger</td></tr>
           <tr><td>🥩 Wagyu Smash Burger</td><td>NADC Burger</td></tr>
           <tr><td>🍔 Old-School Cheeseburger</td><td>Hugh-Baby's / Dino's</td></tr>
@@ -2197,7 +2197,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
       <p>Ocean Prime is a polished steakhouse and seafood restaurant near Broadway, with a lively bar scene and a menu that swings from crab cakes and ahi tuna tartare to prime steaks and fresh seafood. <a href="/reviews/ocean-prime-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "One of my highest-scoring reviews on the site, a Broadway-adjacent steakhouse that actually earns the price tag."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/pelato-nashville">Pelato</a></h2>
@@ -2207,7 +2207,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
       <p>Pelato is a family-run, Brooklyn-Italian spot in Germantown, built around small, sharable plates like handmade pasta and fresh mozzarella, with a lively bar scene that makes it one of my favorite date night picks. <a href="/reviews/pelato-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "Sharable plates, handmade pasta, and a bar scene that turns dinner into a whole night out."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/pelato-nashville">Read my full Pelato review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/pelato-nashville">Read my full Pelato review →</a></p>
       <div class="own-photo"><img src="/images/reviews/pelato-nashville/order-chicken-parm.jpg" alt="Sam's order: Chicken Parmigiana, Pelato" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/maru-weho-nashville">Maru WeHo</a></h2>
@@ -2217,7 +2217,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>Maru WeHo sits in the Wedgewood-Houston neighborhood, with a sleek sushi bar, specialty rolls, and a cocktail menu that makes it one of my favorite date night picks. <a href="/reviews/maru-weho-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A sleek WeHo sushi bar with a cocktail menu that makes it one of my go-to date night picks."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/maru-weho-nashville">Read my full Maru WeHo review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/maru-weho-nashville">Read my full Maru WeHo review →</a></p>
       <div class="own-photo"><img src="/images/reviews/maru-weho-nashville/order.jpg" alt="Sam's order: Pink Lady, Tiger, and Dynamite rolls, Maru WeHo" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/culaccino-nashville">Culaccino</a></h2>
@@ -2227,7 +2227,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <p>Culaccino is a Franklin-based Italian concept's second location, tucked into The Emory tower at Nashville Yards, with scratch-made pasta, wood-fired pizza, and a lively dining room that makes it a solid date night option a short walk from downtown. <a href="/reviews/culaccino-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A solid, convenient date night option a short walk from downtown, not a destination trip on its own."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/culaccino-nashville">Read my full Culaccino review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/culaccino-nashville">Read my full Culaccino review →</a></p>
       <div class="own-photo"><img src="/images/reviews/culaccino-nashville/order-pizza.jpg" alt="Sam's order: Il Re Di Bologna pizza, Culaccino" loading="lazy" /></div>
 
       <h2>More Nashville Date Night Restaurants Worth Knowing</h2>
@@ -2295,7 +2295,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime / Pelato — 9.3</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime / Pelato, 9.3</td></tr>
           <tr><td>🥩 Upscale Steak & Seafood</td><td>Ocean Prime</td></tr>
           <tr><td>🍝 Sharable Italian Plates</td><td>Pelato</td></tr>
           <tr><td>🍣 Sushi & Cocktails</td><td>Maru WeHo</td></tr>
@@ -2552,7 +2552,7 @@ const BLOG_POSTS = [
       <p>Chilangos Tacos is a counter on Level 2 North of Assembly Food Hall, the Nashville outpost of a Dallas-based taco brand serving tacos, quesadillas, and nachos.</p>
       <p>Good atmosphere, quick service, and plenty of seating make it an easy stop if you're already downtown near Broadway. <a href="/reviews/chilangos-tacos-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A quick, genuinely good taco counter inside the food hall, my highest-scoring taco review so far."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/ladybird-taco-nashville">Ladybird Taco</a></h2>
@@ -2563,7 +2563,7 @@ const BLOG_POSTS = [
       <p>Ladybird Taco specializes in Texas-inspired breakfast and lunch tacos with freshly made tortillas.</p>
       <p>It's particularly convenient when you want something quick in the morning or around lunchtime rather than a traditional sit-down Mexican restaurant. <a href="/reviews/ladybird-taco-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A quick, freshly-made breakfast taco stop that's become a go-to 12 South morning order."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ladybird-taco-nashville">Read my full Ladybird Taco review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/ladybird-taco-nashville">Read my full Ladybird Taco review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ladybird-taco-nashville/order.jpg" alt="Sam's order: three foil-wrapped breakfast tacos, Ladybird Taco" loading="lazy" /></div>
 
       <h2>More Nashville Tacos Worth Knowing</h2>
@@ -2642,12 +2642,12 @@ const BLOG_POSTS = [
       <p>Tacos look simple, which makes the details even more important.</p>
       <p>When I personally review Nashville taco spots, I'm looking at:</p>
       <ul>
-        <li>🌮 Tortilla — Freshness, texture, flavor, and whether it holds together.</li>
-        <li>🥩 Meat/Filling — Seasoning, tenderness, portion, and preparation.</li>
-        <li>🌶️ Salsa — Flavor, heat, freshness, and how well it complements the taco.</li>
-        <li>🧅 Toppings — Freshness and whether they improve rather than overpower the filling.</li>
-        <li>💰 Value — Taco size, quality, and price.</li>
-        <li>⭐ Overall Experience — Would I actually come back and order it again?</li>
+        <li>🌮 Tortilla: Freshness, texture, flavor, and whether it holds together.</li>
+        <li>🥩 Meat/Filling: Seasoning, tenderness, portion, and preparation.</li>
+        <li>🌶️ Salsa: Flavor, heat, freshness, and how well it complements the taco.</li>
+        <li>🧅 Toppings: Freshness and whether they improve rather than overpower the filling.</li>
+        <li>💰 Value: Taco size, quality, and price.</li>
+        <li>⭐ Overall Experience: Would I actually come back and order it again?</li>
       </ul>
       <p>Restaurants I personally review receive a Sam Score out of 10.</p>
 
@@ -2756,7 +2756,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" aria-label="$60+, Luxury dining, tasting menus, premium steakhouses, special occasions" tabindex="0">$$$$</span></p>
       <p>Ocean Prime is my top pick near Nissan Stadium, a polished steakhouse and seafood restaurant just across the river near Broadway, with a lively bar scene and a menu that swings from crab cakes and ahi tuna tartare to prime steaks. <a href="/reviews/ocean-prime-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "My top pick before a Titans game, close enough to walk to the stadium and good enough to make the meal part of the day."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/chilangos-tacos-nashville">Chilangos Tacos</a></h2>
@@ -2766,7 +2766,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>Chilangos Tacos is a counter on Level 2 North of Assembly Food Hall, the Nashville outpost of a Dallas-based taco brand, an easy stop if you're spending time downtown before crossing over to Nissan Stadium. <a href="/reviews/chilangos-tacos-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A quick, genuinely good taco counter downtown, my highest-scoring taco review so far."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
@@ -2776,7 +2776,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
       <p>Jack Brown's is a casual burger-and-beer spot in Germantown, an easy stop if you want to spend some time downtown before walking over to Nissan Stadium without turning your pregame meal into a huge dinner. <a href="/reviews/jack-browns-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
@@ -2786,7 +2786,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>NADC Burger is another downtown option I've personally reviewed, tucked inside The Arcade. If you want a smash burger before or after your event, it's worth considering, especially if you're looking for something casual rather than a traditional sit-down dinner. <a href="/reviews/nadc-burger-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "One burger, done exactly one way, and Wagyu beef makes the case for why that's enough."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/the-philly-special-nashville">The Philly Special</a></h2>
@@ -2796,7 +2796,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>The Philly Special is a cheesesteak counter inside Assembly Food Hall at Fifth + Broadway, an easy addition if you're already eating there before the game. <a href="/reviews/the-philly-special-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A genuine Philly-style cheesesteak inside the food hall, an easy add-on if you're already eating there before the game."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
       <div class="own-photo"><img src="/images/reviews/the-philly-special-nashville/order.jpg" alt="Close-up of The Original cheesesteak with ribeye and white American, The Philly Special" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza</a></h2>
@@ -2806,7 +2806,7 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>If you don't want a massive meal before the game, grabbing pizza downtown can be one of the easiest options. <a href="/reviews/prince-street-pizza-nashville">Read Sam's full review →</a></p>
       <p>💬 <strong>Sam Says:</strong> "A dependable, affordable stop if you're downtown and want a genuinely good slice fast."</p>
-      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> — <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
       <div class="own-photo"><img src="/images/reviews/prince-street-pizza-nashville/order.jpg" alt="Sam's order: three square slices in the box, Prince St. Pizza Nashville" loading="lazy" /></div>
 
       <h2>More Restaurants Near Nissan Stadium Worth Knowing</h2>
@@ -2859,7 +2859,7 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime — 9.3</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Ocean Prime, 9.3</td></tr>
           <tr><td>🥩 Upscale Pregame</td><td>Ocean Prime</td></tr>
           <tr><td>🌮 Tacos</td><td>Chilangos Tacos</td></tr>
           <tr><td>🍔 Burgers</td><td>Jack Brown's / NADC Burger / The Pharmacy</td></tr>

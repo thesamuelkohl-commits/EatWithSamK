@@ -128,7 +128,7 @@ document.querySelectorAll("[data-nav]").forEach((nav) => {
 
 function referralWidgetHtml() {
   return `
-    <div class="referral-widget">
+    <div class="referral-widget glow-card">
       <h3 class="referral-title">🎁 Deals I Actually Use</h3>
       <p class="referral-blurb">A few things I personally use to eat out and get around, here's how you can save (or earn) too.</p>
       <div class="referral-cards">
@@ -223,6 +223,75 @@ document.querySelectorAll("[data-newsletter-embed]").forEach((container) => {
   container.appendChild(script);
 });
 
+/* ---------- Cinematic pointer effects: cursor beam, spotlight-on-hover,
+   tilt ----------
+   Desktop-only (a real mouse, not a touch/coarse pointer) and skipped
+   entirely under prefers-reduced-motion, this is pure visual flourish and
+   never required for using the site. Everything runs off one rAF-throttled
+   mousemove listener so it stays cheap even on busy pages like reviews.html. */
+const canHoverWithMouse = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
+const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+if (canHoverWithMouse && !prefersReducedMotion) {
+  const beam = document.createElement("div");
+  beam.className = "cursor-beam";
+  beam.setAttribute("aria-hidden", "true");
+  document.body.appendChild(beam);
+
+  let pendingPointer = null;
+  let pointerRaf = null;
+
+  function applyPointerEffects() {
+    pointerRaf = null;
+    if (!pendingPointer) return;
+    const { x, y, target } = pendingPointer;
+
+    beam.style.setProperty("--beam-x", `${x}px`);
+    beam.style.setProperty("--beam-y", `${y}px`);
+    beam.classList.add("is-active");
+
+    const glowCard = target.closest(".glow-card");
+    if (glowCard) {
+      const rect = glowCard.getBoundingClientRect();
+      glowCard.style.setProperty("--mx", `${x - rect.left}px`);
+      glowCard.style.setProperty("--my", `${y - rect.top}px`);
+    }
+
+    const tiltCard = target.closest(".tilt-card");
+    if (tiltCard) {
+      const rect = tiltCard.getBoundingClientRect();
+      const px = (x - rect.left) / rect.width - 0.5;
+      const py = (y - rect.top) / rect.height - 0.5;
+      // No transition while actively tracking, otherwise the tilt lags
+      // behind the cursor instead of following it 1:1; the mouseout
+      // handler below re-enables a transition just for the snap-back.
+      tiltCard.style.transition = "none";
+      tiltCard.style.transform = `perspective(800px) rotateX(${(py * -7).toFixed(2)}deg) rotateY(${(px * 7).toFixed(2)}deg) translateY(-4px)`;
+    }
+  }
+
+  document.addEventListener("mousemove", (e) => {
+    pendingPointer = { x: e.clientX, y: e.clientY, target: e.target };
+    if (!pointerRaf) pointerRaf = requestAnimationFrame(applyPointerEffects);
+  });
+
+  document.addEventListener("mouseleave", () => beam.classList.remove("is-active"));
+
+  // Reset tilt the moment the pointer leaves a tilt-card, rather than
+  // waiting for the next mousemove elsewhere, so it doesn't hang mid-tilt.
+  document.addEventListener(
+    "mouseout",
+    (e) => {
+      const card = e.target.closest(".tilt-card");
+      if (card && !card.contains(e.relatedTarget)) {
+        card.style.transition = "transform 0.45s cubic-bezier(0.16, 1, 0.3, 1)";
+        card.style.transform = "";
+      }
+    },
+    true
+  );
+}
+
 /* ---------- Shared place helpers (used by app.js and reviews.js) ---------- */
 
 function ratingClass(rating) {
@@ -277,7 +346,7 @@ function placeCardHtml(p, opts) {
   const ratingBadge = `<div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>`;
   const metaBits = [p.cuisine, p.price ? priceTagHtml(p.price) : ""].filter(Boolean);
   return `
-    <article class="place-card reveal" id="card-${p.id}">
+    <article class="place-card glow-card tilt-card reveal" id="card-${p.id}">
       ${
         p.heroPhoto
           ? `<a class="card-photo" href="/reviews/${p.id}" style="background-image: url('${p.heroPhoto}')" aria-hidden="true" tabindex="-1">${ratingBadge}</a>`
@@ -408,7 +477,7 @@ function postCoverPhoto(post) {
 function blogCardHtml(post) {
   const cover = postCoverPhoto(post);
   return `
-    <a class="blog-card reveal" href="/guides/${post.id}/">
+    <a class="blog-card glow-card tilt-card reveal" href="/guides/${post.id}/">
       ${cover ? `<div class="blog-card-banner blog-card-banner-photo" style="background-image: url('${cover}')"></div>` : `<div class="blog-card-banner">${post.emoji}</div>`}
       <div class="blog-card-body">
         <div class="blog-meta"><span class="pill">${post.city}</span><span>${formatPostDate(post.date)}</span></div>

@@ -15,6 +15,12 @@
   --radius: 16px;
   --shadow: 0 2px 12px rgba(36, 29, 26, 0.08);
   --shadow-lg: 0 8px 28px rgba(36, 29, 26, 0.14);
+
+  /* Glassmorphism surface tokens */
+  --glass-bg: rgba(255, 255, 255, 0.6);
+  --glass-bg-strong: rgba(255, 255, 255, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.8);
+  --glass-blur: blur(18px) saturate(1.5);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -33,12 +39,70 @@ body {
   color: var(--ink);
   line-height: 1.6;
   animation: page-fade-in 0.5s ease;
+  position: relative;
+  overflow-x: clip;
 }
 
 @keyframes page-fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* ---------- Ambient background (glass cards blur against this) ---------- */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(circle at 12% 15%, rgba(242, 169, 59, 0.20), transparent 38%),
+    radial-gradient(circle at 88% 10%, rgba(192, 90, 36, 0.16), transparent 40%),
+    radial-gradient(circle at 30% 85%, rgba(47, 158, 100, 0.10), transparent 42%),
+    radial-gradient(circle at 92% 78%, rgba(47, 125, 225, 0.08), transparent 40%);
+  pointer-events: none;
+}
+
+/* ---------- Cursor-following beam (desktop pointer only) ---------- */
+.cursor-beam {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 620px;
+  height: 620px;
+  margin-left: -310px;
+  margin-top: -310px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(242, 169, 59, 0.16), rgba(192, 90, 36, 0.07) 45%, transparent 72%);
+  transform: translate3d(var(--beam-x, -1000px), var(--beam-y, -1000px), 0);
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  mix-blend-mode: multiply;
+  will-change: transform;
+}
+
+.cursor-beam.is-active { opacity: 1; }
+
+/* ---------- Cursor spotlight-on-hover (cards glow toward the pointer) ---------- */
+.glow-card { position: relative; isolation: isolate; }
+
+.glow-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 50%), rgba(255, 255, 255, 0.55), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.glow-card:hover::after,
+.glow-card:focus-within::after { opacity: 1; }
+
+.glow-card > * { position: relative; z-index: 0; }
 
 /* ---------- Motion: scroll reveal ---------- */
 .reveal {
@@ -181,8 +245,10 @@ a { color: var(--red); }
   position: absolute;
   top: calc(100% + 10px);
   right: 0;
-  background: var(--card);
-  border: 1px solid var(--line);
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow-lg);
   padding: 16px;
@@ -251,8 +317,10 @@ a { color: var(--red); }
   position: absolute;
   top: calc(100% + 10px);
   right: 0;
-  background: var(--card);
-  border: 1px solid var(--line);
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow-lg);
   padding: 16px;
@@ -434,8 +502,10 @@ a { color: var(--red); }
   flex-wrap: wrap;
   align-items: center;
   gap: 14px 22px;
-  background: var(--card);
-  border: 1px solid var(--line);
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius);
   padding: 16px 18px;
   margin-bottom: 22px;
@@ -512,8 +582,10 @@ a { color: var(--red); }
 .finder-section { padding: 8px 0 40px; }
 
 .finder-card {
-  background: var(--card);
-  border: 1px solid var(--line);
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 30px 32px;
@@ -627,8 +699,10 @@ a { color: var(--red); }
 }
 
 .place-card {
-  background: var(--card);
-  border: 1px solid var(--line);
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -884,8 +958,10 @@ a { color: var(--red); }
 }
 
 .blog-card {
-  background: var(--card);
-  border: 1px solid var(--line);
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -1073,8 +1149,10 @@ a { color: var(--red); }
 
 /* Rating scale legend (About page) */
 .rating-scale-card {
-  background: var(--card);
-  border: 1px solid var(--line);
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 4px 22px;
@@ -1094,8 +1172,10 @@ a { color: var(--red); }
 
 /* Quick facts block */
 .quick-facts-card {
-  background: var(--card);
-  border: 1px solid var(--line);
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 18px 22px;
@@ -1233,7 +1313,10 @@ a { color: var(--red); }
 
 /* ---------- Referral widget (footer + review pages) ---------- */
 .referral-widget {
-  background: var(--card);
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 24px;

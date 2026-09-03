@@ -91,7 +91,7 @@ function favoriteButtonHtml(place, extraClass) {
 // never need to diverge.
 function referralWidgetHtml() {
   return `
-    <div class="referral-widget">
+    <div class="referral-widget glow-card">
       <h3 class="referral-title">🎁 Deals I Actually Use</h3>
       <p class="referral-blurb">A few things I personally use to eat out and get around, here's how you can save (or earn) too.</p>
       <div class="referral-cards">
@@ -344,7 +344,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=41" />
+  <link rel="stylesheet" href="../css/style.css?v=42" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -382,7 +382,7 @@ function renderReviewPage(place, relatedPosts) {
     ${place.heroPhoto ? `</div>` : ""}
     ${tagsHtml ? `<div class="card-tags">${tagsHtml}</div>` : ""}
 
-    <div class="reveal quick-facts-card">${quickFactsHtml}</div>
+    <div class="reveal quick-facts-card glow-card">${quickFactsHtml}</div>
 
     ${videoPermalink ? `
     <div class="reveal">
@@ -431,12 +431,12 @@ function renderReviewPage(place, relatedPosts) {
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
-  <script src="../js/data.js?v=15"></script>
+  <script src="../js/data.js?v=16"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=32"></script>
-  <script src="../js/auth.js?v=3"></script>
-  <script src="../js/pwa.js?v=1"></script>
+  <script src="../js/common.js?v=33"></script>
+  <script src="../js/auth.js?v=4"></script>
+  <script src="../js/pwa.js?v=2"></script>
   <script>
     hydrateFavoriteButtons();
     var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
@@ -559,7 +559,7 @@ function renderGuidePage(post) {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=41" />
+  <link rel="stylesheet" href="/css/style.css?v=42" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -608,12 +608,12 @@ function renderGuidePage(post) {
   <footer class="site-footer" data-footer data-prefix="/"></footer>
 
   ${hasInstagramEmbed ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
-  <script src="/js/data.js?v=15"></script>
+  <script src="/js/data.js?v=16"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=32"></script>
-  <script src="/js/auth.js?v=3"></script>
-  <script src="/js/pwa.js?v=1"></script>
+  <script src="/js/common.js?v=33"></script>
+  <script src="/js/auth.js?v=4"></script>
+  <script src="/js/pwa.js?v=2"></script>
 </body>
 </html>
 `;
@@ -758,7 +758,7 @@ function bakeHomepageStats() {
 function blogCardHtml(post) {
   const cover = postCoverPhoto(post);
   return `
-    <a class="blog-card reveal" href="/guides/${post.id}/">
+    <a class="blog-card glow-card tilt-card reveal" href="/guides/${post.id}/">
       ${cover ? `<div class="blog-card-banner blog-card-banner-photo" style="background-image: url('${cover}')"></div>` : `<div class="blog-card-banner">${post.emoji}</div>`}
       <div class="blog-card-body">
         <div class="blog-meta"><span class="pill">${escapeHtml(post.city)}</span><span>${formatVisitDate(post.date)}</span></div>

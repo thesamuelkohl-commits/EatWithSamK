@@ -42,7 +42,7 @@ function installWidgetHtml() {
           <ol class="install-steps">
             <li>Tap <strong>Share</strong> <span aria-hidden="true">⬆️</span> in Safari's toolbar</li>
             <li>Scroll down and tap <strong>Add to Home Screen</strong></li>
-            <li>Tap <strong>Add</strong> — you're done!</li>
+            <li>Tap <strong>Add</strong>, you're done!</li>
           </ol>
         </div>
       </div>`;

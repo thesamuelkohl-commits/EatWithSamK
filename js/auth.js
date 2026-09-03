@@ -50,7 +50,7 @@ function authWidgetHtml() {
       <div class="auth-widget">
         <button type="button" class="auth-trigger auth-trigger-signedin" data-auth-toggle aria-expanded="${expanded}">👤 ${escapeForAttr(currentUser.email)}</button>
         <div class="auth-popover" data-auth-popover ${openAttr}>
-          <p class="auth-popover-title">Signed in — your saved places sync across devices.</p>
+          <p class="auth-popover-title">Signed in, your saved places sync across devices.</p>
           <button type="button" class="btn btn-ghost auth-signout" data-auth-signout>Sign Out</button>
         </div>
       </div>`;
@@ -79,7 +79,7 @@ function authWidgetHtml() {
 
 async function sendMagicLink(email) {
   if (!supabaseClient) {
-    authError = "Sign-in isn't set up yet on this site — see js/supabase-config.js.";
+    authError = "Sign-in isn't set up yet on this site, see js/supabase-config.js.";
     authWidgetState = "signed-out";
     renderAuthWidgets();
     return;
