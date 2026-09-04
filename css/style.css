@@ -1172,14 +1172,13 @@ a { color: var(--red); }
 .coming-soon-card strong { color: var(--ink); }
 .coming-soon-card p + p { margin-top: 6px; }
 
-.media-kit-stats {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 18px 24px;
-  padding-bottom: 18px;
-  margin-bottom: 18px;
-  border-bottom: 1px solid var(--line);
+.stats-recap-img {
+  display: block;
+  max-width: 340px;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: var(--shadow);
 }
 
 .stats-note {
