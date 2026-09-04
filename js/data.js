@@ -57,6 +57,35 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "sake-steakhouse-hendersonville",
+    name: "Sake Steak House",
+    city: "Hendersonville, TN",
+    lat: 36.3274,
+    lng: -86.5974,
+    address: "261 Indian Lake Blvd, Ste 130, Hendersonville, TN 37075",
+    phone: "(615) 431-0380",
+    parking: "Free parking",
+    website: "https://www.sakesteakhousetn.com/",
+    date: "2026-08-26",
+    price: "$$",
+    cuisine: "Hibachi",
+    badges: ["group-friendly"],
+    about: "Sake Steak House is a hibachi and sushi restaurant in the Indian Lake Village shopping center in Hendersonville, serving hibachi grill combos, sushi, and steakhouse classics with tableside cooking.",
+    ate: "The Chicken and Shrimp combo with double spicy rice and no vegetables.",
+    heroPhoto: "images/reviews/sake-steakhouse-hendersonville/order.jpg",
+    photos: [
+      { src: "images/reviews/sake-steakhouse-hendersonville/storefront.jpg", alt: "Sake Steak House storefront sign at night, Hendersonville" },
+      { src: "images/reviews/sake-steakhouse-hendersonville/interior.jpg", alt: "Inside Sake Steak House, dining room with lanterns and umbrellas" },
+      { src: "images/reviews/sake-steakhouse-hendersonville/kitchen.jpg", alt: "Hibachi chef cooking on the grill at Sake Steak House" },
+      { src: "images/reviews/sake-steakhouse-hendersonville/order.jpg", alt: "Sam's order: Chicken and Shrimp combo with double spicy rice, Sake Steak House" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Lots of seating", "Quick", "Nice interior"],
+    rating: 7.7,
+    video: "https://www.instagram.com/reel/Dc4Z5oxMDq_/",
+    tags: ["Hibachi", "Hendersonville"],
+  },
+  {
     id: "biscuit-love-nashville",
     name: "Biscuit Love",
     city: "Nashville, TN",
