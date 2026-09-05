@@ -1,6 +1,59 @@
 {
-  "generatedAt": "2026-09-04T23:08:39.580Z",
+  "generatedAt": "2026-09-05T22:14:40.755Z",
   "places": [
+    {
+      "id": "superica-atlanta",
+      "name": "Superica",
+      "city": "Atlanta, GA",
+      "lat": 33.8889309,
+      "lng": -84.4692414,
+      "address": "455 Legends Pl SE, Atlanta, GA 30339",
+      "phone": "(770) 675-6318",
+      "parking": "Paid parking",
+      "website": "https://superica.com/atlanta/",
+      "date": "2026-08-27",
+      "price": "$$$",
+      "cuisine": "Tex-Mex",
+      "badges": [
+        "group-friendly"
+      ],
+      "about": "Superica is a Tex-Mex restaurant and cantina at The Battery Atlanta, right next to Truist Park, serving queso, tacos al carbon, fajitas, and margaritas in a lively, baseball-adjacent atmosphere.",
+      "ate": "The queso with picadillo and Tacos al Carbon with steak, chicken, and pork.",
+      "heroPhoto": "images/reviews/superica-atlanta/order-tacos.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/superica-atlanta/storefront.jpg",
+          "alt": "Superica storefront sign at The Battery Atlanta"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/superica-atlanta/interior.jpg",
+          "alt": "Inside Superica, packed dining room on a Braves game day"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/superica-atlanta/order-queso.jpg",
+          "alt": "Sam's order: queso with picadillo, Superica"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/superica-atlanta/order-tacos.jpg",
+          "alt": "Sam's order: Tacos al Carbon with steak, chicken, and pork, Superica"
+        }
+      ],
+      "pros": [
+        "Close to the ballpark",
+        "Quick to serve food",
+        "Cool area"
+      ],
+      "cons": [
+        "Can be busy during games"
+      ],
+      "rating": 8.1,
+      "video": "https://www.instagram.com/reel/Dc66qiVs8ZO/",
+      "tags": [
+        "Tex-Mex",
+        "The Battery Atlanta"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/superica-atlanta"
+    },
     {
       "id": "sake-steakhouse-hendersonville",
       "name": "Sake Steak House",

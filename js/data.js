@@ -57,6 +57,36 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "superica-atlanta",
+    name: "Superica",
+    city: "Atlanta, GA",
+    lat: 33.8889309,
+    lng: -84.4692414,
+    address: "455 Legends Pl SE, Atlanta, GA 30339",
+    phone: "(770) 675-6318",
+    parking: "Paid parking",
+    website: "https://superica.com/atlanta/",
+    date: "2026-08-27",
+    price: "$$$",
+    cuisine: "Tex-Mex",
+    badges: ["group-friendly"],
+    about: "Superica is a Tex-Mex restaurant and cantina at The Battery Atlanta, right next to Truist Park, serving queso, tacos al carbon, fajitas, and margaritas in a lively, baseball-adjacent atmosphere.",
+    ate: "The queso with picadillo and Tacos al Carbon with steak, chicken, and pork.",
+    heroPhoto: "images/reviews/superica-atlanta/order-tacos.jpg",
+    photos: [
+      { src: "images/reviews/superica-atlanta/storefront.jpg", alt: "Superica storefront sign at The Battery Atlanta" },
+      { src: "images/reviews/superica-atlanta/interior.jpg", alt: "Inside Superica, packed dining room on a Braves game day" },
+      { src: "images/reviews/superica-atlanta/order-queso.jpg", alt: "Sam's order: queso with picadillo, Superica" },
+      { src: "images/reviews/superica-atlanta/order-tacos.jpg", alt: "Sam's order: Tacos al Carbon with steak, chicken, and pork, Superica" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Close to the ballpark", "Quick to serve food", "Cool area"],
+    cons: ["Can be busy during games"],
+    rating: 8.1,
+    video: "https://www.instagram.com/reel/Dc66qiVs8ZO/",
+    tags: ["Tex-Mex", "The Battery Atlanta"],
+  },
+  {
     id: "sake-steakhouse-hendersonville",
     name: "Sake Steak House",
     city: "Hendersonville, TN",
