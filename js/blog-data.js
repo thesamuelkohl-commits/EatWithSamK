@@ -92,26 +92,32 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Oysters, seafood and a casual local atmosphere</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>📍 <strong>I've been here.</strong> My full review and Sam Score are coming soon, and this entry moves to the top of the guide once it's live.</p>
+      <div class="sourced-photo"><img src="/images/guides/dustys-oyster-bar-pcb/dish.jpg" alt="Fried crab claws with dipping sauces, Dusty's Oyster Bar Panama City Beach" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://dustysoysterbar.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
       <h3>🍺 <a href="https://www.mcguiresirishpub.com/pcb" target="_blank" rel="noopener">McGuire's Irish Pub</a></h3>
       <p>McGuire's brought its well-known Irish pub concept to Panama City Beach and offers a completely different experience from the seafood-heavy restaurants you'll find throughout PCB. It's one I'm interested in trying as I continue exploring the area.</p>
       <p><strong>Best For:</strong> Groups, pub food, drinks and a lively atmosphere</p>
 
-      <h3>🐟 Mike's Cafe &amp; Oyster Bar</h3>
+      <h3>🐟 <a href="https://www.instagram.com/mikescafeandoysterbar/" target="_blank" rel="noopener">Mike's Cafe &amp; Oyster Bar</a></h3>
       <p>If you're looking for another casual seafood and oyster option, Mike's Cafe &amp; Oyster Bar is one of the local names worth knowing. The menu leans heavily into the kind of seafood you'd expect on a Florida beach trip, including oysters and other Gulf Coast favorites.</p>
       <p><strong>Best For:</strong> Casual seafood and oysters</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CTft3MnlTOB/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🦐 <a href="https://www.seafoodmarketpcb.com/" target="_blank" rel="noopener">Local Steamer Seafood Market</a></h3>
       <p>Local Steamer is particularly interesting if your priority is the seafood itself rather than a traditional sit-down restaurant experience. Seafood boils and Gulf Coast favorites make this a spot I'd consider for anyone wanting a more casual PCB seafood meal.</p>
       <p><strong>Best For:</strong> Seafood boils, shellfish and casual takeout</p>
+      <div class="sourced-photo"><img src="/images/guides/local-steamer-pcb/dish.jpg" alt="Steamed seafood trays with snow crab, shrimp, sausage, corn and potatoes, Local Steamer Seafood Market" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.seafoodmarketpcb.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
-      <h3>🍽️ Hunt &amp; Gather Raw Bar &amp; Pub</h3>
+      <h3>🍽️ <a href="https://huntandgatherrawbarandpub.com/" target="_blank" rel="noopener">Hunt &amp; Gather Raw Bar &amp; Pub</a></h3>
       <p>For something a little more chef-driven, Hunt &amp; Gather is one of the Panama City Beach restaurants on my list to try. It offers a different experience from many of PCB's large beachfront and tourist-oriented restaurants, making it especially interesting if you're looking for a more food-focused dinner.</p>
       <p><strong>Best For:</strong> Date night and a more elevated meal</p>
 
       <h3>✨ <a href="https://www.fireflypcb.com/" target="_blank" rel="noopener">Firefly</a></h3>
       <p>Firefly is another option to consider when you're looking for a nicer dinner in Panama City Beach. Rather than the ultra-casual beach atmosphere you'll find at many PCB restaurants, Firefly is geared more toward an elevated night out.</p>
       <p><strong>Best For:</strong> Date night, celebrations and nicer dinners</p>
+      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Da6O4_FAY0_/" data-instgrm-version="14"></blockquote></div>
 
       <h2>Best Panama City Beach Restaurants by Occasion</h2>
       <p>As I personally review more restaurants, these picks will increasingly be based on my own Sam Scores.</p>
