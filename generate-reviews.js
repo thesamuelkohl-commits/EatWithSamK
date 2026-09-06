@@ -128,6 +128,16 @@ function formatVisitDate(dateStr) {
   });
 }
 
+// Guides carry a month-level "last updated" stamp (see each post's `updated`
+// field in js/blog-data.js). Month + year, not a precise day, since a guide
+// gets touched up continuously rather than republished on one date.
+function formatUpdatedDate(dateStr) {
+  return new Date(dateStr + "T12:00:00").toLocaleDateString("en-US", {
+    month: "long",
+    year: "numeric",
+  });
+}
+
 function truncate(str, max) {
   const clean = str.replace(/\s+/g, " ").trim();
   return clean.length > max ? clean.slice(0, max - 1).trim() + "…" : clean;
@@ -344,7 +354,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=45" />
+  <link rel="stylesheet" href="../css/style.css?v=46" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -484,6 +494,7 @@ function renderGuidePage(post) {
     headline: post.title,
     description,
     datePublished: post.date,
+    ...(post.updated ? { dateModified: post.updated } : {}),
     image: ogImage,
     author: { "@type": "Person", name: "Sam K" },
     publisher: { "@type": "Organization", name: SITE.name },
@@ -559,7 +570,7 @@ function renderGuidePage(post) {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=45" />
+  <link rel="stylesheet" href="/css/style.css?v=46" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -600,7 +611,7 @@ function renderGuidePage(post) {
     <div class="post-emoji">${post.emoji}</div>
     <h1>${escapeHtml(post.title)}</h1>`
     }
-    <div class="blog-meta"><span class="pill">${escapeHtml(post.city)}</span><span>${fmt}</span></div>
+    <div class="blog-meta"><span class="pill">${escapeHtml(post.city)}</span><span>${fmt}</span>${post.updated ? `<span class="post-updated">🔄 Last updated: ${formatUpdatedDate(post.updated)}</span>` : ""}</div>
     <div class="post-body">${post.content}</div>
     ${referralWidgetHtml()}
   </main>
@@ -629,7 +640,7 @@ function renderSitemap() {
     { loc: `${SITE_URL}/advertise`, priority: "0.4" },
     { loc: `${SITE_URL}/privacy`, priority: "0.2" },
     ...PLACES.map((p) => ({ loc: reviewUrl(p), priority: "0.9", lastmod: p.date })),
-    ...BLOG_POSTS.map((post) => ({ loc: guideUrl(post), priority: "0.7", lastmod: post.date })),
+    ...BLOG_POSTS.map((post) => ({ loc: guideUrl(post), priority: "0.7", lastmod: post.updated || post.date })),
   ];
   const body = urls
     .map((u) => {

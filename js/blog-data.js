@@ -40,11 +40,145 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-restaurants-panama-city-beach",
+    title: "Best Restaurants in Panama City Beach, FL (2026): Where to Eat",
+    city: "Panama City Beach, FL",
+    date: "2026-09-06",
+    updated: "2026-09-06",
+    emoji: "🦪",
+    excerpt:
+      "Looking for the best restaurants in Panama City Beach? See Sam Scores, honest reviews, seafood spots, date-night restaurants and where to eat in PCB.",
+    faq: [
+      {
+        question: "What are the best restaurants in Panama City Beach?",
+        answer:
+          "I'm currently eating my way through Panama City Beach and rating restaurants using the Sam Score. Dusty's Oyster Bar is the first restaurant I've visited for this guide, and its full review and Sam Score are on the way, with more restaurants added as I get to them.",
+      },
+      {
+        question: "Where should I eat seafood in Panama City Beach?",
+        answer:
+          "PCB has a huge number of seafood restaurants. Dusty's Oyster Bar is one I've personally visited, while places like Mike's Cafe & Oyster Bar and Local Steamer Seafood Market are also on my radar as I continue exploring the area.",
+      },
+      {
+        question: "Where can I get oysters in Panama City Beach?",
+        answer:
+          "Dusty's Oyster Bar is one of the city's well-known casual oyster spots and one I've personally visited. Mike's Cafe & Oyster Bar is another option worth knowing about.",
+      },
+      {
+        question: "What are the best restaurants in Panama City Beach for date night?",
+        answer:
+          "Hunt & Gather Raw Bar & Pub and Firefly are two restaurants worth considering for a nicer evening. I haven't personally Sam Scored either yet, so I'll update this section once I do.",
+      },
+      {
+        question: "What is a Sam Score?",
+        answer:
+          "The Sam Score is my overall restaurant rating. Restaurants can't pay for a Sam Score, and sponsored content doesn't influence ratings. I pay for my independent review experiences so the score reflects what I actually thought about the food and experience.",
+      },
+    ],
+    content: `
+      <p>Panama City Beach has no shortage of places to eat. Between beachfront seafood restaurants, oyster bars, casual local spots, and restaurants packed with tourists, the harder question is figuring out which ones are actually worth your money.</p>
+      <p>That's what I'm trying to find out.</p>
+      <p>I'm eating my way through Panama City Beach and personally reviewing restaurants along the way. Every restaurant I review gets a Sam Score, my overall rating based on the food and experience.</p>
+      <p>This guide will continue to grow as I try more restaurants around PCB, so check back as more places get added.</p>
+      <p>No paid reviews. No bought ratings. Every Sam Score reflects my actual experience.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>Panama City Beach Restaurants Worth Knowing</h2>
+      <p>I'm just getting started on Panama City Beach, so nothing here has an official Sam Score yet. Dusty's is the first one I've visited, and its review is on the way.</p>
+      <p>Rather than assigning rankings to places I haven't personally reviewed and published yet, I'm keeping them on my radar and will update this guide as I go.</p>
+
+      <h3>🦪 <a href="https://dustysoysterbar.com/" target="_blank" rel="noopener">Dusty's Oyster Bar</a></h3>
+      <p>If you're searching for seafood in Panama City Beach, there's a good chance you'll hear about Dusty's Oyster Bar. Dusty's has the kind of atmosphere you want from an old-school Florida oyster bar. It's casual, busy, and much more about grabbing seafood and having a good time than getting a polished fine-dining experience.</p>
+      <p><strong>Best For:</strong> Oysters, seafood and a casual local atmosphere</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>📍 <strong>I've been here.</strong> My full review and Sam Score are coming soon, and this entry moves to the top of the guide once it's live.</p>
+
+      <h3>🍺 <a href="https://www.mcguiresirishpub.com/pcb" target="_blank" rel="noopener">McGuire's Irish Pub</a></h3>
+      <p>McGuire's brought its well-known Irish pub concept to Panama City Beach and offers a completely different experience from the seafood-heavy restaurants you'll find throughout PCB. It's one I'm interested in trying as I continue exploring the area.</p>
+      <p><strong>Best For:</strong> Groups, pub food, drinks and a lively atmosphere</p>
+
+      <h3>🐟 Mike's Cafe &amp; Oyster Bar</h3>
+      <p>If you're looking for another casual seafood and oyster option, Mike's Cafe &amp; Oyster Bar is one of the local names worth knowing. The menu leans heavily into the kind of seafood you'd expect on a Florida beach trip, including oysters and other Gulf Coast favorites.</p>
+      <p><strong>Best For:</strong> Casual seafood and oysters</p>
+
+      <h3>🦐 <a href="https://www.seafoodmarketpcb.com/" target="_blank" rel="noopener">Local Steamer Seafood Market</a></h3>
+      <p>Local Steamer is particularly interesting if your priority is the seafood itself rather than a traditional sit-down restaurant experience. Seafood boils and Gulf Coast favorites make this a spot I'd consider for anyone wanting a more casual PCB seafood meal.</p>
+      <p><strong>Best For:</strong> Seafood boils, shellfish and casual takeout</p>
+
+      <h3>🍽️ Hunt &amp; Gather Raw Bar &amp; Pub</h3>
+      <p>For something a little more chef-driven, Hunt &amp; Gather is one of the Panama City Beach restaurants on my list to try. It offers a different experience from many of PCB's large beachfront and tourist-oriented restaurants, making it especially interesting if you're looking for a more food-focused dinner.</p>
+      <p><strong>Best For:</strong> Date night and a more elevated meal</p>
+
+      <h3>✨ <a href="https://www.fireflypcb.com/" target="_blank" rel="noopener">Firefly</a></h3>
+      <p>Firefly is another option to consider when you're looking for a nicer dinner in Panama City Beach. Rather than the ultra-casual beach atmosphere you'll find at many PCB restaurants, Firefly is geared more toward an elevated night out.</p>
+      <p><strong>Best For:</strong> Date night, celebrations and nicer dinners</p>
+
+      <h2>Best Panama City Beach Restaurants by Occasion</h2>
+      <p>As I personally review more restaurants, these picks will increasingly be based on my own Sam Scores.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>🦪 Oysters</td><td>Dusty's Oyster Bar</td></tr>
+          <tr><td>🐟 Casual Seafood</td><td>Dusty's Oyster Bar / Mike's Cafe</td></tr>
+          <tr><td>🍺 Lively Group Spot</td><td>McGuire's Irish Pub</td></tr>
+          <tr><td>🦐 Seafood Boil</td><td>Local Steamer</td></tr>
+          <tr><td>❤️ Date Night</td><td>Hunt &amp; Gather / Firefly</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Food Is Panama City Beach Known For?</h2>
+      <p>Seafood is the obvious answer. Being on Florida's Gulf Coast means you'll find plenty of oysters, shrimp, fish, crab and seafood boils throughout Panama City Beach.</p>
+      <p>But that's also why I wouldn't spend an entire PCB trip eating at restaurants simply because they're on the water. I'm looking for the places where the food itself is worth the visit, whether that's a seafood shack, oyster bar, burger joint, breakfast restaurant or an upscale dinner.</p>
+
+      <h2>Where Should You Eat in Panama City Beach?</h2>
+      <p>If it's your first trip, I'd mix up your restaurant choices rather than eating at the same type of place every night.</p>
+      <p>Try an old-school seafood or oyster bar, have at least one nicer dinner, and leave room for some of the less obvious restaurants away from the biggest tourist areas.</p>
+      <p>As I review more PCB restaurants, I'll update this page with my personal rankings so it's easier to decide where your money is actually worth spending.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What are the best restaurants in Panama City Beach?</strong></p>
+      <p>I'm currently eating my way through Panama City Beach and rating restaurants using the Sam Score. Dusty's Oyster Bar is the first restaurant I've visited for this guide, and its full review and Sam Score are on the way, with more restaurants added as I get to them.</p>
+      <p><strong>Where should I eat seafood in Panama City Beach?</strong></p>
+      <p>PCB has a huge number of seafood restaurants. Dusty's Oyster Bar is one I've personally visited, while places like Mike's Cafe &amp; Oyster Bar and Local Steamer Seafood Market are also on my radar as I continue exploring the area.</p>
+      <p><strong>Where can I get oysters in Panama City Beach?</strong></p>
+      <p>Dusty's Oyster Bar is one of the city's well-known casual oyster spots and one I've personally visited. Mike's Cafe &amp; Oyster Bar is another option worth knowing about.</p>
+      <p><strong>What are the best restaurants in Panama City Beach for date night?</strong></p>
+      <p>Hunt &amp; Gather Raw Bar &amp; Pub and Firefly are two restaurants worth considering for a nicer evening. I haven't personally Sam Scored either yet, so I'll update this section once I do.</p>
+      <p><strong>What is a Sam Score?</strong></p>
+      <p>The Sam Score is my overall restaurant rating. Restaurants can't pay for a Sam Score, and sponsored content doesn't influence ratings. I pay for my independent review experiences so the score reflects what I actually thought about the food and experience.</p>
+
+      <h2>The Sam Score</h2>
+      <p>Every restaurant that receives a Sam Score has been personally visited and reviewed by me, food quality, value, service, and atmosphere all factor in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
+
+      <h2>Eating My Way Through Panama City Beach 🌴</h2>
+      <p>This guide is only the beginning. I'm currently eating my way through Panama City Beach, trying restaurants around PCB and figuring out which ones are actually worth visiting.</p>
+      <p>Every new restaurant I review will be added here with its Sam Score.</p>
+      <p>Follow <a href="https://www.instagram.com/eatwithsamk" target="_blank" rel="noopener">@eatwithsamk</a> on Instagram, TikTok and YouTube to watch the reviews as they're released.</p>
+      <p>Good food. Real reviews. Good times.</p>
+
+      <h2>More Food Guides</h2>
+      <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-steakhouses-nashville/">Best Steakhouses in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-italian-restaurants-nashville",
     places: ["pelato-nashville", "culaccino-nashville"],
     title: "Best Italian Restaurants in Nashville (2026)",
     city: "Nashville, TN",
     date: "2026-08-27",
+    updated: "2026-09-06",
     emoji: "🍝",
     excerpt:
       "Looking for the best Italian restaurants in Nashville? Discover pasta, date-night spots and Italian favorites, including restaurants personally reviewed and rated with the Sam Score.",
@@ -181,7 +315,6 @@ const BLOG_POSTS = [
       <p>Every restaurant that receives a Sam Score has been personally visited and reviewed by me.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more Italian restaurants around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
@@ -200,6 +333,7 @@ const BLOG_POSTS = [
     title: "Best Late-Night Food Spots in Nashville (2026)",
     city: "Nashville, TN",
     date: "2026-08-21",
+    updated: "2026-09-06",
     emoji: "🌙",
     excerpt:
       "Looking for late-night food in Nashville? Find burgers, pizza, hot chicken, tacos and restaurants serving food late near Broadway and beyond.",
@@ -239,7 +373,6 @@ const BLOG_POSTS = [
       <p>Looking for the best late-night food in Nashville? Whether you're leaving Broadway, a concert, a Predators game, or you're just hungry after midnight, Nashville has plenty of places to grab burgers, pizza, hot chicken, tacos, and classic late-night comfort food.</p>
       <p>At Eat With Sam K, every restaurant I personally review is paid for with my own money. I don't accept paid reviews or change my opinion in exchange for free food.</p>
       <p>As I personally try more Nashville late-night spots, I'll update this guide with Sam Scores, original photos, videos, exact orders, and firsthand recommendations.</p>
-      <p><em>Last Updated: August 2026</em></p>
       <p><em>Note: Late-night kitchen hours can change by day and season. Always check current hours before making the trip.</em></p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
 
@@ -392,7 +525,6 @@ const BLOG_POSTS = [
       <p>Every late-night spot that receives a Sam Score has been personally visited and reviewed by me.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more late-night spots around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
@@ -416,6 +548,7 @@ const BLOG_POSTS = [
     title: "Best Restaurants Near Bridgestone Arena in Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-10",
+    updated: "2026-09-06",
     emoji: "🏒",
     excerpt:
       "From Assembly Food Hall's variety to Martin's BBQ and my own reviews of Prince St. Pizza and NADC Burger, the best restaurants near Bridgestone Arena for 2026, ranked with no paid placements.",
@@ -603,7 +736,6 @@ const BLOG_POSTS = [
       <p>Every restaurant that receives a Sam Score has been personally visited and reviewed by me, food quality, value, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more restaurants around Bridgestone Arena, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
@@ -625,6 +757,7 @@ const BLOG_POSTS = [
     title: "Best Steakhouses in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-10",
+    updated: "2026-09-06",
     emoji: "🥩",
     excerpt:
       "From Jeff Ruby's classic fine dining to modern steakhouses like Harper's and Kayne Prime, the best steakhouses in Nashville for 2026, ranked with no paid placements.",
@@ -763,7 +896,6 @@ const BLOG_POSTS = [
       <p>Every steakhouse that receives a Sam Score has been personally visited and reviewed by me, steak quality, sides, value, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more steakhouses around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
@@ -785,6 +917,7 @@ const BLOG_POSTS = [
     title: "Best Restaurants Near Broadway Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-07",
+    updated: "2026-09-06",
     emoji: "🎸",
     excerpt:
       "From Martin's legendary BBQ to my own reviews of Prince St. Pizza and NADC Burger, the best restaurants near Broadway in Nashville for 2026, ranked with no paid placements.",
@@ -961,7 +1094,6 @@ const BLOG_POSTS = [
       <p>Every restaurant that receives a Sam Score has been personally visited and reviewed by me, food quality, value, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more restaurants near Broadway, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
@@ -981,6 +1113,7 @@ const BLOG_POSTS = [
     title: "Best Coffee Shops in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-06",
+    updated: "2026-09-06",
     emoji: "☕",
     excerpt:
       "From Crema's zero-waste specialty roasts to Matryoshka's playful, colorful vibe, the best coffee shops in Nashville for 2026, ranked with no paid placements.",
@@ -1095,7 +1228,6 @@ const BLOG_POSTS = [
       <p>Every coffee shop that receives a Sam Score has been personally visited and reviewed by me, coffee quality, food and pastries, value, service, atmosphere, and workability all factor in.</p>
       <p>Cafés cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the coffee myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more coffee shops around Nashville, I'll update this guide with my first Sam Scores, photos, and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for your next meal or drink? Check out these guides on Eat With Sam K:</p>
@@ -1114,6 +1246,7 @@ const BLOG_POSTS = [
     title: "The Best Credit Cards for Foodies & Dining (2026)",
     city: "Nashville, TN",
     date: "2026-08-05",
+    updated: "2026-09-06",
     emoji: "💳",
     excerpt:
       "From the Amex Gold Card's industry-leading dining rewards to Chase Sapphire Preferred's balanced perks, the best credit cards for foodies and frequent diners in 2026.",
@@ -1293,7 +1426,6 @@ const BLOG_POSTS = [
       <p>For restaurant lovers, I believe the American Express Gold Card continues to set the standard thanks to its industry-leading restaurant rewards and flexible Membership Rewards® program.</p>
       <p>If you're just starting your rewards journey, the Chase Sapphire Preferred is one of the best all-around cards on the market.</p>
       <p>No matter which card you choose, using the right rewards card every time you eat out can turn your favorite meals into valuable points, cash back, and future travel.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>Affiliate Disclosure</h2>
       <p>Some links on this page may be referral links. If you choose to apply through one of them, I may receive a referral bonus at no additional cost to you. I only recommend products I personally use or genuinely believe provide value.</p>
@@ -1313,6 +1445,7 @@ const BLOG_POSTS = [
     title: "Best Cheap Eats in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-04",
+    updated: "2026-09-06",
     emoji: "💵",
     excerpt:
       "From my own reviews of Red's Hot Chicken and Jack Brown's to Prince's legendary hot chicken, the best cheap eats in Nashville for 2026, all $20 or less, ranked with no paid placements.",
@@ -1466,7 +1599,6 @@ const BLOG_POSTS = [
       <p>Every cheap eat that receives a Sam Score has been personally visited and reviewed by me, food quality, value, portion size, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more budget-friendly restaurants around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
@@ -1486,6 +1618,7 @@ const BLOG_POSTS = [
     title: "Best Brunch in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-03",
+    updated: "2026-09-06",
     emoji: "🍳",
     excerpt:
       "From my own review of Biscuit Love to Milk & Honey's classic Nashville brunch and The Hampton Social's coastal rooftop scene, the best brunch in Nashville for 2026, ranked with no paid placements.",
@@ -1612,7 +1745,6 @@ const BLOG_POSTS = [
       <p>Every brunch spot that receives a Sam Score has been personally visited and reviewed by me, food quality, coffee and drinks, value, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more brunch spots around Nashville, I'll update this guide with more Sam Scores, photos, and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
@@ -1632,6 +1764,7 @@ const BLOG_POSTS = [
     title: "Best Hot Chicken in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-02",
+    updated: "2026-09-06",
     emoji: "🔥",
     excerpt:
       "From my own review of Red's Hot Chicken to Prince's legendary original and newer spots like Brave Idiot putting their own spin on it, the best hot chicken in Nashville for 2026, ranked with no paid placements.",
@@ -1817,7 +1950,6 @@ const BLOG_POSTS = [
       <p>Every hot chicken spot that receives a Sam Score has been personally visited and reviewed by me, taste, heat balance, chicken quality, value, sides, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more hot chicken spots around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
@@ -1837,6 +1969,7 @@ const BLOG_POSTS = [
     title: "Best Pizza in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-28",
+    updated: "2026-09-06",
     emoji: "🍕",
     excerpt:
       "From Five Points Pizza's giant New York-style slices to DeSano's wood-fired Neapolitan pies, the best pizza in Nashville for 2026, ranked with no paid placements.",
@@ -1973,7 +2106,6 @@ const BLOG_POSTS = [
       <p>Every pizza spot that receives a Sam Score has been personally visited and reviewed by me, taste, value, quality of ingredients, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more pizzerias around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
@@ -1993,6 +2125,7 @@ const BLOG_POSTS = [
     title: "Best Burgers in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-25",
+    updated: "2026-09-06",
     emoji: "🍔",
     excerpt:
       "From my own review of Jack Brown's to Dino's legendary dive-bar cheeseburger, the best burgers in Nashville for 2026, ranked with no paid placements.",
@@ -2144,7 +2277,6 @@ const BLOG_POSTS = [
       <p>Every burger that receives a Sam Score has been personally visited and reviewed by me, taste, value, sides, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more burger restaurants around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
@@ -2164,6 +2296,7 @@ const BLOG_POSTS = [
     title: "Best Date Night Restaurants in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-24",
+    updated: "2026-09-06",
     emoji: "🥂",
     excerpt:
       "From The Optimist's fresh seafood to Bourbon Steak's steakhouse luxury and my own reviews of Pelato and Culaccino, the best date night restaurants in Nashville for 2026, ranked with no paid placements.",
@@ -2323,7 +2456,6 @@ const BLOG_POSTS = [
       <p>Every restaurant that receives a Sam Score has been personally visited and reviewed by me, food quality, value, date night atmosphere, service, and overall experience all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more date night restaurants around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
@@ -2343,6 +2475,7 @@ const BLOG_POSTS = [
     title: "Best BBQ Restaurants in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-12",
+    updated: "2026-09-06",
     emoji: "🍖",
     excerpt:
       "From Texas-style brisket at Shotgun Willie's to dry-rub ribs at Peg Leg Porker and whole-hog BBQ at Martin's, the best BBQ restaurants in Nashville for 2026, ranked with no paid placements.",
@@ -2479,7 +2612,6 @@ const BLOG_POSTS = [
       <p>Every BBQ spot that receives a Sam Score has been personally visited and reviewed by me, meat quality, BBQ execution, sides, value, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money. I keep the top of my scale intentionally difficult, an extremely high Sam Score is reserved for restaurants that truly stand out.</p>
       <p>As I visit more BBQ spots around Nashville, I'll update this guide with my first Sam Scores, photos, and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
@@ -2503,6 +2635,7 @@ const BLOG_POSTS = [
     title: "Best Tacos in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-13",
+    updated: "2026-09-06",
     emoji: "🌮",
     excerpt:
       "From Maiz de la Vida's handmade tortillas to my own reviews of Chilangos Tacos and Ladybird Taco, the best tacos in Nashville for 2026, ranked with no paid placements.",
@@ -2683,7 +2816,6 @@ const BLOG_POSTS = [
       <p>Every taco spot that receives a Sam Score has been personally visited and reviewed by me, tortilla, meat/filling, salsa, toppings, and value all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more taco spots around Nashville, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
@@ -2708,6 +2840,7 @@ const BLOG_POSTS = [
     title: "Best Restaurants Near Nissan Stadium in Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-17",
+    updated: "2026-09-06",
     emoji: "🏈",
     excerpt:
       "From Butchertown Hall's smoked meats to my own reviews of Ocean Prime, Jack Brown's, NADC Burger, and Prince St. Pizza, the best restaurants near Nissan Stadium for 2026, ranked with no paid placements.",
@@ -2916,7 +3049,6 @@ const BLOG_POSTS = [
       <p>Every restaurant that receives a Sam Score has been personally visited and reviewed by me, food quality, value, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money.</p>
       <p>As I visit more restaurants around Nissan Stadium, I'll continue updating this guide with new Sam Scores and rankings.</p>
-      <p><em>Last Updated: August 2026</em></p>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
