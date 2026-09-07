@@ -47,6 +47,16 @@ const FILMING_GEAR = [
     description: "Wireless mic I use to record every review",
     url: "https://amzn.to/4h0vItI",
   },
+  {
+    name: "Travel Tripod",
+    description: "Compact tripod I take with me on the go",
+    url: "https://amzn.to/4heXW4U",
+  },
+  {
+    name: "Ray-Ban Meta Glasses",
+    description: "Hands-free POV shots while I'm actually eating",
+    url: "https://amzn.to/3SLSsp9",
+  },
 ];
 
 /* ---------- Badges ----------
