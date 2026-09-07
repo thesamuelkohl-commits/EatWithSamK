@@ -33,29 +33,104 @@ const PRICE_GUIDE = {
   "$$$$": { range: "$60+", description: "Luxury dining, tasting menus, premium steakhouses, special occasions" },
 };
 
-/* ---------- Filming gear ----------
-   The kit Sam actually films reviews with, shown in a "Gear I Film With"
-   block at the bottom of every guide page. These are affiliate links, so
-   the widget always renders the disclosure line with them.
+/* ---------- Gear categories ----------
+   Sections on the /gear/ page, in display order. A category only shows up
+   (as a jump chip and a section) once at least one product in FILMING_GEAR
+   uses its key, so you can define categories ahead of the products. */
+const GEAR_CATEGORIES = [
+  { key: "content", emoji: "🎥", label: "Content Gear" },
+  { key: "audio", emoji: "🎙️", label: "Audio" },
+  { key: "lighting", emoji: "💡", label: "Lighting" },
+  { key: "travel", emoji: "✈️", label: "Travel Gear" },
+  { key: "kitchen", emoji: "🍳", label: "Kitchen Favorites" },
+  { key: "tech", emoji: "📱", label: "Tech & Accessories" },
+];
 
-   To add a product: append { name, description, url } below. Only list
-   gear Sam genuinely uses. Leave the array empty and the whole section
-   disappears on its own, no other edits needed. */
+/* ---------- Filming gear ----------
+   The single source of truth for BOTH the /gear/ page and the shorter
+   "Gear I Film With" block at the bottom of every guide page. These are
+   affiliate links, so anywhere they render, the disclosure renders too.
+
+   To add a product, copy this block and fill it in:
+
+     {
+       name: "",              // product name as you'd say it, not the full Amazon title
+       category: "",          // a `key` from GEAR_CATEGORIES above
+       image: "",             // e.g. "images/gear/my-product.jpg" — leave "" for a lettered placeholder
+       description: "",       // 1-2 sentences, what it is
+       whyIUseIt: "",         // your personal take: how it fits Eat With Sam K
+       affiliateUrl: "",      // your amzn.to link
+       badge: "",             // optional: "Sam Uses This" | "My Pick" | "Best Value" | "Travel Essential"
+       featured: false,       // true = also appears in "My Restaurant Review Setup"
+       order: 1,              // low numbers sort first within a category
+     },
+
+   Only list gear actually used or genuinely recommended. Empty the array
+   and both the page section and the guide widget disappear on their own. */
 const FILMING_GEAR = [
   {
     name: "DJI Mic",
-    description: "Wireless mic I use to record every review",
-    url: "https://amzn.to/4h0vItI",
+    category: "audio",
+    image: "",
+    description: "Wireless clip-on mic that records straight to its own receiver.",
+    // TODO: Sam — swap in your own wording here.
+    whyIUseIt: "Restaurants are loud. This is what keeps my voice clear over the room on every review I film.",
+    affiliateUrl: "https://amzn.to/4h0vItI",
+    badge: "Sam Uses This",
+    featured: true,
+    order: 1,
   },
   {
     name: "Travel Tripod",
-    description: "Compact tripod I take with me on the go",
-    url: "https://amzn.to/4heXW4U",
+    category: "content",
+    image: "",
+    description: "Compact tripod that folds down small enough to carry all day.",
+    // TODO: Sam — swap in your own wording here.
+    whyIUseIt: "It's the tripod I take on the go, so I can set up a shot at a table without hauling anything bulky.",
+    affiliateUrl: "https://amzn.to/4heXW4U",
+    badge: "Travel Essential",
+    featured: true,
+    order: 2,
   },
   {
     name: "Ray-Ban Meta Glasses",
-    description: "Hands-free POV shots while I'm actually eating",
-    url: "https://amzn.to/3SLSsp9",
+    category: "content",
+    image: "",
+    description: "Smart glasses that capture point-of-view video hands-free.",
+    // TODO: Sam — swap in your own wording here.
+    whyIUseIt: "Lets me film what I'm actually seeing while I eat, without holding a phone up the whole time.",
+    affiliateUrl: "https://amzn.to/3SLSsp9",
+    badge: "My Pick",
+    featured: true,
+    order: 3,
+  },
+];
+
+/* ---------- Gear page FAQ ----------
+   Shown at the bottom of /gear/ and fed to FAQ structured data. An entry
+   with an empty `answer` is skipped entirely (it renders nowhere and stays
+   out of the schema), so unanswered questions can sit here until you fill
+   them in rather than shipping a guess. */
+const GEAR_FAQ = [
+  {
+    question: "What microphone do you use for restaurant reviews?",
+    answer:
+      "A DJI wireless mic. Restaurants are loud, and clipping on a wireless mic is the single biggest jump in quality I've made.",
+  },
+  {
+    question: "What camera does Eat With Sam K use?",
+    // TODO: Sam — what do you actually shoot on? Fill this in and it appears automatically.
+    answer: "",
+  },
+  {
+    question: "Do you need an expensive camera to make restaurant content?",
+    // TODO: Sam — your honest take here.
+    answer: "",
+  },
+  {
+    question: "What gear do you need to start making food videos?",
+    // TODO: Sam — what would you tell someone starting out?
+    answer: "",
   },
 ];
 

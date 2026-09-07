@@ -45,9 +45,9 @@ function loadModule(relPath, trailingExpr) {
   return vm.runInNewContext(code + "\n" + trailingExpr, {});
 }
 
-const { SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR } = loadModule(
+const { SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR, GEAR_CATEGORIES, GEAR_FAQ } = loadModule(
   "js/data.js",
-  "({ SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR });"
+  "({ SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR, GEAR_CATEGORIES, GEAR_FAQ });"
 );
 const BLOG_POSTS = loadModule("js/blog-data.js", "(BLOG_POSTS);");
 
@@ -134,14 +134,14 @@ function gearWidgetHtml() {
       <p class="referral-blurb">The kit I actually use to shoot and record every review, in case you're putting your own setup together.</p>
       <div class="referral-cards">
         ${FILMING_GEAR.map(
-          (item) => `<a class="referral-card" href="${escapeAttr(item.url)}" target="_blank" rel="sponsored noopener">
+          (item) => `<a class="referral-card" href="${escapeAttr(item.affiliateUrl)}" target="_blank" rel="sponsored nofollow noopener" data-affiliate data-product="${escapeAttr(item.name)}" data-category="${escapeAttr(item.category)}" data-page="guide">
           <span class="referral-card-name">${escapeHtml(item.name)}</span>
           <span class="referral-card-desc">${escapeHtml(item.description)}</span>
-          <span class="referral-card-cta">Check Price →</span>
+          <span class="referral-card-cta">View on Amazon →</span>
         </a>`
         ).join("\n        ")}
       </div>
-      <p class="referral-disclosure">As an Amazon Associate I earn from qualifying purchases. These are affiliate links, so if you buy through one I may earn a commission at no extra cost to you. I only list gear I actually use.</p>
+      <p class="referral-disclosure">As an Amazon Associate I earn from qualifying purchases. These are affiliate links, so if you buy through one I may earn a commission at no extra cost to you. I only list gear I actually use. <a href="/gear/">See all my gear →</a></p>
     </div>`;
 }
 
@@ -379,7 +379,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=47" />
+  <link rel="stylesheet" href="../css/style.css?v=48" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -469,7 +469,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="../js/data.js?v=20"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=34"></script>
+  <script src="../js/common.js?v=35"></script>
   <script src="../js/auth.js?v=4"></script>
   <script src="../js/pwa.js?v=2"></script>
   <script>
@@ -595,7 +595,7 @@ function renderGuidePage(post) {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=47" />
+  <link rel="stylesheet" href="/css/style.css?v=48" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -648,7 +648,234 @@ function renderGuidePage(post) {
   <script src="/js/data.js?v=20"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=34"></script>
+  <script src="/js/common.js?v=35"></script>
+  <script src="/js/auth.js?v=4"></script>
+  <script src="/js/pwa.js?v=2"></script>
+</body>
+</html>
+`;
+}
+
+/* ---------- /gear/ ----------
+   Sam's affiliate gear hub, built statically from FILMING_GEAR so the
+   products are in the raw HTML for crawlers and adding a product never
+   means touching layout code. Deliberately no Product structured data:
+   we don't maintain prices, ratings, review counts or availability, and
+   schema claiming otherwise would be fabricated. */
+
+const GEAR_URL = `${SITE_URL}/gear/`;
+
+function gearBySortOrder(items) {
+  return items.slice().sort((a, b) => (a.order || 0) - (b.order || 0));
+}
+
+// Only categories that actually have a product, in GEAR_CATEGORIES order.
+function activeGearCategories() {
+  return GEAR_CATEGORIES.filter((cat) => FILMING_GEAR.some((item) => item.category === cat.key));
+}
+
+// A product with no image yet still gets a branded tile (its first letter)
+// rather than a broken <img> or a stock photo we'd be inventing.
+function gearCardHtml(item) {
+  const media = item.image
+    ? `<img class="gear-card-img" src="/${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" loading="lazy" />`
+    : `<div class="gear-card-img gear-card-img-placeholder" aria-hidden="true">${escapeHtml(item.name.trim().charAt(0))}</div>`;
+  return `
+        <article class="gear-card glow-card">
+          <div class="gear-card-media">
+            ${media}
+            ${item.badge ? `<span class="gear-badge">${escapeHtml(item.badge)}</span>` : ""}
+          </div>
+          <div class="gear-card-body">
+            <h3 class="gear-card-name">${escapeHtml(item.name)}</h3>
+            ${item.description ? `<p class="gear-card-desc">${escapeHtml(item.description)}</p>` : ""}
+            ${
+              item.whyIUseIt
+                ? `<p class="gear-why"><span class="gear-why-label">Why I use it:</span> ${escapeHtml(item.whyIUseIt)}</p>`
+                : ""
+            }
+            <a class="btn btn-primary gear-cta" href="${escapeAttr(item.affiliateUrl)}" target="_blank" rel="sponsored nofollow noopener" data-affiliate data-product="${escapeAttr(item.name)}" data-category="${escapeAttr(item.category)}" data-page="gear">View on Amazon →</a>
+            <span class="gear-affiliate-note">Affiliate link</span>
+          </div>
+        </article>`;
+}
+
+function renderGearPage() {
+  const title = "Sam's Gear: What I Use to Make Food Videos | Eat With Sam K";
+  const description =
+    "See the cameras, microphones, lighting, travel gear, and creator tools Sam uses to make Eat With Sam K restaurant reviews and food videos.";
+  const categories = activeGearCategories();
+  const featured = gearBySortOrder(FILMING_GEAR.filter((item) => item.featured));
+  const answeredFaq = (GEAR_FAQ || []).filter((f) => f.answer && f.answer.trim());
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Sam's Gear", item: GEAR_URL },
+    ],
+  };
+
+  const faqLd = answeredFaq.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: answeredFaq.map((f) => ({
+          "@type": "Question",
+          name: f.question,
+          acceptedAnswer: { "@type": "Answer", text: f.answer },
+        })),
+      }
+    : null;
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2V4D6ZQV6Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-2V4D6ZQV6Q');
+  </script>
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7072826210873110"
+       crossorigin="anonymous"></script>
+
+  <title>${escapeHtml(title)}</title>
+  <meta name="description" content="${escapeHtml(description)}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="${GEAR_URL}" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="${escapeHtml(title)}" />
+  <meta property="og:description" content="${escapeHtml(description)}" />
+  <meta property="og:url" content="${GEAR_URL}" />
+  <meta property="og:image" content="${SITE_URL}/images/logo.png" />
+  <meta property="og:site_name" content="${escapeHtml(SITE.name)}" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="${escapeHtml(title)}" />
+  <meta name="twitter:description" content="${escapeHtml(description)}" />
+  <meta name="twitter:image" content="${SITE_URL}/images/logo.png" />
+
+  <link rel="icon" type="image/png" href="/images/favicon.png?v=2" />
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="theme-color" content="#c05a24" />
+  <link rel="apple-touch-icon" href="/images/icon-192.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/style.css?v=48" />
+
+  <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
+  ${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>` : ""}
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="/"><img class="logo-img" src="/images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
+      <nav class="main-nav" data-nav="gear" data-prefix="/"></nav>
+      <div class="header-right">
+        <div class="social-row" data-socials></div>
+        <div class="auth-widget" data-auth></div>
+        <div class="install-widget" data-install></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="post-wrap gear-wrap">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a><span>›</span>
+      <span aria-current="page">Sam's Gear</span>
+    </nav>
+
+    <div class="gear-hero reveal">
+      <div class="post-emoji">🎬</div>
+      <h1>Sam's Gear</h1>
+      <p class="gear-subtitle">The gear I use to film, create, travel, and eat my way through every city.</p>
+      <p class="gear-lede">From filming restaurant reviews to editing content and traveling between cities, these are the products and tools I actually use or recommend.</p>
+    </div>
+
+    <div class="gear-disclosure reveal">
+      <p><strong>Affiliate disclosure:</strong> Some links on this page are affiliate links, which means I may earn a commission if you make a purchase at no additional cost to you.</p>
+      <p>As an Amazon Associate I earn from qualifying purchases.</p>
+    </div>
+${
+  categories.length
+    ? `
+    <nav class="gear-chips reveal" aria-label="Gear categories">
+      ${categories
+        .map((cat) => `<a class="gear-chip" href="#gear-${escapeAttr(cat.key)}">${cat.emoji} ${escapeHtml(cat.label)}</a>`)
+        .join("\n      ")}
+    </nav>`
+    : ""
+}
+${
+  featured.length
+    ? `
+    <section class="gear-featured reveal">
+      <h2>My Restaurant Review Setup</h2>
+      <p class="gear-section-sub">Everything I bring to film Eat With Sam K.</p>
+      <div class="gear-grid">${featured.map(gearCardHtml).join("")}
+      </div>
+    </section>`
+    : ""
+}
+${categories
+  .map((cat) => {
+    const items = gearBySortOrder(FILMING_GEAR.filter((item) => item.category === cat.key));
+    return `
+    <section class="gear-section reveal" id="gear-${escapeAttr(cat.key)}">
+      <h2>${cat.emoji} ${escapeHtml(cat.label)}</h2>
+      <div class="gear-grid">${items.map(gearCardHtml).join("")}
+      </div>
+    </section>`;
+  })
+  .join("")}
+
+    <section class="gear-trust quick-facts-card glow-card reveal">
+      <h2>Why This List Stays Short</h2>
+      <p>I only add gear here that I actually use or genuinely recommend. Buying through one of these links may support Eat With Sam K at no additional cost to you.</p>
+      <p class="gear-trust-line">⭐ Affiliate partnerships never influence Sam Scores or independent restaurant reviews.</p>
+    </section>
+
+    <section class="gear-cta-section reveal">
+      <h2>Want to know how I make my videos?</h2>
+      <p>I'm building Eat With Sam K using a pretty simple setup. Check out the gear above, and follow along as I share more behind-the-scenes content about how I film restaurant reviews.</p>
+      <div class="gear-cta-buttons">
+        <a class="btn btn-primary" href="${escapeAttr(SITE.socials.instagram)}" target="_blank" rel="noopener">Follow @eatwithsamk</a>
+        <a class="btn btn-ghost" href="/reviews">See My Reviews</a>
+      </div>
+    </section>
+${
+  answeredFaq.length
+    ? `
+    <section class="gear-faq reveal">
+      <h2>Frequently Asked Questions</h2>
+      ${answeredFaq
+        .map((f) => `<p><strong>${escapeHtml(f.question)}</strong></p>\n      <p>${escapeHtml(f.answer)}</p>`)
+        .join("\n      ")}
+    </section>`
+    : ""
+}
+  </main>
+
+  <footer class="site-footer" data-footer data-prefix="/"></footer>
+
+  <script src="/js/data.js?v=20"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="/js/supabase-config.js?v=1"></script>
+  <script src="/js/common.js?v=35"></script>
   <script src="/js/auth.js?v=4"></script>
   <script src="/js/pwa.js?v=2"></script>
 </body>
@@ -663,6 +890,7 @@ function renderSitemap() {
     { loc: `${SITE_URL}/reviews`, priority: "0.9" },
     { loc: `${SITE_URL}/best-of`, priority: "0.8" },
     { loc: `${SITE_URL}/about`, priority: "0.5" },
+    { loc: GEAR_URL, priority: "0.5" },
     { loc: `${SITE_URL}/advertise`, priority: "0.4" },
     { loc: `${SITE_URL}/privacy`, priority: "0.2" },
     ...PLACES.map((p) => ({ loc: reviewUrl(p), priority: "0.9", lastmod: p.date })),
@@ -884,6 +1112,11 @@ for (const post of BLOG_POSTS) {
   fs.writeFileSync(path.join(outDir, "index.html"), renderGuidePage(post));
   console.log(`wrote guides/${post.id}/index.html`);
 }
+
+const gearDir = path.join(__dirname, "gear");
+fs.mkdirSync(gearDir, { recursive: true });
+fs.writeFileSync(path.join(gearDir, "index.html"), renderGearPage());
+console.log("wrote gear/index.html");
 
 fs.writeFileSync(path.join(__dirname, "sitemap.xml"), renderSitemap());
 console.log("wrote sitemap.xml");

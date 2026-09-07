@@ -1440,3 +1440,175 @@ a { color: var(--red); }
   .toolbar h2 { width: 100%; }
   .search-input { flex: 1; }
 }
+
+/* ---------- Sam's Gear (/gear/) ----------
+   Reuses the site's card, button and glass tokens so the page reads as part
+   of Eat With Sam K rather than a storefront. Mobile-first: single column by
+   default, two up only once there's room. */
+.gear-wrap { max-width: 900px; }
+
+.gear-hero { text-align: center; margin-bottom: 22px; }
+.gear-subtitle {
+  font-family: "Fredoka", "Nunito", sans-serif;
+  font-size: 1.15rem;
+  color: var(--red);
+  margin: 0 auto 10px;
+  max-width: 600px;
+}
+.gear-lede { color: var(--ink-soft); font-size: 1rem; max-width: 620px; margin: 0 auto; }
+
+/* Disclosures are deliberately full-size body text, not fine print. */
+.gear-disclosure {
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-left: 4px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  margin-bottom: 26px;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.gear-disclosure p { margin: 0; }
+.gear-disclosure p + p { margin-top: 6px; color: var(--ink-soft); }
+
+.gear-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+.gear-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 8px 15px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ink);
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.gear-chip:hover {
+  transform: translateY(-2px);
+  background: var(--red);
+  border-color: var(--red);
+  color: #fff;
+}
+
+.gear-featured, .gear-section { margin-bottom: 34px; scroll-margin-top: 90px; }
+.gear-featured h2, .gear-section h2, .gear-trust h2, .gear-cta-section h2, .gear-faq h2 {
+  font-size: 1.45rem;
+  margin-bottom: 6px;
+}
+.gear-section-sub { color: var(--ink-soft); font-size: 0.95rem; margin-bottom: 16px; }
+.gear-featured {
+  background: linear-gradient(135deg, rgba(242, 169, 59, 0.14), rgba(192, 90, 36, 0.08));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  padding: 22px 20px 24px;
+}
+
+.gear-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.gear-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--glass-bg-strong);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+}
+.gear-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+
+.gear-card-media { position: relative; }
+.gear-card-img {
+  display: block;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  background: var(--cream);
+}
+.gear-card-img-placeholder {
+  display: grid;
+  place-items: center;
+  font-family: "Fredoka", sans-serif;
+  font-size: 3.4rem;
+  font-weight: 600;
+  color: var(--red);
+  background: linear-gradient(135deg, rgba(242, 169, 59, 0.22), rgba(192, 90, 36, 0.12));
+}
+.gear-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--red);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 5px 11px;
+  border-radius: 999px;
+  box-shadow: var(--shadow);
+}
+
+.gear-card-body { padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 9px; flex: 1; }
+.gear-card-name { font-size: 1.12rem; }
+.gear-card-desc { color: var(--ink-soft); font-size: 0.92rem; line-height: 1.55; }
+.gear-why { font-size: 0.9rem; line-height: 1.55; color: var(--ink); }
+.gear-why-label {
+  display: block;
+  font-family: "Fredoka", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--red);
+  margin-bottom: 2px;
+}
+.gear-cta { margin-top: auto; align-self: flex-start; }
+.gear-affiliate-note { font-size: 0.72rem; color: var(--ink-soft); }
+
+.gear-trust { margin: 8px 0 30px; }
+.gear-trust p { color: var(--ink-soft); font-size: 0.95rem; line-height: 1.65; }
+.gear-trust-line {
+  margin-top: 10px;
+  font-weight: 700;
+  color: var(--ink) !important;
+}
+
+.gear-cta-section {
+  text-align: center;
+  background: var(--ink);
+  color: var(--cream);
+  border-radius: var(--radius);
+  padding: 28px 22px;
+  margin-bottom: 30px;
+}
+.gear-cta-section h2 { color: #fff; }
+.gear-cta-section p { color: rgba(250, 243, 232, 0.82); font-size: 0.95rem; max-width: 540px; margin: 8px auto 0; }
+.gear-cta-buttons { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 18px; }
+.gear-cta-section .btn-ghost { background: transparent; color: var(--cream); border-color: rgba(250, 243, 232, 0.5); }
+.gear-cta-section .btn-ghost:hover { background: rgba(250, 243, 232, 0.12); }
+
+.gear-faq p { font-size: 0.95rem; line-height: 1.7; color: var(--ink-soft); margin-bottom: 10px; }
+.gear-faq p strong { color: var(--ink); }
+
+@media (min-width: 620px) {
+  .gear-grid { grid-template-columns: repeat(2, 1fr); }
+}

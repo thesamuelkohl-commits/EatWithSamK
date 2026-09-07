@@ -107,6 +107,7 @@ const NAV_LINKS = [
   { id: "map", label: "Map", href: "/map" },
   { id: "reviews", label: "Reviews", href: "/reviews" },
   { id: "blog", label: "Best Of", href: "/best-of" },
+  { id: "gear", label: "Gear", href: "/gear/" },
   { id: "about", label: "About", href: "/about" },
   { id: "advertise", label: "Advertise", href: "/advertise" },
 ];
@@ -115,6 +116,7 @@ const NAV_LINKS = [
 // resource-style post (guides, comparisons, etc.) linked site-wide from
 // every page's footer. `href` is root-relative, same as NAV_LINKS above.
 const FOOTER_RESOURCES = [
+  { label: "Sam's Gear", href: "/gear/" },
   { label: "Best Credit Cards for Dining", href: "/guides/best-credit-cards-for-dining/" },
   { label: "Advertise & Sponsorships", href: "/advertise" },
 ];
@@ -221,6 +223,24 @@ document.querySelectorAll("[data-newsletter-embed]").forEach((container) => {
   script.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
   script.dataset.beehiivForm = "0a8371cb-2d20-496e-ad87-a73d26ec1847";
   container.appendChild(script);
+});
+
+/* ---------- Affiliate click tracking ----------
+   One delegated listener covers every affiliate link on the site (the /gear/
+   page's cards and the "Gear I Film With" block on guides), including any
+   rendered later, so adding a product never means wiring up tracking. Fails
+   silently when gtag isn't loaded (ad blocker, local dev), and never
+   interferes with the click itself. */
+document.addEventListener("click", (e) => {
+  const link = e.target.closest("[data-affiliate]");
+  if (!link) return;
+  if (typeof gtag !== "function") return;
+  gtag("event", "affiliate_click", {
+    product_name: link.dataset.product || "",
+    category: link.dataset.category || "",
+    destination: "amazon",
+    page: link.dataset.page || "",
+  });
 });
 
 /* ---------- Cinematic pointer effects: spotlight-on-hover, tilt ----------
