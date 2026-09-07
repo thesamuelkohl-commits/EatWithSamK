@@ -33,6 +33,22 @@ const PRICE_GUIDE = {
   "$$$$": { range: "$60+", description: "Luxury dining, tasting menus, premium steakhouses, special occasions" },
 };
 
+/* ---------- Filming gear ----------
+   The kit Sam actually films reviews with, shown in a "Gear I Film With"
+   block at the bottom of every guide page. These are affiliate links, so
+   the widget always renders the disclosure line with them.
+
+   To add a product: append { name, description, url } below. Only list
+   gear Sam genuinely uses. Leave the array empty and the whole section
+   disappears on its own, no other edits needed. */
+const FILMING_GEAR = [
+  {
+    name: "DJI Mic",
+    description: "Wireless mic I use to record every review",
+    url: "https://amzn.to/4h0vItI",
+  },
+];
+
 /* ---------- Badges ----------
    To tag a place, add a `badges: ["key", "key"]` array to it (see
    PLACES below). Only add a badge when it's genuinely true — these

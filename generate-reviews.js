@@ -45,7 +45,10 @@ function loadModule(relPath, trailingExpr) {
   return vm.runInNewContext(code + "\n" + trailingExpr, {});
 }
 
-const { SITE, PLACES, BADGES, PRICE_GUIDE } = loadModule("js/data.js", "({ SITE, PLACES, BADGES, PRICE_GUIDE });");
+const { SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR } = loadModule(
+  "js/data.js",
+  "({ SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR });"
+);
 const BLOG_POSTS = loadModule("js/blog-data.js", "(BLOG_POSTS);");
 
 function escapeHtml(str) {
@@ -117,6 +120,28 @@ function referralWidgetHtml() {
         </a>
       </div>
       <p class="referral-disclosure">These are referral links, if you sign up, I may earn rewards too. Thanks for supporting the site!</p>
+    </div>`;
+}
+
+// "Gear I Film With" block at the bottom of every guide page, driven by
+// FILMING_GEAR in js/data.js. Renders nothing at all when that list is
+// empty, so the section never ships as an empty shell.
+function gearWidgetHtml() {
+  if (!FILMING_GEAR || !FILMING_GEAR.length) return "";
+  return `
+    <div class="referral-widget gear-widget glow-card">
+      <h3 class="referral-title">🎥 Gear I Film With</h3>
+      <p class="referral-blurb">The kit I actually use to shoot and record every review, in case you're putting your own setup together.</p>
+      <div class="referral-cards">
+        ${FILMING_GEAR.map(
+          (item) => `<a class="referral-card" href="${escapeAttr(item.url)}" target="_blank" rel="sponsored noopener">
+          <span class="referral-card-name">${escapeHtml(item.name)}</span>
+          <span class="referral-card-desc">${escapeHtml(item.description)}</span>
+          <span class="referral-card-cta">Check Price →</span>
+        </a>`
+        ).join("\n        ")}
+      </div>
+      <p class="referral-disclosure">As an Amazon Associate I earn from qualifying purchases. These are affiliate links, so if you buy through one I may earn a commission at no extra cost to you. I only list gear I actually use.</p>
     </div>`;
 }
 
@@ -354,7 +379,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=46" />
+  <link rel="stylesheet" href="../css/style.css?v=47" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -441,7 +466,7 @@ function renderReviewPage(place, relatedPosts) {
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
-  <script src="../js/data.js?v=18"></script>
+  <script src="../js/data.js?v=19"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
   <script src="../js/common.js?v=34"></script>
@@ -570,7 +595,7 @@ function renderGuidePage(post) {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=46" />
+  <link rel="stylesheet" href="/css/style.css?v=47" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -613,13 +638,14 @@ function renderGuidePage(post) {
     }
     <div class="blog-meta"><span class="pill">${escapeHtml(post.city)}</span><span>${fmt}</span>${post.updated ? `<span class="post-updated">🔄 Last updated: ${formatUpdatedDate(post.updated)}</span>` : ""}</div>
     <div class="post-body">${post.content}</div>
+    ${gearWidgetHtml()}
     ${referralWidgetHtml()}
   </main>
 
   <footer class="site-footer" data-footer data-prefix="/"></footer>
 
   ${hasInstagramEmbed ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
-  <script src="/js/data.js?v=18"></script>
+  <script src="/js/data.js?v=19"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
   <script src="/js/common.js?v=34"></script>

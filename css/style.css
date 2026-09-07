@@ -1328,6 +1328,11 @@ a { color: var(--red); }
 
 .referral-disclosure { font-size: 0.75rem; color: var(--ink-soft); margin: 0; }
 
+/* Filming gear ("Gear I Film With") reuses the referral widget shell, with a
+   gold accent so it reads as a separate block from the food/travel deals. */
+.gear-widget { border-top: 3px solid var(--gold); }
+.gear-widget .referral-card-cta { color: var(--gold); }
+
 /* ---------- Footer ---------- */
 .site-footer {
   background: var(--ink);
