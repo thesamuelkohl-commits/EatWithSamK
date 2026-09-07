@@ -45,9 +45,9 @@ function loadModule(relPath, trailingExpr) {
   return vm.runInNewContext(code + "\n" + trailingExpr, {});
 }
 
-const { SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR, GEAR_CATEGORIES, GEAR_FAQ } = loadModule(
+const { SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR, GEAR_CATEGORIES, GEAR_FAQ, REFERRAL_PERKS } = loadModule(
   "js/data.js",
-  "({ SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR, GEAR_CATEGORIES, GEAR_FAQ });"
+  "({ SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR, GEAR_CATEGORIES, GEAR_FAQ, REFERRAL_PERKS });"
 );
 const BLOG_POSTS = loadModule("js/blog-data.js", "(BLOG_POSTS);");
 
@@ -88,36 +88,25 @@ function favoriteButtonHtml(place, extraClass) {
   return `<button type="button" class="favorite-btn${extraClass ? ` ${extraClass}` : ""}" data-favorite-toggle="${place.id}" aria-pressed="false" aria-label="Save ${escapeAttr(place.name)} to your saved places">🤍</button>`;
 }
 
-// Same widget as js/common.js's referralWidgetHtml() (used in the shared
-// footer) — duplicated here since this file runs in Node, not the browser.
-// No page-relative paths involved (just outbound links), so the two copies
-// never need to diverge.
+// The "Deals I Actually Use" widget, rendered from REFERRAL_PERKS in
+// js/data.js. This is the only renderer for it: the pages that show it are
+// all generated here, so there's no browser-side copy to keep in sync.
+function referralCardHtml(perk, page) {
+  return `<a class="referral-card" href="${escapeAttr(perk.url)}" target="_blank" rel="sponsored nofollow noopener" data-affiliate data-product="${escapeAttr(perk.name)}" data-category="referral" data-page="${escapeAttr(page)}" data-destination="${escapeAttr(perk.destination || "")}">
+          <span class="referral-card-name">${escapeHtml(perk.name)}</span>
+          <span class="referral-card-desc">${escapeHtml(perk.description)}</span>
+          <span class="referral-card-cta">Learn More →</span>
+        </a>`;
+}
+
 function referralWidgetHtml() {
+  if (!REFERRAL_PERKS || !REFERRAL_PERKS.length) return "";
   return `
     <div class="referral-widget glow-card">
       <h3 class="referral-title">🎁 Deals I Actually Use</h3>
       <p class="referral-blurb">A few things I personally use to eat out and get around, here's how you can save (or earn) too.</p>
       <div class="referral-cards">
-        <a class="referral-card" href="https://americanexpress.com/en-us/referral/gold-card?ref=SAMUEKhIMj&XL=MIZNS" target="_blank" rel="sponsored noopener">
-          <span class="referral-card-name">Amex Gold Card</span>
-          <span class="referral-card-desc">Great everyday points on food &amp; travel</span>
-          <span class="referral-card-cta">Learn More →</span>
-        </a>
-        <a class="referral-card" href="https://americanexpress.com/en-us/referral/platinum-card?ref=SAMUEKQPAv&XL=MIZNS" target="_blank" rel="sponsored noopener">
-          <span class="referral-card-name">Amex Platinum Card</span>
-          <span class="referral-card-desc">Even better points on travel</span>
-          <span class="referral-card-cta">Learn More →</span>
-        </a>
-        <a class="referral-card" href="https://referrals.uber.com/refer?id=r68141rgpszh" target="_blank" rel="sponsored noopener">
-          <span class="referral-card-name">Uber</span>
-          <span class="referral-card-desc">Sign up for an easy ride to your next meal</span>
-          <span class="referral-card-cta">Learn More →</span>
-        </a>
-        <a class="referral-card" href="https://ubereats.com/feed?promoCode=eats-samuelk6169ue" target="_blank" rel="sponsored noopener">
-          <span class="referral-card-name">Uber Eats</span>
-          <span class="referral-card-desc">Get your next meal delivered</span>
-          <span class="referral-card-cta">Learn More →</span>
-        </a>
+        ${REFERRAL_PERKS.map((perk) => referralCardHtml(perk, "site")).join("\n        ")}
       </div>
       <p class="referral-disclosure">These are referral links, if you sign up, I may earn rewards too. Thanks for supporting the site!</p>
     </div>`;
@@ -390,7 +379,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=49" />
+  <link rel="stylesheet" href="../css/style.css?v=50" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -477,10 +466,10 @@ function renderReviewPage(place, relatedPosts) {
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
-  <script src="../js/data.js?v=20"></script>
+  <script src="../js/data.js?v=21"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=36"></script>
+  <script src="../js/common.js?v=38"></script>
   <script src="../js/auth.js?v=5"></script>
   <script src="../js/pwa.js?v=2"></script>
   <script src="../js/consent.js?v=2"></script>
@@ -618,7 +607,7 @@ function renderGuidePage(post) {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=49" />
+  <link rel="stylesheet" href="/css/style.css?v=50" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -668,10 +657,10 @@ function renderGuidePage(post) {
   <footer class="site-footer" data-footer data-prefix="/"></footer>
 
   ${hasInstagramEmbed ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
-  <script src="/js/data.js?v=20"></script>
+  <script src="/js/data.js?v=21"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=36"></script>
+  <script src="/js/common.js?v=38"></script>
   <script src="/js/auth.js?v=5"></script>
   <script src="/js/pwa.js?v=2"></script>
   <script src="/js/consent.js?v=2"></script>
@@ -809,7 +798,7 @@ function renderGearPage() {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=49" />
+  <link rel="stylesheet" href="/css/style.css?v=50" />
 
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
   ${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>` : ""}
@@ -852,6 +841,7 @@ ${
       ${categories
         .map((cat) => `<a class="gear-chip" href="#gear-${escapeAttr(cat.key)}">${cat.emoji} ${escapeHtml(cat.label)}</a>`)
         .join("\n      ")}
+      ${REFERRAL_PERKS && REFERRAL_PERKS.length ? `<a class="gear-chip" href="#gear-perks">💳 Cards &amp; Rides</a>` : ""}
     </nav>`
     : ""
 }
@@ -877,6 +867,20 @@ ${categories
     </section>`;
   })
   .join("")}
+
+${
+  REFERRAL_PERKS && REFERRAL_PERKS.length
+    ? `
+    <section class="gear-section gear-perks reveal" id="gear-perks">
+      <h2>💳 Cards &amp; Rides I Use</h2>
+      <p class="gear-section-sub">Not filming gear, but part of how I actually get to restaurants and pay for the meals.</p>
+      <div class="referral-cards">
+        ${REFERRAL_PERKS.map((perk) => referralCardHtml(perk, "gear")).join("\n        ")}
+      </div>
+      <p class="referral-disclosure">These are referral links, separate from the Amazon links above. If you sign up through one, I may earn a referral reward at no extra cost to you. I still pay for every meal I review myself.</p>
+    </section>`
+    : ""
+}
 
     <section class="gear-trust quick-facts-card glow-card reveal">
       <h2>Why This List Stays Short</h2>
@@ -907,10 +911,10 @@ ${
 
   <footer class="site-footer" data-footer data-prefix="/"></footer>
 
-  <script src="/js/data.js?v=20"></script>
+  <script src="/js/data.js?v=21"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=36"></script>
+  <script src="/js/common.js?v=38"></script>
   <script src="/js/auth.js?v=5"></script>
   <script src="/js/pwa.js?v=2"></script>
   <script src="/js/consent.js?v=2"></script>

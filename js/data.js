@@ -106,6 +106,44 @@ const FILMING_GEAR = [
   },
 ];
 
+/* ---------- Referral perks ----------
+   The cards and apps Sam actually uses to eat out and get around. These
+   are REFERRAL links, not Amazon affiliate links, so they're kept separate
+   from FILMING_GEAR: different partners, different disclosure, and the
+   Amazon Associates wording must never be applied to them.
+
+   Single source of truth for the "Deals I Actually Use" widget in the
+   footer/review pages AND the "Cards & Rides I Use" section on /gear/.
+
+   To add one: { name, description, url, destination } where `destination`
+   is just a short label for click tracking (e.g. "amex", "uber"). */
+const REFERRAL_PERKS = [
+  {
+    name: "Amex Gold Card",
+    description: "Great everyday points on food & travel",
+    url: "https://americanexpress.com/en-us/referral/gold-card?ref=SAMUEKhIMj&XL=MIZNS",
+    destination: "amex",
+  },
+  {
+    name: "Amex Platinum Card",
+    description: "Even better points on travel",
+    url: "https://americanexpress.com/en-us/referral/platinum-card?ref=SAMUEKQPAv&XL=MIZNS",
+    destination: "amex",
+  },
+  {
+    name: "Uber",
+    description: "Sign up for an easy ride to your next meal",
+    url: "https://referrals.uber.com/refer?id=r68141rgpszh",
+    destination: "uber",
+  },
+  {
+    name: "Uber Eats",
+    description: "Get your next meal delivered",
+    url: "https://ubereats.com/feed?promoCode=eats-samuelk6169ue",
+    destination: "ubereats",
+  },
+];
+
 /* ---------- Gear page FAQ ----------
    Shown at the bottom of /gear/ and fed to FAQ structured data. An entry
    with an empty `answer` is skipped entirely (it renders nowhere and stays

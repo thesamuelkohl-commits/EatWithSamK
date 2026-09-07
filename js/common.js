@@ -128,37 +128,6 @@ document.querySelectorAll("[data-nav]").forEach((nav) => {
   ).join("");
 });
 
-function referralWidgetHtml() {
-  return `
-    <div class="referral-widget glow-card">
-      <h3 class="referral-title">🎁 Deals I Actually Use</h3>
-      <p class="referral-blurb">A few things I personally use to eat out and get around, here's how you can save (or earn) too.</p>
-      <div class="referral-cards">
-        <a class="referral-card" href="https://americanexpress.com/en-us/referral/gold-card?ref=SAMUEKhIMj&XL=MIZNS" target="_blank" rel="sponsored noopener">
-          <span class="referral-card-name">Amex Gold Card</span>
-          <span class="referral-card-desc">Great everyday points on food &amp; travel</span>
-          <span class="referral-card-cta">Learn More →</span>
-        </a>
-        <a class="referral-card" href="https://americanexpress.com/en-us/referral/platinum-card?ref=SAMUEKQPAv&XL=MIZNS" target="_blank" rel="sponsored noopener">
-          <span class="referral-card-name">Amex Platinum Card</span>
-          <span class="referral-card-desc">Even better points on travel</span>
-          <span class="referral-card-cta">Learn More →</span>
-        </a>
-        <a class="referral-card" href="https://referrals.uber.com/refer?id=r68141rgpszh" target="_blank" rel="sponsored noopener">
-          <span class="referral-card-name">Uber</span>
-          <span class="referral-card-desc">Sign up for an easy ride to your next meal</span>
-          <span class="referral-card-cta">Learn More →</span>
-        </a>
-        <a class="referral-card" href="https://ubereats.com/feed?promoCode=eats-samuelk6169ue" target="_blank" rel="sponsored noopener">
-          <span class="referral-card-name">Uber Eats</span>
-          <span class="referral-card-desc">Get your next meal delivered</span>
-          <span class="referral-card-cta">Learn More →</span>
-        </a>
-      </div>
-      <p class="referral-disclosure">These are referral links, if you sign up, I may earn rewards too. Thanks for supporting the site!</p>
-    </div>`;
-}
-
 function footerHtml(prefix) {
   prefix = prefix || "";
   return `
@@ -249,7 +218,8 @@ document.addEventListener("click", (e) => {
   gtag("event", "affiliate_click", {
     product_name: link.dataset.product || "",
     category: link.dataset.category || "",
-    destination: "amazon",
+    // Gear links are Amazon; the card/rideshare referrals set their own.
+    destination: link.dataset.destination || "amazon",
     page: link.dataset.page || "",
   });
 });

@@ -1691,3 +1691,9 @@ a { color: var(--red); }
   height: 1px;
   overflow: hidden;
 }
+
+/* Referral perks on /gear/ sit in the same card grid as the gear cards,
+   but keep the referral widget's card styling so they read as a different
+   kind of link than the Amazon products above. */
+.gear-perks .referral-cards { margin-top: 14px; }
+.gear-perks .referral-disclosure { margin-top: 12px; }
