@@ -189,7 +189,11 @@ function footerHtml(prefix) {
       </div>
       <div class="footer-bottom">
         <p class="footer-note">© <span id="year"></span> Eat With Sam K · All reviews are my own, I pay for every meal.</p>
-        <div class="footer-legal"><a href="/privacy">Privacy Policy</a></div>
+        <div class="footer-legal">
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/terms">Terms &amp; Conditions</a>
+          <button type="button" class="footer-legal-btn" data-cookie-settings>Cookie Settings</button>
+        </div>
       </div>
     </div>`;
 }
@@ -223,6 +227,13 @@ document.querySelectorAll("[data-newsletter-embed]").forEach((container) => {
   script.src = "https://subscribe-forms.beehiiv.com/v3/loader.js";
   script.dataset.beehiivForm = "0a8371cb-2d20-496e-ad87-a73d26ec1847";
   container.appendChild(script);
+});
+
+// Footer "Cookie Settings" reopens the consent banner so a choice can be
+// changed later. samkResetConsent() is defined in js/consent.js.
+document.addEventListener("click", (e) => {
+  if (!e.target.closest("[data-cookie-settings]")) return;
+  if (typeof window.samkResetConsent === "function") window.samkResetConsent();
 });
 
 /* ---------- Affiliate click tracking ----------

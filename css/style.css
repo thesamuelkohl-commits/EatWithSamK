@@ -1,9 +1,16 @@
 /* ============ EAT WITH SAM K — STYLES ============ */
 
 :root {
-  /* Brand colors pulled from the Eat With Sam K logo */
-  --red: #c05a24;
-  --red-dark: #9c451a;
+  /* Brand colors pulled from the Eat With Sam K logo.
+     --red was #c05a24, deepened slightly to #af4d1d so it clears WCAG AA
+     (4.5:1) both as body text on cream/white and as a button fill under
+     white text. Same rust, just contrast-safe. --gold and --green stay as
+     they are for fills; their -text variants below are for type, where the
+     bright versions failed badly (gold on white was only 2:1). */
+  --red: #af4d1d;
+  --red-dark: #8f3f17;
+  --gold-text: #8a5a06;
+  --green-text: #1b6b41;
   --cream: #faf3e8;
   --card: #ffffff;
   --ink: #241d1a;
@@ -267,7 +274,7 @@ a { color: var(--red); }
 }
 
 .auth-status { font-size: 0.8rem; margin-top: 10px; line-height: 1.4; }
-.auth-status-ok { color: var(--green); font-weight: 700; }
+.auth-status-ok { color: var(--green-text); font-weight: 700; }
 .auth-status-error { color: var(--red); }
 
 .auth-signout { width: 100%; justify-content: center; }
@@ -1331,7 +1338,7 @@ a { color: var(--red); }
 /* Filming gear ("Gear I Film With") reuses the referral widget shell, with a
    gold accent so it reads as a separate block from the food/travel deals. */
 .gear-widget { border-top: 3px solid var(--gold); }
-.gear-widget .referral-card-cta { color: var(--gold); }
+.gear-widget .referral-card-cta { color: var(--gold-text); }
 
 /* ---------- Footer ---------- */
 .site-footer {
@@ -1398,7 +1405,7 @@ a { color: var(--red); }
 
 .newsletter-note {
   font-size: 0.85rem;
-  color: var(--gold);
+  color: var(--gold-text);
   margin-top: 10px;
   line-height: 1.5;
 }
@@ -1422,9 +1429,18 @@ a { color: var(--red); }
 .footer-note a { color: #cfc4bd; }
 .footer-note a:hover { color: #fff; }
 
-.footer-legal { display: flex; gap: 16px; font-size: 0.82rem; }
-.footer-legal a { color: #cfc4bd; text-decoration: none; opacity: 0.8; }
-.footer-legal a:hover { opacity: 1; color: #fff; }
+.footer-legal { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.82rem; justify-content: center; }
+.footer-legal a, .footer-legal-btn { color: #cfc4bd; text-decoration: none; opacity: 0.8; }
+.footer-legal a:hover, .footer-legal-btn:hover { opacity: 1; color: #fff; }
+/* Matches the sibling links exactly, but stays a real <button> since it
+   performs an action rather than navigating. */
+.footer-legal-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
 
 @media (max-width: 780px) {
   .footer-grid { grid-template-columns: 1fr; gap: 28px; }
@@ -1611,4 +1627,67 @@ a { color: var(--red); }
 
 @media (min-width: 620px) {
   .gear-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+
+/* ---------- Cookie consent banner ----------
+   Fixed to the bottom so it never covers the header, and it holds Google
+   Analytics/AdSense in a denied Consent Mode state until a choice is made
+   (see js/consent.js). */
+.cookie-banner {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3000;
+  background: var(--ink);
+  color: var(--cream);
+  border-top: 3px solid var(--gold);
+  box-shadow: 0 -6px 26px rgba(36, 29, 26, 0.24);
+  padding: 16px 18px calc(16px + env(safe-area-inset-bottom));
+  transform: translateY(110%);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.cookie-banner.is-visible { transform: translateY(0); }
+
+.cookie-banner-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+}
+.cookie-banner-text { font-size: 0.9rem; line-height: 1.55; margin: 0; }
+.cookie-banner-text a { color: var(--gold); font-weight: 700; }
+.cookie-banner-actions { display: flex; flex-wrap: wrap; gap: 10px; width: 100%; }
+.cookie-banner-actions .btn { flex: 1; justify-content: center; }
+.cookie-banner .btn-ghost {
+  background: transparent;
+  color: var(--cream);
+  border: 1px solid rgba(250, 243, 232, 0.5);
+}
+.cookie-banner .btn-ghost:hover { background: rgba(250, 243, 232, 0.14); }
+
+@media (min-width: 700px) {
+  .cookie-banner-inner { flex-direction: row; align-items: center; justify-content: space-between; gap: 22px; }
+  .cookie-banner-actions { width: auto; flex: 0 0 auto; }
+  .cookie-banner-actions .btn { flex: 0 0 auto; }
+}
+
+/* ---------- 404 ---------- */
+.error-wrap { text-align: center; }
+.error-page { padding: 30px 0 20px; }
+.error-lede { font-size: 1.1rem; color: var(--ink-soft); margin: 10px auto 0; max-width: 460px; }
+.error-sub { color: var(--ink-soft); margin: 18px 0 0; font-size: 0.95rem; }
+.error-links { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 18px; }
+
+/* Honeypot: off-screen rather than display:none, since some bots skip
+   fields that are explicitly hidden. Never focusable by a real visitor. */
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }

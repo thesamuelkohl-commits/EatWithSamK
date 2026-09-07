@@ -9,6 +9,17 @@
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
+
+    // Consent Mode v2: everything starts denied, so no analytics or ad
+    // cookies are written until the visitor chooses in the banner
+    // (js/consent.js). This has to run before gtag('config') to count.
+    gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
+    });
+
     gtag('js', new Date());
 
     gtag('config', 'G-2V4D6ZQV6Q');
@@ -40,7 +51,7 @@
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css?v=48" />
+  <link rel="stylesheet" href="css/style.css?v=49" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -156,8 +167,9 @@
   <script src="js/data.js?v=20"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-config.js?v=1"></script>
-  <script src="js/common.js?v=35"></script>
-  <script src="js/auth.js?v=4"></script>
+  <script src="js/common.js?v=36"></script>
+  <script src="js/auth.js?v=5"></script>
   <script src="js/pwa.js?v=2"></script>
+  <script src="js/consent.js?v=2"></script>
 </body>
 </html>

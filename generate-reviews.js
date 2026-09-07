@@ -344,6 +344,17 @@ function renderReviewPage(place, relatedPosts) {
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
+
+    // Consent Mode v2: everything starts denied, so no analytics or ad
+    // cookies are written until the visitor chooses in the banner
+    // (js/consent.js). This has to run before gtag('config') to count.
+    gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
+    });
+
     gtag('js', new Date());
 
     gtag('config', 'G-2V4D6ZQV6Q');
@@ -379,7 +390,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=48" />
+  <link rel="stylesheet" href="../css/style.css?v=49" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -469,9 +480,10 @@ function renderReviewPage(place, relatedPosts) {
   <script src="../js/data.js?v=20"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=35"></script>
-  <script src="../js/auth.js?v=4"></script>
+  <script src="../js/common.js?v=36"></script>
+  <script src="../js/auth.js?v=5"></script>
   <script src="../js/pwa.js?v=2"></script>
+  <script src="../js/consent.js?v=2"></script>
   <script>
     hydrateFavoriteButtons();
     var map = L.map("map", { scrollWheelZoom: false }).setView([${place.lat}, ${place.lng}], 15);
@@ -561,6 +573,17 @@ function renderGuidePage(post) {
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
+
+    // Consent Mode v2: everything starts denied, so no analytics or ad
+    // cookies are written until the visitor chooses in the banner
+    // (js/consent.js). This has to run before gtag('config') to count.
+    gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
+    });
+
     gtag('js', new Date());
 
     gtag('config', 'G-2V4D6ZQV6Q');
@@ -595,7 +618,7 @@ function renderGuidePage(post) {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=48" />
+  <link rel="stylesheet" href="/css/style.css?v=49" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -648,9 +671,10 @@ function renderGuidePage(post) {
   <script src="/js/data.js?v=20"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=35"></script>
-  <script src="/js/auth.js?v=4"></script>
+  <script src="/js/common.js?v=36"></script>
+  <script src="/js/auth.js?v=5"></script>
   <script src="/js/pwa.js?v=2"></script>
+  <script src="/js/consent.js?v=2"></script>
 </body>
 </html>
 `;
@@ -740,6 +764,17 @@ function renderGearPage() {
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
+
+    // Consent Mode v2: everything starts denied, so no analytics or ad
+    // cookies are written until the visitor chooses in the banner
+    // (js/consent.js). This has to run before gtag('config') to count.
+    gtag('consent', 'default', {
+      analytics_storage: 'denied',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
+    });
+
     gtag('js', new Date());
 
     gtag('config', 'G-2V4D6ZQV6Q');
@@ -774,7 +809,7 @@ function renderGearPage() {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=48" />
+  <link rel="stylesheet" href="/css/style.css?v=49" />
 
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
   ${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>` : ""}
@@ -875,9 +910,10 @@ ${
   <script src="/js/data.js?v=20"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=35"></script>
-  <script src="/js/auth.js?v=4"></script>
+  <script src="/js/common.js?v=36"></script>
+  <script src="/js/auth.js?v=5"></script>
   <script src="/js/pwa.js?v=2"></script>
+  <script src="/js/consent.js?v=2"></script>
 </body>
 </html>
 `;
@@ -893,6 +929,7 @@ function renderSitemap() {
     { loc: GEAR_URL, priority: "0.5" },
     { loc: `${SITE_URL}/advertise`, priority: "0.4" },
     { loc: `${SITE_URL}/privacy`, priority: "0.2" },
+    { loc: `${SITE_URL}/terms`, priority: "0.2" },
     ...PLACES.map((p) => ({ loc: reviewUrl(p), priority: "0.9", lastmod: p.date })),
     ...BLOG_POSTS.map((post) => ({ loc: guideUrl(post), priority: "0.7", lastmod: post.updated || post.date })),
   ];
@@ -944,7 +981,26 @@ function renderVercelConfig() {
   // post.html is deliberately left reachable at its real name: its whole job
   // is catching old /post.html?id=... links (see the redirects above), and
   // this doesn't change that — it can still just also be visited at /post.
-  return JSON.stringify({ cleanUrls: true, redirects }, null, 2) + "\n";
+  // Security headers. Vercel already terminates TLS and redirects http to
+  // https, but without HSTS a first visit can still start over http, so
+  // that's the one that actually adds protection here. The rest are cheap
+  // hardening: no MIME sniffing, no framing the site (clickjacking), no
+  // referrer leakage to third parties, and no access to camera/mic/geo
+  // beyond the geolocation the food finder asks for on the visitor's own
+  // click.
+  const headers = [
+    {
+      source: "/(.*)",
+      headers: [
+        { key: "Strict-Transport-Security", value: "max-age=63072000; includeSubDomains; preload" },
+        { key: "X-Content-Type-Options", value: "nosniff" },
+        { key: "X-Frame-Options", value: "SAMEORIGIN" },
+        { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+        { key: "Permissions-Policy", value: "geolocation=(self), camera=(), microphone=(), payment=()" },
+      ],
+    },
+  ];
+  return JSON.stringify({ cleanUrls: true, redirects, headers }, null, 2) + "\n";
 }
 
 // ---------- Portable data export ----------

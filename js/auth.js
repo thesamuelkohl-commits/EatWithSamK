@@ -67,14 +67,51 @@ function authWidgetHtml() {
     <div class="auth-widget">
       <button type="button" class="auth-trigger" data-auth-toggle aria-expanded="${expanded}">👤 Sign In</button>
       <div class="auth-popover" data-auth-popover ${openAttr}>
-        <form data-auth-form>
+        <form data-auth-form novalidate>
           <p class="auth-popover-title">Sign in to save places across all your devices</p>
-          <input type="email" class="auth-email" data-auth-email placeholder="you@email.com" required autocomplete="email" />
+          <input type="email" class="auth-email" data-auth-email placeholder="you@email.com" required autocomplete="email" inputmode="email" maxlength="254" aria-describedby="auth-help" />
+          <!-- Honeypot: hidden from people, catches bots that fill in every
+               field. Real submissions always leave this empty. -->
+          <div class="hp-field" aria-hidden="true">
+            <label for="auth-website">Website</label>
+            <input type="text" id="auth-website" name="website" data-auth-hp tabindex="-1" autocomplete="off" />
+          </div>
           <button type="submit" class="btn btn-primary auth-submit" ${authWidgetState === "sending" ? "disabled" : ""}>${authWidgetState === "sending" ? "Sending…" : "Send Magic Link"}</button>
           ${statusHtml}
         </form>
       </div>
     </div>`;
+}
+
+/* ---------- Form validation + spam protection ----------
+   Supabase enforces its own rate limits server-side; these are the
+   client-side guards that stop obvious junk (and accidental double
+   submits) before a request is ever made. */
+
+// Deliberately permissive: one @, a dot in the domain, no spaces. Catching
+// typos is the job here, not policing every exotic-but-legal address.
+function isValidEmail(value) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(value) && value.length <= 254;
+}
+
+const RATE_LIMIT_KEY = "ewsk-last-magic-link";
+const RATE_LIMIT_MS = 60 * 1000;
+
+function isRateLimited() {
+  try {
+    const last = parseInt(localStorage.getItem(RATE_LIMIT_KEY) || "0", 10);
+    return last && Date.now() - last < RATE_LIMIT_MS;
+  } catch (err) {
+    return false; // storage blocked: fall back to Supabase's own limits
+  }
+}
+
+function markRequestSent() {
+  try {
+    localStorage.setItem(RATE_LIMIT_KEY, String(Date.now()));
+  } catch (err) {
+    /* ignore */
+  }
 }
 
 async function sendMagicLink(email) {
@@ -173,8 +210,41 @@ document.addEventListener("submit", (e) => {
   const form = e.target.closest("[data-auth-form]");
   if (!form) return;
   e.preventDefault();
+
+  // Honeypot tripped: a bot filled the hidden field. Act like it worked so
+  // the bot doesn't learn anything, but send nothing.
+  const honeypot = form.querySelector("[data-auth-hp]");
+  if (honeypot && honeypot.value.trim()) {
+    authWidgetState = "sent";
+    renderAuthWidgets();
+    return;
+  }
+
   const email = form.querySelector("[data-auth-email]").value.trim();
-  if (email) sendMagicLink(email);
+
+  // The form is novalidate so the message renders in our own styling
+  // instead of a native bubble. Validate explicitly.
+  if (!email) {
+    authError = "Enter your email address to get a sign-in link.";
+    authWidgetState = "signed-out";
+    renderAuthWidgets();
+    return;
+  }
+  if (!isValidEmail(email)) {
+    authError = "That doesn't look like a valid email address.";
+    authWidgetState = "signed-out";
+    renderAuthWidgets();
+    return;
+  }
+  if (isRateLimited()) {
+    authError = "Just sent a link. Check your inbox, or try again in a minute.";
+    authWidgetState = "signed-out";
+    renderAuthWidgets();
+    return;
+  }
+
+  markRequestSent();
+  sendMagicLink(email);
 });
 
 (async function initAuth() {

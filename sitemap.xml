@@ -33,6 +33,10 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://www.eatwithsamk.com/terms</loc>
+    <priority>0.2</priority>
+  </url>
+  <url>
     <loc>https://www.eatwithsamk.com/reviews/superica-atlanta</loc>
     <lastmod>2026-08-27</lastmod>
     <priority>0.9</priority>
