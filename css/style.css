@@ -1701,3 +1701,28 @@ a { color: var(--red); }
 /* Advertise page: the UGC section is linked to by an in-page anchor, so it
    needs to clear the sticky header when jumped to. */
 #ugc { scroll-margin-top: 90px; }
+
+/* Document previews (UGC rate card pages on the advertise page). Two up on
+   wider screens, stacked on mobile, with the page edge visible so they read
+   as document pages rather than as photos. */
+.doc-preview {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin: 14px 0 8px;
+}
+.doc-preview img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow);
+  background: #fff;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+}
+.doc-preview a:hover img { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+.doc-preview-note { font-size: 0.82rem; color: var(--ink-soft); margin-bottom: 14px; }
+
+@media (min-width: 700px) {
+  .doc-preview { grid-template-columns: 1fr 1fr; align-items: start; }
+}
