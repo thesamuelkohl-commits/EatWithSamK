@@ -56,7 +56,8 @@ const GEAR_CATEGORIES = [
      {
        name: "",              // product name as you'd say it, not the full Amazon title
        category: "",          // a `key` from GEAR_CATEGORIES above
-       image: "",             // e.g. "images/gear/my-product.jpg" — leave "" for a lettered placeholder
+       image: "",             // e.g. "images/gear/my-product.jpg?v=1" — leave "" for a lettered placeholder
+       imageAlt: "",          // describes the photo for screen readers; falls back to `name` if empty
        description: "",       // 1-2 sentences, what it is
        whyIUseIt: "",         // your personal take: how it fits Eat With Sam K
        affiliateUrl: "",      // your amzn.to link
@@ -69,10 +70,11 @@ const GEAR_CATEGORIES = [
    and both the page section and the guide widget disappear on their own. */
 const FILMING_GEAR = [
   {
-    name: "DJI Mic",
+    name: "DJI Mic Mini",
     category: "audio",
-    image: "",
-    description: "Wireless clip-on mic that records straight to its own receiver.",
+    image: "images/gear/dji-mic-mini.jpg?v=1",
+    imageAlt: "DJI Mic Mini kit, one clip-on wireless transmitter next to the Mic RX receiver, on a white background.",
+    description: "Ultralight wireless clip-on mic and receiver, in the 1 TX + 1 RX kit.",
     // TODO: Sam — swap in your own wording here.
     whyIUseIt: "Restaurants are loud. This is what keeps my voice clear over the room on every review I film.",
     affiliateUrl: "https://amzn.to/4h0vItI",
@@ -81,10 +83,11 @@ const FILMING_GEAR = [
     order: 1,
   },
   {
-    name: "Travel Tripod",
+    name: "Lamicall MagSafe Tripod",
     category: "content",
-    image: "",
-    description: "Compact tripod that folds down small enough to carry all day.",
+    image: "images/gear/lamicall-magsafe-tripod.jpg?v=1",
+    imageAlt: "Lamicall ultra-compact MagSafe tripod stand in black, holding a phone, folded flat and used as a handheld grip.",
+    description: "Ultra-compact aluminum tripod that snaps onto a phone magnetically and folds flat.",
     // TODO: Sam — swap in your own wording here.
     whyIUseIt: "It's the tripod I take on the go, so I can set up a shot at a table without hauling anything bulky.",
     affiliateUrl: "https://amzn.to/4heXW4U",
@@ -93,9 +96,10 @@ const FILMING_GEAR = [
     order: 2,
   },
   {
-    name: "Ray-Ban Meta Glasses",
+    name: "Ray-Ban Meta Wayfarer (Gen 2)",
     category: "content",
-    image: "",
+    image: "images/gear/ray-ban-meta-wayfarer.jpg?v=1",
+    imageAlt: "Ray-Ban Meta Wayfarer smart glasses, Gen 2, in matte black with clear lenses, shown at an angle on a white background.",
     description: "Smart glasses that capture point-of-view video hands-free.",
     // TODO: Sam — swap in your own wording here.
     whyIUseIt: "Lets me film what I'm actually seeing while I eat, without holding a phone up the whole time.",
@@ -153,7 +157,7 @@ const GEAR_FAQ = [
   {
     question: "What microphone do you use for restaurant reviews?",
     answer:
-      "A DJI wireless mic. Restaurants are loud, and clipping on a wireless mic is the single biggest jump in quality I've made.",
+      "The DJI Mic Mini. Restaurants are loud, and clipping on a wireless mic is the single biggest jump in quality I've made.",
   },
   {
     question: "What camera does Eat With Sam K use?",

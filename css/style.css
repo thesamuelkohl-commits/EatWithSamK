@@ -1556,8 +1556,11 @@ a { color: var(--red); }
   display: block;
   width: 100%;
   height: 190px;
-  object-fit: cover;
-  background: var(--cream);
+  /* These are official product shots on white, so fit the whole product in
+     the tile rather than cropping into it the way a photo would want. */
+  object-fit: contain;
+  padding: 12px;
+  background: #fff;
 }
 .gear-card-img-placeholder {
   display: grid;

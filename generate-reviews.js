@@ -379,7 +379,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=52" />
+  <link rel="stylesheet" href="../css/style.css?v=53" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -466,7 +466,7 @@ function renderReviewPage(place, relatedPosts) {
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
-  <script src="../js/data.js?v=22"></script>
+  <script src="../js/data.js?v=24"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
   <script src="../js/common.js?v=40"></script>
@@ -607,7 +607,7 @@ function renderGuidePage(post) {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=52" />
+  <link rel="stylesheet" href="/css/style.css?v=53" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -657,7 +657,7 @@ function renderGuidePage(post) {
   <footer class="site-footer" data-footer data-prefix="/"></footer>
 
   ${hasInstagramEmbed ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
-  <script src="/js/data.js?v=22"></script>
+  <script src="/js/data.js?v=24"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
   <script src="/js/common.js?v=40"></script>
@@ -691,7 +691,7 @@ function activeGearCategories() {
 // rather than a broken <img> or a stock photo we'd be inventing.
 function gearCardHtml(item) {
   const media = item.image
-    ? `<img class="gear-card-img" src="/${escapeAttr(item.image)}" alt="${escapeAttr(item.name)}" loading="lazy" />`
+    ? `<img class="gear-card-img" src="/${escapeAttr(item.image)}" alt="${escapeAttr(item.imageAlt || item.name)}" loading="lazy" />`
     : `<div class="gear-card-img gear-card-img-placeholder" aria-hidden="true">${escapeHtml(item.name.trim().charAt(0))}</div>`;
   return `
         <article class="gear-card glow-card">
@@ -798,7 +798,7 @@ function renderGearPage() {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=52" />
+  <link rel="stylesheet" href="/css/style.css?v=53" />
 
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
   ${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>` : ""}
@@ -911,7 +911,7 @@ ${
 
   <footer class="site-footer" data-footer data-prefix="/"></footer>
 
-  <script src="/js/data.js?v=22"></script>
+  <script src="/js/data.js?v=24"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
   <script src="/js/common.js?v=40"></script>
