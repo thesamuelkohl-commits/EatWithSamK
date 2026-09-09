@@ -196,6 +196,37 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "sharkys-panama-city-beach",
+    name: "Sharky's Beachfront Restaurant",
+    city: "Panama City Beach, FL",
+    lat: 30.2083894,
+    lng: -85.8636234,
+    address: "15201 Front Beach Rd, Panama City Beach, FL 32413",
+    phone: "(850) 235-2420",
+    parking: "Free parking",
+    website: "https://sharkysbeach.com/",
+    date: "2026-09-04",
+    price: "$$",
+    cuisine: "Seafood",
+    badges: ["family-friendly", "best-patio"],
+    about: "Sharky's Beachfront Restaurant is a Panama City Beach institution right on the Gulf, a big open-air seafood spot with a tiki bar, live music, and tables looking straight out at the water.",
+    ate: "The Shark Bites, the Shrimp Po' Boy, and the Panhandle Seafood Platter.",
+    heroPhoto: "images/reviews/sharkys-panama-city-beach/order-seafood-platter.jpg",
+    photos: [
+      { src: "images/reviews/sharkys-panama-city-beach/storefront.jpg", alt: "Sharky's Beachfront Restaurant sign and entrance, Panama City Beach" },
+      { src: "images/reviews/sharkys-panama-city-beach/patio.jpg", alt: "Sharky's beachfront patio with tiki hut and umbrella seating overlooking the Gulf" },
+      { src: "images/reviews/sharkys-panama-city-beach/order-shark-bites.jpg", alt: "Sam's order: Shark Bites with tartar sauce, Sharky's Panama City Beach" },
+      { src: "images/reviews/sharkys-panama-city-beach/order-po-boy.jpg", alt: "Sam's order: Shrimp Po' Boy with fries, Sharky's Panama City Beach" },
+      { src: "images/reviews/sharkys-panama-city-beach/order-seafood-platter.jpg", alt: "Sam's order: the Panhandle Seafood Platter with fried shrimp, fish, hushpuppy and fries, Sharky's" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 6, service: 7 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Great view", "Lots of seating", "Quick"],
+    cons: ["Mostly outside"],
+    rating: 7.9,
+    video: "https://www.instagram.com/reel/DdC3JcCNI5z/",
+    tags: ["Seafood", "Beachfront"],
+  },
+  {
     id: "superica-atlanta",
     name: "Superica",
     city: "Atlanta, GA",

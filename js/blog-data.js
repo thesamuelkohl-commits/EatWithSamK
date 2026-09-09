@@ -41,23 +41,24 @@
 const BLOG_POSTS = [
   {
     id: "best-restaurants-panama-city-beach",
+    places: ["sharkys-panama-city-beach"],
     title: "Best Restaurants in Panama City Beach, FL (2026): Where to Eat",
     city: "Panama City Beach, FL",
     date: "2026-09-06",
-    updated: "2026-09-06",
+    updated: "2026-09-08",
     emoji: "🦪",
     excerpt:
-      "Looking for the best restaurants in Panama City Beach? See Sam Scores, honest reviews, seafood spots, date-night restaurants and where to eat in PCB.",
+      "Looking for the best restaurants in Panama City Beach? Start with my own review of Sharky's Beachfront Restaurant, plus seafood spots, date-night picks and where to eat in PCB.",
     faq: [
       {
         question: "What are the best restaurants in Panama City Beach?",
         answer:
-          "I'm currently eating my way through Panama City Beach and rating restaurants using the Sam Score. Dusty's Oyster Bar is the first restaurant I've visited for this guide, and its full review and Sam Score are on the way, with more restaurants added as I get to them.",
+          "Of the Panama City Beach restaurants I've personally reviewed so far, Sharky's Beachfront Restaurant is my highest rated at 7.9/10. I'm still eating my way through PCB, so more Sam Scores are on the way, including Dusty's Oyster Bar.",
       },
       {
         question: "Where should I eat seafood in Panama City Beach?",
         answer:
-          "PCB has a huge number of seafood restaurants. Dusty's Oyster Bar is one I've personally visited, while places like Mike's Cafe & Oyster Bar and Local Steamer Seafood Market are also on my radar as I continue exploring the area.",
+          "Sharky's Beachfront Restaurant is the one I've personally reviewed so far, and it's right on the Gulf if the view matters as much as the food. Dusty's Oyster Bar is another I've visited, while Mike's Cafe & Oyster Bar and Local Steamer Seafood Market are still on my radar.",
       },
       {
         question: "Where can I get oysters in Panama City Beach?",
@@ -79,12 +80,23 @@ const BLOG_POSTS = [
       <p>Panama City Beach has no shortage of places to eat. Between beachfront seafood restaurants, oyster bars, casual local spots, and restaurants packed with tourists, the harder question is figuring out which ones are actually worth your money.</p>
       <p>That's what I'm trying to find out.</p>
       <p>I'm eating my way through Panama City Beach and personally reviewing restaurants along the way. Every restaurant I review gets a Sam Score, my overall rating based on the food and experience.</p>
-      <p>This guide will continue to grow as I try more restaurants around PCB, so check back as more places get added.</p>
+      <p>Sharky's is the first PCB restaurant with a Sam Score, and this guide will keep growing as I try more, so check back as places get added.</p>
       <p>No paid reviews. No bought ratings. Every Sam Score reflects my actual experience.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
 
-      <h2>Panama City Beach Restaurants Worth Knowing</h2>
-      <p>I'm just getting started on Panama City Beach, so nothing here has an official Sam Score yet. Dusty's is the first one I've visited, and its review is on the way.</p>
+      <h2>⭐ <a href="/reviews/sharkys-panama-city-beach">Sharky's Beachfront Restaurant</a></h2>
+      <p><strong>Neighborhood:</strong> Front Beach Road, on the Gulf</p>
+      <p><strong>Sam Score:</strong> 7.9/10</p>
+      <p><strong>Best For:</strong> Families, big groups and eating with a view</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Sharky's is a Panama City Beach institution sitting right on the sand, a big open-air place with a tiki bar and tables looking straight out at the Gulf.</p>
+      <p>The view is the headline, and the seating and service keep up with it: plenty of tables and food out fast even when it's busy. Worth knowing that it's mostly open-air, so the weather is part of the experience. <a href="/reviews/sharkys-panama-city-beach">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "The best view of any meal I've had in PCB, and the food holds its own."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/sharkys-panama-city-beach">Read my full Sharky's review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/sharkys-panama-city-beach/order-seafood-platter.jpg" alt="Sam's order: the Panhandle Seafood Platter, Sharky's Panama City Beach" loading="lazy" /></div>
+
+      <h2>More Panama City Beach Restaurants Worth Knowing</h2>
+      <p>I'm still working my way through Panama City Beach, so the restaurants below haven't received an official Sam Score yet. Dusty's is one I've visited, with its review on the way.</p>
       <p>Rather than assigning rankings to places I haven't personally reviewed and published yet, I'm keeping them on my radar and will update this guide as I go.</p>
 
       <h3>🦪 <a href="https://dustysoysterbar.com/" target="_blank" rel="noopener">Dusty's Oyster Bar</a></h3>
@@ -127,8 +139,11 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Sharky's Beachfront Restaurant, 7.9</td></tr>
+          <tr><td>🌅 Eating With a View</td><td>Sharky's Beachfront Restaurant</td></tr>
+          <tr><td>👨‍👩‍👧 Families</td><td>Sharky's Beachfront Restaurant</td></tr>
           <tr><td>🦪 Oysters</td><td>Dusty's Oyster Bar</td></tr>
-          <tr><td>🐟 Casual Seafood</td><td>Dusty's Oyster Bar / Mike's Cafe</td></tr>
+          <tr><td>🐟 Casual Seafood</td><td>Sharky's / Dusty's Oyster Bar / Mike's Cafe</td></tr>
           <tr><td>🍺 Lively Group Spot</td><td>McGuire's Irish Pub</td></tr>
           <tr><td>🦐 Seafood Boil</td><td>Local Steamer</td></tr>
           <tr><td>❤️ Date Night</td><td>Hunt &amp; Gather / Firefly</td></tr>
