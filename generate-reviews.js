@@ -13,7 +13,7 @@
        real content immediately, no JavaScript required. Lives
        on disk as reviews/<id>.html but SERVES at the clean URL
        /reviews/<id> — see vercel.json's "cleanUrls" below)
-     - guides/<id>/index.html (same deal, one per Best Of guide —
+     - guides/<id>/index.html (same deal, one per guide —
        serves at the clean URL /guides/<id>/, full article text
        and structured data in the raw HTML, no JS required)
      - sitemap.xml
@@ -469,7 +469,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="../js/data.js?v=21"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="../js/supabase-config.js?v=1"></script>
-  <script src="../js/common.js?v=38"></script>
+  <script src="../js/common.js?v=40"></script>
   <script src="../js/auth.js?v=5"></script>
   <script src="../js/pwa.js?v=2"></script>
   <script src="../js/consent.js?v=2"></script>
@@ -533,7 +533,7 @@ function renderGuidePage(post) {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
-      { "@type": "ListItem", position: 2, name: "Best Of", item: `${SITE_URL}/best-of` },
+      { "@type": "ListItem", position: 2, name: "Guides", item: `${SITE_URL}/guides/` },
       { "@type": "ListItem", position: 3, name: post.title, item: canonical },
     ],
   };
@@ -618,7 +618,7 @@ function renderGuidePage(post) {
   <header class="site-header">
     <div class="header-inner">
       <a class="logo" href="/"><img class="logo-img" src="/images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
-      <nav class="main-nav" data-nav="blog" data-prefix="/"></nav>
+      <nav class="main-nav" data-nav="guides" data-prefix="/"></nav>
       <div class="header-right">
         <div class="social-row" data-socials></div>
         <div class="auth-widget" data-auth></div>
@@ -630,11 +630,11 @@ function renderGuidePage(post) {
   <main class="post-wrap">
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <a href="/">Home</a><span>›</span>
-      <a href="/best-of">Best Of</a><span>›</span>
+      <a href="/guides/">Guides</a><span>›</span>
       <span aria-current="page">${escapeHtml(post.title)}</span>
     </nav>
 
-    <a class="post-back" href="/best-of">← Back to Best Of</a>
+    <a class="post-back" href="/guides/">← Back to Guides</a>
     ${
       cover
         ? `
@@ -660,7 +660,7 @@ function renderGuidePage(post) {
   <script src="/js/data.js?v=21"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=38"></script>
+  <script src="/js/common.js?v=40"></script>
   <script src="/js/auth.js?v=5"></script>
   <script src="/js/pwa.js?v=2"></script>
   <script src="/js/consent.js?v=2"></script>
@@ -914,7 +914,7 @@ ${
   <script src="/js/data.js?v=21"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="/js/supabase-config.js?v=1"></script>
-  <script src="/js/common.js?v=38"></script>
+  <script src="/js/common.js?v=40"></script>
   <script src="/js/auth.js?v=5"></script>
   <script src="/js/pwa.js?v=2"></script>
   <script src="/js/consent.js?v=2"></script>
@@ -928,7 +928,7 @@ function renderSitemap() {
     { loc: `${SITE_URL}/`, priority: "1.0" },
     { loc: `${SITE_URL}/map`, priority: "0.9" },
     { loc: `${SITE_URL}/reviews`, priority: "0.9" },
-    { loc: `${SITE_URL}/best-of`, priority: "0.8" },
+    { loc: `${SITE_URL}/guides/`, priority: "0.8" },
     { loc: `${SITE_URL}/about`, priority: "0.5" },
     { loc: GEAR_URL, priority: "0.5" },
     { loc: `${SITE_URL}/advertise`, priority: "0.4" },
@@ -963,6 +963,10 @@ function renderRedirects() {
   const lines = BLOG_POSTS.map(
     (post) => `/post.html?id=${post.id}  /guides/${post.id}/  301!`
   );
+  // The guides index moved from /best-of to /guides/ when the section was
+  // renamed. Keep the old URL 301ing so existing links and search rankings
+  // survive the rename.
+  lines.push("/best-of  /guides/  301!");
   return lines.join("\n") + "\n";
 }
 
@@ -979,6 +983,9 @@ function renderVercelConfig() {
     destination: `/guides/${post.id}/`,
     permanent: true,
   }));
+  // Old guides-index URL, from before the section was renamed "Guides".
+  redirects.push({ source: "/best-of", destination: "/guides/", permanent: true });
+  redirects.push({ source: "/best-of.html", destination: "/guides/", permanent: true });
   // cleanUrls strips ".html" from every page's URL (and 308-redirects any
   // request that still has it) without moving a single file on disk — every
   // top-level page and reviews/<id>.html keep living exactly where they are.
@@ -1082,9 +1089,12 @@ function bakeHomepageStats() {
 // reasoning as referralWidgetHtml()/postCoverPhoto() above).
 function blogCardHtml(post) {
   const cover = postCoverPhoto(post);
+  // Root-relative cover path: this same markup is baked into index.html (at
+  // the root) and guides/index.html (a directory deep), so a relative path
+  // would 404 on the guides listing.
   return `
     <a class="blog-card glow-card tilt-card reveal" href="/guides/${post.id}/">
-      ${cover ? `<div class="blog-card-banner blog-card-banner-photo" style="background-image: url('${cover}')"></div>` : `<div class="blog-card-banner">${post.emoji}</div>`}
+      ${cover ? `<div class="blog-card-banner blog-card-banner-photo" style="background-image: url('/${cover}')"></div>` : `<div class="blog-card-banner">${post.emoji}</div>`}
       <div class="blog-card-body">
         <div class="blog-meta"><span class="pill">${escapeHtml(post.city)}</span><span>${formatVisitDate(post.date)}</span></div>
         <h3>${escapeHtml(post.title)}</h3>
@@ -1115,8 +1125,8 @@ function escapeRegExp(str) {
   return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-// best-of.html's guide grid, and index.html's homepage "Best Of Guides"
-// section, both render their cards purely client-side (js/best-of.js /
+// guides/index.html's guide grid, and index.html's homepage "Guides"
+// section, both render their cards purely client-side (js/guides.js /
 // js/app.js) — meaning a crawler that doesn't run JS would see an empty
 // <div> and zero real links to any guide from either page. Baking the same
 // card markup in at build time (JS then just overwrites it with the exact
@@ -1126,15 +1136,15 @@ function escapeRegExp(str) {
 function bakeBestOfGrid() {
   const sorted = [...BLOG_POSTS].sort((a, b) => b.date.localeCompare(a.date));
   const cards = sorted.map(blogCardHtml).join("");
-  bakeMarkedSection("best-of.html", "blog-grid", cards);
-  console.log(`updated best-of.html guide grid (${BLOG_POSTS.length} guides, most recent first)`);
+  bakeMarkedSection("guides/index.html", "blog-grid", cards);
+  console.log(`updated guides/index.html grid (${BLOG_POSTS.length} guides, most recent first)`);
 }
 
 function bakeHomeBlogGrid() {
   const recentPosts = [...BLOG_POSTS].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
   const cards = recentPosts.map(blogCardHtml).join("");
   bakeMarkedSection("index.html", "home-blog", cards);
-  console.log(`updated index.html "Best Of Guides" section (${recentPosts.length} most recent)`);
+  console.log(`updated index.html "Guides" section (${recentPosts.length} most recent)`);
 }
 
 const reviewsDir = path.join(__dirname, "reviews");
@@ -1159,7 +1169,10 @@ const guidesDir = path.join(__dirname, "guides");
 fs.mkdirSync(guidesDir, { recursive: true });
 
 // Clear out stale guide folders for posts no longer in blog-data.js.
+// guides/index.html is the guides listing page, not a generated guide
+// folder, so it must never be swept up by this.
 for (const d of fs.readdirSync(guidesDir)) {
+  if (d === "index.html") continue;
   if (!BLOG_POSTS.some((post) => post.id === d)) {
     fs.rmSync(path.join(guidesDir, d), { recursive: true, force: true });
     console.log(`removed stale guides/${d}/`);

@@ -204,6 +204,16 @@
       ],
       "destination": "/guides/best-restaurants-near-nissan-stadium-nashville/",
       "permanent": true
+    },
+    {
+      "source": "/best-of",
+      "destination": "/guides/",
+      "permanent": true
+    },
+    {
+      "source": "/best-of.html",
+      "destination": "/guides/",
+      "permanent": true
     }
   ],
   "headers": [

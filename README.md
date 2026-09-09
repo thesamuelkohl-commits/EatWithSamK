@@ -6,11 +6,11 @@ Your food review site: an interactive map of every place you've rated, plus a bl
 
 | Page | What's on it |
 |---|---|
-| `index.html` (Home) | Map of every place + your **Recent Reviews** (latest 6) + **Best Of Guides** (latest 3 posts) |
+| `index.html` (Home) | Map of every place + your **Recent Reviews** (latest 6) + **Guides** (latest 3 posts) |
 | `map.html` | A dedicated, full-size version of the interactive map — nothing else on the page |
 | `reviews.html` | **All** reviews — searchable, sortable, and filterable by city, cuisine, price, and tags |
 | `reviews/<id>.html` | One SEO-optimized landing page per place (auto-generated) |
-| `best-of.html` | Index/listing of every "Best Of" guide — city round-up lists like "Best Pizza in Nashville" |
+| `guides/index.html` | Index/listing of every guide, city round-up lists like "Best Pizza in Nashville", served at `/guides/` |
 | `guides/<id>/` | One SEO-optimized landing page per guide (auto-generated) |
 | `about.html` | Your About page — nav tab, bio, how you rate, socials |
 | `privacy.html` | Privacy policy (required by Google AdSense's program policies) — linked from every footer |
@@ -120,11 +120,11 @@ This rebuilds every file in `reviews/` and `guides/`, plus `sitemap.xml`, `robot
 
 These three files are the whole "restaurant/review database" in its most portable shape: plain JSON, no HTML, no site-relative paths, no build tooling required to read them. A future mobile app (or anyone else) can consume them exactly as-is — either by bundling them directly, or, once the site is deployed, by fetching `https://<your-domain>/data/places.json` like a read-only API endpoint. If you ever outgrow static files (e.g. the app needs to write reviews too, not just read them), these are also the exact shape you'd hand to a real backend/database to seed it — nothing about the schema would need to change.
 
-You never hand-edit anything in `data/` — like `reviews/`, it's fully regenerated from `js/data.js` every time you run the generator. `js/blog-data.js` (your "Best Of" guides) is intentionally **not** part of this export — those posts are hand-written HTML/Instagram embeds meant for a web page, not structured review data, so they stay web-only for now.
+You never hand-edit anything in `data/` — like `reviews/`, it's fully regenerated from `js/data.js` every time you run the generator. `js/blog-data.js` (your guides) is intentionally **not** part of this export — those posts are hand-written HTML/Instagram embeds meant for a web page, not structured review data, so they stay web-only for now.
 
 ## Analytics & Ads
 
-Google Analytics (`G-2V4D6ZQV6Q`) and Google AdSense (`ca-pub-7072826210873110`) are both wired into every page: `index.html`, `reviews.html`, `best-of.html`, `post.html`, and both `generate-reviews.js` templates (so every generated `reviews/<id>.html` and `guides/<id>/` page gets them too). You don't need to touch these — they're already live.
+Google Analytics (`G-2V4D6ZQV6Q`) and Google AdSense (`ca-pub-7072826210873110`) are both wired into every page: `index.html`, `reviews.html`, `guides/index.html`, `post.html`, and both `generate-reviews.js` templates (so every generated `reviews/<id>.html` and `guides/<id>/` page gets them too). You don't need to touch these — they're already live.
 
 **On ads:** the script we added enables **Auto ads** — once you turn that on in your AdSense account (Ads → Overview → Auto ads, toggle "On" for this site), Google automatically places ad units in good spots across every page with no further code changes. If you'd rather control exact placement yourself (e.g. an ad between the review and the map on `reviews/<id>.html`), come back and ask — that needs a real ad-unit slot ID from your AdSense dashboard first.
 
@@ -188,11 +188,11 @@ Until step 3 is done, the "Sign In" button is already live on every page — it 
 
 ## The Map page
 
-`map.html` is a dedicated, full-size version of the interactive map — same markers, same popups (rating, video link, full review), just without the stats/Recent Reviews/Best Of sections that share the homepage with it. Both pages actually share one function, `initPlacesMap()` in `js/common.js`, so a change to how markers or popups look only needs to happen in one place.
+`map.html` is a dedicated, full-size version of the interactive map — same markers, same popups (rating, video link, full review), just without the stats/Recent Reviews/Guides sections that share the homepage with it. Both pages actually share one function, `initPlacesMap()` in `js/common.js`, so a change to how markers or popups look only needs to happen in one place.
 
-## "Best Of" guides (formerly "Blog")
+## Guides (formerly "Best Of", originally "Blog")
 
-The nav tab, footer link, page titles, and URL all say **Best Of** now instead of Blog, since every post here is a "Best of [City]" round-up rather than a diary-style blog — the listing page is `best-of.html` (renamed from `blog.html`), and each individual guide lives at `guides/<id>/` (see above — this used to be `post.html?id=...`). The data file is still `js/blog-data.js`, and nothing about how you write a new post is different (see "Writing a blog post" below) — the id you give it just becomes a folder name instead of a query string value.
+The nav tab, footer link, page titles, and URL all say **Guides** now. The listing page is `guides/index.html`, served at `/guides/`, and each individual guide lives at `guides/<id>/`. Both older URLs still 301: `/best-of` goes to `/guides/`, and `post.html?id=...` goes to `/guides/<id>/` (see `renderVercelConfig()` in the generator). The data file is still `js/blog-data.js`, and nothing about how you write a new guide is different (see "Writing a blog post" below), the id you give it just becomes a folder name.
 
 ## Motion & animation
 
@@ -210,7 +210,7 @@ If a scroll-reveal or count-up ever seems stuck (a slow connection, an odd embed
 - **`sitemap.xml` + `robots.txt` + `_redirects`** — regenerated automatically every time you run `node generate-reviews.js`. The sitemap lists every real page (including a `<lastmod>` for every review and guide) so Google can find them; `_redirects` sends any old `post.html?id=...` link to its new `guides/<id>/` home with a real 301 (see "Publishing" below for host support).
 - **Structured data (JSON-LD)** on every page type: `WebSite` + `Organization` (with links to your Instagram/TikTok/YouTube) on the homepage, `Restaurant` + `Review` + `BreadcrumbList` on each review page, `ItemList` on the Reviews page, `BlogPosting` + `BreadcrumbList` on each guide page.
 - **Canonical URLs, Open Graph, and Twitter Card tags** on every page, so links look right when shared and Google doesn't see duplicate content.
-- **One clear heading (`<h1>`) per page** and a breadcrumb trail (Home → Reviews → [Place], or Home → Best Of → [Guide]) for both users and Google.
+- **One clear heading (`<h1>`) per page** and a breadcrumb trail (Home → Reviews → [Place], or Home → Guides → [Guide]) for both users and Google.
 - **FAQ structured data (`FAQPage`)** — if a blog post has a `faq` array (see below), those questions can show up as an expandable rich result directly in Google search, above your regular listing.
 - **Full article content in the raw HTML response** — every review and guide page is a real, pre-rendered file (built by `generate-reviews.js`), not something assembled by JavaScript after the page loads. `curl` any `reviews/<id>.html` or `guides/<id>/` URL and the title, meta description, and full article text are all there in the initial response.
 

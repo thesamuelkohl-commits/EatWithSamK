@@ -1,4 +1,4 @@
-/* Best Of guides index: search + city filter over BLOG_POSTS. */
+/* Guides index: search + city filter over BLOG_POSTS. */
 
 const gridEl = document.getElementById("blog-grid");
 const countEl = document.getElementById("blog-count");
@@ -9,8 +9,8 @@ const clearBtn = document.getElementById("filters-clear");
 const cities = [...new Set(BLOG_POSTS.map((p) => p.city).filter(Boolean))].sort();
 cityEl.innerHTML = `<option value="">All Cities</option>` + cities.map((c) => `<option value="${escapeForAttr(c)}">${c}</option>`).join("");
 
-// Most recent guide first by default, same as the homepage's "Best Of
-// Guides" section and the server-baked grid below.
+// Most recent guide first by default, same as the homepage's "Guides"
+// section and the server-baked grid below.
 const postsByDate = [...BLOG_POSTS].sort((a, b) => b.date.localeCompare(a.date));
 
 function filteredPosts() {

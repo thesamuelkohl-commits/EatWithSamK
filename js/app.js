@@ -60,7 +60,7 @@ cardsEl.addEventListener("click", (e) => {
   setTimeout(() => markers[place.id].openPopup(), 1300);
 });
 
-/* ---------- Best Of Guides on homepage ---------- */
+/* ---------- Guides on homepage ---------- */
 const homeBlogEl = document.getElementById("home-blog");
 if (homeBlogEl && typeof BLOG_POSTS !== "undefined") {
   const recentPosts = [...BLOG_POSTS]

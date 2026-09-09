@@ -106,7 +106,7 @@ const NAV_LINKS = [
   { id: "home", label: "Home", href: "/" },
   { id: "map", label: "Map", href: "/map" },
   { id: "reviews", label: "Reviews", href: "/reviews" },
-  { id: "blog", label: "Best Of", href: "/best-of" },
+  { id: "guides", label: "Guides", href: "/guides/" },
   { id: "gear", label: "Gear", href: "/gear/" },
   { id: "about", label: "About", href: "/about" },
   { id: "advertise", label: "Advertise", href: "/advertise" },
@@ -143,7 +143,7 @@ function footerHtml(prefix) {
           <a href="/">Home</a>
           <a href="/map">Map</a>
           <a href="/reviews">All Reviews</a>
-          <a href="/best-of">Best Of</a>
+          <a href="/guides/">Guides</a>
           <a href="/about">About Me</a>
         </div>
         <div class="footer-col">
@@ -443,7 +443,7 @@ function initPlacesMap(containerId, places) {
   return { map, markers, fitAllPlaces, stopAutoFit };
 }
 
-/* ---------- Shared blog helpers (used by best-of.html and app.js) ---------- */
+/* ---------- Shared guide helpers (used by guides/index.html and app.js) ---------- */
 
 function formatPostDate(dateStr) {
   return new Date(dateStr + "T12:00:00").toLocaleDateString("en-US", {
@@ -467,7 +467,7 @@ function blogCardHtml(post) {
   const cover = postCoverPhoto(post);
   return `
     <a class="blog-card glow-card tilt-card reveal" href="/guides/${post.id}/">
-      ${cover ? `<div class="blog-card-banner blog-card-banner-photo" style="background-image: url('${cover}')"></div>` : `<div class="blog-card-banner">${post.emoji}</div>`}
+      ${cover ? `<div class="blog-card-banner blog-card-banner-photo" style="background-image: url('/${cover}')"></div>` : `<div class="blog-card-banner">${post.emoji}</div>`}
       <div class="blog-card-body">
         <div class="blog-meta"><span class="pill">${post.city}</span><span>${formatPostDate(post.date)}</span></div>
         <h3>${post.title}</h3>

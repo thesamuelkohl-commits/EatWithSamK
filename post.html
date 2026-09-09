@@ -25,7 +25,7 @@
     gtag('config', 'G-2V4D6ZQV6Q');
   </script>
 
-  <title>Best Of Post, Eat With Sam K</title>
+  <title>Guide, Eat With Sam K</title>
   <!-- Every guide now lives at its own real page under /guides/<id>/ — this
        page's only job is to send anyone who still has an old ?id= link
        there. It should never itself show up in search results (see the
@@ -49,7 +49,7 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="logo" href="/"><img class="logo-img" src="images/logo.png?v=2" alt="Eat With Sam K logo" /> Eat With Sam K</a>
-      <nav class="main-nav" data-nav="blog"></nav>
+      <nav class="main-nav" data-nav="guides"></nav>
       <div class="header-right">
         <div class="social-row" data-socials></div>
         <div class="auth-widget" data-auth></div>
@@ -68,7 +68,7 @@
   <script src="js/blog-data.js?v=38"></script>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-config.js?v=1"></script>
-  <script src="js/common.js?v=38"></script>
+  <script src="js/common.js?v=40"></script>
   <script src="js/auth.js?v=5"></script>
   <script src="js/pwa.js?v=2"></script>
   <script src="js/consent.js?v=2"></script>
@@ -81,9 +81,9 @@
       location.replace(`/guides/${post.id}/`);
     } else {
       el.innerHTML = `
-        <a class="post-back" href="/best-of">← Back to Best Of</a>
+        <a class="post-back" href="/guides/">← Back to Guides</a>
         <h1>Post not found 🤔</h1>
-        <p>That post may have moved. Head back to Best Of to see everything.</p>`;
+        <p>That guide may have moved. Head back to Guides to see everything.</p>`;
     }
   </script>
 </body>
