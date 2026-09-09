@@ -1697,3 +1697,7 @@ a { color: var(--red); }
    kind of link than the Amazon products above. */
 .gear-perks .referral-cards { margin-top: 14px; }
 .gear-perks .referral-disclosure { margin-top: 12px; }
+
+/* Advertise page: the UGC section is linked to by an in-page anchor, so it
+   needs to clear the sticky header when jumped to. */
+#ugc { scroll-margin-top: 90px; }
