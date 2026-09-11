@@ -1,6 +1,69 @@
 {
-  "generatedAt": "2026-09-10T14:30:33.223Z",
+  "generatedAt": "2026-09-11T21:34:28.818Z",
   "places": [
+    {
+      "id": "dustys-oyster-bar-panama-city-beach",
+      "name": "Dusty's Oyster Bar",
+      "city": "Panama City Beach, FL",
+      "lat": 30.2186831,
+      "lng": -85.881847,
+      "address": "16450 Front Beach Rd, Panama City Beach, FL 32413",
+      "phone": "(850) 233-0035",
+      "parking": "Free parking",
+      "website": "https://www.instagram.com/dustyspcb/",
+      "date": "2026-09-04",
+      "price": "$$",
+      "cuisine": "Seafood",
+      "badges": [
+        "worth-the-wait"
+      ],
+      "about": "Dusty's Oyster Bar is a Panama City Beach institution on Front Beach Road, a loud, packed oyster bar with dollar bills stapled across every inch of the ceiling. Their own slogan is \"Home of warm beer, lousy food and ugly waitresses,\" which tells you how seriously the place takes itself.",
+      "ate": "The Dusty's Oyster Sampler, a half dozen seafood oysters, the world famous fried green tomatoes, and frog legs.",
+      "heroPhoto": "images/reviews/dustys-oyster-bar-panama-city-beach/order-oyster-sampler.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/dustys-oyster-bar-panama-city-beach/storefront.jpg",
+          "alt": "Dusty's Oyster Bar & Eatery sign and entrance off the gravel lot, Panama City Beach"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/dustys-oyster-bar-panama-city-beach/interior-bar.jpg",
+          "alt": "The packed bar at Dusty's Oyster Bar, with dollar bills stapled across the ceiling"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/dustys-oyster-bar-panama-city-beach/interior.jpg",
+          "alt": "Dining room at Dusty's Oyster Bar, dollar bills covering the ceiling above the bar seating"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/dustys-oyster-bar-panama-city-beach/order-oyster-sampler.jpg",
+          "alt": "Sam's order: the Dusty's Oyster Sampler, baked oysters with bacon, cheese, spinach and salsa toppings"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/dustys-oyster-bar-panama-city-beach/order-seafood-oysters.jpg",
+          "alt": "Sam's order: a half dozen seafood oysters baked with crab, shrimp and parmesan, Dusty's Oyster Bar"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/dustys-oyster-bar-panama-city-beach/order-fried-green-tomatoes.jpg",
+          "alt": "Sam's order: the world famous fried green tomatoes with ranch, Dusty's Oyster Bar"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/dustys-oyster-bar-panama-city-beach/order-frog-legs.jpg",
+          "alt": "Sam's order: fried frog legs with honey mustard, Dusty's Oyster Bar Panama City Beach"
+        }
+      ],
+      "pros": [
+        "Cool environment"
+      ],
+      "cons": [
+        "Busy"
+      ],
+      "rating": 8.1,
+      "video": "https://www.instagram.com/reel/DdH2iTFxg3J/",
+      "tags": [
+        "Seafood",
+        "Oysters"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/dustys-oyster-bar-panama-city-beach"
+    },
     {
       "id": "sharkys-panama-city-beach",
       "name": "Sharky's Beachfront Restaurant",
