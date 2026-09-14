@@ -102,7 +102,6 @@ const BLOG_POSTS = [
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
       <p>Ford's Garage is a burger and craft beer spot styled like a vintage Ford service station, with a Model A up on a lift over the bar and a long wall of beer taps behind it. It's in Pier Park, so it's easy to fold into a day of shopping.</p>
       <p>I got the Giant Funnel Tower of Piston Onion Rings, the Model A burger and the Patty Melt. Food came out quick even though it was busy, there's a patio, and it's an easy pick with kids. <a href="/reviews/fords-garage-panama-city-beach">Read Sam's full review →</a></p>
-      <p>💬 <strong>Sam Says:</strong> "A fun room, fast food for how busy it gets, and an onion ring tower worth ordering."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/fords-garage-panama-city-beach">Read my full Ford's Garage review →</a></p>
       <div class="own-photo"><img src="/images/reviews/fords-garage-panama-city-beach/order-model-a-burger.jpg" alt="Sam's order: the Model A burger with a fried egg and bacon, Ford's Garage Panama City Beach" loading="lazy" /></div>
 
