@@ -200,6 +200,38 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "fords-garage-panama-city-beach",
+    name: "Ford's Garage",
+    city: "Panama City Beach, FL",
+    lat: 30.2176,
+    lng: -85.87412,
+    address: "601 S Pier Park Dr, Suite 103, Panama City Beach, FL 32413",
+    phone: "(850) 676-3673",
+    parking: "Free parking",
+    website: "https://www.fordsgarageusa.com/locations/panama-city-beach",
+    date: "2026-09-05",
+    price: "$$",
+    cuisine: "Burgers",
+    badges: ["family-friendly", "quick-bite"],
+    about: "Ford's Garage is a burger and craft beer restaurant styled like a vintage Ford service station, and this one sits in Pier Park. There's a Model A up on a lift over the bar, a long wall of beer taps behind it, and a patio out front.",
+    ate: "The Giant Funnel Tower of Piston Onion Rings, the Model A burger, and the Patty Melt.",
+    heroPhoto: "images/reviews/fords-garage-panama-city-beach/order-model-a-burger.jpg",
+    photos: [
+      { src: "images/reviews/fords-garage-panama-city-beach/storefront.jpg", alt: "Ford's Garage exterior and patio at Pier Park, Panama City Beach" },
+      { src: "images/reviews/fords-garage-panama-city-beach/interior.jpg", alt: "Dining room at Ford's Garage Panama City Beach, with the blue-lit bar in the back" },
+      { src: "images/reviews/fords-garage-panama-city-beach/interior-bar.jpg", alt: "Vintage Ford Model A on a lift above the bar and beer taps at Ford's Garage" },
+      { src: "images/reviews/fords-garage-panama-city-beach/order-onion-rings.jpg", alt: "Sam's order: the Giant Funnel Tower of Piston Onion Rings with ranch and chipotle ketchup, Ford's Garage" },
+      { src: "images/reviews/fords-garage-panama-city-beach/order-model-a-burger.jpg", alt: "Sam's order: the Model A burger with a fried egg, bacon, arugula, cheddar and pico, with tots, Ford's Garage" },
+      { src: "images/reviews/fords-garage-panama-city-beach/order-patty-melt.jpg", alt: "Sam's order: the Patty Melt on toasted rye with caramelized onions and fries, Ford's Garage" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 9, service: 8 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Cool area", "Cool environment", "Quick", "Patio", "Kid friendly"],
+    cons: ["Busy"],
+    rating: 8.1,
+    video: "https://www.instagram.com/reel/DdNAO8fR17n/",
+    tags: ["Burgers", "Pier Park"],
+  },
+  {
     id: "dustys-oyster-bar-panama-city-beach",
     name: "Dusty's Oyster Bar",
     city: "Panama City Beach, FL",

@@ -41,19 +41,19 @@
 const BLOG_POSTS = [
   {
     id: "best-restaurants-panama-city-beach",
-    places: ["dustys-oyster-bar-panama-city-beach", "sharkys-panama-city-beach"],
+    places: ["dustys-oyster-bar-panama-city-beach", "fords-garage-panama-city-beach", "sharkys-panama-city-beach"],
     title: "Best Restaurants in Panama City Beach, FL (2026): Where to Eat",
     city: "Panama City Beach, FL",
     date: "2026-09-06",
-    updated: "2026-09-11",
+    updated: "2026-09-13",
     emoji: "🦪",
     excerpt:
-      "Looking for the best restaurants in Panama City Beach? Start with my own reviews of Dusty's Oyster Bar and Sharky's Beachfront Restaurant, plus seafood spots, date-night picks and where to eat in PCB.",
+      "Looking for the best restaurants in Panama City Beach? Start with my own reviews of Dusty's Oyster Bar, Ford's Garage and Sharky's Beachfront Restaurant, plus seafood spots, date-night picks and where to eat in PCB.",
     faq: [
       {
         question: "What are the best restaurants in Panama City Beach?",
         answer:
-          "Of the Panama City Beach restaurants I've personally reviewed so far, Dusty's Oyster Bar is my highest rated at 8.1/10, with Sharky's Beachfront Restaurant right behind at 7.9/10. I'm still eating my way through PCB, so more Sam Scores are on the way.",
+          "Of the Panama City Beach restaurants I've personally reviewed so far, Dusty's Oyster Bar and Ford's Garage are tied for my highest rated at 8.1/10, with Sharky's Beachfront Restaurant right behind at 7.9/10. I'm still eating my way through PCB, so more Sam Scores are on the way.",
       },
       {
         question: "Where should I eat seafood in Panama City Beach?",
@@ -80,7 +80,7 @@ const BLOG_POSTS = [
       <p>Panama City Beach has no shortage of places to eat. Between beachfront seafood restaurants, oyster bars, casual local spots, and restaurants packed with tourists, the harder question is figuring out which ones are actually worth your money.</p>
       <p>That's what I'm trying to find out.</p>
       <p>I'm eating my way through Panama City Beach and personally reviewing restaurants along the way. Every restaurant I review gets a Sam Score, my overall rating based on the food and experience.</p>
-      <p>Dusty's Oyster Bar and Sharky's are the first PCB restaurants with a Sam Score, ranked below by score, and this guide will keep growing as I try more, so check back as places get added.</p>
+      <p>Dusty's Oyster Bar, Ford's Garage and Sharky's are the first PCB restaurants with a Sam Score, ranked below by score, and this guide will keep growing as I try more, so check back as places get added.</p>
       <p>No paid reviews. No bought ratings. Every Sam Score reflects my actual experience.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
 
@@ -94,6 +94,17 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "Coolest room I've eaten in around PCB, and the oysters back it up."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/dustys-oyster-bar-panama-city-beach">Read my full Dusty's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/dustys-oyster-bar-panama-city-beach/order-oyster-sampler.jpg" alt="Sam's order: the Dusty's Oyster Sampler, baked oysters with bacon, cheese and spinach toppings" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/fords-garage-panama-city-beach">Ford's Garage</a></h2>
+      <p><strong>Neighborhood:</strong> Pier Park</p>
+      <p><strong>Sam Score:</strong> 8.1/10</p>
+      <p><strong>Best For:</strong> Burgers, families and a quick sit-down meal</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Ford's Garage is a burger and craft beer spot styled like a vintage Ford service station, with a Model A up on a lift over the bar and a long wall of beer taps behind it. It's in Pier Park, so it's easy to fold into a day of shopping.</p>
+      <p>I got the Giant Funnel Tower of Piston Onion Rings, the Model A burger and the Patty Melt. Food came out quick even though it was busy, there's a patio, and it's an easy pick with kids. <a href="/reviews/fords-garage-panama-city-beach">Read Sam's full review →</a></p>
+      <p>💬 <strong>Sam Says:</strong> "A fun room, fast food for how busy it gets, and an onion ring tower worth ordering."</p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/fords-garage-panama-city-beach">Read my full Ford's Garage review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/fords-garage-panama-city-beach/order-model-a-burger.jpg" alt="Sam's order: the Model A burger with a fried egg and bacon, Ford's Garage Panama City Beach" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/sharkys-panama-city-beach">Sharky's Beachfront Restaurant</a></h2>
       <p><strong>Neighborhood:</strong> Front Beach Road, on the Gulf</p>
@@ -142,9 +153,10 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Dusty's Oyster Bar, 8.1</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Dusty's Oyster Bar / Ford's Garage, 8.1</td></tr>
           <tr><td>🌅 Eating With a View</td><td>Sharky's Beachfront Restaurant</td></tr>
-          <tr><td>👨‍👩‍👧 Families</td><td>Sharky's Beachfront Restaurant</td></tr>
+          <tr><td>👨‍👩‍👧 Families</td><td>Ford's Garage / Sharky's Beachfront Restaurant</td></tr>
+          <tr><td>🍔 Burgers</td><td>Ford's Garage, 8.1</td></tr>
           <tr><td>🦪 Oysters</td><td>Dusty's Oyster Bar, 8.1</td></tr>
           <tr><td>🐟 Casual Seafood</td><td>Dusty's Oyster Bar / Sharky's / Mike's Cafe</td></tr>
           <tr><td>🍺 Lively Group Spot</td><td>McGuire's Irish Pub</td></tr>
@@ -165,7 +177,7 @@ const BLOG_POSTS = [
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What are the best restaurants in Panama City Beach?</strong></p>
-      <p>I'm currently eating my way through Panama City Beach and rating restaurants using the Sam Score. Dusty's Oyster Bar leads at 8.1/10, with Sharky's Beachfront Restaurant at 7.9/10, and more restaurants get added as I get to them.</p>
+      <p>I'm currently eating my way through Panama City Beach and rating restaurants using the Sam Score. Dusty's Oyster Bar and Ford's Garage lead at 8.1/10, with Sharky's Beachfront Restaurant at 7.9/10, and more restaurants get added as I get to them.</p>
       <p><strong>Where should I eat seafood in Panama City Beach?</strong></p>
       <p>PCB has a huge number of seafood restaurants. Dusty's Oyster Bar (8.1) and Sharky's Beachfront Restaurant (7.9) are the two I've personally reviewed, while places like Mike's Cafe &amp; Oyster Bar and Local Steamer Seafood Market are also on my radar as I continue exploring the area.</p>
       <p><strong>Where can I get oysters in Panama City Beach?</strong></p>

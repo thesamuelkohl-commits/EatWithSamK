@@ -1,6 +1,70 @@
 {
-  "generatedAt": "2026-09-14T01:11:23.827Z",
+  "generatedAt": "2026-09-14T03:42:02.399Z",
   "places": [
+    {
+      "id": "fords-garage-panama-city-beach",
+      "name": "Ford's Garage",
+      "city": "Panama City Beach, FL",
+      "lat": 30.2176,
+      "lng": -85.87412,
+      "address": "601 S Pier Park Dr, Suite 103, Panama City Beach, FL 32413",
+      "phone": "(850) 676-3673",
+      "parking": "Free parking",
+      "website": "https://www.fordsgarageusa.com/locations/panama-city-beach",
+      "date": "2026-09-05",
+      "price": "$$",
+      "cuisine": "Burgers",
+      "badges": [
+        "family-friendly",
+        "quick-bite"
+      ],
+      "about": "Ford's Garage is a burger and craft beer restaurant styled like a vintage Ford service station, and this one sits in Pier Park. There's a Model A up on a lift over the bar, a long wall of beer taps behind it, and a patio out front.",
+      "ate": "The Giant Funnel Tower of Piston Onion Rings, the Model A burger, and the Patty Melt.",
+      "heroPhoto": "images/reviews/fords-garage-panama-city-beach/order-model-a-burger.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/fords-garage-panama-city-beach/storefront.jpg",
+          "alt": "Ford's Garage exterior and patio at Pier Park, Panama City Beach"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/fords-garage-panama-city-beach/interior.jpg",
+          "alt": "Dining room at Ford's Garage Panama City Beach, with the blue-lit bar in the back"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/fords-garage-panama-city-beach/interior-bar.jpg",
+          "alt": "Vintage Ford Model A on a lift above the bar and beer taps at Ford's Garage"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/fords-garage-panama-city-beach/order-onion-rings.jpg",
+          "alt": "Sam's order: the Giant Funnel Tower of Piston Onion Rings with ranch and chipotle ketchup, Ford's Garage"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/fords-garage-panama-city-beach/order-model-a-burger.jpg",
+          "alt": "Sam's order: the Model A burger with a fried egg, bacon, arugula, cheddar and pico, with tots, Ford's Garage"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/fords-garage-panama-city-beach/order-patty-melt.jpg",
+          "alt": "Sam's order: the Patty Melt on toasted rye with caramelized onions and fries, Ford's Garage"
+        }
+      ],
+      "pros": [
+        "Cool area",
+        "Cool environment",
+        "Quick",
+        "Patio",
+        "Kid friendly"
+      ],
+      "cons": [
+        "Busy"
+      ],
+      "rating": 8.1,
+      "video": "https://www.instagram.com/reel/DdNAO8fR17n/",
+      "tags": [
+        "Burgers",
+        "Pier Park"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/fords-garage-panama-city-beach"
+    },
     {
       "id": "dustys-oyster-bar-panama-city-beach",
       "name": "Dusty's Oyster Bar",
