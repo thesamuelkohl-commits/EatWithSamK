@@ -2327,14 +2327,14 @@ const BLOG_POSTS = [
   },
   {
     id: "best-date-night-restaurants-nashville",
-    places: ["maru-weho-nashville", "ocean-prime-nashville", "culaccino-nashville", "pelato-nashville"],
+    places: ["maru-weho-nashville", "ocean-prime-nashville", "culaccino-nashville", "pelato-nashville", "thai-samurai-river-north-nashville"],
     title: "Best Date Night Restaurants in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-24",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🥂",
     excerpt:
-      "From The Optimist's fresh seafood to Bourbon Steak's steakhouse luxury and my own reviews of Pelato and Culaccino, the best date night restaurants in Nashville for 2026, ranked with no paid placements.",
+      "From The Optimist's fresh seafood to Bourbon Steak's steakhouse luxury and my own reviews of Pelato, Thai Samurai and Culaccino, the best date night restaurants in Nashville for 2026, ranked with no paid placements.",
     faq: [
       {
         question: "What is the most romantic restaurant in Nashville?",
@@ -2387,6 +2387,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "A sleek WeHo sushi bar with a cocktail menu that makes it one of my go-to date night picks."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/maru-weho-nashville">Read my full Maru WeHo review →</a></p>
       <div class="own-photo"><img src="/images/reviews/maru-weho-nashville/order.jpg" alt="Sam's order: Pink Lady, Tiger, and Dynamite rolls, Maru WeHo" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/thai-samurai-river-north-nashville">Thai Samurai</a></h2>
+      <p><strong>Neighborhood:</strong> River North, East Bank</p>
+      <p><strong>Sam Score:</strong> 9.0/10</p>
+      <p><strong>Best For:</strong> Thai, sushi and a date with a little theater</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>Thai Samurai's River North location does Thai food and sushi in a room built for a night out, with backlit samurai murals over the bar and a Flaming Tiger Roll that gets set on fire at the table. I had a Thai Spicy Margarita, the Volcanic Lobster, Drunken Noodles with chicken at level 3 hot, and that roll.</p>
+      <p>It's in a cool part of town with free 2-hour parking. Service was slow, so don't book it right before a show. <a href="/reviews/thai-samurai-river-north-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/thai-samurai-river-north-nashville">Read my full Thai Samurai review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/thai-samurai-river-north-nashville/order-volcanic-lobster.jpg" alt="Sam's order: the Volcanic Lobster, Thai Samurai River North" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/culaccino-nashville">Culaccino</a></h2>
       <p><strong>Neighborhood:</strong> Nashville Yards</p>
@@ -2467,6 +2477,7 @@ const BLOG_POSTS = [
           <tr><td>🥩 Upscale Steak & Seafood</td><td>Ocean Prime</td></tr>
           <tr><td>🍝 Sharable Italian Plates</td><td>Pelato</td></tr>
           <tr><td>🍣 Sushi & Cocktails</td><td>Maru WeHo</td></tr>
+          <tr><td>🔥 Thai With a Show</td><td>Thai Samurai, 9.0</td></tr>
           <tr><td>📍 Convenient, Near Nashville Yards</td><td>Culaccino</td></tr>
           <tr><td>🥂 Anniversary or Big Occasion</td><td>Bourbon Steak / Kayne Prime</td></tr>
           <tr><td>💬 Relaxed First Date</td><td>Rolf and Daughters / Folk</td></tr>

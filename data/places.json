@@ -1,6 +1,70 @@
 {
-  "generatedAt": "2026-09-14T03:45:24.062Z",
+  "generatedAt": "2026-09-15T03:10:25.577Z",
   "places": [
+    {
+      "id": "thai-samurai-river-north-nashville",
+      "name": "Thai Samurai",
+      "city": "Nashville, TN",
+      "lat": 36.18083,
+      "lng": -86.77996,
+      "address": "2315 Bowline Ave, Nashville, TN 37207",
+      "phone": "(615) 442-5555",
+      "parking": "Free 2-hour parking",
+      "website": "https://thaisamurai.com/",
+      "date": "2026-09-11",
+      "price": "$$$",
+      "cuisine": "Thai",
+      "badges": [
+        "worth-the-wait",
+        "date-night"
+      ],
+      "about": "Thai Samurai serves Thai food and sushi, and this is their River North location on the East Bank. There's a tuk-tuk parked out front, and the bar sits under big backlit samurai murals. The Flaming Tiger Roll comes out wrapped in foil and gets set on fire at the table.",
+      "ate": "A Thai Spicy Margarita, the Volcanic Lobster, Drunken Noodles with chicken at level 3 hot, and the Flaming Tiger Roll.",
+      "heroPhoto": "images/reviews/thai-samurai-river-north-nashville/order-volcanic-lobster.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/thai-samurai-river-north-nashville/storefront.jpg",
+          "alt": "Thai Samurai River North entrance at night, with a neon sign and a tuk-tuk out front"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/thai-samurai-river-north-nashville/interior.jpg",
+          "alt": "Dining room at Thai Samurai River North, Nashville"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/thai-samurai-river-north-nashville/interior-bar.jpg",
+          "alt": "The bar at Thai Samurai River North under backlit samurai murals"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/thai-samurai-river-north-nashville/drink-spicy-margarita.jpg",
+          "alt": "Sam's drink: the Thai Spicy Margarita with a dried chili and charred lime, Thai Samurai"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/thai-samurai-river-north-nashville/order-volcanic-lobster.jpg",
+          "alt": "Sam's order: the Volcanic Lobster with a lobster tail and an orchid garnish, Thai Samurai"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/thai-samurai-river-north-nashville/order-drunken-noodles.jpg",
+          "alt": "Sam's order: Drunken Noodles with chicken, level 3 hot, Thai Samurai"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/thai-samurai-river-north-nashville/order-flaming-tiger-roll.jpg",
+          "alt": "Sam's order: the Flaming Tiger Roll served in foil, Thai Samurai"
+        }
+      ],
+      "pros": [
+        "Cool area of town"
+      ],
+      "cons": [
+        "Slow"
+      ],
+      "rating": 9,
+      "video": "https://www.instagram.com/reel/DdSNeOVR8-t/",
+      "tags": [
+        "Thai",
+        "River North"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/thai-samurai-river-north-nashville"
+    },
     {
       "id": "fords-garage-panama-city-beach",
       "name": "Ford's Garage",
