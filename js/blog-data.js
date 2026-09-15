@@ -166,6 +166,10 @@ const BLOG_POSTS = [
       <div class="sourced-photo"><img src="/images/guides/jenis-battery/dish.jpg" alt="A scoop of ice cream, Jeni's Splendid Ice Creams" loading="lazy" /></div>
       <span class="sourced-photo-credit">Photo via <a href="https://jenis.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
 
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
       <h2>Best Restaurants at The Battery Atlanta by Occasion</h2>
       <p>As I personally review more restaurants, these picks will increasingly be based on my own Sam Scores.</p>
       <div class="table-scroll">
@@ -231,7 +235,7 @@ const BLOG_POSTS = [
     title: "Best Restaurants in Panama City Beach, FL (2026): Where to Eat",
     city: "Panama City Beach, FL",
     date: "2026-09-06",
-    updated: "2026-09-13",
+    updated: "2026-09-14",
     emoji: "🦪",
     excerpt:
       "Looking for the best restaurants in Panama City Beach? Start with my own reviews of Dusty's Oyster Bar, Ford's Garage and Sharky's Beachfront Restaurant, plus seafood spots, date-night picks and where to eat in PCB.",
@@ -302,10 +306,6 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/sharkys-panama-city-beach">Read my full Sharky's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/sharkys-panama-city-beach/order-seafood-platter.jpg" alt="Sam's order: the Panhandle Seafood Platter, Sharky's Panama City Beach" loading="lazy" /></div>
 
-      <h2>🏆 My Panama City Beach Rankings</h2>
-      <p>Every PCB restaurant I've personally reviewed, ranked by Sam Score. This updates automatically each time I add a review.</p>
-      <!-- sam-score-leaderboard -->
-
       <h2>More Panama City Beach Restaurants Worth Knowing</h2>
       <p>I'm still working my way through Panama City Beach, so the restaurants below haven't received an official Sam Score yet.</p>
       <p>Rather than assigning rankings to places I haven't personally reviewed and published yet, I'm keeping them on my radar and will update this guide as I go.</p>
@@ -333,6 +333,10 @@ const BLOG_POSTS = [
       <p>Firefly is another option to consider when you're looking for a nicer dinner in Panama City Beach. Rather than the ultra-casual beach atmosphere you'll find at many PCB restaurants, Firefly is geared more toward an elevated night out.</p>
       <p><strong>Best For:</strong> Date night, celebrations and nicer dinners</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Da6O4_FAY0_/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
 
       <h2>Best Panama City Beach Restaurants by Occasion</h2>
       <p>As I personally review more restaurants, these picks will increasingly be based on my own Sam Scores.</p>
@@ -404,7 +408,7 @@ const BLOG_POSTS = [
     title: "Best Italian Restaurants in Nashville (2026)",
     city: "Nashville, TN",
     date: "2026-08-27",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🍝",
     excerpt:
       "Looking for the best Italian restaurants in Nashville? Discover pasta, date-night spots and Italian favorites, including restaurants personally reviewed and rated with the Sam Score.",
@@ -499,6 +503,10 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Date night and groups</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DbWWQgaD0Q_/" data-instgrm-version="14"></blockquote></div>
 
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
       <h2>Best Italian Restaurants in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
       <div class="table-scroll">
@@ -559,7 +567,7 @@ const BLOG_POSTS = [
     title: "Best Late-Night Food Spots in Nashville (2026)",
     city: "Nashville, TN",
     date: "2026-08-21",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🌙",
     excerpt:
       "Looking for late-night food in Nashville? Find burgers, pizza, hot chicken, tacos and restaurants serving food late near Broadway and beyond.",
@@ -656,6 +664,10 @@ const BLOG_POSTS = [
       <p>JBJ's gives you another option directly on Broadway when you're already downtown, with a late-night menu focused on straightforward food that makes sense after a night out.</p>
       <p><strong>Best For:</strong> Broadway late-night food</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DbV-Mz7u42w/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
 
       <h2>Best Late-Night Food in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -774,7 +786,7 @@ const BLOG_POSTS = [
     title: "Best Restaurants Near Bridgestone Arena in Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-10",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🏒",
     excerpt:
       "From Assembly Food Hall's variety to Martin's BBQ and my own reviews of Prince St. Pizza and NADC Burger, the best restaurants near Bridgestone Arena for 2026, ranked with no paid placements.",
@@ -910,6 +922,10 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Wine & Dinner</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Dcerl4jwu3N/" data-instgrm-version="14"></blockquote></div>
 
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
       <h2>Best Restaurants Near Bridgestone Arena by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
       <div class="table-scroll">
@@ -983,7 +999,7 @@ const BLOG_POSTS = [
     title: "Best Steakhouses in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-10",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🥩",
     excerpt:
       "From Jeff Ruby's classic fine dining to modern steakhouses like Harper's and Kayne Prime, the best steakhouses in Nashville for 2026, ranked with no paid placements.",
@@ -1084,6 +1100,10 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Nashville tradition, old-school charm</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DcJRDaIxxvU/" data-instgrm-version="14"></blockquote></div>
 
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
       <h2>Best Steakhouses in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
       <div class="table-scroll">
@@ -1143,7 +1163,7 @@ const BLOG_POSTS = [
     title: "Best Restaurants Near Broadway Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-07",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🎸",
     excerpt:
       "From Martin's legendary BBQ to my own reviews of Prince St. Pizza and NADC Burger, the best restaurants near Broadway in Nashville for 2026, ranked with no paid placements.",
@@ -1282,6 +1302,10 @@ const BLOG_POSTS = [
       <p>Located in historic Printer's Alley, Skull's combines excellent food with one of the city's most unique entertainment experiences, perfect before live jazz or a special night out.</p>
       <p><strong>Best For:</strong> A Classic Nashville Night Out</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DblDA05lRPK/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
 
       <h2>Best Restaurants Near Broadway by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -1671,7 +1695,7 @@ const BLOG_POSTS = [
     title: "Best Cheap Eats in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-04",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "💵",
     excerpt:
       "From my own reviews of Red's Hot Chicken and Jack Brown's to Prince's legendary hot chicken, the best cheap eats in Nashville for 2026, all $20 or less, ranked with no paid placements.",
@@ -1775,6 +1799,10 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Sandwiches</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DcgQyI0nUCx/" data-instgrm-version="14"></blockquote></div>
 
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
       <h2>Best Cheap Eats in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
       <div class="table-scroll">
@@ -1844,7 +1872,7 @@ const BLOG_POSTS = [
     title: "Best Brunch in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-03",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🍳",
     excerpt:
       "From my own review of Biscuit Love to Milk & Honey's classic Nashville brunch and The Hampton Social's coastal rooftop scene, the best brunch in Nashville for 2026, ranked with no paid placements.",
@@ -1937,6 +1965,10 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Brunch with Friends</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DAtxPZrPGfP/" data-instgrm-version="14"></blockquote></div>
 
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
       <h2>Best Nashville Brunch by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
       <div class="table-scroll">
@@ -1990,7 +2022,7 @@ const BLOG_POSTS = [
     title: "Best Hot Chicken in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-02",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🔥",
     excerpt:
       "From my own review of Red's Hot Chicken to Prince's legendary original and newer spots like Brave Idiot putting their own spin on it, the best hot chicken in Nashville for 2026, ranked with no paid placements.",
@@ -2113,6 +2145,10 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Groups and a Full Restaurant Experience</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/CzXGBoXOQ0_/" data-instgrm-version="14"></blockquote></div>
 
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
       <h2>Best Hot Chicken in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
       <div class="table-scroll">
@@ -2195,7 +2231,7 @@ const BLOG_POSTS = [
     title: "Best Pizza in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-28",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🍕",
     excerpt:
       "From Five Points Pizza's giant New York-style slices to DeSano's wood-fired Neapolitan pies, the best pizza in Nashville for 2026, ranked with no paid placements.",
@@ -2294,6 +2330,10 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Pizza and craft beer</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dcbhf4uFlHk/" data-instgrm-version="14"></blockquote></div>
 
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
       <h2>Best Pizza in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
       <div class="table-scroll">
@@ -2351,7 +2391,7 @@ const BLOG_POSTS = [
     title: "Best Burgers in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-25",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🍔",
     excerpt:
       "From my own review of Jack Brown's to Dino's legendary dive-bar cheeseburger, the best burgers in Nashville for 2026, ranked with no paid placements.",
@@ -2464,6 +2504,10 @@ const BLOG_POSTS = [
       <p>Open since 1971 in East Nashville and reportedly the city's oldest bar, Dino's serves a thick, charred, cheese-dripping bar cheeseburger so good Bon Appétit once named it one of the three best burgers in the country.</p>
       <p><strong>Best For:</strong> Legendary Dive-Bar Cheeseburgers</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Dave0VzFYAY/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
 
       <h2>Best Burgers in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -2655,6 +2699,10 @@ const BLOG_POSTS = [
       <h3>🇪🇸 <a href="https://peninsulanashville.com/" target="_blank" rel="noopener">Peninsula</a></h3>
       <p>For adventurous couples, Peninsula offers Spanish-inspired tasting menus that are unlike anything else in Nashville.</p>
       <p><strong>Best For:</strong> Adventurous Tasting Menus</p>
+
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
 
       <h2>Best Date Night Restaurants in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
@@ -2872,7 +2920,7 @@ const BLOG_POSTS = [
     title: "Best Tacos in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-13",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🌮",
     excerpt:
       "From Maiz de la Vida's handmade tortillas to my own reviews of Chilangos Tacos and Ladybird Taco, the best tacos in Nashville for 2026, ranked with no paid placements.",
@@ -2976,6 +3024,10 @@ const BLOG_POSTS = [
       <p>Superica brings a polished Tex-Mex experience with tacos, fajitas, queso, margaritas, and other classics, a different experience from Nashville's smaller taquerias, but exactly what you want for a sit-down meal with drinks.</p>
       <p><strong>Best For:</strong> Tex-Mex, casual date night</p>
 
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
       <h2>Best Tacos in Nashville by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
       <div class="table-scroll">
@@ -3077,7 +3129,7 @@ const BLOG_POSTS = [
     title: "Best Restaurants Near Nissan Stadium in Nashville (2026 Guide)",
     city: "Nashville, TN",
     date: "2026-08-17",
-    updated: "2026-09-06",
+    updated: "2026-09-14",
     emoji: "🏈",
     excerpt:
       "From Butchertown Hall's smoked meats to my own reviews of Ocean Prime, Jack Brown's, NADC Burger, and Prince St. Pizza, the best restaurants near Nissan Stadium for 2026, ranked with no paid placements.",
@@ -3220,6 +3272,10 @@ const BLOG_POSTS = [
       <p>Assembly Food Hall is one of the easiest recommendations when everyone wants something different, with multiple food concepts under one roof at Fifth + Broadway.</p>
       <p><strong>Best For:</strong> Groups That Can't Decide</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DZYBG08kXI3/" data-instgrm-version="14"></blockquote></div>
+
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Every restaurant in this guide that I've personally reviewed, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
 
       <h2>Best Restaurants Near Nissan Stadium by Occasion</h2>
       <p>If you don't want to sort through the entire list, here's where I'd start depending on what you're looking for.</p>
