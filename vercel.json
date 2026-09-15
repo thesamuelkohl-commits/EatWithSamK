@@ -7,6 +7,18 @@
         {
           "type": "query",
           "key": "id",
+          "value": "best-restaurants-the-battery-atlanta"
+        }
+      ],
+      "destination": "/guides/best-restaurants-the-battery-atlanta/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
           "value": "best-restaurants-panama-city-beach"
         }
       ],

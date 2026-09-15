@@ -379,7 +379,7 @@ function renderReviewPage(place, relatedPosts) {
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="../css/style.css?v=54" />
+  <link rel="stylesheet" href="../css/style.css?v=55" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -505,10 +505,46 @@ function renderReviewPage(place, relatedPosts) {
 // which resolves correctly no matter how deep the page sits. js/blog-data.js
 // content is authored with the same convention (see the bulk migration note
 // at the top of that file) so it drops in here unmodified.
+// Reusable "Sam Score Leaderboard" for destination guides. Drop the marker
+// <!-- sam-score-leaderboard --> anywhere in a guide's content and it is
+// replaced at build time with a ranked table of that guide's `places`, pulled
+// live from PLACES. Scores therefore never drift from the review pages, and
+// adding a new review to `places` is all it takes to update the ranking.
+// Ties share a rank (1, 1, 3), so two 8.1s both show as first.
+const LEADERBOARD_MARKER = "<!-- sam-score-leaderboard -->";
+function leaderboardHtml(post) {
+  const rows = (post.places || [])
+    .map((id) => PLACES.find((p) => p.id === id))
+    .filter((p) => p && typeof p.rating === "number")
+    .sort((a, b) => b.rating - a.rating || a.name.localeCompare(b.name));
+  if (!rows.length) return "";
+  const medals = { 1: "🥇", 2: "🥈", 3: "🥉" };
+  let rank = 0;
+  const body = rows
+    .map((p, i) => {
+      if (i === 0 || p.rating !== rows[i - 1].rating) rank = i + 1;
+      return `<tr><td>${medals[rank] || ""} ${rank}</td><td><a href="/reviews/${p.id}">${escapeHtml(p.name)}</a></td><td>${escapeHtml(p.cuisine || "")}</td><td><strong>${p.rating.toFixed(1)}</strong></td></tr>`;
+    })
+    .join("\n          ");
+  return `<div class="table-scroll sam-leaderboard">
+      <table>
+        <thead>
+          <tr><th>Rank</th><th>Restaurant</th><th>Cuisine</th><th>Sam Score</th></tr>
+        </thead>
+        <tbody>
+          ${body}
+        </tbody>
+      </table>
+      </div>
+      <p class="sam-leaderboard-note">Only restaurants I've personally visited and reviewed are eligible for this ranking.</p>`;
+}
+
 function renderGuidePage(post) {
   const canonical = guideUrl(post);
-  const title = `${post.title}, Eat With Sam K`;
-  const description = post.excerpt;
+  // `seoTitle` / `metaDescription` are optional overrides for the <title> and
+  // meta description; without them the page falls back to title + excerpt.
+  const title = post.seoTitle || `${post.title}, Eat With Sam K`;
+  const description = post.metaDescription || post.excerpt;
   const cover = postCoverPhoto(post);
   const ogImage = cover ? `${SITE_URL}/${cover}` : `${SITE_URL}/images/logo.png`;
   const fmt = formatVisitDate(post.date);
@@ -607,7 +643,7 @@ function renderGuidePage(post) {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=54" />
+  <link rel="stylesheet" href="/css/style.css?v=55" />
 
   <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
@@ -649,7 +685,7 @@ function renderGuidePage(post) {
     <h1>${escapeHtml(post.title)}</h1>`
     }
     <div class="blog-meta"><span class="pill">${escapeHtml(post.city)}</span><span>${fmt}</span>${post.updated ? `<span class="post-updated">🔄 Last updated: ${formatUpdatedDate(post.updated)}</span>` : ""}</div>
-    <div class="post-body">${post.content}</div>
+    <div class="post-body">${post.content.split(LEADERBOARD_MARKER).join(leaderboardHtml(post))}</div>
     ${gearWidgetHtml()}
     ${referralWidgetHtml()}
   </main>
@@ -798,7 +834,7 @@ function renderGearPage() {
   <meta name="apple-mobile-web-app-title" content="Eat With Sam K" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css?v=54" />
+  <link rel="stylesheet" href="/css/style.css?v=55" />
 
   <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>
   ${faqLd ? `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>` : ""}

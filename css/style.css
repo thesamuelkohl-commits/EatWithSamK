@@ -1757,3 +1757,11 @@ a { color: var(--red); }
   .ugc-samples { grid-template-columns: 1fr 1fr; }
   .ugc-sample:last-child { grid-column: 1 / -1; max-width: calc(50% - 7px); justify-self: center; }
 }
+
+/* ---------- Sam Score leaderboard (destination guides) ----------
+   Built by leaderboardHtml() in generate-reviews.js. Rides on the normal
+   .post-body table styles, with the score column and rank emphasized. */
+.sam-leaderboard table td:first-child { white-space: nowrap; font-weight: 800; }
+.sam-leaderboard table td:last-child strong { font-family: "Fredoka", sans-serif; font-size: 1.05rem; color: var(--red); }
+.sam-leaderboard tbody tr:first-child { background: rgba(242, 169, 59, 0.12); }
+.sam-leaderboard-note { font-size: 0.85rem; color: var(--ink-soft); margin-top: 6px; }

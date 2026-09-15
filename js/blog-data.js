@@ -40,6 +40,198 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-restaurants-the-battery-atlanta",
+    places: ["superica-atlanta"],
+    title: "Best Restaurants at The Battery Atlanta (2026): Where to Eat Before a Braves Game",
+    seoTitle: "Best Restaurants at The Battery Atlanta (2026) | Eat With Sam K",
+    metaDescription: "Looking for the best restaurants at The Battery Atlanta? Find where to eat before a Braves game, from pizza and Tex-Mex to steakhouses, quick bites and more.",
+    city: "Atlanta, GA",
+    date: "2026-09-14",
+    updated: "2026-09-14",
+    emoji: "⚾",
+    excerpt:
+      "Looking for the best restaurants at The Battery Atlanta? Start with my own review of Superica, plus where to eat before a Braves game, from pizza to steakhouses and quick bites.",
+    faq: [
+      {
+        question: "What's the best restaurant at The Battery Atlanta?",
+        answer:
+          "I've only personally reviewed Superica so far, which earned an 8.1/10 Sam Score. I'm not going to crown an overall winner until I've eaten at more of The Battery's restaurants, and this guide gets updated every time I do.",
+      },
+      {
+        question: "How early should you eat before a Braves game?",
+        answer:
+          "For a big game, a weekend or a popular opponent, I'd plan on getting to The Battery about 2 hours before first pitch if you want a relaxed sit-down meal. That's my own planning advice, not an official Battery rule.",
+      },
+      {
+        question: "Do you need a Braves ticket to eat at The Battery?",
+        answer:
+          "No. The Battery Atlanta is a mixed-use district around Truist Park with restaurants, shops, entertainment and hotels outside the stadium itself, so you can eat there without a game ticket.",
+      },
+      {
+        question: "What kind of food is at The Battery Atlanta?",
+        answer:
+          "Much more than stadium food. The current lineup includes Tex-Mex, pizza, steak, Southern food, Latin sandwiches, New York deli, American comfort food, sports-bar fare and dessert.",
+      },
+      {
+        question: "Can you make restaurant reservations at The Battery?",
+        answer:
+          "Some Battery restaurants take reservations or run online waitlists, including on game days. Policies change, so check with the restaurant directly before a game.",
+      },
+      {
+        question: "What is a Sam Score?",
+        answer:
+          "The Sam Score is my overall restaurant rating out of 10. I pay for my meals, restaurants can't pay for a higher rating, and sponsored content or UGC work is kept separate from my independent reviews.",
+      },
+    ],
+    content: `
+      <p>Heading to a Braves game and wondering where to eat at The Battery Atlanta?</p>
+      <p>With Truist Park right in the middle of The Battery, there are plenty of options for grabbing dinner before first pitch, meeting friends for drinks, finding a quick bite, or sticking around after the game.</p>
+      <p>I'm eating my way through Atlanta and personally reviewing restaurants along the way. Every restaurant I review is paid for by me and gets an independent Sam Score. No paid reviews and no bought ratings.</p>
+      <p>I've only personally reviewed one Battery restaurant so far, so I'm separating the places I've actually tried from other options worth knowing about. As I eat at more restaurants here, I'll keep updating this guide with new Sam Scores and rankings.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>⭐ Personally Reviewed &amp; Sam Scored</h2>
+
+      <h2>⭐ <a href="/reviews/superica-atlanta">Superica</a></h2>
+      <p><strong>Neighborhood:</strong> The Battery Atlanta, next to Truist Park</p>
+      <p><strong>Sam Score:</strong> 8.1/10</p>
+      <p><strong>Best For:</strong> Tex-Mex, margaritas, groups and a pre-game meal</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>Superica was my first restaurant stop while eating my way through Atlanta. It sits right at The Battery and specializes in Tex-Mex, with house-made classics and signature margaritas.</p>
+      <p><strong>What I ordered:</strong> the queso with picadillo, and Tacos al Carbon with steak, chicken and pork.</p>
+      <p><strong>My verdict:</strong> You can't get much closer to the ballpark, the food came out quick, and the whole area has a great energy before a game. It can get busy on game days, and parking is paid, so build in a little extra time. <a href="/reviews/superica-atlanta">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/superica-atlanta">Read my full Superica review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/superica-atlanta/order-tacos.jpg" alt="Sam's order: Tacos al Carbon with steak, chicken and pork, Superica at The Battery Atlanta" loading="lazy" /></div>
+
+      <h2>🏆 My Battery Atlanta Restaurant Rankings</h2>
+      <p>My Sam Score leaderboard for The Battery. It updates every time I review another restaurant here.</p>
+      <!-- sam-score-leaderboard -->
+      <p>Next restaurant coming soon 👀</p>
+
+      <h2>🍽️ More Places to Eat at The Battery Atlanta</h2>
+      <p>I haven't personally Sam Scored the restaurants below yet. These are current Battery dining options to consider depending on what you're looking for, and as I visit them myself, they'll move up into the ranked section above.</p>
+
+      <h3>🍕 Antico Pizza</h3>
+      <p><strong>Best For:</strong> Pizza, a quick meal, groups and families</p>
+      <p>If pizza sounds better than a full sit-down dinner, Antico Pizza is one of the most obvious options. The Battery describes it as its own location of Antico Pizza Napoletana, and it's especially convenient when you want something straightforward before heading into Truist Park.</p>
+      <p><strong>Sam Score:</strong> Not rated yet</p>
+
+      <h3>🥩 <a href="https://www.c-ellets.com/" target="_blank" rel="noopener">C. Ellet's Steakhouse</a></h3>
+      <p><strong>Best For:</strong> Steak, date night, an upscale dinner and special occasions</p>
+      <p>For something considerably nicer before or after the game, C. Ellet's is The Battery's modern steakhouse, with steaks and seafood. This is one I'd consider when the meal itself is a big part of the night rather than something to grab before first pitch.</p>
+      <p><strong>Sam Score:</strong> Not rated yet</p>
+      <div class="sourced-photo"><img src="/images/guides/c-ellets-battery/dish.jpg" alt="Bone-in steak with herbs and roasted garlic, C. Ellet's Steakhouse" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.c-ellets.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
+
+      <h3>🍸 <a href="https://gardenandgunclub.com/" target="_blank" rel="noopener">Garden &amp; Gun Club</a></h3>
+      <p><strong>Best For:</strong> Southern food, cocktails, date night and an upscale pre-game</p>
+      <p>Garden &amp; Gun Club brings the Southern lifestyle brand to life with elevated cocktails and a modern take on classic Southern dishes. If you want cocktails and a more polished atmosphere instead of the usual sports-bar experience, keep this one on your radar.</p>
+      <p><strong>Sam Score:</strong> Not rated yet</p>
+
+      <h3>🥪 <a href="https://www.elsuperpan.com/the-battery" target="_blank" rel="noopener">El Super Pan</a></h3>
+      <p><strong>Best For:</strong> Latin food, sandwiches, a casual meal and a quick bite</p>
+      <p>El Super Pan is a lively sandwich bar from Puerto Rican chef Hector Santiago, with takes on classic Latino bakery food. I'd put it on the list for anyone who wants something more interesting than the standard burgers-and-wings game-day meal without committing to an upscale dinner.</p>
+      <p><strong>Sam Score:</strong> Not rated yet</p>
+      <div class="sourced-photo"><img src="/images/guides/el-super-pan-battery/dish.jpg" alt="Steak with chimichurri and fries, glazed chicken and mofongo, El Super Pan at The Battery" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.elsuperpan.com/the-battery" target="_blank" rel="noopener">their website</a>, not personally taken</span>
+
+      <h3>🇺🇸 <a href="https://www.omnihotels.com/hotels/atlanta-battery/dining/national-anthem" target="_blank" rel="noopener">National Anthem</a></h3>
+      <p><strong>Best For:</strong> American food, a pre-game dinner and families</p>
+      <p>Next to the Omni Hotel and just steps from Truist Park's Chop House Gates, National Anthem is an ode to American food and baseball, with twists on classic dishes. That combination makes it a natural fit for an actual Braves game-day meal.</p>
+      <p><strong>Sam Score:</strong> Not rated yet</p>
+
+      <h3>🍺 <a href="https://www.yardhouse.com/" target="_blank" rel="noopener">Yard House</a></h3>
+      <p><strong>Best For:</strong> A huge menu, beer, groups and sports</p>
+      <p>Yard House is one of the easiest picks when you're eating with a group that can't agree on anything. The Battery describes it as having 100+ American-style dishes made from scratch and a huge draft-beer selection.</p>
+      <p><strong>Sam Score:</strong> Not rated yet</p>
+      <div class="sourced-photo"><img src="/images/guides/yard-house-battery/dish.jpg" alt="Pizza, spinach dip, wings and drinks on a table, Yard House" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://www.yardhouse.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
+
+      <h3>🏈 <a href="https://walk-ons.com/locations/atlanta-the-battery" target="_blank" rel="noopener">Walk-On's Sports Bistreaux</a></h3>
+      <p><strong>Best For:</strong> Sports bar, Cajun-inspired food, groups and game day</p>
+      <p>If you want the full sports-bar experience before the game, Walk-On's has more than 50 TVs and a Cajun-inspired menu with things like fried alligator, Bayou pasta and redfish tacos.</p>
+      <p><strong>Sam Score:</strong> Not rated yet</p>
+
+      <h3>🎳 <a href="https://punchbowlsocial.com/" target="_blank" rel="noopener">Punch Bowl Social</a></h3>
+      <p><strong>Best For:</strong> Groups, drinks, entertainment and after the game</p>
+      <p>Punch Bowl Social combines a diner-inspired scratch kitchen and craft drinks with parlor-style entertainment, so this is one I'd pick more for the overall experience than just for dinner.</p>
+      <p><strong>Sam Score:</strong> Not rated yet</p>
+
+      <h3>🥯 <a href="https://goldbergsfinefoods.com/" target="_blank" rel="noopener">Goldbergs Fine Foods</a></h3>
+      <p><strong>Best For:</strong> Breakfast, brunch, a quick bite and early games</p>
+      <p>For an early game or a daytime visit, Goldbergs gives you something different from most of The Battery's lineup: New York deli-style food like Reuben sandwiches, fresh bagels and matzo ball soup.</p>
+      <p><strong>Sam Score:</strong> Not rated yet</p>
+      <div class="sourced-photo"><img src="/images/guides/goldbergs-battery/dish.jpg" alt="Bagel sandwiches under a neon sign, Goldbergs Fine Foods" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://goldbergsfinefoods.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
+
+      <h3>🍦 <a href="https://jenis.com/" target="_blank" rel="noopener">Jeni's Splendid Ice Creams</a></h3>
+      <p><strong>Best For:</strong> Dessert, families and after the game</p>
+      <p>Sometimes you don't need another full restaurant, you just need dessert. Jeni's is an easy ice cream stop while you walk around The Battery.</p>
+      <p><strong>Sam Score:</strong> Not rated yet</p>
+      <div class="sourced-photo"><img src="/images/guides/jenis-battery/dish.jpg" alt="A scoop of ice cream, Jeni's Splendid Ice Creams" loading="lazy" /></div>
+      <span class="sourced-photo-credit">Photo via <a href="https://jenis.com/" target="_blank" rel="noopener">their website</a>, not personally taken</span>
+
+      <h2>⚾ Best Places to Eat Before a Braves Game</h2>
+      <p>If you're visiting for a Braves game, I'd pick based on the kind of experience you want.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Where I'd Look</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Personally Sam Scored</td><td>Superica, 8.1</td></tr>
+          <tr><td>🌮 Tex-Mex</td><td>Superica</td></tr>
+          <tr><td>🍕 Pizza</td><td>Antico Pizza</td></tr>
+          <tr><td>🥩 Upscale Dinner</td><td>C. Ellet's</td></tr>
+          <tr><td>🍸 Southern + Cocktails</td><td>Garden &amp; Gun Club</td></tr>
+          <tr><td>🥪 Casual or Quick</td><td>El Super Pan</td></tr>
+          <tr><td>🍺 Beer + Huge Menu</td><td>Yard House</td></tr>
+          <tr><td>🏈 Sports-Bar Atmosphere</td><td>Walk-On's</td></tr>
+          <tr><td>🎳 Food + Entertainment</td><td>Punch Bowl Social</td></tr>
+          <tr><td>🥯 Breakfast or Early Game</td><td>Goldbergs</td></tr>
+          <tr><td>🍦 Dessert</td><td>Jeni's</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>I'll update these picks as I personally review more restaurants at The Battery.</p>
+
+      <h2>How Early Should You Eat Before a Braves Game?</h2>
+      <p>On game days, give yourself plenty of time rather than planning dinner right before first pitch. Many Battery restaurants take reservations or run online waitlists, which helps.</p>
+      <p>For a big game, a weekend or a popular opponent, I'd personally plan on getting to The Battery about 2 hours before first pitch if you want a relaxed sit-down meal. That's my planning recommendation, not an official Battery rule.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What's the best restaurant at The Battery Atlanta?</strong></p>
+      <p>I've only personally reviewed Superica so far, which earned an 8.1/10 Sam Score. I'm not going to crown an overall winner until I've eaten at more of The Battery's restaurants, and this guide gets updated every time I do.</p>
+      <p><strong>How early should you eat before a Braves game?</strong></p>
+      <p>For a big game, a weekend or a popular opponent, I'd plan on getting to The Battery about 2 hours before first pitch if you want a relaxed sit-down meal. That's my own planning advice, not an official Battery rule.</p>
+      <p><strong>Do you need a Braves ticket to eat at The Battery?</strong></p>
+      <p>No. The Battery Atlanta is a mixed-use district around Truist Park with restaurants, shops, entertainment and hotels outside the stadium itself, so you can eat there without a game ticket.</p>
+      <p><strong>What kind of food is at The Battery Atlanta?</strong></p>
+      <p>Much more than stadium food. The current lineup includes Tex-Mex, pizza, steak, Southern food, Latin sandwiches, New York deli, American comfort food, sports-bar fare and dessert.</p>
+      <p><strong>Can you make restaurant reservations at The Battery?</strong></p>
+      <p>Some Battery restaurants take reservations or run online waitlists, including on game days. Policies change, so check with the restaurant directly before a game.</p>
+
+      <h2>⭐ How the Sam Score Works</h2>
+      <p>Every restaurant I personally review gets a Sam Score out of 10 based on my overall experience.</p>
+      <p><strong>Sam Scores can't be bought.</strong> I pay for my meals, restaurants can't pay for a higher rating, and sponsored content or UGC work is kept separate from my independent restaurant reviews.</p>
+      <p>The goal is simple: help you figure out what's actually worth eating.</p>
+
+      <h2>Follow the Atlanta Food Hunt</h2>
+      <p>I'm eating my way through Atlanta to find the restaurants that are actually worth your time and money.</p>
+      <p>Follow <a href="https://www.instagram.com/eatwithsamk" target="_blank" rel="noopener">@eatwithsamk</a> on Instagram, TikTok and YouTube to see each restaurant before it gets added to the rankings.</p>
+      <p><a href="/reviews">See all Sam Scores →</a><br /><a href="/guides/">Explore more food guides →</a></p>
+
+      <h2>More Food Guides</h2>
+      <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="/guides/best-restaurants-panama-city-beach/">Best Restaurants in Panama City Beach</a></li>
+        <li><a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a></li>
+        <li><a href="/guides/best-steakhouses-nashville/">Best Steakhouses in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-restaurants-panama-city-beach",
     places: ["dustys-oyster-bar-panama-city-beach", "fords-garage-panama-city-beach", "sharkys-panama-city-beach"],
     title: "Best Restaurants in Panama City Beach, FL (2026): Where to Eat",
@@ -115,6 +307,10 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "The best view of any meal I've had in PCB, and the food holds its own."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/sharkys-panama-city-beach">Read my full Sharky's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/sharkys-panama-city-beach/order-seafood-platter.jpg" alt="Sam's order: the Panhandle Seafood Platter, Sharky's Panama City Beach" loading="lazy" /></div>
+
+      <h2>🏆 My Panama City Beach Rankings</h2>
+      <p>Every PCB restaurant I've personally reviewed, ranked by Sam Score. This updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
 
       <h2>More Panama City Beach Restaurants Worth Knowing</h2>
       <p>I'm still working my way through Panama City Beach, so the restaurants below haven't received an official Sam Score yet.</p>
@@ -199,6 +395,7 @@ const BLOG_POSTS = [
       <h2>More Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
+        <li><a href="/guides/best-restaurants-the-battery-atlanta/">Best Restaurants at The Battery Atlanta</a></li>
         <li><a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a></li>
         <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
         <li><a href="/guides/best-steakhouses-nashville/">Best Steakhouses in Nashville</a></li>
