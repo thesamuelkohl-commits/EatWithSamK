@@ -108,6 +108,19 @@ const FILMING_GEAR = [
     featured: true,
     order: 3,
   },
+  {
+    name: "MacBook Air 15-inch (M5)",
+    category: "tech",
+    image: "images/gear/macbook-air-15-m5.jpg?v=1",
+    imageAlt: "Apple MacBook Air 15-inch in Starlight, open and facing forward, with a gold and black abstract wallpaper on the screen.",
+    description: "Apple's 2026 15-inch MacBook Air with the M5 chip, 16GB of memory and a 512GB SSD.",
+    // TODO: Sam — swap in your own wording here.
+    whyIUseIt: "It's where every review gets cut. Thin enough to edit from a hotel room between cities, and it doesn't choke on 4K footage.",
+    affiliateUrl: "https://amzn.to/4xDdDIs",
+    badge: "Sam Uses This",
+    featured: false,
+    order: 1,
+  },
 ];
 
 /* ---------- Referral perks ----------
