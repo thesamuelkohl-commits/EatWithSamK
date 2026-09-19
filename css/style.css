@@ -1733,7 +1733,7 @@ a { color: var(--red); }
 /* ---------- UGC sample videos (advertise page) ----------
    Vertical poster cards that open the video in Google Drive. Posters rather
    than embedded players, so three Drive iframes don't weigh the page down. */
-.ugc-samples { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 14px 0 6px; }
+.ugc-samples { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 14px 0 6px; }
 .ugc-sample {
   display: flex; flex-direction: column; overflow: hidden;
   background: var(--glass-bg-strong); border: 1px solid var(--line); border-radius: 12px;
@@ -1755,7 +1755,8 @@ a { color: var(--red); }
 .ugc-sample-desc { font-size: 0.84rem; line-height: 1.45; color: var(--ink-soft); }
 @media (max-width: 620px) {
   .ugc-samples { grid-template-columns: 1fr 1fr; }
-  .ugc-sample:last-child { grid-column: 1 / -1; max-width: calc(50% - 7px); justify-self: center; }
+  /* Only an odd card out gets centered on its own row; an even count stays a clean grid. */
+  .ugc-sample:last-child:nth-child(odd) { grid-column: 1 / -1; max-width: calc(50% - 7px); justify-self: center; }
 }
 
 /* ---------- Sam Score leaderboard (destination guides) ----------
