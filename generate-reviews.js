@@ -392,7 +392,6 @@ function renderReviewPage(place, relatedPosts) {
       <nav class="main-nav" data-nav="reviews" data-prefix="../"></nav>
       <div class="header-right">
         <div class="social-row" data-socials></div>
-        <div class="auth-widget" data-auth></div>
         <div class="install-widget" data-install></div>
       </div>
     </div>
@@ -467,10 +466,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
   <script src="../js/data.js?v=26"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="../js/supabase-config.js?v=1"></script>
   <script src="../js/common.js?v=40"></script>
-  <script src="../js/auth.js?v=5"></script>
   <script src="../js/pwa.js?v=2"></script>
   <script src="../js/consent.js?v=2"></script>
   <script>
@@ -657,7 +653,6 @@ function renderGuidePage(post) {
       <nav class="main-nav" data-nav="guides" data-prefix="/"></nav>
       <div class="header-right">
         <div class="social-row" data-socials></div>
-        <div class="auth-widget" data-auth></div>
         <div class="install-widget" data-install></div>
       </div>
     </div>
@@ -694,10 +689,7 @@ function renderGuidePage(post) {
 
   ${hasInstagramEmbed ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
   <script src="/js/data.js?v=26"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="/js/supabase-config.js?v=1"></script>
   <script src="/js/common.js?v=40"></script>
-  <script src="/js/auth.js?v=5"></script>
   <script src="/js/pwa.js?v=2"></script>
   <script src="/js/consent.js?v=2"></script>
 </body>
@@ -847,7 +839,6 @@ function renderGearPage() {
       <nav class="main-nav" data-nav="gear" data-prefix="/"></nav>
       <div class="header-right">
         <div class="social-row" data-socials></div>
-        <div class="auth-widget" data-auth></div>
         <div class="install-widget" data-install></div>
       </div>
     </div>
@@ -948,10 +939,7 @@ ${
   <footer class="site-footer" data-footer data-prefix="/"></footer>
 
   <script src="/js/data.js?v=26"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="/js/supabase-config.js?v=1"></script>
   <script src="/js/common.js?v=40"></script>
-  <script src="/js/auth.js?v=5"></script>
   <script src="/js/pwa.js?v=2"></script>
   <script src="/js/consent.js?v=2"></script>
 </body>

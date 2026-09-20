@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T14:10:01.447Z",
+  "generatedAt": "2026-09-20T14:58:45.806Z",
   "places": [
     {
       "id": "thai-samurai-river-north-nashville",
@@ -64,6 +64,79 @@
         "River North"
       ],
       "url": "https://www.eatwithsamk.com/reviews/thai-samurai-river-north-nashville"
+    },
+    {
+      "id": "mcguires-irish-pub-panama-city-beach",
+      "name": "McGuire's Irish Pub",
+      "city": "Panama City Beach, FL",
+      "lat": 30.2265627,
+      "lng": -85.8956835,
+      "address": "17290 Front Beach Rd, Panama City Beach, FL 32413",
+      "phone": "(850) 588-1292",
+      "parking": "Free parking",
+      "website": "https://www.mcguiresirishpub.com/pcb",
+      "date": "2026-09-06",
+      "price": "$$$",
+      "cuisine": "Irish",
+      "badges": [
+        "family-friendly",
+        "group-friendly",
+        "easy-parking"
+      ],
+      "about": "McGuire's is a 550-seat Irish pub and steakhouse on Front Beach Road, across from the Gulf. It's the third McGuire's, after Pensacola and Destin, and opened in 2025. Signed dollar bills cover the ceiling and every wall, they brew their own ales in house, and Irish musicians play late every night.",
+      "ate": "The McGuire's Root Beer, the 18¢ Senate Bean Soup, Reuben Egg Rolls, a Filet Mignon, the Pasta Rustica, and the Garlic Mashed Potatoes.",
+      "heroPhoto": "images/reviews/mcguires-irish-pub-panama-city-beach/order-filet-mignon.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/mcguires-irish-pub-panama-city-beach/storefront.jpg",
+          "alt": "McGuire's Irish Pub entrance and parking lot, with Irish flags along the roofline, Panama City Beach"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/mcguires-irish-pub-panama-city-beach/interior.jpg",
+          "alt": "The bar at McGuire's Irish Pub, with signed dollar bills covering the ceiling and walls and a Sláinte stained glass sign"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/mcguires-irish-pub-panama-city-beach/drink-root-beer.jpg",
+          "alt": "Sam's drink: a glass of McGuire's house root beer with a thick foam head, McGuire's Irish Pub"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/mcguires-irish-pub-panama-city-beach/order-bread.jpg",
+          "alt": "A dark loaf of bread with melted butter poured over it on a wooden board, McGuire's Irish Pub"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/mcguires-irish-pub-panama-city-beach/order-senate-bean-soup.jpg",
+          "alt": "Sam's order: a bowl of the 18 cent Senate Bean Soup with carrots and parsley, McGuire's Irish Pub"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/mcguires-irish-pub-panama-city-beach/order-reuben-egg-rolls.jpg",
+          "alt": "Sam's order: Reuben Egg Rolls sliced open around a cup of dipping sauce, McGuire's Irish Pub"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/mcguires-irish-pub-panama-city-beach/order-filet-mignon.jpg",
+          "alt": "Sam's order: a grilled Filet Mignon on a cast iron plate with a medium rare marker and an Irish flag in the potatoes, McGuire's Irish Pub"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/mcguires-irish-pub-panama-city-beach/order-pasta-rustica.jpg",
+          "alt": "Sam's order: Pasta Rustica in cream sauce with sausage, bacon and tomatoes, with garlic bread, McGuire's Irish Pub"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/mcguires-irish-pub-panama-city-beach/order-garlic-mashed-potatoes.jpg",
+          "alt": "Sam's order: Garlic Mashed Potatoes topped with chopped parsley, McGuire's Irish Pub"
+        }
+      ],
+      "pros": [
+        "Great atmosphere"
+      ],
+      "cons": [
+        "Busy"
+      ],
+      "rating": 8.8,
+      "video": "https://www.instagram.com/reel/DdZ7sp5x3wj/",
+      "tags": [
+        "Irish",
+        "Front Beach Road"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/mcguires-irish-pub-panama-city-beach"
     },
     {
       "id": "fords-garage-panama-city-beach",

@@ -48,9 +48,9 @@ function toggleFavorite(id) {
     // Private browsing / storage disabled — the click still updates the
     // button on screen, it just won't persist across a reload.
   }
-  // js/auth.js defines this when a visitor is signed in, to mirror the
-  // change to their account. Undefined (not an error) if auth.js isn't
-  // loaded, or if they're just a guest — favorites still work either way.
+  // Optional hook for an account layer to mirror the change to a server.
+  // Nothing defines it right now (the Supabase sign-in was removed), and
+  // that's fine — favorites are browser-only and work without it.
   if (typeof onFavoriteToggled === "function") onFavoriteToggled(id, !active);
   return !active;
 }

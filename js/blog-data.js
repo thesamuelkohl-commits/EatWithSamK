@@ -231,19 +231,19 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-panama-city-beach",
-    places: ["dustys-oyster-bar-panama-city-beach", "fords-garage-panama-city-beach", "sharkys-panama-city-beach"],
+    places: ["mcguires-irish-pub-panama-city-beach", "dustys-oyster-bar-panama-city-beach", "fords-garage-panama-city-beach", "sharkys-panama-city-beach"],
     title: "Best Restaurants in Panama City Beach, FL (2026): Where to Eat",
     city: "Panama City Beach, FL",
     date: "2026-09-06",
-    updated: "2026-09-14",
+    updated: "2026-09-19",
     emoji: "🦪",
     excerpt:
-      "Looking for the best restaurants in Panama City Beach? Start with my own reviews of Dusty's Oyster Bar, Ford's Garage and Sharky's Beachfront Restaurant, plus seafood spots, date-night picks and where to eat in PCB.",
+      "Looking for the best restaurants in Panama City Beach? Start with my own reviews of McGuire's Irish Pub, Dusty's Oyster Bar, Ford's Garage and Sharky's Beachfront Restaurant, plus seafood spots, date-night picks and where to eat in PCB.",
     faq: [
       {
         question: "What are the best restaurants in Panama City Beach?",
         answer:
-          "Of the Panama City Beach restaurants I've personally reviewed so far, Dusty's Oyster Bar and Ford's Garage are tied for my highest rated at 8.1/10, with Sharky's Beachfront Restaurant right behind at 7.9/10. I'm still eating my way through PCB, so more Sam Scores are on the way.",
+          "Of the Panama City Beach restaurants I've personally reviewed so far, McGuire's Irish Pub is my highest rated at 8.8/10. Dusty's Oyster Bar and Ford's Garage are tied behind it at 8.1/10, with Sharky's Beachfront Restaurant at 7.9/10. I'm still eating my way through PCB, so more Sam Scores are on the way.",
       },
       {
         question: "Where should I eat seafood in Panama City Beach?",
@@ -253,7 +253,7 @@ const BLOG_POSTS = [
       {
         question: "Where can I get oysters in Panama City Beach?",
         answer:
-          "Dusty's Oyster Bar, and it's my highest rated PCB restaurant so far at 8.1/10. I had the oyster sampler and a half dozen seafood oysters. Mike's Cafe & Oyster Bar is another option worth knowing about.",
+          "Dusty's Oyster Bar, at 8.1/10. I had the oyster sampler and a half dozen seafood oysters. Mike's Cafe & Oyster Bar is another option worth knowing about.",
       },
       {
         question: "What are the best restaurants in Panama City Beach for date night?",
@@ -270,9 +270,19 @@ const BLOG_POSTS = [
       <p>Panama City Beach has no shortage of places to eat. Between beachfront seafood restaurants, oyster bars, casual local spots, and restaurants packed with tourists, the harder question is figuring out which ones are actually worth your money.</p>
       <p>That's what I'm trying to find out.</p>
       <p>I'm eating my way through Panama City Beach and personally reviewing restaurants along the way. Every restaurant I review gets a Sam Score, my overall rating based on the food and experience.</p>
-      <p>Dusty's Oyster Bar, Ford's Garage and Sharky's are the first PCB restaurants with a Sam Score, ranked below by score, and this guide will keep growing as I try more, so check back as places get added.</p>
+      <p>McGuire's Irish Pub, Dusty's Oyster Bar, Ford's Garage and Sharky's are the PCB restaurants with a Sam Score so far, ranked below by score, and this guide will keep growing as I try more, so check back as places get added.</p>
       <p>No paid reviews. No bought ratings. Every Sam Score reflects my actual experience.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>⭐ <a href="/reviews/mcguires-irish-pub-panama-city-beach">McGuire's Irish Pub</a></h2>
+      <p><strong>Neighborhood:</strong> Front Beach Road</p>
+      <p><strong>Sam Score:</strong> 8.8/10</p>
+      <p><strong>Best For:</strong> Steaks, Irish pub food, big groups and a late dinner</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>McGuire's is a 550-seat Irish pub and steakhouse across Front Beach Road from the Gulf, the third one after Pensacola and Destin. Signed dollar bills cover the ceiling and every wall, they brew their own ales in house, and Irish musicians play late every night.</p>
+      <p>I got the McGuire's Root Beer, the 18¢ Senate Bean Soup, Reuben Egg Rolls, a Filet Mignon, the Pasta Rustica and the Garlic Mashed Potatoes. It's my highest rated PCB restaurant so far. It gets busy, and the kitchen runs until 2 a.m. if you'd rather go late. <a href="/reviews/mcguires-irish-pub-panama-city-beach">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/mcguires-irish-pub-panama-city-beach">Read my full McGuire's review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/mcguires-irish-pub-panama-city-beach/order-filet-mignon.jpg" alt="Sam's order: the Filet Mignon on a cast iron plate with an Irish flag in the mashed potatoes, McGuire's Irish Pub" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/dustys-oyster-bar-panama-city-beach">Dusty's Oyster Bar</a></h2>
       <p><strong>Neighborhood:</strong> Front Beach Road</p>
@@ -310,10 +320,6 @@ const BLOG_POSTS = [
       <p>I'm still working my way through Panama City Beach, so the restaurants below haven't received an official Sam Score yet.</p>
       <p>Rather than assigning rankings to places I haven't personally reviewed and published yet, I'm keeping them on my radar and will update this guide as I go.</p>
 
-      <h3>🍺 <a href="https://www.mcguiresirishpub.com/pcb" target="_blank" rel="noopener">McGuire's Irish Pub</a></h3>
-      <p>McGuire's brought its well-known Irish pub concept to Panama City Beach and offers a completely different experience from the seafood-heavy restaurants you'll find throughout PCB. It's one I'm interested in trying as I continue exploring the area.</p>
-      <p><strong>Best For:</strong> Groups, pub food, drinks and a lively atmosphere</p>
-
       <h3>🐟 <a href="https://www.instagram.com/mikescafeandoysterbar/" target="_blank" rel="noopener">Mike's Cafe &amp; Oyster Bar</a></h3>
       <p>If you're looking for another casual seafood and oyster option, Mike's Cafe &amp; Oyster Bar is one of the local names worth knowing. The menu leans heavily into the kind of seafood you'd expect on a Florida beach trip, including oysters and other Gulf Coast favorites.</p>
       <p><strong>Best For:</strong> Casual seafood and oysters</p>
@@ -346,13 +352,13 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Dusty's Oyster Bar / Ford's Garage, 8.1</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>McGuire's Irish Pub, 8.8</td></tr>
           <tr><td>🌅 Eating With a View</td><td>Sharky's Beachfront Restaurant</td></tr>
           <tr><td>👨‍👩‍👧 Families</td><td>Ford's Garage / Sharky's Beachfront Restaurant</td></tr>
           <tr><td>🍔 Burgers</td><td>Ford's Garage, 8.1</td></tr>
           <tr><td>🦪 Oysters</td><td>Dusty's Oyster Bar, 8.1</td></tr>
           <tr><td>🐟 Casual Seafood</td><td>Dusty's Oyster Bar / Sharky's / Mike's Cafe</td></tr>
-          <tr><td>🍺 Lively Group Spot</td><td>McGuire's Irish Pub</td></tr>
+          <tr><td>🍺 Lively Group Spot</td><td>McGuire's Irish Pub, 8.8</td></tr>
           <tr><td>🦐 Seafood Boil</td><td>Local Steamer</td></tr>
           <tr><td>❤️ Date Night</td><td>Hunt &amp; Gather / Firefly</td></tr>
         </tbody>
@@ -370,11 +376,11 @@ const BLOG_POSTS = [
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What are the best restaurants in Panama City Beach?</strong></p>
-      <p>I'm currently eating my way through Panama City Beach and rating restaurants using the Sam Score. Dusty's Oyster Bar and Ford's Garage lead at 8.1/10, with Sharky's Beachfront Restaurant at 7.9/10, and more restaurants get added as I get to them.</p>
+      <p>I'm currently eating my way through Panama City Beach and rating restaurants using the Sam Score. McGuire's Irish Pub leads at 8.8/10, with Dusty's Oyster Bar and Ford's Garage tied at 8.1/10 and Sharky's Beachfront Restaurant at 7.9/10, and more restaurants get added as I get to them.</p>
       <p><strong>Where should I eat seafood in Panama City Beach?</strong></p>
       <p>PCB has a huge number of seafood restaurants. Dusty's Oyster Bar (8.1) and Sharky's Beachfront Restaurant (7.9) are the two I've personally reviewed, while places like Mike's Cafe &amp; Oyster Bar and Local Steamer Seafood Market are also on my radar as I continue exploring the area.</p>
       <p><strong>Where can I get oysters in Panama City Beach?</strong></p>
-      <p>Dusty's Oyster Bar, and it's my highest rated PCB restaurant so far at 8.1/10. I had the oyster sampler and a half dozen seafood oysters. Mike's Cafe &amp; Oyster Bar is another option worth knowing about.</p>
+      <p>Dusty's Oyster Bar, at 8.1/10. I had the oyster sampler and a half dozen seafood oysters. Mike's Cafe &amp; Oyster Bar is another option worth knowing about.</p>
       <p><strong>What are the best restaurants in Panama City Beach for date night?</strong></p>
       <p>Hunt &amp; Gather Raw Bar &amp; Pub and Firefly are two restaurants worth considering for a nicer evening. I haven't personally Sam Scored either yet, so I'll update this section once I do.</p>
       <p><strong>What is a Sam Score?</strong></p>
