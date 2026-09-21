@@ -45,9 +45,9 @@ function loadModule(relPath, trailingExpr) {
   return vm.runInNewContext(code + "\n" + trailingExpr, {});
 }
 
-const { SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR, GEAR_CATEGORIES, GEAR_FAQ, REFERRAL_PERKS } = loadModule(
+const { SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR, GEAR_CATEGORIES, GEAR_FAQ, REFERRAL_PERKS, REFERRAL_CATEGORIES } = loadModule(
   "js/data.js",
-  "({ SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR, GEAR_CATEGORIES, GEAR_FAQ, REFERRAL_PERKS });"
+  "({ SITE, PLACES, BADGES, PRICE_GUIDE, FILMING_GEAR, GEAR_CATEGORIES, GEAR_FAQ, REFERRAL_PERKS, REFERRAL_CATEGORIES });"
 );
 const BLOG_POSTS = loadModule("js/blog-data.js", "(BLOG_POSTS);");
 
@@ -715,6 +715,12 @@ function activeGearCategories() {
   return GEAR_CATEGORIES.filter((cat) => FILMING_GEAR.some((item) => item.category === cat.key));
 }
 
+// Only referral categories that actually have a perk, in REFERRAL_CATEGORIES order.
+function activeReferralCategories() {
+  if (!REFERRAL_PERKS || !REFERRAL_PERKS.length) return [];
+  return (REFERRAL_CATEGORIES || []).filter((cat) => REFERRAL_PERKS.some((perk) => perk.category === cat.key));
+}
+
 // A product with no image yet still gets a branded tile (its first letter)
 // rather than a broken <img> or a stock photo we'd be inventing.
 function gearCardHtml(item) {
@@ -744,7 +750,7 @@ function gearCardHtml(item) {
 function renderGearPage() {
   const title = "Sam's Gear: What I Use to Make Food Videos | Eat With Sam K";
   const description =
-    "See the cameras, microphones, lighting, travel gear, and creator tools Sam uses to make Eat With Sam K restaurant reviews and food videos.";
+    "See the mic, lighting, tripod and editing setup Sam uses to film Eat With Sam K restaurant reviews, plus the cards and apps he actually pays for meals with.";
   const categories = activeGearCategories();
   const featured = gearBySortOrder(FILMING_GEAR.filter((item) => item.featured));
   const answeredFaq = (GEAR_FAQ || []).filter((f) => f.answer && f.answer.trim());
@@ -868,7 +874,9 @@ ${
       ${categories
         .map((cat) => `<a class="gear-chip" href="#gear-${escapeAttr(cat.key)}">${cat.emoji} ${escapeHtml(cat.label)}</a>`)
         .join("\n      ")}
-      ${REFERRAL_PERKS && REFERRAL_PERKS.length ? `<a class="gear-chip" href="#gear-perks">💳 Cards &amp; Rides</a>` : ""}
+      ${activeReferralCategories()
+        .map((cat) => `<a class="gear-chip" href="#referral-${escapeAttr(cat.key)}">${cat.emoji} ${escapeHtml(cat.label)}</a>`)
+        .join("\n      ")}
     </nav>`
     : ""
 }
@@ -895,19 +903,25 @@ ${categories
   })
   .join("")}
 
-${
-  REFERRAL_PERKS && REFERRAL_PERKS.length
-    ? `
-    <section class="gear-section gear-perks reveal" id="gear-perks">
-      <h2>💳 Cards &amp; Rides I Use</h2>
-      <p class="gear-section-sub">Not filming gear, but part of how I actually get to restaurants and pay for the meals.</p>
+${activeReferralCategories()
+  .map((cat, i) => {
+    const perks = REFERRAL_PERKS.filter((perk) => perk.category === cat.key);
+    // The referral disclosure is legally distinct from the Amazon one, so it
+    // rides on the first referral section rather than on every one of them.
+    const disclosure =
+      i === 0
+        ? `\n      <p class="referral-disclosure">These are referral links, separate from the Amazon links above. If you sign up through one, I may earn a referral reward at no extra cost to you. I still pay for every meal I review myself.</p>`
+        : "";
+    return `
+    <section class="gear-section gear-perks reveal" id="referral-${escapeAttr(cat.key)}">
+      <h2>${cat.emoji} ${escapeHtml(cat.label)}</h2>
+      <p class="gear-section-sub">${escapeHtml(cat.description)}</p>
       <div class="referral-cards">
-        ${REFERRAL_PERKS.map((perk) => referralCardHtml(perk, "gear")).join("\n        ")}
-      </div>
-      <p class="referral-disclosure">These are referral links, separate from the Amazon links above. If you sign up through one, I may earn a referral reward at no extra cost to you. I still pay for every meal I review myself.</p>
-    </section>`
-    : ""
-}
+        ${perks.map((perk) => referralCardHtml(perk, "gear")).join("\n        ")}
+      </div>${disclosure}
+    </section>`;
+  })
+  .join("")}
 
     <section class="gear-trust quick-facts-card glow-card reveal">
       <h2>Why This List Stays Short</h2>

@@ -39,11 +39,8 @@ const PRICE_GUIDE = {
    uses its key, so you can define categories ahead of the products. */
 const GEAR_CATEGORIES = [
   { key: "content", emoji: "🎥", label: "Content Gear" },
-  { key: "audio", emoji: "🎙️", label: "Audio" },
-  { key: "lighting", emoji: "💡", label: "Lighting" },
-  { key: "travel", emoji: "✈️", label: "Travel Gear" },
-  { key: "kitchen", emoji: "🍳", label: "Kitchen Favorites" },
   { key: "tech", emoji: "📱", label: "Tech & Accessories" },
+  { key: "other", emoji: "✨", label: "Other" },
 ];
 
 /* ---------- Filming gear ----------
@@ -71,7 +68,7 @@ const GEAR_CATEGORIES = [
 const FILMING_GEAR = [
   {
     name: "DJI Mic Mini",
-    category: "audio",
+    category: "content",
     image: "images/gear/dji-mic-mini.jpg?v=1",
     imageAlt: "DJI Mic Mini kit, one clip-on wireless transmitter next to the Mic RX receiver, on a white background.",
     description: "Ultralight wireless clip-on mic and receiver, in the 1 TX + 1 RX kit.",
@@ -109,6 +106,19 @@ const FILMING_GEAR = [
     order: 3,
   },
   {
+    name: "Newmowa 60 LED Clip Light",
+    category: "content",
+    image: "images/gear/newmowa-60-led-clip-light.jpg?v=1",
+    imageAlt: "Newmowa 60 LED clip-on fill light, a small rechargeable panel with a clamp, shown mounted on a phone, a camera and a laptop.",
+    description: "Rechargeable 60-LED panel with three color modes, front and back clips, and a USB-C cable.",
+    // TODO: Sam — swap in your own wording here.
+    whyIUseIt: "Restaurants are dark. Clipping this to my phone is the difference between food that looks good on camera and food that looks brown.",
+    affiliateUrl: "https://amzn.to/4h8ada4",
+    badge: "Best Value",
+    featured: false,
+    order: 1,
+  },
+  {
     name: "MacBook Air 15-inch (M5)",
     category: "tech",
     image: "images/gear/macbook-air-15-m5.jpg?v=1",
@@ -123,6 +133,25 @@ const FILMING_GEAR = [
   },
 ];
 
+/* ---------- Referral categories ----------
+   Sections for the referral blocks on /gear/, in display order. Each one
+   gets its own heading and blurb, and only shows up once a perk below
+   uses its key. */
+const REFERRAL_CATEGORIES = [
+  {
+    key: "cards",
+    emoji: "💳",
+    label: "Credit Cards I Use",
+    description: "The cards I actually pay for meals and travel with. I keep them for the food and travel points, not for a signup bonus.",
+  },
+  {
+    key: "rides",
+    emoji: "🚗",
+    label: "Getting There & Delivery",
+    description: "How I get to restaurants when I'm not driving, and how I order in when I'm not going out.",
+  },
+];
+
 /* ---------- Referral perks ----------
    The cards and apps Sam actually uses to eat out and get around. These
    are REFERRAL links, not Amazon affiliate links, so they're kept separate
@@ -130,34 +159,39 @@ const FILMING_GEAR = [
    Amazon Associates wording must never be applied to them.
 
    Single source of truth for the "Deals I Actually Use" widget in the
-   footer/review pages AND the "Cards & Rides I Use" section on /gear/.
+   footer/review pages AND the referral sections on /gear/.
 
-   To add one: { name, description, url, destination } where `destination`
-   is just a short label for click tracking (e.g. "amex", "uber"). */
+   To add one: { name, description, url, destination, category } where
+   `destination` is a short label for click tracking (e.g. "amex", "uber")
+   and `category` is a `key` from REFERRAL_CATEGORIES above. */
 const REFERRAL_PERKS = [
   {
     name: "Amex Gold Card",
     description: "Great everyday points on food & travel",
     url: "https://americanexpress.com/en-us/referral/gold-card?ref=SAMUEKhIMj&XL=MIZNS",
     destination: "amex",
+    category: "cards",
   },
   {
     name: "Amex Platinum Card",
     description: "Even better points on travel",
     url: "https://americanexpress.com/en-us/referral/platinum-card?ref=SAMUEKQPAv&XL=MIZNS",
     destination: "amex",
+    category: "cards",
   },
   {
     name: "Uber",
     description: "Sign up for an easy ride to your next meal",
     url: "https://referrals.uber.com/refer?id=r68141rgpszh",
     destination: "uber",
+    category: "rides",
   },
   {
     name: "Uber Eats",
     description: "Get your next meal delivered",
     url: "https://ubereats.com/feed?promoCode=eats-samuelk6169ue",
     destination: "ubereats",
+    category: "rides",
   },
 ];
 
