@@ -1697,11 +1697,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-cheap-eats-nashville",
-    places: ["reds-hot-chicken-nashville", "jack-browns-nashville", "hugh-babys-nashville"],
+    places: ["reds-hot-chicken-nashville", "bad-luck-burger-club-nashville", "jack-browns-nashville", "hugh-babys-nashville"],
     title: "Best Cheap Eats in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-04",
-    updated: "2026-09-14",
+    updated: "2026-09-20",
     emoji: "💵",
     excerpt:
       "From my own reviews of Red's Hot Chicken and Jack Brown's to Prince's legendary hot chicken, the best cheap eats in Nashville for 2026, all $20 or less, ranked with no paid placements.",
@@ -1745,6 +1745,15 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "Big, creative flavor for a counter-service price, one of the best budget lunches in Midtown."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/reds-hot-chicken-nashville">Read my full Red's Hot Chicken review →</a></p>
       <div class="own-photo"><img src="/images/reviews/reds-hot-chicken-nashville/order.jpg" alt="Sam's Hot Chicken Mac & Cheese Crunch Wrap with a side of ranch, Red's Hot Chicken" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/bad-luck-burger-club-nashville">Bad Luck Burger Club</a></h2>
+      <p><strong>Neighborhood:</strong> East Nashville</p>
+      <p><strong>Sam Score:</strong> 8.6/10</p>
+      <p><strong>Best For:</strong> Cheap Smash Burgers</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>Bad Luck is a smash burger trailer on Woodland Street. You order at the window and there's a bar next door to sit in, and it's about as cheap as a proper burger gets in East Nashville. <a href="/reviews/bad-luck-burger-club-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/bad-luck-burger-club-nashville">Read my full Bad Luck review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/bad-luck-burger-club-nashville/order-bad-luck-burger.jpg" alt="Sam's order: the Bad Luck Burger, a double smash patty with American cheese and caramelized onions" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
       <p><strong>Neighborhood:</strong> Germantown</p>
@@ -1818,7 +1827,7 @@ const BLOG_POSTS = [
         </thead>
         <tbody>
           <tr><td>⭐ Highest Sam Score</td><td>Red's Hot Chicken, 8.7</td></tr>
-          <tr><td>🍔 Burgers Under $20</td><td>Jack Brown's / Hugh-Baby's</td></tr>
+          <tr><td>🍔 Burgers Under $20</td><td>Bad Luck Burger Club, 8.6 / Jack Brown's, 8.6</td></tr>
           <tr><td>🔥 Hot Chicken</td><td>Red's Hot Chicken / Prince's</td></tr>
           <tr><td>🍕 Pizza by the Slice</td><td>Five Points Pizza</td></tr>
           <tr><td>🌮 Mexican</td><td>Oscar's Taco Shop / Baja Burrito</td></tr>
@@ -2393,24 +2402,24 @@ const BLOG_POSTS = [
   },
   {
     id: "best-burgers-nashville",
-    places: ["jack-browns-nashville", "hugh-babys-nashville", "baam-burger-nashville", "nadc-burger-nashville"],
+    places: ["bad-luck-burger-club-nashville", "jack-browns-nashville", "hugh-babys-nashville", "baam-burger-nashville", "nadc-burger-nashville"],
     title: "Best Burgers in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-25",
-    updated: "2026-09-14",
+    updated: "2026-09-20",
     emoji: "🍔",
     excerpt:
-      "From my own review of Jack Brown's to Dino's legendary dive-bar cheeseburger, the best burgers in Nashville for 2026, ranked with no paid placements.",
+      "From my own reviews of Bad Luck Burger Club and Jack Brown's to Dino's legendary dive-bar cheeseburger, the best burgers in Nashville for 2026, ranked with no paid placements.",
     faq: [
       {
         question: "What is the best burger in Nashville?",
         answer:
-          "Of the burger spots Sam has personally reviewed so far, Jack Brown's is his highest rated at 8.6/10, followed by Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2). Bad Luck Burger Club, Dreamburger, and Pharmacy Burger Parlor are also consistently considered among the best burgers in Nashville.",
+          "Bad Luck Burger Club is Sam's top personally reviewed pick at 8.6/10, just ahead of Jack Brown's on the same score, followed by Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2). Dreamburger and Pharmacy Burger Parlor are also consistently considered among the best burgers in Nashville.",
       },
       {
         question: "What is the best smash burger in Nashville?",
         answer:
-          "Bad Luck Burger Club and Dreamburger are two of the most popular smash burger restaurants in the city, alongside NADC Burger, which Sam has personally reviewed.",
+          "Bad Luck Burger Club, which Sam rates 8.6/10 and ranks first in this guide. Dreamburger is the other smash burger name that comes up most, alongside NADC Burger, which Sam has also reviewed.",
       },
       {
         question: "What is the best cheap burger in Nashville?",
@@ -2428,6 +2437,16 @@ const BLOG_POSTS = [
       <p>Nashville has quietly become one of the best burger cities in the South. From award-winning smash burgers to neighborhood favorites and premium steakhouse burgers, there's something for everyone.</p>
       <p>At Eat With Sam K, every burger is purchased with my own money. I do not accept paid reviews or exchange positive ratings for free food. Every recommendation is based on my honest experience.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>⭐ <a href="/reviews/bad-luck-burger-club-nashville">Bad Luck Burger Club</a></h2>
+      <p><strong>Neighborhood:</strong> East Nashville</p>
+      <p><strong>Sam Score:</strong> 8.6/10</p>
+      <p><strong>Best For:</strong> Smash Burgers</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>Bad Luck is a smash burger trailer parked on Woodland Street, covered in yellow lettering and cartoon cats. You order at the window, and there's a bar next door if you want to sit down.</p>
+      <p>I got the Bad Luck Burger, the Island Boi Burger and a side of tots. It's quick and it's cheap, and the trade-off is that it's a food truck with limited seating. <a href="/reviews/bad-luck-burger-club-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/bad-luck-burger-club-nashville">Read my full Bad Luck review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/bad-luck-burger-club-nashville/order-bad-luck-burger.jpg" alt="Sam's order: the Bad Luck Burger, a double smash patty with American cheese and caramelized onions" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
       <p><strong>Neighborhood:</strong> Germantown</p>
@@ -2472,11 +2491,6 @@ const BLOG_POSTS = [
       <h2>More Nashville Burgers Worth Knowing</h2>
       <p>I'm still working my way through Nashville's burger scene, so the restaurants below haven't all received an official Sam Score yet.</p>
       <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
-
-      <h3>🎲 <a href="https://www.badluckburger.club/" target="_blank" rel="noopener">Bad Luck Burger Club</a></h3>
-      <p>Bad Luck Burger Club has built a cult following thanks to its perfectly crisp smash burgers and simple menu. Every burger is made fresh and packed with flavor.</p>
-      <p><strong>Best For:</strong> Smash Burgers</p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Db8MetzpVAJ/" data-instgrm-version="14"></blockquote></div>
 
       <h3>💭 <a href="https://www.dreamburgernash.com/" target="_blank" rel="noopener">Dreamburger</a></h3>
       <p>Dreamburger combines classic smash burger techniques with premium ingredients and unique flavor combinations. Their burgers have become one of Nashville's hottest food destinations.</p>
@@ -2523,11 +2537,11 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Jack Brown's, 8.6</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Bad Luck Burger Club, 8.6</td></tr>
           <tr><td>🌙 Late-Night, Near Broadway</td><td>Baam Burger</td></tr>
           <tr><td>🥩 Wagyu Smash Burger</td><td>NADC Burger</td></tr>
           <tr><td>🍔 Old-School Cheeseburger</td><td>Hugh-Baby's / Dino's</td></tr>
-          <tr><td>🎲 Smash Burger</td><td>Bad Luck Burger Club / Dreamburger</td></tr>
+          <tr><td>🎲 Smash Burger</td><td>Bad Luck Burger Club, 8.6</td></tr>
           <tr><td>🍺 Beer Garden</td><td>Pharmacy Burger Parlor</td></tr>
           <tr><td>💵 Budget-Friendly</td><td>Grillshack</td></tr>
         </tbody>
@@ -2535,19 +2549,19 @@ const BLOG_POSTS = [
       </div>
 
       <h2>What Is My Favorite Burger in Nashville?</h2>
-      <p>Right now, Jack Brown's is my top personally-reviewed pick, with an 8.6 Sam Score, just ahead of Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2).</p>
+      <p>Right now, Bad Luck Burger Club is my top personally-reviewed pick with an 8.6 Sam Score, just ahead of Jack Brown's on the same score, then Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2).</p>
       <p>That doesn't mean the ranking is permanent. I'm continuing to visit burger restaurants throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
       <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What is the best burger in Nashville?</strong></p>
-      <p>Of the burger spots I've personally reviewed so far, Jack Brown's is my highest rated at 8.6/10, followed by Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2). Bad Luck Burger Club, Dreamburger, and Pharmacy Burger Parlor are also consistently considered among the best burgers in Nashville.</p>
+      <p>Of the burger spots I've personally reviewed so far, Bad Luck Burger Club is my highest rated at 8.6/10, just ahead of Jack Brown's on the same score, followed by Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2). Dreamburger and Pharmacy Burger Parlor are also consistently considered among the best burgers in Nashville.</p>
       <p><strong>What is the best smash burger in Nashville?</strong></p>
-      <p>Bad Luck Burger Club and Dreamburger are two of the most popular smash burger restaurants in the city, alongside NADC Burger, which I've personally reviewed.</p>
+      <p>Bad Luck Burger Club, which I rate 8.6/10 and rank first in this guide. Dreamburger is the other smash burger name that comes up most, alongside NADC Burger, which I've also reviewed.</p>
       <p><strong>What is the best cheap burger in Nashville?</strong></p>
       <p>Hugh-Baby's BBQ & Burger Shop and Grillshack Fries & Burgers offer some of the best burgers under $15.</p>
       <p><strong>What burger restaurant is best for a first-time visitor?</strong></p>
-      <p>If it's your first trip to Nashville, Jack Brown's Beer & Burger Joint is one of the best places to experience the city's burger scene.</p>
+      <p>If it's your first trip to Nashville, Bad Luck Burger Club and Jack Brown's Beer & Burger Joint are both great places to experience the city's burger scene.</p>
 
       <h2>The Sam Score</h2>
       <p>Every burger that receives a Sam Score has been personally visited and reviewed by me, taste, value, sides, service, and atmosphere all factor in.</p>

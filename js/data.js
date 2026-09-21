@@ -213,6 +213,37 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "bad-luck-burger-club-nashville",
+    name: "Bad Luck Burger Club",
+    city: "Nashville, TN",
+    lat: 36.1753612,
+    lng: -86.7552957,
+    address: "918 Woodland St, Nashville, TN 37206",
+    parking: "Free 1-hour parking",
+    website: "https://www.badluckburger.club/",
+    date: "2026-09-12",
+    price: "$",
+    cuisine: "Burgers",
+    badges: ["quick-bite", "best-value"],
+    about: "Bad Luck Burger Club is a smash burger trailer parked in East Nashville on Woodland Street, covered in yellow lettering and cartoon cats. You order at the window, and there's a bar next door with indoor seating if you'd rather not eat standing up.",
+    ate: "The Bad Luck Burger, the Island Boi Burger, and a side of Tots.",
+    heroPhoto: "images/reviews/bad-luck-burger-club-nashville/order-bad-luck-burger.jpg",
+    photos: [
+      { src: "images/reviews/bad-luck-burger-club-nashville/storefront.jpg", alt: "The Bad Luck Burger Club trailer in East Nashville, painted black with yellow lettering and cartoon cats" },
+      { src: "images/reviews/bad-luck-burger-club-nashville/truck-window.jpg", alt: "The order window side of the Bad Luck Burger Club trailer, with a big cat mural and a chalkboard sign" },
+      { src: "images/reviews/bad-luck-burger-club-nashville/interior.jpg", alt: "The bar next to the Bad Luck Burger Club trailer, with stools, string lights and hanging plants" },
+      { src: "images/reviews/bad-luck-burger-club-nashville/order-bad-luck-burger.jpg", alt: "Sam's order: the Bad Luck Burger, a double smash patty with American cheese and caramelized onions in a paper box" },
+      { src: "images/reviews/bad-luck-burger-club-nashville/order-island-boi-burger.jpg", alt: "Sam's order: the Island Boi Burger with bacon crumble, American cheese and teriyaki glaze" },
+      { src: "images/reviews/bad-luck-burger-club-nashville/order-tots.jpg", alt: "Sam's order: a box of crispy tater tots from Bad Luck Burger Club" },
+    ],
+    // scores: { taste: 9, value: 9, atmosphere: 8, service: 9 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Quick", "Cheap"],
+    cons: ["Just a food truck", "Limited seating"],
+    rating: 8.6,
+    video: "https://www.instagram.com/reel/DdfBlq4Rq5m/",
+    tags: ["Burgers", "East Nashville"],
+  },
+  {
     id: "thai-samurai-river-north-nashville",
     name: "Thai Samurai",
     city: "Nashville, TN",
