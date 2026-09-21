@@ -76,7 +76,7 @@ const FILMING_GEAR = [
     whyIUseIt: "Restaurants are loud. This is what keeps my voice clear over the room on every review I film.",
     affiliateUrl: "https://amzn.to/4h0vItI",
     badge: "Sam Uses This",
-    featured: true,
+    featured: false,
     order: 1,
   },
   {
@@ -89,7 +89,7 @@ const FILMING_GEAR = [
     whyIUseIt: "It's the tripod I take on the go, so I can set up a shot at a table without hauling anything bulky.",
     affiliateUrl: "https://amzn.to/4heXW4U",
     badge: "Travel Essential",
-    featured: true,
+    featured: false,
     order: 2,
   },
   {
@@ -102,7 +102,7 @@ const FILMING_GEAR = [
     whyIUseIt: "Lets me film what I'm actually seeing while I eat, without holding a phone up the whole time.",
     affiliateUrl: "https://amzn.to/3SLSsp9",
     badge: "My Pick",
-    featured: true,
+    featured: false,
     order: 3,
   },
   {
