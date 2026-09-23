@@ -40,6 +40,217 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-mexican-restaurants-nashville",
+    places: ["chilangos-tacos-nashville", "chile-burrito-nashville", "ladybird-taco-nashville"],
+    title: "Best Mexican Restaurants in Nashville (2026): Where to Eat",
+    city: "Nashville, TN",
+    date: "2026-09-21",
+    updated: "2026-09-21",
+    emoji: "🇲🇽",
+    excerpt:
+      "From my own reviews of Chilangos Tacos and The Chile Burrito Co. to Mas Tacos and El Jaliciense, the best Mexican food in Nashville for 2026, ranked with no paid placements.",
+    faq: [
+      {
+        question: "What is the best Mexican restaurant in Nashville?",
+        answer:
+          "Of the Mexican spots Sam has personally reviewed so far, Chilangos Tacos and The Chile Burrito Co. are tied for his highest rated at 8.7/10, with Ladybird Taco at 7.6. He's still working his way through the city, so the rankings will keep changing as he reviews more.",
+      },
+      {
+        question: "Where can I find the best tacos in Nashville?",
+        answer:
+          "Chilangos Tacos inside Assembly Food Hall is Sam's highest rated taco spot at 8.7/10. His full taco rankings are in his Best Tacos in Nashville guide.",
+      },
+      {
+        question: "Where can I get a good burrito in Nashville?",
+        answer:
+          "The Chile Burrito Co., just off Broadway, is Sam's highest rated burrito spot at 8.7/10. Baja Burrito in Berry Hill is another longtime option.",
+      },
+      {
+        question: "What's the best cheap Mexican food in Nashville?",
+        answer:
+          "Taqueria San Luis and Mas Tacos Por Favor are good places to start if value matters. When Sam names a value pick, it'll be based on price, portion size and food quality together, not just the lowest price.",
+      },
+      {
+        question: "What's the best Mexican restaurant for date night in Nashville?",
+        answer:
+          "For a sit-down meal with margaritas, Superica is the one to consider. Sam hasn't reviewed the Nashville location yet, but he rated the Atlanta one 8.1/10.",
+      },
+      {
+        question: "Where is the best Mexican food near downtown Nashville?",
+        answer:
+          "Chilangos Tacos inside Assembly Food Hall and The Chile Burrito Co. just off Broadway are both a short walk from downtown, both quick, and both rated 8.7/10 by Sam.",
+      },
+      {
+        question: "What is a Sam Score?",
+        answer:
+          "The Sam Score is my overall restaurant rating. Restaurants can't pay for a Sam Score, and sponsored content doesn't influence ratings. I pay for my independent review experiences so the score reflects what I actually thought about the food and experience.",
+      },
+    ],
+    content: `
+      <p>Nashville might be known for hot chicken, but the city has a Mexican food scene worth exploring too.</p>
+      <p>From street tacos and birria to massive burritos, traditional dishes and more modern Mexican restaurants, there are plenty of options around Nashville.</p>
+      <p>I'm eating my way through the city to figure out which restaurants are actually worth your money. When I personally review a restaurant, I pay for my own meal and give it an independent Sam Score out of 10.</p>
+      <p>This guide will continue to grow as I try more Mexican restaurants across Nashville.</p>
+      <p>No paid rankings. No bought Sam Scores. Just my experience.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>⭐ <a href="/reviews/chilangos-tacos-nashville">Chilangos Tacos</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (Assembly Food Hall)</p>
+      <p><strong>Sam Score:</strong> 8.7/10</p>
+      <p><strong>Best For:</strong> Tacos near Broadway</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Chilangos is a taco counter on Level 2 North of Assembly Food Hall at Fifth + Broadway, the Nashville outpost of a Dallas-based taco brand. The menu is tacos, quesadillas and nachos with classic and specialty fillings.</p>
+      <p>I got a chicken, a steak and a pastor taco, plus chips and queso. Service was quick and there's plenty of seating, though the food hall gets crowded and parking downtown is paid. <a href="/reviews/chilangos-tacos-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/chile-burrito-nashville">The Chile Burrito Co.</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown, just off Broadway</p>
+      <p><strong>Sam Score:</strong> 8.7/10</p>
+      <p><strong>Best For:</strong> Build-your-own burritos</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>The Chile Burrito Co. is a counter-service Mexican spot a block off Broadway, with build-your-own burritos, tacos and a salsa bar in a colorful dining room.</p>
+      <p>I got a 12-inch steak burrito with rice, cheese, queso, pico, cilantro, onions, lettuce and medium sauce, plus chips. It's quick and close to Broadway. The trade-offs are limited seating, paid parking only, and hours worth checking before you go. <a href="/reviews/chile-burrito-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chile-burrito-nashville">Read my full Chile Burrito review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/chile-burrito-nashville/order.jpg" alt="Sam's 12-inch steak burrito, The Chile Burrito Co." loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/ladybird-taco-nashville">Ladybird Taco</a></h2>
+      <p><strong>Neighborhood:</strong> 12 South</p>
+      <p><strong>Sam Score:</strong> 7.6/10</p>
+      <p><strong>Best For:</strong> Breakfast tacos</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Ladybird is a Texas-style breakfast taco counter in 12 South that calls itself "a little TX in TN," so it leans Tex-Mex rather than traditional Mexican. Expect a numbered menu of breakfast tacos, coffee and lunch options at communal tables.</p>
+      <p>I got breakfast tacos #1, #4 and #6. It's quick and parking nearby is free, but it gets packed and you may wait for a table. <a href="/reviews/ladybird-taco-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/ladybird-taco-nashville">Read my full Ladybird Taco review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/ladybird-taco-nashville/order.jpg" alt="Sam's order: three foil-wrapped breakfast tacos, Ladybird Taco" loading="lazy" /></div>
+
+      <h2>More Nashville Mexican Restaurants Worth Knowing</h2>
+      <p>These haven't been Sam Scored yet. Rather than ranking places I haven't personally reviewed, I'm keeping them on my radar and will add them to the rankings once I've eaten there.</p>
+
+      <h3>🌯 <a href="https://www.bajaburrito.com/" target="_blank" rel="noopener">Baja Burrito</a></h3>
+      <p>An independent burrito shop in Berry Hill that's been open since 2000, well before most of Nashville's current Mexican spots. It's the classic casual burrito-and-tacos stop in that part of town.</p>
+      <p><strong>Best For:</strong> Burritos, casual lunch</p>
+
+      <h3>🔥 <a href="https://mas-tacos-togo.square.site/" target="_blank" rel="noopener">Mas Tacos Por Favor</a></h3>
+      <p>A long-running East Nashville taco spot and one of the best-known casual Mexican names in the city, serving tacos alongside soups and sides.</p>
+      <p><strong>Best For:</strong> Nashville taco institution, affordable</p>
+
+      <h3>🧀 <a href="http://eljaliciensemexicanrestaurant.com/" target="_blank" rel="noopener">El Jaliciense</a></h3>
+      <p>A family-run restaurant on Gallatin Pike in East Nashville since 2006, cooking home-style food from Jalisco. It's the one to look at for a traditional sit-down Mexican meal, and birria is one of the dishes it's known for.</p>
+      <p><strong>Best For:</strong> Traditional Mexican, birria</p>
+
+      <h3>🌮 <a href="https://www.instagram.com/carniceriaytaqueriasanluis/" target="_blank" rel="noopener">Taqueria San Luis</a></h3>
+      <p>A no-frills taqueria for street tacos. Order a few different meats rather than a plate of one, so you can find your favorite.</p>
+      <p><strong>Best For:</strong> Street tacos, value</p>
+
+      <h3>🌽 <a href="https://www.maizdelavida.com/" target="_blank" rel="noopener">Maiz de la Vida</a></h3>
+      <p>Built around fresh masa and handmade tortillas, which makes the tortilla the point of the meal rather than an afterthought.</p>
+      <p><strong>Best For:</strong> Handmade tortillas</p>
+
+      <h3>🇲🇽 <a href="https://superica.com/nashville/" target="_blank" rel="noopener">Superica</a></h3>
+      <p>Tex-Mex rather than traditional Mexican, with tacos, fajitas, queso and margaritas in a polished sit-down room. I've already reviewed <a href="/reviews/superica-atlanta">the Atlanta location at The Battery</a> and gave it an 8.1, so the Nashville one is on my list to compare.</p>
+      <p><strong>Best For:</strong> Tex-Mex, margaritas, sit-down meals</p>
+
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Only restaurants I've personally eaten at and reviewed are eligible, ranked by Sam Score. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
+      <h2>Best Mexican Food in Nashville by Occasion</h2>
+      <p>If you don't want to sort through the whole list, here's where I'd start depending on what you're looking for.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Chilangos Tacos / The Chile Burrito Co., 8.7</td></tr>
+          <tr><td>🌮 Tacos</td><td>Chilangos Tacos, 8.7</td></tr>
+          <tr><td>🌯 Burritos</td><td>The Chile Burrito Co., 8.7 / Baja Burrito</td></tr>
+          <tr><td>📍 Quick, Near Broadway</td><td>Chilangos Tacos / The Chile Burrito Co.</td></tr>
+          <tr><td>🍳 Breakfast Tacos</td><td>Ladybird Taco, 7.6</td></tr>
+          <tr><td>🧀 Birria</td><td>El Jaliciense / Maiz de la Vida</td></tr>
+          <tr><td>🌽 Traditional Mexican</td><td>El Jaliciense / Maiz de la Vida</td></tr>
+          <tr><td>💰 Cheap Eats</td><td>Taqueria San Luis / Mas Tacos Por Favor</td></tr>
+          <tr><td>🍹 Margaritas &amp; Sit-Down</td><td>Superica</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Is My Favorite Mexican Restaurant in Nashville?</h2>
+      <p>Right now it's a tie. Chilangos Tacos and The Chile Burrito Co. both have an 8.7 Sam Score, one for tacos and one for burritos, and both are a short walk from Broadway. Ladybird Taco follows at 7.6.</p>
+      <p>That ranking isn't permanent. I'm continuing to visit Mexican restaurants across Nashville, and every time I review another one, it gets added here based on my actual experience.</p>
+      <p>Looking specifically for tacos? My <a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a> guide ranks every taco spot I've reviewed.</p>
+
+      <h2>Traditional Mexican Food Worth Trying</h2>
+      <p>I'm not going to crown anything the "most authentic" Mexican food in Nashville. Mexican cooking is regional, and what's traditional in Jalisco isn't the same as what's traditional somewhere else. What's more useful is knowing what a restaurant focuses on.</p>
+      <p>El Jaliciense cooks home-style dishes from Jalisco, Maiz de la Vida is built around fresh masa, and the taquerias along Nolensville Pike in South Nashville are some of the best places in the city to explore street tacos, markets and regional dishes.</p>
+
+      <h2>What Should You Order at a Mexican Restaurant?</h2>
+      <p>If you're trying somewhere new, these are the dishes I typically look for:</p>
+      <ul>
+        <li>🌮 Tacos: great for comparing meats, tortillas, toppings and salsa.</li>
+        <li>🧀 Birria: especially when it's served with consommé.</li>
+        <li>🌯 Burritos: a good test of portions, ingredients and overall value.</li>
+        <li>🫓 Quesadillas: simple, but surprisingly easy to get wrong.</li>
+        <li>⭐ House specialties: usually more interesting than ordering the same thing everywhere.</li>
+      </ul>
+      <p>And when a restaurant is known for something specific, that's usually what I'm ordering for the review.</p>
+
+      <h2>Where to Find Mexican Food in Nashville</h2>
+      <p>Don't limit your search to downtown. Two of my highest rated spots are near Broadway, but some of Nashville's most interesting Mexican food is spread across the city:</p>
+      <ul>
+        <li>📍 Downtown: Chilangos Tacos and The Chile Burrito Co.</li>
+        <li>🏘️ 12 South: Ladybird Taco</li>
+        <li>🎸 East Nashville: Mas Tacos Por Favor, and El Jaliciense on Gallatin Pike</li>
+        <li>🌯 Berry Hill: Baja Burrito</li>
+        <li>🌶️ Nolensville Pike: taquerias, markets and food trucks throughout South Nashville</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What is the best Mexican restaurant in Nashville?</strong></p>
+      <p>Of the Mexican spots I've personally reviewed so far, Chilangos Tacos and The Chile Burrito Co. are tied for my highest rated at 8.7/10, with Ladybird Taco at 7.6. I'm still working my way through the city, so the rankings will keep changing as I review more.</p>
+      <p><strong>Where can I find the best tacos in Nashville?</strong></p>
+      <p>Chilangos Tacos inside Assembly Food Hall is my highest rated taco spot at 8.7/10. My full taco rankings are in my <a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a> guide.</p>
+      <p><strong>Where can I get a good burrito in Nashville?</strong></p>
+      <p>The Chile Burrito Co., just off Broadway, is my highest rated burrito spot at 8.7/10. Baja Burrito in Berry Hill is another longtime option.</p>
+      <p><strong>What's the best cheap Mexican food in Nashville?</strong></p>
+      <p>Taqueria San Luis and Mas Tacos Por Favor are good places to start if value matters. When I name a value pick, it'll be based on price, portion size and food quality together, not just the lowest price.</p>
+      <p><strong>What's the best Mexican restaurant for date night in Nashville?</strong></p>
+      <p>For a sit-down meal with margaritas, Superica is the one to consider. I haven't reviewed the Nashville location yet, but I rated the Atlanta one 8.1/10. For more options, see my <a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a> guide.</p>
+      <p><strong>Where is the best Mexican food near downtown Nashville?</strong></p>
+      <p>Chilangos Tacos inside Assembly Food Hall and The Chile Burrito Co. just off Broadway are both a short walk from downtown, both quick, and both rated 8.7/10.</p>
+      <p><strong>What is a Sam Score?</strong></p>
+      <p>The Sam Score is my overall restaurant rating. Restaurants can't pay for a Sam Score, and sponsored content doesn't influence ratings. I pay for my independent review experiences so the score reflects what I actually thought about the food and experience.</p>
+
+      <h2>The Sam Score</h2>
+      <p>Every restaurant I personally review receives an overall Sam Score out of 10.</p>
+      <p>My goal isn't to tell you that every restaurant is amazing. It's to help you decide what's actually worth your time and money.</p>
+      <p>Restaurants cannot purchase a higher rating or pay to be placed at the top of my rankings. UGC and sponsored brand content are completely separate from my independent restaurant reviews.</p>
+
+      <h2>Help Me Find Nashville's Best Mexican Food</h2>
+      <p>I'm working my way through Nashville's Mexican restaurants to find the spots that are actually worth visiting. What restaurant should I try next?</p>
+      <p>Follow <a href="https://www.instagram.com/eatwithsamk" target="_blank" rel="noopener">@eatwithsamk on Instagram</a>, <a href="https://www.tiktok.com/@eatwithsamk" target="_blank" rel="noopener">TikTok</a> and <a href="https://www.youtube.com/@eatwithsamk" target="_blank" rel="noopener">YouTube</a> to follow the hunt, or browse <a href="/reviews">every place I've rated</a>.</p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-bbq-nashville/">Best BBQ in Nashville</a></li>
+        <li><a href="/guides/best-brunch-nashville/">Best Brunch in Nashville</a></li>
+        <li><a href="/guides/best-steakhouses-nashville/">Best Steakhouses in Nashville</a></li>
+        <li><a href="/guides/best-coffee-shops-nashville/">Best Coffee Shops in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-late-night-food-nashville/">Best Late-Night Food in Nashville</a></li>
+        <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-restaurants-the-battery-atlanta",
     places: ["superica-atlanta"],
     title: "Best Restaurants at The Battery Atlanta (2026): Where to Eat Before a Braves Game",
@@ -3129,6 +3340,7 @@ const BLOG_POSTS = [
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
       <ul>
+        <li><a href="/guides/best-mexican-restaurants-nashville/">Best Mexican Restaurants in Nashville</a></li>
         <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
         <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
         <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>

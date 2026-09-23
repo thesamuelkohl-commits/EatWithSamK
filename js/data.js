@@ -247,6 +247,34 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "all-american-diner-panama-city-beach",
+    name: "All American Diner",
+    city: "Panama City Beach, FL",
+    lat: 30.2108849,
+    lng: -85.8667767,
+    address: "15406 Front Beach Rd, Panama City Beach, FL 32413",
+    phone: "(850) 233-6007",
+    parking: "Free parking",
+    date: "2026-09-07",
+    price: "$",
+    cuisine: "Brunch",
+    badges: ["best-value", "quick-bite"],
+    about: "All American Diner is a chrome-sided diner on Front Beach Road with \"Steaks, Shakes, Pancakes\" painted across the front, a checkerboard floor and counter stools inside. It's known for an all-you-can-eat breakfast, ordered off a board of pancakes, bacon, eggs, biscuits and gravy, grits and home fries.",
+    ate: "The All-American Diner Spread: bacon, scrambled eggs, tater tots and a pancake, with cottage cheese and watermelon on the side.",
+    heroPhoto: "images/reviews/all-american-diner-panama-city-beach/order-diner-spread.jpg",
+    photos: [
+      { src: "images/reviews/all-american-diner-panama-city-beach/storefront.jpg", alt: "All American Diner's chrome exterior on Front Beach Road, with a Steaks Shakes Pancakes sign and an American flag out front" },
+      { src: "images/reviews/all-american-diner-panama-city-beach/interior.jpg", alt: "Inside All American Diner, with counter stools, a checkerboard floor and the all-you-can-eat breakfast board on the wall" },
+      { src: "images/reviews/all-american-diner-panama-city-beach/order-diner-spread.jpg", alt: "Sam's order: the All-American Diner Spread with bacon, scrambled eggs, tater tots and a pancake" },
+    ],
+    // scores: { taste: 8, value: 9, atmosphere: 9, service: 8 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Quick", "Buffet", "Cheap"],
+    cons: ["Can be busy"],
+    rating: 8.4,
+    video: "https://www.instagram.com/reel/DdkRW_HN7xu/",
+    tags: ["Breakfast", "Front Beach Road"],
+  },
+  {
     id: "bad-luck-burger-club-nashville",
     name: "Bad Luck Burger Club",
     city: "Nashville, TN",
