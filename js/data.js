@@ -247,6 +247,36 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "kilwins-panama-city-beach",
+    name: "Kilwins",
+    city: "Panama City Beach, FL",
+    lat: 30.2163435,
+    lng: -85.8762034,
+    address: "821 S Pier Park Dr, Panama City Beach, FL 32413",
+    phone: "(850) 230-4177",
+    parking: "Free parking",
+    website: "https://kilwins.com/location/stores-near-me-panama-city-beach-fl-32413-0074/",
+    date: "2026-09-07",
+    price: "$",
+    cuisine: "Ice Cream",
+    badges: ["family-friendly", "quick-bite"],
+    about: "Kilwins is a chocolate and ice cream shop in Pier Park, with a copper kettle by the door, cases of fudge and confections, and ice cream scooped onto house-made waffle cones. Seating is the patio tables out front rather than a dining room.",
+    ate: "Two scoops: Chocolate Chip Cookie Dough and Cookies & Cream, both in waffle bowls.",
+    heroPhoto: "images/reviews/kilwins-panama-city-beach/order-cookie-dough.jpg",
+    photos: [
+      { src: "images/reviews/kilwins-panama-city-beach/storefront.jpg", alt: "Kilwin's storefront at Pier Park, with an Ice Cream and Chocolates sign and yellow patio umbrellas out front" },
+      { src: "images/reviews/kilwins-panama-city-beach/interior.jpg", alt: "Inside Kilwins, with the ice cream counter, a copper fudge kettle and shelves of chocolates" },
+      { src: "images/reviews/kilwins-panama-city-beach/order-cookie-dough.jpg", alt: "Sam's order: Chocolate Chip Cookie Dough ice cream in a waffle bowl, Kilwins" },
+      { src: "images/reviews/kilwins-panama-city-beach/order-cookies-and-cream.jpg", alt: "Sam's order: Cookies & Cream ice cream in a waffle bowl, Kilwins" },
+    ],
+    // scores: { taste: 8, value: 8, atmosphere: 8, service: 8 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Cool environment", "Quick service"],
+    cons: ["No indoor seating"],
+    rating: 7.8,
+    video: "https://www.instagram.com/reel/Ddr6djIx8Ij/",
+    tags: ["Ice Cream", "Pier Park"],
+  },
+  {
     id: "all-american-diner-panama-city-beach",
     name: "All American Diner",
     city: "Panama City Beach, FL",
