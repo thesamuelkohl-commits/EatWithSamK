@@ -247,6 +247,38 @@ const BADGES = {
 
 const PLACES = [
   {
+    id: "bayou-bills-crab-house-panama-city-beach",
+    name: "Bayou Bill's Crab House",
+    city: "Panama City Beach, FL",
+    lat: 30.2624631,
+    lng: -85.9742501,
+    address: "23100 Front Beach Rd, Panama City Beach, FL 32413",
+    phone: "(850) 235-1010",
+    parking: "Free parking",
+    website: "https://bayoubills.com/",
+    date: "2026-09-07",
+    price: "$$$",
+    cuisine: "Seafood",
+    badges: ["family-friendly", "group-friendly"],
+    about: "Bayou Bill's Crab House has been on Front Beach Road since 1986, a big wood-lined seafood hall with mounted fish, model ships and gator plushies by the register. There's a fenced pond of live alligators outside that you can walk up to before or after you eat.",
+    ate: "Wisconsin Cheese Curds, Blue Crab Dip, and the Ultimate Feast for 2: a pound of snow crab, a pound of king crab, a pound of shrimp and two cold water lobster tails.",
+    heroPhoto: "images/reviews/bayou-bills-crab-house-panama-city-beach/order-ultimate-feast.jpg",
+    photos: [
+      { src: "images/reviews/bayou-bills-crab-house-panama-city-beach/storefront.jpg", alt: "Bayou Bill's Crab House exterior on Front Beach Road, a raised white building with blue awnings and a wide staircase" },
+      { src: "images/reviews/bayou-bills-crab-house-panama-city-beach/interior.jpg", alt: "Inside Bayou Bill's Crab House, with wood-panelled walls, a mounted marlin and model sailboats above the booths" },
+      { src: "images/reviews/bayou-bills-crab-house-panama-city-beach/alligators.jpg", alt: "Live alligators on the bank of the fenced pond outside Bayou Bill's Crab House" },
+      { src: "images/reviews/bayou-bills-crab-house-panama-city-beach/order-cheese-curds.jpg", alt: "Sam's order: Wisconsin cheese curds with marinara, Bayou Bill's Crab House" },
+      { src: "images/reviews/bayou-bills-crab-house-panama-city-beach/order-blue-crab-dip.jpg", alt: "Sam's order: baked Blue Crab Dip topped with scallions, served with chips, Bayou Bill's Crab House" },
+      { src: "images/reviews/bayou-bills-crab-house-panama-city-beach/order-ultimate-feast.jpg", alt: "Sam's order: the Ultimate Feast for 2 with king crab, snow crab, shrimp and lobster tails, Bayou Bill's Crab House" },
+      { src: "images/reviews/bayou-bills-crab-house-panama-city-beach/order-lobster-tail.jpg", alt: "Sam holding up a cold water lobster tail from the Ultimate Feast for 2, Bayou Bill's Crab House" },
+    ],
+    // scores: { taste: 9, value: 8, atmosphere: 10, service: 9 }, // TODO: Sam — fill in your 0-10 breakdown and this section will appear automatically.
+    pros: ["Cool environment", "Live alligators you can take pictures with", "Quick service"],
+    cons: ["Can have a wait"],
+    rating: 8.9,
+    tags: ["Seafood", "Front Beach Road"],
+  },
+  {
     id: "kilwins-panama-city-beach",
     name: "Kilwins",
     city: "Panama City Beach, FL",
