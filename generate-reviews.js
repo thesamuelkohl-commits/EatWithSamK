@@ -76,6 +76,12 @@ function priceTagHtml(price) {
   return `<span class="price-tag has-tooltip" ${tooltipAttrs(`${tier.range}, ${tier.description}`)}>${escapeHtml(price)}</span>`;
 }
 
+// Sam Scores always read with one decimal, so a 9 shows as "9.0" next to an
+// 8.7 rather than a bare "9".
+function formatRating(rating) {
+  return Number(rating).toFixed(1);
+}
+
 function ratingClass(rating) {
   if (rating >= 8) return "great";
   if (rating >= 6) return "good";
@@ -209,8 +215,8 @@ function scoreRowHtml(label, value) {
 function renderReviewPage(place, relatedPosts) {
   const cls = ratingClass(place.rating);
   const year = place.date ? new Date(place.date + "T12:00:00").getFullYear() : new Date().getFullYear();
-  const title = `${place.name} Review (${year}): ${place.rating}/10 in ${place.city} | Eat With Sam K`;
-  const description = `${truncate(place.ate, 140)} Sam K's rating: ${place.rating}/10.`;
+  const title = `${place.name} Review (${year}): ${formatRating(place.rating)}/10 in ${place.city} | Eat With Sam K`;
+  const description = `${truncate(place.ate, 140)} Sam K's rating: ${formatRating(place.rating)}/10.`;
   const canonical = reviewUrl(place);
   const ogImage = `${SITE_URL}/images/logo.png`;
   const addr = parseAddress(place.address);
@@ -232,7 +238,7 @@ function renderReviewPage(place, relatedPosts) {
   const isInstagramWebsite = !!(place.website && place.website.includes("instagram.com"));
   const quickFactsHtml = `
     <ul class="quick-facts">
-      <li>⭐ <strong>Sam Score:</strong> ${place.rating}/10</li>
+      <li>⭐ <strong>Sam Score:</strong> ${formatRating(place.rating)}/10</li>
       ${place.date ? `<li>📅 <strong>Visited:</strong> ${formatVisitDate(place.date)}</li>` : ""}
       <li>📍 <strong>Address:</strong> ${escapeHtml(place.address)}</li>
       ${place.price ? `<li>💰 <strong>Price:</strong> ${priceTagHtml(place.price)}</li>` : ""}
@@ -406,7 +412,7 @@ function renderReviewPage(place, relatedPosts) {
 
     ${place.heroPhoto ? `<div class="review-hero-banner" style="background-image: url('../${place.heroPhoto}')">` : ""}
     <div class="review-hero${place.heroPhoto ? " review-hero-on-photo" : ""}">
-      <div class="rating-badge rating-badge-lg ${cls}">${place.rating}<small>/ 10</small></div>
+      <div class="rating-badge rating-badge-lg ${cls}">${formatRating(place.rating)}<small>/ 10</small></div>
       <div>
         <h1>${escapeHtml(place.name)} Review (${year})</h1>
         <p class="card-city">📍 ${escapeHtml(place.city)}</p>
@@ -450,7 +456,7 @@ function renderReviewPage(place, relatedPosts) {
 
     <div class="reveal final-rating">
       <h2 class="review-section-title">Sam Score</h2>
-      <div class="rating-badge rating-badge-lg ${cls}">${place.rating}<small>/ 10</small></div>
+      <div class="rating-badge rating-badge-lg ${cls}">${formatRating(place.rating)}<small>/ 10</small></div>
     </div>
 
     <div class="reveal deals-section">${referralWidgetHtml()}</div>
@@ -466,7 +472,7 @@ function renderReviewPage(place, relatedPosts) {
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   ${videoPermalink ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
   <script src="../js/data.js?v=26"></script>
-  <script src="../js/common.js?v=40"></script>
+  <script src="../js/common.js?v=41"></script>
   <script src="../js/pwa.js?v=2"></script>
   <script src="../js/consent.js?v=2"></script>
   <script>
@@ -478,7 +484,7 @@ function renderReviewPage(place, relatedPosts) {
     }).addTo(map);
     var icon = L.divIcon({
       className: "",
-      html: '<div class="rating-marker ${cls}"><span>${place.rating}</span></div>',
+      html: '<div class="rating-marker ${cls}"><span>${formatRating(place.rating)}</span></div>',
       iconSize: [44, 44],
       iconAnchor: [22, 44],
       popupAnchor: [0, -44],
@@ -689,7 +695,7 @@ function renderGuidePage(post) {
 
   ${hasInstagramEmbed ? '<script async src="//www.instagram.com/embed.js"></script>' : ""}
   <script src="/js/data.js?v=26"></script>
-  <script src="/js/common.js?v=40"></script>
+  <script src="/js/common.js?v=41"></script>
   <script src="/js/pwa.js?v=2"></script>
   <script src="/js/consent.js?v=2"></script>
 </body>
@@ -953,7 +959,7 @@ ${
   <footer class="site-footer" data-footer data-prefix="/"></footer>
 
   <script src="/js/data.js?v=26"></script>
-  <script src="/js/common.js?v=40"></script>
+  <script src="/js/common.js?v=41"></script>
   <script src="/js/pwa.js?v=2"></script>
   <script src="/js/consent.js?v=2"></script>
 </body>

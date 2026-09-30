@@ -283,6 +283,12 @@ if (canHoverWithMouse && !prefersReducedMotion) {
 
 /* ---------- Shared place helpers (used by app.js and reviews.js) ---------- */
 
+// Sam Scores always read with one decimal, so a 9 shows as "9.0" next to an
+// 8.7 rather than a bare "9". Mirrors formatRating() in generate-reviews.js.
+function formatRating(rating) {
+  return Number(rating).toFixed(1);
+}
+
 function ratingClass(rating) {
   if (rating >= 8) return "great";
   if (rating >= 6) return "good";
@@ -332,7 +338,7 @@ function priceTagHtml(price) {
 
 function placeCardHtml(p, opts) {
   opts = opts || {};
-  const ratingBadge = `<div class="rating-badge ${ratingClass(p.rating)}">${p.rating}<small>/ 10</small></div>`;
+  const ratingBadge = `<div class="rating-badge ${ratingClass(p.rating)}">${formatRating(p.rating)}<small>/ 10</small></div>`;
   const metaBits = [p.cuisine, p.price ? priceTagHtml(p.price) : ""].filter(Boolean);
   return `
     <article class="place-card glow-card tilt-card reveal" id="card-${p.id}">
@@ -390,7 +396,7 @@ function initPlacesMap(containerId, places) {
   places.forEach((place) => {
     const icon = L.divIcon({
       className: "",
-      html: `<div class="rating-marker ${ratingClass(place.rating)}"><span>${place.rating}</span></div>`,
+      html: `<div class="rating-marker ${ratingClass(place.rating)}"><span>${formatRating(place.rating)}</span></div>`,
       iconSize: [44, 44],
       iconAnchor: [22, 44],
       popupAnchor: [0, -44],
@@ -400,7 +406,7 @@ function initPlacesMap(containerId, places) {
     marker.bindPopup(`
       ${
         place.heroPhoto
-          ? `<div class="popup-photo" style="background-image: url('${place.heroPhoto}')"><div class="rating-badge ${ratingClass(place.rating)}">${place.rating}<small>/10</small></div></div>`
+          ? `<div class="popup-photo" style="background-image: url('${place.heroPhoto}')"><div class="rating-badge ${ratingClass(place.rating)}">${formatRating(place.rating)}<small>/10</small></div></div>`
           : ""
       }
       <div class="popup-top">
@@ -408,7 +414,7 @@ function initPlacesMap(containerId, places) {
         ${favoriteButtonHtml(place)}
       </div>
       <div class="popup-city">📍 ${place.city}</div>
-      ${place.heroPhoto ? "" : `<div class="popup-rating">★ ${place.rating}/10</div>`}
+      ${place.heroPhoto ? "" : `<div class="popup-rating">★ ${formatRating(place.rating)}/10</div>`}
       ${place.video ? `<a class="popup-link" href="${place.video}" target="_blank" rel="noopener">▶ Watch my review</a><br>` : ""}
       <a class="popup-link" href="/reviews/${place.id}">📖 Full review</a>
     `);

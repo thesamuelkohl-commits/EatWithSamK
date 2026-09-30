@@ -1,6 +1,109 @@
 {
-  "generatedAt": "2026-09-25T23:42:17.198Z",
+  "generatedAt": "2026-09-30T00:54:40.944Z",
   "places": [
+    {
+      "id": "pharmacy-burger-parlor-nashville",
+      "name": "The Pharmacy Burger Parlor & Beer Garden",
+      "city": "Nashville, TN",
+      "lat": 36.1849674,
+      "lng": -86.7541888,
+      "address": "731 McFerrin Ave, Nashville, TN 37206",
+      "parking": "Free parking",
+      "website": "https://thepharmacyburger.com/",
+      "date": "2026-09-20",
+      "price": "$$",
+      "cuisine": "Burgers",
+      "badges": [
+        "best-patio",
+        "quick-bite"
+      ],
+      "about": "The Pharmacy is an East Nashville burger parlor and beer garden on McFerrin Avenue, done up like an old soda fountain with red counter stools, house-made phosphate sodas and bratwursts. The big draw out back is the beer garden patio.",
+      "ate": "The Pharmacy Burger and the Farm burger, with a side of tots.",
+      "heroPhoto": "images/reviews/pharmacy-burger-parlor-nashville/order-pharmacy-burger.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/pharmacy-burger-parlor-nashville/storefront.jpg",
+          "alt": "The Pharmacy Burger Parlor exterior on McFerrin Avenue, with a hanging sign and string lights over the windows"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/pharmacy-burger-parlor-nashville/interior.jpg",
+          "alt": "Inside The Pharmacy, with red soda fountain stools along a long wooden counter"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/pharmacy-burger-parlor-nashville/order-pharmacy-burger.jpg",
+          "alt": "Sam's order: the Pharmacy Burger with lettuce, pickles and onion, served with a basket of tots"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/pharmacy-burger-parlor-nashville/order-farm-burger.jpg",
+          "alt": "Sam's order: the Farm burger with country ham, bacon and melted cheese, The Pharmacy"
+        }
+      ],
+      "pros": [
+        "Quick",
+        "Cool atmosphere",
+        "Nice patio"
+      ],
+      "cons": [],
+      "rating": 7.3,
+      "video": "https://www.instagram.com/reel/Dd424hNNclO/",
+      "tags": [
+        "Burgers",
+        "East Nashville"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/pharmacy-burger-parlor-nashville"
+    },
+    {
+      "id": "frankies-pizzeria-nashville",
+      "name": "Frankies Pizzeria",
+      "city": "Nashville, TN",
+      "lat": 36.1640701,
+      "lng": -86.7806527,
+      "address": "40 The Arcade, Nashville, TN 37219",
+      "parking": "Paid parking",
+      "website": "https://www.frankiesnashville.com/pizzeria/",
+      "date": "2026-09-12",
+      "price": "$$",
+      "cuisine": "Pizza",
+      "badges": [
+        "group-friendly"
+      ],
+      "about": "Frankies Pizzeria sits inside Urban Cowboy in The Arcade, the glass-roofed 1902 shopping arcade downtown. It's New York style, from the Brooklyn Frankies Spuntino team, with naturally leavened dough sold by the slice or as 12 and 18 inch rounds. Walk-in only, and tables spill out into the arcade itself.",
+      "ate": "An 18-inch pizza, half pepperoni and half the sausage, ricotta and red onion special.",
+      "heroPhoto": "images/reviews/frankies-pizzeria-nashville/order-18-inch-pizza.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/frankies-pizzeria-nashville/storefront.jpg",
+          "alt": "Frankies Pizzeria's window inside The Arcade at night, with a Brooklyn Style Pizza sign above the counter"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/frankies-pizzeria-nashville/interior-counter.jpg",
+          "alt": "The slice counter at Frankies Pizzeria, with whole pies on trays in front of the oven and a red and black spade mural"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/frankies-pizzeria-nashville/the-arcade.jpg",
+          "alt": "The Arcade in downtown Nashville from the upper level, with string lights under the glass roof and tables outside Frankies Pizzeria"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/frankies-pizzeria-nashville/order-18-inch-pizza.jpg",
+          "alt": "Sam's order: an 18-inch pizza, half pepperoni and half sausage, ricotta and red onion, Frankies Pizzeria"
+        }
+      ],
+      "pros": [
+        "Cool area",
+        "Open late",
+        "Lots of seating"
+      ],
+      "cons": [
+        "Pricey"
+      ],
+      "rating": 7.6,
+      "video": "https://www.instagram.com/reel/DdzsjFSxlf0/",
+      "tags": [
+        "Pizza",
+        "The Arcade"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/frankies-pizzeria-nashville"
+    },
     {
       "id": "bayou-bills-crab-house-panama-city-beach",
       "name": "Bayou Bill's Crab House",
