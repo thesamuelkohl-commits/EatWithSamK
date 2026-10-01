@@ -40,9 +40,150 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-new-restaurants-nashville",
+    places: ["thai-samurai-river-north-nashville", "bad-luck-burger-club-nashville"],
+    title: "Best New Restaurants in Nashville (2026 Updated Guide)",
+    city: "Nashville, TN",
+    date: "2026-09-29",
+    updated: "2026-09-29",
+    emoji: "🆕",
+    excerpt:
+      "Nashville keeps getting new restaurants, but which ones are worth trying? My Sam Scores for the newest openings I've visited, starting with Thai Samurai in River North.",
+    faq: [
+      {
+        question: "What are the best new restaurants in Nashville?",
+        answer:
+          "Sam is visiting Nashville's newest restaurants throughout 2026 and ranking the ones he's tried. Thai Samurai in River North currently sits at #1 with a Sam Score of 9.0/10, with more added through the year.",
+      },
+      {
+        question: "What new Nashville restaurant should I try?",
+        answer:
+          "Thai Samurai is Sam's highest rated new opening at 9.0/10. This guide changes as he visits more recent openings.",
+      },
+      {
+        question: "How often does this guide get updated?",
+        answer:
+          "It's updated whenever a new episode of Trying Nashville's Newest Restaurants goes up, or whenever Sam personally reviews another recent opening.",
+      },
+      {
+        question: "Can restaurants pay to be included?",
+        answer:
+          "No. Restaurants can work with Sam separately on UGC or sponsored content, but Sam Scores and rankings cannot be purchased. Any restaurant receiving a Sam Score is judged independently.",
+      },
+      {
+        question: "How do I recommend a new restaurant?",
+        answer:
+          "Send a DM to @eatwithsamk with the restaurant and it goes on the list of places to check out.",
+      },
+    ],
+    content: `
+      <p>Nashville is constantly getting new restaurants, but which ones are actually worth trying?</p>
+      <p>I'm visiting Nashville's newest restaurants throughout 2026 to find out. Every restaurant I personally review gets an independent Sam Score out of 10, and this guide keeps updating as new places open and I get to them.</p>
+      <p>I pay for my own meals, and restaurants can't pay for a higher score or a better ranking.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>🏆 New Restaurant Rankings</h2>
+      <p>Only restaurants I've personally visited and reviewed get a Sam Score or a ranking here. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
+      <h2>⭐ <a href="/reviews/thai-samurai-river-north-nashville">Thai Samurai</a></h2>
+      <p><strong>Neighborhood:</strong> River North (East Bank)</p>
+      <p><strong>Sam Score:</strong> 9.0/10</p>
+      <p><strong>Best For:</strong> Thai and sushi with a show</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p><strong>Series:</strong> Trying Nashville's Newest Restaurants, Pt. 1</p>
+      <p>Thai Samurai serves Thai food and sushi on the East Bank in River North. There's a tuk-tuk parked out front, the bar sits under big backlit samurai murals, and the Flaming Tiger Roll comes out wrapped in foil and gets set on fire at the table.</p>
+      <p>I got a Thai Spicy Margarita, the Volcanic Lobster, Drunken Noodles with chicken at level 3 hot, and the Flaming Tiger Roll. It's the highest score I've given a new opening so far. It's in a cool part of town, and service was slow. <a href="/reviews/thai-samurai-river-north-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/thai-samurai-river-north-nashville">Read my full Thai Samurai review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/thai-samurai-river-north-nashville/order-volcanic-lobster.jpg" alt="Sam's order: the Volcanic Lobster with a lobster tail and an orchid garnish, Thai Samurai" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/bad-luck-burger-club-nashville">Bad Luck Burger Club</a></h2>
+      <p><strong>Neighborhood:</strong> East Nashville</p>
+      <p><strong>Sam Score:</strong> 8.6/10</p>
+      <p><strong>Best For:</strong> Cheap smash burgers</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>Bad Luck is a smash burger trailer parked on Woodland Street, covered in yellow lettering and cartoon cats. You order at the window, and there's a bar next door if you want to sit down.</p>
+      <p>I got the Bad Luck Burger, the Island Boi Burger and a side of tots. Quick and cheap, with the trade-off that it's a food truck with limited seating. <a href="/reviews/bad-luck-burger-club-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/bad-luck-burger-club-nashville">Read my full Bad Luck review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/bad-luck-burger-club-nashville/order-bad-luck-burger.jpg" alt="Sam's order: the Bad Luck Burger, a double smash patty with American cheese and caramelized onions" loading="lazy" /></div>
+
+      <h2>More New Nashville Openings on My Radar</h2>
+      <p>I haven't Sam Scored these yet. They're recent Nashville openings I may visit as part of Trying Nashville's Newest Restaurants, and they'll move into the rankings above once I've eaten there.</p>
+      <p>Know somewhere new that should be on this list? Send me a DM at <a href="https://www.instagram.com/eatwithsamk" target="_blank" rel="noopener">@eatwithsamk</a> and I'll add it.</p>
+
+      <h2>What New Nashville Restaurant Should You Try?</h2>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Thai Samurai, 9.0</td></tr>
+          <tr><td>🍜 A Meal With a Show</td><td>Thai Samurai, 9.0</td></tr>
+          <tr><td>💰 Best Value</td><td>Bad Luck Burger Club, 8.6</td></tr>
+          <tr><td>🍔 Quick Bite</td><td>Bad Luck Burger Club, 8.6</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>The rest of these picks fill in as I review more new openings. I'd rather leave a row off than hand out a title to fill space.</p>
+
+      <h2>What Counts as a "New" Nashville Restaurant?</h2>
+      <p>For this guide I'm focused on restaurants that recently opened, or that are new enough that people are still deciding whether they're worth visiting.</p>
+      <p>Restaurants don't stay in the "new" category forever. As Nashville keeps opening places, older ones move into my other guides and rankings instead, which keeps this page focused on what's actually new right now.</p>
+
+      <h2>How I Rank Nashville's New Restaurants</h2>
+      <p>A restaurant doesn't get ranked highly just because it's new or getting attention. I'm looking at the whole experience:</p>
+      <ul>
+        <li>🍴 Food quality: does the food actually deliver?</li>
+        <li>💰 Value: does the experience justify what you're paying?</li>
+        <li>👀 What stands out: is there a reason to pick it over dozens of other Nashville restaurants?</li>
+        <li>🏠 Atmosphere: does it deliver the experience it's going for?</li>
+        <li>🔄 Would I go back: would I spend my own money to return?</li>
+      </ul>
+      <p>The Sam Score is my overall take on all of it.</p>
+
+      <h2>What's the Best New Restaurant in Nashville?</h2>
+      <p>Right now it's Thai Samurai at 9.0/10, with Bad Luck Burger Club behind it at 8.6.</p>
+      <p>That won't necessarily hold. Every episode of Trying Nashville's Newest Restaurants brings another place that can take the top spot, and the rankings above update the moment I publish a new review.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What are the best new restaurants in Nashville?</strong></p>
+      <p>I'm visiting Nashville's newest restaurants throughout 2026 and ranking the ones I've tried. Thai Samurai in River North currently sits at #1 with a Sam Score of 9.0/10, with more added through the year.</p>
+      <p><strong>What new Nashville restaurant should I try?</strong></p>
+      <p>Thai Samurai is my highest rated new opening at 9.0/10. This guide changes as I visit more recent openings.</p>
+      <p><strong>How often does this guide get updated?</strong></p>
+      <p>Whenever a new episode of Trying Nashville's Newest Restaurants goes up, or whenever I personally review another recent opening.</p>
+      <p><strong>Can restaurants pay to be included?</strong></p>
+      <p>No. Restaurants can work with me separately on UGC or sponsored content, but Sam Scores and rankings cannot be purchased. Any restaurant receiving a Sam Score is judged independently.</p>
+      <p><strong>How do I recommend a new restaurant?</strong></p>
+      <p>Send me a DM at <a href="https://www.instagram.com/eatwithsamk" target="_blank" rel="noopener">@eatwithsamk</a> with the restaurant and I'll add it to my list of places to check out.</p>
+
+      <h2>The Sam Score</h2>
+      <p>Every restaurant I personally review receives a Sam Score out of 10 based on my overall experience.</p>
+      <p>Sam Scores are never for sale. I pay for my meals, and restaurants cannot purchase a higher score or ranking. Any UGC or sponsored work I do with businesses is kept separate from my independent restaurant reviews.</p>
+
+      <h2>🆕 Follow Trying Nashville's Newest Restaurants</h2>
+      <p>New places keep opening around Nashville, and I'm working my way through them. Follow <a href="https://www.instagram.com/eatwithsamk" target="_blank" rel="noopener">@eatwithsamk on Instagram</a>, <a href="https://www.tiktok.com/@eatwithsamk" target="_blank" rel="noopener">TikTok</a> and <a href="https://www.youtube.com/@eatwithsamk" target="_blank" rel="noopener">YouTube</a> for every episode, or browse <a href="/reviews">every place I've rated</a>.</p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-mexican-restaurants-nashville/">Best Mexican Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a></li>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-late-night-food-nashville/">Best Late-Night Food in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-mexican-restaurants-nashville",
     places: ["chilangos-tacos-nashville", "chile-burrito-nashville", "ladybird-taco-nashville"],
-    title: "Best Mexican Restaurants in Nashville (2026): Where to Eat",
+    title: "Best Mexican Restaurants in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-09-21",
     updated: "2026-09-21",
@@ -253,7 +394,7 @@ const BLOG_POSTS = [
   {
     id: "best-restaurants-the-battery-atlanta",
     places: ["superica-atlanta"],
-    title: "Best Restaurants at The Battery Atlanta (2026): Where to Eat Before a Braves Game",
+    title: "Best Restaurants at The Battery Atlanta Before a Braves Game (2026 Updated Guide)",
     seoTitle: "Best Restaurants at The Battery Atlanta (2026) | Eat With Sam K",
     metaDescription: "Looking for the best restaurants at The Battery Atlanta? Find where to eat before a Braves game, from pizza and Tex-Mex to steakhouses, quick bites and more.",
     city: "Atlanta, GA",
@@ -442,11 +583,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-panama-city-beach",
-    places: ["mcguires-irish-pub-panama-city-beach", "dustys-oyster-bar-panama-city-beach", "fords-garage-panama-city-beach", "sharkys-panama-city-beach"],
-    title: "Best Restaurants in Panama City Beach, FL (2026): Where to Eat",
+    places: ["bayou-bills-crab-house-panama-city-beach", "mcguires-irish-pub-panama-city-beach", "all-american-diner-panama-city-beach", "fords-garage-panama-city-beach", "dustys-oyster-bar-panama-city-beach", "sharkys-panama-city-beach", "kilwins-panama-city-beach"],
+    title: "Best Restaurants in Panama City Beach, FL (2026 Updated Guide)",
     city: "Panama City Beach, FL",
     date: "2026-09-06",
-    updated: "2026-09-19",
+    updated: "2026-09-29",
     emoji: "🦪",
     excerpt:
       "Looking for the best restaurants in Panama City Beach? Start with my own reviews of McGuire's Irish Pub, Dusty's Oyster Bar, Ford's Garage and Sharky's Beachfront Restaurant, plus seafood spots, date-night picks and where to eat in PCB.",
@@ -454,7 +595,7 @@ const BLOG_POSTS = [
       {
         question: "What are the best restaurants in Panama City Beach?",
         answer:
-          "Of the Panama City Beach restaurants I've personally reviewed so far, McGuire's Irish Pub is my highest rated at 8.8/10. Dusty's Oyster Bar and Ford's Garage are tied behind it at 8.1/10, with Sharky's Beachfront Restaurant at 7.9/10. I'm still eating my way through PCB, so more Sam Scores are on the way.",
+          "Of the Panama City Beach restaurants I've personally reviewed so far, Bayou Bill's Crab House is my highest rated at 8.9/10, just ahead of McGuire's Irish Pub (8.8) and All American Diner (8.4). Ford's Garage and Dusty's Oyster Bar are tied at 8.1, with Sharky's at 7.9 and Kilwins at 7.8. I'm still eating my way through PCB, so more Sam Scores are on the way.",
       },
       {
         question: "Where should I eat seafood in Panama City Beach?",
@@ -481,9 +622,19 @@ const BLOG_POSTS = [
       <p>Panama City Beach has no shortage of places to eat. Between beachfront seafood restaurants, oyster bars, casual local spots, and restaurants packed with tourists, the harder question is figuring out which ones are actually worth your money.</p>
       <p>That's what I'm trying to find out.</p>
       <p>I'm eating my way through Panama City Beach and personally reviewing restaurants along the way. Every restaurant I review gets a Sam Score, my overall rating based on the food and experience.</p>
-      <p>McGuire's Irish Pub, Dusty's Oyster Bar, Ford's Garage and Sharky's are the PCB restaurants with a Sam Score so far, ranked below by score, and this guide will keep growing as I try more, so check back as places get added.</p>
+      <p>Bayou Bill's Crab House, McGuire's Irish Pub, All American Diner, Ford's Garage, Dusty's Oyster Bar, Sharky's and Kilwins are the PCB restaurants with a Sam Score so far, ranked below by score, and this guide will keep growing as I try more, so check back as places get added.</p>
       <p>No paid reviews. No bought ratings. Every Sam Score reflects my actual experience.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>⭐ <a href="/reviews/bayou-bills-crab-house-panama-city-beach">Bayou Bill's Crab House</a></h2>
+      <p><strong>Neighborhood:</strong> Front Beach Road</p>
+      <p><strong>Sam Score:</strong> 8.9/10</p>
+      <p><strong>Best For:</strong> Crab legs, big seafood platters and families</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>Bayou Bill's has been on Front Beach Road since 1986, a wood-lined seafood hall with mounted fish and model ships, plus a fenced pond of live alligators outside that you can walk up to.</p>
+      <p>I got Wisconsin Cheese Curds, Blue Crab Dip, and the Ultimate Feast for 2: a pound each of snow crab, king crab and shrimp plus two cold water lobster tails. It's my highest rated PCB restaurant so far. Service was quick, though there can be a wait to get in. <a href="/reviews/bayou-bills-crab-house-panama-city-beach">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/bayou-bills-crab-house-panama-city-beach">Read my full Bayou Bill's review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/bayou-bills-crab-house-panama-city-beach/order-ultimate-feast.jpg" alt="Sam's order: the Ultimate Feast for 2 with king crab, snow crab, shrimp and lobster tails, Bayou Bill's Crab House" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/mcguires-irish-pub-panama-city-beach">McGuire's Irish Pub</a></h2>
       <p><strong>Neighborhood:</strong> Front Beach Road</p>
@@ -491,9 +642,19 @@ const BLOG_POSTS = [
       <p><strong>Best For:</strong> Steaks, Irish pub food, big groups and a late dinner</p>
       <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
       <p>McGuire's is a 550-seat Irish pub and steakhouse across Front Beach Road from the Gulf, the third one after Pensacola and Destin. Signed dollar bills cover the ceiling and every wall, they brew their own ales in house, and Irish musicians play late every night.</p>
-      <p>I got the McGuire's Root Beer, the 18¢ Senate Bean Soup, Reuben Egg Rolls, a Filet Mignon, the Pasta Rustica and the Garlic Mashed Potatoes. It's my highest rated PCB restaurant so far. It gets busy, and the kitchen runs until 2 a.m. if you'd rather go late. <a href="/reviews/mcguires-irish-pub-panama-city-beach">Read Sam's full review →</a></p>
+      <p>I got the McGuire's Root Beer, the 18¢ Senate Bean Soup, Reuben Egg Rolls, a Filet Mignon, the Pasta Rustica and the Garlic Mashed Potatoes. It gets busy, and the kitchen runs until 2 a.m. if you'd rather go late. <a href="/reviews/mcguires-irish-pub-panama-city-beach">Read Sam's full review →</a></p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/mcguires-irish-pub-panama-city-beach">Read my full McGuire's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/mcguires-irish-pub-panama-city-beach/order-filet-mignon.jpg" alt="Sam's order: the Filet Mignon on a cast iron plate with an Irish flag in the mashed potatoes, McGuire's Irish Pub" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/all-american-diner-panama-city-beach">All American Diner</a></h2>
+      <p><strong>Neighborhood:</strong> Front Beach Road</p>
+      <p><strong>Sam Score:</strong> 8.4/10</p>
+      <p><strong>Best For:</strong> Cheap all-you-can-eat breakfast</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>All American Diner is a chrome-sided diner with "Steaks, Shakes, Pancakes" across the front, a checkerboard floor and counter stools. The draw is the all-you-can-eat breakfast: pancakes, bacon, eggs, biscuits and gravy, grits and home fries.</p>
+      <p>I got the All-American Diner Spread, with bacon, scrambled eggs, tater tots and a pancake. It's quick, it's cheap, and parking is free. It does get busy. <a href="/reviews/all-american-diner-panama-city-beach">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/all-american-diner-panama-city-beach">Read my full All American Diner review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/all-american-diner-panama-city-beach/order-diner-spread.jpg" alt="Sam's order: the All-American Diner Spread with bacon, scrambled eggs, tater tots and a pancake" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/dustys-oyster-bar-panama-city-beach">Dusty's Oyster Bar</a></h2>
       <p><strong>Neighborhood:</strong> Front Beach Road</p>
@@ -526,6 +687,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "The best view of any meal I've had in PCB, and the food holds its own."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/sharkys-panama-city-beach">Read my full Sharky's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/sharkys-panama-city-beach/order-seafood-platter.jpg" alt="Sam's order: the Panhandle Seafood Platter, Sharky's Panama City Beach" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/kilwins-panama-city-beach">Kilwins</a></h2>
+      <p><strong>Neighborhood:</strong> Pier Park</p>
+      <p><strong>Sam Score:</strong> 7.8/10</p>
+      <p><strong>Best For:</strong> Ice cream and fudge after dinner</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="Under $15, Budget-friendly, fast casual, food trucks, quick bites" aria-label="Under $15, Budget-friendly, fast casual, food trucks, quick bites" tabindex="0">$</span></p>
+      <p>Kilwins is the chocolate and ice cream shop in Pier Park, with a copper fudge kettle by the door and ice cream scooped into house-made waffle cones.</p>
+      <p>I got Chocolate Chip Cookie Dough and Cookies &amp; Cream in waffle bowls. Service is quick and parking is free, but the seating is the patio tables out front, so there's nowhere to sit inside. <a href="/reviews/kilwins-panama-city-beach">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/kilwins-panama-city-beach">Read my full Kilwins review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/kilwins-panama-city-beach/order-cookie-dough.jpg" alt="Sam's order: Chocolate Chip Cookie Dough ice cream in a waffle bowl, Kilwins" loading="lazy" /></div>
 
       <h2>More Panama City Beach Restaurants Worth Knowing</h2>
       <p>I'm still working my way through Panama City Beach, so the restaurants below haven't received an official Sam Score yet.</p>
@@ -563,12 +734,12 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>McGuire's Irish Pub, 8.8</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Bayou Bill's Crab House, 8.9</td></tr>
           <tr><td>🌅 Eating With a View</td><td>Sharky's Beachfront Restaurant</td></tr>
-          <tr><td>👨‍👩‍👧 Families</td><td>Ford's Garage / Sharky's Beachfront Restaurant</td></tr>
+          <tr><td>👨‍👩‍👧 Families</td><td>Bayou Bill's, 8.9 / Ford's Garage, 8.1 / Sharky's, 7.9</td></tr>
           <tr><td>🍔 Burgers</td><td>Ford's Garage, 8.1</td></tr>
           <tr><td>🦪 Oysters</td><td>Dusty's Oyster Bar, 8.1</td></tr>
-          <tr><td>🐟 Casual Seafood</td><td>Dusty's Oyster Bar / Sharky's / Mike's Cafe</td></tr>
+          <tr><td>🐟 Casual Seafood</td><td>Bayou Bill's, 8.9 / Dusty's Oyster Bar, 8.1 / Sharky's, 7.9</td></tr>
           <tr><td>🍺 Lively Group Spot</td><td>McGuire's Irish Pub, 8.8</td></tr>
           <tr><td>🦐 Seafood Boil</td><td>Local Steamer</td></tr>
           <tr><td>❤️ Date Night</td><td>Hunt &amp; Gather / Firefly</td></tr>
@@ -587,7 +758,7 @@ const BLOG_POSTS = [
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What are the best restaurants in Panama City Beach?</strong></p>
-      <p>I'm currently eating my way through Panama City Beach and rating restaurants using the Sam Score. McGuire's Irish Pub leads at 8.8/10, with Dusty's Oyster Bar and Ford's Garage tied at 8.1/10 and Sharky's Beachfront Restaurant at 7.9/10, and more restaurants get added as I get to them.</p>
+      <p>I'm currently eating my way through Panama City Beach and rating restaurants using the Sam Score. Bayou Bill's Crab House leads at 8.9/10, ahead of McGuire's Irish Pub (8.8) and All American Diner (8.4), then Ford's Garage and Dusty's Oyster Bar at 8.1, Sharky's at 7.9 and Kilwins at 7.8. More restaurants get added as I get to them.</p>
       <p><strong>Where should I eat seafood in Panama City Beach?</strong></p>
       <p>PCB has a huge number of seafood restaurants. Dusty's Oyster Bar (8.1) and Sharky's Beachfront Restaurant (7.9) are the two I've personally reviewed, while places like Mike's Cafe &amp; Oyster Bar and Local Steamer Seafood Market are also on my radar as I continue exploring the area.</p>
       <p><strong>Where can I get oysters in Panama City Beach?</strong></p>
@@ -622,7 +793,7 @@ const BLOG_POSTS = [
   {
     id: "best-italian-restaurants-nashville",
     places: ["pelato-nashville", "culaccino-nashville"],
-    title: "Best Italian Restaurants in Nashville (2026)",
+    title: "Best Italian Restaurants in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-27",
     updated: "2026-09-14",
@@ -780,11 +951,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-late-night-food-nashville",
-    places: ["baam-burger-nashville"],
-    title: "Best Late-Night Food Spots in Nashville (2026)",
+    places: ["baam-burger-nashville", "frankies-pizzeria-nashville"],
+    title: "Best Late-Night Food Spots in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-21",
-    updated: "2026-09-14",
+    updated: "2026-09-29",
     emoji: "🌙",
     excerpt:
       "Looking for late-night food in Nashville? Find burgers, pizza, hot chicken, tacos and restaurants serving food late near Broadway and beyond.",
@@ -837,6 +1008,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "A quick, halal smash burger that's an easy stop late on Broadway."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order: Baam burger with bacon and cheese, fries, and a vanilla milkshake" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/frankies-pizzeria-nashville">Frankies Pizzeria</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
+      <p><strong>Sam Score:</strong> 7.6/10</p>
+      <p><strong>Best For:</strong> Late-night pizza downtown</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Frankies is inside Urban Cowboy in The Arcade, the glass-roofed 1902 arcade downtown, from the Brooklyn Frankies Spuntino team. Slices and 12 and 18 inch rounds, walk-in only.</p>
+      <p>I got an 18-inch, half pepperoni and half the sausage, ricotta and red onion special. It stays open late, there's plenty of seating, and the big pies aren't cheap. <a href="/reviews/frankies-pizzeria-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/frankies-pizzeria-nashville">Read my full Frankies review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/frankies-pizzeria-nashville/order-18-inch-pizza.jpg" alt="Sam's order: an 18-inch pizza, half pepperoni and half sausage, ricotta and red onion, Frankies Pizzeria" loading="lazy" /></div>
 
       <h2>More Late-Night Nashville Food Worth Knowing</h2>
       <p>I'm still working my way through Nashville's late-night spots, so the restaurants below haven't all received an official Sam Score yet.</p>
@@ -999,11 +1180,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-bridgestone-arena-nashville",
-    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "jack-browns-nashville", "chilangos-tacos-nashville"],
-    title: "Best Restaurants Near Bridgestone Arena in Nashville (2026 Guide)",
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "jack-browns-nashville", "chilangos-tacos-nashville", "chile-burrito-nashville", "baam-burger-nashville", "frankies-pizzeria-nashville", "biscuit-love-nashville", "culaccino-nashville"],
+    title: "Best Restaurants Near Bridgestone Arena in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-10",
-    updated: "2026-09-14",
+    updated: "2026-09-29",
     emoji: "🏒",
     excerpt:
       "From Assembly Food Hall's variety to Martin's BBQ and my own reviews of Prince St. Pizza and NADC Burger, the best restaurants near Bridgestone Arena for 2026, ranked with no paid placements.",
@@ -1060,6 +1241,16 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
 
+      <h2>⭐ <a href="/reviews/chile-burrito-nashville">The Chile Burrito Co.</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (just off Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.7/10</p>
+      <p><strong>Best For:</strong> Build-your-own burritos</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>The Chile Burrito Co. is a counter-service Mexican spot a block off Broadway, with build-your-own burritos, tacos and a salsa bar.</p>
+      <p>I got a 12-inch steak burrito with chips. Quick and filling, with limited seating and paid parking only. <a href="/reviews/chile-burrito-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chile-burrito-nashville">Read my full Chile Burrito review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/chile-burrito-nashville/order.jpg" alt="Sam's 12-inch steak burrito, The Chile Burrito Co." loading="lazy" /></div>
+
       <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
       <p><strong>Neighborhood:</strong> Germantown</p>
       <p><strong>Sam Score:</strong> 8.6/10</p>
@@ -1069,6 +1260,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/baam-burger-nashville">Baam Burger</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (off Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.3/10</p>
+      <p><strong>Best For:</strong> Late-night smash burgers</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Baam Burger is a smash burger counter right off Broadway, open late enough to catch the after-show crowd.</p>
+      <p>Quick, cheap and open when most kitchens downtown have shut. <a href="/reviews/baam-burger-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order at Baam Burger, Nashville" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
       <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
@@ -1090,6 +1291,16 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
       <div class="own-photo"><img src="/images/reviews/the-philly-special-nashville/order.jpg" alt="Close-up of The Original cheesesteak with ribeye and white American, The Philly Special" loading="lazy" /></div>
 
+      <h2>⭐ <a href="/reviews/frankies-pizzeria-nashville">Frankies Pizzeria</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
+      <p><strong>Sam Score:</strong> 7.6/10</p>
+      <p><strong>Best For:</strong> New York-style pies, open late</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Frankies sits inside Urban Cowboy in The Arcade, the glass-roofed 1902 arcade downtown, from the Brooklyn Frankies Spuntino team.</p>
+      <p>I got an 18-inch, half pepperoni and half the sausage, ricotta and red onion special. Plenty of seating, open late, and the 18-inch pies aren't cheap. <a href="/reviews/frankies-pizzeria-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/frankies-pizzeria-nashville">Read my full Frankies review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/frankies-pizzeria-nashville/order-18-inch-pizza.jpg" alt="Sam's order: an 18-inch pizza, half pepperoni and half sausage, ricotta and red onion, Frankies Pizzeria" loading="lazy" /></div>
+
       <h2>⭐ <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza</a></h2>
       <p><strong>Neighborhood:</strong> Downtown (Fifth + Broadway)</p>
       <p><strong>Sam Score:</strong> 7.4/10</p>
@@ -1099,6 +1310,26 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "A dependable, affordable stop if you're downtown and want a genuinely good slice fast."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
       <div class="own-photo"><img src="/images/reviews/prince-street-pizza-nashville/order.jpg" alt="Sam's order: three square slices in the box, Prince St. Pizza Nashville" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/biscuit-love-nashville">Biscuit Love</a></h2>
+      <p><strong>Neighborhood:</strong> The Gulch</p>
+      <p><strong>Sam Score:</strong> 7.4/10</p>
+      <p><strong>Best For:</strong> Brunch before the day starts</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Biscuit Love is the Gulch brunch spot known for its biscuits, an easy walk from downtown.</p>
+      <p>Best for a morning stop before everything else opens, and expect a line at peak. <a href="/reviews/biscuit-love-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/biscuit-love-nashville">Read my full Biscuit Love review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/biscuit-love-nashville/order-broll.jpg" alt="Sam's order: The B-Roll, Biscuit Love" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/culaccino-nashville">Culaccino</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown</p>
+      <p><strong>Sam Score:</strong> 7.3/10</p>
+      <p><strong>Best For:</strong> Italian with a cool room</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>Culaccino is an Italian restaurant downtown with a stylish dining room, a short walk from the action.</p>
+      <p>A calmer sit-down option when you want pasta rather than another burger. <a href="/reviews/culaccino-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/culaccino-nashville">Read my full Culaccino review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/culaccino-nashville/order-pizza.jpg" alt="Sam's order: Il Re Di Bologna pizza, Culaccino" loading="lazy" /></div>
 
       <h2>More Restaurants Near Bridgestone Arena Worth Knowing</h2>
       <p>I'm still working my way through the restaurants near Bridgestone Arena, so the spots below haven't all received an official Sam Score yet.</p>
@@ -1376,11 +1607,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-broadway-nashville",
-    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "chile-burrito-nashville", "jack-browns-nashville", "chilangos-tacos-nashville"],
-    title: "Best Restaurants Near Broadway Nashville (2026 Guide)",
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "chile-burrito-nashville", "jack-browns-nashville", "chilangos-tacos-nashville", "baam-burger-nashville", "frankies-pizzeria-nashville", "biscuit-love-nashville", "culaccino-nashville"],
+    title: "Best Restaurants Near Broadway Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-07",
-    updated: "2026-09-14",
+    updated: "2026-09-29",
     emoji: "🎸",
     excerpt:
       "From Martin's legendary BBQ to my own reviews of Prince St. Pizza and NADC Burger, the best restaurants near Broadway in Nashville for 2026, ranked with no paid placements.",
@@ -1451,6 +1682,16 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
 
+      <h2>⭐ <a href="/reviews/baam-burger-nashville">Baam Burger</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (off Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.3/10</p>
+      <p><strong>Best For:</strong> Late-night smash burgers</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Baam Burger is a smash burger counter right off Broadway, open late enough to catch the after-show crowd.</p>
+      <p>Quick, cheap and open when most kitchens downtown have shut. <a href="/reviews/baam-burger-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order at Baam Burger, Nashville" loading="lazy" /></div>
+
       <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
       <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
       <p><strong>Sam Score:</strong> 8.2/10</p>
@@ -1471,6 +1712,16 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
       <div class="own-photo"><img src="/images/reviews/the-philly-special-nashville/order.jpg" alt="Close-up of The Original cheesesteak with ribeye and white American, The Philly Special" loading="lazy" /></div>
 
+      <h2>⭐ <a href="/reviews/frankies-pizzeria-nashville">Frankies Pizzeria</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
+      <p><strong>Sam Score:</strong> 7.6/10</p>
+      <p><strong>Best For:</strong> New York-style pies, open late</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Frankies sits inside Urban Cowboy in The Arcade, the glass-roofed 1902 arcade downtown, from the Brooklyn Frankies Spuntino team.</p>
+      <p>I got an 18-inch, half pepperoni and half the sausage, ricotta and red onion special. Plenty of seating, open late, and the 18-inch pies aren't cheap. <a href="/reviews/frankies-pizzeria-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/frankies-pizzeria-nashville">Read my full Frankies review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/frankies-pizzeria-nashville/order-18-inch-pizza.jpg" alt="Sam's order: an 18-inch pizza, half pepperoni and half sausage, ricotta and red onion, Frankies Pizzeria" loading="lazy" /></div>
+
       <h2>⭐ <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza</a></h2>
       <p><strong>Neighborhood:</strong> Downtown (Fifth + Broadway)</p>
       <p><strong>Sam Score:</strong> 7.4/10</p>
@@ -1480,6 +1731,26 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "A dependable, affordable stop if you're downtown and want a genuinely good slice fast."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/prince-street-pizza-nashville">Read my full Prince St. Pizza review →</a></p>
       <div class="own-photo"><img src="/images/reviews/prince-street-pizza-nashville/order.jpg" alt="Sam's order: three square slices in the box, Prince St. Pizza Nashville" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/biscuit-love-nashville">Biscuit Love</a></h2>
+      <p><strong>Neighborhood:</strong> The Gulch</p>
+      <p><strong>Sam Score:</strong> 7.4/10</p>
+      <p><strong>Best For:</strong> Brunch before the day starts</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Biscuit Love is the Gulch brunch spot known for its biscuits, an easy walk from downtown.</p>
+      <p>Best for a morning stop before everything else opens, and expect a line at peak. <a href="/reviews/biscuit-love-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/biscuit-love-nashville">Read my full Biscuit Love review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/biscuit-love-nashville/order-broll.jpg" alt="Sam's order: The B-Roll, Biscuit Love" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/culaccino-nashville">Culaccino</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown</p>
+      <p><strong>Sam Score:</strong> 7.3/10</p>
+      <p><strong>Best For:</strong> Italian with a cool room</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>Culaccino is an Italian restaurant downtown with a stylish dining room, a short walk from the action.</p>
+      <p>A calmer sit-down option when you want pasta rather than another burger. <a href="/reviews/culaccino-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/culaccino-nashville">Read my full Culaccino review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/culaccino-nashville/order-pizza.jpg" alt="Sam's order: Il Re Di Bologna pizza, Culaccino" loading="lazy" /></div>
 
       <h2>More Restaurants Near Broadway Worth Knowing</h2>
       <p>I'm still working my way through the restaurants near Broadway, so the spots below haven't all received an official Sam Score yet.</p>
@@ -1710,7 +1981,7 @@ const BLOG_POSTS = [
   },
   {
     id: "best-credit-cards-for-dining",
-    title: "The Best Credit Cards for Foodies & Dining (2026)",
+    title: "Best Credit Cards for Foodies & Dining (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-05",
     updated: "2026-09-06",
@@ -2453,11 +2724,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-pizza-nashville",
-    places: ["prince-street-pizza-nashville"],
+    places: ["frankies-pizzeria-nashville", "prince-street-pizza-nashville"],
     title: "Best Pizza in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-28",
-    updated: "2026-09-14",
+    updated: "2026-09-29",
     emoji: "🍕",
     excerpt:
       "From Five Points Pizza's giant New York-style slices to DeSano's wood-fired Neapolitan pies, the best pizza in Nashville for 2026, ranked with no paid placements.",
@@ -2488,6 +2759,16 @@ const BLOG_POSTS = [
       <p>I'm working my way through Nashville's pizzerias and giving the places I personally visit a Sam Score based on my overall experience. This guide will continue to change as I try more of them.</p>
       <p>At Eat With Sam K, every meal is purchased with my own money. I don't accept paid reviews or exchange positive ratings for free food.</p>
       <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>⭐ <a href="/reviews/frankies-pizzeria-nashville">Frankies Pizzeria</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
+      <p><strong>Sam Score:</strong> 7.6/10</p>
+      <p><strong>Best For:</strong> New York-style pies in a cool room</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Frankies sits inside Urban Cowboy in The Arcade, the glass-roofed 1902 shopping arcade downtown. It's from the Brooklyn Frankies Spuntino team, with naturally leavened dough sold by the slice or as 12 and 18 inch rounds, and it's walk-in only.</p>
+      <p>I got an 18-inch, half pepperoni and half the sausage, ricotta and red onion special. The Arcade itself is a big part of the appeal, there's plenty of seating, and it stays open late. The 18-inch pies aren't cheap. <a href="/reviews/frankies-pizzeria-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/frankies-pizzeria-nashville">Read my full Frankies review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/frankies-pizzeria-nashville/order-18-inch-pizza.jpg" alt="Sam's order: an 18-inch pizza, half pepperoni and half sausage, ricotta and red onion, Frankies Pizzeria" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza</a></h2>
       <p><strong>Neighborhood:</strong> Downtown (Fifth + Broadway)</p>
@@ -2568,8 +2849,8 @@ const BLOG_POSTS = [
           <tr><th>Looking For</th><th>Try</th></tr>
         </thead>
         <tbody>
-          <tr><td>⭐ Highest Sam Score</td><td>Prince St. Pizza, 7.4</td></tr>
-          <tr><td>🍕 New York-Style</td><td>Prince St. Pizza / Five Points Pizza</td></tr>
+          <tr><td>⭐ Highest Sam Score</td><td>Frankies Pizzeria, 7.6</td></tr>
+          <tr><td>🍕 New York-Style</td><td>Frankies Pizzeria, 7.6 / Prince St. Pizza, 7.4</td></tr>
           <tr><td>🇮🇹 Neapolitan</td><td>DeSano Pizzeria</td></tr>
           <tr><td>🟥 Detroit-Style</td><td>Emmy Squared</td></tr>
           <tr><td>🍺 Pizza &amp; Beer</td><td>TailGate Brewery / Slim &amp; Husky's</td></tr>
@@ -2580,13 +2861,13 @@ const BLOG_POSTS = [
       </div>
 
       <h2>What Is My Favorite Pizza Spot in Nashville?</h2>
-      <p>Right now, Prince St. Pizza is my top personally-reviewed pick, with a 7.4 Sam Score.</p>
+      <p>Right now, Frankies Pizzeria is my top personally-reviewed pick with a 7.6 Sam Score, just ahead of Prince St. Pizza (7.4).</p>
       <p>That doesn't mean the ranking is permanent. I'm continuing to visit pizzerias throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
       <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What is the best pizza in Nashville?</strong></p>
-      <p>Of the pizzerias I've personally reviewed so far, Prince St. Pizza is my highest rated at 7.4/10. Five Points Pizza, Smith &amp; Lentz, Dicey's Tavern, and DeSano Pizzeria are also consistently recognized as some of Nashville's top pizza destinations.</p>
+      <p>Of the pizzerias I've personally reviewed so far, Frankies Pizzeria is my highest rated at 7.6/10, followed by Prince St. Pizza (7.4). Five Points Pizza, Smith &amp; Lentz, Dicey's Tavern, and DeSano Pizzeria are also consistently recognized as some of Nashville's top pizza destinations.</p>
       <p><strong>Where can I get New York-style pizza in Nashville?</strong></p>
       <p>Prince St. Pizza and Five Points Pizza are both widely considered among the best places for authentic New York-style pizza in the city.</p>
       <p><strong>Where can I find authentic Neapolitan pizza?</strong></p>
@@ -2613,11 +2894,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-burgers-nashville",
-    places: ["bad-luck-burger-club-nashville", "jack-browns-nashville", "hugh-babys-nashville", "baam-burger-nashville", "nadc-burger-nashville"],
+    places: ["bad-luck-burger-club-nashville", "jack-browns-nashville", "hugh-babys-nashville", "baam-burger-nashville", "nadc-burger-nashville", "pharmacy-burger-parlor-nashville"],
     title: "Best Burgers in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-07-25",
-    updated: "2026-09-20",
+    updated: "2026-09-29",
     emoji: "🍔",
     excerpt:
       "From my own reviews of Bad Luck Burger Club and Jack Brown's to Dino's legendary dive-bar cheeseburger, the best burgers in Nashville for 2026, ranked with no paid placements.",
@@ -2625,7 +2906,7 @@ const BLOG_POSTS = [
       {
         question: "What is the best burger in Nashville?",
         answer:
-          "Bad Luck Burger Club is Sam's top personally reviewed pick at 8.6/10, just ahead of Jack Brown's on the same score, followed by Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2). Dreamburger and Pharmacy Burger Parlor are also consistently considered among the best burgers in Nashville.",
+          "Bad Luck Burger Club is Sam's top personally reviewed pick at 8.6/10, just ahead of Jack Brown's on the same score, followed by Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2). Dreamburger is also consistently considered among the best burgers in Nashville.",
       },
       {
         question: "What is the best smash burger in Nashville?",
@@ -2699,6 +2980,16 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
 
+      <h2>⭐ <a href="/reviews/pharmacy-burger-parlor-nashville">The Pharmacy Burger Parlor &amp; Beer Garden</a></h2>
+      <p><strong>Neighborhood:</strong> East Nashville</p>
+      <p><strong>Sam Score:</strong> 7.3/10</p>
+      <p><strong>Best For:</strong> Burgers in a beer garden</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>The Pharmacy is an East Nashville burger parlor done up like an old soda fountain, with red counter stools, house-made phosphate sodas and bratwursts, and a big beer garden out back.</p>
+      <p>I got the Pharmacy Burger and the Farm burger with a side of tots. Food came out quick, the room is a fun one, and the patio is the reason to go. Parking is free. <a href="/reviews/pharmacy-burger-parlor-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/pharmacy-burger-parlor-nashville">Read my full Pharmacy review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/pharmacy-burger-parlor-nashville/order-pharmacy-burger.jpg" alt="Sam's order: the Pharmacy Burger with lettuce, pickles and onion, served with a basket of tots" loading="lazy" /></div>
+
       <h2>More Nashville Burgers Worth Knowing</h2>
       <p>I'm still working my way through Nashville's burger scene, so the restaurants below haven't all received an official Sam Score yet.</p>
       <p>Rather than assigning rankings to places I haven't personally reviewed, I'm keeping them on my radar and will update this guide as I visit them.</p>
@@ -2707,11 +2998,6 @@ const BLOG_POSTS = [
       <p>Dreamburger combines classic smash burger techniques with premium ingredients and unique flavor combinations. Their burgers have become one of Nashville's hottest food destinations.</p>
       <p><strong>Best For:</strong> Creative Burgers</p>
       <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DaNkUQNOD-A/" data-instgrm-version="14"></blockquote></div>
-
-      <h3>💊 <a href="https://thepharmacyburger.com/" target="_blank" rel="noopener">Pharmacy Burger Parlor & Beer Garden</a></h3>
-      <p>Known for its house-ground beef, locally sourced ingredients, and huge beer garden, Pharmacy has remained a Nashville favorite for years.</p>
-      <p><strong>Best For:</strong> Beer Garden Burgers</p>
-      <div class="ig-embed"><blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DcEiOstsgYa/" data-instgrm-version="14"></blockquote></div>
 
       <h3>🍟 <a href="https://www.gabbysburgersandfries.com/" target="_blank" rel="noopener">Gabby's Burgers & Fries</a></h3>
       <p>Gabby's is one of Nashville's original burger legends. Fresh beef, hand-cut fries, and consistently excellent service keep locals coming back.</p>
@@ -2753,7 +3039,7 @@ const BLOG_POSTS = [
           <tr><td>🥩 Wagyu Smash Burger</td><td>NADC Burger</td></tr>
           <tr><td>🍔 Old-School Cheeseburger</td><td>Hugh-Baby's / Dino's</td></tr>
           <tr><td>🎲 Smash Burger</td><td>Bad Luck Burger Club, 8.6</td></tr>
-          <tr><td>🍺 Beer Garden</td><td>Pharmacy Burger Parlor</td></tr>
+          <tr><td>🍺 Beer Garden</td><td>The Pharmacy, 7.3</td></tr>
           <tr><td>💵 Budget-Friendly</td><td>Grillshack</td></tr>
         </tbody>
       </table>
@@ -2766,7 +3052,7 @@ const BLOG_POSTS = [
 
       <h2>Frequently Asked Questions</h2>
       <p><strong>What is the best burger in Nashville?</strong></p>
-      <p>Of the burger spots I've personally reviewed so far, Bad Luck Burger Club is my highest rated at 8.6/10, just ahead of Jack Brown's on the same score, followed by Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2). Dreamburger and Pharmacy Burger Parlor are also consistently considered among the best burgers in Nashville.</p>
+      <p>Of the burger spots I've personally reviewed so far, Bad Luck Burger Club is my highest rated at 8.6/10, just ahead of Jack Brown's on the same score, followed by Hugh-Baby's (8.5), Baam Burger (8.3), and NADC Burger (8.2). Dreamburger is also consistently considered among the best burgers in Nashville.</p>
       <p><strong>What is the best smash burger in Nashville?</strong></p>
       <p>Bad Luck Burger Club, which I rate 8.6/10 and rank first in this guide. Dreamburger is the other smash burger name that comes up most, alongside NADC Burger, which I've also reviewed.</p>
       <p><strong>What is the best cheap burger in Nashville?</strong></p>
@@ -2987,11 +3273,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-bbq-nashville",
-    places: [],
+    places: ["hugh-babys-nashville"],
     title: "Best BBQ Restaurants in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-12",
-    updated: "2026-09-06",
+    updated: "2026-09-29",
     emoji: "🍖",
     excerpt:
       "From Texas-style brisket at Shotgun Willie's to dry-rub ribs at Peg Leg Porker and whole-hog BBQ at Martin's, the best BBQ restaurants in Nashville for 2026, ranked with no paid placements.",
@@ -3128,6 +3414,16 @@ const BLOG_POSTS = [
       <p>Every BBQ spot that receives a Sam Score has been personally visited and reviewed by me, meat quality, BBQ execution, sides, value, service, and atmosphere all factor in.</p>
       <p>Restaurants cannot pay for a Sam Score or a better rating. My goal with Eat With Sam K is simple: try the food myself and tell you whether I think it's actually worth your money. I keep the top of my scale intentionally difficult, an extremely high Sam Score is reserved for restaurants that truly stand out.</p>
       <p>As I visit more BBQ spots around Nashville, I'll update this guide with my first Sam Scores, photos, and rankings.</p>
+
+      <h2>⭐ <a href="/reviews/hugh-babys-nashville">Hugh-Baby's</a></h2>
+      <p><strong>Neighborhood:</strong> Charlotte Avenue (The Nations)</p>
+      <p><strong>Sam Score:</strong> 8.5/10</p>
+      <p><strong>Best For:</strong> Burgers, BBQ and old-school sides</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Hugh-Baby's is Pat Martin's burger and BBQ counter on Charlotte Avenue, from the same person behind Martin's Bar-B-Que Joint.</p>
+      <p>It's more burger stand than pit, but the BBQ side of the menu and the sides are why it belongs on this list, and it's one of the better value meals in town. <a href="/reviews/hugh-babys-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/hugh-babys-nashville">Read my full Hugh-Baby's review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/hugh-babys-nashville/order.jpg" alt="Sam's order at Hugh-Baby's, Nashville" loading="lazy" /></div>
 
       <h2>More Nashville Food Guides</h2>
       <p>Looking for more great places to eat? Check out these guides on Eat With Sam K:</p>
@@ -3357,11 +3653,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-nissan-stadium-nashville",
-    places: ["ocean-prime-nashville", "jack-browns-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "prince-street-pizza-nashville", "chilangos-tacos-nashville"],
-    title: "Best Restaurants Near Nissan Stadium in Nashville (2026 Guide)",
+    places: ["ocean-prime-nashville", "jack-browns-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "prince-street-pizza-nashville", "chilangos-tacos-nashville", "thai-samurai-river-north-nashville", "chile-burrito-nashville", "baam-burger-nashville", "frankies-pizzeria-nashville"],
+    title: "Best Restaurants Near Nissan Stadium in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-17",
-    updated: "2026-09-14",
+    updated: "2026-09-29",
     emoji: "🏈",
     excerpt:
       "From Butchertown Hall's smoked meats to my own reviews of Ocean Prime, Jack Brown's, NADC Burger, and Prince St. Pizza, the best restaurants near Nissan Stadium for 2026, ranked with no paid placements.",
@@ -3413,6 +3709,16 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/ocean-prime-nashville">Read my full Ocean Prime review →</a></p>
       <div class="own-photo"><img src="/images/reviews/ocean-prime-nashville/order.jpg" alt="Ahi Tuna Tartare, Ocean Prime" loading="lazy" /></div>
 
+      <h2>⭐ <a href="/reviews/thai-samurai-river-north-nashville">Thai Samurai</a></h2>
+      <p><strong>Neighborhood:</strong> River North (East Bank)</p>
+      <p><strong>Sam Score:</strong> 9.0/10</p>
+      <p><strong>Best For:</strong> Thai and sushi on the East Bank</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$30–60, Upscale dining, steakhouses, nicer date nights" aria-label="$30–60, Upscale dining, steakhouses, nicer date nights" tabindex="0">$$$</span></p>
+      <p>Thai Samurai is on the East Bank in River North, the same side of the river as the stadium, with a tuk-tuk parked out front and backlit samurai murals over the bar.</p>
+      <p>I got the Volcanic Lobster, Drunken Noodles and the Flaming Tiger Roll, which gets set on fire at the table. It's my highest rated spot near the stadium. <a href="/reviews/thai-samurai-river-north-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/thai-samurai-river-north-nashville">Read my full Thai Samurai review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/thai-samurai-river-north-nashville/order-volcanic-lobster.jpg" alt="Sam's order: the Volcanic Lobster with a lobster tail and an orchid garnish, Thai Samurai" loading="lazy" /></div>
+
       <h2>⭐ <a href="/reviews/chilangos-tacos-nashville">Chilangos Tacos</a></h2>
       <p><strong>Neighborhood:</strong> Assembly Food Hall (across the river near Broadway)</p>
       <p><strong>Sam Score:</strong> 8.7/10</p>
@@ -3423,6 +3729,16 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
 
+      <h2>⭐ <a href="/reviews/chile-burrito-nashville">The Chile Burrito Co.</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (just off Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.7/10</p>
+      <p><strong>Best For:</strong> Build-your-own burritos</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>The Chile Burrito Co. is a counter-service Mexican spot a block off Broadway, with build-your-own burritos, tacos and a salsa bar.</p>
+      <p>I got a 12-inch steak burrito with chips. Quick and filling, with limited seating and paid parking only. <a href="/reviews/chile-burrito-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chile-burrito-nashville">Read my full Chile Burrito review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/chile-burrito-nashville/order.jpg" alt="Sam's 12-inch steak burrito, The Chile Burrito Co." loading="lazy" /></div>
+
       <h2>⭐ <a href="/reviews/jack-browns-nashville">Jack Brown's Beer & Burger Joint</a></h2>
       <p><strong>Neighborhood:</strong> Germantown</p>
       <p><strong>Sam Score:</strong> 8.6/10</p>
@@ -3432,6 +3748,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "A covered patio, a long beer list, and a burger menu that punches well above its price point."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/jack-browns-nashville">Read my full Jack Brown's review →</a></p>
       <div class="own-photo"><img src="/images/reviews/jack-browns-nashville/order.jpg" alt="One of Sam's burgers, topped with a fried egg, Jack Brown's" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/baam-burger-nashville">Baam Burger</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (off Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.3/10</p>
+      <p><strong>Best For:</strong> Late-night smash burgers</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Baam Burger is a smash burger counter right off Broadway, open late enough to catch the after-show crowd.</p>
+      <p>Quick, cheap and open when most kitchens downtown have shut. <a href="/reviews/baam-burger-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order at Baam Burger, Nashville" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
       <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
@@ -3452,6 +3778,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "A genuine Philly-style cheesesteak inside the food hall, an easy add-on if you're already eating there before the game."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/the-philly-special-nashville">Read my full Philly Special review →</a></p>
       <div class="own-photo"><img src="/images/reviews/the-philly-special-nashville/order.jpg" alt="Close-up of The Original cheesesteak with ribeye and white American, The Philly Special" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/frankies-pizzeria-nashville">Frankies Pizzeria</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
+      <p><strong>Sam Score:</strong> 7.6/10</p>
+      <p><strong>Best For:</strong> New York-style pies, open late</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Frankies sits inside Urban Cowboy in The Arcade, the glass-roofed 1902 arcade downtown, from the Brooklyn Frankies Spuntino team.</p>
+      <p>I got an 18-inch, half pepperoni and half the sausage, ricotta and red onion special. Plenty of seating, open late, and the 18-inch pies aren't cheap. <a href="/reviews/frankies-pizzeria-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/frankies-pizzeria-nashville">Read my full Frankies review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/frankies-pizzeria-nashville/order-18-inch-pizza.jpg" alt="Sam's order: an 18-inch pizza, half pepperoni and half sausage, ricotta and red onion, Frankies Pizzeria" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/prince-street-pizza-nashville">Prince St. Pizza</a></h2>
       <p><strong>Neighborhood:</strong> Downtown (Fifth + Broadway)</p>
