@@ -1,6 +1,163 @@
 {
-  "generatedAt": "2026-10-01T00:09:48.721Z",
+  "generatedAt": "2026-10-06T05:32:48.555Z",
   "places": [
+    {
+      "id": "burger-a-la-smash-nashville",
+      "name": "Burger A La Smash",
+      "city": "Nashville, TN",
+      "lat": 36.1413028,
+      "lng": -86.741045,
+      "address": "581 Murfreesboro Pike, Nashville, TN 37210",
+      "phone": "(615) 205-1110",
+      "parking": "Free parking",
+      "date": "2026-09-24",
+      "price": "$$",
+      "cuisine": "Burgers",
+      "badges": [
+        "quick-bite"
+      ],
+      "about": "Burger A La Smash is a counter-service smash burger spot on Murfreesboro Pike, in a repurposed fast food building painted red, white and blue. You order at the counter under the menu boards and take a tray to the dining room or the patio.",
+      "ate": "The Black Truffle Burger, the Mac N Fry Chicken, the Hot Nacho Smash Burger, and 10 hot honey wings.",
+      "heroPhoto": "images/reviews/burger-a-la-smash-nashville/order-spread.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/burger-a-la-smash-nashville/storefront.jpg",
+          "alt": "Burger A La Smash's exterior on Murfreesboro Pike, a red, white and blue building with the logo above the entrance"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/burger-a-la-smash-nashville/interior-counter.jpg",
+          "alt": "The order counter inside Burger A La Smash, with red tile, checkerboard floor and menu screens above the kitchen"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/burger-a-la-smash-nashville/order-spread.jpg",
+          "alt": "Sam's order laid out on a tray: three smash burgers, loaded fries, hot honey wings and two cups of nacho cheese topped with red chip crumbs"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/burger-a-la-smash-nashville/order-hot-nacho-smash.jpg",
+          "alt": "Sam's order: the Hot Nacho Smash Burger, crusted in red chip crumbs and dipped into nacho cheese"
+        }
+      ],
+      "pros": [
+        "Quick"
+      ],
+      "cons": [
+        "Older building"
+      ],
+      "rating": 7.6,
+      "video": "https://www.instagram.com/reel/DeIVyKINTuU/",
+      "tags": [
+        "Burgers",
+        "Murfreesboro Pike"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/burger-a-la-smash-nashville"
+    },
+    {
+      "id": "ny-pie-capitol-view-nashville",
+      "name": "NY Pie",
+      "city": "Nashville, TN",
+      "lat": 36.1628945,
+      "lng": -86.791175,
+      "address": "421 11th Ave N, Nashville, TN 37203",
+      "phone": "(615) 550-5575",
+      "parking": "Free 2-hour parking",
+      "website": "https://www.nypienashville.com/",
+      "date": "2026-09-23",
+      "price": "$$",
+      "cuisine": "Pizza",
+      "badges": [
+        "best-patio",
+        "quick-bite"
+      ],
+      "about": "NY Pie is a New York style pizzeria in the Capitol View development, with a full bar under the TVs, a long dining room and a fenced patio out front on 11th Avenue. Pizza comes by the slice or as 10 and 18 inch pies.",
+      "ate": "A 10-inch NY Meat, a 10-inch NY White, and Pepperoni Chips.",
+      "heroPhoto": "images/reviews/ny-pie-capitol-view-nashville/order-ny-meat.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/ny-pie-capitol-view-nashville/storefront.jpg",
+          "alt": "NY Pie's entrance at Capitol View in the evening, with a yellow patio umbrella and fenced patio seating out front"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/ny-pie-capitol-view-nashville/interior-bar.jpg",
+          "alt": "The bar at NY Pie, with leather stools, TVs over the counter and the pizza line behind it"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/ny-pie-capitol-view-nashville/order-ny-meat.jpg",
+          "alt": "Sam's order: the 10-inch NY Meat pizza loaded with ham, salami, sausage and pepperoni"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/ny-pie-capitol-view-nashville/order-ny-white.jpg",
+          "alt": "Sam's order: the 10-inch NY White pizza with dollops of ricotta over melted mozzarella"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/ny-pie-capitol-view-nashville/order-pepperoni-chips.jpg",
+          "alt": "Sam's order: crisped Pepperoni Chips drizzled with hot honey on a white plate"
+        }
+      ],
+      "pros": [
+        "Cool area",
+        "Nice patio",
+        "Cool bar",
+        "Quick"
+      ],
+      "cons": [],
+      "rating": 7.6,
+      "video": "https://www.instagram.com/reel/DeFwiOqNvoG/",
+      "tags": [
+        "Pizza",
+        "Capitol View"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/ny-pie-capitol-view-nashville"
+    },
+    {
+      "id": "sabor-corazon-nashville",
+      "name": "Sabor Corazón",
+      "city": "Nashville, TN",
+      "lat": 36.1617778,
+      "lng": -86.80252,
+      "address": "614 18th Ave N, Nashville, TN 37203",
+      "phone": "(615) 801-4520",
+      "parking": "Free parking",
+      "date": "2026-09-20",
+      "price": "$$",
+      "cuisine": "Mexican",
+      "about": "Sabor Corazón is a Mexican kitchen working out of Midtown Foods on 18th Avenue North, a food pickup building rather than a restaurant. You order ahead and collect the bag from a numbered locker in the lobby, with no dining room and nobody at a counter.",
+      "ate": "The Steak Quesadilla, the Steak Taco Plate, and Chips and Guac.",
+      "heroPhoto": "images/reviews/sabor-corazon-nashville/order-steak-taco-plate.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/sabor-corazon-nashville/storefront.jpg",
+          "alt": "The Midtown Foods building at night, where Sabor Corazón cooks, with an orange Nashville Order Food Pickup sign"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/sabor-corazon-nashville/interior-pickup-lockers.jpg",
+          "alt": "The wall of numbered pickup lockers inside Midtown Foods, with one hanging open"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/sabor-corazon-nashville/order-steak-quesadilla.jpg",
+          "alt": "Sam's order: the Steak Quesadilla in a takeout container with guacamole, sour cream, salsa and lime"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/sabor-corazon-nashville/order-steak-taco-plate.jpg",
+          "alt": "Sam's order: the Steak Taco Plate with three street tacos, rice and beans in a takeout container"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/sabor-corazon-nashville/order-chips-and-guac.jpg",
+          "alt": "Sam's order: a container of guacamole from the Chips and Guac"
+        }
+      ],
+      "pros": [],
+      "cons": [
+        "Long wait",
+        "No customer service to help"
+      ],
+      "rating": 2.5,
+      "video": "https://www.instagram.com/reel/DeC9bi3MhRG/",
+      "tags": [
+        "Mexican",
+        "Midtown"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/sabor-corazon-nashville"
+    },
     {
       "id": "pharmacy-burger-parlor-nashville",
       "name": "The Pharmacy Burger Parlor & Beer Garden",
