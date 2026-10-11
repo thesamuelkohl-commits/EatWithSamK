@@ -40,6 +40,182 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-sports-bars-nashville",
+    title: "Best Sports Bars in Nashville for Watching Football (2026 Updated Guide)",
+    city: "Nashville, TN",
+    date: "2026-10-11",
+    updated: "2026-10-11",
+    emoji: "🏈",
+    excerpt:
+      "Where to watch NFL games, Tennessee football and UFC in Nashville for 2026, from big-screen venues to neighborhood bars away from the Broadway crowds.",
+    faq: [
+      {
+        question: "Where can I watch NFL games in Nashville?",
+        answer:
+          "Beyond the Edge, Double Dogs, Corner Pub and Sports & Social are among the Nashville venues worth considering for NFL games. Confirm the specific broadcast before visiting, since having TVs doesn't mean a bar carries every game.",
+      },
+      {
+        question: "What Nashville sports bars have big screens?",
+        answer:
+          "Sports & Social at the Mall at Green Hills has a 33-foot LED media wall plus more than 20 HDTVs. Beyond the Edge and Double Dogs also have extensive sports-viewing setups.",
+      },
+      {
+        question: "Where can I watch Tennessee Volunteers football in Nashville?",
+        answer:
+          "Most Nashville sports bars show major SEC games, including Tennessee matchups. Sports & Social, Corner Pub and Double Dogs are good places to start.",
+      },
+      {
+        question: "Are there sports bars near Broadway in Nashville?",
+        answer:
+          "Yes. Pete & Terry's Tavern sits at 501 Broadway just outside Bridgestone Arena and carries NFL Ticket. Its hours shift around arena events, so check before you go.",
+      },
+      {
+        question: "Where can I watch UFC fights in Nashville?",
+        answer:
+          "Bottle Cap in 12 South advertises UFC pay-per-view viewing. Confirm the specific fight is being shown before making plans.",
+      },
+      {
+        question: "Have these sports bars been Sam Scored?",
+        answer:
+          "Not yet. This guide is researched rather than based on firsthand visits, so nothing here has a Sam Score. As Sam reviews these places, they'll move to the top of the guide with scores attached.",
+      },
+    ],
+    content: `
+      <p>Finding a sports bar in Nashville isn't hard. Finding one with enough TVs, food worth eating, and an atmosphere that justifies leaving the house is a different story.</p>
+      <p>Whether you're watching the Titans, following the Vols, or trying to catch every NFL game on a Sunday, Nashville has options: traditional neighborhood bars, big-screen venues, and places where the food is as much the point as the game.</p>
+      <p><strong>One thing to be upfront about:</strong> this guide is researched, not personally reviewed. I haven't Sam Scored any of the places below, so none of them carry a score. As I visit them, they'll move to the top of this guide with a Sam Score attached, the same way my other guides work.</p>
+      <p>Game availability, specials and hours change often, so call ahead if a specific broadcast matters.</p>
+
+      <h2>Quick Picks: Nashville Sports Bars</h2>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Sports Bar</th><th>Area</th><th>Best For</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Beyond the Edge</td><td>East Nashville</td><td>Traditional sports-bar atmosphere</td></tr>
+          <tr><td>Double Dogs</td><td>Hillsboro Village</td><td>Football and casual dining</td></tr>
+          <tr><td>Sports &amp; Social</td><td>Green Hills</td><td>Massive screens and groups</td></tr>
+          <tr><td>Corner Pub</td><td>Multiple locations</td><td>Wings, beer and football</td></tr>
+          <tr><td>Bottle Cap</td><td>12 South</td><td>NFL Sundays and UFC</td></tr>
+          <tr><td>Party Fowl</td><td>Donelson</td><td>Hot chicken and game day</td></tr>
+          <tr><td>Sam's Place</td><td>Belle Meade</td><td>Neighborhood sports dining</td></tr>
+          <tr><td>Pete &amp; Terry's Tavern</td><td>Downtown</td><td>Games near Bridgestone Arena</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>Nashville Sports Bars Worth Knowing</h2>
+      <p>None of these have an official Sam Score yet. Rather than ranking places I haven't personally eaten at, I'm keeping them on my radar and will update this guide as I get to them.</p>
+
+      <h3>📺 Beyond the Edge</h3>
+      <p>A neighborhood sports bar in East Nashville's Five Points rather than a Broadway tourist stop, known for how many screens it packs in. That makes it a good call on an NFL Sunday when several games are on at once.</p>
+      <p><strong>Best For:</strong> Watching multiple games at once</p>
+      <p><strong>Good to Know:</strong> It fills up on big game days, so get there before kickoff.</p>
+
+      <h3>🌭 Double Dogs</h3>
+      <p>A familiar sports-bar experience without going downtown, with locations around Nashville including Hillsboro Village. TVs plus a relaxed dining room make it an easy one for groups who want a full meal with the game.</p>
+      <p><strong>Best For:</strong> Casual football Sundays</p>
+      <p><strong>Good to Know:</strong> Setups differ by location, so check which one suits your group.</p>
+
+      <h3>🖥️ <a href="https://www.sportsandsocial.com/" target="_blank" rel="noopener">Sports &amp; Social</a></h3>
+      <p>If screen size is the priority, this is the one. The Mall at Green Hills location runs a 33-foot LED media wall alongside more than 20 HDTVs across 8,900 square feet, plus a food menu, games and a patio.</p>
+      <p><strong>Best For:</strong> Big screens and group outings</p>
+      <p><strong>Good to Know:</strong> It's a sports-entertainment venue more than a neighborhood bar.</p>
+
+      <h3>🍗 Corner Pub</h3>
+      <p>A straightforward sports-bar option with several Nashville-area locations, well away from the Lower Broadway crowds. Expect the game-day menu you'd want: wings, nachos, burgers and shareable appetizers.</p>
+      <p><strong>Best For:</strong> Wings, football and a neighborhood feel</p>
+      <p><strong>Good to Know:</strong> TV setups and seating vary a lot between locations.</p>
+
+      <h3>🥊 <a href="https://www.bottlecapnashville.com/" target="_blank" rel="noopener">Bottle Cap</a></h3>
+      <p>A casual bar in 12 South with TVs throughout, in one of the most walkable neighborhoods in the city. It advertises NFL Sunday Ticket and UFC pay-per-view events, so it covers both football and fight nights.</p>
+      <p><strong>Best For:</strong> NFL Sundays and UFC fights</p>
+      <p><strong>Good to Know:</strong> Confirm the specific fight is on before you plan around it.</p>
+
+      <h3>🔥 <a href="https://www.partyfowl.com/" target="_blank" rel="noopener">Party Fowl</a></h3>
+      <p>The one to pick when the food matters as much as the game. Party Fowl is built around Nashville hot chicken, and the Donelson location has the room, the screens and the viewing areas for a proper watch party.</p>
+      <p><strong>Best For:</strong> Nashville hot chicken and football</p>
+      <p><strong>Good to Know:</strong> Donelson is outside downtown, so plan the drive.</p>
+
+      <h3>🍔 <a href="https://www.samsplace.net/" target="_blank" rel="noopener">Sam's Place</a></h3>
+      <p>A neighborhood sports restaurant in Belle Meade on Highway 100, with TVs through the dining rooms and a menu built on burgers, pizza and ribs. There are other locations around the area too.</p>
+      <p><strong>Best For:</strong> Sitting down to a full meal with the game on</p>
+      <p><strong>Good to Know:</strong> Quieter than the high-energy downtown bars, which is the point.</p>
+
+      <h3>🏒 <a href="https://www.peteandterrystavern.com/" target="_blank" rel="noopener">Pete &amp; Terry's Tavern</a></h3>
+      <p>At 501 Broadway, just outside the Nissan SoBro entrance at Bridgestone Arena, in the space that used to be Tavern '96. It carries NFL Ticket, which makes it a convenient stop if you're already downtown or heading to a Preds game.</p>
+      <p><strong>Best For:</strong> Watching sports near Bridgestone Arena</p>
+      <p><strong>Good to Know:</strong> Hours move around arena events, so check before you go.</p>
+
+      <h2>Which Nashville Sports Bar Should You Choose?</h2>
+      <p>If you're deciding where to watch the next game, here's where I'd start.</p>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>What You're Looking For</th><th>Where to Start</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>📺 Multiple NFL games</td><td>Beyond the Edge</td></tr>
+          <tr><td>🖥️ Biggest screens</td><td>Sports &amp; Social</td></tr>
+          <tr><td>🍽️ Casual dinner and football</td><td>Double Dogs</td></tr>
+          <tr><td>🍗 Wings and traditional bar food</td><td>Corner Pub</td></tr>
+          <tr><td>🥊 UFC fights</td><td>Bottle Cap</td></tr>
+          <tr><td>🔥 Nashville hot chicken</td><td>Party Fowl</td></tr>
+          <tr><td>🏘️ Away from downtown crowds</td><td>Sam's Place</td></tr>
+          <tr><td>🏟️ Near Bridgestone Arena</td><td>Pete &amp; Terry's Tavern</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <p>These are based on what each venue offers, not on firsthand food rankings.</p>
+
+      <h2>Tips for Watching Football in Nashville</h2>
+      <ul>
+        <li>🕐 <strong>Arrive before kickoff.</strong> The good rooms fill fast during Titans games, Tennessee games and big NFL matchups, and groups need the lead time to sit together.</li>
+        <li>📡 <strong>Confirm your game is actually on.</strong> TVs on the wall don't mean every broadcast. For out-of-market NFL games, specialty packages or UFC, call ahead.</li>
+        <li>🚗 <strong>Think about parking.</strong> Downtown gets expensive during games and concerts. Neighborhood bars are often the easier trip.</li>
+        <li>🍴 <strong>Don't ignore the food.</strong> A great TV setup doesn't make the food good, and you're going to be there three hours. That matters more if you're bringing people who don't care about the game.</li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>Where can I watch NFL games in Nashville?</strong></p>
+      <p>Beyond the Edge, Double Dogs, Corner Pub and Sports &amp; Social are among the Nashville venues worth considering for NFL games. Confirm the specific broadcast before visiting, since having TVs doesn't mean a bar carries every game.</p>
+      <p><strong>What Nashville sports bars have big screens?</strong></p>
+      <p>Sports &amp; Social at the Mall at Green Hills has a 33-foot LED media wall plus more than 20 HDTVs. Beyond the Edge and Double Dogs also have extensive sports-viewing setups.</p>
+      <p><strong>Where can I watch Tennessee Volunteers football in Nashville?</strong></p>
+      <p>Most Nashville sports bars show major SEC games, including Tennessee matchups. Sports &amp; Social, Corner Pub and Double Dogs are good places to start.</p>
+      <p><strong>Are there sports bars near Broadway in Nashville?</strong></p>
+      <p>Yes. Pete &amp; Terry's Tavern sits at 501 Broadway just outside Bridgestone Arena and carries NFL Ticket. Its hours shift around arena events, so check before you go.</p>
+      <p><strong>Where can I watch UFC fights in Nashville?</strong></p>
+      <p>Bottle Cap in 12 South advertises UFC pay-per-view viewing. Confirm the specific fight is being shown before making plans.</p>
+      <p><strong>Have these sports bars been Sam Scored?</strong></p>
+      <p>Not yet. This guide is researched rather than based on firsthand visits, so nothing here has a Sam Score. As I review these places, they'll move to the top of the guide with scores attached.</p>
+
+      <h2>Final Thoughts</h2>
+      <p>Nashville has no shortage of places to watch football. The right one depends on what you actually want: a huge screen and a packed room, or a good burger, a few TVs and somewhere comfortable to sit for three hours.</p>
+      <p>For me the food matters as much as the atmosphere, which is why this guide stays a starting point until I've eaten at these places myself. Have a Nashville sports bar I should try? Send me a DM at <a href="https://www.instagram.com/eatwithsamk" target="_blank" rel="noopener">@eatwithsamk</a>.</p>
+
+      <h2>The Sam Score</h2>
+      <p>Every restaurant I personally review receives a Sam Score out of 10, based on the food and the overall experience.</p>
+      <p>Restaurants can't pay for a Sam Score or a better ranking. I pay for my own meals, and any UGC or sponsored work is kept completely separate from my independent reviews. Nothing in this guide has been scored yet, and I'd rather say that plainly than imply I've been somewhere I haven't.</p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-hot-chicken-nashville/">Best Hot Chicken in Nashville</a></li>
+        <li><a href="/guides/best-late-night-food-nashville/">Best Late-Night Food in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a></li>
+        <li><a href="/guides/best-mexican-restaurants-nashville/">Best Mexican Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-new-restaurants-nashville/">Best New Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-cheap-eats-nashville/">Best Cheap Eats in Nashville</a></li>
+        <li><a href="/guides/best-restaurants-near-bridgestone-arena-nashville/">Best Restaurants Near Bridgestone Arena</a></li>
+        <li><a href="/guides/best-restaurants-near-nissan-stadium-nashville/">Best Restaurants Near Nissan Stadium</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-new-restaurants-nashville",
     places: ["thai-samurai-river-north-nashville", "halal-birdz-nashville", "chen-chens-nashville", "nadc-burger-nashville"],
     title: "Best New Restaurants in Nashville (2026 Updated Guide)",

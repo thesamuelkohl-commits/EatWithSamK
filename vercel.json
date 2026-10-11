@@ -7,6 +7,18 @@
         {
           "type": "query",
           "key": "id",
+          "value": "best-sports-bars-nashville"
+        }
+      ],
+      "destination": "/guides/best-sports-bars-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
           "value": "best-new-restaurants-nashville"
         }
       ],
