@@ -1,6 +1,145 @@
 {
-  "generatedAt": "2026-10-11T06:11:12.398Z",
+  "generatedAt": "2026-10-16T23:08:27.289Z",
   "places": [
+    {
+      "id": "horu-sushi-nashville",
+      "name": "Horu Sushi Kitchen",
+      "city": "Nashville, TN",
+      "lat": 36.1609778,
+      "lng": -86.7794717,
+      "address": "5055 Broadway Pl, Nashville, TN 37203 (Assembly Food Hall)",
+      "phone": "(615) 800-5395",
+      "parking": "Paid parking",
+      "website": "https://www.horusushi.com/",
+      "date": "2026-10-04",
+      "price": "$$",
+      "cuisine": "Sushi",
+      "badges": [
+        "family-friendly",
+        "group-friendly"
+      ],
+      "about": "Horu Sushi Kitchen is a sushi counter inside Assembly Food Hall at Fifth + Broadway, under a blue neon sign, with rolls made to order and handed over on a tray. Seating is the food hall's own, so there's plenty of it, and it's an easy stop with a group or with kids.",
+      "ate": "A Tempura Predators Roll, a Crunchy Spicy Tuna Roll, and a Seafood Volcano Roll.",
+      "heroPhoto": "images/reviews/horu-sushi-nashville/order-seafood-volcano-roll.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/horu-sushi-nashville/storefront.jpg",
+          "alt": "The Assembly Food Hall entrance at Fifth + Broadway at night, where Horu Sushi Kitchen is located"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/horu-sushi-nashville/interior-counter.jpg",
+          "alt": "The Horu Sushi Kitchen counter inside Assembly Food Hall, under a blue neon sushi sign"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/horu-sushi-nashville/order-tempura-predators-roll.jpg",
+          "alt": "Sam's order: the Tempura Predators Roll, topped with crab, crunchy tempura bits and dots of sriracha"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/horu-sushi-nashville/order-crunchy-spicy-tuna-roll.jpg",
+          "alt": "Sam's order: the Crunchy Spicy Tuna Roll under a heavy layer of fried crunch, spicy mayo and eel sauce"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/horu-sushi-nashville/order-seafood-volcano-roll.jpg",
+          "alt": "Sam's order: the Seafood Volcano Roll topped with baked spicy seafood and eel sauce, with ginger and wasabi"
+        }
+      ],
+      "pros": [
+        "Lots of seating",
+        "Family friendly"
+      ],
+      "cons": [
+        "Can be busy"
+      ],
+      "rating": 8.3,
+      "video": "https://www.instagram.com/reel/DefkW5Et0P0/",
+      "tags": [
+        "Sushi",
+        "Assembly Food Hall"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/horu-sushi-nashville"
+    },
+    {
+      "id": "talkin-tacos-nashville",
+      "name": "Talkin' Tacos",
+      "city": "Nashville, TN",
+      "lat": 36.1627972,
+      "lng": -86.7759167,
+      "address": "135 2nd Ave N, Nashville, TN 37201",
+      "parking": "Paid parking",
+      "website": "https://talkintacos.net/",
+      "date": "2026-10-04",
+      "price": "$$",
+      "cuisine": "Tacos",
+      "badges": [
+        "family-friendly",
+        "quick-bite",
+        "best-patio"
+      ],
+      "about": "Talkin' Tacos is the first Tennessee location of a halal Mexican chain out of Miami, open on 2nd Avenue North since late September 2026. You order at a kiosk and eat under neon signs and a splatter-painted wall, or out on the patio under purple umbrellas. The kitchen runs late, and birria is the thing it's known for.",
+      "ate": "The App Trio and two Taco Trios: a Carne Asada taco, a Southwest Chicken taco, a Bang Bang Shrimp taco, a Birria taco, a Birria Taki taco and a Mahi Mahi taco, plus a Mangodana.",
+      "heroPhoto": "images/reviews/talkin-tacos-nashville/order-taco-trio.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/talkin-tacos-nashville/storefront.jpg",
+          "alt": "Talkin' Tacos on 2nd Avenue North, with a black awning, an Open Late sign and purple patio umbrellas out front"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/talkin-tacos-nashville/interior.jpg",
+          "alt": "Inside Talkin' Tacos, with order kiosks under a Less Talkin' More Tacos neon sign and the dining room beyond"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/talkin-tacos-nashville/interior-neon-wall.jpg",
+          "alt": "The splatter-painted wall at Talkin' Tacos, lit by neon signs including Feed Me Tacos and Tell Me I'm Pretty"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/talkin-tacos-nashville/order-app-trio.jpg",
+          "alt": "Sam's order: the App Trio, a tray of chips with pico de gallo, queso and guacamole"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/talkin-tacos-nashville/drink-mangodana.jpg",
+          "alt": "Sam's drink: the Mangodana, a mango and chamoy drink in a Talkin' Tacos cup"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/talkin-tacos-nashville/order-carne-asada-taco.jpg",
+          "alt": "Sam's order: the Carne Asada taco topped with onion and cilantro on an orange tortilla"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/talkin-tacos-nashville/order-southwest-chicken-taco.jpg",
+          "alt": "Sam's order: the Southwest Chicken taco with black beans, corn, tortilla strips and cotija"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/talkin-tacos-nashville/order-bang-bang-shrimp-taco.jpg",
+          "alt": "Sam's order: the Bang Bang Shrimp taco with fried shrimp, red cabbage, pico and two sauces"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/talkin-tacos-nashville/order-taco-closeup.jpg",
+          "alt": "A close-up of one of Sam's tacos, with crispy fried pieces, pickled red onion, lettuce and a chipotle drizzle"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/talkin-tacos-nashville/order-taco-trio.jpg",
+          "alt": "Sam's order: a Taco Trio on the tray, with folded birria tacos in front of a shrimp taco"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/talkin-tacos-nashville/order-birria-tacos.jpg",
+          "alt": "Sam's order: the birria tacos, shredded beef and melted cheese in crisped orange tortillas"
+        }
+      ],
+      "pros": [
+        "Open late",
+        "Family friendly",
+        "Quick",
+        "Nice patio",
+        "Cool atmosphere"
+      ],
+      "cons": [],
+      "rating": 7.9,
+      "video": "https://www.instagram.com/reel/Dec8jg3tq9S/",
+      "tags": [
+        "Tacos",
+        "Downtown"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/talkin-tacos-nashville"
+    },
     {
       "id": "fat-santas-pizza-santa-claus",
       "name": "Fat Santa's Pizza & More",

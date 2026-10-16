@@ -37,6 +37,16 @@
     <priority>0.2</priority>
   </url>
   <url>
+    <loc>https://www.eatwithsamk.com/reviews/horu-sushi-nashville</loc>
+    <lastmod>2026-10-04</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.eatwithsamk.com/reviews/talkin-tacos-nashville</loc>
+    <lastmod>2026-10-04</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.eatwithsamk.com/reviews/fat-santas-pizza-santa-claus</loc>
     <lastmod>2026-10-03</lastmod>
     <priority>0.9</priority>
@@ -228,12 +238,12 @@
   </url>
   <url>
     <loc>https://www.eatwithsamk.com/guides/best-new-restaurants-nashville/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.eatwithsamk.com/guides/best-mexican-restaurants-nashville/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -253,12 +263,12 @@
   </url>
   <url>
     <loc>https://www.eatwithsamk.com/guides/best-late-night-food-nashville/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.eatwithsamk.com/guides/best-restaurants-near-bridgestone-arena-nashville/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -268,7 +278,7 @@
   </url>
   <url>
     <loc>https://www.eatwithsamk.com/guides/best-restaurants-near-broadway-nashville/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -318,12 +328,12 @@
   </url>
   <url>
     <loc>https://www.eatwithsamk.com/guides/best-tacos-nashville/</loc>
-    <lastmod>2026-09-14</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.eatwithsamk.com/guides/best-restaurants-near-nissan-stadium-nashville/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <priority>0.7</priority>
   </url>
 </urlset>

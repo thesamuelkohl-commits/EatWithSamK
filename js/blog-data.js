@@ -41,33 +41,33 @@
 const BLOG_POSTS = [
   {
     id: "best-sports-bars-nashville",
-    title: "Best Sports Bars in Nashville for Watching Football (2026 Updated Guide)",
+    title: "Best Sports Bars in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-10-11",
     updated: "2026-10-11",
-    emoji: "🏈",
+    emoji: "📺",
     excerpt:
-      "Where to watch NFL games, Tennessee football and UFC in Nashville for 2026, from big-screen venues to neighborhood bars away from the Broadway crowds.",
+      "Where to watch the Titans, Predators, NFL, SEC football, NBA and UFC in Nashville for 2026, from big-screen venues to neighborhood bars away from the Broadway crowds.",
     faq: [
       {
-        question: "Where can I watch NFL games in Nashville?",
+        question: "What are the best sports bars in Nashville?",
         answer:
-          "Beyond the Edge, Double Dogs, Corner Pub and Sports & Social are among the Nashville venues worth considering for NFL games. Confirm the specific broadcast before visiting, since having TVs doesn't mean a bar carries every game.",
+          "Beyond the Edge, Double Dogs, Corner Pub, Sports & Social, Bottle Cap, Party Fowl, Sam's Place and Pete & Terry's Tavern are all worth considering, depending on whether you want big screens, a neighborhood room or good food with the game.",
+      },
+      {
+        question: "Where can I watch the Titans or the Predators in Nashville?",
+        answer:
+          "Most Nashville sports bars carry Titans and Predators games. Pete & Terry's Tavern sits right outside Bridgestone Arena, which makes it the obvious one on a Preds night.",
       },
       {
         question: "What Nashville sports bars have big screens?",
         answer:
-          "Sports & Social at the Mall at Green Hills has a 33-foot LED media wall plus more than 20 HDTVs. Beyond the Edge and Double Dogs also have extensive sports-viewing setups.",
+          "Sports & Social at the Mall at Green Hills has a 33-foot LED media wall plus more than 20 HDTVs. Beyond the Edge and Double Dogs also have extensive viewing setups.",
       },
       {
-        question: "Where can I watch Tennessee Volunteers football in Nashville?",
+        question: "Where can I watch out-of-market NFL or college football games?",
         answer:
-          "Most Nashville sports bars show major SEC games, including Tennessee matchups. Sports & Social, Corner Pub and Double Dogs are good places to start.",
-      },
-      {
-        question: "Are there sports bars near Broadway in Nashville?",
-        answer:
-          "Yes. Pete & Terry's Tavern sits at 501 Broadway just outside Bridgestone Arena and carries NFL Ticket. Its hours shift around arena events, so check before you go.",
+          "Beyond the Edge is a good bet when several games are on at once, and Bottle Cap and Pete & Terry's advertise NFL Ticket. For a specific out-of-market or SEC game, call ahead rather than assuming.",
       },
       {
         question: "Where can I watch UFC fights in Nashville?",
@@ -82,7 +82,7 @@ const BLOG_POSTS = [
     ],
     content: `
       <p>Finding a sports bar in Nashville isn't hard. Finding one with enough TVs, food worth eating, and an atmosphere that justifies leaving the house is a different story.</p>
-      <p>Whether you're watching the Titans, following the Vols, or trying to catch every NFL game on a Sunday, Nashville has options: traditional neighborhood bars, big-screen venues, and places where the food is as much the point as the game.</p>
+      <p>Titans and Predators games, SEC Saturdays, NFL Sundays, NBA and March Madness, UFC pay-per-views, World Cup mornings: Nashville has somewhere for all of it. Some are traditional neighborhood bars, some are built around a wall of screens, and some are places where the food is as much the point as the game.</p>
       <p><strong>One thing to be upfront about:</strong> this guide is researched, not personally reviewed. I haven't Sam Scored any of the places below, so none of them carry a score. As I visit them, they'll move to the top of this guide with a Sam Score attached, the same way my other guides work.</p>
       <p>Game availability, specials and hours change often, so call ahead if a specific broadcast matters.</p>
 
@@ -94,13 +94,13 @@ const BLOG_POSTS = [
         </thead>
         <tbody>
           <tr><td>Beyond the Edge</td><td>East Nashville</td><td>Traditional sports-bar atmosphere</td></tr>
-          <tr><td>Double Dogs</td><td>Hillsboro Village</td><td>Football and casual dining</td></tr>
+          <tr><td>Double Dogs</td><td>Hillsboro Village</td><td>Casual dining with the game on</td></tr>
           <tr><td>Sports &amp; Social</td><td>Green Hills</td><td>Massive screens and groups</td></tr>
-          <tr><td>Corner Pub</td><td>Multiple locations</td><td>Wings, beer and football</td></tr>
+          <tr><td>Corner Pub</td><td>Multiple locations</td><td>Wings, beer and a neighborhood room</td></tr>
           <tr><td>Bottle Cap</td><td>12 South</td><td>NFL Sundays and UFC</td></tr>
-          <tr><td>Party Fowl</td><td>Donelson</td><td>Hot chicken and game day</td></tr>
+          <tr><td>Party Fowl</td><td>Donelson</td><td>Hot chicken and watch parties</td></tr>
           <tr><td>Sam's Place</td><td>Belle Meade</td><td>Neighborhood sports dining</td></tr>
-          <tr><td>Pete &amp; Terry's Tavern</td><td>Downtown</td><td>Games near Bridgestone Arena</td></tr>
+          <tr><td>Pete &amp; Terry's Tavern</td><td>Downtown</td><td>Preds games and Bridgestone events</td></tr>
         </tbody>
       </table>
       </div>
@@ -109,33 +109,33 @@ const BLOG_POSTS = [
       <p>None of these have an official Sam Score yet. Rather than ranking places I haven't personally eaten at, I'm keeping them on my radar and will update this guide as I get to them.</p>
 
       <h3>📺 Beyond the Edge</h3>
-      <p>A neighborhood sports bar in East Nashville's Five Points rather than a Broadway tourist stop, known for how many screens it packs in. That makes it a good call on an NFL Sunday when several games are on at once.</p>
-      <p><strong>Best For:</strong> Watching multiple games at once</p>
-      <p><strong>Good to Know:</strong> It fills up on big game days, so get there before kickoff.</p>
+      <p>A neighborhood sports bar in East Nashville's Five Points rather than a Broadway tourist stop, known for how many screens it packs in. That's what makes it work on a day with a full slate, when there are more games on than any one TV can handle.</p>
+      <p><strong>Best For:</strong> Watching several games at once</p>
+      <p><strong>Good to Know:</strong> It fills up on big game days, so get there early.</p>
 
       <h3>🌭 Double Dogs</h3>
       <p>A familiar sports-bar experience without going downtown, with locations around Nashville including Hillsboro Village. TVs plus a relaxed dining room make it an easy one for groups who want a full meal with the game.</p>
-      <p><strong>Best For:</strong> Casual football Sundays</p>
+      <p><strong>Best For:</strong> Casual dining with the game on</p>
       <p><strong>Good to Know:</strong> Setups differ by location, so check which one suits your group.</p>
 
       <h3>🖥️ <a href="https://www.sportsandsocial.com/" target="_blank" rel="noopener">Sports &amp; Social</a></h3>
-      <p>If screen size is the priority, this is the one. The Mall at Green Hills location runs a 33-foot LED media wall alongside more than 20 HDTVs across 8,900 square feet, plus a food menu, games and a patio.</p>
+      <p>If screen size is the priority, this is the one. The Mall at Green Hills location runs a 33-foot LED media wall alongside more than 20 HDTVs across 8,900 square feet, plus a food menu, games and a patio. It handles a big fight or a tournament bracket as well as it handles a Sunday.</p>
       <p><strong>Best For:</strong> Big screens and group outings</p>
       <p><strong>Good to Know:</strong> It's a sports-entertainment venue more than a neighborhood bar.</p>
 
       <h3>🍗 Corner Pub</h3>
-      <p>A straightforward sports-bar option with several Nashville-area locations, well away from the Lower Broadway crowds. Expect the game-day menu you'd want: wings, nachos, burgers and shareable appetizers.</p>
-      <p><strong>Best For:</strong> Wings, football and a neighborhood feel</p>
+      <p>A straightforward sports-bar option with several Nashville-area locations, well away from the Lower Broadway crowds. Expect the menu you'd want with a game on: wings, nachos, burgers and shareable appetizers.</p>
+      <p><strong>Best For:</strong> Wings, beer and a neighborhood room</p>
       <p><strong>Good to Know:</strong> TV setups and seating vary a lot between locations.</p>
 
       <h3>🥊 <a href="https://www.bottlecapnashville.com/" target="_blank" rel="noopener">Bottle Cap</a></h3>
-      <p>A casual bar in 12 South with TVs throughout, in one of the most walkable neighborhoods in the city. It advertises NFL Sunday Ticket and UFC pay-per-view events, so it covers both football and fight nights.</p>
-      <p><strong>Best For:</strong> NFL Sundays and UFC fights</p>
+      <p>A casual bar in 12 South with TVs throughout, in one of the most walkable neighborhoods in the city. It advertises NFL Sunday Ticket and UFC pay-per-view events, so it covers both the Sunday slate and fight nights.</p>
+      <p><strong>Best For:</strong> NFL Sundays and UFC</p>
       <p><strong>Good to Know:</strong> Confirm the specific fight is on before you plan around it.</p>
 
       <h3>🔥 <a href="https://www.partyfowl.com/" target="_blank" rel="noopener">Party Fowl</a></h3>
-      <p>The one to pick when the food matters as much as the game. Party Fowl is built around Nashville hot chicken, and the Donelson location has the room, the screens and the viewing areas for a proper watch party.</p>
-      <p><strong>Best For:</strong> Nashville hot chicken and football</p>
+      <p>The one to pick when the food matters as much as the game. Party Fowl is built around Nashville hot chicken, and the Donelson location has the room, the screens and the separate viewing areas for a proper watch party.</p>
+      <p><strong>Best For:</strong> Nashville hot chicken and watch parties</p>
       <p><strong>Good to Know:</strong> Donelson is outside downtown, so plan the drive.</p>
 
       <h3>🍔 <a href="https://www.samsplace.net/" target="_blank" rel="noopener">Sam's Place</a></h3>
@@ -144,8 +144,8 @@ const BLOG_POSTS = [
       <p><strong>Good to Know:</strong> Quieter than the high-energy downtown bars, which is the point.</p>
 
       <h3>🏒 <a href="https://www.peteandterrystavern.com/" target="_blank" rel="noopener">Pete &amp; Terry's Tavern</a></h3>
-      <p>At 501 Broadway, just outside the Nissan SoBro entrance at Bridgestone Arena, in the space that used to be Tavern '96. It carries NFL Ticket, which makes it a convenient stop if you're already downtown or heading to a Preds game.</p>
-      <p><strong>Best For:</strong> Watching sports near Bridgestone Arena</p>
+      <p>At 501 Broadway, just outside the Nissan SoBro entrance at Bridgestone Arena, in the space that used to be Tavern '96. It carries NFL Ticket, and its location makes it the natural stop before or after a Predators game or a show at the arena.</p>
+      <p><strong>Best For:</strong> Preds games and nights at Bridgestone</p>
       <p><strong>Good to Know:</strong> Hours move around arena events, so check before you go.</p>
 
       <h2>Which Nashville Sports Bar Should You Choose?</h2>
@@ -156,43 +156,43 @@ const BLOG_POSTS = [
           <tr><th>What You're Looking For</th><th>Where to Start</th></tr>
         </thead>
         <tbody>
-          <tr><td>📺 Multiple NFL games</td><td>Beyond the Edge</td></tr>
+          <tr><td>📺 Several games at once</td><td>Beyond the Edge</td></tr>
           <tr><td>🖥️ Biggest screens</td><td>Sports &amp; Social</td></tr>
-          <tr><td>🍽️ Casual dinner and football</td><td>Double Dogs</td></tr>
+          <tr><td>🍽️ Casual dinner with the game on</td><td>Double Dogs</td></tr>
           <tr><td>🍗 Wings and traditional bar food</td><td>Corner Pub</td></tr>
-          <tr><td>🥊 UFC fights</td><td>Bottle Cap</td></tr>
+          <tr><td>🥊 UFC and NFL Sundays</td><td>Bottle Cap</td></tr>
           <tr><td>🔥 Nashville hot chicken</td><td>Party Fowl</td></tr>
           <tr><td>🏘️ Away from downtown crowds</td><td>Sam's Place</td></tr>
-          <tr><td>🏟️ Near Bridgestone Arena</td><td>Pete &amp; Terry's Tavern</td></tr>
+          <tr><td>🏒 Predators games at Bridgestone</td><td>Pete &amp; Terry's Tavern</td></tr>
         </tbody>
       </table>
       </div>
       <p>These are based on what each venue offers, not on firsthand food rankings.</p>
 
-      <h2>Tips for Watching Football in Nashville</h2>
+      <h2>Tips for Watching Sports in Nashville</h2>
       <ul>
-        <li>🕐 <strong>Arrive before kickoff.</strong> The good rooms fill fast during Titans games, Tennessee games and big NFL matchups, and groups need the lead time to sit together.</li>
-        <li>📡 <strong>Confirm your game is actually on.</strong> TVs on the wall don't mean every broadcast. For out-of-market NFL games, specialty packages or UFC, call ahead.</li>
-        <li>🚗 <strong>Think about parking.</strong> Downtown gets expensive during games and concerts. Neighborhood bars are often the easier trip.</li>
-        <li>🍴 <strong>Don't ignore the food.</strong> A great TV setup doesn't make the food good, and you're going to be there three hours. That matters more if you're bringing people who don't care about the game.</li>
+        <li>🕐 <strong>Get there early.</strong> The good rooms fill fast for Titans and Predators games, big SEC matchups and pay-per-view nights, and groups need the lead time to sit together.</li>
+        <li>📡 <strong>Confirm your game is actually on.</strong> TVs on the wall don't mean every broadcast. For out-of-market games, specialty packages, UFC or international soccer, call ahead.</li>
+        <li>🚗 <strong>Think about parking.</strong> Downtown gets expensive during games, concerts and arena events. Neighborhood bars are often the easier trip.</li>
+        <li>🍴 <strong>Don't ignore the food.</strong> A great TV setup doesn't make the food good, and you're going to be there a few hours. That matters more if you're bringing people who don't care about the game.</li>
       </ul>
 
       <h2>Frequently Asked Questions</h2>
-      <p><strong>Where can I watch NFL games in Nashville?</strong></p>
-      <p>Beyond the Edge, Double Dogs, Corner Pub and Sports &amp; Social are among the Nashville venues worth considering for NFL games. Confirm the specific broadcast before visiting, since having TVs doesn't mean a bar carries every game.</p>
+      <p><strong>What are the best sports bars in Nashville?</strong></p>
+      <p>Beyond the Edge, Double Dogs, Corner Pub, Sports &amp; Social, Bottle Cap, Party Fowl, Sam's Place and Pete &amp; Terry's Tavern are all worth considering, depending on whether you want big screens, a neighborhood room or good food with the game.</p>
+      <p><strong>Where can I watch the Titans or the Predators in Nashville?</strong></p>
+      <p>Most Nashville sports bars carry Titans and Predators games. Pete &amp; Terry's Tavern sits right outside Bridgestone Arena, which makes it the obvious one on a Preds night.</p>
       <p><strong>What Nashville sports bars have big screens?</strong></p>
-      <p>Sports &amp; Social at the Mall at Green Hills has a 33-foot LED media wall plus more than 20 HDTVs. Beyond the Edge and Double Dogs also have extensive sports-viewing setups.</p>
-      <p><strong>Where can I watch Tennessee Volunteers football in Nashville?</strong></p>
-      <p>Most Nashville sports bars show major SEC games, including Tennessee matchups. Sports &amp; Social, Corner Pub and Double Dogs are good places to start.</p>
-      <p><strong>Are there sports bars near Broadway in Nashville?</strong></p>
-      <p>Yes. Pete &amp; Terry's Tavern sits at 501 Broadway just outside Bridgestone Arena and carries NFL Ticket. Its hours shift around arena events, so check before you go.</p>
+      <p>Sports &amp; Social at the Mall at Green Hills has a 33-foot LED media wall plus more than 20 HDTVs. Beyond the Edge and Double Dogs also have extensive viewing setups.</p>
+      <p><strong>Where can I watch out-of-market NFL or college football games?</strong></p>
+      <p>Beyond the Edge is a good bet when several games are on at once, and Bottle Cap and Pete &amp; Terry's advertise NFL Ticket. For a specific out-of-market or SEC game, call ahead rather than assuming.</p>
       <p><strong>Where can I watch UFC fights in Nashville?</strong></p>
       <p>Bottle Cap in 12 South advertises UFC pay-per-view viewing. Confirm the specific fight is being shown before making plans.</p>
       <p><strong>Have these sports bars been Sam Scored?</strong></p>
       <p>Not yet. This guide is researched rather than based on firsthand visits, so nothing here has a Sam Score. As I review these places, they'll move to the top of the guide with scores attached.</p>
 
       <h2>Final Thoughts</h2>
-      <p>Nashville has no shortage of places to watch football. The right one depends on what you actually want: a huge screen and a packed room, or a good burger, a few TVs and somewhere comfortable to sit for three hours.</p>
+      <p>Nashville has no shortage of places to watch a game. The right one depends on what you actually want: a huge screen and a packed room, or a good burger, a few TVs and somewhere comfortable to sit for a few hours.</p>
       <p>For me the food matters as much as the atmosphere, which is why this guide stays a starting point until I've eaten at these places myself. Have a Nashville sports bar I should try? Send me a DM at <a href="https://www.instagram.com/eatwithsamk" target="_blank" rel="noopener">@eatwithsamk</a>.</p>
 
       <h2>The Sam Score</h2>
@@ -217,11 +217,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-new-restaurants-nashville",
-    places: ["thai-samurai-river-north-nashville", "halal-birdz-nashville", "chen-chens-nashville", "nadc-burger-nashville"],
+    places: ["thai-samurai-river-north-nashville", "halal-birdz-nashville", "chen-chens-nashville", "nadc-burger-nashville", "talkin-tacos-nashville"],
     title: "Best New Restaurants in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-09-29",
-    updated: "2026-09-29",
+    updated: "2026-10-16",
     emoji: "🆕",
     excerpt:
       "Nashville keeps getting new restaurants, but which ones are worth trying? My Sam Scores for the newest openings I've visited, starting with Thai Samurai in River North.",
@@ -306,6 +306,16 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
 
+      <h2>⭐ <a href="/reviews/talkin-tacos-nashville">Talkin' Tacos</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (2nd Ave N)</p>
+      <p><strong>Sam Score:</strong> 7.9/10</p>
+      <p><strong>Best For:</strong> Birria and late-night tacos</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Talkin' Tacos is the first Tennessee location of a halal Mexican chain out of Miami, open on 2nd Avenue North since late September 2026. You order at a kiosk and eat under neon signs and a splatter-painted wall, or outside on the patio.</p>
+      <p>I got the App Trio and two Taco Trios, running through carne asada, Southwest chicken, bang bang shrimp, birria, birria taki and mahi mahi, plus a Mangodana. It's quick, it's got a patio, and the kitchen runs late. <a href="/reviews/talkin-tacos-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/talkin-tacos-nashville">Read my full Talkin' Tacos review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/talkin-tacos-nashville/order-taco-trio.jpg" alt="Sam's order: a Taco Trio on the tray, with folded birria tacos in front of a shrimp taco" loading="lazy" /></div>
+
       <h2>More New Nashville Openings on My Radar</h2>
       <p>I haven't Sam Scored these yet. They're recent Nashville openings I may visit as part of Trying Nashville's Newest Restaurants, and they'll move into the rankings above once I've eaten there.</p>
       <p>Know somewhere new that should be on this list? Send me a DM at <a href="https://www.instagram.com/eatwithsamk" target="_blank" rel="noopener">@eatwithsamk</a> and I'll add it.</p>
@@ -321,6 +331,7 @@ const BLOG_POSTS = [
           <tr><td>🍜 A Meal With a Show</td><td>Thai Samurai, 9.0</td></tr>
           <tr><td>🔥 Hot Chicken</td><td>Halal Birdz, 8.9 / Chen Chen's, 8.6</td></tr>
           <tr><td>🍔 Burgers</td><td>NADC Burger, 8.2</td></tr>
+          <tr><td>🌮 Tacos &amp; Birria</td><td>Talkin' Tacos, 7.9</td></tr>
         </tbody>
       </table>
       </div>
@@ -342,7 +353,7 @@ const BLOG_POSTS = [
       <p>The Sam Score is my overall take on all of it.</p>
 
       <h2>What's the Best New Restaurant in Nashville?</h2>
-      <p>Right now it's Thai Samurai at 9.0/10, with Halal Birdz close behind at 8.9, then Chen Chen's at 8.6 and NADC Burger at 8.2.</p>
+      <p>Right now it's Thai Samurai at 9.0/10, with Halal Birdz close behind at 8.9, then Chen Chen's at 8.6, NADC Burger at 8.2 and Talkin' Tacos at 7.9.</p>
       <p>That won't necessarily hold. Every episode of Trying Nashville's Newest Restaurants brings another place that can take the top spot, and the rankings above update the moment I publish a new review.</p>
 
       <h2>Frequently Asked Questions</h2>
@@ -381,11 +392,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-mexican-restaurants-nashville",
-    places: ["chilangos-tacos-nashville", "chile-burrito-nashville", "ladybird-taco-nashville"],
+    places: ["chilangos-tacos-nashville", "chile-burrito-nashville", "ladybird-taco-nashville", "talkin-tacos-nashville"],
     title: "Best Mexican Restaurants in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-09-21",
-    updated: "2026-09-21",
+    updated: "2026-10-16",
     emoji: "🇲🇽",
     excerpt:
       "From my own reviews of Chilangos Tacos and The Chile Burrito Co. to Mas Tacos and El Jaliciense, the best Mexican food in Nashville for 2026, ranked with no paid placements.",
@@ -454,6 +465,16 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chile-burrito-nashville">Read my full Chile Burrito review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chile-burrito-nashville/order.jpg" alt="Sam's 12-inch steak burrito, The Chile Burrito Co." loading="lazy" /></div>
 
+      <h2>⭐ <a href="/reviews/talkin-tacos-nashville">Talkin' Tacos</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (2nd Ave N)</p>
+      <p><strong>Sam Score:</strong> 7.9/10</p>
+      <p><strong>Best For:</strong> Birria and late-night tacos</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Talkin' Tacos is the first Tennessee location of a halal Mexican chain out of Miami, open on 2nd Avenue North since late September 2026. You order at a kiosk and eat under neon signs and a splatter-painted wall, or outside on the patio.</p>
+      <p>I got the App Trio and two Taco Trios, running through carne asada, Southwest chicken, bang bang shrimp, birria, birria taki and mahi mahi, plus a Mangodana. It's quick, it's got a patio, and the kitchen runs late. <a href="/reviews/talkin-tacos-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/talkin-tacos-nashville">Read my full Talkin' Tacos review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/talkin-tacos-nashville/order-taco-trio.jpg" alt="Sam's order: a Taco Trio on the tray, with folded birria tacos in front of a shrimp taco" loading="lazy" /></div>
+
       <h2>⭐ <a href="/reviews/ladybird-taco-nashville">Ladybird Taco</a></h2>
       <p><strong>Neighborhood:</strong> 12 South</p>
       <p><strong>Sam Score:</strong> 7.6/10</p>
@@ -508,7 +529,8 @@ const BLOG_POSTS = [
           <tr><td>🌯 Burritos</td><td>The Chile Burrito Co., 8.7 / Baja Burrito</td></tr>
           <tr><td>📍 Quick, Near Broadway</td><td>Chilangos Tacos / The Chile Burrito Co.</td></tr>
           <tr><td>🍳 Breakfast Tacos</td><td>Ladybird Taco, 7.6</td></tr>
-          <tr><td>🧀 Birria</td><td>El Jaliciense / Maiz de la Vida</td></tr>
+          <tr><td>🌙 Open Late</td><td>Talkin' Tacos, 7.9</td></tr>
+          <tr><td>🧀 Birria</td><td>Talkin' Tacos, 7.9 / El Jaliciense / Maiz de la Vida</td></tr>
           <tr><td>🌽 Traditional Mexican</td><td>El Jaliciense / Maiz de la Vida</td></tr>
           <tr><td>💰 Cheap Eats</td><td>Taqueria San Luis / Mas Tacos Por Favor</td></tr>
           <tr><td>🍹 Margaritas &amp; Sit-Down</td><td>Superica</td></tr>
@@ -1150,11 +1172,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-late-night-food-nashville",
-    places: ["baam-burger-nashville", "frankies-pizzeria-nashville"],
+    places: ["baam-burger-nashville", "frankies-pizzeria-nashville", "talkin-tacos-nashville"],
     title: "Best Late-Night Food Spots in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-21",
-    updated: "2026-09-29",
+    updated: "2026-10-16",
     emoji: "🌙",
     excerpt:
       "Looking for late-night food in Nashville? Find burgers, pizza, hot chicken, tacos and restaurants serving food late near Broadway and beyond.",
@@ -1207,6 +1229,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "A quick, halal smash burger that's an easy stop late on Broadway."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order: Baam burger with bacon and cheese, fries, and a vanilla milkshake" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/talkin-tacos-nashville">Talkin' Tacos</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (2nd Ave N)</p>
+      <p><strong>Sam Score:</strong> 7.9/10</p>
+      <p><strong>Best For:</strong> Late-night birria tacos</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Talkin' Tacos is the first Tennessee location of a halal Mexican chain out of Miami, open on 2nd Avenue North since late September 2026. You order at a kiosk and eat under neon signs and a splatter-painted wall, or outside on the patio.</p>
+      <p>I got the App Trio and two Taco Trios, running through carne asada, Southwest chicken, bang bang shrimp, birria, birria taki and mahi mahi, plus a Mangodana. It's quick, it's got a patio, and the kitchen runs late. <a href="/reviews/talkin-tacos-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/talkin-tacos-nashville">Read my full Talkin' Tacos review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/talkin-tacos-nashville/order-taco-trio.jpg" alt="Sam's order: a Taco Trio on the tray, with folded birria tacos in front of a shrimp taco" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/frankies-pizzeria-nashville">Frankies Pizzeria</a></h2>
       <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
@@ -1278,7 +1310,7 @@ const BLOG_POSTS = [
           <tr><td>🍔 Burgers</td><td>Baam Burger / Dino's</td></tr>
           <tr><td>🍕 Pizza</td><td>Till Five Pizza</td></tr>
           <tr><td>🔥 Hot Chicken</td><td>Prince's Hot Chicken</td></tr>
-          <tr><td>🌮 Tacos</td><td>Bakersfield</td></tr>
+          <tr><td>🌮 Tacos</td><td>Talkin' Tacos, 7.9 / Bakersfield</td></tr>
           <tr><td>🎸 Near Broadway</td><td>Baam Burger / Robert's Western World / JBJ's</td></tr>
           <tr><td>💰 Budget-Friendly</td><td>Dino's / Robert's Western World</td></tr>
         </tbody>
@@ -1379,11 +1411,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-bridgestone-arena-nashville",
-    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "jack-browns-nashville", "chilangos-tacos-nashville", "chile-burrito-nashville", "baam-burger-nashville", "frankies-pizzeria-nashville", "biscuit-love-nashville", "culaccino-nashville"],
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "jack-browns-nashville", "chilangos-tacos-nashville", "chile-burrito-nashville", "baam-burger-nashville", "frankies-pizzeria-nashville", "biscuit-love-nashville", "culaccino-nashville", "talkin-tacos-nashville", "horu-sushi-nashville"],
     title: "Best Restaurants Near Bridgestone Arena in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-10",
-    updated: "2026-09-29",
+    updated: "2026-10-16",
     emoji: "🏒",
     excerpt:
       "From Assembly Food Hall's variety to Martin's BBQ and my own reviews of Prince St. Pizza and NADC Burger, the best restaurants near Bridgestone Arena for 2026, ranked with no paid placements.",
@@ -1470,6 +1502,16 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order at Baam Burger, Nashville" loading="lazy" /></div>
 
+      <h2>⭐ <a href="/reviews/horu-sushi-nashville">Horu Sushi Kitchen</a></h2>
+      <p><strong>Neighborhood:</strong> Assembly Food Hall (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.3/10</p>
+      <p><strong>Best For:</strong> Sushi near the arena</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Horu Sushi Kitchen is a sushi counter inside Assembly Food Hall at Fifth + Broadway, under a blue neon sign, with rolls made to order and handed over on a tray.</p>
+      <p>I got the Tempura Predators Roll, the Crunchy Spicy Tuna Roll and the Seafood Volcano Roll. Seating is the food hall's own, so there's plenty of it, and it works with a group or with kids. It does get busy. <a href="/reviews/horu-sushi-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/horu-sushi-nashville">Read my full Horu Sushi review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/horu-sushi-nashville/order-seafood-volcano-roll.jpg" alt="Sam's order: the Seafood Volcano Roll topped with baked spicy seafood and eel sauce" loading="lazy" /></div>
+
       <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
       <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
       <p><strong>Sam Score:</strong> 8.2/10</p>
@@ -1479,6 +1521,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "One burger, done exactly one way, and Wagyu beef makes the case for why that's enough."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/talkin-tacos-nashville">Talkin' Tacos</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (2nd Ave N)</p>
+      <p><strong>Sam Score:</strong> 7.9/10</p>
+      <p><strong>Best For:</strong> Birria tacos near the arena</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Talkin' Tacos is the first Tennessee location of a halal Mexican chain out of Miami, open on 2nd Avenue North since late September 2026. You order at a kiosk and eat under neon signs and a splatter-painted wall, or outside on the patio.</p>
+      <p>I got the App Trio and two Taco Trios, running through carne asada, Southwest chicken, bang bang shrimp, birria, birria taki and mahi mahi, plus a Mangodana. It's quick, it's got a patio, and the kitchen runs late. <a href="/reviews/talkin-tacos-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/talkin-tacos-nashville">Read my full Talkin' Tacos review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/talkin-tacos-nashville/order-taco-trio.jpg" alt="Sam's order: a Taco Trio on the tray, with folded birria tacos in front of a shrimp taco" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/the-philly-special-nashville">The Philly Special</a></h2>
       <p><strong>Neighborhood:</strong> Assembly Food Hall (Fifth + Broadway)</p>
@@ -1806,11 +1858,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-broadway-nashville",
-    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "chile-burrito-nashville", "jack-browns-nashville", "chilangos-tacos-nashville", "baam-burger-nashville", "frankies-pizzeria-nashville", "biscuit-love-nashville", "culaccino-nashville"],
+    places: ["prince-street-pizza-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "ocean-prime-nashville", "chile-burrito-nashville", "jack-browns-nashville", "chilangos-tacos-nashville", "baam-burger-nashville", "frankies-pizzeria-nashville", "biscuit-love-nashville", "culaccino-nashville", "talkin-tacos-nashville", "horu-sushi-nashville"],
     title: "Best Restaurants Near Broadway Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-07",
-    updated: "2026-09-29",
+    updated: "2026-10-16",
     emoji: "🎸",
     excerpt:
       "From Martin's legendary BBQ to my own reviews of Prince St. Pizza and NADC Burger, the best restaurants near Broadway in Nashville for 2026, ranked with no paid placements.",
@@ -1891,6 +1943,16 @@ const BLOG_POSTS = [
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order at Baam Burger, Nashville" loading="lazy" /></div>
 
+      <h2>⭐ <a href="/reviews/horu-sushi-nashville">Horu Sushi Kitchen</a></h2>
+      <p><strong>Neighborhood:</strong> Assembly Food Hall (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.3/10</p>
+      <p><strong>Best For:</strong> Sushi steps from Broadway</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Horu Sushi Kitchen is a sushi counter inside Assembly Food Hall at Fifth + Broadway, under a blue neon sign, with rolls made to order and handed over on a tray.</p>
+      <p>I got the Tempura Predators Roll, the Crunchy Spicy Tuna Roll and the Seafood Volcano Roll. Seating is the food hall's own, so there's plenty of it, and it works with a group or with kids. It does get busy. <a href="/reviews/horu-sushi-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/horu-sushi-nashville">Read my full Horu Sushi review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/horu-sushi-nashville/order-seafood-volcano-roll.jpg" alt="Sam's order: the Seafood Volcano Roll topped with baked spicy seafood and eel sauce" loading="lazy" /></div>
+
       <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
       <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
       <p><strong>Sam Score:</strong> 8.2/10</p>
@@ -1900,6 +1962,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "One burger, done exactly one way, and Wagyu beef makes the case for why that's enough."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/nadc-burger-nashville">Read my full NADC Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/nadc-burger-nashville/closeup.jpg" alt="Close-up of the NADC Burger, cheese and pickled jalapenos" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/talkin-tacos-nashville">Talkin' Tacos</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (2nd Ave N)</p>
+      <p><strong>Sam Score:</strong> 7.9/10</p>
+      <p><strong>Best For:</strong> Birria tacos a block off Broadway</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Talkin' Tacos is the first Tennessee location of a halal Mexican chain out of Miami, open on 2nd Avenue North since late September 2026. You order at a kiosk and eat under neon signs and a splatter-painted wall, or outside on the patio.</p>
+      <p>I got the App Trio and two Taco Trios, running through carne asada, Southwest chicken, bang bang shrimp, birria, birria taki and mahi mahi, plus a Mangodana. It's quick, it's got a patio, and the kitchen runs late. <a href="/reviews/talkin-tacos-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/talkin-tacos-nashville">Read my full Talkin' Tacos review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/talkin-tacos-nashville/order-taco-trio.jpg" alt="Sam's order: a Taco Trio on the tray, with folded birria tacos in front of a shrimp taco" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/the-philly-special-nashville">The Philly Special</a></h2>
       <p><strong>Neighborhood:</strong> Assembly Food Hall (Fifth + Broadway)</p>
@@ -3642,11 +3714,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-tacos-nashville",
-    places: ["chilangos-tacos-nashville", "ladybird-taco-nashville"],
+    places: ["chilangos-tacos-nashville", "ladybird-taco-nashville", "talkin-tacos-nashville"],
     title: "Best Tacos in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-13",
-    updated: "2026-09-14",
+    updated: "2026-10-16",
     emoji: "🌮",
     excerpt:
       "From Maiz de la Vida's handmade tortillas to my own reviews of Chilangos Tacos and Ladybird Taco, the best tacos in Nashville for 2026, ranked with no paid placements.",
@@ -3698,6 +3770,16 @@ const BLOG_POSTS = [
       <p>💬 <strong>Sam Says:</strong> "A quick, genuinely good taco counter inside the food hall, my highest-scoring taco review so far."</p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/chilangos-tacos-nashville">Read my full Chilangos Tacos review →</a></p>
       <div class="own-photo"><img src="/images/reviews/chilangos-tacos-nashville/order.jpg" alt="Sam's order: chicken, steak, and pastor tacos with red and green salsa, Chilangos Tacos" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/talkin-tacos-nashville">Talkin' Tacos</a></h2>
+      <p><strong>Neighborhood:</strong> Downtown (2nd Ave N)</p>
+      <p><strong>Sam Score:</strong> 7.9/10</p>
+      <p><strong>Best For:</strong> Birria and late-night tacos</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Talkin' Tacos is the first Tennessee location of a halal Mexican chain out of Miami, open on 2nd Avenue North since late September 2026. You order at a kiosk and eat under neon signs and a splatter-painted wall, or outside on the patio.</p>
+      <p>I got the App Trio and two Taco Trios, running through carne asada, Southwest chicken, bang bang shrimp, birria, birria taki and mahi mahi, plus a Mangodana. It's quick, it's got a patio, and the kitchen runs late. <a href="/reviews/talkin-tacos-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/talkin-tacos-nashville">Read my full Talkin' Tacos review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/talkin-tacos-nashville/order-taco-trio.jpg" alt="Sam's order: a Taco Trio on the tray, with folded birria tacos in front of a shrimp taco" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/ladybird-taco-nashville">Ladybird Taco</a></h2>
       <p><strong>Neighborhood:</strong> 12 South</p>
@@ -3767,7 +3849,7 @@ const BLOG_POSTS = [
           <tr><td>🍳 Breakfast Tacos</td><td>Ladybird Taco / Tempo</td></tr>
           <tr><td>🌮 Street Tacos</td><td>Taqueria San Luis</td></tr>
           <tr><td>🇲🇽 Authentic Mexican</td><td>Maiz de la Vida</td></tr>
-          <tr><td>🧀 Birria</td><td>Maiz de la Vida</td></tr>
+          <tr><td>🧀 Birria</td><td>Talkin' Tacos, 7.9 / Maiz de la Vida</td></tr>
           <tr><td>💰 Cheap Tacos</td><td>Taqueria San Luis / Mas Tacos Por Favor</td></tr>
           <tr><td>🍹 Tacos &amp; Margaritas</td><td>Bakersfield / Superica</td></tr>
           <tr><td>🔥 Creative Tacos</td><td>Redheaded Stranger</td></tr>
@@ -3776,7 +3858,7 @@ const BLOG_POSTS = [
       </div>
 
       <h2>What Is My Favorite Taco Spot in Nashville?</h2>
-      <p>Right now, Chilangos Tacos is my top personally-reviewed pick, with an 8.7 Sam Score, just ahead of Ladybird Taco (7.6).</p>
+      <p>Right now, Chilangos Tacos is my top personally-reviewed pick, with an 8.7 Sam Score, ahead of Talkin' Tacos (7.9) and Ladybird Taco (7.6).</p>
       <p>That doesn't mean the ranking is permanent. I'm continuing to visit taco spots throughout Nashville, and whenever I review another one, I'll update this guide based on my actual experience.</p>
       <p>The goal is eventually to have a complete ranking based entirely on restaurants I've personally visited rather than simply repeating the same Nashville restaurant lists you can find everywhere else.</p>
 
@@ -3852,11 +3934,11 @@ const BLOG_POSTS = [
   },
   {
     id: "best-restaurants-near-nissan-stadium-nashville",
-    places: ["ocean-prime-nashville", "jack-browns-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "prince-street-pizza-nashville", "chilangos-tacos-nashville", "thai-samurai-river-north-nashville", "chile-burrito-nashville", "baam-burger-nashville", "frankies-pizzeria-nashville"],
+    places: ["ocean-prime-nashville", "jack-browns-nashville", "nadc-burger-nashville", "the-philly-special-nashville", "prince-street-pizza-nashville", "chilangos-tacos-nashville", "thai-samurai-river-north-nashville", "chile-burrito-nashville", "baam-burger-nashville", "frankies-pizzeria-nashville", "horu-sushi-nashville"],
     title: "Best Restaurants Near Nissan Stadium in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
     date: "2026-08-17",
-    updated: "2026-09-29",
+    updated: "2026-10-16",
     emoji: "🏈",
     excerpt:
       "From Butchertown Hall's smoked meats to my own reviews of Ocean Prime, Jack Brown's, NADC Burger, and Prince St. Pizza, the best restaurants near Nissan Stadium for 2026, ranked with no paid placements.",
@@ -3957,6 +4039,16 @@ const BLOG_POSTS = [
       <p>Quick, cheap and open when most kitchens downtown have shut. <a href="/reviews/baam-burger-nashville">Read Sam's full review →</a></p>
       <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/baam-burger-nashville">Read my full Baam Burger review →</a></p>
       <div class="own-photo"><img src="/images/reviews/baam-burger-nashville/order.jpg" alt="Sam's order at Baam Burger, Nashville" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/horu-sushi-nashville">Horu Sushi Kitchen</a></h2>
+      <p><strong>Neighborhood:</strong> Assembly Food Hall (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.3/10</p>
+      <p><strong>Best For:</strong> Sushi before crossing the bridge</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Horu Sushi Kitchen is a sushi counter inside Assembly Food Hall at Fifth + Broadway, under a blue neon sign, with rolls made to order and handed over on a tray.</p>
+      <p>I got the Tempura Predators Roll, the Crunchy Spicy Tuna Roll and the Seafood Volcano Roll. Seating is the food hall's own, so there's plenty of it, and it works with a group or with kids. It does get busy. <a href="/reviews/horu-sushi-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/horu-sushi-nashville">Read my full Horu Sushi review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/horu-sushi-nashville/order-seafood-volcano-roll.jpg" alt="Sam's order: the Seafood Volcano Roll topped with baked spicy seafood and eel sauce" loading="lazy" /></div>
 
       <h2>⭐ <a href="/reviews/nadc-burger-nashville">NADC Burger</a></h2>
       <p><strong>Neighborhood:</strong> Downtown (The Arcade)</p>
