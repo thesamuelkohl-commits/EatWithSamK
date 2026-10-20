@@ -1734,6 +1734,14 @@ a { color: var(--red); }
    Vertical poster cards that open the video in Google Drive. Posters rather
    than embedded players, so three Drive iframes don't weigh the page down. */
 .ugc-samples { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 14px 0 6px; }
+/* An odd card left over on the last row (5 cards in a 4-up grid) gets centered
+   rather than stranded on the left. The 620px rule below re-centers it for the
+   2-up mobile grid. */
+.ugc-samples > .ugc-sample:last-child:nth-child(4n + 1) {
+  grid-column: 1 / -1;
+  justify-self: center;
+  max-width: calc(25% - 11px);
+}
 .ugc-sample {
   display: flex; flex-direction: column; overflow: hidden;
   background: var(--glass-bg-strong); border: 1px solid var(--line); border-radius: 12px;
