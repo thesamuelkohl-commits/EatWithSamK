@@ -262,7 +262,7 @@ const PLACES = [
     badges: ["best-drinks"],
     about: "GoodTimes is a full service bar in Wedgewood-Houston, a green building with GOODTIMES in red letters out front and \"all day, decent eats, strong drinks\" painted across the wall. Inside it's a retro room with red vinyl stools along the bar and a green checkerboard floor, and the kitchen keeps it simple with smash burgers and wings.",
     ate: "Six buffalo wings, the Fried Cheese Wedges, a Smash Burger, and fries.",
-    heroPhoto: "images/reviews/goodtimes-nashville/order-smash-burger.jpg",
+    heroPhoto: "images/reviews/goodtimes-nashville/order-buffalo-wings.jpg",
     photos: [
       { src: "images/reviews/goodtimes-nashville/storefront.jpg", alt: "GoodTimes in Wedgewood-Houston, a green building with GOODTIMES in red letters and a free parking lot out front" },
       { src: "images/reviews/goodtimes-nashville/interior-bar.jpg", alt: "The bar inside GoodTimes, with red vinyl stools, a green checkerboard floor and TVs over the bottles" },
