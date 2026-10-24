@@ -7,6 +7,18 @@
         {
           "type": "query",
           "key": "id",
+          "value": "best-sushi-nashville"
+        }
+      ],
+      "destination": "/guides/best-sushi-nashville/",
+      "permanent": true
+    },
+    {
+      "source": "/post.html",
+      "has": [
+        {
+          "type": "query",
+          "key": "id",
           "value": "best-sports-bars-nashville"
         }
       ],

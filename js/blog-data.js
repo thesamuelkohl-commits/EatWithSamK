@@ -40,6 +40,145 @@
 
 const BLOG_POSTS = [
   {
+    id: "best-sushi-nashville",
+    places: ["maru-weho-nashville", "horu-sushi-nashville"],
+    title: "Best Sushi in Nashville (2026 Updated Guide)",
+    city: "Nashville, TN",
+    date: "2026-10-24",
+    updated: "2026-10-24",
+    emoji: "🍣",
+    excerpt:
+      "Which Nashville sushi restaurants are actually worth your money? My own Sam Scores for Maru WeHo and Horu Sushi Kitchen, with more added as the series grows.",
+    faq: [
+      {
+        question: "What is the best sushi restaurant in Nashville?",
+        answer:
+          "Of the sushi spots Sam has personally reviewed, Maru WeHo is his highest rated at 9.2/10, with Horu Sushi Kitchen at 8.3/10. He's still working through the city's sushi restaurants, so the rankings will keep changing.",
+      },
+      {
+        question: "Where can I find affordable sushi in Nashville?",
+        answer:
+          "Both spots reviewed so far sit in the $15\u201330 range. Horu Sushi Kitchen inside Assembly Food Hall is the easier casual stop, while Maru WeHo is the one for a proper sit-down meal.",
+      },
+      {
+        question: "What's the best sushi restaurant in Nashville for date night?",
+        answer:
+          "Maru WeHo, at 9.2/10. It's a sleek, industrial-style room with a full sushi bar and a cocktail menu, and it's in Sam's date night guide for that reason.",
+      },
+      {
+        question: "Where can I get sushi downtown in Nashville?",
+        answer:
+          "Horu Sushi Kitchen, a counter inside Assembly Food Hall at Fifth + Broadway. It's quick, there's plenty of food hall seating, and it's rated 8.3/10.",
+      },
+      {
+        question: "How are the restaurants ranked?",
+        answer:
+          "Every restaurant gets a Sam Score based on Sam's own visit, weighing the food, value, atmosphere, service and whether he'd go back. Ratings aren't paid placements or aggregated customer reviews.",
+      },
+      {
+        question: "Are these reviews sponsored?",
+        answer:
+          "No. Sam pays for his own meals, and restaurants cannot buy a favorable review or a higher Sam Score.",
+      },
+    ],
+    content: `
+      <p>Looking for the best sushi in Nashville? Whether you want a classic roll, fresh nigiri, loaded specialty rolls or a proper sit-down dinner, there's more here than the city's hot chicken reputation suggests.</p>
+      <p>The hard part isn't finding somewhere that serves sushi. It's working out which places are actually worth the money.</p>
+      <p>I'm visiting Nashville's sushi restaurants and giving each one a Sam Score out of 10 based on my own experience. I pay for my own meals, and no restaurant can pay for a better rating. This guide keeps growing as I get to more of them.</p>
+      <p><em>Tip: hover over any $ price tag below to see what it means.</em></p>
+
+      <h2>⭐ <a href="/reviews/maru-weho-nashville">Maru WeHo</a></h2>
+      <p><strong>Neighborhood:</strong> Wedgewood-Houston</p>
+      <p><strong>Sam Score:</strong> 9.2/10</p>
+      <p><strong>Best For:</strong> A sit-down sushi dinner or date night</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Maru is a Nashville sushi group with several locations, and this one is in Wedgewood-Houston just south of downtown: a sleek, industrial-style room with a full sushi bar, specialty rolls and a cocktail menu.</p>
+      <p>I got the Pink Lady, Tiger and Dynamite rolls. Service was fast, there's free and paid parking nearby, and the bar makes it work for a date night or a business lunch. It's my highest rated sushi spot in the city. <a href="/reviews/maru-weho-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/maru-weho-nashville">Read my full Maru WeHo review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/maru-weho-nashville/order.jpg" alt="Sam's order: Pink Lady, Tiger, and Dynamite rolls, Maru WeHo" loading="lazy" /></div>
+
+      <h2>⭐ <a href="/reviews/horu-sushi-nashville">Horu Sushi Kitchen</a></h2>
+      <p><strong>Neighborhood:</strong> Assembly Food Hall (Fifth + Broadway)</p>
+      <p><strong>Sam Score:</strong> 8.3/10</p>
+      <p><strong>Best For:</strong> Quick sushi downtown, with a group or with kids</p>
+      <p><strong>Price:</strong> <span class="price-tag has-tooltip" data-tooltip="$15–30, Casual dining, local favorites, most restaurants" aria-label="$15–30, Casual dining, local favorites, most restaurants" tabindex="0">$$</span></p>
+      <p>Horu is a sushi counter inside Assembly Food Hall at Fifth + Broadway, under a blue neon sign, with rolls made to order and handed over on a tray.</p>
+      <p>I got the Tempura Predators Roll, the Crunchy Spicy Tuna Roll and the Seafood Volcano Roll. Seating is the food hall's own so there's plenty of it, which makes it easy with a group or with kids. It does get busy, and downtown parking is paid. <a href="/reviews/horu-sushi-nashville">Read Sam's full review →</a></p>
+      <p>⭐ <strong>Personally Reviewed by Eat With Sam K</strong> · <a href="/reviews/horu-sushi-nashville">Read my full Horu Sushi review →</a></p>
+      <div class="own-photo"><img src="/images/reviews/horu-sushi-nashville/order-seafood-volcano-roll.jpg" alt="Sam's order: the Seafood Volcano Roll topped with baked spicy seafood and eel sauce" loading="lazy" /></div>
+
+      <h2>🏆 My Sam Score Rankings</h2>
+      <p>Only restaurants I've personally visited and reviewed are eligible. It updates automatically each time I add a review.</p>
+      <!-- sam-score-leaderboard -->
+
+      <h2>More Nashville Sushi on My Watchlist</h2>
+      <p>There's plenty of Nashville sushi I haven't got to yet, from neighborhood spots to more upscale Japanese dining. I'd rather leave this section short than pad it with places I haven't eaten at, so it fills in as I go.</p>
+      <p>Got a sushi restaurant that deserves a visit? Send me a DM at <a href="https://www.instagram.com/eatwithsamk" target="_blank" rel="noopener">@eatwithsamk</a> and I'll add it to the list.</p>
+
+      <h2>Best Sushi in Nashville by Occasion</h2>
+      <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th>Looking For</th><th>Try</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>⭐ Highest Sam Score</td><td>Maru WeHo, 9.2</td></tr>
+          <tr><td>❤️ Date Night</td><td>Maru WeHo, 9.2</td></tr>
+          <tr><td>🍸 Sushi and Cocktails</td><td>Maru WeHo, 9.2</td></tr>
+          <tr><td>📍 Quick, Downtown</td><td>Horu Sushi Kitchen, 8.3</td></tr>
+          <tr><td>👨‍👩‍👧 With Kids or a Group</td><td>Horu Sushi Kitchen, 8.3</td></tr>
+        </tbody>
+      </table>
+      </div>
+
+      <h2>What Makes a Great Sushi Restaurant?</h2>
+      <p>Sushi is one of the harder things to compare, because restaurants are chasing different experiences. Some are built around traditional nigiri and sashimi, others around creative specialty rolls and sauces.</p>
+      <ul>
+        <li>🐟 <strong>Freshness and quality:</strong> the taste and texture of the fish, and whether everything feels carefully prepared.</li>
+        <li>😋 <strong>Flavor:</strong> a roll should taste as good as it looks, with the toppings complementing the fish instead of burying it.</li>
+        <li>💰 <strong>Portion size and value:</strong> sushi adds up fast, so the quality and quantity have to justify the bill.</li>
+        <li>🏠 <strong>Atmosphere and service:</strong> a quick lunch and a date night are different jobs, and the room matters.</li>
+        <li>🔄 <strong>Would I order it again:</strong> the one that counts. Would I spend my own money to go back?</li>
+      </ul>
+
+      <h2>Is Nashville a Good City for Sushi?</h2>
+      <p>Nashville is better known for hot chicken, barbecue and Southern food, but the restaurant scene is wider than that. Sushi here runs from casual neighborhood spots and food hall counters to higher-end Japanese dining.</p>
+      <p>Again, the challenge isn't finding sushi. It's working out which places deliver for the price, which is what these rankings are for.</p>
+
+      <h2>Frequently Asked Questions</h2>
+      <p><strong>What is the best sushi restaurant in Nashville?</strong></p>
+      <p>Of the sushi spots I've personally reviewed, Maru WeHo is my highest rated at 9.2/10, with Horu Sushi Kitchen at 8.3/10. I'm still working through the city's sushi restaurants, so the rankings will keep changing.</p>
+      <p><strong>Where can I find affordable sushi in Nashville?</strong></p>
+      <p>Both spots I've reviewed so far sit in the $15–30 range. Horu Sushi Kitchen inside Assembly Food Hall is the easier casual stop, while Maru WeHo is the one for a proper sit-down meal.</p>
+      <p><strong>What's the best sushi restaurant in Nashville for date night?</strong></p>
+      <p>Maru WeHo, at 9.2/10. It's a sleek room with a full sushi bar and a cocktail menu, and it's in my <a href="/guides/best-date-night-restaurants-nashville/">date night guide</a> for that reason.</p>
+      <p><strong>Where can I get sushi downtown in Nashville?</strong></p>
+      <p>Horu Sushi Kitchen, a counter inside Assembly Food Hall at Fifth + Broadway. It's quick, there's plenty of food hall seating, and it's rated 8.3/10.</p>
+      <p><strong>How are the restaurants ranked?</strong></p>
+      <p>Every restaurant gets a Sam Score based on my own visit, weighing the food, value, atmosphere, service and whether I'd go back. Ratings aren't paid placements or aggregated customer reviews.</p>
+      <p><strong>Are these reviews sponsored?</strong></p>
+      <p>No. I pay for my own meals, and restaurants cannot buy a favorable review or a higher Sam Score.</p>
+
+      <h2>The Sam Score</h2>
+      <p>Every sushi spot that receives a Sam Score has been personally visited and reviewed by me, with freshness, flavor, value, atmosphere and service all factoring in.</p>
+      <p>Restaurants cannot pay for a Sam Score or a better rating. The goal is simple: eat the food myself and tell you whether it's worth your money.</p>
+
+      <h2>More Nashville Food Guides</h2>
+      <p>Looking for more places to eat? Check out these guides on Eat With Sam K:</p>
+      <ul>
+        <li><a href="/guides/best-date-night-restaurants-nashville/">Best Date Night Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-new-restaurants-nashville/">Best New Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-italian-restaurants-nashville/">Best Italian Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-mexican-restaurants-nashville/">Best Mexican Restaurants in Nashville</a></li>
+        <li><a href="/guides/best-tacos-nashville/">Best Tacos in Nashville</a></li>
+        <li><a href="/guides/best-burgers-nashville/">Best Burgers in Nashville</a></li>
+        <li><a href="/guides/best-pizza-nashville/">Best Pizza in Nashville</a></li>
+        <li><a href="/guides/best-steakhouses-nashville/">Best Steakhouses in Nashville</a></li>
+        <li><a href="/guides/best-restaurants-near-broadway-nashville/">Best Restaurants Near Broadway</a></li>
+      </ul>
+    `,
+  },
+  {
     id: "best-sports-bars-nashville",
     title: "Best Sports Bars in Nashville (2026 Updated Guide)",
     city: "Nashville, TN",
