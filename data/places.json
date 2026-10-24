@@ -1,6 +1,120 @@
 {
-  "generatedAt": "2026-10-20T04:31:53.455Z",
+  "generatedAt": "2026-10-24T22:33:04.279Z",
   "places": [
+    {
+      "id": "goodtimes-nashville",
+      "name": "GoodTimes Full Service Bar",
+      "city": "Nashville, TN",
+      "lat": 36.1371629,
+      "lng": -86.7613919,
+      "address": "1529 4th Ave S, Nashville, TN 37210",
+      "phone": "(615) 942-6046",
+      "parking": "Free parking",
+      "website": "https://goodtimes615.com/",
+      "date": "2026-10-14",
+      "price": "$$",
+      "cuisine": "Bar & Grill",
+      "badges": [
+        "best-drinks"
+      ],
+      "about": "GoodTimes is a full service bar in Wedgewood-Houston, a green building with GOODTIMES in red letters out front and \"all day, decent eats, strong drinks\" painted across the wall. Inside it's a retro room with red vinyl stools along the bar and a green checkerboard floor, and the kitchen keeps it simple with smash burgers and wings.",
+      "ate": "Six buffalo wings, the Fried Cheese Wedges, a Smash Burger, and fries.",
+      "heroPhoto": "images/reviews/goodtimes-nashville/order-smash-burger.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/goodtimes-nashville/storefront.jpg",
+          "alt": "GoodTimes in Wedgewood-Houston, a green building with GOODTIMES in red letters and a free parking lot out front"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/goodtimes-nashville/interior-bar.jpg",
+          "alt": "The bar inside GoodTimes, with red vinyl stools, a green checkerboard floor and TVs over the bottles"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/goodtimes-nashville/order-buffalo-wings.jpg",
+          "alt": "Sam's order: six buffalo wings in a checkered paper basket"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/goodtimes-nashville/order-fried-cheese-wedges.jpg",
+          "alt": "Sam's order: Fried Cheese Wedges pulling apart, with a cup of marinara"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/goodtimes-nashville/order-smash-burger.jpg",
+          "alt": "Sam's order: the Smash Burger under a melted slice of American cheese on a toasted bun"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/goodtimes-nashville/order-fries.jpg",
+          "alt": "Sam's order: a basket of seasoned fries with ketchup"
+        }
+      ],
+      "pros": [
+        "Cool vibes",
+        "Good drinks"
+      ],
+      "cons": [
+        "Slow if you have a big party"
+      ],
+      "rating": 8.4,
+      "video": "https://www.instagram.com/reel/DepoQQxM9lM/",
+      "tags": [
+        "Bar & Grill",
+        "Wedgewood-Houston"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/goodtimes-nashville"
+    },
+    {
+      "id": "little-hats-nashville",
+      "name": "Little Hats Italian Market",
+      "city": "Nashville, TN",
+      "lat": 36.1757783,
+      "lng": -86.7867283,
+      "address": "1120 4th Ave N, Suite 101A, Nashville, TN 37208",
+      "parking": "Free 90-minute parking",
+      "website": "https://littlehatsmarket.com/",
+      "date": "2026-10-11",
+      "price": "$$",
+      "cuisine": "Italian",
+      "badges": [
+        "best-patio",
+        "family-friendly"
+      ],
+      "about": "Little Hats is an Italian market and deli in Germantown, behind a green door on 4th Avenue North. Inside it's shelves of imported Italian goods around a long counter-service dining room, with sandwiches and pasta made to order and patio tables out front in the middle of the neighborhood's shops.",
+      "ate": "The Crispy Ravioli, the Meatball Parmesan, and the Bolognese & Rigatoni.",
+      "heroPhoto": "images/reviews/little-hats-nashville/order-meatball-parmesan.jpg",
+      "photos": [
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/little-hats-nashville/storefront.jpg",
+          "alt": "The green door at Little Hats Italian Market in Germantown, with the logo on the glass and Suite 101A above it"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/little-hats-nashville/interior.jpg",
+          "alt": "Inside Little Hats, a narrow dining room with white chairs, string lights and shelves of Italian imports along the wall"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/little-hats-nashville/order-crispy-ravioli.jpg",
+          "alt": "Sam's order: Crispy Ravioli dusted with parmesan and parsley, with a cup of marinara"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/little-hats-nashville/order-meatball-parmesan.jpg",
+          "alt": "Sam's order: the Meatball Parmesan sub, meatballs under melted cheese and marinara on a toasted roll"
+        },
+        {
+          "src": "https://www.eatwithsamk.com/images/reviews/little-hats-nashville/order-bolognese-rigatoni.jpg",
+          "alt": "Sam's order: Bolognese & Rigatoni under a pile of shaved parmesan and basil"
+        }
+      ],
+      "pros": [
+        "Cool area",
+        "Nice patio",
+        "In the middle of the shopping area"
+      ],
+      "cons": [],
+      "rating": 8.3,
+      "tags": [
+        "Italian",
+        "Germantown"
+      ],
+      "url": "https://www.eatwithsamk.com/reviews/little-hats-nashville"
+    },
     {
       "id": "horu-sushi-nashville",
       "name": "Horu Sushi Kitchen",
